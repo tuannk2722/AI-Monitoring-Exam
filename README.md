@@ -83,7 +83,7 @@ Chỉ commit `.dvc/config` và pointer `.dvc`; authentication cục bộ nằm n
 ```bash
 git switch -c data/12-canonical-dataset
 dvc pull
-python -m ai_exam_monitoring.data.audit --dataset data/raw/scb --output artifacts/reports/scb-audit.json
+python -m ai_exam_monitoring.data.audit --dataset data/raw/scb --images images --labels labels --source-names source-names.json --output artifacts/reports/scb-audit.json
 python -m ai_exam_monitoring.data.build_dataset --config configs/datasets/exam_v0.1.yaml
 python -m unittest discover -s tests -v
 ```
@@ -94,6 +94,34 @@ Training chỉ được chạy khi `dataset_version`, `split_version`, config v�
 python -m ai_exam_monitoring.training.train --config configs/baseline.yaml --experiment-id E001 --owner member-b
 python -m ai_exam_monitoring.evaluation.evaluate --config configs/baseline.yaml --experiment-id E001
 ```
+
+## Audit nguồn và ảnh mẫu bbox (CPU)
+
+Chỉ định cấu trúc đã xác minh: `--images` và `--labels` là thư mục tương đối dưới `--dataset`. `images/a/x.jpg` ghép với `labels/a/x.txt`, không ghép với `labels/b/x.txt`. Với nguồn `train/images` + `train/labels`, truyền đúng hai đường dẫn đó; báo cáo chỉ bao phủ subtree đã chọn, không kiểm tra chéo các split khác. Không tự đoán cấu trúc SCB5/Roboflow.
+
+Cung cấp `source-names.json` dạng `{"0": "tên lớp nguồn đã xác minh", "7": "tên lớp nguồn khác"}`; đây là ID → tên của nguồn, **không phải mapping canonical**. Có thể dùng YAML với trường `names` là mapping ID → tên (như `dataset.yaml` do builder xuất). Không tự suy ra tên hay ID từ thứ tự một danh sách.
+
+```bash
+python -m ai_exam_monitoring.data.validate_labels --labels data/raw/<source>/labels --class-ids 0,7
+python -m ai_exam_monitoring.data.audit --dataset data/raw/<source> --images images --labels labels --source-names source-names.json --output artifacts/reports/source-audit.json
+python -m ai_exam_monitoring.data.overlay --dataset data/raw/<source> --images images --labels labels --source-names source-names.json --output-dir outputs/source-overlays-v1 --limit 20
+```
+
+ID `0,7` chỉ minh họa cách truyền tham số; phải thay bằng ID thật từ nguồn. Tên ngoài ASCII cần `--font <font.ttf>` có đủ glyph (Windows ví dụ `C:/Windows/Fonts/arial.ttf`). Output phải nằm ngoài nguồn và `data/raw`; thư mục overlay phải mới hoặc rỗng. Mỗi ảnh có bbox, ID và bảng tên nhãn; `manifest.json` truy ngược ảnh/nhãn và `audit.json` liệt kê các cặp bị loại.
+
+Chạy thử bằng fixture phần mềm tự sinh, không chứa người thật:
+
+```bash
+python tests/fixtures/make_audit_fixture.py --output outputs/audit-fixture
+python -m ai_exam_monitoring.data.audit --dataset outputs/audit-fixture --images images --labels labels --source-names outputs/audit-fixture/source-names.json --output outputs/audit-fixture-report.json
+python -m ai_exam_monitoring.data.overlay --dataset outputs/audit-fixture --images images --labels labels --source-names outputs/audit-fixture/source-names.json --output-dir outputs/audit-fixture-overlays --limit 2
+```
+
+Thêm `--broken` khi tạo fixture ở thư mục mới để kiểm tra các lỗi đã biết. Fixture chỉ kiểm chứng phần mềm, không phải dataset được accepted hay bằng chứng chất lượng model.
+
+Audit tự động: thiếu/orphan, ghép mơ hồ, decode ảnh, cú pháp/bbox/class ID, nhãn rỗng, phân bố lớp, kích thước bbox và nhóm SHA-256 trùng byte. `README*.txt`/`classes.txt` là metadata, không tính là label. Không có label file là lỗi; file label rỗng hợp lệ về cấu trúc nhưng phải xem ảnh để xác nhận ngữ nghĩa.
+
+Chưa kiểm tra gần trùng, group/split leakage, license/consent hoặc ngữ nghĩa nhãn. Owner cần xem độ khớp bbox, annotation unit, nhãn sai/thiếu và mapping đề xuất. Overlay lấy tối đa N cặp hợp lệ theo đường dẫn, **không phải mẫu phân tầng/đại diện**. Exit code: 0 = các kiểm tra đã thực hiện pass, 1 = có lỗi audit (report vẫn được ghi; overlay vẫn xuất các cặp hợp lệ), 2 = đầu vào/output không hợp lệ. Pass không phê duyệt dataset. Contract chi tiết: [source-audit.md](docs/data/source-audit.md).
 
 ## Những gì repository này không giả vờ đã có
 

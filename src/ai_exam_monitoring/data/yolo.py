@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from math import isfinite
 from pathlib import Path
 
 from ai_exam_monitoring.common.errors import DataContractError
@@ -18,6 +19,8 @@ class YoloAnnotation:
         if self.class_id < 0:
             raise DataContractError("YOLO class_id must be non-negative")
         values = (self.x_center, self.y_center, self.width, self.height)
+        if not all(isfinite(value) for value in values):
+            raise DataContractError(f"YOLO coordinates must be finite: {values}")
         if any(value < 0 or value > 1 for value in values):
             raise DataContractError(f"YOLO coordinates must be within [0, 1]: {values}")
         if self.width <= 0 or self.height <= 0:
@@ -44,14 +47,19 @@ class YoloAnnotation:
         )
 
 
-def read_yolo_file(path: str | Path) -> list[YoloAnnotation]:
+def read_yolo_file(
+    path: str | Path, allowed_class_ids: set[int] | None = None,
+) -> list[YoloAnnotation]:
     label_path = Path(path)
     annotations: list[YoloAnnotation] = []
     for line_number, line in enumerate(label_path.read_text(encoding="utf-8").splitlines(), 1):
         if not line.strip():
             continue
         try:
-            annotations.append(YoloAnnotation.parse(line))
+            annotation = YoloAnnotation.parse(line)
+            if allowed_class_ids is not None and annotation.class_id not in allowed_class_ids:
+                raise DataContractError(f"Unknown source class ID: {annotation.class_id}")
+            annotations.append(annotation)
         except DataContractError as exc:
             raise DataContractError(f"{label_path}:{line_number}: {exc}") from exc
     return annotations

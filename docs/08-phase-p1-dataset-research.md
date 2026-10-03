@@ -18,8 +18,10 @@ P1 là điều kiện bắt buộc trước khi training chính thức. Các ngu
 Tạo một card từ `templates/dataset-candidate-template.md`, sau đó chạy:
 
 ```bash
-python -m ai_exam_monitoring.data.audit --dataset data/raw/<source> --output artifacts/reports/<source>-audit.json
+python -m ai_exam_monitoring.data.audit --dataset data/raw/<source> --images images --labels labels --source-names source-names.json --output artifacts/reports/<source>-audit.json
 ```
+
+Thay `images`, `labels` bằng subtree thực tế đã xác minh; cung cấp bảng ID/tên nguồn tường minh. Xem [contract audit](data/source-audit.md) và lệnh overlay trong README.
 
 Output tự động là bằng chứng, không phải toàn bộ audit. Reviewer cần kiểm tra trực quan các mẫu phân tầng (stratified samples) và overlay. Không bao giờ suy ra group ID chỉ từ tên frame ngẫu nhiên nếu metadata video/session gốc có thể khôi phục được.
 

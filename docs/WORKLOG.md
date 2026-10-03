@@ -40,3 +40,17 @@ Test hồi quy: ignored/untracked không gây lỗi; force-add và file tracked 
 2. **TBD-P0-DVC — owner:** cài DVC; cung cấp folder Drive restricted và authentication local; push fixture nhỏ không nhạy cảm, clone đúng commit với cache rỗng, pull và so SHA-256 theo docs 22. Chưa chạy push/pull; không được đóng P0.
 3. Remote Git origin đã cấu hình; GitHub Actions thực tế, branch protection và lịch sử secret/binary chưa được xác minh trong phiên này. Owner kiểm tra trước đóng P0.
 4. Sau các gate P0, tiếp tục P1 audit nguồn/license/provenance; dataset/model vẫn chưa chính thức.
+
+
+## S1 — 2026-10-03
+
+Owner/người chốt: chủ repository; Codex triển khai/review kỹ thuật. Hoàn thành công cụ kiểm tra bằng fixture CPU; **chưa audit/accepted dataset thật**, P0 vẫn chưa đóng.
+
+- Đã đọc: AGENTS, index; docs 01/02/04/08/09/19/21/23/25; ADR-002/003; bốn data specs hiện có; mã data, README, pyproject, DVC pipeline. Phát hiện validator trả pass cho thư mục thiếu, NaN lọt parser, audit ghép global stem và tính metadata là label.
+- Sửa `data/yolo.py`, `validate_labels.py`, `audit.py`; thêm `source_layout.py`, `overlay.py`. Từ chối NaN/Infinity/bbox/class ID lỗi; phân biệt thiếu label với label rỗng. Ghép đường dẫn tương đối rõ ràng; báo thiếu/hỏng/ambiguous, phân bố lớp, kích thước bbox, nhóm trùng SHA-256. Overlay ID/tên nguồn có manifest; source không bị sửa.
+- Thêm `tests/fixtures/make_audit_fixture.py` và `tests/test_data_audit.py` (15 test mới); fixture sinh trong temp/outputs, chỉ kiểm chứng phần mềm, không là dữ liệu/model evidence. Cập nhật README, docs 08/index, `docs/data/source-audit.md`, tham số DVC audit.
+- Validation dùng `.venv/Scripts/python.exe`: **34 tests PASS**, Ruff PASS, compileall `src tests scripts` PASS, checker `--require-git` PASS, `git diff --check` PASS. Đã rà diff; DVC YAML parse được, chưa chạy DVC pipeline.
+- CLI thực tế: fixture hợp lệ audit exit 0, validator exit 0, overlay exit 0 với 2 PNG; đã mở ảnh và thấy bbox/ID/tên đúng vị trí. Fixture lỗi audit exit 1 với missing/orphan, 1 ảnh hỏng, 2 label lỗi và 1 nhóm exact duplicate; validator exit 1 cho NaN/class lạ. Validator thư mục không tồn tại exit 1.
+- Artifact local ignored: `outputs/s1-valid-report.json`, `outputs/s1-broken-report.json`, `outputs/s1-overlays/{0001.png,0002.png,manifest.json,audit.json}`; tái tạo theo README bằng thư mục output mới.
+- Impact: report audit schema v2 thay v1 global-stem; overlay manifest v1. Không thay ADR, label/mapping/split, group_id, config acceptance hoặc experiment/model. Near-duplicate, leakage và ngữ nghĩa chưa được kiểm tra; báo cáo ghi rõ human review. Overlay đầu N theo đường dẫn không là mẫu phân tầng.
+- Tiếp theo: owner cung cấp cấu trúc và bảng ID/tên nguồn xác minh cùng provenance/license để audit một mẫu nguồn thật; xem ảnh theo lớp/điều kiện rồi ghi đề xuất mapping. Chưa suy ra canonical mapping. Blocker cài sạch/DVC push-pull của S0 vẫn giữ nguyên.

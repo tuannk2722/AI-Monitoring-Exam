@@ -9,9 +9,12 @@ stages:
       - data/processed/exam
 
   audit_dataset:
-    cmd: python -m ai_exam_monitoring.data.audit --dataset data/processed/exam --output artifacts/reports/dataset-audit.json
+    cmd: >-
+      python -m ai_exam_monitoring.data.audit --dataset data/processed/exam
+      --images images --labels labels --source-names data/processed/exam/dataset.yaml
+      --output artifacts/reports/dataset-audit.json
     deps:
-      - src/ai_exam_monitoring/data/audit.py
+      - src/ai_exam_monitoring/data
       - data/processed/exam
     outs:
       - artifacts/reports/dataset-audit.json:

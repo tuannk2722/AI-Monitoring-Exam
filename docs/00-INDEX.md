@@ -34,6 +34,8 @@ Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
 | `24-non-functional-requirements.md` | Draft | NFR đo được; giá trị target TBD |
 | `25-interface-and-data-contracts.md` | Accepted | Schema Prediction/track/event/artifact |
 
+Công cụ audit nguồn (schema/report, giới hạn kiểm tra): [data/source-audit.md](data/source-audit.md).
+
 Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 ## Bản đồ đọc (Reading map)
