@@ -1,31 +1,21 @@
-# 06 — Cộng tác Nhóm và Git
+# 06 — Workflow solo và Git
 
-## Quyền sở hữu và bàn giao (Ownership & Handoff)
+## Trách nhiệm và review
 
-### Data Lead
+Chủ repository là owner và người chốt cho cả ba vai trò Data Lead, Model Lead, Pipeline Lead. Codex hỗ trợ triển khai/review; không tự phê duyệt dataset, label, split, metric hay model promotion. Reviewer trong docs/template là owner tự review có bằng chứng, có thể được Codex hỗ trợ; không yêu cầu người thứ hai.
 
-Chịu trách nhiệm: source audit, mapping, conversion, grouped split, QA và DVC data version. Bàn giao là contract `data/processed/exam/` cụ thể, không phải "dataset xong". Reviewer: Model Lead.
+- Data: source/license audit, mapping, conversion, grouped split, QA và DVC version; bàn giao dataset contract có phiên bản.
+- Model: config, experiment, metrics và model artifact/checksum có định danh.
+- Pipeline: inference/tracking/events và web đúng milestone; dùng model artifact theo ID.
 
-### Model Lead
+## Quy trình task
 
-Chịu trách nhiệm: config, training/evaluation, W&B/logs, metrics và model candidate. Bàn giao ghi rõ experiment/model artifact/checksum cụ thể. Reviewer: Pipeline Lead.
+Backlog → Ready → In Progress → Review → Blocked hoặc Done. GitHub Projects tùy chọn; có thể theo dõi bằng WORKLOG. Mỗi task có một owner, một mục tiêu, input/output, dependency và tiêu chí nghiệm thu.
 
-### Pipeline Lead
+Tạo branch từ `main`, ví dụ `infra/s0-foundation`. Trước merge: xem diff, chạy CI checks, ghi kết quả/giới hạn, owner tự review và chốt. Nếu dùng PR, ghi issue (nếu có), owner/người chốt, hỗ trợ review và data/experiment/privacy impact. Bảo vệ `main` bằng CI; không yêu cầu approval từ người thứ hai. Owner vẫn phải human review dữ liệu/model, license/consent, provenance, fixture, chống leakage và không tune trên test set.
 
-Chịu trách nhiệm: recorded inference, tracking, tích hợp event/risk, structured output và về sau là web. Sử dụng model artifact theo ID, không bao giờ dùng "some best.pt" tùy ý. Reviewer: Data Lead hoặc Model Lead.
+## Artifact và nhịp làm việc
 
-Tất cả thành viên phải tái tạo được smoke run và hiểu dataset/split/metrics.
+Thay đổi data/model: kiểm tra → version/pointer mới → `dvc add` → `dvc push` thành công → commit pointer/config/metrics → Git push/PR. Không sửa raw data hoặc công bố pointer chưa có artifact trên remote. Owner ghi quyết định review và vấn đề còn mở.
 
-## GitHub Projects
-
-Một board duy nhất: Backlog → Ready → In Progress → Review → Blocked → Done. Các trường: Assignee, Area (`Data/Model/Pipeline/Infra/Docs`), Priority (`P0/P1/P2`), Iteration. Mỗi issue chỉ có một owner chính; dependency và reviewer phải được ghi rõ ràng.
-
-Tạo branch từ `main`: `data/12-canonical-dataset`, `model/18-e001-baseline`, `pipeline/24-jsonl-inference`. PR gồm `Closes #N`, data/experiment/privacy impact và bước verification. Bảo vệ `main`; yêu cầu CI + một lượt review.
-
-## Thứ tự làm việc với artifact
-
-Với thay đổi data/model: chạy kiểm tra → `dvc add` output lớn cần thiết → `dvc push` thành công → commit pointer/config/metrics → Git push/PR. Thứ tự này tránh Git trỏ đến artifact chưa có trên remote.
-
-## Lịch họp hàng tuần
-
-Họp 30 phút để lên kế hoạch/review: chuyển task Ready, kiểm tra bàn giao, review hypothesis/kết quả/blocker của experiment. Cập nhật async: Yesterday/Today/Blocked. Không có task chỉ ghi "train model"; phải ghi rõ input, config, output và DoD (Definition of Done).
+Cập nhật WORKLOG với kết quả/blocker và bước tiếp theo. Task train phải có input, config, experiment, output và DoD. P0 chỉ hoàn tất khi clone/cài/check và DVC push/pull bằng cache sạch có bằng chứng.

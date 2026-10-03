@@ -13,7 +13,7 @@ Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
 | `03-system-architecture.md` | Accepted | Ranh giới hệ thống và hai formulation candidate |
 | `04-behavior-and-label-strategy.md` | Draft | Taxonomy candidate; đóng băng tại P1 |
 | `05-roadmap-and-timeline.md` | Accepted | P0–P9 entry/exit gate |
-| `06-team-collaboration-and-git.md` | Accepted | 3 vai trò, GitHub Projects, artifact handoff |
+| `06-team-collaboration-and-git.md` | Accepted | Workflow solo, owner tự review/chốt, artifact handoff |
 | `07-phase-p0-project-foundation.md` | Accepted | Foundation DoD |
 | `08-phase-p1-dataset-research.md` | Active | SCB5 + Roboflow audit |
 | `09-phase-p2-dataset-preparation.md` | Draft | DVC/canonical dataset |
@@ -33,6 +33,8 @@ Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
 | `23-testing-and-quality-strategy.md` | Accepted | Các tầng test/gate |
 | `24-non-functional-requirements.md` | Draft | NFR đo được; giá trị target TBD |
 | `25-interface-and-data-contracts.md` | Accepted | Schema Prediction/track/event/artifact |
+
+Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 ## Bản đồ đọc (Reading map)
 

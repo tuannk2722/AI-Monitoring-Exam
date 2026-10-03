@@ -20,7 +20,7 @@ raw sources -> audit/convert -> canonical processed dataset
               -> risk/evidence -> human review (P7)
 ```
 
-Ba owner chính:
+Chế độ solo: chủ repository đảm nhiệm cả ba vai trò và là người chốt; Codex hỗ trợ triển khai/review.
 
 | Vai trò | Contract bàn giao |
 |---|---|
@@ -35,32 +35,40 @@ Xem [docs/00-INDEX.md](docs/00-INDEX.md) trước khi làm task.
 Yêu cầu: Python 3.11 (khuyến nghị), Git. Máy local hiện chỉ cần chạy code, test và audit mẫu nhỏ; Colab Free dùng cho GPU training.
 
 ```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
+# Windows: py -3.11 -m venv .venv
+# Linux/macOS: python3.11 -m venv .venv
+# Windows PowerShell: .venv\Scripts\Activate.ps1
 # Linux/macOS: source .venv/bin/activate
 python -m pip install --upgrade pip
-pip install -r requirements/base.txt
-pip install -r requirements/dev.txt
+python -m pip install -r requirements/base.txt
+python -m pip install -r requirements/dev.txt
 ```
+
+Dự án hỗ trợ Python >=3.11,<3.13; CI dùng 3.11. Kiểm tra `python --version` sau activate. Nếu không activate được, dùng `.venv\Scripts\python.exe` thay `python` trong mọi lệnh.
 
 Cài ML/DVC khi cần:
 
 ```bash
-pip install -r requirements/ml.txt
-pip install -r requirements/dvc.txt
+python -m pip install -r requirements/ml.txt
+python -m pip install -r requirements/dvc.txt
 ```
 
 Kiểm tra repository:
 
 ```bash
 python -m unittest discover -s tests -v
-python -m compileall -q src tests
-python scripts/check_repo.py
+python -m compileall -q src tests scripts
+python -m ruff check src tests scripts
+python scripts/check_repo.py --require-git
 ```
+
+Checker dùng Git index, kể cả staged/force-added; bỏ qua file ignored/untracked. Stage file cần kiểm tra trước commit. Đây là kiểm tra đường dẫn theo policy, không phải secret scanner nội dung hoặc audit lịch sử Git.
+
+Bản ZIP: `python scripts/check_repo.py` chỉ kiểm tra cấu trúc và index tài liệu, cảnh báo tracking chưa xác minh; exit 0 nếu cấu trúc hợp lệ. `--require-git` trả lỗi khi thiếu `.git` và được CI sử dụng. Clone bằng Git hoặc khởi tạo Git rồi stage file dự định commit để kiểm tra tracking. Nếu `.git` tồn tại nhưng Git lỗi, checker luôn trả lỗi.
 
 ## DVC + Google Drive
 
-Người sở hữu Drive tạo folder và team cấu hình một lần (không commit credential):
+Owner tạo folder Drive restricted và cấu hình một lần (không commit credential):
 
 ```bash
 dvc init

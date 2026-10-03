@@ -1,7 +1,7 @@
 # TASK-ID — Tiêu đề Task
 
 - Status / area / priority / iteration:
-- Owner / reviewer:
+- Owner / người chốt (solo: cùng owner) / hỗ trợ review:
 - Dependencies / blocked by:
 
 ## Mục tiêu và bối cảnh

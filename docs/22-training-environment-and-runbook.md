@@ -10,7 +10,7 @@ Lưu ý: Colab local runtime không cung cấp GPU cloud.
 
 ## Thiết lập DVC một lần
 
-Cài `requirements/dvc.txt`; `dvc init`; owner tạo folder Drive restricted; thêm `gdrive://<folder-id>` làm default remote; commit `.dvc/config`, không bao giờ commit credential JSON/token. Test với folder nhỏ không nhạy cảm: Member A `dvc push`, Member B `git pull && dvc pull` trước khi đưa data thật vào.
+Cài `requirements/dvc.txt`; `dvc init`; owner tạo folder Drive restricted; thêm `gdrive://<folder-id>` làm default remote; commit `.dvc/config`, không bao giờ commit credential JSON/token. Test với folder nhỏ không nhạy cảm: owner `dvc push`, sau đó clone đúng commit sang thư mục khác với DVC cache mới rỗng (không dùng cache gốc/shared), chạy `dvc pull`, đối chiếu SHA-256; ghi commit/pointer/lệnh/checksum vào WORKLOG trước khi đưa data thật vào.
 
 ## Trước khi chạy experiment
 

@@ -5,3 +5,5 @@ Quy tắc canonical nằm trong `AGENTS.md` ở root. Với mỗi task, agent đ
 Agent được phép: triển khai script/test/docs/config đã được phân công. Agent không được: tự chọn data/class/split/model/metric/threshold/risk/scope, thay đổi raw data, upload media cá nhân, commit secret, hoặc coi notebook output là source of truth.
 
 Với code conversion/split/metric của dataset, yêu cầu reviewer và fixture. Strip notebook output chứa media/token/path. Nếu một quyết định còn thiếu, duy trì tiến độ trên các phần độc lập và tạo TBD chính xác thay vì bịa một con số trông hợp lý.
+
+Solo: reviewer/human review là owner tự review và ghi quyết định; Codex hỗ trợ, không thay owner phê duyệt. Áp dụng workflow 06; các gate dữ liệu, test set và chất lượng giữ nguyên.

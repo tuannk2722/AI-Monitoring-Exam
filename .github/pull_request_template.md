@@ -1,6 +1,8 @@
 ## Mục tiêu / Issue liên quan
 
-Closes #
+Owner / người chốt (solo: cùng owner):
+Codex hỗ trợ review (nếu có):
+Issue liên quan (nếu có):
 
 ## Thay đổi
 
@@ -22,7 +24,7 @@ Closes #
 
 ## Rủi ro, rollback và limitations đã biết
 
-## Checklist cho Reviewer
+## Checklist cho owner tự review (Codex có thể hỗ trợ)
 
 - [ ] Đã đọc source-of-truth docs/ADR liên quan
 - [ ] Không tune trên test set

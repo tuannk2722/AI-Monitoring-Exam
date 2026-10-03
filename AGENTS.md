@@ -32,7 +32,7 @@ Nếu thiếu quyết định, thêm `TBD` có owner, lý do và điều kiện 
 - Không commit ảnh/video/model/checkpoint/credential/notebook output lớn.
 - Không đưa tên/mã sinh viên thật vào filename/manifest.
 - Không log ảnh/video người thật lên W&B nếu policy chưa cho phép.
-- Mọi dataset mutation phải tạo version/pointer mới và có reviewer.
+- Mọi dataset mutation phải tạo version/pointer mới và có owner review được ghi lại; Codex hỗ trợ, không yêu cầu người thứ hai.
 
 ## Experiment contract
 
@@ -45,7 +45,7 @@ Mỗi run phải có: experiment ID, owner, hypothesis, Git commit, dataset/spli
 - Core modules không phụ thuộc web framework.
 - Dùng structured schemas thay dict không định nghĩa cho prediction/track/event.
 - Không tạo mock metric/model prediction trong production path.
-- Mỗi PR có một owner, reviewer và một mục tiêu chính.
+- Mỗi PR có một owner và một mục tiêu chính. Solo: owner tự review/chốt, Codex hỗ trợ; ghi bằng chứng kiểm tra, không yêu cầu người thứ hai.
 
 ## Before/after
 

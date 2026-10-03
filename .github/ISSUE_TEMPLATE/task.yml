@@ -29,6 +29,6 @@ body:
   - type: input
     id: reviewer
     attributes:
-      label: Reviewer
+      label: Owner tự review / người chốt (Codex hỗ trợ nếu có)
     validations:
       required: true
