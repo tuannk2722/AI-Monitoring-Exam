@@ -1,0 +1,36 @@
+schema_version: 1
+dataset_version: dataset-v0.1
+split_version: split-v0.1
+label_map_version: label-map-v0.1
+output_dir: data/processed/exam
+seed: 42
+split_ratios:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+split_group_priority:
+  - source
+  - room_id
+  - session_id
+  - video_id
+sources:
+  - id: scb5
+    root: data/raw/scb5
+    converter: scb
+    status: pending_audit
+  - id: roboflow_exam
+    root: data/raw/roboflow_exam
+    converter: roboflow_yolo
+    status: pending_audit
+canonical_labels:
+  - id: 0
+    name: normal
+  - id: 1
+    name: looking_around
+  - id: 2
+    name: phone_use
+label_mapping:
+  # Fill only after inspecting exact source labels. Unknown labels fail closed.
+  scb5: {}
+  roboflow_exam: {}
+copy_mode: copy

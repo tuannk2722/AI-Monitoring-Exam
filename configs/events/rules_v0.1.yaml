@@ -1,0 +1,12 @@
+schema_version: 1
+version: event-rules-v0.1-draft
+status: draft
+rules:
+  looking_around:
+    minimum_duration_ms: TBD_BY_EVENT_DATA
+    minimum_observations: TBD_BY_EVENT_DATA
+    maximum_gap_ms: TBD_BY_EVENT_DATA
+  phone_use:
+    minimum_duration_ms: TBD_BY_EVENT_DATA
+    minimum_observations: TBD_BY_EVENT_DATA
+    maximum_gap_ms: TBD_BY_EVENT_DATA

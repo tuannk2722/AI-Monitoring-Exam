@@ -1,0 +1,43 @@
+schema_version: 1
+project:
+  name: ai-exam-monitoring
+
+experiment:
+  hypothesis: "Establish the first reproducible lightweight baseline after P1 approval."
+  seed: 42
+
+data:
+  dataset_yaml: data/processed/exam/dataset.yaml
+  dataset_version: dataset-v0.1
+  split_version: split-v0.1
+  label_map_version: label-map-v0.1
+
+model:
+  # Candidate only. Record exact package/weight license before first official run.
+  family: yolo
+  checkpoint: yolo11n.pt
+  task: detect
+  pretrained: true
+
+train:
+  epochs: 50
+  imgsz: 640
+  batch: 16
+  workers: 2
+  device: auto
+  patience: 20
+  save_period: 5
+
+validation:
+  split: val
+  confidence_threshold: 0.25
+  iou_threshold: 0.70
+
+logging:
+  backend: wandb
+  enabled: false
+  project: ai-exam-monitoring
+
+artifacts:
+  root: artifacts
+  keep_last_checkpoint: true

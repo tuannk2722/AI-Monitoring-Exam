@@ -1,0 +1,16 @@
+schema_version: 1
+version: label-map-v0.1-draft
+status: draft
+canonical:
+  0: normal
+  1: looking_around
+  2: phone_use
+aliases:
+  head_turn: looking_around
+prohibited_aliases:
+  - cheating
+  - cheater
+  - no_cheating
+notes:
+  - "Multi-label behavior is conceptually allowed; exact representation depends on P1 task formulation."
+  - "This draft must not be treated as a frozen training label map."

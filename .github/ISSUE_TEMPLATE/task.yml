@@ -1,0 +1,34 @@
+name: Task dự án
+description: Một task có thể review được với artifact contract tường minh
+title: "[AREA] "
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Mục tiêu
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Input và dependencies
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Deliverables (artifact cần bàn giao)
+    validations:
+      required: true
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of Done (Điều kiện hoàn thành)
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Reviewer
+    validations:
+      required: true

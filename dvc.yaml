@@ -1,0 +1,40 @@
+stages:
+  build_dataset:
+    cmd: python -m ai_exam_monitoring.data.build_dataset --config ${dataset.config}
+    deps:
+      - src/ai_exam_monitoring/data
+      - ${dataset.config}
+      - data/raw
+    outs:
+      - data/processed/exam
+
+  audit_dataset:
+    cmd: python -m ai_exam_monitoring.data.audit --dataset data/processed/exam --output artifacts/reports/dataset-audit.json
+    deps:
+      - src/ai_exam_monitoring/data/audit.py
+      - data/processed/exam
+    outs:
+      - artifacts/reports/dataset-audit.json:
+          cache: false
+
+  train:
+    cmd: python -m ai_exam_monitoring.training.train --config ${training.config} --experiment-id ${experiment.id} --owner ${experiment.owner}
+    deps:
+      - src/ai_exam_monitoring/training
+      - ${training.config}
+      - data/processed/exam
+    outs:
+      - artifacts/models/${experiment.id}
+    metrics:
+      - artifacts/metrics/${experiment.id}/metrics.json:
+          cache: false
+
+  evaluate:
+    cmd: python -m ai_exam_monitoring.evaluation.evaluate --config ${training.config} --experiment-id ${experiment.id}
+    deps:
+      - src/ai_exam_monitoring/evaluation
+      - artifacts/models/${experiment.id}
+      - data/processed/exam
+    metrics:
+      - artifacts/metrics/${experiment.id}/evaluation.json:
+          cache: false
