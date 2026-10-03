@@ -1,0 +1,78 @@
+{
+  "invalid_rows": 466,
+  "invalid_files": 412,
+  "valid_rows_even_in_invalid_files": {
+    "0": 13275,
+    "1": 23873,
+    "2": 9758
+  },
+  "reasons": {
+    "YOLO box exceeds horizontal image bounds": 301,
+    "YOLO box exceeds vertical image bounds": 161,
+    "YOLO width/height must be positive": 2,
+    "YOLO coordinates must be within [0, 1]: (1.0076094899817851, 0.24663527989821885, 0.12114896174863388, 0.14653605597964375)": 1,
+    "YOLO coordinates must be within [0, 1]: (1.1459170775347913, 0.43212592307692305, 0.11464695825049702, 0.1569173846153846)": 1
+  },
+  "overflow_min": 0,
+  "overflow_max": 0.26562643678160924,
+  "overflow_at_most_1e-12": 9,
+  "per_class_train_bbox_quantiles": {
+    "0": {
+      "scope": "valid train pairs",
+      "boxes": 9952,
+      "width_pixels_p10_p50_p90": [
+        69.00001727999998,
+        146.816715,
+        340.31217599999997
+      ],
+      "height_pixels_p10_p50_p90": [
+        97.99990360000002,
+        211.73704,
+        502.00018399999993
+      ],
+      "area_normalized_p10_p50_p90": [
+        0.00744977861146445,
+        0.031991137563412084,
+        0.12006657589223381
+      ]
+    },
+    "1": {
+      "scope": "valid train pairs",
+      "boxes": 15893,
+      "width_pixels_p10_p50_p90": [
+        46.0,
+        100.378,
+        283.900748
+      ],
+      "height_pixels_p10_p50_p90": [
+        50.933112,
+        122.76259,
+        327.6561700000001
+      ],
+      "area_normalized_p10_p50_p90": [
+        0.005826967203412622,
+        0.019044239106321696,
+        0.07564114491306671
+      ]
+    },
+    "2": {
+      "scope": "valid train pairs",
+      "boxes": 5787,
+      "width_pixels_p10_p50_p90": [
+        47.5,
+        93.99999999999997,
+        289.00007400000004
+      ],
+      "height_pixels_p10_p50_p90": [
+        41.00001472000001,
+        99.99989999999997,
+        301.99993200000006
+      ],
+      "area_normalized_p10_p50_p90": [
+        0.0055247452898942616,
+        0.017118739907407407,
+        0.07225220298672197
+      ]
+    }
+  }
+}

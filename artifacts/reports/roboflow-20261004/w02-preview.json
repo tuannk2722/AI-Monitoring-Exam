@@ -1,0 +1,21 @@
+{
+  "status": "geometry_preview_only_semantic_QA_pending",
+  "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+  "source_label": "train/labels/20220525_171742_jpg.rf.a0e7341937542f69dd48b4b086258c2d.txt",
+  "source_image": "train/images/20220525_171742_jpg.rf.a0e7341937542f69dd48b4b086258c2d.jpg",
+  "changed_lines": [
+    4
+  ],
+  "original_label_sha256": "9d7c013c0c8d34f443aef0c87fae5bd402f8a90996369a42208a359151d8f562",
+  "derived_label_sha256": "f856397834e59bc3d764152722c95fa2bae0335dadc96b30f52f1f6360c35a44",
+  "image_sha256": "1d183418311714abdccaaf793d81ebad46c1576133aa45c5b170fc3f5cfb6a4f",
+  "before": "0 0.9547836538461538 0.5697115384615384 0.09045673076923078 0.6394230769230769",
+  "after": "0 0.95477764423076916 0.56971153846153844 0.090444711538461564 0.63942307692307687",
+  "strict_geometry_pass": true,
+  "source_ids_preserved": true,
+  "W01_untouched": true,
+  "raw_untouched": true,
+  "dataset_accepted": false,
+  "output": "D:/ai-exam-monitoring-final/outputs/roboflow-owner-review-20261004-v1",
+  "script_sha256": "70d9bee2ad68332e8b3ca19e9e64aa98db07f3e68b89f79ebe93f65273f6ca9b"
+}

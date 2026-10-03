@@ -1,0 +1,12 @@
+{
+  "scope": "all ZIP images including files with invalid labels",
+  "images": 3407,
+  "unique_sha256": 3407,
+  "exact_groups": 0,
+  "extra_copies": 0,
+  "cross_split_groups": 0,
+  "scb_unique_sha256": 8116,
+  "cross_scb_hash_groups": 0,
+  "cross_scb_matching_hashes": [],
+  "near_duplicates_checked": false
+}

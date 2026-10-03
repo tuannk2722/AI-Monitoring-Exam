@@ -1,0 +1,146 @@
+[
+  {
+    "id": "R01",
+    "class_focus": 0,
+    "reason": "smallest_train_box",
+    "source_image": "train/images/20220525_171757_jpg.rf.3f68cfda0eecc474c9cac0dc78314062.jpg",
+    "source_label": "train/labels/20220525_171757_jpg.rf.3f68cfda0eecc474c9cac0dc78314062.txt",
+    "source_image_sha256": "ec7d8b7ccd05253981d52238f0bf60562b86ae290779547b5189d125f96e6791",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0001.png"
+  },
+  {
+    "id": "R02",
+    "class_focus": 0,
+    "reason": "median_train_box",
+    "source_image": "train/images/20220525_171702_jpg.rf.5ee86fcc5b2adfb9fe1a622e731c0f43.jpg",
+    "source_label": "train/labels/20220525_171702_jpg.rf.5ee86fcc5b2adfb9fe1a622e731c0f43.txt",
+    "source_image_sha256": "b61d4e7cc89e2b5c6acb1e8ba4c61f053af9f552d6008882515fec077855aea7",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0002.png"
+  },
+  {
+    "id": "R03",
+    "class_focus": 0,
+    "reason": "largest_train_box",
+    "source_image": "train/images/cheat902_jpg.rf.6ee8eb5add3f86cfec8f9dafa79424c9.jpg",
+    "source_label": "train/labels/cheat902_jpg.rf.6ee8eb5add3f86cfec8f9dafa79424c9.txt",
+    "source_image_sha256": "2e517dbc3a2fb770e9749335c9f84bc2bc692961d3822d50e82eae0f034632a7",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0003.png"
+  },
+  {
+    "id": "R04",
+    "class_focus": 1,
+    "reason": "smallest_train_box",
+    "source_image": "train/images/IMG_6292_jpg.rf.3860f984c7710f764eea617d074dce9e.jpg",
+    "source_label": "train/labels/IMG_6292_jpg.rf.3860f984c7710f764eea617d074dce9e.txt",
+    "source_image_sha256": "b4166f85a45f630cc23d1c1a824261845c2722596b0bfd0a2b8a071213799255",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0004.png"
+  },
+  {
+    "id": "R05",
+    "class_focus": 1,
+    "reason": "median_train_box",
+    "source_image": "train/images/good711_jpg.rf.1025137b80015ea1e8b53147a8d224da.jpg",
+    "source_label": "train/labels/good711_jpg.rf.1025137b80015ea1e8b53147a8d224da.txt",
+    "source_image_sha256": "9b387d2903aff77c4b8a84b6cfd8dce57b1a969be98361880e133b8385c9d455",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0005.png"
+  },
+  {
+    "id": "R06",
+    "class_focus": 1,
+    "reason": "largest_train_box",
+    "source_image": "train/images/good753_jpg.rf.c0665cc7e8d4b08dba242a580ffb2ec1.jpg",
+    "source_label": "train/labels/good753_jpg.rf.c0665cc7e8d4b08dba242a580ffb2ec1.txt",
+    "source_image_sha256": "c495913b0c52730ea03da3ed472a9795c2eddc335621fba5a41e66670d986a62",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0006.png"
+  },
+  {
+    "id": "R07",
+    "class_focus": 2,
+    "reason": "smallest_train_box",
+    "source_image": "train/images/IMG_6301_jpg.rf.663ebca69a33907d21384b4f4b093dc4.jpg",
+    "source_label": "train/labels/IMG_6301_jpg.rf.663ebca69a33907d21384b4f4b093dc4.txt",
+    "source_image_sha256": "94e076c43c15def23be04175bf8e143afe49940bcde36c8a358d270a710bf228",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0007.png"
+  },
+  {
+    "id": "R08",
+    "class_focus": 2,
+    "reason": "median_train_box",
+    "source_image": "train/images/20220620_122735-1-_jpg.rf.314d712f222144c6e8170c5ee9a6e909.jpg",
+    "source_label": "train/labels/20220620_122735-1-_jpg.rf.314d712f222144c6e8170c5ee9a6e909.txt",
+    "source_image_sha256": "fb9aa70466782281308431206d590033f2e05b2db98d28c06b462bbca4694ced",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0008.png"
+  },
+  {
+    "id": "R09",
+    "class_focus": 2,
+    "reason": "largest_train_box",
+    "source_image": "train/images/cheat599_jpg.rf.561281a1bc5fb58acc32cf6b737bcc28.jpg",
+    "source_label": "train/labels/cheat599_jpg.rf.561281a1bc5fb58acc32cf6b737bcc28.txt",
+    "source_image_sha256": "67dd7df2e504c7fdc5aa3c6cae8c9d970ffad687df8e59d0ce27d24a35974d16",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0009.png"
+  },
+  {
+    "id": "R10",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.jpg",
+    "source_label": "train/labels/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.txt",
+    "source_image_sha256": "8b313eb6ba3b7a2e254d08e18c97d9985a08f28856ab36320d93b950f652fbe7",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0010.png"
+  },
+  {
+    "id": "R11",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/2023-03-14-11-10-11_mp4-18_jpg.rf.a8e71deb13996b23dd74df7440d3dde0.jpg",
+    "source_label": "train/labels/2023-03-14-11-10-11_mp4-18_jpg.rf.a8e71deb13996b23dd74df7440d3dde0.txt",
+    "source_image_sha256": "0883d835a93deb129bc9a2317ef40f0f854244fb10779acde5966f652dff94e0",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0011.png"
+  },
+  {
+    "id": "R12",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/IMG_6353_jpg.rf.2a1d975bc0bff46406a62d74a335b8de.jpg",
+    "source_label": "train/labels/IMG_6353_jpg.rf.2a1d975bc0bff46406a62d74a335b8de.txt",
+    "source_image_sha256": "d3379a41f315c99d8b10167e2418a608118230f4db11b52ee318e4da2d02b0a3",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0012.png"
+  },
+  {
+    "id": "R13",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/IMG_6496_jpg.rf.08f78c74a0ffc1b52e825878011996c9.jpg",
+    "source_label": "train/labels/IMG_6496_jpg.rf.08f78c74a0ffc1b52e825878011996c9.txt",
+    "source_image_sha256": "f50fb6a86a5c0f85a4c7dc4d42d09ea3538d5983f0a45bfd8b7bddc1bdffca85",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0013.png"
+  },
+  {
+    "id": "R14",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/cheat522_jpg.rf.9e342d23989b7ede773448aefa037235.jpg",
+    "source_label": "train/labels/cheat522_jpg.rf.9e342d23989b7ede773448aefa037235.txt",
+    "source_image_sha256": "bb8aa13f4d4f5a76c4e4e819662dae2dc397a84838ea43b4a1dcb9c6b02dcaaa",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0014.png"
+  },
+  {
+    "id": "R15",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/cheat878_jpg.rf.76da1793eea510e51932b3128d1c0d70.jpg",
+    "source_label": "train/labels/cheat878_jpg.rf.76da1793eea510e51932b3128d1c0d70.txt",
+    "source_image_sha256": "11cfb162ae484c727494c2e4a18566e25b9b66c86ba7965277fd84b95c5c2e9e",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0015.png"
+  },
+  {
+    "id": "R16",
+    "class_focus": 2,
+    "reason": "phone_filename_spread_not_video_groups",
+    "source_image": "train/images/youtube-78_jpg.rf.83514da812dcfb00edd708ce0b10b6f9.jpg",
+    "source_label": "train/labels/youtube-78_jpg.rf.83514da812dcfb00edd708ce0b10b6f9.txt",
+    "source_image_sha256": "a3882c05370eb3af99f66268470719fe4ee04d9d56ae06a053d1cbcb7f4d2f68",
+    "overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0016.png"
+  }
+]

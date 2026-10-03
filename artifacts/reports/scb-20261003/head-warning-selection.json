@@ -1,0 +1,22 @@
+[
+  {
+    "label": "labels/train/10_002367.txt",
+    "line": 1,
+    "raw": "0 0.9645835937500001 0.5838895833333333 0.0708328125 0.19666666666666668",
+    "overflow_normalized": 2.220446049250313e-16,
+    "error": "YOLO box exceeds horizontal image bounds",
+    "source": "head",
+    "image": "images/train/10_002367.jpg",
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\warning-1.png"
+  },
+  {
+    "label": "labels/train/24_000659.txt",
+    "line": 1,
+    "raw": "1 0.1 0.817450495049505 0.22777777777777777 0.3650990099009901",
+    "overflow_normalized": 0.013888888888888881,
+    "error": "YOLO box exceeds horizontal image bounds",
+    "source": "head",
+    "image": "images/train/24_000659.jpg",
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\warning-2.png"
+  }
+]

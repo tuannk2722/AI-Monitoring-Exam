@@ -54,3 +54,60 @@ Owner/người chốt: chủ repository; Codex triển khai/review kỹ thuật.
 - Artifact local ignored: `outputs/s1-valid-report.json`, `outputs/s1-broken-report.json`, `outputs/s1-overlays/{0001.png,0002.png,manifest.json,audit.json}`; tái tạo theo README bằng thư mục output mới.
 - Impact: report audit schema v2 thay v1 global-stem; overlay manifest v1. Không thay ADR, label/mapping/split, group_id, config acceptance hoặc experiment/model. Near-duplicate, leakage và ngữ nghĩa chưa được kiểm tra; báo cáo ghi rõ human review. Overlay đầu N theo đường dẫn không là mẫu phân tầng.
 - Tiếp theo: owner cung cấp cấu trúc và bảng ID/tên nguồn xác minh cùng provenance/license để audit một mẫu nguồn thật; xem ảnh theo lớp/điều kiện rồi ghi đề xuất mapping. Chưa suy ra canonical mapping. Blocker cài sạch/DVC push-pull của S0 vẫn giữ nguyên.
+
+
+## SCB supplied audit — 2026-10-03
+
+- Goal: audit đúng 3 ZIP local owner cung cấp, không chọn release khác. Đã đọc lại AGENTS/index, template candidate, docs 03/04/08/09/21/25, data specs/source-audit, ADR-002/003 và audit/overlay/source layout code. Worktree sạch khi bắt đầu; không thay code/config/ADR, không sửa raw, build hoặc train.
+- Xác minh hash/bytes cả 3 archive với blob remote; quan sát HF HEAD nhưng trang pin commit không truy cập được. Định danh audit dùng SHA-256 ZIP, ghi hạn chế này trong provenance. Giải nén có kiểm path và CRC vào `outputs/scb-audit-20261003-v1/` mới.
+- Chạy công cụ audit chuẩn trên toàn bộ 10.138 ảnh + 10.138 label: không ảnh hỏng/thiếu cặp; 546 file có cảnh báo, 625 dòng bbox lỗi; 68.882 raw rows và 63.505 annotations từ file strict hợp lệ. Giữ nguyên validator, không clip/nới epsilon.
+- SHA-256 chéo archive: 8.116 ảnh bytes duy nhất; 1.892 nhóm duplicate, 2.022 bản dư; 961 nhóm chéo train/val. Không chạy near-duplicate; không suy ra group_id. Đã xem ví dụ cùng bytes HRW-val / Head-train nhưng bộ nhãn khác nhau.
+- Visual review: 18 sample theo class qua contact sheets + 4 preview + 6 warning + 2 duplicate overlays (30 lượt render, có thể dùng lại nguồn ảnh); chỉ là mẫu có chủ đích. Tạo checklist câu hỏi theo ảnh, không dùng ảnh để kết luận model quality.
+- Deliverables: 3 tài liệu candidate/audit/review trong `docs/data/candidates/`; JSON bằng chứng nhỏ trong `artifacts/reports/scb-20261003/`; báo cáo đầy đủ, scripts phiên audit và PNG local trong outputs ignored. Mục index và dataset-research đã liên kết.
+- Checks: 34 tests PASS; Ruff/compile/check_repo PASS; đã đối chiếu dữ liệu thực tế và rà diff. Audit orchestration exit 0 = chạy xong; cả 3 report has_errors=true, không phải data pass. Chưa DVC push/pull; P0 chưa đóng.
+- Decision đề xuất: giữ CANDIDATE, chưa chọn dataset training đầu tiên; thiếu phone_use/normal theo source, Discuss không cùng person unit, rights/group/QA chưa đóng; chưa đủ chứng cứ chốt A/B. Không thay config pending_audit.
+- Owner nói đã có tài liệu quyền/metadata nhưng sẽ cung cấp sau; chưa có đường dẫn/nội dung để xác minh. Các TBD và điều kiện qua P1 ghi trong candidate card.
+
+## Quyết định SCB và nguồn phone_use tạm — 2026-10-04
+
+- Đã truy cập project mới tại D:/ai-exam-monitoring-final. Đọc AGENTS/index, docs 04/08/21, template candidate, source-audit, candidate SCB, dataset-research, config dataset và worklog.
+- Owner loại Discuss, xác nhận quyền/metadata SCB đã phê duyệt; ghi cập nhật riêng trên candidate, giữ số liệu audit lịch sử. BowHead chỉ là đề xuất tín hiệu phụ, chưa đổi nhãn/rule. Metadata group từng file vẫn cần dữ liệu thực tế.
+- Owner cung cấp project Roboflow trn-quang-tip/exam-cheating-9iz1y-rrfsz và chốt audit v1. Tạo candidate card; website công bố 3.407 ảnh và 3 lớp, CC BY 4.0. Đây là thông tin web, chưa kiểm chứng archive.
+- Blocker thực tế: web browse/image/download Cache miss; shell mạng sandbox WinError 10013; sau khi cho phép truy cập mạng, API v1 trả HTTP 401 yêu cầu API key. Cần ZIP export YOLO v1 local từ owner; không yêu cầu gửi khóa.
+- Chưa chạy data audit/overlay/duplicate vì chưa có export; chưa xem ảnh bbox; chưa kết luận dataset dùng train được. Không build/train/accepted hoặc sửa config, raw, canonical mapping, split/ADR.
+- Kiểm tra tài liệu: git diff --check PASS; .venv/Scripts/python.exe scripts/check_repo.py --require-git PASS (0 failures). Không chạy lại unit tests vì chỉ sửa tài liệu. P0 DVC và P1 chưa đóng.
+- Thay đổi của lượt này: thêm candidate Roboflow; cập nhật candidate SCB, index, dataset-research và WORKLOG. Các thay đổi audit SCB có sẵn được giữ nguyên.
+- Tiếp theo: hash/inventory ZIP v1, xác minh ID từ data.yaml, audit split và duplicate chéo split/SCB, review ảnh train trước đề xuất mapping/subset.
+
+## Roboflow v1 owner ZIP audit — 2026-10-04
+
+- Đã đọc lại AGENTS, index, docs 04/08/21, template candidate, source-audit, candidate SCB/Roboflow, dataset-research, config dataset và audit/overlay/source-layout/YOLO code.
+- Đúng file owner gửi: `C:/Users/OS/Downloads/Exam cheating.v1i.yolov8.zip`, 98,747,246 bytes; SHA-256 `70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed`; CRC test pass, 6,826 ZIP entries. `data.yaml` xác nhận version 1, ID/tên 0 Looking around, 1 No cheating, 2 Phone use; README export ghi 3,407 ảnh.
+- Đã giải nén an toàn vào ignored `outputs/roboflow-v1-20261004/`. Audit công cụ hiện hành chạy trên 100% ảnh train/valid/test theo từng subtree: cặp đủ 3,407; 0 ảnh hỏng, missing/orphan/ambiguous, empty labels; 34 file label có bbox vượt biên (22 train, 11 valid, 1 test); không tự sửa dữ liệu. Phân bố từ file label hợp lệ: train 6558/1515/79; valid 1089/385/26; test 573/145/12 theo ID 0/1/2. Phone Use 117 annotation hợp lệ (~1.13% của tổng 10,382 annotations hợp lệ).
+- Exact SHA trong v1: 0 nhóm duplicate nội bộ/cross-split. Đối chiếu toàn bộ ảnh với 8,116 SHA unique trong archive SCB: 0 trùng chính xác. Near duplicate và group/session chưa xác minh.
+- Tạo 24 train overlays (8/lớp, selection theo đường dẫn, không đại diện) và warning contact sheet. Đã xem trực tiếp ba overlay cùng hai ví dụ cảnh báo. Ví dụ cho thấy lớp 0/1 box dày trong cảnh thi/semantics mơ hồ; ID2 gồm mẫu người cầm phone nhưng box cả người và một cảnh video nói chuyện ngoài thi. Không kết luận tỷ lệ sai toàn nguồn.
+- Deliverables: candidate card cập nhật, audit report mới, index/dataset-research/worklog. Raw archive không sửa; config/mapping/split/ADR/status acceptance/build/train không đổi. Candidate phone_use vẫn chưa accepted.
+- Kiểm tra tài liệu: `git diff --check` PASS. Không chạy test vì chỉ có audit dữ liệu và sửa docs/artifact; không có thay đổi code.
+- Giới hạn/chốt tiếp: báo cáo chưa đánh giá gần trùng, completeness/semantics toàn cục, consent/chain of rights hay group leakage. Owner xem các overlay và cảnh báo; hoàn tất duplicate chéo SCB trước đề xuất kết hợp; có metadata video/session nếu lấy được.
+
+## Hoàn thiện hồ sơ Roboflow v1 — 2026-10-04
+
+Bản ghi này thay thế kết luận thiếu chi tiết/mâu thuẫn ở lượt audit Roboflow trước; giữ các mục trước làm lịch sử. Owner yêu cầu mức đầy đủ như hồ sơ SCB, kèm diff riêng để review.
+
+- Đọc/đối chiếu AGENTS/index, docs 04/08 và template candidate, label spec, ADR-002/003, báo cáo/card/review SCB, source audit/overlay/YOLO và provenance/diagnostics. Snapshot trước task: outputs/reviews/roboflow-completion-before.json; không lẫn các thay đổi audit cũ vào diff của task.
+- Thêm scripts/audits/roboflow_v1.py để tái tạo có pin SHA, CRC, quét raw rows, dùng audit/overlay hiện có và check SHA cross-SCB. Lần này tái sử dụng 3 full-decode reports đã chạy, kiểm checksum và đối chiếu mọi label từ ZIP; không tuyên bố decode lại. Chỉ trích 16 cặp cho overlay; không giải nén lại toàn bộ ZIP. Output/evidence phải mới, không ghi đè input.
+- Số liệu sửa/hoàn thiện: 10,528 raw rows; 10,493 dòng geometry hợp lệ; 10,382 strict annotations. 35 dòng lỗi/34 file đều khoảng 0.005 pixel, khác đánh giá mơ hồ “bbox lỗi” trước đó. Phone use 120 raw/117 strict trên 98 raw/95 strict images; cả 120 phone rows đều geometry hợp lệ, 3 bị loại strict do lỗi ở lớp khác trong file. Train phone: 82 raw annotations trên 66 ảnh. Không thay epsilon/repair/mapping.
+- Đo resolution, bbox min/p10/p50/p90/max từng lớp; kiểm lại hash toàn ảnh từ 4 ZIP: 0 exact duplicates nội bộ RF/cross-split/cross-SCB. Chưa near duplicate; chưa group metadata, không suy group_id từ filename.
+- Đã xem 16 ảnh train hợp lệ + 2 ảnh warning; R01–R06 qua contact sheets, R07–R16/W01–W02 đầy đủ. Mixed unit Phone use xác nhận ở R07/R09/R12: điện thoại/tay và person; W01 có người cầm phone mang ID0. Không kết luận tỷ lệ lỗi toàn tập. 24 overlay cũ không bị gọi là 24 ảnh đã review.
+- Deliverables: 12 JSON nhỏ ở artifacts/reports/roboflow-20261004 (10 output script + visual-review + verification), script tái tạo, checklist review có link ảnh/câu hỏi; viết lại candidate/audit, đồng bộ index/dataset-research. Provenance ghi code/hash/env/command và reports reuse. Full reports/raw invalid rows/image hashes/PNG ở outputs ignored, không commit media.
+- Checks thực tế: 34 unittest PASS; Ruff PASS; compileall PASS sau khi cấp quyền ghi __pycache__ (lần sandbox đầu bị PermissionError); check_repo --require-git PASS; git diff --check PASS; 60 local links và tính nhất quán số liệu/hash PASS. Render final v2 giống bytes bản đã mở xem. Không chạy mode full-extract/decode lần nữa; lệnh tái tạo cả full/reuse được ghi rõ.
+- Kết luận: hoàn thiện bộ hồ sơ audit, nguồn vẫn CANDIDATE. Đề xuất review/relabel subset train; chưa đủ chốt A/B vì unit/negative semantics/grouping. Owner xem checklist và chốt unit/repair/mapping, không tự build/train/accepted. P0 DVC push/pull và P1 chưa đóng.
+
+## 2026-10-04 — Chốt owner review Roboflow
+
+- Đã giữ nguyên 18 câu trả lời, ghi [manifest](../artifacts/reports/roboflow-20261004/owner-decisions.json) và [ADR-011](decisions/ADR-011-person-unit-phone-definition.md). Owner làm rõ R12: phone cầm/tương tác hoặc trên bàn gắn được với người; chốt person unit và normal là absence đã review. Label spec draft v0.2; runtime config/mapping chưa đổi.
+- W02: preview version riêng, chỉ clip dòng 4; strict geometry pass, đã xem overlay. W01 vẫn cần relabel thủ công. Raw/ZIP và báo cáo gốc giữ nguyên. Decision queue không phải bộ nhãn đã sửa.
+- [Kiểm chứng](../artifacts/reports/roboflow-20261004/owner-review-verification.json): 36 tests PASS, Ruff/compile/repo checker/diff check PASS; 18 câu trả lời bảo toàn; hash preview/script/ảnh và 79 local links PASS trước khi thêm mục worklog này.
+- Chưa hoàn tất: manual relabel/completeness/quality cho subset, looking_around/co-occurrence, near-duplicate và session metadata, quyết định A/B/mapping/split. P1 chưa đạt; P0 DVC push/pull vẫn chưa kiểm chứng.
+- Tiếp: pilot person relabel theo policy mới trên train (66 ảnh Phone use raw cùng mẫu thiếu/sai đã phát hiện), giữ ignore ngoài train đến khi xử lý được, review batch rồi đánh giá khả thi A/B. Không cần owner trả lời lại checklist cũ.
+- Review thay đổi riêng lượt này: [diff](../outputs/reviews/roboflow-owner-review.diff), [danh sách file và Git status](../outputs/reviews/roboflow-owner-review-files.json). Không commit tự động.

@@ -1,0 +1,825 @@
+{
+  "schema_version": 2,
+  "dataset_root": "outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17",
+  "source_layout": {
+    "images": "images",
+    "labels": "labels",
+    "pairing": "exact relative path without extension; case-sensitive"
+  },
+  "source_names": {
+    "0": "BowHead",
+    "1": "TurnHead"
+  },
+  "image_count": 2410,
+  "label_file_count": 2410,
+  "ignored_metadata": [],
+  "missing_labels": [],
+  "orphan_labels": [],
+  "ambiguous_pairs": [],
+  "invalid_images": [],
+  "invalid_labels": [
+    {
+      "file": "labels/train/0001075.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0001075.txt:3: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/0002015.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0002015.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/0002062.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0002062.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/0002073.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0002073.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/0016009.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0016009.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/0016012.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0016012.txt:5: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/0016026.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\0016026.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000252.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000252.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000439.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000439.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000700.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000700.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000828.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000828.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000955.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000955.txt:3: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000972.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000972.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000973.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000973.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000974.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000974.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000979.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000979.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000986.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000986.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_000987.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_000987.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001005.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001005.txt:15: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001241.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001241.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001274.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001274.txt:3: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001496.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001496.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001507.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001507.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001518.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001518.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001551.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001551.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_001733.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_001733.txt:9: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_002367.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_002367.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/10_002389.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\10_002389.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/12_000907.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\12_000907.txt:2: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/136_000297.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_000297.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/136_000413.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_000413.txt:8: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/136_000767.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_000767.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/136_001438.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_001438.txt:4: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/136_002130.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_002130.txt:11: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/136_002164.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_002164.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/136_002398.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\136_002398.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/137_002277.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\137_002277.txt:3: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/137_002285.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\137_002285.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/137_002294.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\137_002294.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/137_002795.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\137_002795.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/144_001989.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\144_001989.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/149_000489.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_000489.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/149_001089.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001089.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/149_001609.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001609.txt:5: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/149_001697.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001697.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/149_001759.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001759.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/149_001791.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001791.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/149_001926.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\149_001926.txt:3: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/18_001504.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\18_001504.txt:6: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/22_000776.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_000776.txt:5: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_000781.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_000781.txt:12: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_000844.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_000844.txt:5: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_000857.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_000857.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_000870.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_000870.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_001280.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_001280.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/22_001530.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_001530.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/22_001535.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\22_001535.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/24_000556.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000556.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000621.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000621.txt:9: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000625.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000625.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000629.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000629.txt:2: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/24_000637.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000637.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000641.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000641.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/24_000649.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000649.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000659.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000659.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/24_000688.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000688.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/24_000833.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\24_000833.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/53_001445.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\53_001445.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/53_001618.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\53_001618.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/6_000033.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\6_000033.txt:5: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/6_000387.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\6_000387.txt:7: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/6_000927.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\6_000927.txt:9: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/8_001338.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\8_001338.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/8_001566.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\8_001566.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/8_001707.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\8_001707.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/train/9_000968.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\9_000968.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/train/9_001092.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\train\\9_001092.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/0009017.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\0009017.txt:9: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/0009018.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\0009018.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/val/0009046.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\0009046.txt:3: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/0014018.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\0014018.txt:3: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/val/0015006.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\0015006.txt:8: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/133_000524.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\133_000524.txt:7: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/val/145_000864.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\145_000864.txt:2: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/val/145_001534.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\145_001534.txt:1: YOLO box exceeds vertical image bounds"
+    },
+    {
+      "file": "labels/val/19_000431.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_000431.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_000453.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_000453.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_000456.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_000456.txt:6: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_000472.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_000472.txt:7: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_000474.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_000474.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_001127.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_001127.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_001658.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_001658.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_002040.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_002040.txt:3: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_002063.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_002063.txt:2: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_002072.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_002072.txt:7: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/19_002335.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\19_002335.txt:15: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/20_000644.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\20_000644.txt:7: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/20_000657.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\20_000657.txt:5: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/20_000680.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\20_000680.txt:6: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/20_000880.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\20_000880.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/20_000881.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\20_000881.txt:1: YOLO box exceeds horizontal image bounds"
+    },
+    {
+      "file": "labels/val/21_000863.txt",
+      "error": "C:\\Users\\OS\\Downloads\\ai-exam-monitoring-refactored-2026-09-19\\outputs\\scb-audit-20261003-v1\\extracted\\head\\SCB_BowTurnHead_20250509\\SCB5-Turn-Bow-Head-2024-9-17\\labels\\val\\21_000863.txt:12: YOLO box exceeds horizontal image bounds"
+    }
+  ],
+  "empty_label_files": [],
+  "checks": {
+    "automatic": [
+      "relative_path_pairing",
+      "image_decode",
+      "yolo_geometry",
+      "allowed_source_class_ids",
+      "bbox_sizes",
+      "exact_file_sha256"
+    ],
+    "not_checked": [
+      "near_duplicates",
+      "group_or_split_leakage",
+      "label_semantics",
+      "annotation_completeness",
+      "license_consent",
+      "canonical_mapping"
+    ],
+    "human_review_required": [
+      "bbox alignment and annotation unit",
+      "wrong/missing labels",
+      "source class semantics and proposed canonical mapping",
+      "empty labels really indicate no annotated objects",
+      "near duplicates, provenance and group metadata"
+    ]
+  },
+  "statistics_scope": {
+    "classes_and_normalized_boxes": "all fully valid label files, including orphan labels",
+    "pixel_boxes": "unique pairs with a decodable image and fully valid labels",
+    "exact_duplicates": "identical file bytes (also corrupt files); not pixels"
+  },
+  "annotation_count_by_class_id": {
+    "0": 4716,
+    "1": 10669
+  },
+  "resolution_counts": {
+    "1008x798": 1,
+    "1010x697": 1,
+    "1014x806": 1,
+    "1016x732": 1,
+    "1017x796": 1,
+    "1017x814": 1,
+    "1027x717": 1,
+    "1034x707": 1,
+    "1046x737": 1,
+    "1047x745": 1,
+    "1056x745": 1,
+    "1057x743": 1,
+    "1058x808": 1,
+    "1068x813": 1,
+    "1070x816": 1,
+    "1074x811": 1,
+    "1075x746": 1,
+    "1076x816": 1,
+    "1077x730": 1,
+    "1078x621": 1,
+    "1078x738": 1,
+    "1079x811": 1,
+    "1079x812": 1,
+    "1080x726": 1,
+    "1080x748": 1,
+    "1081x751": 1,
+    "1081x818": 1,
+    "1081x820": 1,
+    "1082x816": 1,
+    "1083x810": 1,
+    "1083x818": 1,
+    "1085x741": 1,
+    "1085x816": 1,
+    "1085x821": 1,
+    "1086x815": 1,
+    "1086x818": 1,
+    "1087x811": 1,
+    "1088x625": 1,
+    "1088x819": 1,
+    "1090x619": 1,
+    "1091x609": 1,
+    "1091x618": 1,
+    "1092x614": 1,
+    "1093x701": 1,
+    "1094x615": 2,
+    "1095x617": 2,
+    "1096x617": 3,
+    "1097x616": 1,
+    "1098x748": 1,
+    "1214x808": 1,
+    "1214x810": 1,
+    "1215x808": 1,
+    "1218x809": 1,
+    "1231x873": 1,
+    "1280x720": 74,
+    "1303x703": 1,
+    "1310x707": 1,
+    "1312x971": 1,
+    "1313x972": 1,
+    "1313x977": 1,
+    "1314x734": 1,
+    "1314x973": 1,
+    "1315x973": 1,
+    "1316x713": 1,
+    "1317x740": 1,
+    "1321x973": 1,
+    "1323x774": 1,
+    "1327x657": 1,
+    "1329x1138": 1,
+    "1341x795": 1,
+    "1341x837": 1,
+    "1348x751": 1,
+    "1349x961": 1,
+    "1354x758": 1,
+    "1357x755": 1,
+    "1358x767": 1,
+    "1359x770": 1,
+    "1362x973": 1,
+    "1386x1041": 1,
+    "1397x668": 1,
+    "1403x872": 1,
+    "1411x745": 1,
+    "1413x921": 1,
+    "1424x1076": 1,
+    "1424x1078": 1,
+    "1428x1076": 1,
+    "1428x1080": 1,
+    "1430x767": 1,
+    "1430x787": 1,
+    "1432x760": 1,
+    "1432x793": 1,
+    "1435x843": 1,
+    "1436x1082": 1,
+    "1436x1090": 1,
+    "1436x796": 1,
+    "1438x1082": 1,
+    "1438x1084": 1,
+    "1438x1086": 1,
+    "1439x817": 1,
+    "1440x1086": 1,
+    "1440x811": 1,
+    "1440x814": 1,
+    "1442x816": 1,
+    "1442x817": 1,
+    "1442x978": 1,
+    "1443x762": 1,
+    "1443x806": 1,
+    "1443x810": 1,
+    "1443x812": 1,
+    "1443x815": 2,
+    "1443x818": 1,
+    "1444x1074": 1,
+    "1444x1082": 1,
+    "1444x1084": 1,
+    "1444x761": 1,
+    "1444x817": 1,
+    "1445x817": 1,
+    "1446x1084": 1,
+    "1446x976": 1,
+    "1448x1076": 1,
+    "1448x811": 1,
+    "1448x928": 1,
+    "1449x771": 1,
+    "1450x1080": 1,
+    "1450x1082": 1,
+    "1450x1084": 1,
+    "1451x915": 1,
+    "1452x888": 1,
+    "1452x946": 1,
+    "1454x1078": 1,
+    "1454x830": 1,
+    "1455x767": 1,
+    "1458x766": 1,
+    "1458x819": 1,
+    "1458x987": 1,
+    "1460x792": 1,
+    "1462x888": 1,
+    "1464x945": 1,
+    "1466x816": 1,
+    "1466x980": 1,
+    "1467x1152": 1,
+    "1473x1129": 1,
+    "1476x942": 1,
+    "1480x1118": 1,
+    "1554x1091": 1,
+    "1557x945": 1,
+    "1570x1041": 1,
+    "1586x823": 1,
+    "1586x870": 1,
+    "1590x920": 1,
+    "1593x931": 1,
+    "1597x945": 1,
+    "1597x972": 1,
+    "1599x999": 2,
+    "1758x998": 1,
+    "1884x873": 1,
+    "1887x885": 1,
+    "1892x936": 1,
+    "1893x852": 1,
+    "1896x927": 1,
+    "1897x847": 1,
+    "1910x883": 1,
+    "1914x855": 1,
+    "1920x1080": 556,
+    "1920x766": 1,
+    "1932x812": 1,
+    "1937x810": 1,
+    "1939x897": 1,
+    "1944x879": 1,
+    "1950x864": 1,
+    "1950x911": 1,
+    "1959x810": 1,
+    "1961x1340": 1,
+    "2158x1228": 1,
+    "2162x1222": 1,
+    "2162x1226": 1,
+    "2166x1222": 1,
+    "2168x1218": 1,
+    "2341x1553": 1,
+    "2366x1518": 1,
+    "2396x1349": 1,
+    "2399x1271": 1,
+    "2401x1281": 1,
+    "2408x1357": 1,
+    "2685x1382": 1,
+    "2692x1350": 1,
+    "2693x1433": 1,
+    "2694x1458": 1,
+    "2695x1457": 1,
+    "2696x1408": 1,
+    "2700x1407": 1,
+    "2702x1383": 1,
+    "2702x1442": 1,
+    "2703x1436": 1,
+    "2704x1425": 1,
+    "2866x1366": 1,
+    "2870x1483": 1,
+    "2879x1489": 1,
+    "2880x1492": 1,
+    "373x441": 1,
+    "640x480": 273,
+    "665x502": 1,
+    "695x545": 1,
+    "698x541": 1,
+    "698x542": 1,
+    "700x542": 1,
+    "700x543": 1,
+    "701x543": 2,
+    "702x542": 1,
+    "703x524": 1,
+    "704x542": 1,
+    "704x576": 77,
+    "705x507": 1,
+    "705x543": 1,
+    "706x543": 1,
+    "711x543": 1,
+    "711x545": 1,
+    "717x541": 1,
+    "718x547": 1,
+    "719x531": 2,
+    "719x543": 1,
+    "720x404": 372,
+    "720x536": 1,
+    "720x576": 41,
+    "721x528": 1,
+    "721x531": 1,
+    "721x540": 1,
+    "722x541": 1,
+    "723x376": 1,
+    "723x543": 1,
+    "724x550": 1,
+    "726x381": 2,
+    "726x535": 1,
+    "741x753": 1,
+    "800x385": 1,
+    "800x448": 291,
+    "800x450": 446,
+    "800x480": 8,
+    "842x509": 1,
+    "843x509": 1,
+    "845x506": 1,
+    "852x508": 1,
+    "867x675": 1,
+    "868x675": 1,
+    "869x676": 1,
+    "870x680": 1,
+    "870x684": 1,
+    "871x680": 1,
+    "872x497": 1,
+    "872x671": 1,
+    "873x680": 1,
+    "877x492": 1,
+    "877x679": 1,
+    "878x498": 1,
+    "879x684": 1,
+    "880x679": 1,
+    "881x682": 1,
+    "882x500": 1,
+    "885x501": 1,
+    "897x485": 1,
+    "898x663": 1,
+    "900x482": 1,
+    "902x678": 1,
+    "903x677": 1,
+    "940x394": 1,
+    "945x706": 1,
+    "979x550": 1,
+    "979x554": 1,
+    "982x548": 1,
+    "986x660": 1,
+    "990x808": 1,
+    "991x555": 1
+  },
+  "bbox_sizes": {
+    "width_normalized": {
+      "count": 15385,
+      "min": 0.016927083333333332,
+      "max": 0.6063260572483841,
+      "mean": 0.0910623216247046
+    },
+    "height_normalized": {
+      "count": 15385,
+      "min": 0.033482142857142856,
+      "max": 0.8168246527777777,
+      "mean": 0.19615751081174562
+    },
+    "area_normalized": {
+      "count": 15385,
+      "min": 0.0008777006172839507,
+      "max": 0.39680075608177856,
+      "mean": 0.021055593018209143
+    },
+    "width_pixels": {
+      "count": 15385,
+      "min": 15.113,
+      "max": 960.55412,
+      "mean": 98.69569656353592
+    },
+    "height_pixels": {
+      "count": 15385,
+      "min": 15.0,
+      "max": 985.76277,
+      "mean": 121.68669450958726
+    },
+    "area_pixels": {
+      "count": 15385,
+      "min": 367.5,
+      "max": 946878.4900661126,
+      "mean": 16878.71018608038
+    }
+  },
+  "exact_duplicate_groups": [],
+  "duplicate_file_copies": 0,
+  "errors": [],
+  "has_errors": true,
+  "valid_paired_samples": 2308,
+  "split_images": {
+    "train": 1905,
+    "val": 505
+  },
+  "raw_class_token_counts_by_split": {
+    "train": {
+      "1": 7943,
+      "0": 4422
+    },
+    "val": {
+      "0": 540,
+      "1": 3213
+    }
+  },
+  "valid_class_counts_by_split": {
+    "train": {
+      "1": 7639,
+      "0": 4251
+    },
+    "val": {
+      "0": 465,
+      "1": 3030
+    }
+  },
+  "filename_patterns": {
+    "numeric_only": 276,
+    "underscore_present": 2134,
+    "examples": [
+      "0001001",
+      "0001002",
+      "0001003",
+      "0001004",
+      "0001005",
+      "0001006",
+      "0001007",
+      "0001008",
+      "0001009",
+      "0001010",
+      "0001020",
+      "0001022"
+    ],
+    "group_id_inferred": false
+  }
+}

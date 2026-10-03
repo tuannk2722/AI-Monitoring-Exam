@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R01",
+    "source": "hrw",
+    "source_image": "images/train/0086_000844.jpg",
+    "source_label": "labels/train/0086_000844.txt",
+    "class_focus": 0,
+    "reason": "smallest_train_box",
+    "area_normalized": 0.0018513888888888887,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0001.png"
+  },
+  {
+    "id": "R02",
+    "source": "hrw",
+    "source_image": "images/train/1252029.jpg",
+    "source_label": "labels/train/1252029.txt",
+    "class_focus": 0,
+    "reason": "median_train_box",
+    "area_normalized": 0.03199250136951581,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0002.png"
+  },
+  {
+    "id": "R03",
+    "source": "hrw",
+    "source_image": "images/train/0204017.jpg",
+    "source_label": "labels/train/0204017.txt",
+    "class_focus": 0,
+    "reason": "largest_train_box",
+    "area_normalized": 0.7772210918727385,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0003.png"
+  },
+  {
+    "id": "R04",
+    "source": "hrw",
+    "source_image": "images/train/3004247.jpg",
+    "source_label": "labels/train/3004247.txt",
+    "class_focus": 1,
+    "reason": "smallest_train_box",
+    "area_normalized": 0.0013813829333333334,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0004.png"
+  },
+  {
+    "id": "R05",
+    "source": "hrw",
+    "source_image": "images/train/3004077.jpg",
+    "source_label": "labels/train/3004077.txt",
+    "class_focus": 1,
+    "reason": "median_train_box",
+    "area_normalized": 0.019044239106321696,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0005.png"
+  },
+  {
+    "id": "R06",
+    "source": "hrw",
+    "source_image": "images/train/3000173.jpg",
+    "source_label": "labels/train/3000173.txt",
+    "class_focus": 1,
+    "reason": "largest_train_box",
+    "area_normalized": 0.65858578125,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0006.png"
+  },
+  {
+    "id": "R07",
+    "source": "hrw",
+    "source_image": "images/train/0086_002292.jpg",
+    "source_label": "labels/train/0086_002292.txt",
+    "class_focus": 2,
+    "reason": "smallest_train_box",
+    "area_normalized": 0.0015756146122555556,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0007.png"
+  },
+  {
+    "id": "R08",
+    "source": "hrw",
+    "source_image": "images/train/130_000907.jpg",
+    "source_label": "labels/train/130_000907.txt",
+    "class_focus": 2,
+    "reason": "median_train_box",
+    "area_normalized": 0.017118739907407407,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0008.png"
+  },
+  {
+    "id": "R09",
+    "source": "hrw",
+    "source_image": "images/train/0016028.jpg",
+    "source_label": "labels/train/0016028.txt",
+    "class_focus": 2,
+    "reason": "largest_train_box",
+    "area_normalized": 0.7984381704079591,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\hrw\\0009.png"
+  }
+]

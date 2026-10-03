@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "owner": "repository owner",
+  "source_review_sha256_before_edit": "0f2c8805052e3765753e1a5b093ed38209ad50d73ba08840c8b508d9dda1afbc",
+  "source_archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+  "r12_clarification_verbatim": "Mở rộng phone_use: cầm/tương tác hoặc điện thoại trên bàn gắn được với người",
+  "dataset_accepted": false,
+  "canonical_mapping_applied": false,
+  "manual_relabels_completed": false,
+  "items": [
+    {
+      "id": "R01",
+      "owner_answer_verbatim": "ignore",
+      "action": "ignore_focus_box",
+      "status": "pending_ignore_handling",
+      "source_image": "train/images/20220525_171757_jpg.rf.3f68cfda0eecc474c9cac0dc78314062.jpg",
+      "source_label": "train/labels/20220525_171757_jpg.rf.3f68cfda0eecc474c9cac0dc78314062.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0001.png"
+    },
+    {
+      "id": "R02",
+      "owner_answer_verbatim": "Không hoàn toàn là looking_around, dựa vào mức độ và hướng quay nữa",
+      "action": "review_head_direction_guideline",
+      "status": "pending_guideline",
+      "source_image": "train/images/20220525_171702_jpg.rf.5ee86fcc5b2adfb9fe1a622e731c0f43.jpg",
+      "source_label": "train/labels/20220525_171702_jpg.rf.5ee86fcc5b2adfb9fe1a622e731c0f43.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0002.png"
+    },
+    {
+      "id": "R03",
+      "owner_answer_verbatim": "Hành vi là sử dụng điện thoại và nhãn là phone_use",
+      "action": "relabel_sample_phone_use_person",
+      "status": "pending_manual_relabel",
+      "source_image": "train/images/cheat902_jpg.rf.6ee8eb5add3f86cfec8f9dafa79424c9.jpg",
+      "source_label": "train/labels/cheat902_jpg.rf.6ee8eb5add3f86cfec8f9dafa79424c9.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0003.png"
+    },
+    {
+      "id": "R04",
+      "owner_answer_verbatim": "Không",
+      "action": "reject_as_reviewed_negative",
+      "status": "recorded_not_training_ready",
+      "source_image": "train/images/IMG_6292_jpg.rf.3860f984c7710f764eea617d074dce9e.jpg",
+      "source_label": "train/labels/IMG_6292_jpg.rf.3860f984c7710f764eea617d074dce9e.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0004.png"
+    },
+    {
+      "id": "R05",
+      "owner_answer_verbatim": "Phạm vi normal là không phải 2 nhãn looking_around và phone_use, sau này sẽ phát triển thêm; chấp nhận ảnh có watermark stock",
+      "action": "normal_absence_both_targets_stock_watermark_allowed",
+      "status": "policy_recorded_QA_pending",
+      "source_image": "train/images/good711_jpg.rf.1025137b80015ea1e8b53147a8d224da.jpg",
+      "source_label": "train/labels/good711_jpg.rf.1025137b80015ea1e8b53147a8d224da.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0005.png"
+    },
+    {
+      "id": "R06",
+      "owner_answer_verbatim": "Xóa bỏ",
+      "action": "remove_whole_scene_box_review_completeness",
+      "status": "pending_manual_relabel",
+      "source_image": "train/images/good753_jpg.rf.c0665cc7e8d4b08dba242a580ffb2ec1.jpg",
+      "source_label": "train/labels/good753_jpg.rf.c0665cc7e8d4b08dba242a580ffb2ec1.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0006.png"
+    },
+    {
+      "id": "R07",
+      "owner_answer_verbatim": "Loại bỏ (ignore) box này; không giữ box mờ dưới ngưỡng nhận diện và không đủ bằng chứng thị giác.",
+      "action": "ignore_unclear_phone_box",
+      "status": "pending_ignore_handling",
+      "source_image": "train/images/IMG_6301_jpg.rf.663ebca69a33907d21384b4f4b093dc4.jpg",
+      "source_label": "train/labels/IMG_6301_jpg.rf.663ebca69a33907d21384b4f4b093dc4.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0007.png"
+    },
+    {
+      "id": "R08",
+      "owner_answer_verbatim": "Chốt annotation unit là person (người có hành vi sử dụng điện thoại) để phục vụ bài toán tracking và phân loại hành vi.",
+      "action": "person_annotation_unit",
+      "status": "policy_recorded_QA_pending",
+      "source_image": "train/images/20220620_122735-1-_jpg.rf.314d712f222144c6e8170c5ee9a6e909.jpg",
+      "source_label": "train/labels/20220620_122735-1-_jpg.rf.314d712f222144c6e8170c5ee9a6e909.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0008.png"
+    },
+    {
+      "id": "R09",
+      "owner_answer_verbatim": "Relabel lại: thống nhất đưa về person unit (chuẩn hóa box bao người, xóa/loại bỏ box chỉ bao tay và điện thoại).",
+      "action": "relabel_person_remove_phone_hand_unit",
+      "status": "pending_manual_relabel",
+      "source_image": "train/images/cheat599_jpg.rf.561281a1bc5fb58acc32cf6b737bcc28.jpg",
+      "source_label": "train/labels/cheat599_jpg.rf.561281a1bc5fb58acc32cf6b737bcc28.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0009.png"
+    },
+    {
+      "id": "R10",
+      "owner_answer_verbatim": "Loại ảnh này ra",
+      "action": "exclude_image",
+      "status": "exclusion_recorded_not_built",
+      "source_image": "train/images/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.jpg",
+      "source_label": "train/labels/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0010.png"
+    },
+    {
+      "id": "R11",
+      "owner_answer_verbatim": "Cần bằng chứng rõ ràng",
+      "action": "exclude_UI_per_R16_phone_evidence_unclear",
+      "status": "exclusion_recorded_not_built",
+      "source_image": "train/images/2023-03-14-11-10-11_mp4-18_jpg.rf.a8e71deb13996b23dd74df7440d3dde0.jpg",
+      "source_label": "train/labels/2023-03-14-11-10-11_mp4-18_jpg.rf.a8e71deb13996b23dd74df7440d3dde0.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0011.png"
+    },
+    {
+      "id": "R12",
+      "owner_answer_verbatim": "Để điện thoại trên bàn và cầm điện thoại thì đều tính là vi phạm",
+      "action": "phone_held_interacted_or_desk_associated_person",
+      "status": "pending_manual_relabel_completeness",
+      "source_image": "train/images/IMG_6353_jpg.rf.2a1d975bc0bff46406a62d74a335b8de.jpg",
+      "source_label": "train/labels/IMG_6353_jpg.rf.2a1d975bc0bff46406a62d74a335b8de.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0012.png"
+    },
+    {
+      "id": "R13",
+      "owner_answer_verbatim": "ignore khi bị che khuất",
+      "action": "ignore_occluded_insufficient_evidence",
+      "status": "pending_ignore_handling",
+      "source_image": "train/images/IMG_6496_jpg.rf.08f78c74a0ffc1b52e825878011996c9.jpg",
+      "source_label": "train/labels/IMG_6496_jpg.rf.08f78c74a0ffc1b52e825878011996c9.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0013.png"
+    },
+    {
+      "id": "R14",
+      "owner_answer_verbatim": "Không",
+      "action": "exclude_from_person_behavior_subset",
+      "status": "exclusion_recorded_not_built",
+      "source_image": "train/images/cheat522_jpg.rf.9e342d23989b7ede773448aefa037235.jpg",
+      "source_label": "train/labels/cheat522_jpg.rf.9e342d23989b7ede773448aefa037235.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0014.png"
+    },
+    {
+      "id": "R15",
+      "owner_answer_verbatim": "Cần lưu ý chất lượng ảnh",
+      "action": "review_image_quality",
+      "status": "pending_visual_QA",
+      "source_image": "train/images/cheat878_jpg.rf.76da1793eea510e51932b3128d1c0d70.jpg",
+      "source_label": "train/labels/cheat878_jpg.rf.76da1793eea510e51932b3128d1c0d70.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0015.png"
+    },
+    {
+      "id": "R16",
+      "owner_answer_verbatim": "Loại bỏ những ảnh có dính chữ phụ đề / giao diện web khỏi tập train",
+      "action": "exclude_subtitle_web_UI_from_train",
+      "status": "exclusion_recorded_not_built",
+      "source_image": "train/images/youtube-78_jpg.rf.83514da812dcfb00edd708ce0b10b6f9.jpg",
+      "source_label": "train/labels/youtube-78_jpg.rf.83514da812dcfb00edd708ce0b10b6f9.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/0016.png"
+    },
+    {
+      "id": "W01",
+      "owner_answer_verbatim": "Không được dùng công cụ tự động để sửa lỗi tọa độ pixel rồi coi là ảnh đã đạt; bức ảnh này cần được dán lại nhãn bằng tay cho đúng.",
+      "action": "manual_relabel_no_auto_geometry_acceptance",
+      "status": "pending_manual_relabel",
+      "source_image": "train/images/33_jpg.rf.42694d4e78327361bb11714f907411a9.jpg",
+      "source_label": "train/labels/33_jpg.rf.42694d4e78327361bb11714f907411a9.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/warning-1.png"
+    },
+    {
+      "id": "W02",
+      "owner_answer_verbatim": "đồng ý cho phép viết 1 dòng code đơn giản để tự động ép tọa độ về mép ảnh",
+      "action": "clip_reviewed_row_only",
+      "status": "preview_geometry_pass_semantics_pending",
+      "source_image": "train/images/20220525_171742_jpg.rf.a0e7341937542f69dd48b4b086258c2d.jpg",
+      "source_label": "train/labels/20220525_171742_jpg.rf.a0e7341937542f69dd48b4b086258c2d.txt",
+      "review_overlay": "outputs/roboflow-v1-20261004-complete-v2/review/warning-2.png"
+    }
+  ]
+}

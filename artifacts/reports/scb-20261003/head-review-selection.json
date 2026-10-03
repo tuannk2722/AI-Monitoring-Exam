@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R01",
+    "source": "head",
+    "source_image": "images/train/15_001804.jpg",
+    "source_label": "labels/train/15_001804.txt",
+    "class_focus": 0,
+    "reason": "smallest_train_box",
+    "area_normalized": 0.001025390625,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0001.png"
+  },
+  {
+    "id": "R02",
+    "source": "head",
+    "source_image": "images/train/12_001175.jpg",
+    "source_label": "labels/train/12_001175.txt",
+    "class_focus": 0,
+    "reason": "median_train_box",
+    "area_normalized": 0.011651317833670585,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0002.png"
+  },
+  {
+    "id": "R03",
+    "source": "head",
+    "source_image": "images/train/0011013.jpg",
+    "source_label": "labels/train/0011013.txt",
+    "class_focus": 0,
+    "reason": "largest_train_box",
+    "area_normalized": 0.39680075608177856,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0003.png"
+  },
+  {
+    "id": "R04",
+    "source": "head",
+    "source_image": "images/train/140_000487.jpg",
+    "source_label": "labels/train/140_000487.txt",
+    "class_focus": 1,
+    "reason": "smallest_train_box",
+    "area_normalized": 0.0008777006172839507,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0004.png"
+  },
+  {
+    "id": "R05",
+    "source": "head",
+    "source_image": "images/train/49_001199.jpg",
+    "source_label": "labels/train/49_001199.txt",
+    "class_focus": 1,
+    "reason": "median_train_box",
+    "area_normalized": 0.01516089108910891,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0005.png"
+  },
+  {
+    "id": "R06",
+    "source": "head",
+    "source_image": "images/train/0001047.jpg",
+    "source_label": "labels/train/0001047.txt",
+    "class_focus": 1,
+    "reason": "largest_train_box",
+    "area_normalized": 0.32817851237777973,
+    "overlay": "outputs\\scb-audit-20261003-v1\\review\\head\\0006.png"
+  }
+]

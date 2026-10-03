@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-04",
+  "python": ".venv/Scripts/python.exe",
+  "results": {
+    "unittest_discover": "PASS: 34 tests, no skips",
+    "ruff_check_src_tests_scripts": "PASS",
+    "compileall_src_tests_scripts": "PASS after sandbox permission escalation for __pycache__",
+    "repository_checker_require_git": "PASS: 0 failures",
+    "git_diff_check": "PASS",
+    "archive_crc_and_pinned_hashes": "PASS: RF ZIP and three SCB ZIP hashes matched",
+    "cached_report_reconciliation": "PASS: image/label counts, invalid file sets, strict counts",
+    "raw_row_arithmetic": "PASS: 10528 raw, 10493 individually valid, 10382 strict, 35 invalid rows in 34 files",
+    "overflow_pixels": "PASS: all 35 approximately 0.005 pixel",
+    "script_and_report_sha256": "PASS",
+    "published_evidence_equal_generated_bytes": "PASS for 10 generated JSON files",
+    "final_renders_match_reviewed_renders": "PASS: SHA256 of all review PNGs identical between completion v1/v2",
+    "local_links": "PASS: 60 links"
+  },
+  "not_run": [
+    "near-duplicate detection",
+    "group/session leakage verification",
+    "full-mode extraction/decode rerun in this completion task",
+    "training/model evaluation",
+    "DVC push/pull"
+  ],
+  "source_data_status": "Three base audit reports still have has_errors=true. Test success is not data acceptance."
+}

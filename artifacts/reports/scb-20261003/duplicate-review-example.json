@@ -1,0 +1,21 @@
+{
+  "sha256": "000e1ee3a4877065a3be46eddc233a268dcfac5aef5ed25fa65833ad14939f49",
+  "members": [
+    {
+      "source": "hrw",
+      "split": "val",
+      "image": "images/val/0001081.jpg",
+      "label": "labels/val/0001081.txt",
+      "annotation_count": 3,
+      "overlay": "outputs\\scb-audit-20261003-v1\\review\\duplicate\\hrw\\0001.png"
+    },
+    {
+      "source": "head",
+      "split": "train",
+      "image": "images/train/0001081.jpg",
+      "label": "labels/train/0001081.txt",
+      "annotation_count": 4,
+      "overlay": "outputs\\scb-audit-20261003-v1\\review\\duplicate\\head\\0001.png"
+    }
+  ]
+}

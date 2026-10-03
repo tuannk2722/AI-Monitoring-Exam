@@ -12,9 +12,9 @@ Mỗi nhãn được chấp nhận phải định nghĩa: ID/tên canonical; đ�
 
 ## Ngữ nghĩa các candidate
 
-- `phone_use`: bằng chứng hình ảnh về việc cầm/tương tác với điện thoại theo guideline đã review; nhìn thấy một vật hình chữ nhật không liên quan không tự động là positive.
+- `phone_use`: người cầm/tương tác điện thoại hoặc phone trên bàn gắn được với người bằng bằng chứng thị giác; unit person. Không rõ vật/người liên quan thì unknown/ignore. Owner đã chốt tại [ADR-011](decisions/ADR-011-person-unit-phone-definition.md).
 - `looking_around`: mẫu định hướng đầu/mắt quan sát được theo guideline; không phải bằng chứng về ý định hay vi phạm.
-- `normal`: chưa được giải quyết. Có thể là class negative tường minh cho classifier B, hoặc là absence/background cho detection A. Không được ép vào YOLO detection nếu điều đó tạo ra các box vô nghĩa.
+- `normal`: absence đã review của cả hai target, unknown không phải normal. Biểu diễn còn mở: có thể là class negative tường minh cho classifier B, hoặc là absence/background cho detection A. Không được ép vào YOLO detection nếu điều đó tạo ra các box vô nghĩa.
 
 ## Ignore/unknown (bỏ qua/không xác định)
 

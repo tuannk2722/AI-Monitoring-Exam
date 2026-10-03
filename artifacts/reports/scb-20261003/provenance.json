@@ -1,0 +1,54 @@
+{
+  "access_date": "2026-10-03",
+  "observed_hf_head": "0fdc46fe393d251320def8c6d10cbc95d89f7da6",
+  "pinned_page_fetch": "unavailable; main blob SHA256 matched all local archives",
+  "code_commit": "6203be99fce8f9036bcbf2218d8f04cc2ede2ed1",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "sources": [
+    {
+      "id": "discuss",
+      "local_archive": "C:\\Users\\OS\\Downloads\\SCB5-Discuss-2024-9-17.zip",
+      "sha256": "63aa029d04f8e9d5027cc2491aeca10785678750bdae4351835bfceaab95187f",
+      "bytes": 121619946,
+      "crc_read_all_members": "passed",
+      "file_count": 1728,
+      "source_names": {
+        "0": "discuss"
+      },
+      "remote_archive_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Discuss-2024-9-17/SCB5-Discuss-2024-9-17.zip",
+      "remote_names_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Discuss-2024-9-17/SCB5-Discuss-2024-9-17.yaml"
+    },
+    {
+      "id": "hrw",
+      "local_archive": "C:\\Users\\OS\\Downloads\\SCB5-Handrise-Read-write-2024-9-17.zip",
+      "sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+      "bytes": 779384408,
+      "crc_read_all_members": "passed",
+      "file_count": 13728,
+      "source_names": {
+        "0": "hand-raising",
+        "1": "read",
+        "2": "write"
+      },
+      "remote_archive_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Handrise-Read-write-2024-9-17/SCB5-Handrise-Read-write-2024-9-17.zip",
+      "remote_names_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Handrise-Read-write-2024-9-17/SCB5-Handrise-Read-write-2024-9-17.yaml"
+    },
+    {
+      "id": "head",
+      "local_archive": "C:\\Users\\OS\\Downloads\\SCB_BowTurnHead_20250509.zip",
+      "sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+      "bytes": 315224668,
+      "crc_read_all_members": "passed",
+      "file_count": 4820,
+      "source_names": {
+        "0": "BowHead",
+        "1": "TurnHead"
+      },
+      "remote_archive_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB_BowTurnHead_20250509/SCB_BowTurnHead_20250509.zip",
+      "remote_names_url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB_BowTurnHead_20250509/SCB_BowTurnHead_20250509.yaml"
+    }
+  ],
+  "class_names_basis": "Explicit transcription of source YOLO YAML names order (zero-based IDs), not canonical mapping; YAML not included in ZIPs",
+  "license": "not established",
+  "scope": "all files in supplied three ZIPs, not whole SCB repository"
+}

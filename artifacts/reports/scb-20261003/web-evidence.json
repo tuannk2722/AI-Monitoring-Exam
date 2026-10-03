@@ -1,0 +1,69 @@
+{
+  "access_date": "2026-10-03",
+  "hf_tree": {
+    "url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/tree/main",
+    "observed_commit": "0fdc46fe393d251320def8c6d10cbc95d89f7da6",
+    "pinned_fetch_success": false,
+    "note": "Exact local ZIP identities are pinned by matching SHA256, not by assuming main is immutable."
+  },
+  "source_names": [
+    {
+      "id": "discuss",
+      "url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Discuss-2024-9-17/SCB5-Discuss-2024-9-17.yaml",
+      "observed_names": [
+        "discuss"
+      ],
+      "file_commit_short": "2624658"
+    },
+    {
+      "id": "hrw",
+      "url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB5-Handrise-Read-write-2024-9-17/SCB5-Handrise-Read-write-2024-9-17.yaml",
+      "observed_names": [
+        "hand-raising",
+        "read",
+        "write"
+      ],
+      "file_commit_short": "787f229"
+    },
+    {
+      "id": "head",
+      "url": "https://huggingface.co/datasets/wintonYF/SCB-Dataset/blob/main/SCB_BowTurnHead_20250509/SCB_BowTurnHead_20250509.yaml",
+      "observed_names": [
+        "BowHead",
+        "TurnHead"
+      ],
+      "file_commit_short": "8993912"
+    }
+  ],
+  "names_transcription": "YOLO source names array explicitly transcribed to its zero-based IDs for this audit; no canonical IDs assigned. Separate ID namespaces per archive.",
+  "upstream": {
+    "url": "https://github.com/Whiffe/SCB-dataset",
+    "links_to_supplied_hf_repository": true,
+    "terms_sections": [
+      "4 Commercial Use Restrictions",
+      "5 Copyright Statement"
+    ],
+    "terms_observation": "States academic/personal/non-commercial intent and requires written permission for commercial use; separately reserves rights over copying/distribution/modification. No blanket derivative/redistribution permission established by this audit."
+  },
+  "paper": {
+    "url": "https://arxiv.org/html/2304.02488v7",
+    "citation": "Fan Yang. SCB-Dataset: A Dataset for Detecting Student and Teacher Classroom Behavior. arXiv:2304.02488v7 (2025).",
+    "relevant_sections": [
+      "3.1",
+      "3.4",
+      "A.3 Table 7"
+    ],
+    "observations": "Video-frame origin; partial read/write annotations; independently randomized subset train/val can overlap across subsets. These descriptions do not provide per-file group IDs."
+  },
+  "user_evidence": {
+    "status": "pending",
+    "note": "User says documentation exists and will supply later; no document/link received in this task."
+  },
+  "not_assumed": [
+    "license for training/derivatives/redistribution/weights",
+    "consent",
+    "group_id",
+    "canonical mapping",
+    "test independence"
+  ]
+}

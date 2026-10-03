@@ -36,6 +36,8 @@ Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
 
 Công cụ audit nguồn (schema/report, giới hạn kiểm tra): [data/source-audit.md](data/source-audit.md).
 
+Audit ba ZIP SCB owner cung cấp: [candidate card](data/candidates/SCB5-supplied-20261003.md), [báo cáo](data/candidates/SCB5-supplied-20261003-audit.md), [ảnh/câu hỏi review](data/candidates/SCB5-supplied-20261003-review.md). Trạng thái CANDIDATE, chưa accepted.
+
 Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 ## Bản đồ đọc (Reading map)
@@ -66,9 +68,13 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 | TBD-DATA-01 | Release/URL/license/checksum chính xác của SCB5/Roboflow | Data Lead | P1 audit |
 | TBD-LABEL-01 | `normal` là class tường minh hay absence/background | Team + Data Lead | A/B feasibility audit |
 | TBD-TASK-01 | Detection A hay detector+classifier B | Model Lead | benchmark trên dữ liệu đã audit |
-| TBD-ANN-01 | Annotation unit: person bbox/frame, crop hay clip | Data Lead | label spec review |
+| TBD-ANN-01 | Person unit đã chốt (ADR-011); cách biểu diễn/crop còn chờ A/B | Owner | batch QA và formulation |
 | TBD-EVT-01 | Ngưỡng duration/gap/event | Pipeline Lead | event validation set |
 | TBD-METRIC-01 | Gate promotion bằng số | Team | sau E001 baseline/error analysis |
 | TBD-RET-01 | Thời gian retention media/evidence thật | Giáo viên/team | trước khi thu thập |
 
 Mọi quyết định lớn: ADR → canonical docs/config → code. Không sửa ngược thứ tự.
+
+Audit Roboflow v1 owner cung cấp (hoàn thiện 2026-10-04): [candidate](data/candidates/Roboflow-phone-use-20261004.md), [báo cáo](data/candidates/Roboflow-phone-use-20261004-audit.md), [ảnh/câu hỏi review](data/candidates/Roboflow-phone-use-20261004-review.md), [provenance](../artifacts/reports/roboflow-20261004/provenance.json). Trạng thái CANDIDATE, chưa accepted. Quyết định SCB của owner được ghi tại mục cập nhật trong candidate SCB.
+
+Owner review Roboflow đã chốt 18 mục: [ADR-011](decisions/ADR-011-person-unit-phone-definition.md), [manifest](../artifacts/reports/roboflow-20261004/owner-decisions.json). Relabel/QA subset và P1 acceptance còn mở.
