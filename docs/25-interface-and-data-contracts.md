@@ -8,7 +8,9 @@ Các cột: `sample_id,image_path,label_path,source,video_id,session_id,room_id,
 
 ## Classifier B — phần cần triển khai
 
-Manifest legacy trên không biểu diễn target multi-label/unknown. Snapshot audit dùng person/crop/source SHA và target states, không phải schema training đã freeze. Trước exporter cần chốt schema version, encoding positive/negative/unknown và crop inference, rồi cập nhật producer/consumer/tests cùng lúc. Không tự chuyển unknown thành 0 hoặc dùng class ID detector làm target classifier. Detector person và behavior predictions là các task khác nhau.
+Manifest legacy trên không biểu diễn target multi-label/unknown. Snapshot audit dùng person/crop/source SHA và target states, không phải schema training đã freeze. [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md) chốt ba trạng thái với masked supervision; [hợp đồng pilot B](data/pilot-b-release-contract-v1.md) mô tả schema JSONL thiết kế, nullable values/mask, normal metadata, eligibility, crop và group/split gates.
+
+Thứ tự vector thiết kế `[phone_use, looking_around]` không lấy từ class ID YOLO legacy; unknown lưu null/mask=0 và không tham gia loss/metric. Trước exporter phải hiện thực/review schema/config version và cập nhật producer/consumer/tests cùng lúc. Contract thiết kế chưa phải dataclass/API runtime đã triển khai. Pilot đóng gói reviewed crops; crop inference tự động còn gate riêng trước baseline B end-to-end. Detector person và behavior predictions là các task khác nhau.
 
 ## Prediction
 

@@ -42,9 +42,11 @@ Audit ba ZIP SCB owner cung cấp: [candidate card](data/candidates/SCB5-supplie
 
 Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
+Checkpoint task đang hoạt động cho agent: [`.codex/TASK.md`](../.codex/TASK.md); lifecycle theo [AGENTS.md](../AGENTS.md) và [guidelines 16](16-ai-agent-guidelines.md). TASK không thay canonical docs/ADR.
+
 ## Bản đồ đọc (Reading map)
 
-- Data: 01, 02, 04, 08, 09, 19, 21, 25.
+- Data: 01, 02, 04, 08, 09, 19, 21, 25; [hợp đồng pilot B](data/pilot-b-release-contract-v1.md) khi chuẩn bị release.
 - Training: 04, 09, 10, 15, 22, 23, 24.
 - Inference/tracking/events: 03, 11, 12, 19, 24, 25.
 - Web: 03, 12, 13, 19, 20, 21, 25.
@@ -62,15 +64,16 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 8. ADR-008 ByteTrack là candidate, cần benchmark P5.
 9. ADR-009 event/risk baseline rule-based; threshold chờ event data.
 10. ADR-010 không thu thập/upload người thật trước khi có consent/policy được phê duyệt.
+11. [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md): thiết kế pilot 84 SCB candidates + 28 RF crops, ba trạng thái/masked supervision, reviewed-crop package trước runtime gate và group evidence trước split/release training. Không phê duyệt dataset cụ thể.
 
 ## Quyết định chưa giải quyết
 
 | ID | Câu hỏi | Owner | Chốt khi |
 |---|---|---|---|
-| TBD-DATA-01 | Source identity đã pin; còn manifest nhóm và phạm vi release | Owner | preparation |
-| LABEL-01 (đã chốt ngữ nghĩa) | Normal đã review; hai target đồng thời giữ cả hai, ADR-012 | Owner | Schema classifier còn cần thiết kế |
+| TBD-DATA-01 | Budget pilot đã chốt ở ADR-013; còn membership SCB cụ thể và manifest nhóm | Owner | S2/S5 theo hợp đồng pilot B |
+| LABEL-01 (đã chốt ngữ nghĩa/unknown policy) | Normal/co-occurrence ADR-012; ba trạng thái và masked supervision ADR-013 | Owner | Schema thiết kế tại contract pilot B, còn implementation/review exporter |
 | TASK-01 (đã chốt) | YOLO person → crop → multi-label classifier B, ADR-012 | Owner | Không phải kết quả benchmark A/B |
-| TBD-ANN-01 | Person unit và crop có ngữ cảnh đã chốt; còn quy tắc crop tự động | Owner | crop QA và kiểm chứng inference |
+| TBD-ANN-01 | Pilot đóng gói crop đã review; crop tự động còn là gate riêng | Owner | S9 trước baseline B end-to-end |
 | TBD-EVT-01 | Ngưỡng duration/gap/event | Pipeline Lead | event validation set |
 | TBD-METRIC-01 | Gate promotion bằng số | Team | sau E001 baseline/error analysis |
 | TBD-RET-01 | Thời gian retention media/evidence thật | Giáo viên/team | trước khi thu thập |
@@ -80,6 +83,8 @@ Mọi quyết định lớn: ADR → canonical docs/config → code. Không sử
 ## Đầu mối Dataset Audit & Spec
 
 [Phương án hai nguồn và việc còn lại](data/dataset-research.md), [P2 preparation B](09-phase-p2-dataset-preparation.md), [ADR-012](decisions/ADR-012-formulation-b-multilabel.md).
+
+[Hợp đồng đóng gói pilot B v1](data/pilot-b-release-contract-v1.md) là đầu ra thiết kế hiện tại: exact RF membership, SCB quota/selection rule, target encoding/eligibility, crop/split gates và backlog S1–S9. Quyết định owner ở [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md); chưa trích xuất/build dataset và chưa đóng P0/P1/P2.
 
 Roboflow: [card](data/candidates/Roboflow-phone-use-20261004.md), [audit gốc](data/candidates/Roboflow-phone-use-20261004-audit.md), [quyết định tổng hợp](data/candidates/Roboflow-phone-use-20261004-review.md). 28 person/crop đã duyệt, 27 target unknown, chưa training eligible.
 

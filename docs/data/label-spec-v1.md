@@ -2,6 +2,8 @@
 
 Version: `label-map-v0.2-draft`. Owner/người chốt: chủ repository. Review hỗ trợ: Codex. Chưa đóng băng.
 
+Pilot encoding/usage theo [hợp đồng pilot B](pilot-b-release-contract-v1.md) và [ADR-013](../decisions/ADR-013-pilot-b-packaging-contract.md): owner đã chọn positive/negative/unknown + masked supervision; schema cụ thể còn phải triển khai/review version trước exporter. Không dùng legacy label IDs làm vector positions.
+
 ## Quy tắc chung
 
 - Chỉ annotate bằng chứng quan sát được; nhiều hành vi có thể cùng tồn tại.
@@ -18,7 +20,7 @@ Version: `label-map-v0.2-draft`. Owner/người chốt: chủ repository. Review
 ## `looking_around`
 
 **Positive trên ảnh tĩnh**: đầu/hướng nhìn thể hiện rõ đang nhìn sang người khác hoặc ra khỏi vùng bài làm, theo owner tại ADR-012.
-**Unknown**: chỉ lệch đầu, cúi đọc/viết hoặc không rõ hướng nhìn khi chưa có đủ bằng chứng review; giữ ngoài train, không tự coi là negative. Tư thế đọc/viết một mình không chứng minh normal. Ảnh tĩnh không xác nhận được thời lượng; không tự đặt ngưỡng góc/thời gian.
+**Unknown**: chỉ lệch đầu, cúi đọc/viết hoặc không rõ hướng nhìn khi chưa có đủ bằng chứng review; target này không tham gia supervision/metric, không tự coi là negative. Theo ADR-013, crop có target kia đã biết có thể dùng masked supervision khi đủ các gate crop/group/release; crop cả hai unknown giữ review_only. Tư thế đọc/viết một mình không chứng minh normal. Ảnh tĩnh không xác nhận được thời lượng; không tự đặt ngưỡng góc/thời gian.
 Nhãn này không trực tiếp có nghĩa là vi phạm.
 
 ## `normal`
@@ -27,7 +29,7 @@ Người đang làm bài, đã review thủ công và không có bằng chứng 
 
 ## Co-occurrence và formulation
 
-YOLO tìm người → crop → classifier multi-label. Khi cùng có bằng chứng, gán cả `phone_use` và `looking_around` cho cùng người. Chưa chọn head/loss hoặc schema vector/mask; không tự biến target unknown thành negative. Detector chỉ tìm người, không dùng lớp hành vi làm lớp detector.
+YOLO tìm người → crop → classifier multi-label. Khi cùng có bằng chứng, gán cả `phone_use` và `looking_around` cho cùng người. Chưa chọn head/loss; state/null/mask và schema thiết kế theo hợp đồng pilot B, chưa có exporter đã freeze. Normal là metadata review, không phải head softmax độc quyền; không tự biến target unknown thành negative. Detector chỉ tìm người, không dùng lớp hành vi làm lớp detector.
 
 ## Source aliases (Ánh xạ từ nguồn gốc)
 

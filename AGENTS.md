@@ -10,6 +10,12 @@
 
 Thứ tự ưu tiên: accepted ADR → canonical docs → configs → code → notebook.
 
+## Task checkpoint (`.codex/TASK.md`)
+
+- Mỗi task đang hoạt động phải có `.codex/TASK.md`; tạo hoặc cập nhật trước khi sửa artifact/code. Format theo `docs/templates/task-template.md`, bổ sung checkpoint khi cần.
+- Khi bắt đầu hoặc tiếp tục sau resume/compaction, đọc `docs/00-INDEX.md` và `.codex/TASK.md` nếu có; đối chiếu Git, files/artifacts và chỉ đọc lại docs đã thay đổi. TASK cũ hoặc mâu thuẫn phải được sửa theo yêu cầu user và source of truth, không được dùng như authority.
+- TASK là bộ nhớ điều phối cho một task hiện hành, không thay ADR/spec/config, không tự biến đề xuất thành Accepted hoặc câu hỏi chưa trả lời thành approval. Không chứa credentials, dữ liệu định danh hoặc media.
+
 ## AI-first order
 
 `dataset → annotation QA → baseline → evaluation → real-world holdout → model improvement → tracking/events → web`.

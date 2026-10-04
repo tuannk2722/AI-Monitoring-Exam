@@ -2,6 +2,8 @@
 
 Ngày: 2026-10-04. Đây là đầu mối hiện hành sau consolidation; không mở thêm vòng review ảnh nhỏ lẻ. Kiến trúc và semantics theo ADR-011/012. **Audit & Spec đã được tổng hợp; dataset training chưa accepted, P1 preparation gates còn mở.** Không có benchmark/model kết quả để báo cáo.
 
+Thiết kế release pilot hiện hành: [hợp đồng pilot B v1](pilot-b-release-contract-v1.md), quyết định owner [ADR-013](../decisions/ADR-013-pilot-b-packaging-contract.md). Budget 84 SCB candidates (28 TurnHead + 28 read + 28 write) cùng đúng 28 RF crops; dùng ba trạng thái và masked supervision. Đây là contract thiết kế, chưa chọn/relabel SCB hoặc build media; các gate membership/group/split/export/release còn mở.
+
 ## Vai trò hai nguồn trong Formulation B
 
 | Nguồn/phần | Vai trò trong preparation | Không được làm |
@@ -32,10 +34,12 @@ SCB đã audit toàn bộ ba ZIP (10.138 ảnh, 8.116 SHA unique), không cần 
 
 ## Các việc còn lại để phát hành dataset B
 
-1. Đóng danh sách mẫu release hữu hạn từ hai nguồn theo vai trò trên, dựa coverage/nhóm thực tế; chưa bịa số lượng hoặc ngưỡng đủ dữ liệu.
+1. Triển khai selection hữu hạn theo hợp đồng pilot: 84 SCB anchors (28/28/28) + exact 28 RF approved IDs; budget không phải ngưỡng đủ dữ liệu. Freeze identity/hash, không tự refill khi reject/unknown; báo actual coverage/nhóm.
 2. Chuẩn bị crop và target labels cho tập đã chọn; bổ sung negative/normal được review. Crop classifier chỉ cần target và bằng chứng phù hợp, không bắt annotate mọi người ngoài crop. Nếu huấn luyện detector riêng mới cần hợp đồng completeness detector.
-3. Chọn cơ chế lưu/huấn luyện với unknown trước exporter: loại mẫu thiếu nhãn hoặc masked supervision là quyết định còn mở, không tự mã hóa unknown thành 0.
-4. Xác định crop inference không phụ thuộc annotation phone có sẵn; kiểm duplicate/group split và freeze test. Group không biết để trống ở audit, không tạo split độc lập giả.
+3. Owner đã chọn ba trạng thái và masked supervision ở ADR-013; triển khai schema/codec theo contract, review version trước exporter. Unknown không mã hóa thành 0/negative; crop có known target chỉ dùng target đó khi các gate khác đạt.
+4. Đóng gói crop đã review; crop runtime không phụ thuộc annotation phone là gate riêng trước baseline B end-to-end. Kiểm duplicate/group evidence trước split và freeze test. Thiếu group giữ split=null/review_only và chặn release training; không tạo split độc lập giả.
 5. Triển khai builder classifier B, chạy validation/checksum/rebuild, owner ký release rồi DVC push/pull từ checkout sạch.
 
 Không train, build chính thức hoặc tự accepted trong đợt cleanup này. P0 DVC round-trip chưa kiểm chứng; không gọi P0/P1/P2 hoàn tất.
+
+Task thiết kế pilot sau cleanup cũng không build/train/accepted; danh sách triển khai hữu hạn và DoD ở hợp đồng pilot B, checkpoint ở [`.codex/TASK.md`](../../.codex/TASK.md).

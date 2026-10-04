@@ -5,6 +5,8 @@
 - Supersedes: phần chờ chọn A/B và normal/co-occurrence trong ADR-002, ADR-011.
 - Evidence: owner quyết định trong hội thoại: “YOLO tìm người → Crop → Classifier”; normal là người đang làm bài không có bằng chứng hai hành vi và đã review thủ công; đồng xuất hiện gán cả hai nhãn.
 
+Cập nhật theo [ADR-013](ADR-013-pilot-b-packaging-contract.md): unknown target vẫn ở ngoài supervision/metric, nhưng crop có target khác đã biết được phép masked supervision khi các gate khác đạt. Pilot đóng gói crop đã review; automatic runtime crop là gate riêng trước baseline B end-to-end. Các đoạn “schema sẽ thiết kế sau” bên dưới mô tả trạng thái lúc ADR-012 được chốt; thiết kế hiện hành ở [hợp đồng pilot B](../data/pilot-b-release-contract-v1.md), chưa có exporter/dataset accepted.
+
 ## Quyết định
 
 1. Chọn **B: YOLO phát hiện người → crop theo người → classifier multi-label**. Detector tìm person, không dùng lớp hành vi làm lớp detector. Tracking/temporal chưa thuộc baseline này.
