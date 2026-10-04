@@ -1,5 +1,30 @@
 # WORKLOG
 
+## 2026-10-04 — Chốt B/multi-label và tạm hoãn P042
+
+- Owner chọn YOLO person → crop → multi-label classifier; normal là người đang làm bài, vắng mặt hai target đã review; co-occurrence giữ cả hai nhãn. Hai câu hỏi bổ sung đã trả lời: đồng ý looking_around dựa hướng nhìn rõ trên ảnh tĩnh và crop thêm bàn/phone liên quan có review. ADR-012 ghi quyết định, không tuyên bố có benchmark A/B.
+- Đồng bộ architecture, label strategy/spec, annotation guideline, index và ghi supersession ADR-002/011. Config chỉ sửa note draft, không đổi tên/ID/mapping/split hoặc build schema.
+- P042 chuyển deferred_initial_subset trong output mới v2 bằng logic nhóm đã có: 29 loại + 11 deferred + 13 held + 21 bbox-approved = 74. 24 bbox giữ nguyên; chưa đủ completeness, chưa accepted/train. Raw không đổi.
+- Đã chạy 52 unittest PASS và Ruff PASS. Tiếp tục cần crop/completeness QA, schema classifier và kiểm chứng crop inference; hiện chưa chọn model/head/loss/threshold hay suy group_id. P0 DVC push/pull chưa kiểm chứng; P1 chưa đóng.
+- Kiểm cuối: compile/repo checker/diff check PASS; 70 links và output/code/decision hashes PASS; queue chỉ thay P042, approved boxes giữ nguyên byte. Git 10 modified + 13 untracked gồm các lượt chưa commit trước; chưa commit. Checker chỉ xét Git index, không coi đó là kiểm tra toàn bộ file untracked.
+
+## 2026-10-04 — Áp dụng owner review remaining QA
+
+- Đọc AGENTS/index, ADR-011, annotation guideline, review đã sửa và code/manifest. Giữ nguyên hai câu trả lời của owner trong decision manifest mới; xác nhận P023 là phone, duyệt 13 ảnh/14 bbox, P042 giữ pending vì chưa có chỉ dẫn sửa/loại cụ thể; 13 ảnh thiếu bằng chứng giữ ngoài train.
+- Output mới remaining-reviewed-20261004-v1: 74 ảnh = 29 loại + 10 deferred cũ + 13 held mới + 21 bbox-approved + 1 pending. Tổng 24 bbox; 8 record cũ bảo toàn, không ghi đè báo cáo trước. Chưa train/accepted, không đổi mapping/split/ADR/raw. Những mục QA trước ở dưới là lịch sử.
+- Thêm công cụ áp dụng quyết định có pin hash và regression bảo vệ coverage/identity, không duyệt proposal rỗng, không biến hold/pending thành normal. 52 unittest PASS; Ruff/compile/repository checker/diff check PASS (checker chỉ Git index). Hash input/output/code, nguyên văn owner, 8 approvals cũ, tọa độ 14 bbox mới, queue và 62 liên kết PASS. Ruff lần đầu báo lambda assignment; đã sửa trước khi xuất bản cuối.
+- Git cuối lượt: 3 modified + 9 untracked, gồm cả phần QA lượt trước chưa commit; không phải tất cả đều mới tạo lượt này. Ảnh/output ignored không tính vào số Git này. Thay đổi qua công cụ patch để review; chưa commit.
+- Tiếp theo: hoàn thiện completeness cho 21 ảnh, trình owner quyết định formulation A/B, normal/co-occurrence và quy tắc looking_around trước nhãn chính thức; group/split và P1 vẫn mở. P0 DVC push/pull chưa kiểm chứng. P042 có thể tiếp tục ở ngoài, không cần hỏi lại để hoàn tất lượt áp dụng này.
+
+## 2026-10-04 — QA toàn bộ phần Roboflow còn lại
+
+- Đọc AGENTS/index, label/annotation/split specs, remaining-review và code/manifest hiện hành. Bắt đầu từ Git sạch tại cbd5eeb trên D:/ai-exam-monitoring-final.
+- Xem riêng 27 ảnh train còn lại và 8 ảnh đã duyệt. Tạo 15 bbox đề xuất trên 14 ảnh; 13 ảnh giữ chờ bằng chứng. Xem lại 14 overlay có bbox, chỉnh extent P047; không gọi proposal là owner-approved. [Gói review](data/candidates/Roboflow-remaining-qa-20261004.md) có ảnh, crop và câu hỏi cụ thể.
+- Thêm validator review plan, script tái tạo và 4 regression tests. Output v2 pin source/code/plan hashes, bảo toàn byte của 10 bbox cũ, ghi reject dòng toàn cảnh P070 riêng; không xuất training labels, không giải nén thêm ZIP. Fixture chỉ phục vụ phần mềm.
+- Kiểm tra: 50 unittest PASS; Ruff PASS; repository checker --require-git PASS (chỉ Git index, chưa gồm file mới untracked). Lần test đầu có 2 lỗi do kỳ vọng sai loại exception; đã sửa test theo DataContractError hiện có và chạy lại toàn bộ thành công.
+- Chờ owner review 14 proposal và phạm vi P042/P048; các ignore cũ không hỏi lại. Completeness đã rà và ghi thiếu, chưa hoàn tất annotation mọi người. Chưa chốt looking_around/normal/co-occurrence/A-B, group/split hoặc P1 acceptance. P0 DVC push/pull vẫn chưa kiểm chứng. Không đổi raw/config/ADR, không build/train.
+- Kiểm cuối: compileall và git diff --check PASS; 57 output hashes, 4 input hashes, 58 liên kết và bảo toàn approved bytes PASS. Summary tracked bằng nhau theo JSON (khác newline Windows, không yêu cầu byte-identical). Git có đúng 3 modified + 6 untracked; ảnh/outputs ignored không tính vào số này. Chưa commit lượt QA mới để owner review đề xuất.
+
 ## 2026-10-04 — Đã áp dụng hai quyết định nhóm sau batch 2
 
 - Owner chốt “Loại cả 7 ảnh nhiễu” P058–P064 và “Giữ ngoài subset đầu tiên” cho 10 ảnh góc khác/thiếu phần người; lưu nguyên văn, không suy group_id hoặc threshold.

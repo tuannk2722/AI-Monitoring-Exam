@@ -1,5 +1,15 @@
 # Annotation Guideline v1 — Draft (Bản thảo Hướng dẫn Annotation)
 
+## Cập nhật owner — ADR-012 (ưu tiên so với các mục A/B pending lịch sử bên dưới)
+
+- Formulation B: YOLO tìm person → crop có ngữ cảnh → classifier multi-label. Bbox người và vùng crop là hai vùng khác nhau; không sửa bbox đã duyệt chỉ để bao phone trên bàn.
+- Crop được chứa thêm vùng bàn/phone liên quan và phải review; chưa có padding cố định. Phải kiểm crop không cắt bằng chứng và không gây nhầm phone của người khác. Crop thủ công là mẫu QA, chưa phải quy tắc crop inference đã kiểm chứng.
+- Looking_around ảnh tĩnh positive khi đầu/hướng nhìn rõ đang nhìn sang người khác hoặc ra khỏi vùng bài làm. Chỉ lệch đầu/cúi đọc viết/mơ hồ chưa đủ kết luận, giữ unknown ngoài train; không suy duration.
+- Review từng target riêng. Cả hai positive thì giữ cả hai; unknown không thành negative. Normal chỉ cho người đang làm bài và cả hai target vắng mặt đã review, không suy từ thiếu box hoặc một tư thế.
+- Tiếp tục QA trên 21 ảnh/24 bbox phone_use đã duyệt; cần ghi từng người, vùng crop, trạng thái từng target và người review trước dataset build. Không tự thêm negative cho người còn thiếu nhãn.
+
+[ADR-012](../decisions/ADR-012-formulation-b-multilabel.md) chốt formulation/ngữ nghĩa; schema lưu trữ, model/loss và crop inference còn cần thiết kế/kiểm chứng, không phải dataset accepted.
+
 1. Unit person đã chốt tại [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); formulation A/B còn mở; không trộn lẫn person box, phone-object box và behavior clip dưới cùng một class ID.
 2. Annotator gán pseudonymous sample ID và giữ lại metadata source/group.
 3. Annotation dựa trên định nghĩa quan sát được; đánh dấu rõ trường hợp mơ hồ (ambiguous) và lý do ignore.

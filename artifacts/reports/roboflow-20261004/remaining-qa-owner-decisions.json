@@ -1,0 +1,146 @@
+{
+  "base_summary_sha256": "10085763e6d2a30ac91377f5604130cc11afdafbcb5b267b08b80496ca793aad",
+  "source_document": "docs/data/candidates/Roboflow-remaining-qa-20261004.md",
+  "answers_verbatim": [
+    "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone.",
+    "Đồng ý giữ ngoài dữ liệu train."
+  ],
+  "items": [
+    {
+      "id": "P002",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P007",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P009",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P022",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P023",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P028",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P032",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P033",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P035",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P038",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P039",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P043",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P047",
+      "action": "approve_bbox_only",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P042",
+      "action": "keep_pending",
+      "answer_verbatim": "Duyệt tất cả trừ P042, trong đó P023 tôi xác nhận vật người đó cầm có tính là phone."
+    },
+    {
+      "id": "P003",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P004",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P005",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P024",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P025",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P026",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P027",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P037",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P040",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P041",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P048",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P069",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    },
+    {
+      "id": "P070",
+      "action": "hold_outside_train",
+      "answer_verbatim": "Đồng ý giữ ngoài dữ liệu train."
+    }
+  ],
+  "dataset_accepted": false
+}

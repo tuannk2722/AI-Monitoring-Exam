@@ -12,5 +12,5 @@ prohibited_aliases:
   - cheater
   - no_cheating
 notes:
-  - "Multi-label behavior is conceptually allowed; exact representation depends on P1 task formulation."
+  - "ADR-012 selects person detection + crop + multi-label classification; classifier encoding is pending."
   - "This draft must not be treated as a frozen training label map."

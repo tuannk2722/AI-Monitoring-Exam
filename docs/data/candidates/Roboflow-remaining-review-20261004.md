@@ -1,5 +1,9 @@
 # Roboflow — toàn bộ phần việc còn lại sau batch 2
 
+**Sau owner review:** đã áp dụng tại [gói QA](Roboflow-remaining-qa-20261004.md): tổng 21 ảnh / 24 bbox duyệt; 13 ảnh giữ ngoài train, P042 chưa duyệt. 29 ảnh loại và 10 ảnh tạm ngoài subset từ trước giữ nguyên. Chưa accepted hoặc đủ completeness để train.
+
+**Cập nhật QA:** Đã xem từng ảnh trong 27 ảnh còn lại và rà completeness 8 ảnh đã duyệt. [Gói review đầy đủ](Roboflow-remaining-qa-20261004.md) có 15 bbox đề xuất trên 14 ảnh, 13 ảnh giữ chờ bằng chứng. Chưa owner duyệt các đề xuất mới; 10 bbox cũ giữ nguyên. Các mục dưới ghi trạng thái trước lượt QA này.
+
 Batch 2 và hai quyết định nhóm đã được owner chốt, không cần trả lời lại. Kết quả hiện hành: **29 ảnh loại, 10 ảnh tạm giữ ngoài subset đầu tiên, 35 ảnh ứng viên gồm 8 ảnh đã duyệt 10 bbox và 27 ảnh chưa duyệt bbox**. Cả 8 ảnh có bbox vẫn cần QA đầy đủ các người/hành vi trước train. Không có dataset accepted hoặc model đã train.
 
 Đã xem 44 ảnh qua bốn sheets để phân loại công việc, không phải đã kiểm đầy đủ từng nhãn: [sheet 1](../../../outputs/roboflow-batch2-reviewed-20261004-v1/remaining-01.png), [sheet 2](../../../outputs/roboflow-batch2-reviewed-20261004-v1/remaining-02.png), [sheet 3](../../../outputs/roboflow-batch2-reviewed-20261004-v1/remaining-03.png), [sheet 4](../../../outputs/roboflow-batch2-reviewed-20261004-v1/remaining-04.png). Source path/hash vẫn ở [remaining manifest](../../../outputs/roboflow-batch2-reviewed-20261004-v1/remaining.json).

@@ -1,5 +1,7 @@
 # ADR-002 — Candidate taxonomy và formulation gate
 
+Cập nhật 2026-10-04: phần formulation/normal được thay thế bởi [ADR-012](ADR-012-formulation-b-multilabel.md), owner chọn B và multi-label sau audit. Nội dung dưới giữ lịch sử; không tuyên bố đã benchmark A/B.
+
 - Status: Accepted as a research constraint; final formulation pending P1
 - Date: 2026-09-19
 

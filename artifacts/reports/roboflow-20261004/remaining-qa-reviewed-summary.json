@@ -1,0 +1,30 @@
+{
+  "base": "D:/ai-exam-monitoring-final/outputs/roboflow-remaining-qa-20261004-v2",
+  "output": "D:/ai-exam-monitoring-final/outputs/roboflow-remaining-reviewed-20261004-v1",
+  "base_summary_sha256": "10085763e6d2a30ac91377f5604130cc11afdafbcb5b267b08b80496ca793aad",
+  "decision_sha256": "ca88f196fcd6f25ad19424f08ab421990d5901a5f320c5344de62e528e5cf563",
+  "script_sha256": "2af7371b771e6efc1db41ceddc2d3127f58dab4cbc9df2c98f01810a65223dc1",
+  "logic_sha256": "9bd0a593893ba3abb24c3dc4f6e24dc0ae07cadb07fb5b1048a233566015ba35",
+  "queue_images": 74,
+  "dispositions": {
+    "excluded_by_owner": 4,
+    "bbox_approved_completeness_pending": 21,
+    "held_outside_train_by_owner": 13,
+    "excluded_UI_subtitle_policy": 16,
+    "deferred_initial_subset": 10,
+    "pending_manual_QA": 1,
+    "excluded_owner_noise": 9
+  },
+  "approved_images": 21,
+  "approved_boxes": 24,
+  "training_eligible_images": 0,
+  "dataset_accepted": false,
+  "outputs_sha256": {
+    "approved-boxes.json": "a5a561bcbd8505bca9548c334adb4bdac841e90e050af866db6c308ec87a6f3b",
+    "completeness.json": "e3eca55b9ba95929c294a03e5efc400de3d292d779fa8523dcd7203b0950c4ff",
+    "held.json": "34cf329c20a79c4e2feca3d8d3eb5c940da514358082b39203c24984661f54b6",
+    "pending.json": "cbfb9b7f49944c053fca11799f4322df99937523ac562177dd617c6800c900f7",
+    "queue.json": "ae864d4c55110a16598e420233c85e263e08a05b09223059c954e347466eff6c",
+    "source-rejections.json": "f4f23ab844fff25e4a1f434d3165e6754c6c43e05c014f22887a1b6168506a77"
+  }
+}

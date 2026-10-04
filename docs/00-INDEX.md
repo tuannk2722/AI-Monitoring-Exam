@@ -66,9 +66,9 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 | ID | Câu hỏi | Owner | Chốt khi |
 |---|---|---|---|
 | TBD-DATA-01 | Release/URL/license/checksum chính xác của SCB5/Roboflow | Data Lead | P1 audit |
-| TBD-LABEL-01 | `normal` là class tường minh hay absence/background | Team + Data Lead | A/B feasibility audit |
-| TBD-TASK-01 | Detection A hay detector+classifier B | Model Lead | benchmark trên dữ liệu đã audit |
-| TBD-ANN-01 | Person unit đã chốt (ADR-011); cách biểu diễn/crop còn chờ A/B | Owner | batch QA và formulation |
+| LABEL-01 (đã chốt ngữ nghĩa) | Normal đã review; hai target đồng thời giữ cả hai, ADR-012 | Owner | Schema classifier còn cần thiết kế |
+| TASK-01 (đã chốt) | YOLO person → crop → multi-label classifier B, ADR-012 | Owner | Không phải kết quả benchmark A/B |
+| TBD-ANN-01 | Person unit và crop có ngữ cảnh đã chốt; còn quy tắc crop tự động | Owner | crop QA và kiểm chứng inference |
 | TBD-EVT-01 | Ngưỡng duration/gap/event | Pipeline Lead | event validation set |
 | TBD-METRIC-01 | Gate promotion bằng số | Team | sau E001 baseline/error analysis |
 | TBD-RET-01 | Thời gian retention media/evidence thật | Giáo viên/team | trước khi thu thập |
@@ -84,3 +84,7 @@ Pilot Roboflow: [74 ảnh và kết quả owner review](data/candidates/Roboflow
 [Batch 2 đã duyệt](data/candidates/Roboflow-phone-use-batch2-20261004.md): tổng 10 bbox trên 8 ảnh; sau quyết định nhóm, 29 loại, 10 ngoài subset đầu tiên, 35 ảnh ứng viên vẫn cần completeness QA, chưa accepted.
 
 [Toàn bộ phần việc còn lại](data/candidates/Roboflow-remaining-review-20261004.md): hai quyết định nhóm đã áp dụng, còn 27 ảnh chưa duyệt bbox; không phải đã có group/session IDs.
+
+[QA toàn bộ 27 ảnh còn lại](data/candidates/Roboflow-remaining-qa-20261004.md): tổng 24 bbox / 21 ảnh. 13 ảnh giữ ngoài train, 11 ảnh deferred gồm P042; completeness còn mở, chưa training eligible.
+
+[ADR-012](decisions/ADR-012-formulation-b-multilabel.md): owner chọn B, normal đã review, multi-label đồng thời; chốt guideline looking_around ảnh tĩnh và crop có ngữ cảnh. Chưa chọn model/loss, chưa dataset accepted.

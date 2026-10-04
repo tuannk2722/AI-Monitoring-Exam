@@ -6,7 +6,7 @@ Version: `label-map-v0.2-draft`. Owner/người chốt: chủ repository. Review
 
 - Chỉ annotate bằng chứng quan sát được; nhiều hành vi có thể cùng tồn tại.
 - Không suy diễn ý định/vi phạm.
-- Unit **person** theo [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); biểu diễn normal/formulation A/B còn mở. Đây là version tài liệu; config runtime/mapping chưa nâng version.
+- Unit **person** theo [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); formulation B và multi-label theo [ADR-012](../decisions/ADR-012-formulation-b-multilabel.md). Config runtime/mapping chưa nâng version; còn cần hoàn thiện guideline/crop và schema classifier.
 - Nếu bằng chứng quá nhỏ/bị che/mơ hồ, dùng ignore/exclusion có lý do đã được review.
 
 ## `phone_use`
@@ -17,13 +17,17 @@ Version: `label-map-v0.2-draft`. Owner/người chốt: chủ repository. Review
 
 ## `looking_around`
 
-**Positive candidate**: định hướng quan sát được của đầu/mắt lệch khỏi hướng làm việc dự kiến theo quy tắc pose/duration đã review.
-**Negative candidate**: di chuyển mắt thông thường khi đọc giấy/điều chỉnh tư thế mà không thỏa quy tắc.
+**Positive trên ảnh tĩnh**: đầu/hướng nhìn thể hiện rõ đang nhìn sang người khác hoặc ra khỏi vùng bài làm, theo owner tại ADR-012.
+**Unknown**: chỉ lệch đầu, cúi đọc/viết hoặc không rõ hướng nhìn khi chưa có đủ bằng chứng review; giữ ngoài train, không tự coi là negative. Tư thế đọc/viết một mình không chứng minh normal. Ảnh tĩnh không xác nhận được thời lượng; không tự đặt ngưỡng góc/thời gian.
 Nhãn này không trực tiếp có nghĩa là vi phạm.
 
 ## `normal`
 
-Biểu diễn sự vắng mặt đã review của cả `looking_around` và `phone_use` (không gồm unknown/occluded) chỉ khi formulation B cần một explicit negative class. Với formulation A, background/no target có thể không phải là một annotated person-behavior box. P1 phải chọn và tài liệu hóa.
+Người đang làm bài, đã review thủ công và không có bằng chứng `looking_around` hoặc `phone_use`. Không có box không có nghĩa normal; người chưa review hoặc thiếu bằng chứng do che/mờ giữ unknown. Normal không đồng thời với hai target.
+
+## Co-occurrence và formulation
+
+YOLO tìm người → crop → classifier multi-label. Khi cùng có bằng chứng, gán cả `phone_use` và `looking_around` cho cùng người. Chưa chọn head/loss hoặc schema vector/mask; không tự biến target unknown thành negative. Detector chỉ tìm người, không dùng lớp hành vi làm lớp detector.
 
 ## Source aliases (Ánh xạ từ nguồn gốc)
 

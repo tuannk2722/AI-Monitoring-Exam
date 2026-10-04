@@ -1,5 +1,7 @@
 # ADR-011 — Person unit và định nghĩa phone_use sau owner review
 
+Cập nhật 2026-10-04: [ADR-012](ADR-012-formulation-b-multilabel.md) chốt B, normal/co-occurrence và crop context. Các ghi chú A/B pending dưới đây là lịch sử; person unit/phone definition giữ nguyên.
+
 - Status: Accepted cho quyết định dưới đây; dataset acceptance và A/B vẫn pending.
 - Date: 2026-10-04. Decision owner: chủ repository. Hỗ trợ triển khai/review: Codex.
 - Evidence: [18 câu trả lời owner](../data/candidates/Roboflow-phone-use-20261004-review.md), [manifest](../../artifacts/reports/roboflow-20261004/owner-decisions.json).
