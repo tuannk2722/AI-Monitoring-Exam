@@ -1,34 +1,11 @@
-# 08 — P1 Dataset Research (Nghiên cứu Dataset)
+# 08 — P1 Dataset Research
 
-P1 là điều kiện bắt buộc trước khi training chính thức. Các nguồn candidate là SCB5 và bộ Exam Cheating trên Roboflow; release và quyền sử dụng chính xác vẫn chưa được giải quyết.
+Audit & Spec được tổng hợp cho Formulation B theo ADR-011/012. Không tiếp tục benchmark A/B hoặc vòng review ảnh nhỏ lẻ. [Dataset research](data/dataset-research.md) là trạng thái/vai trò SCB5 và Roboflow hiện hành.
 
-## Audit bắt buộc cho mỗi nguồn
+Bằng chứng đã có: archive identity/hash, class namespaces, structure/geometry, exact duplicates, mẫu trực quan và owner decisions. Audit tự động không chứng minh annotation đầy đủ. Hai nguồn vẫn candidate, chưa accepted cho train.
 
-- URL có thẩm quyền, owner, release/version/ngày truy cập, citation;
-- license/terms, quyền phân phối lại/tạo bản phái sinh/dùng cho training;
-- SHA-256 của archive và hướng dẫn tải về;
-- số lượng/loại media, độ phân giải, góc camera, số người mỗi cảnh;
-- định dạng annotation, classes, định nghĩa, phân bố;
-- mẫu bị hỏng/thiếu/orphan/bbox lỗi;
-- mẫu trùng lặp/gần trùng/nhóm frame video và split hiện có;
-- domain gap so với một camera classroom góc rộng;
-- nguy cơ bảo mật dữ liệu cá nhân;
-- đề xuất mapping sang canonical labels kèm các trường hợp unmapped/ignore.
+P1 còn gate preparation: phạm vi mẫu release, labels/crop policy thực thi được, coverage normal/negative/unknown, group/split và quyền dùng trong phạm vi release. Không đòi owner xác nhận lại quyền SCB hoặc kiến trúc đã chốt.
 
-Tạo một card từ `templates/dataset-candidate-template.md`, sau đó chạy:
+Mỗi nguồn giữ ba tài liệu: candidate card, audit lịch sử, consolidated review. Raw bất biến; historical evidence hợp nhất giữ nội dung/hash. Không thêm script theo từng câu hỏi review.
 
-```bash
-python -m ai_exam_monitoring.data.audit --dataset data/raw/<source> --images images --labels labels --source-names source-names.json --output artifacts/reports/<source>-audit.json
-```
-
-Thay `images`, `labels` bằng subtree thực tế đã xác minh; cung cấp bảng ID/tên nguồn tường minh. Xem [contract audit](data/source-audit.md) và lệnh overlay trong README.
-
-Output tự động là bằng chứng, không phải toàn bộ audit. Reviewer cần kiểm tra trực quan các mẫu phân tầng (stratified samples) và overlay. Không bao giờ suy ra group ID chỉ từ tên frame ngẫu nhiên nếu metadata video/session gốc có thể khôi phục được.
-
-## Quyết định tính khả thi (Feasibility Decision)
-
-Xây một subset nhỏ đã review cho formulation A (behavior detection) và B (person crop classification). So sánh công sức annotation, khả năng multi-label, hiệu năng trên người nhỏ và độ phức tạp tích hợp. Ghi quyết định vào ADR-002/003; không dùng test data.
-
-## Deliverables
-
-Dataset cards, bằng chứng license, `dataset-research.md`, label spec, annotation guideline, split spec, sample audit report, source manifest và cập nhật ADR. P1 chỉ kết thúc khi source/mapping/task/annotation unit chính xác có thể được review.
+Chuyển sang [P2](09-phase-p2-dataset-preparation.md) để tạo package B sau khi gate còn thiếu được xử lý. Chưa có dataset training hoặc kết quả model để tuyên bố hoàn thành P1.

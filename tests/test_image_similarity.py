@@ -4,7 +4,7 @@ from PIL import Image
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.data.image_similarity import difference_hash, nearest_by_split
-from scripts.audits.roboflow_pilot import validate_proposal
+from ai_exam_monitoring.data.review import validate_proposal
 
 
 class SimilarityTests(unittest.TestCase):

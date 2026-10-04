@@ -1,35 +1,41 @@
-# Dataset Research — Bản ghi làm việc
+# Dataset Audit & Spec — trạng thái và phương án sử dụng
 
-## Danh mục candidate
+Ngày: 2026-10-04. Đây là đầu mối hiện hành sau consolidation; không mở thêm vòng review ảnh nhỏ lẻ. Kiến trúc và semantics theo ADR-011/012. **Audit & Spec đã được tổng hợp; dataset training chưa accepted, P1 preparation gates còn mở.** Không có benchmark/model kết quả để báo cáo.
 
-| ID | Candidate | Trạng thái hiện tại | Bằng chứng còn thiếu |
-|---|---|---|---|
-| DS-SCB5 | SCB5 | CANDIDATE / chưa được chấp nhận | Đã pin ba ZIP và audit; owner phê duyệt quyền/metadata. Còn QA/unit, group mapping thực tế, near-duplicate và mapping canonical |
-| DS-RF-EXAM | Roboflow Exam Cheating CV export/model source | CANDIDATE / chưa được chấp nhận | Đã pin và audit v1 owner ZIP; còn unit/semantics, near-duplicate/grouping, phạm vi quyền theo asset và quyết định subset |
+## Vai trò hai nguồn trong Formulation B
 
-Không được ghi tên dataset và đánh dấu là đã chọn. Data Lead tạo candidate card riêng cho từng nguồn và đính kèm audit report/checksum/bằng chứng license.
+| Nguồn/phần | Vai trò trong preparation | Không được làm |
+|---|---|---|
+| Roboflow v1 | Nguồn bổ sung phone_use; giữ 28 person/crop đã duyệt trên 21 ảnh và các quyết định loại/hold | Dùng nguyên 3.407 ảnh như dataset canonical; tự map No cheating thành normal |
+| SCB5 Head / TurnHead | Nguồn ứng viên looking_around, relabel theo hướng nhìn/ngữ cảnh đã chốt | Map toàn bộ TurnHead trực tiếp hoặc suy thời lượng từ ảnh |
+| SCB5 HRW / read, write | Nguồn ứng viên normal và cảnh đang làm bài; phải review từng target trên crop được chọn | Coi read/write tự động là normal |
+| SCB5 BowHead, hand-raising | Ngoài mapping trực tiếp của release đầu; có thể dùng ảnh phù hợp sau review hai target | Suy cúi đầu/tay khuất là gian lận hoặc negative |
+| SCB5 Discuss | Loại khỏi baseline theo owner | Dùng group box như person box |
 
-## Hypothesis kết hợp nguồn
+SCB đã audit toàn bộ ba ZIP (10.138 ảnh, 8.116 SHA unique), không cần audit lại hay lặp toàn bộ chuỗi review Roboflow. Phần chưa làm là chọn một tập hữu hạn và relabel theo B, dùng **cùng manifest/quy trình preparation**, không tạo launcher từng batch. Roboflow đã làm sâu hơn vì phone_use thiếu trong taxonomy nguồn SCB; đó không có nghĩa SCB bị loại bỏ.
 
-SCB5 có thể đóng góp mẫu hành vi giống kỳ thi; Roboflow có thể mở rộng mẫu đã annotate. Kết hợp hai nguồn chỉ hợp lệ khi: canonical semantics khớp nhau, provenance/trùng lặp đã rõ ràng, license cho phép sử dụng, và grouped split ngăn được source/video leakage. Source được giữ lại trong manifest để có thể báo cáo metrics per-source và domain bias.
+## Đã có, đã chốt
 
-## Decision gate (Điều kiện quyết định)
+- B: YOLO person → crop có ngữ cảnh → classifier multi-label. Chưa chọn model/weights/loss.
+- Normal là người đang làm bài với absence hai target đã review; unknown không phải negative.
+- Đồng xuất hiện giữ hai nhãn; crop không làm thay đổi bbox visible-person.
+- Roboflow: 74 ảnh trong queue = 29 excluded + 11 deferred + 13 held + 21 ảnh có người được duyệt. 28 person/crop: 24 phone positives, 5 looking positives, 1 co-occurrence; 27 người còn một target unknown. Không có normal/negative được duyệt trong 28 record này.
+- SCB: Discuss loại; quyền sử dụng đã được owner xác nhận, không hỏi lại. Group/session từng mẫu vẫn thiếu. 961 nhóm exact duplicate có thành viên train/val khi xét chung archive; không giữ split cũ khi hợp nguồn.
+- Roboflow nguồn có 3.407 cặp, 34 file geometry warning/35 dòng khoảng 0.005 pixel; full exact checks không thấy trùng nội bộ/cross-SCB. Similarity triage chỉ là ứng viên, chưa chứng minh độc lập split.
 
-Chấp nhận/từ chối mỗi nguồn độc lập. Nếu một nguồn thất bại về quyền/chất lượng/mapping, baseline có thể dùng nguồn còn lại hoặc một subset đã review. Số lượng mẫu lớn hơn không phải lý do để giữ lại nhãn không tương thích.
+## Hồ sơ duy nhất cần đọc
 
+- SCB: [card](candidates/SCB5-supplied-20261003.md), [audit lịch sử](candidates/SCB5-supplied-20261003-audit.md), [review](candidates/SCB5-supplied-20261003-review.md).
+- Roboflow: [card](candidates/Roboflow-phone-use-20261004.md), [audit lịch sử](candidates/Roboflow-phone-use-20261004-audit.md), [toàn bộ quyết định](candidates/Roboflow-phone-use-20261004-review.md).
+- Evidence: SCB audit.json; Roboflow audit.json và review.json. Historical records giữ nguyên text/hash, không phải trạng thái hiện hành; current_person_crops/image_queue trong review.json là snapshot cuối.
+- Outputs media giữ nguyên local/ignored. Scripts theo phiên đã nghỉ; Git và snapshots trong review.json giữ provenance, không hứa replay các launcher đã bỏ.
 
-## Audit phiên bản SCB owner cung cấp — 2026-10-03
+## Các việc còn lại để phát hành dataset B
 
-Đã kiểm toàn bộ ba ZIP Discuss 2024-9-17, Handrise-Read-write 2024-9-17 và BowTurnHead 20250509, SHA-256 local khớp blob Hugging Face. [Candidate card](candidates/SCB5-supplied-20261003.md), [báo cáo](candidates/SCB5-supplied-20261003-audit.md), [ảnh cần review](candidates/SCB5-supplied-20261003-review.md).
+1. Đóng danh sách mẫu release hữu hạn từ hai nguồn theo vai trò trên, dựa coverage/nhóm thực tế; chưa bịa số lượng hoặc ngưỡng đủ dữ liệu.
+2. Chuẩn bị crop và target labels cho tập đã chọn; bổ sung negative/normal được review. Crop classifier chỉ cần target và bằng chứng phù hợp, không bắt annotate mọi người ngoài crop. Nếu huấn luyện detector riêng mới cần hợp đồng completeness detector.
+3. Chọn cơ chế lưu/huấn luyện với unknown trước exporter: loại mẫu thiếu nhãn hoặc masked supervision là quyết định còn mở, không tự mã hóa unknown thành 0.
+4. Xác định crop inference không phụ thuộc annotation phone có sẵn; kiểm duplicate/group split và freeze test. Group không biết để trống ở audit, không tạo split độc lập giả.
+5. Triển khai builder classifier B, chạy validation/checksum/rebuild, owner ký release rồi DVC push/pull từ checkout sạch.
 
-10.138 ảnh/cặp nhãn; 546 file label bị flag; không ảnh hỏng/thiếu cặp. 8.116 SHA-256 ảnh duy nhất; 961 nhóm exact duplicate chéo train/val khi xét chung ba phần. Chưa kiểm tra gần trùng hoặc xác định video/session group. Không có class phone_use/normal nguồn; Discuss có box nhóm. Giữ CANDIDATE, chưa đủ bằng chứng chốt A/B. Không đổi status trong config hay mapping canonical.
-
-## Cập nhật 2026-10-04
-
-Owner loại Discuss, xác nhận phê duyệt quyền/metadata SCB; giữ quyết định đã ghi trong candidate SCB. Chưa có bảng group mapping từng file để thực thi split.
-
-Roboflow v1 đã audit 3,407 cặp, pin SHA ZIP và lưu [bằng chứng](../../artifacts/reports/roboflow-20261004/provenance.json). [Báo cáo](candidates/Roboflow-phone-use-20261004-audit.md), [ảnh/câu hỏi review](candidates/Roboflow-phone-use-20261004-review.md), [candidate/mapping/P1](candidates/Roboflow-phone-use-20261004.md). Có 35 dòng vượt biên trong 34 file, mức khoảng 0.005 pixel; không tự repair. Phone use 120 raw annotations trên 98 ảnh, trong đó train 82 trên 66 ảnh; strict chỉ 117 trên 95 ảnh vì loại file có dòng lỗi ở lớp khác.
-
-Đã xem 16 train samples + 2 warning images, thấy Phone use trộn phone/hand/person unit, có mẫu lớp 0/1 không khớp semantics dự kiến. Exact duplicate nội bộ/cross-split/cross-SCB đều 0; chưa near-duplicate hoặc group leakage. Giữ CANDIDATE để review/relabel subset train; chưa đủ bằng chứng chốt A/B. Không dùng thiếu box hoặc tên No cheating làm normal/negative.
-
-Roboflow owner review 2026-10-04: đã trả lời 18 mục; person unit/phone_use theo [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md). W02 có geometry preview; W01 và batch relabel/QA còn mở. Candidate/pending_audit, A/B và split chưa chốt.
+Không train, build chính thức hoặc tự accepted trong đợt cleanup này. P0 DVC round-trip chưa kiểm chứng; không gọi P0/P1/P2 hoàn tất.

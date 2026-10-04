@@ -1,7 +1,7 @@
 import unittest
 from copy import deepcopy
 
-from scripts.audits.roboflow_batch2_review import apply_group_choices, verify_reviewed_proposals
+from ai_exam_monitoring.data.review import apply_group_choices, verify_reviewed_proposals
 
 
 class ReviewIdentityTests(unittest.TestCase):

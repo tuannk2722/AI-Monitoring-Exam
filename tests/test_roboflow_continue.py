@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.audits.roboflow_continue import apply_decisions
+from ai_exam_monitoring.data.review import apply_decisions
 
 
 class OwnerDecisionTests(unittest.TestCase):

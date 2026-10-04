@@ -2,9 +2,13 @@
 
 Python dataclass trong `src/ai_exam_monitoring/contracts/domain.py` là contract thực thi được.
 
-## Dataset manifest
+## Dataset manifest legacy (YOLO detection)
 
 Các cột: `sample_id,image_path,label_path,source,video_id,session_id,room_id,subject_id,group_id,split,dataset_version,label_map_version,license_id,sha256`. `sample_id` phải unique toàn cục; `group_id` là bắt buộc; một group không được phép vắt qua train/val/test. Metadata nguồn chưa biết để trống.
+
+## Classifier B — phần cần triển khai
+
+Manifest legacy trên không biểu diễn target multi-label/unknown. Snapshot audit dùng person/crop/source SHA và target states, không phải schema training đã freeze. Trước exporter cần chốt schema version, encoding positive/negative/unknown và crop inference, rồi cập nhật producer/consumer/tests cùng lúc. Không tự chuyển unknown thành 0 hoặc dùng class ID detector làm target classifier. Detector person và behavior predictions là các task khác nhau.
 
 ## Prediction
 

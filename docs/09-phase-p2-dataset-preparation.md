@@ -1,36 +1,28 @@
-# 09 — P2 Dataset Preparation (Chuẩn bị Dataset)
+# 09 — P2 Dataset Preparation cho Formulation B
 
-## Output chuẩn tắc
+Kiến trúc: YOLO person → crop context → classifier multi-label (ADR-012). Nguồn, phạm vi và việc còn lại theo [dataset research](data/dataset-research.md).
 
-```text
-data/processed/exam/
-├── images/{train,val,test}/
-├── labels/{train,val,test}/
-├── dataset.yaml
-├── manifest.csv
-├── label_map.yaml
-└── dataset_report.json
-```
+## Hợp đồng chuẩn bị
 
-`data/raw` là bất biến. Conversion theo từng nguồn được thực hiện qua code/manifest đã review. `interim` và `processed` đều có thể tái tạo.
+- Giữ source image identity/hash, person bbox, context crop, target labels/unknown, reviewer, provenance và split/group.
+- Tách person bbox khỏi crop context; không gán phone gần nhất. Không dùng annotation phone lúc inference nếu pipeline thực tế không có.
+- Normal chỉ khi hai target vắng mặt đã review; positive đồng thời giữ cả hai. Unknown không mã hóa thành zero. Schema vector/mask và cơ chế loss còn cần quyết định trước exporter.
+- Classifier crop đủ nhãn không bắt buộc annotate mọi người ngoài crop; train detector riêng cần dataset person đầy đủ theo hợp đồng riêng.
+- Dedup/group trước split; không dùng cùng ảnh/crop liên quan ở nhiều split. Không bịa session/video.
+- Owner solo review và ký release; Codex triển khai/kiểm tra.
 
-## Source manifest bắt buộc
+## Build hiện tại
 
-Mỗi nguồn raw phải có `source_manifest.csv` với các cột canonical định nghĩa trong `25-interface-and-data-contracts.md`. `group_id` phải nhóm các frame/mẫu không được phép chia sang các split khác nhau. Metadata không biết được phép để trống; metadata bịa là không được phép.
+`configs/datasets/exam_v0.1.yaml` khai báo B và pending_preparation. `data.build_dataset` là converter YOLO detection legacy, **từ chối config B**; không phải exporter multi-label. Không đổi status accepted hoặc điền mapping nguyên lớp để ép chạy.
 
-## Build gate (Điều kiện mở khóa build)
+Chưa có lệnh build classifier B được hỗ trợ. Công việc tiếp theo phải thiết kế exporter tái tạo từ manifest đã review, kèm schema version và tests. Layout final phụ thuộc schema này; không gọi labels/*.txt YOLO là nhãn classifier B.
 
-`configs/datasets/exam_v0.1.yaml` cố tình để `sources` ở trạng thái `pending_audit` và mapping trống. Data Lead phải điền mapping nguyên class nguồn → class canonical (dưới dạng số nguyên) và chỉ đặt `accepted` sau khi reviewer phê duyệt. Nếu chưa đủ điều kiện, build sẽ fail.
+## Điều kiện đóng gói release
 
-```bash
-python -m ai_exam_monitoring.data.build_dataset --config configs/datasets/exam_v0.1.yaml
-python -m ai_exam_monitoring.data.validate_labels --labels data/processed/exam/labels --class-ids 0,1,2
-dvc add data/raw data/processed/exam
-dvc push
-```
+1. Phạm vi mẫu và target encoding/unknown policy được review, đủ coverage theo mục đích pilot/baseline đã công bố.
+2. Crop policy dùng được ở inference, provenance và labels có thể kiểm tra.
+3. Split/group/dedup report, test freeze, mapping từng mẫu hoặc relabel đã được owner ký.
+4. Build deterministic, validation/checksum/rebuild pass; dataset card nêu rõ giới hạn.
+5. DVC pointers/version và push/pull từ checkout sạch xác minh nội dung giống nhau. Owner tự kiểm tra, không cần người thứ hai.
 
-Commit các file pointer, config, các báo cáo JSON/CSV nhỏ và tag milestone được phê duyệt (`dataset-v0.1`). Không tạo `dataset_final2/`; Git commit + DVC hash quản lý version nội dung; `exam_v2` được dành riêng cho thay đổi schema/taxonomy có chủ đích.
-
-## DoD (Điều kiện hoàn thành P2)
-
-Build là deterministic; checksum và provenance tồn tại; kiểm tra group leakage pass; label mapping đã được đóng băng; phân bố split/QA đã được review; thành viên thứ hai có thể `git pull && dvc pull` và thu được version giống hệt.
+Không train để chứng minh đóng gói; không gọi audit snapshot là training release. P0 DVC round-trip vẫn chưa được kiểm chứng.

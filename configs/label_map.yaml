@@ -1,6 +1,7 @@
 schema_version: 1
-version: label-map-v0.1-draft
+version: label-map-v0.2-draft
 status: draft
+# Taxonomy catalog; IDs are not positions in an implemented B target vector.
 canonical:
   0: normal
   1: looking_around

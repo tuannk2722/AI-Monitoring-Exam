@@ -1,5 +1,8 @@
 # SCB supplied — ảnh cần owner review
 
+> Checklist mẫu lịch sử. Discuss đã loại, quyền SCB đã xác nhận và B đã chốt. Không mở lại vòng review; preparation theo dataset-research.md.
+
+
 Gói local: `outputs/scb-audit-20261003-v1/`. Ảnh là annotation gốc, không phải prediction. Không gửi ảnh lên dịch vụ ngoài hay commit binary. Các ảnh `R` được chọn có chủ đích theo class và diện tích box nhỏ nhất/trung vị/lớn nhất trong train hợp lệ; các ảnh `warning` dùng tọa độ gốc bị flag. Không đại diện ngẫu nhiên cho toàn nguồn, không suy ra tỷ lệ sai nhãn từ tập mẫu này.
 
 ## Ưu tiên xem

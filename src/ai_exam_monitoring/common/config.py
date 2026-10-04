@@ -33,6 +33,11 @@ def require(config: dict[str, Any], dotted_key: str) -> Any:
 
 
 def validate_training_config(config: dict[str, Any]) -> None:
+    if config.get("formulation") == "B":
+        raise ConfigurationError(
+            "Formulation B trainer/evaluator is not implemented; "
+            "legacy YOLO detection training is not a multi-label baseline."
+        )
     for key in (
         "data.dataset_yaml",
         "data.dataset_version",

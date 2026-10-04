@@ -1,4 +1,7 @@
 schema_version: 1
+# Preparation plan only; not a classifier dataset export schema.
+formulation: B
+status: pending_preparation
 dataset_version: dataset-v0.1
 split_version: split-v0.1
 label_map_version: label-map-v0.1
@@ -14,14 +17,17 @@ split_group_priority:
   - session_id
   - video_id
 sources:
+  # Head/HRW candidates require per-crop relabel; Discuss excluded.
   - id: scb5
     root: data/raw/scb5
     converter: scb
-    status: pending_audit
+    status: pending_preparation
+  # Supplementary phone_use source; use reviewed crops, not automatic class mapping.
   - id: roboflow_exam
     root: data/raw/roboflow_exam
     converter: roboflow_yolo
-    status: pending_audit
+    status: pending_preparation
+# Names/IDs are a legacy taxonomy catalog, NOT classifier vector positions.
 canonical_labels:
   - id: 0
     name: normal
@@ -30,7 +36,7 @@ canonical_labels:
   - id: 2
     name: phone_use
 label_mapping:
-  # Fill only after inspecting exact source labels. Unknown labels fail closed.
+  # Legacy converter mappings remain empty; B requires per-crop reviewed labels.
   scb5: {}
   roboflow_exam: {}
 copy_mode: copy

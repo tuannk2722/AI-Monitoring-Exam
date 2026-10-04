@@ -1,10 +1,13 @@
 # SCB supplied — báo cáo audit 2026-10-03
 
+> Audit gốc: giữ số liệu/quan sát lịch sử. Formulation B đã chốt và quyền SCB đã được owner xác nhận. Các kết luận chưa chốt A/B/quyền bên dưới chỉ thuộc thời điểm audit, không phải yêu cầu hỏi lại. Candidate card và dataset-research.md là trạng thái hiện hành.
+
+
 **Kết luận: chưa chọn làm dataset training đầu tiên; giữ CANDIDATE.** Ba ZIP có dữ liệu hữu ích để nghiên cứu annotation, nhưng chưa đủ quyền sử dụng/metadata nhóm, có lỗi bbox, trùng chéo split và thiếu lớp phone_use. Không build, train, sửa raw, đổi mapping hoặc đánh dấu accepted.
 
 ## Phạm vi và nhận dạng
 
-Audit máy đọc toàn bộ **10.138 JPG + 10.138 TXT** trong đúng ba ZIP owner cung cấp, kiểm CRC khi giải nén và SHA-256 archive khớp blob Hugging Face. Chỉ giải nén vào thư mục output mới, không sửa archive. Không kiểm tra phần Teacher/LLM/YOLO.zip còn lại. Tên/hash/URL chính xác nằm trong [candidate card](SCB5-supplied-20261003.md) và [provenance](../../../artifacts/reports/scb-20261003/provenance.json).
+Audit máy đọc toàn bộ **10.138 JPG + 10.138 TXT** trong đúng ba ZIP owner cung cấp, kiểm CRC khi giải nén và SHA-256 archive khớp blob Hugging Face. Chỉ giải nén vào thư mục output mới, không sửa archive. Không kiểm tra phần Teacher/LLM/YOLO.zip còn lại. Tên/hash/URL chính xác nằm trong [candidate card](SCB5-supplied-20261003.md) và [provenance](../../../artifacts/reports/scb-20261003/audit.json).
 
 Công cụ chuẩn: `ai_exam_monitoring.data.audit.audit_dataset` và `data.overlay.export_overlays` tại commit `6203be99fce8f9036bcbf2218d8f04cc2ede2ed1`, Python 3.11.9. Script phiên audit [run_audit.py](../../../outputs/scb-audit-20261003-v1/run_audit.py) gọi công cụ hiện có và bổ sung hashing chéo archive; [review_samples.py](../../../outputs/scb-audit-20261003-v1/review_samples.py) chọn mẫu và đo lỗi dòng nhãn. Không thay code production hoặc threshold.
 
@@ -32,7 +35,7 @@ Có một số cảnh báo float cực nhỏ (ví dụ Head: 2,22e-16); có lỗ
 
 ## Phân bố lớp
 
-ID **riêng từng phần**, lấy từ YAML nguồn được ghi URL trong [web-evidence](../../../artifacts/reports/scb-20261003/web-evidence.json). Đây là transcription thứ tự `names` theo YOLO zero-based, không phải mapping canonical. Raw là số dòng có class token, bao gồm dòng/file bị lỗi; strict là annotations từ **file hoàn toàn hợp lệ** theo công cụ audit.
+ID **riêng từng phần**, lấy từ YAML nguồn được ghi URL trong [web-evidence](../../../artifacts/reports/scb-20261003/audit.json). Đây là transcription thứ tự `names` theo YOLO zero-based, không phải mapping canonical. Raw là số dòng có class token, bao gồm dòng/file bị lỗi; strict là annotations từ **file hoàn toàn hợp lệ** theo công cụ audit.
 
 | Phần / ID / tên | Raw train | Raw val | Raw tổng | Strict tổng |
 |---|---:|---:|---:|---:|
@@ -60,7 +63,7 @@ Các cực trị width/height có thể thuộc các ảnh/box khác nhau; khôn
 - SHA-256 toàn bộ ảnh của ba phần: **8.116 file bytes duy nhất**, **1.892 nhóm trùng**, **2.022 bản dư**.
 - **1.891 nhóm trùng giữa archive**; **961 nhóm có cả train và val**. Đây là exact duplicate overlap xác nhận trên byte, không phải suy đoán gần trùng.
 - Trong riêng từng archive: Discuss 0 nhóm; Head 0; HRW có một nhóm hai ảnh đều thuộc val (`3001001.jpg`, `3001049.jpg`). Không thấy exact duplicate chéo train/val nội bộ từng archive; điều này không chứng minh split độc lập theo video.
-- Ví dụ xác minh: `images/val/0001081.jpg` của HRW có cùng hash với `images/train/0001081.jpg` của Head; overlay lần lượt có 3 và 4 annotations, do hai phần annotate các lớp khác nhau. [Bằng chứng hash/member](../../../artifacts/reports/scb-20261003/duplicate-review-example.json).
+- Ví dụ xác minh: `images/val/0001081.jpg` của HRW có cùng hash với `images/train/0001081.jpg` của Head; overlay lần lượt có 3 và 4 annotations, do hai phần annotate các lớp khác nhau. [Bằng chứng hash/member](../../../artifacts/reports/scb-20261003/audit.json).
 - Danh sách đầy đủ nhóm/member: [cross-duplicates.json](../../../outputs/scb-audit-20261003-v1/cross-duplicates.json). **Chưa chạy thuật toán gần trùng**. Ảnh nối tiếp trong mẫu Head-P01/P02 trông cùng cảnh nhưng không được dùng để gán video_id hay kết luận số nhóm.
 
 Bài báo nguồn mô tả ảnh trích từ video, một số lớp được annotate có chọn lọc và các phần có thể chia split riêng; xem [§3.1, §3.4](https://arxiv.org/html/2304.02488v7). Đây chỉ là mô tả upstream; tỷ lệ quan sát của từng ZIP ở bảng trên mới là số liệu phiên này. Không có mapping frame → video/session/room trong ZIP. Tên số/prefix chỉ là manh mối, chưa suy ra group_id. Metadata bổ sung owner sẽ cung cấp sau.
@@ -76,7 +79,7 @@ Bài báo nguồn mô tả ảnh trích từ video, một số lớp được an
 - Head: thấy vùng đầu/thân trên khác kích thước, có người vừa giơ tay vừa quay đầu; ảnh tĩnh không cung cấp duration hoặc ý định. BowHead và write có thể đồng thời; không tự gán normal.
 - Ảnh từ góc trước/sau, toàn cảnh/cận cảnh, watermark/player UI và độ nét khác nhau; có domain gap so với một camera phòng thi.
 
-Danh sách câu hỏi và link mẫu: [review checklist](SCB5-supplied-20261003-review.md). Bảng source → ý nghĩa → đề xuất canonical và quyết định A/B: [candidate card](SCB5-supplied-20261003.md#canonical-mapping-đề-xuất-chưa-phê-duyệt). **Chưa đủ bằng chứng chốt A/B hoặc accepted**.
+Danh sách câu hỏi và link mẫu: [review checklist](SCB5-supplied-20261003-review.md). Bảng source → ý nghĩa → đề xuất canonical và quyết định A/B: [candidate card](SCB5-supplied-20261003.md). **Chưa đủ bằng chứng chốt A/B hoặc accepted**.
 
 ## Tái tạo và bằng chứng kiểm tra
 
@@ -94,4 +97,4 @@ Artifact phân tách: summary/provenance/selection JSON nhỏ ở `artifacts/rep
 
 ## P1 còn thiếu
 
-Xem danh sách TBD có owner/điều kiện chốt trong [candidate card](SCB5-supplied-20261003.md#việc-cần-hoàn-thành-để-qua-p1): rights/privacy, group mapping và near-duplicate, QA/unit, canonical semantics/coverage phone_use, rồi feasibility A/B và owner sign-off. P0 chưa được đóng thay bằng kết quả này.
+Xem danh sách TBD có owner/điều kiện chốt trong [candidate card](SCB5-supplied-20261003.md): rights/privacy, group mapping và near-duplicate, QA/unit, canonical semantics/coverage phone_use, rồi feasibility A/B và owner sign-off. P0 chưa được đóng thay bằng kết quả này.

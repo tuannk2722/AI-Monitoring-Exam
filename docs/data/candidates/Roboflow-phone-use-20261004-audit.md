@@ -1,12 +1,15 @@
 # Roboflow v1 — báo cáo audit hoàn thiện 2026-10-04
 
+> Audit gốc: giữ số liệu/quan sát lịch sử. Formulation B đã chốt và quyền SCB đã được owner xác nhận. Các kết luận chưa chốt A/B/quyền bên dưới chỉ thuộc thời điểm audit, không phải yêu cầu hỏi lại. Candidate card và dataset-research.md là trạng thái hiện hành.
+
+
 **Đề xuất: giữ CANDIDATE để review/relabel subset; chưa dùng nguyên trạng cho training.** Điểm quan trọng là nhãn Phone use trộn box người và điện thoại/tay, lớp 0/1 chưa khớp semantics của dự án, thiếu grouping. Các cảnh báo geometry chỉ khoảng 0.005 pixel; không dùng số 34 file bị flag để suy ra có 34 lỗi lớn.
 
 ## Phạm vi, công cụ và bằng chứng
 
 Đúng archive owner gửi: `C:/Users/OS/Downloads/Exam cheating.v1i.yolov8.zip`, 98,747,246 bytes; SHA-256 `70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed`. CRC pass. 6,826 ZIP entries gồm 9 directories + 6,817 files (3,407 JPG, 3,407 labels, 3 metadata); không nhầm file source-names.json bổ sung của audit với nội dung gốc ZIP.
 
-[Metadata nguyên văn](../../../artifacts/reports/roboflow-20261004/source-metadata.json) xác nhận project/version 1, source names, CC BY 4.0 và dates. [Provenance](../../../artifacts/reports/roboflow-20261004/provenance.json) ghi code_commit, hash source code/script, Python/dependencies, ZIP và output hashes. Chưa có remote ZIP checksum độc lập để đối chiếu; kết luận áp dụng đúng bytes owner cung cấp.
+[Metadata nguyên văn](../../../artifacts/reports/roboflow-20261004/audit.json) xác nhận project/version 1, source names, CC BY 4.0 và dates. [Provenance](../../../artifacts/reports/roboflow-20261004/audit.json) ghi code_commit, hash source code/script, Python/dependencies, ZIP và output hashes. Chưa có remote ZIP checksum độc lập để đối chiếu; kết luận áp dụng đúng bytes owner cung cấp.
 
 Lần hoàn thiện **tái sử dụng ba full-decode reports** đã chạy bằng `audit_dataset` trên tất cả 3,407 ảnh. Script đọc lại ZIP nguyên bản, kiểm CRC/hash, quét **mọi dòng label**, đối chiếu số ảnh/label, tập file lỗi và counts strict với từng report. Hash reports tái sử dụng được lưu; không tuyên bố chạy lại toàn bộ image decode. Hash ảnh nội bộ/cross-SCB được tính lại trực tiếp từ ZIP. Chỉ trích 16 cặp train cho overlay mới, không giải nén lại toàn bộ.
 
@@ -23,14 +26,14 @@ Lần hoàn thiện **tái sử dụng ba full-decode reports** đã chạy bằ
 
 Layout `{train,valid,test}/images` ↔ `{train,valid,test}/labels`; pairing theo relative path. Không có missing/orphan/ambiguous, ảnh decode lỗi hay label rỗng. Quét lại từng dòng không thấy class ID ngoài 0..2, NaN/Infinity, width/height không dương. README/classes metadata không bị coi là label. Test chỉ được kiểm cấu trúc/nhãn/hash; không dùng ảnh test để chọn policy hoặc tuning.
 
-[Train summary](../../../artifacts/reports/roboflow-20261004/train-summary.json), [valid summary](../../../artifacts/reports/roboflow-20261004/valid-summary.json), [test summary](../../../artifacts/reports/roboflow-20261004/test-summary.json) giữ min/max/mean bbox, resolution, counts và đường dẫn full report. Các full report vẫn có `has_errors=true`; quá trình audit chạy xong không có nghĩa dữ liệu pass.
+[Train summary](../../../artifacts/reports/roboflow-20261004/audit.json), [valid summary](../../../artifacts/reports/roboflow-20261004/audit.json), [test summary](../../../artifacts/reports/roboflow-20261004/audit.json) giữ min/max/mean bbox, resolution, counts và đường dẫn full report. Các full report vẫn có `has_errors=true`; quá trình audit chạy xong không có nghĩa dữ liệu pass.
 
 ## Lỗi geometry: mức độ thực tế
 
 - **35 dòng lỗi trong 34 file**: 22 horizontal, 13 vertical. Script kiểm từng dòng độc lập; khác với report gốc chỉ trả lỗi đầu tiên của mỗi file.
 - Mức vượt normalized từ `7.812499999815259e-6` tới `1.201923076932232e-5`; quy về kích thước ảnh đều khoảng **0.005 pixel**. Đây là subpixel nhỏ, không phải lỗi bbox lớn. Kiểm Decimal trực tiếp từ text cũng cho phần vượt dương; chưa xác minh nguyên nhân làm tròn/export, không gọi đây chỉ là sai số máy 1e-16.
 - Không dòng nào có overflow ≤1e-12 normalized. Con số này chỉ mô tả, **không phải epsilon được áp dụng**.
-- [Diagnostics](../../../artifacts/reports/roboflow-20261004/diagnostics.json); [toàn bộ raw line lỗi](../../../outputs/roboflow-v1-20261004-complete-v2/invalid-rows.json). W01/W02 trong checklist vẽ box gốc, đỏ là dòng bị flag, vàng là các dòng khác.
+- [Diagnostics](../../../artifacts/reports/roboflow-20261004/audit.json); [toàn bộ raw line lỗi](../../../outputs/roboflow-v1-20261004-complete-v2/invalid-rows.json). W01/W02 trong checklist vẽ box gốc, đỏ là dòng bị flag, vàng là các dòng khác.
 - Không tự clip/repair. Nếu owner chốt cách xử lý, phải tạo version derivative/provenance riêng, giữ raw bất biến.
 
 ## Phân bố lớp: raw, từng dòng hợp lệ và strict
@@ -67,13 +70,13 @@ R01 (ID0) có box 1×4 pixel; R07 (ID2) có box 15×7 pixel. Kích thước lớ
 
 ## Duplicate và video/session
 
-SHA-256 được tính cho **mọi ảnh**, kể cả ảnh có label file lỗi: 3,407 ảnh / 3,407 hash duy nhất; 0 exact groups, 0 cross-split exact groups. So với 10,138 ảnh / 8,116 hash unique của đúng ba ZIP SCB đã kiểm lại SHA archive: 0 cross-source matches. [Kết quả](../../../artifacts/reports/roboflow-20261004/duplicates-summary.json), [image hash manifest](../../../outputs/roboflow-v1-20261004-complete-v2/image-hashes.json).
+SHA-256 được tính cho **mọi ảnh**, kể cả ảnh có label file lỗi: 3,407 ảnh / 3,407 hash duy nhất; 0 exact groups, 0 cross-split exact groups. So với 10,138 ảnh / 8,116 hash unique của đúng ba ZIP SCB đã kiểm lại SHA archive: 0 cross-source matches. [Kết quả](../../../artifacts/reports/roboflow-20261004/audit.json), [image hash manifest](../../../outputs/roboflow-v1-20261004-complete-v2/image-hashes.json).
 
 **Chưa chạy thuật toán gần trùng.** Không có manifest frame→video/session/person/room trong ZIP. Filename `_mp4-`, timestamp và chuỗi đánh số là gợi ý liên hệ tác giả, không đủ căn cứ tạo group_id. Một số ảnh trông là frame/video screenshot hoặc ảnh đã xử lý; zero exact matches không chứng minh split độc lập, không phát hiện được re-encode/crop/noise variants. Chưa chấp nhận split website làm official split.
 
 ## Review trực quan và phát hiện
 
-[Checklist có link từng ảnh](Roboflow-phone-use-20261004-review.md), [selection](../../../artifacts/reports/roboflow-20261004/review-selection.json), [quan sát đã xem](../../../artifacts/reports/roboflow-20261004/visual-review.json).
+[Checklist có link từng ảnh](Roboflow-phone-use-20261004-review.md), [selection](../../../artifacts/reports/roboflow-20261004/audit.json), [quan sát đã xem](../../../artifacts/reports/roboflow-20261004/audit.json).
 
 Đã xem **16 ảnh train hợp lệ + 2 ảnh train warning**: 3 mẫu min/median/max bbox area cho mỗi lớp và 7 mẫu Phone use bổ sung trải theo filename. R01–R06 được xem qua contact sheets, R07–R16 và W01–W02 qua overlay đầy đủ. Đây là 18 ảnh có chủ đích; không dùng để ước lượng tỷ lệ nhãn sai, không tuyên bố đã review toàn bộ 24 overlay cũ. V2 renders đã so hash và giống bản được mở xem trong lần hoàn thiện này.
 
@@ -108,16 +111,16 @@ Các JSON sinh ra được sao chép nguyên bytes vào `artifacts/reports/robof
 
 ## Kiểm tra và giới hạn
 
-Kiểm tra cuối: **34 tests PASS**, Ruff PASS, compileall PASS, repository checker PASS (0 failures), git diff --check PASS; đối chiếu raw/strict/row counts, hash reports/script và links PASS. [Verification](../../../artifacts/reports/roboflow-20261004/verification.json) ghi phạm vi và giới hạn. Compile lần đầu bị sandbox chặn ghi __pycache__; đã chạy lại với quyền ghi và PASS. Audit kỹ thuật và hồ sơ hoàn thiện không thay thế owner quyết định unit/mapping/repair/accepted. Near duplicate, metadata groups, review exhaustive, consent theo asset và model quality chưa được kiểm chứng. P0 DVC push/pull chưa đóng; P1 chưa đạt exit gate.
+Kiểm tra cuối: **34 tests PASS**, Ruff PASS, compileall PASS, repository checker PASS (0 failures), git diff --check PASS; đối chiếu raw/strict/row counts, hash reports/script và links PASS. [Verification](../../../artifacts/reports/roboflow-20261004/audit.json) ghi phạm vi và giới hạn. Compile lần đầu bị sandbox chặn ghi __pycache__; đã chạy lại với quyền ghi và PASS. Audit kỹ thuật và hồ sơ hoàn thiện không thay thế owner quyết định unit/mapping/repair/accepted. Near duplicate, metadata groups, review exhaustive, consent theo asset và model quality chưa được kiểm chứng. P0 DVC push/pull chưa đóng; P1 chưa đạt exit gate.
 
 ## Hậu kiểm sau owner trả lời — 2026-10-04
 
-Đã chốt [ADR-011](../../decisions/ADR-011-person-unit-phone-definition.md) và [18 quyết định có source path](../../../artifacts/reports/roboflow-20261004/owner-decisions.json). Unit/phone_use không còn chờ trả lời; công việc relabel và acceptance vẫn còn. Số liệu/verification ở phần audit phía trên là lịch sử trước sửa thử, không được hiểu là toàn dataset đã sửa.
+Đã chốt [ADR-011](../../decisions/ADR-011-person-unit-phone-definition.md) và [18 quyết định có source path](../../../artifacts/reports/roboflow-20261004/review.json). Unit/phone_use không còn chờ trả lời; công việc relabel và acceptance vẫn còn. Số liệu/verification ở phần audit phía trên là lịch sử trước sửa thử, không được hiểu là toàn dataset đã sửa.
 
 Đã chạy preview W02 riêng bằng lệnh:
 
 ```powershell
-.venv/Scripts/python.exe scripts/audits/roboflow_w02_preview.py --archive "C:/Users/OS/Downloads/Exam cheating.v1i.yolov8.zip" --output outputs/roboflow-owner-review-20261004-v1
+# Launcher W02 đã nghỉ; script và evidence lịch sử nằm trong review.json.
 ```
 
-Chạy lại phải dùng tên output mới dưới outputs/. Script pin SHA-256 và đúng dòng nguồn, chỉ copy một ảnh/label, clip hai cạnh rồi tính lại center/width; strict validator giữ nguyên. [Repair evidence](../../../artifacts/reports/roboflow-20261004/w02-preview.json), [overlay](../../../outputs/roboflow-owner-review-20261004-v1/review/0001.png). Một dòng W02 đổi; những dòng còn lại giữ nguyên bytes; ảnh copy giữ hash. Đã xem overlay mới. W01 không sửa; raw/ZIP không đổi. Preview geometry pass không xác nhận semantics hay chất lượng model. Không thêm full extraction, không dùng test để chọn policy.
+Chạy lại phải dùng tên output mới dưới outputs/. Script pin SHA-256 và đúng dòng nguồn, chỉ copy một ảnh/label, clip hai cạnh rồi tính lại center/width; strict validator giữ nguyên. [Repair evidence](../../../artifacts/reports/roboflow-20261004/review.json), [overlay](../../../outputs/roboflow-owner-review-20261004-v1/review/0001.png). Một dòng W02 đổi; những dòng còn lại giữ nguyên bytes; ảnh copy giữ hash. Đã xem overlay mới. W01 không sửa; raw/ZIP không đổi. Preview geometry pass không xác nhận semantics hay chất lượng model. Không thêm full extraction, không dùng test để chọn policy.

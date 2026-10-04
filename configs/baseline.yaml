@@ -1,43 +1,29 @@
 schema_version: 1
+formulation: B
+status: pending_implementation
 project:
   name: ai-exam-monitoring
-
 experiment:
-  hypothesis: "Establish the first reproducible lightweight baseline after P1 approval."
+  hypothesis: "TBD_AFTER_DATASET_B_RELEASE"
   seed: 42
-
 data:
-  dataset_yaml: data/processed/exam/dataset.yaml
   dataset_version: dataset-v0.1
   split_version: split-v0.1
-  label_map_version: label-map-v0.1
-
+  label_map_version: label-map-v0.2-draft
 model:
-  # Candidate only. Record exact package/weight license before first official run.
-  family: yolo
-  checkpoint: yolo11n.pt
-  task: detect
-  pretrained: true
-
+  pipeline: person_detector_context_crop_multilabel_classifier
+  detector_family: yolo
+  detector_checkpoint: null
+  classifier: null
+  loss: null
 train:
-  epochs: 50
-  imgsz: 640
-  batch: 16
-  workers: 2
-  device: auto
-  patience: 20
-  save_period: 5
-
+  epochs: null
+  patience: null
 validation:
   split: val
-  confidence_threshold: 0.25
-  iou_threshold: 0.70
-
+  thresholds: null
 logging:
-  backend: wandb
   enabled: false
-  project: ai-exam-monitoring
-
 artifacts:
   root: artifacts
-  keep_last_checkpoint: true
+# Intentionally blocked: no chosen weights, classifier, loss or accepted dataset.

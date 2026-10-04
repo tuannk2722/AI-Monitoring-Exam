@@ -1,8 +1,10 @@
 # 00 — Documentation Index
 
+Đã áp dụng owner R1–R3: [crop ngữ cảnh và target labels](data/candidates/Roboflow-phone-use-20261004-review.md), 28 bbox/crop được duyệt, 24 phone positives + 5 looking positives (1 co-occurrence); 27 người còn target unknown, chưa accepted/train.
+
 ## Trạng thái hiện tại
 
-Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
+Ngày cập nhật: 2026-10-04. Owner: chủ repository (solo). Audit & Spec đã consolidation theo B; dataset release còn pending preparation. P0/P1 chưa đóng.
 
 `Accepted` = implementation contract (hợp đồng triển khai); `Draft` = hướng dẫn đang hoàn thiện; `TBD` = không được tự bịa giá trị.
 
@@ -10,7 +12,7 @@ Ngày cập nhật: 2026-09-19. Owner tài liệu: team. Phase: **P0 → P1**.
 |---|---|---|
 | `01-project-overview.md` | Accepted | Product mode, actor, processing mode |
 | `02-scope-and-principles.md` | Accepted | MVP/non-goal/thứ tự ưu tiên |
-| `03-system-architecture.md` | Accepted | Ranh giới hệ thống và hai formulation candidate |
+| `03-system-architecture.md` | Accepted | Ranh giới hệ thống và formulation B đã chọn |
 | `04-behavior-and-label-strategy.md` | Draft | Taxonomy candidate; đóng băng tại P1 |
 | `05-roadmap-and-timeline.md` | Accepted | P0–P9 entry/exit gate |
 | `06-team-collaboration-and-git.md` | Accepted | Workflow solo, owner tự review/chốt, artifact handoff |
@@ -51,7 +53,7 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 ## ADR records và quyết định hiện tại
 
 1. ADR-001 nghiên cứu học thuật/demo; không dùng cho quyết định kỷ luật.
-2. ADR-002 taxonomy candidate và multi-label-safe domain design; biểu diễn cuối chờ P1.
+2. ADR-002 research history; ADR-011/012 chốt person unit, B và multi-label.
 3. ADR-003 SCB5 + Roboflow là candidate, chưa được chấp nhận đến khi audit xong.
 4. ADR-004 local development + Colab Free GPU.
 5. ADR-005 DVC + Google Drive do thành viên được chỉ định kiểm soát.
@@ -65,7 +67,7 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 | ID | Câu hỏi | Owner | Chốt khi |
 |---|---|---|---|
-| TBD-DATA-01 | Release/URL/license/checksum chính xác của SCB5/Roboflow | Data Lead | P1 audit |
+| TBD-DATA-01 | Source identity đã pin; còn manifest nhóm và phạm vi release | Owner | preparation |
 | LABEL-01 (đã chốt ngữ nghĩa) | Normal đã review; hai target đồng thời giữ cả hai, ADR-012 | Owner | Schema classifier còn cần thiết kế |
 | TASK-01 (đã chốt) | YOLO person → crop → multi-label classifier B, ADR-012 | Owner | Không phải kết quả benchmark A/B |
 | TBD-ANN-01 | Person unit và crop có ngữ cảnh đã chốt; còn quy tắc crop tự động | Owner | crop QA và kiểm chứng inference |
@@ -75,16 +77,10 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 Mọi quyết định lớn: ADR → canonical docs/config → code. Không sửa ngược thứ tự.
 
-Audit Roboflow v1 owner cung cấp (hoàn thiện 2026-10-04): [candidate](data/candidates/Roboflow-phone-use-20261004.md), [báo cáo](data/candidates/Roboflow-phone-use-20261004-audit.md), [ảnh/câu hỏi review](data/candidates/Roboflow-phone-use-20261004-review.md), [provenance](../artifacts/reports/roboflow-20261004/provenance.json). Trạng thái CANDIDATE, chưa accepted. Quyết định SCB của owner được ghi tại mục cập nhật trong candidate SCB.
+## Đầu mối Dataset Audit & Spec
 
-Owner review Roboflow đã chốt 18 mục: [ADR-011](decisions/ADR-011-person-unit-phone-definition.md), [manifest](../artifacts/reports/roboflow-20261004/owner-decisions.json). Relabel/QA subset và P1 acceptance còn mở.
+[Phương án hai nguồn và việc còn lại](data/dataset-research.md), [P2 preparation B](09-phase-p2-dataset-preparation.md), [ADR-012](decisions/ADR-012-formulation-b-multilabel.md).
 
-Pilot Roboflow: [74 ảnh và kết quả owner review](data/candidates/Roboflow-phone-use-pilot-20261004.md). Đã chốt bốn mục: 3 bbox duyệt trên 2 ảnh, 2 ảnh nhiễu loại. Có similarity triage, chưa xác nhận group/split hoặc accepted.
+Roboflow: [card](data/candidates/Roboflow-phone-use-20261004.md), [audit gốc](data/candidates/Roboflow-phone-use-20261004-audit.md), [quyết định tổng hợp](data/candidates/Roboflow-phone-use-20261004-review.md). 28 person/crop đã duyệt, 27 target unknown, chưa training eligible.
 
-[Batch 2 đã duyệt](data/candidates/Roboflow-phone-use-batch2-20261004.md): tổng 10 bbox trên 8 ảnh; sau quyết định nhóm, 29 loại, 10 ngoài subset đầu tiên, 35 ảnh ứng viên vẫn cần completeness QA, chưa accepted.
-
-[Toàn bộ phần việc còn lại](data/candidates/Roboflow-remaining-review-20261004.md): hai quyết định nhóm đã áp dụng, còn 27 ảnh chưa duyệt bbox; không phải đã có group/session IDs.
-
-[QA toàn bộ 27 ảnh còn lại](data/candidates/Roboflow-remaining-qa-20261004.md): tổng 24 bbox / 21 ảnh. 13 ảnh giữ ngoài train, 11 ảnh deferred gồm P042; completeness còn mở, chưa training eligible.
-
-[ADR-012](decisions/ADR-012-formulation-b-multilabel.md): owner chọn B, normal đã review, multi-label đồng thời; chốt guideline looking_around ảnh tĩnh và crop có ngữ cảnh. Chưa chọn model/loss, chưa dataset accepted.
+SCB5: [card](data/candidates/SCB5-supplied-20261003.md), [audit gốc](data/candidates/SCB5-supplied-20261003-audit.md), [review](data/candidates/SCB5-supplied-20261003-review.md). Discuss loại; Head/HRW là nguồn ứng viên relabel theo B.

@@ -17,13 +17,13 @@ data/raw (bất biến, DVC)
 
 Các module Data/ML không được import FastAPI/web code. Web tiêu thụ các contract có version từ `25-interface-and-data-contracts.md`.
 
-## Formulation candidate A
+## Formulation A — phương án lịch sử không được chọn
 
 Formulation A được giữ làm phương án nghiên cứu lịch sử; owner đã chọn B tại [ADR-012](decisions/ADR-012-formulation-b-multilabel.md), chưa có benchmark so sánh.
 
 `frame → bbox + behavior class`. Baseline kiểu YOLO đơn giản, dễ tích hợp, nhưng một bbox thường chỉ mang một class và có thể không biểu diễn tốt các hành vi xảy ra đồng thời.
 
-## Formulation candidate B
+## Formulation B — kiến trúc đã chọn
 
 **Đã chọn B:** `frame → YOLO person bbox → crop → multi-label behavior classifier`, theo ADR-012. Tracking chưa thuộc baseline. Normal cần review thủ công; đồng thời phone_use/looking_around giữ cả hai nhãn. Owner cho phép crop có ngữ cảnh được review; cách tạo crop tự động và model cụ thể chưa chốt. Chưa có dataset accepted hoặc benchmark A/B.
 

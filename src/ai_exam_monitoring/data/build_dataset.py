@@ -32,6 +32,11 @@ def _parse_class_mapping(raw: dict[str, Any], canonical: dict[str, int]) -> dict
 
 def build_dataset(config_path: str | Path) -> dict[str, Any]:
     config = load_yaml(config_path)
+    if config.get("formulation") == "B":
+        raise DataContractError(
+            "Formulation B requires a reviewed multi-label crop exporter; "
+            "the legacy YOLO detection builder cannot export it."
+        )
     dataset_version = str(require(config, "dataset_version"))
     split_version = str(require(config, "split_version"))
     label_map_version = str(require(config, "label_map_version"))

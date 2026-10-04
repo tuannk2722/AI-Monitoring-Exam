@@ -9,7 +9,8 @@ from ai_exam_monitoring.common.errors import ConfigurationError
 class ConfigTests(unittest.TestCase):
     def test_baseline_config_contract(self) -> None:
         config = load_yaml("configs/baseline.yaml")
-        validate_training_config(config)
+        with self.assertRaisesRegex(ConfigurationError, "Formulation B"):
+            validate_training_config(config)
 
     def test_tbd_required_value_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

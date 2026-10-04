@@ -1,33 +1,16 @@
-# Annotation Guideline v1 — Draft (Bản thảo Hướng dẫn Annotation)
+# Annotation Guideline — Formulation B
 
-## Cập nhật owner — ADR-012 (ưu tiên so với các mục A/B pending lịch sử bên dưới)
+Owner solo là người chốt; Codex hỗ trợ. Quyết định semantics theo ADR-011/012, không mở lại A/B. Không bắt người thứ hai hoặc inter-annotator agreement để đóng pilot solo; đo consistency bằng kiểm tra lại tập mẫu có ghi nhận.
 
-- Formulation B: YOLO tìm person → crop có ngữ cảnh → classifier multi-label. Bbox người và vùng crop là hai vùng khác nhau; không sửa bbox đã duyệt chỉ để bao phone trên bàn.
-- Crop được chứa thêm vùng bàn/phone liên quan và phải review; chưa có padding cố định. Phải kiểm crop không cắt bằng chứng và không gây nhầm phone của người khác. Crop thủ công là mẫu QA, chưa phải quy tắc crop inference đã kiểm chứng.
-- Looking_around ảnh tĩnh positive khi đầu/hướng nhìn rõ đang nhìn sang người khác hoặc ra khỏi vùng bài làm. Chỉ lệch đầu/cúi đọc viết/mơ hồ chưa đủ kết luận, giữ unknown ngoài train; không suy duration.
-- Review từng target riêng. Cả hai positive thì giữ cả hai; unknown không thành negative. Normal chỉ cho người đang làm bài và cả hai target vắng mặt đã review, không suy từ thiếu box hoặc một tư thế.
-- Tiếp tục QA trên 21 ảnh/24 bbox phone_use đã duyệt; cần ghi từng người, vùng crop, trạng thái từng target và người review trước dataset build. Không tự thêm negative cho người còn thiếu nhãn.
+- Person bbox bao phần người nhìn thấy; không đoán cơ thể dưới bàn. Crop context có thể thêm bàn/phone liên quan, là vùng riêng với person bbox.
+- Phone_use: cầm/tương tác hoặc phone trên bàn liên kết rõ với target; không chọn người gần nhất.
+- Looking_around trên ảnh tĩnh: nhìn rõ sang người khác/ra khỏi vùng bài làm. Chỉ nghiêng đầu, cúi đọc/viết hoặc mắt không rõ giữ unknown nếu chưa đủ review. Không suy duration.
+- Normal: người làm bài với absence cả hai target được review. Không box không có nghĩa normal; unknown không thành negative.
+- Co-occurrence giữ cả hai target positive. P033 đã được owner duyệt cả hai; P036 nhìn về phone bên trái vẫn unknown cho looking_around.
+- Phải kiểm chứng bằng chứng trong crop thuộc target, không thuộc người khác. Không yêu cầu annotate toàn bộ người ngoài crop khi chỉ chuẩn bị classifier; detector training riêng có hợp đồng completeness riêng.
+- UI/phụ đề và các ảnh nhiễu đã loại giữ nguyên. Watermark được owner cho phép trong chọn mẫu, không suy quyền từng asset.
+- P029 là hai người chuyền một phone, cả hai phone_use; không đổi thành phone trên bàn.
 
-[ADR-012](../decisions/ADR-012-formulation-b-multilabel.md) chốt formulation/ngữ nghĩa; schema lưu trữ, model/loss và crop inference còn cần thiết kế/kiểm chứng, không phải dataset accepted.
+Ghi source identity/hash, person/crop coordinates, target states và reviewer. Không sửa raw. Duyệt bbox/crop không tự duyệt mọi target hoặc dataset release. Unknown policy/mask và crop inference còn cần chốt trước exporter; không tự đặt padding, angle, visibility threshold hoặc model/loss.
 
-1. Unit person đã chốt tại [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); formulation A/B còn mở; không trộn lẫn person box, phone-object box và behavior clip dưới cùng một class ID.
-2. Annotator gán pseudonymous sample ID và giữ lại metadata source/group.
-3. Annotation dựa trên định nghĩa quan sát được; đánh dấu rõ trường hợp mơ hồ (ambiguous) và lý do ignore.
-4. Reviewer kiểm tra mẫu phân tầng (stratified samples) theo từng class/source/điều kiện camera, và toàn bộ item được gắn cờ ambiguous.
-5. Các vấn đề phải được sửa và gửi lại; chỉ batch đã review mới trở thành dataset version được phê duyệt.
-
-Báo cáo QA ghi lại: batch, annotator/reviewer, phiên bản guideline, tổng số đã review, phân loại vấn đề, số lần sửa và bất đồng chưa giải quyết. Cần đo inter-annotator agreement trên một subset chung trước khi annotation số lượng lớn.
-
-Quy tắc số về kích thước tối thiểu/visibility/thời lượng là TBD sau khi có thống kê về resolution/bbox/time. Đến lúc đó, không được tự bịa threshold hay gán nhãn hàng loạt các trường hợp biên.
-
-## Áp dụng owner review Roboflow v1
-
-Owner chốt ngày 2026-10-04: person bbox chỉ bao phần người nhìn thấy, không ước lượng cơ thể khuất dưới bàn. Hình chữ nhật bao các phần nhìn thấy của cùng người có thể chứa vùng bị che ở giữa. Bbox vẽ thử bởi Codex là đề xuất chờ owner review, chưa phải annotation được accepted.
-
-Ví dụ P029 đã được owner sửa và xác nhận: hai người truyền cùng một điện thoại cho nhau, `phone_use` cho cả hai người tham gia tương tác; không ghi là phone trên bàn. Phê duyệt bbox cụ thể không thay thế QA đầy đủ các người/hành vi còn lại trong ảnh. P053/P065 bị loại vì nhiễu; không suy threshold chất lượng toàn nguồn từ hai quyết định này.
-
-Theo label spec draft v0.2: phone cầm/tương tác hoặc trên bàn liên kết rõ với người đều positive. Không đủ bằng chứng là unknown. Khi relabel cần kiểm mọi người trong ảnh, tránh bỏ sót positive. Vẽ person bbox bằng review thủ công, không suy bbox người từ bbox tay/phone. Quy tắc phần thân bị cắt/che, co-occurrence và looking_around ở trường hợp biên còn cần pilot QA; không tự đặt ngưỡng.
-
-Ignore không phải xóa dòng YOLO rồi coi ảnh là negative. Trước khi có cơ chế ignore phù hợp formulation, giữ ngoài batch train các ảnh còn vùng/person chưa giải quyết. Xóa box toàn cảnh cũng cần kiểm completeness trước khi dùng ảnh.
-
-UI web/phụ đề: loại khỏi train theo owner; rà toàn subset, chưa có detector tự động cho policy này. R15/ảnh nhiễu cần review riêng; watermark stock được owner chấp nhận trong chọn mẫu. W01 relabel thủ công; W02 chỉ preview clip geometry, semantics chưa pass. Không biến quyết định mẫu thành mapping toàn lớp nguồn.
+Kết quả hiện hành nằm trong [review Roboflow tổng hợp](candidates/Roboflow-phone-use-20261004-review.md). SCB và Roboflow dùng chung quy trình preparation theo [dataset research](dataset-research.md), không tách script theo từng vòng review.

@@ -12,7 +12,7 @@ Owner/người chốt: chủ repository. Audit kỹ thuật và xem mẫu: Codex
 - File owner gửi: `C:/Users/OS/Downloads/Exam cheating.v1i.yolov8.zip`, **98,747,246 bytes**.
 - SHA-256: `70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed`. ZIP CRC pass, 6,826 entries gồm directories; đúng 3,407 JPG + 3,407 label TXT + 3 file metadata.
 - `data.yaml` xác nhận workspace/project/version 1 và names; README ghi version date 2024-09-18, export date 2024-09-30 10:40 GMT. Phân biệt ngày export với ngày audit 2026-10-04. Không thay bằng phiên bản 7 của model hay con số 3,799 của toàn project.
-- [Provenance](../../../artifacts/reports/roboflow-20261004/provenance.json) ghi hash source, code/script, commit, Python/dependencies, reports tái sử dụng và hash outputs; [metadata nguyên văn](../../../artifacts/reports/roboflow-20261004/source-metadata.json) giữ data.yaml và hai README trong ZIP. Định danh bằng ZIP local, chưa so hash với một bản tải remote độc lập.
+- [Provenance](../../../artifacts/reports/roboflow-20261004/audit.json) ghi hash source, code/script, commit, Python/dependencies, reports tái sử dụng và hash outputs; [metadata nguyên văn](../../../artifacts/reports/roboflow-20261004/audit.json) giữ data.yaml và hai README trong ZIP. Định danh bằng ZIP local, chưa so hash với một bản tải remote độc lập.
 - Citation: *Exam cheating Dataset*, trn quang tip, Roboflow Universe, version 1, URL ở trên. Lệnh tái tạo cụ thể trong báo cáo audit.
 
 ## Quyền/Privacy
@@ -31,7 +31,7 @@ Owner/người chốt: chủ repository. Audit kỹ thuật và xem mẫu: Codex
 
 ## Canonical mapping (đề xuất, chưa phê duyệt)
 
-ID chép tường minh từ thứ tự names zero-based trong YAML YOLO nguồn, có [JSON ID/tên](../../../artifacts/reports/roboflow-20261004/source-names.json). Không phải config converter.
+ID chép tường minh từ thứ tự names zero-based trong YAML YOLO nguồn, có [JSON ID/tên](../../../artifacts/reports/roboflow-20261004/audit.json). Không phải config converter.
 
 | Source ID/tên | Ý nghĩa quan sát được | Đề xuất |
 |---|---|---|
@@ -41,27 +41,10 @@ ID chép tường minh từ thứ tự names zero-based trong YAML YOLO nguồn,
 
 117 strict annotations không phải bằng chứng 117 positive đã được con người xác nhận. Người/vật không có box không mặc định là negative/background.
 
-## Khả năng A/B
+## Vai trò đã chốt theo Formulation B
 
-**Chưa đủ bằng chứng chọn A hoặc B.** A (person-behavior detection) cần thống nhất bbox theo người; box điện thoại/tay nguồn không dùng thẳng được. B (person crop classification) cần person bbox/crop nhất quán, liên kết phone với người và negative/multi-label đã review; export này cũng chưa đáp ứng. Không train benchmark hay chọn kiến trúc trong audit; ADR-011 sau owner review chỉ chốt unit/semantics.
+Nguồn bổ sung phone_use sau relabel theo người/crop; không dùng nguyên trạng hoặc map lớp nguồn tự động. Snapshot cuối: 28 người/crop trên 21 ảnh đã duyệt, 24 phone positives + 5 looking positives (1 co-occurrence); 27 người còn target unknown. [Tổng hợp review](Roboflow-phone-use-20261004-review.md) là trạng thái hiện hành.
 
-Việc tiếp theo hợp lý: review 66 ảnh train có nhãn Phone use raw cùng các cảnh thiếu/sai nhãn, áp dụng person unit đã chốt và thiết kế subset nhỏ có provenance. Số 66 là phạm vi review train, không phải ngưỡng đủ dữ liệu.
+B đã được owner chọn tại ADR-012; không cần benchmark A/B để quyết định lại. P036 giữ unknown, normal không suy từ thiếu box. Source status vẫn candidate, dataset chưa accepted. Công việc còn lại là [preparation chung với SCB](../dataset-research.md), không mở lại chuỗi pilot/batch review. Metadata group và coverage negative còn thiếu; quyền SCB đã xác nhận không tự thay thế quyền/metadata nguồn Roboflow.
 
-## Việc cần hoàn thành để qua P1
-
-| ID / owner | Cần làm | Điều kiện chốt |
-|---|---|---|
-| RF-QA / owner + Codex | Checklist 18 mục đã trả lời; còn relabel/QA subset | Đã ghi quyết định; chưa vẽ lại person bbox/completeness |
-| RF-GEOMETRY / owner + Codex | W01 thủ công; W02 preview clip pass; các warning khác chưa được duyệt repair | Giữ validator; QA semantics riêng, không sửa hàng loạt |
-| RF-GROUP / owner + nguồn | Tìm video/session metadata; kiểm gần trùng và frame leakage | Bằng chứng group/split; không suy từ tên file; không tune test |
-| RF-RIGHTS / owner | Lưu điều khoản/attribution áp dụng khi dùng chính thức, đối chiếu asset có watermark nếu cần | Phạm vi dùng/relabel/redistribution/weights được ghi nhận, không suy consent |
-| RF-LABEL / owner | Person unit, phone_use mở rộng và normal semantics đã chốt; looking_around/co-occurrence còn mở | Pilot QA, mapping từng mẫu trước converter |
-| RF-TASK / owner | Sau QA, đánh giá công sức và tính khả thi A/B | ADR-002/003 cập nhật chỉ sau quyết định owner; mới xét accepted/build |
-
-Nguồn phone_use khác owner đang xin access vẫn là phương án bổ sung. Audit này không đóng P1; P0 DVC push/pull vẫn chưa được kiểm chứng.
-
-## Cập nhật sau owner review
-
-Owner đã trả lời đủ 18 mục, chốt person unit và mở rộng phone_use: cầm/tương tác hoặc phone trên bàn liên kết rõ với người. [ADR-011](../../decisions/ADR-011-person-unit-phone-definition.md), [kết quả review](Roboflow-phone-use-20261004-review.md#kết-quả-chốt-owner-review--2026-10-04) và [manifest](../../../artifacts/reports/roboflow-20261004/owner-decisions.json) là quyết định hiện hành. Normal cần absence đã review của cả hai target; unknown không phải normal. Watermark stock được owner chấp nhận trong lựa chọn mẫu; không tự xác minh quyền từng asset.
-
-Thống kê ở trên là **raw audit trước repair**, vẫn đúng cho ZIP bất biến. W02 có preview clip một dòng; W01 còn thủ công. R03 được owner xác nhận phone_use nhưng chưa vẽ lại bbox; R09/R12 cần person relabel/completeness; R10/R14 và UI/phụ đề bị loại theo policy; R15 chưa quality-pass. Không có mapping toàn lớp hay training subset đã build. Chưa đủ bằng chứng chọn A/B; CANDIDATE/pending_audit giữ nguyên.
+Số liệu audit ở trên thuộc ZIP bất biến; mô tả chưa near-duplicate là lịch sử audit nguồn. Sau đó đã có similarity triage trên pilot, không phải chứng minh leakage đã giải quyết.

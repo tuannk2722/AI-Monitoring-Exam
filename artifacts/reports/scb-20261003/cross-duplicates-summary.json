@@ -1,9 +1,0 @@
-{
-  "images": 10138,
-  "unique_sha256": 8116,
-  "duplicate_groups": 1892,
-  "extra_copies": 2022,
-  "cross_split_groups": 961,
-  "cross_archive_groups": 1891,
-  "near_duplicates_checked": false
-}
