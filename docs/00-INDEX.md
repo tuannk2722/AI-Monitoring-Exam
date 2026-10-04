@@ -80,3 +80,7 @@ Audit Roboflow v1 owner cung cấp (hoàn thiện 2026-10-04): [candidate](data/
 Owner review Roboflow đã chốt 18 mục: [ADR-011](decisions/ADR-011-person-unit-phone-definition.md), [manifest](../artifacts/reports/roboflow-20261004/owner-decisions.json). Relabel/QA subset và P1 acceptance còn mở.
 
 Pilot Roboflow: [74 ảnh và kết quả owner review](data/candidates/Roboflow-phone-use-pilot-20261004.md). Đã chốt bốn mục: 3 bbox duyệt trên 2 ảnh, 2 ảnh nhiễu loại. Có similarity triage, chưa xác nhận group/split hoặc accepted.
+
+[Batch 2 đã duyệt](data/candidates/Roboflow-phone-use-batch2-20261004.md): tổng 10 bbox trên 8 ảnh; sau quyết định nhóm, 29 loại, 10 ngoài subset đầu tiên, 35 ảnh ứng viên vẫn cần completeness QA, chưa accepted.
+
+[Toàn bộ phần việc còn lại](data/candidates/Roboflow-remaining-review-20261004.md): hai quyết định nhóm đã áp dụng, còn 27 ảnh chưa duyệt bbox; không phải đã có group/session IDs.

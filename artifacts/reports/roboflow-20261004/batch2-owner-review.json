@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "source_review_sha256": "b3271e1c1a95497e817a9ac5d13db38c1dcdfb4bc550ee6e936706d5a951931b",
+  "base_summary_sha256": "6c9dd90c928ffbbfac9e47dd1fb37233b8bfa115e08261655d1826d9039bb2f2",
+  "interpretation_P006": "Không answers whether any visible person part was missed: none missed; proposed boxes approved.",
+  "items": [
+    {
+      "id": "P006",
+      "answer_verbatim": "Không",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/20220620_122735-1-_jpg.rf.314d712f222144c6e8170c5ee9a6e909.jpg",
+      "image_sha256": "fb9aa70466782281308431206d590033f2e05b2db98d28c06b462bbca4694ced",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            7,
+            62,
+            69,
+            153
+          ]
+        },
+        {
+          "label": "phone_use",
+          "xyxy": [
+            108,
+            71,
+            171,
+            174
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "answer_verbatim": "Okay",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/20220620_122750-1-_jpg.rf.745425773534fd1ad7900254e09ea0ef.jpg",
+      "image_sha256": "ada542729d4d183ab0e6b3ee05fbc347834fc224ee010dbdbce90ffec417bdf6",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            37,
+            41,
+            169,
+            321
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P030",
+      "answer_verbatim": "Okay",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/IMG_6354_jpg.rf.ccad21cf31c73d408a884d32c944db88.jpg",
+      "image_sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            341,
+            181,
+            511,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P031",
+      "answer_verbatim": "Okay",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/IMG_6397_jpg.rf.ddd5b7220bb156828e1909c26cd7cfd9.jpg",
+      "image_sha256": "ad12fee6ba4a64edc032139ffacf6e6c907efa8c0f4b97cbd0301d37d5a624fd",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            45,
+            136,
+            334,
+            538
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P034",
+      "answer_verbatim": "Okay",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/IMG_6415_jpg.rf.72970291b7e3389c07392e714c23f18f.jpg",
+      "image_sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            24,
+            157,
+            294,
+            524
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P036",
+      "answer_verbatim": "Okay",
+      "action": "approve_proposed_boxes_only",
+      "source_image": "train/images/IMG_6417_jpg.rf.a82d5724400f327c86c83ea57e8238dd.jpg",
+      "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+      "boxes": [
+        {
+          "label": "phone_use",
+          "xyxy": [
+            76,
+            174,
+            291,
+            565
+          ]
+        }
+      ]
+    }
+  ],
+  "approval_scope": "proposed phone_use boxes only; not completeness or training acceptance",
+  "dataset_accepted": false
+}

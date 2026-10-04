@@ -1,0 +1,28 @@
+{
+  "queue_images": 74,
+  "excluded_images": 29,
+  "bbox_approved_images": 8,
+  "bbox_approved_count": 10,
+  "remaining_without_bbox_approval": 27,
+  "deferred_initial_subset": 10,
+  "group_review_sha256": "06c2da3e6cbf8b603bbbfb0bc8fd5d2e28c76d36d6aa3f176deeeee8223f4418",
+  "training_eligible_images": 0,
+  "dataset_accepted": false,
+  "base_summary_sha256": "6c9dd90c928ffbbfac9e47dd1fb37233b8bfa115e08261655d1826d9039bb2f2",
+  "decision_sha256": "aefc73c62be26a9f0823f42eb7f699d4a99c43c1716e3c2a9a81c96f8e15b1cb",
+  "script_sha256": "fa824ac4b9e235b209dca7790f47353d933fa8dc606b005822b250184027d00f",
+  "outputs_sha256": {
+    "approved-boxes.json": "5dbad1d00ed7e7a9939666db6d68c2f8e582647fc01623e636c1f9280643cd97",
+    "queue.json": "7ea4827c5da620c551994629b8194e147c7fa15e435c85856e5c82c58cc36c83",
+    "remaining-01.png": "892a42e9558ffd198cd0df343d9f112c66de256b6ec60382d86dd5dafd704802",
+    "remaining-02.png": "d2646f1d90b484de66006e0691635c466684a84fc2a92d0c671ec8b76787d89f",
+    "remaining-03.png": "cd22461ec671127be5c07282eff7adb87e107a7e08b064f2c0c44a4b7e546684",
+    "remaining.json": "7623e303fa73940d7fefe0337870413a72dec67b7746e51c8a4fadd60eb068f9"
+  },
+  "checks": {
+    "unittest": "46 PASS",
+    "ruff": "PASS",
+    "compileall": "PASS"
+  },
+  "output": "outputs/roboflow-batch2-reviewed-20261004-v2"
+}

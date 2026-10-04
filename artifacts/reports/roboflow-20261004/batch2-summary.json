@@ -1,0 +1,33 @@
+{
+  "queue_images": 74,
+  "excluded_images": 22,
+  "approved_bbox_images": 2,
+  "approved_boxes": 3,
+  "new_proposal_images": 6,
+  "new_proposal_boxes": 7,
+  "training_eligible_images": 0,
+  "base": "D:/ai-exam-monitoring-final/outputs/roboflow-pilot-20261004-v3",
+  "input_sha256": {
+    "pilot-owner-review.json": "cc8453fe5c6564c17ae3caca86f92e69e8052dd1447cde35e912aace44c47889",
+    "batch2-plan.json": "e1c9173cec4bb8927765170e988036cc954cfad2eecac474dddec95c00741819",
+    "roboflow_continue.py": "a2b19f5b11dd1ef5f43d4c1c225f807f212b49e9648b3bd68d43a374a5f38295"
+  },
+  "output_sha256": {
+    "approved-boxes.json": "9eae5f087cd3842fb983b7585c6e25b4c34241aef201dd3bd20c16009004ad92",
+    "new-proposals.json": "5b1f0b743676347458db284cb9f627f35c3aeb720d5088f4ec9af4fbe2f280c4",
+    "P006.png": "5101fa3aceb0d01dae175570b406429bd5516586c0b9816ba9644d3fd1af6402",
+    "P008.png": "030bbe2bfa4516d408046704753b9993d7e87744d9549ec0b1cd5ad8727ed528",
+    "P030.png": "be311f02ea6a162cbf9d448d94d94090c5d7c124a0471dae52e4d8f624871612",
+    "P031.png": "12ecb8d4a5a5fac2592e4723f449b2214710ded0265e4828e345336cd427884f",
+    "P034.png": "058b4a2120640580ff10f77dddd475639e8b28870beb6c973a9ef517f389d2a0",
+    "P036.png": "ff17760e5c54b03802c8e06d3cf2d1947a11dd2f57f92df5e7b28782935042e1",
+    "queue.json": "b215bc3ead1233013e1875f6c15fb873699bb110b419c3b35905d7a9ae7d12ab"
+  },
+  "checks": {
+    "tests": 42,
+    "ruff": "PASS",
+    "compileall": "PASS",
+    "checker": "PASS",
+    "visual_review": "All six proposal overlays opened"
+  }
+}

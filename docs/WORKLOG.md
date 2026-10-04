@@ -1,5 +1,25 @@
 # WORKLOG
 
+## 2026-10-04 — Đã áp dụng hai quyết định nhóm sau batch 2
+
+- Owner chốt “Loại cả 7 ảnh nhiễu” P058–P064 và “Giữ ngoài subset đầu tiên” cho 10 ảnh góc khác/thiếu phần người; lưu nguyên văn, không suy group_id hoặc threshold.
+- Queue v2: 74 = 29 loại + 10 deferred + 8 bbox-approved/completeness-pending + 27 pending bbox. 10 bbox trên 8 ảnh được duyệt, training_eligible vẫn 0. Các quyết định cũ và raw giữ nguyên.
+- Đã chạy consolidation với `--group-review`; 46 tests, Ruff/compile PASS. Link kế hoạch công việc và bằng chứng hiện hành trong `Roboflow-remaining-review-20261004.md`. Không cần hỏi lại owner trong lượt này; tiếp theo là QA bbox/phone evidence/completeness cho 27 ảnh, không train hoặc chốt A/B/split khi chưa đủ bằng chứng.
+
+## 2026-10-04 — Áp dụng owner review batch 2
+
+- Đọc AGENTS/index, label spec, batch 2 và công cụ apply_decisions. Owner trả lời 6 mục: P006 không bỏ sót phần người; P008/P030/P031/P034/P036 Okay. Record giữ nguyên văn, source identity và tọa độ từng box; không hỏi lại các mục này.
+- Chạy `roboflow_batch2_review`: pin base summary/output hashes, đối chiếu đúng source/boxes trước approval; hợp nhất 10 bbox trên 8 ảnh. 22 ảnh loại, 44 chưa duyệt bbox; training_eligible vẫn 0 vì completeness/multilabel/split chưa chốt.
+- Đã xem cả 44 ảnh còn lại qua 4 sheets và gom vấn đề để owner quyết định theo nhóm: 7 ảnh nhiễu chấm, 10 ảnh thiếu phần người/góc CCTV khác. Chưa tự áp dụng loại ảnh diện rộng.
+- 44 tests, Ruff/compile/checker PASS. Lần đầu đọc JSON có tiếng Việt bị encoding Windows; đã sửa UTF-8 và chạy thành công trước khi báo hoàn tất. Raw/config/split/acceptance giữ nguyên; P0 DVC và P1 chưa đóng.
+
+## 2026-10-04 — Sau commit pilot, batch 2
+
+- Commit `4af4dac` đã lưu 11 file pilot/owner review sau 40 tests, lint, compile, checker index và diff check PASS. Không push remote.
+- `roboflow_continue` xác minh hash base, áp 4 quyết định vào queue mới; 22 ảnh loại/52 còn QA, 3 bbox duyệt trên 2 ảnh nhưng training_eligible vẫn false. Giữ record/phân bố lịch sử bất biến.
+- Đã mở 6 ảnh train rõ phone, vẽ 7 bbox đề xuất và xem cả 6 overlay. [Batch 2 và câu hỏi cụ thể](data/candidates/Roboflow-phone-use-batch2-20261004.md). Nhãn chưa được owner duyệt, chưa đủ completeness.
+- Chạy CLI tạo `outputs/roboflow-batch2-20261004-v1`; 42 tests PASS, Ruff/compile/checker PASS. Không sửa raw, split, config mapping hoặc acceptance; không train. Bước tiếp: review annotation batch mới, rồi QA completeness/multilabel trước quyết định A/B. P0 DVC chưa đóng.
+
 ## 2026-10-04 — Owner chốt pilot và tiếp tục batch
 
 - Đã đọc bốn câu trả lời owner, giữ nguyên văn trong `pilot-owner-review.json`, pin hash tài liệu lúc nhận và plan v3. P019/P029 duyệt 3 bbox; P029 là hai người truyền cùng phone (cả hai phone_use), nhận định phone trên bàn trước đó sai và đã được đính chính. P053/P065 loại vì nhiễu.

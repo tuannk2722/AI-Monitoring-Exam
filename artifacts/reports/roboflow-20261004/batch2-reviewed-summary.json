@@ -1,0 +1,28 @@
+{
+  "queue_images": 74,
+  "excluded_images": 22,
+  "bbox_approved_images": 8,
+  "bbox_approved_count": 10,
+  "remaining_without_bbox_approval": 44,
+  "training_eligible_images": 0,
+  "dataset_accepted": false,
+  "base_summary_sha256": "6c9dd90c928ffbbfac9e47dd1fb37233b8bfa115e08261655d1826d9039bb2f2",
+  "decision_sha256": "aefc73c62be26a9f0823f42eb7f699d4a99c43c1716e3c2a9a81c96f8e15b1cb",
+  "script_sha256": "0a58605877d8c07e93f3a3d85207ce6d84b1b5d660b595f18d8fc321c27156b9",
+  "outputs_sha256": {
+    "approved-boxes.json": "5dbad1d00ed7e7a9939666db6d68c2f8e582647fc01623e636c1f9280643cd97",
+    "queue.json": "0c2836ffed4a22756c65e02b835f9b5d340d68f954474b191d56c95a4db5f4c6",
+    "remaining-01.png": "c1def28f0ed4cc4f4bd3968ab2a41e180b51580ab0a4798f9c02d8f2d9b0c4d4",
+    "remaining-02.png": "6207a1d0d4938a72fcd62f69fcf802d7e26ecfca70fe52c48a3007f55998f55c",
+    "remaining-03.png": "8072ea00b3d16827429a2276ecfc168ae6912da1e474564526a4b11277d221c6",
+    "remaining-04.png": "77dd31bdcce1f389ede8f657ebde9d869ba8983372b8a1a6b75c2b373dea85a5",
+    "remaining.json": "8097ebf1fead113b2a723d4fc4bce904c0f1795019f668dbb9cc7693c1ff1961"
+  },
+  "checks": {
+    "unittest": "44 PASS",
+    "ruff": "PASS",
+    "compileall": "PASS",
+    "repository_checker": "PASS"
+  },
+  "visual_scope": "44 remaining images viewed via four contact sheets, not exhaustive annotation QA"
+}
