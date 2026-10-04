@@ -1,5 +1,21 @@
 # WORKLOG
 
+## 2026-10-04 — Owner chốt pilot và tiếp tục batch
+
+- Đã đọc bốn câu trả lời owner, giữ nguyên văn trong `pilot-owner-review.json`, pin hash tài liệu lúc nhận và plan v3. P019/P029 duyệt 3 bbox; P029 là hai người truyền cùng phone (cả hai phone_use), nhận định phone trên bàn trước đó sai và đã được đính chính. P053/P065 loại vì nhiễu.
+- Kết quả quyết định: 22/74 ảnh loại, 52 còn QA; approval bbox không phê duyệt completeness, mapping, split hay dataset. Pilot plan/summary gốc giữ nguyên để tái tạo lịch sử.
+- Owner yêu cầu commit phần đạt kiểm tra và tiếp tục batch. Không cần thêm quyết định cho bốn mục này. Bước tiếp theo: áp dụng decision record vào queue version mới, chuẩn bị các ảnh phone rõ trên train; không dùng test cho policy.
+
+## 2026-10-04 — Pilot person relabel và similarity triage
+
+- Mốc audit đã được owner commit `806e08c`; working tree sạch khi bắt đầu. Thay đổi mới để chưa commit cho owner review trực tiếp.
+- Đọc AGENTS/index, P1/split spec, annotation/label spec, ADR-011, audit code/source layout và CI. Owner chốt bbox chỉ bao phần người nhìn thấy; bổ sung ADR/guideline.
+- Chạy `scripts/audits/roboflow_pilot.py` trên đúng ZIP RF v1 đã pin SHA. Kết quả cuối `outputs/roboflow-pilot-20261004-v3/`: 74 cặp train (66 Phone use + 8 mẫu bổ sung), không extract toàn ZIP; 20 loại theo quyết định/policy, 54 chờ QA. Raw và config/mapping không đổi.
+- Xem 74 thumbnail qua 7 sheets, mở riêng W01/R12/R09/R03; vẽ 5 person boxes đề xuất trên 4 ảnh. Đã kiểm overlay, sửa R09 bao phần tay tới cạnh dưới. Chưa đầy đủ nhãn mọi người, chưa training-eligible.
+- Fingerprint 3.407 ảnh RF, tìm nearest từng split cho 74 ảnh queue. Khoảng cách 0: 15/13/9 truy vấn tới train/valid/test; không đồng nghĩa duplicate/session/leakage xác nhận. Xem 2 cặp train thấy poses khác nhau dù cùng hash; không mở test cho policy. Chưa perceptual cross-SCB.
+- Kiểm tra: 40 unittest PASS; Ruff, compileall, checker và diff check PASS. Lượt Ruff đầu bị chặn ghi cache, dùng `--no-cache` chạy thành công. Regression cho collision/tie/full-path/self exclusion và invalid bbox. Fixture không dùng đánh giá model.
+- [Bốn ảnh và câu hỏi owner review](data/candidates/Roboflow-phone-use-pilot-20261004.md), [plan](../artifacts/reports/roboflow-20261004/pilot-plan.json), [summary/hash](../artifacts/reports/roboflow-20261004/pilot-summary.json). Cần owner review bbox/association/ảnh nhiễu trước khi nhân rộng; A/B/split/accepted chưa chốt, P0 DVC vẫn chưa kiểm chứng.
+
 ## S0 — 2026-10-03
 
 Owner/người chốt: chủ repository. Triển khai/review kỹ thuật: Codex. **P0 → P1; P0 chưa hoàn tất.**

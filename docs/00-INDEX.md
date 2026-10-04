@@ -78,3 +78,5 @@ Mọi quyết định lớn: ADR → canonical docs/config → code. Không sử
 Audit Roboflow v1 owner cung cấp (hoàn thiện 2026-10-04): [candidate](data/candidates/Roboflow-phone-use-20261004.md), [báo cáo](data/candidates/Roboflow-phone-use-20261004-audit.md), [ảnh/câu hỏi review](data/candidates/Roboflow-phone-use-20261004-review.md), [provenance](../artifacts/reports/roboflow-20261004/provenance.json). Trạng thái CANDIDATE, chưa accepted. Quyết định SCB của owner được ghi tại mục cập nhật trong candidate SCB.
 
 Owner review Roboflow đã chốt 18 mục: [ADR-011](decisions/ADR-011-person-unit-phone-definition.md), [manifest](../artifacts/reports/roboflow-20261004/owner-decisions.json). Relabel/QA subset và P1 acceptance còn mở.
+
+Pilot Roboflow: [74 ảnh và kết quả owner review](data/candidates/Roboflow-phone-use-pilot-20261004.md). Đã chốt bốn mục: 3 bbox duyệt trên 2 ảnh, 2 ảnh nhiễu loại. Có similarity triage, chưa xác nhận group/split hoặc accepted.

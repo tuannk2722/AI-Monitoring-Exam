@@ -16,6 +16,7 @@ Roboflow v1 trộn person/head/hand/phone boxes. Owner trả lời toàn bộ ch
 4. R01/R07/R13 ignore phần thiếu bằng chứng; R06 loại box toàn cảnh; R09 relabel person; R10/R14 loại khỏi subset đề xuất; ảnh phụ đề/UI web loại khỏi train (R16, gồm R11 đã quan sát). R15 cần QA, chưa pass. R03 chốt phone_use cho mẫu cụ thể, không map toàn bộ ID0.
 5. W01 relabel thủ công. W02 được clip biên ở preview mới, chỉ dòng đã review; không nới validator hay áp dụng hàng loạt warning khác.
 6. Owner chấp nhận watermark stock khi chọn mẫu; đây không phải bằng chứng độc lập về quyền từng asset.
+7. Owner xác nhận tiếp ngày 2026-10-04: bbox chỉ bao phần người nhìn thấy; không ước lượng cơ thể bị che dưới bàn. Box là hình chữ nhật bao các phần nhìn thấy của cùng người, có thể chứa khoảng che ở giữa; chưa đủ bằng chứng xác định người/hành vi thì giữ ngoài train.
 
 ## Consequences / giới hạn
 
