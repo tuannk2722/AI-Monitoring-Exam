@@ -1,11 +1,18 @@
 from __future__ import annotations
 
 from collections.abc import Iterator
+from math import isfinite
 from pathlib import Path
 from uuid import NAMESPACE_URL, uuid5
 
 from ai_exam_monitoring.common.errors import ConfigurationError
 from ai_exam_monitoring.contracts import BoundingBox, FrameRef, Prediction
+
+
+def validate_fps(fps: float | None) -> float:
+    if fps is None or not isfinite(fps) or fps <= 0:
+        raise ConfigurationError("A finite, positive FPS is required for video timestamps")
+    return fps
 
 
 class UltralyticsDetector:
@@ -25,12 +32,13 @@ class UltralyticsDetector:
     def predict(
         self, source: str | Path, session_id: str, fps: float | None = None
     ) -> Iterator[Prediction]:
+        fps = validate_fps(fps)
         for frame_index, result in enumerate(
             self._model.predict(
                 source=str(source), conf=self.confidence, stream=True, verbose=False
             )
         ):
-            video_time_ms = round(frame_index * 1000 / fps) if fps else 0
+            video_time_ms = round(frame_index * 1000 / fps)
             frame = FrameRef(
                 session_id=session_id,
                 frame_index=frame_index,

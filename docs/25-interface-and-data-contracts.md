@@ -18,6 +18,8 @@ Producer `pilot_prepare.create_ledger` tạo ledger ban đầu; batch/release im
 
 `prediction_id`, FrameRef (`session_id`, `frame_index`, `video_time_ms`, `source_uri`), `model_version`, `task`, `label`, `confidence`, `bbox` (`xmin,ymin,xmax,ymax,coordinate_space`), tùy chọn `class_id`. Confidence ∈ [0,1]; thứ tự bbox là XYXY có tên; label phải là hành vi quan sát được.
 
+BBox chỉ nhận tọa độ hữu hạn, coordinate_space pixel/normalized. Inference yêu cầu FPS hữu hạn và dương theo owner ngày 2026-10-05; thiếu/sai FPS bị từ chối trước prediction, không thay kiểu timestamp/schema. CLI chỉ ghi output mới, không ghi đè input/artifact.
+
 ## TrackObservation
 
 `session_id`, `track_id`, FrameRef, bbox, `source_prediction_ids`. Track ID chỉ có phạm vi trong session.

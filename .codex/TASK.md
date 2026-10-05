@@ -1,24 +1,26 @@
-# PILOT-B-HANDOFF-20261005 - Completed Drive handoff and codebase closeout
+# REVIEW-20261005 — Codebase and artifact lifecycle review
 
-- Status / area / priority: Done / release closeout / high.
+- Status / area / priority: Done / repository quality and dataset lifecycle / high.
 - Owner: repository owner; Codex implements without delegation.
-- Latest request: resume and finish checker/docs/commits/cleanup plus exact-version Drive push/pull.
+- Base commit: 3a103a43f71f6947677d7ba25e1b075117bb9bdf; initially clean.
 
 ## Goal and result
-Approved pilot v4 implementation and smoke cleanup committed; metadata checker fixed and guarded by tests; current docs synchronized; targeted restricted Drive storage authorized and verified from new checkout/cache. No new ML trainer/model/config choices or web tool.
+Deep review against AGENTS/spec, code organization and generated artifacts, with justified fixes and cleanup. Durable findings and storage map: docs/reviews/codebase-review-20261005.md. Evidence/owner approvals also in docs/WORKLOG.md.
 
 ## Sources read
-AGENTS, docs index/TASK/template; Accepted ADR-005/010/013; governance 21, environment 22; README/architecture/P0/P1/P2/P3/contract/runbook/research/source card; checker/tests/Git inventory, DVC config/pointer and installed DVC/PyDrive implementation. Full earlier codebase audit recorded in WORKLOG. Resume rechecked index/TASK/Git/process/artifact/test state; unchanged docs were not reread.
+AGENTS/index/previous TASK/task template; canonical docs01–25 (P2 relevant scope), ADR001–013; pilot contract/runbook; label/split/annotation specs and dataset research; README/pyproject/CI/requirements/ignore attributes; Git inventory and caller searches; data schema/package/input/selection/preparation/group/proposal/importers, audit/review/overlay/source/YOLO/conversion/split/manifest; contracts/config/provenance, legacy train/evaluate/benchmark and inference; affected tests; real v4 payload and preparation inventories/hash lineage. No visual relabel or new license audit.
 
-## Exact versions and evidence
-Implementation commit 97b90ebfe0e8f5457ac5c783205c98be02925866. Clean-checkout test fix and tested commit d99d1f5c08be467e05f6c7ee27dba8138bc779a5. Final closeout commit changes docs/checkpoint only; immutable dataset/config/producer/pointer unchanged.
-Canonical data/processed/pilot-b/pilot-b-20261005-v4, 112 ledger/crops, 84 manifest (60 train/13 val/11 test), 28 review_only, 16 groups. Config configs/datasets/pilot_b_release_v4.yaml. Payload list SHA dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53; pointer SHA f9f249f1f7bee62690e24f8bb437952c855866c9f7828da5af195d8c770564ef; DVC directory MD5 563958778204fa60d6015656595c19dd.dir.
+## Owner decisions and constraints
+Owner explicitly chose removal of train/eval A after dependency checks; required finite positive FPS without schema change; approved metadata archive then deletion of four duplicate preparation trees. No new dataset/label/split/model/threshold decisions, training or upload. Frozen v4/source/evidence/config unchanged.
 
-## Validation and cleanup
-Targeted push: 125 files pushed. Both exact-commit clones (97b90eb and d99d1f5) used newly empty independent .dvc/cache, dataset absent before pull: 125 objects fetched/124 files added. Full payload/inventory/hash, schema/usage/group/frozen split/test and 14 code/config/approval pins PASS; restored Git clean and DVC status up to date. Original source/crop bytes, dimensions/pixels preflight PASS.
-109 unittest, Ruff, compileall, repo checker PASS in clean d99d1f5 checkout using cloned src; ignored outputs/ absent before/after tests. Root checks/pip check/staged diff/path/secret-shaped content/pin checks/doc links/report JSON PASS. .gitattributes preserves byte-pinned reports and LF pilot source/config across checkout. Fixed only two SCB test fixtures requiring nonexistent ignored outputs/.
-Removed seven byte-identical rebuild copies (~262.8 MB) and complete round-trip clone/cache/local credential copy after verification; native PowerShell absolute containment and no-reparse checks. Preserve pinned parents/extracted sources/historical evidence; smoke local artifacts already deleted and tracked deletions committed. No remote cache GC/history rewrite.
+## Deliverables / files changed
+Removed 8 legacy train/eval/benchmark/config/pipeline files and unused validator/tests. Fixed FPS/no-overwrite, bbox finite/space, split finite and missing prohibited label. Checker now requires B schema/package/release config/pointer. Updated current docs and added review report/inference tests. No pilot producer/config/approval changes.
 
-## Scope and remaining work
-User explicitly authorized exact-v4 DVC storage on existing teamdrive; API ACL single user/owner, no public/domain/group, no sharing change. Operational permission recorded outside immutable v4 snapshot, research use remains local_classifier_research. No raw/history/W&B upload, redistribution, new data collection, training or Git remote push.
-Task complete; existing WORKLOG/runbook contain evidence. Next: owner-reviewed E001 classifier model/weights/license/loss/transforms/hyperparameters/config, then minimal masked loader/train/eval. Runtime crop S9 before end-to-end remains separate; no need to repeat dataset review. Fresh Python installation and remote Linux CI not verified; do not claim full P0/P1/P2/model acceptance. No pending owner question for handoff. Final action: commit this documentation closeout and confirm empty Git status; future resume must recheck repository before choosing a new task.
+## Artifact cleanup and restore
+Removed four versions under data/processed/pilot-b: pilot-b-20261004-v1 and preparation-r2/r3/r4 (604 files,320971311 bytes). Archived release.json/checksums verbatim per version plus inventory/RESTORE in outputs/pilot-b-preparation-history-20261005.zip (42579 bytes, SHA af71803ebc46ea89f3f38f5925246f748ea373f8128a208526e9117ce147969c). Full original payload verification and virtual restore PASS. Archive depends on retained r5; preserve r5→v2→v3→v4 and frozen interim. Additional synthetic fixtures/evidence duplicate cleanup79211 bytes. No remote/cache/source deletion.
+
+## Validation
+Baseline109 tests; final113 PASS (2 obsolete removed,6 regressions added). Ruff/compileall/check_repo --require-git/diff check PASS. DVC target status up to date. V4 verify_payload/read_records/manifest/split/test subset/test IDs PASS;112 ledger84used60/13/11,28review_only. Payload checksum SHA dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53. Git pointer SHA f9f249f1f7bee62690e24f8bb437952c855866c9f7828da5af195d8c770564ef; worktree CRLF semantically/normalized byte-identical. Final diff inspected. No commit/push.
+
+## Risks / unresolved / next task
+No pending owner questions. ML B trainer/config/model/license/loss and runtime S9 remain separate gates. Dependency lock/fresh install/Linux/GPU not verified. Other historical evidence/extracted sources retained; source replay paths are machine-dependent. Report distinguishes technical tests from model quality. New task/resume must reread index/checkpoint and verify Git/artifacts rather than reopening approved decisions.

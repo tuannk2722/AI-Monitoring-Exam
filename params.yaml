@@ -1,7 +1,0 @@
-dataset:
-  config: configs/datasets/exam_v0.1.yaml
-training:
-  config: configs/baseline.yaml
-experiment:
-  id: E001
-  owner: TBD

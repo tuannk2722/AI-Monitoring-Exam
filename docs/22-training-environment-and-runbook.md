@@ -12,7 +12,7 @@ Lưu ý: Colab local runtime không cung cấp GPU cloud.
 
 Cài `requirements/dvc.txt`; `dvc init`; owner tạo folder Drive restricted; thêm `gdrive://<folder-id>` làm default remote; commit `.dvc/config`, không bao giờ commit credential JSON/token. Test với folder nhỏ không nhạy cảm: owner `dvc push`, sau đó clone đúng commit sang thư mục khác với DVC cache mới rỗng (không dùng cache gốc/shared), chạy `dvc pull`, đối chiếu SHA-256; ghi commit/pointer/lệnh/checksum vào WORKLOG trước khi đưa data thật vào.
 
-Repository hiện đã hoàn tất setup và smoke round-trip; không init/tạo fixture lại. Dataset hiện hành là pilot B v4; owner cho phép storage riêng trên remote `teamdrive` restricted. Pull có target `data/processed/pilot-b/pilot-b-20261005-v4.dvc`; kiểm checksum/schema/test freeze theo [runbook pilot](data/pilot-b-preparation-v1.md). `dvc.yaml` vẫn legacy, không dùng `dvc repro` thay cho trainer B chưa triển khai.
+Repository hiện đã hoàn tất setup và smoke round-trip; không init/tạo fixture lại. Dataset hiện hành là pilot B v4; owner cho phép storage riêng trên remote `teamdrive` restricted. Pull có target `data/processed/pilot-b/pilot-b-20261005-v4.dvc`; kiểm checksum/schema/test freeze theo [runbook pilot](data/pilot-b-preparation-v1.md). Pipeline `dvc.yaml` legacy đã gỡ; DVC pull theo pointer vẫn hoạt động độc lập. Chưa có training pipeline B để chạy `dvc repro`.
 
 ## Trước khi chạy experiment
 

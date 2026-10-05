@@ -48,6 +48,8 @@ Sổ công việc và bằng chứng hiện tại: [WORKLOG.md](WORKLOG.md).
 
 Checkpoint task đang hoạt động cho agent: [`.codex/TASK.md`](../.codex/TASK.md); lifecycle theo [AGENTS.md](../AGENTS.md) và [guidelines 16](16-ai-agent-guidelines.md). TASK không thay canonical docs/ADR.
 
+Review kỹ thuật và vòng đời thư mục: [codebase review 2026-10-05](reviews/codebase-review-20261005.md). Train/evaluate A và pipeline legacy đã gỡ theo owner; dataset v4/pointer/evidence không đổi.
+
 ## Bản đồ đọc (Reading map)
 
 - Data: 01, 02, 04, 08, 09, 19, 21, 25; [hợp đồng pilot B](data/pilot-b-release-contract-v1.md) khi chuẩn bị release.

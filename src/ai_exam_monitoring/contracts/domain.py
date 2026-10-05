@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from math import isfinite
 from typing import Any, Literal
 
 
@@ -14,6 +15,10 @@ class BoundingBox:
 
     def __post_init__(self) -> None:
         values = (self.xmin, self.ymin, self.xmax, self.ymax)
+        if self.coordinate_space not in {"pixel", "normalized"}:
+            raise ValueError("coordinate_space must be pixel or normalized")
+        if not all(isfinite(value) for value in values):
+            raise ValueError(f"BBox coordinates must be finite: {values}")
         if self.xmin >= self.xmax or self.ymin >= self.ymax:
             raise ValueError(f"Invalid bbox ordering: {values}")
         if self.coordinate_space == "normalized" and any(v < 0 or v > 1 for v in values):
@@ -48,7 +53,7 @@ class Prediction:
     def __post_init__(self) -> None:
         if not 0 <= self.confidence <= 1:
             raise ValueError("confidence must be within [0, 1]")
-        if self.label in {"cheating", "cheater", "no_cheating"}:
+        if self.label in {"cheating", "cheater", "no_cheating", "suspicious_person"}:
             raise ValueError("Prediction label must describe an observable behavior")
 
     def to_dict(self) -> dict[str, Any]:

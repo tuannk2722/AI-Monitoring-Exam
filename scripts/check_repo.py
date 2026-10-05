@@ -10,11 +10,11 @@ REQUIRED = {
     "AGENTS.md",
     "docs/00-INDEX.md",
     "docs/25-interface-and-data-contracts.md",
-    "configs/baseline.yaml",
-    "configs/datasets/exam_v0.1.yaml",
-    "src/ai_exam_monitoring/data/build_dataset.py",
-    "src/ai_exam_monitoring/training/train.py",
-    "src/ai_exam_monitoring/evaluation/evaluate.py",
+    "configs/datasets/pilot_b_release_v4.yaml",
+    "data/processed/pilot-b/pilot-b-20261005-v4.dvc",
+    "src/ai_exam_monitoring/data/pilot_schema.py",
+    "src/ai_exam_monitoring/data/pilot_package.py",
+    "src/ai_exam_monitoring/data/pilot_release_proposals.py",
 }
 FORBIDDEN_TRACKED_SUFFIXES = {
     ".pt", ".pth", ".onnx", ".engine", ".mp4", ".avi", ".mov", ".mkv",

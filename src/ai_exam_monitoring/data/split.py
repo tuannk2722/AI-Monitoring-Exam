@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import math
 from collections import defaultdict
 
 from ai_exam_monitoring.common.errors import DataContractError
@@ -17,7 +18,9 @@ def assign_grouped_splits(
     rows: list[ManifestRow], ratios: dict[str, float], seed: int
 ) -> list[ManifestRow]:
     expected = {"train", "val", "test"}
-    if set(ratios) != expected or abs(sum(ratios.values()) - 1.0) > 1e-9:
+    if (set(ratios) != expected
+            or any(not math.isfinite(value) for value in ratios.values())
+            or abs(sum(ratios.values()) - 1.0) > 1e-9):
         raise DataContractError("Split ratios must define train/val/test and sum to 1.0")
     if any(value <= 0 for value in ratios.values()):
         raise DataContractError("Every split ratio must be positive")

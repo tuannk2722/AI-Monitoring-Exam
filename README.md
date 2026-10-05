@@ -28,7 +28,7 @@ Chế độ solo: chủ repository đảm nhiệm cả ba vai trò và là ngư�
 | Model Lead | experiment config + metrics + plots + DVC-tracked `best.pt` + run metadata |
 | Pipeline Lead | annotated video + structured JSON predictions/tracks/events + performance report |
 
-Xem [docs/00-INDEX.md](docs/00-INDEX.md) trước khi làm task.
+Xem [docs/00-INDEX.md](docs/00-INDEX.md) trước khi làm task. [Review codebase và bản đồ lưu trữ](docs/reviews/codebase-review-20261005.md) giải thích các thư mục cần giữ, phần đã dọn và rủi ro còn lại.
 
 ## Thiết lập local
 
@@ -91,7 +91,7 @@ python -m ai_exam_monitoring.data.audit --dataset data/raw/scb --images images -
 python -m unittest discover -s tests -v
 ```
 
-Build/train/evaluate YOLO legacy từ chối config B. [Pilot B v4](artifacts/reports/pilot-b-release-acceptance-20261005/README.md) đã accepted: 60 train/13 val/11 test, 28 review_only; test frozen, training scope `local_classifier_research`. [Runbook](docs/data/pilot-b-preparation-v1.md) ghi bàn giao Drive và CLI/schema/exporter; trainer classifier B chưa triển khai. `dvc.yaml` là pipeline YOLO legacy, không dùng `dvc repro` để train B. Automatic runtime crop còn gate riêng trước end-to-end.
+Train/evaluate YOLO A, benchmark launcher và pipeline/config legacy đã gỡ theo owner ngày 2026-10-05. Builder nguồn vẫn từ chối config B. [Pilot v4](artifacts/reports/pilot-b-release-acceptance-20261005/README.md) giữ nguyên 60 train/13 val/11 test, 28 review_only và test freeze. Trainer/evaluator B chưa triển khai; không có training pipeline để chạy `dvc repro`. DVC pull theo pointer vẫn hoạt động. Automatic runtime crop còn gate riêng trước end-to-end. Xem [runbook](docs/data/pilot-b-preparation-v1.md).
 
 ## Audit nguồn và ảnh mẫu bbox (CPU)
 

@@ -1,12 +1,8 @@
-"""Consolidation protects owner evidence and fails closed for formulation B."""
+"""Consolidation protects historical owner evidence."""
 import hashlib
 import json
 import unittest
 from pathlib import Path
-
-from ai_exam_monitoring.common.errors import ConfigurationError
-from ai_exam_monitoring.evaluation.evaluate import evaluate
-from ai_exam_monitoring.training.train import train
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,9 +33,3 @@ class AuditConsolidationTests(unittest.TestCase):
         self.assertEqual(sum("unknown" in (r["phone_use"], r["looking_around"]) for r in rows), 27)
         self.assertTrue(all(r["training_eligible"] is False for r in rows))
         self.assertFalse(review["dataset_accepted"])
-
-    def test_legacy_train_and_evaluate_reject_b_before_loading_weights(self):
-        with self.assertRaisesRegex(ConfigurationError, "Formulation B"):
-            train("configs/baseline.yaml", "validation-only", "owner")
-        with self.assertRaisesRegex(ConfigurationError, "Formulation B"):
-            evaluate("configs/baseline.yaml", "validation-only")

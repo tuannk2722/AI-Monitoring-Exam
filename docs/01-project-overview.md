@@ -32,7 +32,7 @@ Demo có thể truy vết ngược mỗi alert/event về source video, frame/ti
 
 ## Ràng buộc
 
-- Team 3 người, ngân sách compute/storage 0 đồng.
+- Owner solo đảm nhiệm ba vai trò theo [workflow hiện hành](06-team-collaboration-and-git.md), ngân sách compute/storage 0 đồng.
 - Máy yếu nhất: i7-1255U, RAM 8/16 GB, Intel UHD; local không phải full-training target.
 - Colab Free có runtime không ổn định; checkpoint/resume/persistent storage là bắt buộc.
 - Không lưu danh tính thật trong MVP; không face recognition.

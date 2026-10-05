@@ -6,7 +6,7 @@
 - Đã xóa Django/Cloudinary/mock dashboard; không có kết quả AI giả.
 - Python packaging và tách riêng các nhóm dependency base/dev/ml/DVC.
 - Unit test, kiểm tra compile/repository và GitHub Actions.
-- DVC pipeline skeleton và tài liệu setup Google Drive cụ thể.
+- DVC pointer pilot B v4 và tài liệu setup/khôi phục Google Drive; pipeline training legacy đã gỡ, B còn pending.
 - Task/PR template thật sự và các contract có version.
 
 ## Các hành động owner vẫn cần thực hiện

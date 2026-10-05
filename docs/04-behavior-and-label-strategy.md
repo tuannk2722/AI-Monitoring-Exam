@@ -14,7 +14,7 @@ Mỗi nhãn được chấp nhận phải định nghĩa: ID/tên canonical; đ�
 
 - `phone_use`: người cầm/tương tác điện thoại hoặc phone trên bàn gắn được với người bằng bằng chứng thị giác; unit person. Không rõ vật/người liên quan thì unknown/ignore. Owner đã chốt tại [ADR-011](decisions/ADR-011-person-unit-phone-definition.md).
 - `looking_around`: mẫu định hướng đầu/mắt quan sát được theo guideline; không phải bằng chứng về ý định hay vi phạm.
-- `normal`: người đang làm bài, đã review thủ công và không có bằng chứng cả hai target; unknown hoặc không có box không phải normal. Normal không đồng thời với target. Schema classifier cụ thể còn cần thiết kế, không dùng YOLO behavior boxes để thay thế hợp đồng này.
+- `normal`: người đang làm bài, đã review thủ công và không có bằng chứng cả hai target; unknown hoặc không có box không phải normal. Normal không đồng thời với target. Schema classifier pilot v4 đã được owner duyệt theo [contract pilot B](data/pilot-b-release-contract-v1.md); model/runtime còn pending. Không dùng YOLO behavior boxes để thay thế hợp đồng này.
 
 ## Ignore/unknown (bỏ qua/không xác định)
 

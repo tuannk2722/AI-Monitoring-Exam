@@ -4,9 +4,10 @@ import argparse
 import json
 from pathlib import Path
 
+from ai_exam_monitoring.common.errors import ConfigurationError
 from ai_exam_monitoring.common.provenance import sha256_file
 
-from .detector import UltralyticsDetector
+from .detector import UltralyticsDetector, validate_fps
 
 
 def main() -> int:
@@ -20,19 +21,25 @@ def main() -> int:
     parser.add_argument("--output", required=True, help="JSONL prediction output")
     parser.add_argument("--confidence", type=float, default=0.25)
     parser.add_argument(
-        "--fps", type=float, default=None, help="Required for accurate video_time_ms"
+        "--fps", type=float, required=True, help="Finite positive source FPS for video_time_ms"
     )
     args = parser.parse_args()
+    try:
+        validate_fps(args.fps)
+    except ConfigurationError as exc:
+        parser.error(str(exc))
 
     source = Path(args.source)
     checkpoint = Path(args.checkpoint)
     if not source.is_file() or not checkpoint.is_file():
         parser.error("source and checkpoint must exist")
     output = Path(args.output)
+    if output.exists():
+        parser.error("output must be a new file; existing inputs/artifacts are preserved")
     output.parent.mkdir(parents=True, exist_ok=True)
     detector = UltralyticsDetector(checkpoint, args.model_version, args.confidence)
     count = 0
-    with output.open("w", encoding="utf-8") as handle:
+    with output.open("x", encoding="utf-8") as handle:
         metadata = {
             "record_type": "metadata",
             "session_id": args.session_id,
