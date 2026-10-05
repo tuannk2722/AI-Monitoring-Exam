@@ -1,0 +1,377 @@
+{
+  "train": {
+    "targets": {
+      "phone_use": {
+        "positive": 11,
+        "negative": 5,
+        "unknown": 44,
+        "tp": 11,
+        "fp": 5,
+        "fn": 0,
+        "tn": 0,
+        "ap": 1.0,
+        "precision": 0.6875,
+        "recall": 1.0,
+        "f1": 0.8148148148148148,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 17,
+        "negative": 33,
+        "unknown": 10,
+        "tp": 6,
+        "fp": 0,
+        "fn": 11,
+        "tn": 33,
+        "ap": 0.8073801519477953,
+        "precision": 1.0,
+        "recall": 0.35294117647058826,
+        "f1": 0.5217391304347826,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.9036900759738977,
+    "threshold": 0.5,
+    "records": 60,
+    "cooccurrence": {
+      "fully_known": 6,
+      "positive": 1,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    },
+    "macro_masked_bce": 0.5136201977729797,
+    "constant_train_prevalence": {
+      "targets": {
+        "phone_use": {
+          "positive": 11,
+          "negative": 5,
+          "unknown": 44,
+          "tp": 11,
+          "fp": 5,
+          "fn": 0,
+          "tn": 0,
+          "ap": 0.6875,
+          "precision": 0.6875,
+          "recall": 1.0,
+          "f1": 0.8148148148148148,
+          "reason": null
+        },
+        "looking_around": {
+          "positive": 17,
+          "negative": 33,
+          "unknown": 10,
+          "tp": 0,
+          "fp": 0,
+          "fn": 17,
+          "tn": 33,
+          "ap": 0.34,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "reason": "precision_undefined_no_positive_predictions"
+        }
+      },
+      "macro_ap": 0.51375,
+      "threshold": 0.5,
+      "records": 60,
+      "cooccurrence": {
+        "fully_known": 6,
+        "positive": 1,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "by_source": {
+      "roboflow_v1": {
+        "targets": {
+          "phone_use": {
+            "positive": 11,
+            "negative": 0,
+            "unknown": 0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 10,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          }
+        },
+        "macro_ap": null,
+        "threshold": 0.5,
+        "records": 11,
+        "cooccurrence": {
+          "fully_known": 1,
+          "positive": 1,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        }
+      },
+      "scb_head": {
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 16,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          },
+          "looking_around": {
+            "positive": 16,
+            "negative": 0,
+            "unknown": 0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 11,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          }
+        },
+        "macro_ap": null,
+        "threshold": 0.5,
+        "records": 16,
+        "cooccurrence": {
+          "fully_known": 0,
+          "positive": 0,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        }
+      },
+      "scb_hrw": {
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 5,
+            "unknown": 28,
+            "tp": 0,
+            "fp": 5,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 33,
+            "unknown": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 33,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          }
+        },
+        "macro_ap": null,
+        "threshold": 0.5,
+        "records": 33,
+        "cooccurrence": {
+          "fully_known": 5,
+          "positive": 0,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        }
+      }
+    }
+  },
+  "val": {
+    "targets": {
+      "phone_use": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "ap": 0.9379251700680272,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "tn": 3,
+        "ap": 0.9166666666666666,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "reason": "precision_undefined_no_positive_predictions"
+      }
+    },
+    "macro_ap": 0.9272959183673469,
+    "threshold": 0.5,
+    "records": 13,
+    "cooccurrence": {
+      "fully_known": 1,
+      "positive": 0,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    },
+    "macro_masked_bce": 0.5477269887924194,
+    "constant_train_prevalence": {
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "negative": 1,
+          "unknown": 5,
+          "tp": 7,
+          "fp": 1,
+          "fn": 0,
+          "tn": 0,
+          "ap": 0.875,
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333333333333333,
+          "reason": null
+        },
+        "looking_around": {
+          "positive": 3,
+          "negative": 3,
+          "unknown": 7,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "tn": 3,
+          "ap": 0.5,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "reason": "precision_undefined_no_positive_predictions"
+        }
+      },
+      "macro_ap": 0.6875,
+      "threshold": 0.5,
+      "records": 13,
+      "cooccurrence": {
+        "fully_known": 1,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "by_source": {
+      "roboflow_v1": {
+        "targets": {
+          "phone_use": {
+            "positive": 7,
+            "negative": 0,
+            "unknown": 3,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          },
+          "looking_around": {
+            "positive": 3,
+            "negative": 0,
+            "unknown": 7,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          }
+        },
+        "macro_ap": null,
+        "threshold": 0.5,
+        "records": 10,
+        "cooccurrence": {
+          "fully_known": 0,
+          "positive": 0,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        }
+      },
+      "scb_hrw": {
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 2,
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "tn": 0,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 3,
+            "ap": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "reason": "missing_positive_or_negative"
+          }
+        },
+        "macro_ap": null,
+        "threshold": 0.5,
+        "records": 3,
+        "cooccurrence": {
+          "fully_known": 1,
+          "positive": 0,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        }
+      }
+    }
+  }
+}

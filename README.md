@@ -4,12 +4,12 @@ Hệ thống nghiên cứu/demo phân tích video phòng thi bằng Computer Vis
 
 ## Trạng thái hiện tại
 
-- Phase: **Pilot B đã bàn giao DVC; chuẩn bị P3 classifier baseline**.
+- Phase: **E001 classifier baseline đã chạy; chưa promote model**.
 - MVP đầu tiên: **recorded video end-to-end**; webcam/live làm sau.
 - Classifier targets: `[phone_use, looking_around]`, positive/negative/unknown với mask; `normal` là metadata review.
 - Subset SCB5 + Roboflow v1 trong pilot v4 đã accepted; toàn bộ hai nguồn vẫn candidate.
 - Formulation B đã chốt: YOLO person → crop context → classifier multi-label (ADR-012).
-- Dữ liệu/model thật không nằm trong Git. Git lưu code/config/docs/pointer; DVC remote Google Drive lưu binary lớn.
+- Dữ liệu/model thật không nằm trong Git. Git lưu code/config/docs/pointer; DVC remote Google Drive lưu dataset đã được phép; artifact E001 hiện chỉ ở DVC cache local.
 
 ## Kiến trúc làm việc
 
@@ -80,7 +80,7 @@ Chỉ commit `.dvc/config` và pointer `.dvc`; authentication cục bộ nằm n
 
 Repository hiện đã cấu hình `teamdrive` và smoke push/pull qua cache sạch đã đạt. Owner cho phép lưu đúng package v4 trên Drive restricted trong task bàn giao ngày 2026-10-05; phạm vi và bằng chứng tại [runbook pilot](docs/data/pilot-b-preparation-v1.md). Không chạy lại `dvc init` hoặc tạo smoke fixture. Từ checkout đã bàn giao, lấy dataset bằng `dvc pull data/processed/pilot-b/pilot-b-20261005-v4.dvc -r teamdrive`; credential được cấu hình local, không chép vào Git.
 
-V4 đã push và khôi phục từ exact commit/cache mới rỗng: 125 objects fetched, 124 files restored, full checksum/schema/test freeze PASS. Clone tại commit có bản sửa tests đã chạy đủ 109 tests, lint, compile và repository checker. Bằng chứng/lệnh tại WORKLOG; chưa có classifier training hoặc model metrics.
+V4 đã push và khôi phục từ exact commit/cache mới rỗng: 125 objects fetched, 124 files restored, full checksum/schema/test freeze PASS. Clone tại commit có bản sửa tests đã chạy đủ 109 tests, lint, compile và repository checker. Bằng chứng/lệnh tại WORKLOG. E001 local CPU đã chạy theo [runbook](docs/experiments/E001-runbook.md); xem [kết quả thật và giới hạn](docs/experiments/E001-results.md).
 
 ## Luồng làm việc ngắn
 
@@ -91,7 +91,7 @@ python -m ai_exam_monitoring.data.audit --dataset data/raw/scb --images images -
 python -m unittest discover -s tests -v
 ```
 
-Train/evaluate YOLO A, benchmark launcher và pipeline/config legacy đã gỡ theo owner ngày 2026-10-05. Builder nguồn vẫn từ chối config B. [Pilot v4](artifacts/reports/pilot-b-release-acceptance-20261005/README.md) giữ nguyên 60 train/13 val/11 test, 28 review_only và test freeze. Trainer/evaluator B chưa triển khai; không có training pipeline để chạy `dvc repro`. DVC pull theo pointer vẫn hoạt động. Automatic runtime crop còn gate riêng trước end-to-end. Xem [runbook](docs/data/pilot-b-preparation-v1.md).
+Train/evaluate YOLO A, benchmark launcher và pipeline/config legacy đã gỡ theo owner ngày 2026-10-05. Builder nguồn vẫn từ chối config B. [Pilot v4](artifacts/reports/pilot-b-release-acceptance-20261005/README.md) giữ nguyên 60 train/13 val/11 test, 28 review_only và test freeze. Trainer/evaluator B đã triển khai trong `ai_exam_monitoring.training`; chạy CLI theo [runbook E001](docs/experiments/E001-runbook.md). Không có dvc.yaml training pipeline để chạy `dvc repro`. DVC pull theo pointer vẫn hoạt động. Automatic runtime crop còn gate riêng trước end-to-end. Xem [runbook](docs/data/pilot-b-preparation-v1.md).
 
 ## Audit nguồn và ảnh mẫu bbox (CPU)
 
@@ -125,7 +125,7 @@ Chưa kiểm tra gần trùng, group/split leakage, license/consent hoặc ngữ
 
 - Không kèm dataset SCB5/Roboflow, model weights hoặc video người thật.
 - Không có số metric giả, threshold giả hay `best.pt` giả.
-- B/person unit/semantics và schema/dataset/split pilot v4 đã chốt; model/experiment và automatic crop runtime còn pending.
+- B/person unit/semantics và schema/dataset/split pilot v4 đã chốt; model/experiment E001 đã chạy; automatic crop runtime và promotion còn pending.
 - Tracking/event/risk có contracts và config draft; implementation và integration ở P5/P6 sau model baseline/evaluation.
 - Web FastAPI được quyết định cho P7 nhưng chưa phải critical path hiện tại.
 

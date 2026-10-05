@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-06",
+  "status": "PASS",
+  "code_commit": "45240ea6234c70a80ecf3dc11f2e69eb8e253a53",
+  "clean_checkout": true,
+  "fresh_cpu_environment": true,
+  "tests_passed": 126,
+  "ml_tests": 13,
+  "smoke_interrupt_resume": "PASS",
+  "validation_reload_exact": "PASS",
+  "full_payload_schema_freeze": "PASS",
+  "dataset_records": 84,
+  "source_hash_matches_run": "PASS",
+  "artifact_checksums": "PASS",
+  "internal_links_utf8": "PASS",
+  "local_cache_restore": "38 files exact; no remote",
+  "test_evaluations": 1,
+  "test_driven_changes": false,
+  "user_deletion_preserved": true,
+  "limitations": [
+    "Remote Linux CI not run",
+    "Model quality not promoted",
+    "No real-world holdout or runtime crop S9",
+    "New model artifacts local cache only; no remote push"
+  ]
+}

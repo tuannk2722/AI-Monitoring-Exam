@@ -1,0 +1,6 @@
+outs:
+- md5: 9ee23582a1f2fbf2f30b4ef32fb5aecd.dir
+  size: 249326
+  nfiles: 15
+  hash: md5
+  path: E001-smoke

@@ -1,0 +1,26 @@
+{
+  "E001": {
+    "files": 15,
+    "directory_md5": "047903d28fe4c320956787ccb43603a8.dir",
+    "exact_sha256_restore": "PASS",
+    "remote_access": false
+  },
+  "E001-smoke": {
+    "files": 15,
+    "directory_md5": "9ee23582a1f2fbf2f30b4ef32fb5aecd.dir",
+    "exact_sha256_restore": "PASS",
+    "remote_access": false
+  },
+  "E001-final-test": {
+    "files": 6,
+    "directory_md5": "4095bf7f6b4e68f225730d157c0981e7.dir",
+    "exact_sha256_restore": "PASS",
+    "remote_access": false
+  },
+  "pretrained": {
+    "files": 2,
+    "directory_md5": "7a01c11692506fcc60e45464442f29f7.dir",
+    "exact_sha256_restore": "PASS",
+    "remote_access": false
+  }
+}

@@ -1,5 +1,12 @@
 # WORKLOG
 
+## 2026-10-06 — E001 implemented and executed locally
+
+- Owner approved the complete training-readiness proposal. ADR014/config/approval pin frozen ResNet18 IMAGENET1K_V1, masked macro BCE, seed42, CPU local; no dataset mutation/cloud upload. Implementation commit45240ea6234c70a80ecf3dc11f2e69eb8e253a53; clean isolated checkout and fresh pinned CPU environment. 126 tests, pip check, lint/compile/repo checks PASS; user deletion of old codebase review preserved.
+- Actual smoke interrupted at epoch1 and resumed unchanged to3; checkpoint recovery PASS. Full E001 early stopped at32; best epoch12, validation loss0.54772699, measured routine5.827s/peakRSS470712320bytes. Independent checkpoint reload reproduced validation predictions/metrics exactly.
+- Candidate/protocol frozen in84d4cf0d51564af971851e72cf4e37e3afe59fa4 before one final test evaluation. No model/threshold changes afterward. At0.5 val/test phone false positives on all known negatives; looking recall0. AP high on tiny/source-confounded support does not establish quality. Recommend continue data research, no promotion claim; owner remains reviewer.
+- E001/smoke/final-test/pretrained pointers and local DVC cache created;38 files restored from cache to a fresh folder and all MD5/SHA verified. No remote push or Git push. V4 payload/test freeze unchanged; model artifacts are local-only. Detailed evidence: [results](experiments/E001-results.md), artifacts/reports/E001.
+
 ## 2026-10-05 — Hoàn tất bàn giao pilot B v4 và closeout codebase
 
 - Commit implementation/cleanup `97b90ebfe0e8f5457ac5c783205c98be02925866`; test portability fix `d99d1f5c08be467e05f6c7ee27dba8138bc779a5`. Clone cuối checkout đúng d99d1f5 bằng `git clone --no-hardlinks`; trước pull xác nhận `.dvc/cache` riêng mới rỗng và dataset chưa có. Auth copy vào config.local ignored; không đổi Drive ACL hoặc publish Git remote.

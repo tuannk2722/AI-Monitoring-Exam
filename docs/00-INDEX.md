@@ -4,11 +4,11 @@ Snapshot owner R1–R3 của Roboflow: [crop ngữ cảnh và target labels](dat
 
 ## Trạng thái hiện tại
 
-Owner đã approve phương án và hoàn tất [release pilot B local v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md). Canonical `data/processed/pilot-b/pilot-b-20261005-v4`,config `pilot_b_release_v4.yaml`,status accepted/local_classifier_research:112 ledger/crops, 84 manifest(60 train/13 val/11 test),16 nhóm;28 review_only. Test đã freeze; hash QA và DVC round-trip PASS, suite hiện hành 109 tests PASS từ clean checkout. [Approval](../artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json),[runbook](data/pilot-b-preparation-v1.md).
+Owner đã approve phương án và hoàn tất [release pilot B local v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md). Canonical `data/processed/pilot-b/pilot-b-20261005-v4`,config `pilot_b_release_v4.yaml`,status accepted/local_classifier_research:112 ledger/crops, 84 manifest(60 train/13 val/11 test),16 nhóm;28 review_only. Test đã freeze; hash QA và DVC round-trip PASS, checkout bàn giao v4 đạt109 tests PASS (suite E001 hiện tại126). [Approval](../artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json),[runbook](data/pilot-b-preparation-v1.md).
 
-Toàn ledger phone 24P/9N/79U,looking 33P/56N/23U,9 normal và1 co-occurrence;crop/source/known approvals cũ giữ nguyên. Used84 phone 20P/8N/56U,looking 22P/43N/19U,8 normal. Nguồn phone còn confounding,val/test support nhỏ; không có model metrics hoặc real-world holdout.
+Toàn ledger phone 24P/9N/79U,looking 33P/56N/23U,9 normal và1 co-occurrence;crop/source/known approvals cũ giữ nguyên. Used84 phone 20P/8N/56U,looking 22P/43N/19U,8 normal. Nguồn phone còn confounding,val/test support nhỏ. [E001 đã chạy](experiments/E001-results.md): baseline reviewed-crop có metrics thật; chưa có real-world holdout hoặc model promotion.
 
-Ngày cập nhật: 2026-10-05. Owner: chủ repository (solo). DVC đã cấu hình; smoke và v4 push/pull/cache sạch đạt. V4 lưu trên teamdrive restricted theo yêu cầu owner; ACL chỉ user/owner đã kiểm. Implementation, pointer và smoke cleanup đã commit; clone/cache thử đã dọn, bằng chứng theo [runbook](data/pilot-b-preparation-v1.md)/[WORKLOG](WORKLOG.md). Classifier trainer/model/config và crop runtime còn pending; P0/P1/P2 toàn dự án chưa tự đóng.
+Ngày cập nhật: 2026-10-06. Owner: chủ repository (solo). DVC đã cấu hình; smoke và v4 push/pull/cache sạch đạt. V4 lưu trên teamdrive restricted theo yêu cầu owner; ACL chỉ user/owner đã kiểm. Implementation, pointer và smoke cleanup đã commit; clone/cache thử đã dọn, bằng chứng theo [runbook](data/pilot-b-preparation-v1.md)/[WORKLOG](WORKLOG.md). E001 trainer/model/config, smoke/resume và final evaluation đã hoàn tất theo ADR-014;126 tests PASS trong fresh CPU environment/clean commit. Crop runtime S9 và quality/promotion gates vẫn mở; P0/P1/P2 toàn dự án chưa tự đóng.
 
 `Accepted` = implementation contract (hợp đồng triển khai); `Draft` = hướng dẫn đang hoàn thiện; `TBD` = không được tự bịa giá trị.
 
@@ -71,6 +71,8 @@ Review kỹ thuật và vòng đời thư mục: [codebase review 2026-10-05](re
 9. ADR-009 event/risk baseline rule-based; threshold chờ event data.
 10. ADR-010 không thu thập/upload người thật trước khi có consent/policy được phê duyệt.
 11. [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md): thiết kế pilot 84 SCB candidates + 28 RF crops, ba trạng thái/masked supervision, reviewed-crop package trước runtime gate và group evidence trước split/release training. Không phê duyệt dataset cụ thể.
+
+12. [ADR-014](decisions/ADR-014-e001-local-linear-probe.md): owner duyệt E001 frozen ResNet18/masked linear probe CPU local. [Runbook](experiments/E001-runbook.md), [kết quả](experiments/E001-results.md); test đã evaluate một lần sau freeze candidate/protocol, không tuning.
 
 ## Quyết định chưa giải quyết
 

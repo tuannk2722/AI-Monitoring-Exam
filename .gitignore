@@ -37,7 +37,8 @@ htmlcov/
 *.onnx
 *.engine
 /runs/
-/outputs/
+/outputs/*
+!/outputs/*.dvc
 /artifacts/models/
 /artifacts/predictions/
 /artifacts/evidence/

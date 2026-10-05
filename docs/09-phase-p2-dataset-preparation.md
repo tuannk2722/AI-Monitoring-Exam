@@ -8,7 +8,7 @@ Hợp đồng [pilot B v1](data/pilot-b-release-contract-v1.md), thiết kế [A
 
 - Giữ source image identity/hash, person bbox, context crop, target labels/unknown, reviewer, provenance và split/group.
 - Tách person bbox khỏi crop context; không gán phone gần nhất. Không dùng annotation phone lúc inference nếu pipeline thực tế không có.
-- Normal chỉ khi hai target vắng mặt vàcontext làm bài đã review;positive đồng thời giữ cả hai. Schema/config pilot v4 đã duyệt:unknown không mã hóa negative,loss/metric chỉ trên known targets. Model/head/loss cụ thể chưa chọn.
+- Normal chỉ khi hai target vắng mặt vàcontext làm bài đã review;positive đồng thời giữ cả hai. Schema/config pilot v4 đã duyệt:unknown không mã hóa negative,loss/metric chỉ trên known targets. Model/head/loss của E001 được owner duyệt riêng tại ADR-014; không đổi hợp đồng dữ liệu.
 - Classifier crop đủ nhãn không bắt buộc annotate mọi người ngoài crop; train detector riêng cần dataset person đầy đủ theo hợp đồng riêng.
 - Dedup/group evidence và ranh giới thị giác đã owner review cho84used; không có same image/crop/group qua split. Không bịa session/video;28 thiếu group giữ split=null/review_only. Explicit whole-group assignment60/13/11,seed=null,70/15/15soft đã chốt/freeze; không chọn lại khi training.
 - Owner solo review và ký release; Codex triển khai/kiểm tra.
