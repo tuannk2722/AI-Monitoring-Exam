@@ -1,5 +1,12 @@
 # WORKLOG
 
+## 2026-10-05 — Round-trip v4 đạt; sửa test setup cho clean checkout
+
+- Implementation + pointer + scope/docs + smoke cleanup đã commit tại `97b90ebfe0e8f5457ac5c783205c98be02925866`; staged checker/14 SHA-pinned blob checks PASS, Git sạch sau commit. Targeted `dvc push data/processed/pilot-b/pilot-b-20261005-v4.dvc -r teamdrive` thành công: **125 files pushed** (124 payload files + directory object).
+- Clone `--no-hardlinks` checkout chính xác commit trên tại `outputs/pilot-b-dvc-roundtrip-20261005-v4`; `.dvc/cache` riêng mới rỗng, khác cache gốc, dataset chưa tồn tại trước pull. Credential copy chỉ vào ignored `.dvc/config.local`. `dvc pull` thành công: **125 files fetched and 124 files added**. Full inventory/checksums, schema/usage, config/approval/8 producer SHA, split và test freeze PASS; restored Git clean và `dvc status` up to date. Payload list SHA vẫn `dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53`.
+- Chạy tests bằng cloned `src` phát hiện 2 lỗi setup: `TemporaryDirectory(dir=workspace / "outputs")` giả định ignored directory có sẵn. Sửa hai tests tạo temporary directory trực tiếp dưới workspace (để inputs vẫn workspace-relative); tự cleanup, không đổi producer/data/config/approval bytes. Đây là lỗi portability của tests, không phải payload/Drive lỗi. Commit bản sửa, kiểm clone/cache mới tại commit có tests đã sửa, rồi ghi closeout cuối.
+- Lượt trước gián đoạn do auto-review hết usage, không có kết luận unsafe action; resume đã khôi phục tool access. Không bypass approval hoặc cần quyết định owner mới.
+
 ## 2026-10-05 — Chốt implementation và scope bàn giao DVC v4
 
 - Owner yêu cầu sửa checker/docs, commit implementation đã duyệt + smoke cleanup, hoàn tất Drive push/pull đúng version từ checkout/cache sạch và để Git sạch. Authorization: “Hoàn tất bàn giao qua Drive: chốt scope upload v4, rồi push/pull đúng version từ checkout/cache sạch.” Chỉ lưu/khôi phục đúng immutable v4 trên `teamdrive` hiện có phục vụ local_classifier_research; không raw/history uploads, redistribution, W&B media, share quyền mới hoặc training. Quyết định storage bổ sung nằm ngoài payload/approval local đã pin.

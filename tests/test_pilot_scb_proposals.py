@@ -99,7 +99,8 @@ class ScbProposalTests(unittest.TestCase):
 
     def test_deterministic_combined_bundle_preserves_canonical_and_rf(self):
         workspace = Path(__file__).resolve().parents[1]
-        with tempfile.TemporaryDirectory(dir=workspace / "outputs") as temporary:
+        # Keep inputs workspace-relative without requiring an ignored outputs/ directory.
+        with tempfile.TemporaryDirectory(dir=workspace) as temporary:
             root = Path(temporary)
             config, parent = self.fixture(root)
             first, second = root / "first", root / "second"
@@ -135,7 +136,7 @@ class ScbProposalTests(unittest.TestCase):
 
     def test_owner_approval_preserves_unknown_rf_and_release_gates(self):
         workspace = Path(__file__).resolve().parents[1]
-        with tempfile.TemporaryDirectory(dir=workspace / "outputs") as temporary:
+        with tempfile.TemporaryDirectory(dir=workspace) as temporary:
             root = Path(temporary)
             proposal_config, parent = self.fixture(root)
             batch = root / "batch"
