@@ -1,26 +1,13 @@
-# REVIEW-20261005 — Codebase and artifact lifecycle review
+# E001-IMPLEMENT-20261006 — Approved local classifier baseline
 
-- Status / area / priority: Done / repository quality and dataset lifecycle / high.
-- Owner: repository owner; Codex implements without delegation.
-- Base commit: 3a103a43f71f6947677d7ba25e1b075117bb9bdf; initially clean.
-
-## Goal and result
-Deep review against AGENTS/spec, code organization and generated artifacts, with justified fixes and cleanup. Durable findings and storage map: docs/reviews/codebase-review-20261005.md. Evidence/owner approvals also in docs/WORKLOG.md.
-
-## Sources read
-AGENTS/index/previous TASK/task template; canonical docs01–25 (P2 relevant scope), ADR001–013; pilot contract/runbook; label/split/annotation specs and dataset research; README/pyproject/CI/requirements/ignore attributes; Git inventory and caller searches; data schema/package/input/selection/preparation/group/proposal/importers, audit/review/overlay/source/YOLO/conversion/split/manifest; contracts/config/provenance, legacy train/evaluate/benchmark and inference; affected tests; real v4 payload and preparation inventories/hash lineage. No visual relabel or new license audit.
-
-## Owner decisions and constraints
-Owner explicitly chose removal of train/eval A after dependency checks; required finite positive FPS without schema change; approved metadata archive then deletion of four duplicate preparation trees. No new dataset/label/split/model/threshold decisions, training or upload. Frozen v4/source/evidence/config unchanged.
-
-## Deliverables / files changed
-Removed 8 legacy train/eval/benchmark/config/pipeline files and unused validator/tests. Fixed FPS/no-overwrite, bbox finite/space, split finite and missing prohibited label. Checker now requires B schema/package/release config/pointer. Updated current docs and added review report/inference tests. No pilot producer/config/approval changes.
-
-## Artifact cleanup and restore
-Removed four versions under data/processed/pilot-b: pilot-b-20261004-v1 and preparation-r2/r3/r4 (604 files,320971311 bytes). Archived release.json/checksums verbatim per version plus inventory/RESTORE in outputs/pilot-b-preparation-history-20261005.zip (42579 bytes, SHA af71803ebc46ea89f3f38f5925246f748ea373f8128a208526e9117ce147969c). Full original payload verification and virtual restore PASS. Archive depends on retained r5; preserve r5→v2→v3→v4 and frozen interim. Additional synthetic fixtures/evidence duplicate cleanup79211 bytes. No remote/cache/source deletion.
-
-## Validation
-Baseline109 tests; final113 PASS (2 obsolete removed,6 regressions added). Ruff/compileall/check_repo --require-git/diff check PASS. DVC target status up to date. V4 verify_payload/read_records/manifest/split/test subset/test IDs PASS;112 ledger84used60/13/11,28review_only. Payload checksum SHA dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53. Git pointer SHA f9f249f1f7bee62690e24f8bb437952c855866c9f7828da5af195d8c770564ef; worktree CRLF semantically/normalized byte-identical. Final diff inspected. No commit/push.
-
-## Risks / unresolved / next task
-No pending owner questions. ML B trainer/config/model/license/loss and runtime S9 remain separate gates. Dependency lock/fresh install/Linux/GPU not verified. Other historical evidence/extracted sources retained; source replay paths are machine-dependent. Report distinguishes technical tests from model quality. New task/resume must reread index/checkpoint and verify Git/artifacts rather than reopening approved decisions.
+- Status: In progress. Owner/reviewer: repository owner; Codex implementation, no delegation.
+- Goal: implement and execute approved E001 readiness proposal end-to-end locally: contract/config, dependencies, manifest/mask loader, frozen ResNet18 features, two-label head, metrics/checkpoints/resume, meaningful tests, smoke/full baseline, report.
+- Authorization: user explicitly approved implementation of docs/reviews/training-readiness-20261006.md and requested persistence through completion. Technical parameters and local CPU pilot approved; no dataset mutation or cloud processing authorized.
+- Inputs: HEAD e1cf689; exact pilot-b-20261005-v4 / pilot-b-explicit-scene-split-v1 / pilot-b-targets-v1; checksum-list dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53.
+- Preserve user deletion docs/reviews/codebase-review-20261005.md; readiness report and previous checkpoint were uncommitted at entry. Do not restore deletion or include it in implementation snapshots.
+- Read: index/TASK/approved readiness report; prior unchanged training-map04/09/10/15/22/23/24,ADR004/012/013,governance21,release contract/runbook; current config/provenance/errors/inference/schema and tests, pyproject/ignore, task+experiment templates. Existing docs not reread unnecessarily.
+- Plan/files: new training package, configs/experiments E001+smoke, requirements CPU pins, tests/test_training*, docs E001 contract/runbook/experiment results, current status docs. No changes to immutable payload or source annotations.
+- Acceptance: integrity pins/freeze, unknown zero gradient/per-target denominator, no test/review_only in training, backbone/BN frozen, transform QA, valid metrics incl ties/undefined, stale-cache rejection, checkpoint/resume and interruption; full suite/lint/compile/repo/diff; actual smoke+baseline+local artifacts/checksums, honest limitations.
+- Decisions: implementation follows approved proposal, no architecture search/threshold tuning. Final test only after fixed candidate/protocol; no automatic test in train. No numeric promotion gate established. Weights provenance/terms and exact dependency pair to record before run.
+- Risks: tiny/source-confounded pilot; E001 cannot establish generalization/end-to-end readiness. Runtime S9 separate. Official clean-code provenance and artifact storage must be resolved before final execution; no silent git push or expanded remote media scope.
+- Checkpoint 2026-10-06: initial inspection done, implementing contract and installing CPU ML dependencies next. Shell requires escalation due existing sandbox initialization error.
