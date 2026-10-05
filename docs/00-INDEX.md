@@ -4,11 +4,11 @@ Snapshot owner R1–R3 của Roboflow: [crop ngữ cảnh và target labels](dat
 
 ## Trạng thái hiện tại
 
-Owner đã approve phương án và hoàn tất [release pilot B local v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md). Canonical `data/processed/pilot-b/pilot-b-20261005-v4`,config `pilot_b_release_v4.yaml`,status accepted/local_classifier_research:112 ledger/crops, 84 manifest(60 train/13 val/11 test),16 nhóm;28 review_only. Test đã freeze,108 tests/rebuild/hash QA PASS. [Approval](../artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json),[runbook](data/pilot-b-preparation-v1.md).
+Owner đã approve phương án và hoàn tất [release pilot B local v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md). Canonical `data/processed/pilot-b/pilot-b-20261005-v4`,config `pilot_b_release_v4.yaml`,status accepted/local_classifier_research:112 ledger/crops, 84 manifest(60 train/13 val/11 test),16 nhóm;28 review_only. Test đã freeze; hash QA và DVC round-trip PASS, suite hiện hành 109 tests PASS từ clean checkout. [Approval](../artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json),[runbook](data/pilot-b-preparation-v1.md).
 
 Toàn ledger phone 24P/9N/79U,looking 33P/56N/23U,9 normal và1 co-occurrence;crop/source/known approvals cũ giữ nguyên. Used84 phone 20P/8N/56U,looking 22P/43N/19U,8 normal. Nguồn phone còn confounding,val/test support nhỏ; không có model metrics hoặc real-world holdout.
 
-Ngày cập nhật: 2026-10-05. Owner: chủ repository (solo). DVC đã cấu hình và smoke push/pull/cache sạch đạt; artifact thử local đã dọn. Owner yêu cầu lưu đúng v4 trên teamdrive restricted; ACL chỉ user/owner đã kiểm, round-trip v4 đang thực hiện theo [runbook](data/pilot-b-preparation-v1.md)/[WORKLOG](WORKLOG.md). Classifier trainer/model/config và crop runtime còn pending; P0/P1/P2 toàn dự án chưa tự đóng.
+Ngày cập nhật: 2026-10-05. Owner: chủ repository (solo). DVC đã cấu hình; smoke và v4 push/pull/cache sạch đạt. V4 lưu trên teamdrive restricted theo yêu cầu owner; ACL chỉ user/owner đã kiểm. Implementation, pointer và smoke cleanup đã commit; clone/cache thử đã dọn, bằng chứng theo [runbook](data/pilot-b-preparation-v1.md)/[WORKLOG](WORKLOG.md). Classifier trainer/model/config và crop runtime còn pending; P0/P1/P2 toàn dự án chưa tự đóng.
 
 `Accepted` = implementation contract (hợp đồng triển khai); `Draft` = hướng dẫn đang hoàn thiện; `TBD` = không được tự bịa giá trị.
 

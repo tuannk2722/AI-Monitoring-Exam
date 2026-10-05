@@ -1,5 +1,13 @@
 # WORKLOG
 
+## 2026-10-05 — Hoàn tất bàn giao pilot B v4 và closeout codebase
+
+- Commit implementation/cleanup `97b90ebfe0e8f5457ac5c783205c98be02925866`; test portability fix `d99d1f5c08be467e05f6c7ee27dba8138bc779a5`. Clone cuối checkout đúng d99d1f5 bằng `git clone --no-hardlinks`; trước pull xác nhận `.dvc/cache` riêng mới rỗng và dataset chưa có. Auth copy vào config.local ignored; không đổi Drive ACL hoặc publish Git remote.
+- Upload targeted v4 **125 files pushed**; fresh-cache pull tại cả 97b90eb và d99d1f5 **125 files fetched and 124 files added**. Full 124-file inventory/byte SHA, schema/usage/group gates, 14 code/config/approval pins, 112 ledger/84 manifest (60/13/11), original frozen split/test attestation PASS; `dvc status` up to date. Payload list SHA `dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53`; Git pointer SHA `f9f249f1f7bee62690e24f8bb437952c855866c9f7828da5af195d8c770564ef`; MD5 directory `563958778204fa60d6015656595c19dd.dir`. Producer/config/approval/payload không sửa bytes.
+- Clean-checkout imports lấy cloned src, không dùng editable code gốc; 109 tests, Ruff, compileall và repo checker PASS. Hai tests không còn cần ignored outputs/ tồn tại; thư mục đó vẫn absent sau tests. Clone Git clean sau pull/checks. Môi trường Python tái sử dụng .venv gốc; không tuyên bố fresh dependency installation hoặc remote Linux CI đã chạy.
+- Đã dọn 7 checksum-identical rebuild copies (~262.8 MB); clone round-trip/copy credential/cache thử được dọn sau verify. Giữ canonical parents, raw/extracted sources và historical evidence đang được pin; không GC cache gốc/remote hoặc rewrite Git history. Current docs đồng bộ S8 PASS, P3 classifier config/trainer và S9 runtime crop pending. Closeout commit chỉ đổi docs/checkpoint, giữ pointer và producer/config/approval blobs nguyên như tested commit.
+- Task handoff/cleanup hoàn tất; next task là draft E001 reviewed-crop classifier config để owner chốt model/weights/license/loss/transforms/hyperparameters rồi triển khai masked loader/train/eval. Không mở lại review dataset hoặc tạo web tool; không train/Git push trong task này. Git clean là tiêu chí cuối sau commit closeout.
+
 ## 2026-10-05 — Round-trip v4 đạt; sửa test setup cho clean checkout
 
 - Implementation + pointer + scope/docs + smoke cleanup đã commit tại `97b90ebfe0e8f5457ac5c783205c98be02925866`; staged checker/14 SHA-pinned blob checks PASS, Git sạch sau commit. Targeted `dvc push data/processed/pilot-b/pilot-b-20261005-v4.dvc -r teamdrive` thành công: **125 files pushed** (124 payload files + directory object).

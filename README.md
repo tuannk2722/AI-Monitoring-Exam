@@ -4,7 +4,7 @@ Hệ thống nghiên cứu/demo phân tích video phòng thi bằng Computer Vis
 
 ## Trạng thái hiện tại
 
-- Phase: **P2 pilot B đã đóng gói; đang chốt bàn giao DVC trước P3 classifier baseline**.
+- Phase: **Pilot B đã bàn giao DVC; chuẩn bị P3 classifier baseline**.
 - MVP đầu tiên: **recorded video end-to-end**; webcam/live làm sau.
 - Classifier targets: `[phone_use, looking_around]`, positive/negative/unknown với mask; `normal` là metadata review.
 - Subset SCB5 + Roboflow v1 trong pilot v4 đã accepted; toàn bộ hai nguồn vẫn candidate.
@@ -79,6 +79,8 @@ dvc remote modify teamdrive gdrive_use_service_account false
 Chỉ commit `.dvc/config` và pointer `.dvc`; authentication cục bộ nằm ngoài Git. Test với folder nhỏ trước khi đưa dataset thật vào. Chi tiết: [docs/22-training-environment-and-runbook.md](docs/22-training-environment-and-runbook.md).
 
 Repository hiện đã cấu hình `teamdrive` và smoke push/pull qua cache sạch đã đạt. Owner cho phép lưu đúng package v4 trên Drive restricted trong task bàn giao ngày 2026-10-05; phạm vi và bằng chứng tại [runbook pilot](docs/data/pilot-b-preparation-v1.md). Không chạy lại `dvc init` hoặc tạo smoke fixture. Từ checkout đã bàn giao, lấy dataset bằng `dvc pull data/processed/pilot-b/pilot-b-20261005-v4.dvc -r teamdrive`; credential được cấu hình local, không chép vào Git.
+
+V4 đã push và khôi phục từ exact commit/cache mới rỗng: 125 objects fetched, 124 files restored, full checksum/schema/test freeze PASS. Clone tại commit có bản sửa tests đã chạy đủ 109 tests, lint, compile và repository checker. Bằng chứng/lệnh tại WORKLOG; chưa có classifier training hoặc model metrics.
 
 ## Luồng làm việc ngắn
 
