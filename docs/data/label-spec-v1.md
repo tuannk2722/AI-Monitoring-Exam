@@ -2,13 +2,13 @@
 
 Version: `label-map-v0.2-draft`. Owner/người chốt: chủ repository. Review hỗ trợ: Codex. Chưa đóng băng.
 
-Pilot encoding/usage theo [hợp đồng pilot B](pilot-b-release-contract-v1.md) và [ADR-013](../decisions/ADR-013-pilot-b-packaging-contract.md): owner đã chọn positive/negative/unknown + masked supervision; schema cụ thể còn phải triển khai/review version trước exporter. Không dùng legacy label IDs làm vector positions.
+Pilot encoding/usage theo [hợp đồng pilot B](pilot-b-release-contract-v1.md) và [ADR-013](../decisions/ADR-013-pilot-b-packaging-contract.md). Owner đã nghiệm thu `pilot-b-manifest-v1`/`pilot-b-targets-v1`, reviewed crops/targets và config local v4; [runbook](pilot-b-preparation-v1.md) là trạng thái hiện hành. Legacy label-map v0.2 và model/runtime chưa được freeze bằng approval này; không dùng YOLO label IDs làm vector positions.
 
 ## Quy tắc chung
 
 - Chỉ annotate bằng chứng quan sát được; nhiều hành vi có thể cùng tồn tại.
 - Không suy diễn ý định/vi phạm.
-- Unit **person** theo [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); formulation B và multi-label theo [ADR-012](../decisions/ADR-012-formulation-b-multilabel.md). Config runtime/mapping chưa nâng version; còn cần hoàn thiện guideline/crop và schema classifier.
+- Unit **person** theo [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md); B và multi-label theo [ADR-012](../decisions/ADR-012-formulation-b-multilabel.md). Schema classifier pilot đã duyệt; config runtime/mapping legacy vẫn riêng, chưa đổi version.
 - Nếu bằng chứng quá nhỏ/bị che/mơ hồ, dùng ignore/exclusion có lý do đã được review.
 
 ## `phone_use`
@@ -29,7 +29,7 @@ Người đang làm bài, đã review thủ công và không có bằng chứng 
 
 ## Co-occurrence và formulation
 
-YOLO tìm người → crop → classifier multi-label. Khi cùng có bằng chứng, gán cả `phone_use` và `looking_around` cho cùng người. Chưa chọn head/loss; state/null/mask và schema thiết kế theo hợp đồng pilot B, chưa có exporter đã freeze. Normal là metadata review, không phải head softmax độc quyền; không tự biến target unknown thành negative. Detector chỉ tìm người, không dùng lớp hành vi làm lớp detector.
+YOLO tìm người → crop → classifier multi-label. Khi cùng có bằng chứng, gán cả `phone_use` và `looking_around` cho cùng người. Chưa chọn head/loss; schema/encoding/exporter và split của release local v4 đã nghiệm thu. Normal là metadata review, không là head softmax độc quyền; unknown không thành negative. Detector chỉ tìm người; crop runtime vẫn gate riêng.
 
 ## Source aliases (Ánh xạ từ nguồn gốc)
 

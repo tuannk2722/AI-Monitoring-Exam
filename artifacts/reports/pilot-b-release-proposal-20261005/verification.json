@@ -1,0 +1,37 @@
+{
+  "draft_payload_sha256": "b49c9ec09eea434dc63497e0a79836f6a5c052cabdb95515055801f7f59ff7d7",
+  "parent_payload_sha256": "29b87891a98ff013443c314a83cebb7b55457fdb43c774444e67d98d25ce96fd",
+  "config_sha256": "8c869c3e395585fd81c69c3b4b11d71a026f85d4bb8270ae969506c471406cce",
+  "producer_sha256": "400b1755a13a36a662ae22e8c204bbf17939711f3142a4a6a4d7e3b3af04afb9",
+  "proposed_assignment_sha256": "783a6e03be728a93e0c35984b21ff2133c2fa2accd493ede3e3ad2d8c1ddebc7",
+  "qa_inventory_sha256": "da26759a6d14e0c0abe0866acf40702bd3d49bff12ede6d3bf96a1d24c87a428",
+  "checks": {
+    "exact_112_inventory": true,
+    "nine_exact_crop_phone_context_proposals": true,
+    "all_14_approved_must_links_preserved": true,
+    "same_image_crop_group_not_crossing_splits": true,
+    "unknowns_not_defaulted_negative": true,
+    "unassigned_remain_review_only": true,
+    "canonical_v3_and_existing_approvals_unchanged": true,
+    "deterministic_rebuild_payload_identical": true
+  },
+  "validation": {
+    "unit_tests": {
+      "passed": 105,
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests"
+    },
+    "ruff": "PASS",
+    "compileall": "PASS",
+    "check_repo_require_git": "PASS",
+    "diff_check": "PASS"
+  },
+  "owner_approval_received": false,
+  "training_release_accepted": false,
+  "test_frozen": false,
+  "limitations": [
+    "Visual conservative clusters are not recovered room/session/person metadata; residual leakage uncertainty requires owner boundary review.",
+    "No classifier metrics or independent exam-like holdout demonstrated.",
+    "RF phone positives and SCB phone negatives are source-confounded; small val/test support cannot establish real-exam generalization.",
+    "Unassigned records remain in the 112-member ledger but cannot enter training/evaluation."
+  ]
+}

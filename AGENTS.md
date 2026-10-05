@@ -32,6 +32,8 @@ Không mở rộng dashboard, realtime, cloud hoặc authentication khi mileston
 
 Nếu thiếu quyết định, thêm `TBD` có owner, lý do và điều kiện chốt; không bịa giá trị mặc định trông như đã được phê duyệt.
 
+Không tự quyết âm thầm KHÔNG có nghĩa là bắt Owner làm thủ công mọi việc. AI phải chủ động dùng tự động hóa (heuristics, thuật toán, pre-trained models) để tạo ra các đề xuất (Draft Proposals). Owner chỉ đóng vai trò nghiệm thu, xác nhận (Approve/Reject) ở mức high-level qua báo cáo hoặc 1 lệnh CLI.
+
 ## Data/privacy
 
 - `data/raw` bất biến; transform bằng code sang `interim/processed`.

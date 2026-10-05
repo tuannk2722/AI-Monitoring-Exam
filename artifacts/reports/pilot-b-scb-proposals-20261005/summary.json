@@ -1,0 +1,71 @@
+{
+  "status": "draft_pending_owner_acceptance",
+  "proposal_version": "pilot-b-scb-proposals-v1",
+  "records": 112,
+  "scb_draft_crops": 84,
+  "rf_reviewed_crops_preserved": 28,
+  "proposed_looking_around": {
+    "negative": 56,
+    "positive": 28
+  },
+  "proposed_phone_use": {
+    "unknown": 84
+  },
+  "proposed_normal": {
+    "unknown": 84
+  },
+  "canonical_coverage": {
+    "records": 112,
+    "targets": {
+      "phone_use": {
+        "positive": 24,
+        "negative": 0,
+        "unknown": 88
+      },
+      "looking_around": {
+        "positive": 5,
+        "negative": 0,
+        "unknown": 107
+      }
+    },
+    "support": {
+      "phone_use": {
+        "known": 24,
+        "unknown_ignored": 88,
+        "binary_metric_support": "unavailable_missing_positive_or_negative"
+      },
+      "looking_around": {
+        "known": 5,
+        "unknown_ignored": 107,
+        "binary_metric_support": "unavailable_missing_positive_or_negative"
+      }
+    },
+    "cooccurrence": 1,
+    "confirmed_normal": 0,
+    "fully_labeled": 1,
+    "partially_labeled": 27,
+    "fully_unknown": 84
+  },
+  "parent_checksums_sha256": "19ec494d9fe46c3b7c8a62defe6460e691aaceffa4fdbf956fa4245183bba406",
+  "config_sha256": "c21e475b11af8eb5826aa70ff6661fce87fd642baabedefceceda3f5855ff529",
+  "producer_sha256": "96cc5683af2e167b4d0a72187f0522001f91c11c85c320c54aaffa660a2fa793",
+  "git_commit": "1f7757bfee5a20dad393ba80064769851e5ccd6a",
+  "git_dirty": true,
+  "training_release_accepted": false,
+  "split_assigned": false,
+  "limitations": [
+    "Source boxes may omit visible person parts or desk context; no body/padding inferred",
+    "Source-class label suggestions are weak proposals, not reviewed target evidence",
+    "Phone absence and normal cannot be inferred from SCB source classes",
+    "Canonical ledger unchanged; owner may accept/reject proposals or list exceptions",
+    "Grouping, split, scope and release gates remain unresolved"
+  ],
+  "flagged_for_acceptance": {
+    "SCB-read-008": "Multiple visible people in crop; target identity needs confirmation.",
+    "SCB-read-012": "Head direction may conflict with source read; negative is only a weak suggestion.",
+    "SCB-read-026": "Raised hand/turned pose; read does not establish absence of looking around.",
+    "SCB-read-027": "Raised hand/turned pose; read does not establish absence of looking around.",
+    "SCB-read-009": "Playback UI in source screenshot; verify interference with candidate crop.",
+    "SCB-write-007": "Playback UI in source screenshot; verify interference with candidate crop."
+  }
+}

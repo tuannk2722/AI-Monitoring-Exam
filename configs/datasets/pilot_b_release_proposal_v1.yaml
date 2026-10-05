@@ -1,0 +1,229 @@
+status: draft_pending_owner_acceptance
+proposal_version: pilot-b-release-proposal-20261005-v2
+parent_package: data/processed/pilot-b/pilot-b-20261005-v3
+parent_checksums_sha256: 29b87891a98ff013443c314a83cebb7b55457fdb43c774444e67d98d25ce96fd
+owner_approval_required: true
+canonical_mutation: false
+qa:
+  reviewer: Codex
+  reviewed_at: '2026-10-05'
+  phone_unknown_crops_inspected: 88
+  source_images_inspected: 105
+  method: Local visual inspection of exact reviewed crops and source sheets; no model
+    prediction or source-class negative mapping.
+phone_negative_proposals:
+- sample_id: SCB-read-015
+  crop_sha256: 8e1231a6acfdc6801ee9235e990ec660ab24b81cc0e0b45309631c606500d009
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target hands work on paper with a pen on the yellow desk. The dark
+    object held by another person at top right is not attributed to this target.
+- sample_id: SCB-read-024
+  crop_sha256: e09a3b29a62b099279881a580d9009eb34fe3c06561cd4544c85737951916929
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target reads an open paper book at the desk; visible hands and working
+    area show book/page handling rather than phone handling.
+- sample_id: SCB-write-001
+  crop_sha256: bdeb4e0f5a582e7b5925fe7aa6107be74512daf790a559a06a2eb02f7289961e
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target writing hand holds a pencil and the other hand holds the paper;
+    the visible desk object below is a pencil bag.
+- sample_id: SCB-write-002
+  crop_sha256: 9023f258790f48cb78abd923c93a0c750da814fe73f54d148bffc96b4ff802ef
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Both target hands work on paper with a pen; the black zippered object
+    on the desk is a pencil case.
+- sample_id: SCB-write-006
+  crop_sha256: 61f7fab3efc270b0ce373788978669cf793cc570e9199920454bd51b385430dd
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target pen hand and page-holding hand are visible over a paper notebook;
+    adjacent pink case is not phone evidence.
+- sample_id: SCB-write-009
+  crop_sha256: 192b9db40c496f1acb1e97fe0a252639fdbd10c15764628ab127d2347722d4ee
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Both target hands write/hold an open workbook on the visible blue-purple
+    desk.
+- sample_id: SCB-write-013
+  crop_sha256: 18743198a5a0914a1e5e33b1c2cae11e7d5018610bb8892142bd2f91d5328a04
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target holds a pen over paper with the other hand on the page; the
+    desk case belongs to stationery.
+- sample_id: SCB-write-014
+  crop_sha256: f7a00d55f05443b4790b127c1de4a7143d62ed49bbde3cb4b1f918f340494d64
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target pencil hand and page-holding hand are visible; the bag at the
+    lower edge is stationery.
+- sample_id: SCB-write-026
+  crop_sha256: b3bc752849b7c5eb69f54b788340b688db2209a7b71d396ebfa247bef3227514
+  proposed_phone_use: negative
+  proposed_work_context: confirmed_working
+  observation: Target pen hand and page-holding hand are visible over the workbook;
+    the foreground neighbor is not used as target evidence.
+groups:
+- proposal_id: RF-GREEN
+  parent_group_ids:
+  - PB-G-6a2b7b681fa1389a0e98
+  additional_sample_ids:
+  - P022-person-01
+  proposed_split: val
+  visual_evidence: Tiered rounded green chairs, wooden desks and cream walls. P022
+    is a different angle of this furniture/layout signature; keep together conservatively.
+- proposal_id: RF-WINDOW
+  parent_group_ids:
+  - PB-G-7d6a2f8ef2a79722250c
+  additional_sample_ids: []
+  proposed_split: test
+  visual_evidence: Wide white-desk room with tall side windows and dark uniforms;
+    layout differs visibly from RF-GREEN and RF-TWO-DESKS.
+- proposal_id: RF-TWO-DESKS
+  parent_group_ids:
+  - PB-G-7500bfb3955bb65264f8
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Two white desks against a cream wall/socket and right door; keep
+    all approved adjacent captures together.
+- proposal_id: SCB-GREY-WINDOWS
+  parent_group_ids:
+  - PB-G-2c57e4aaa5d3b318d20c
+  additional_sample_ids: []
+  proposed_split: test
+  visual_evidence: Grey uniform class, tall left windows and pale desks; visually
+    differs from purple desks/landscape room and green-table room.
+- proposal_id: SCB-BLUE-CONSERVATIVE
+  parent_group_ids:
+  - PB-G-f332278e4cbd91fedd6d
+  - PB-G-8dca1f2761e038f4e565
+  - PB-G-cbc120ff166779109e96
+  additional_sample_ids:
+  - SCB-turnhead-027
+  proposed_split: train
+  visual_evidence: Blue-purple/yellow desks, landscape wall decor, curtains and dark
+    rear door/screen suggest overlapping room views. Merge three approved clusters
+    plus turnhead027 conservatively; no recovered session identity.
+- proposal_id: SCB-PINK-WINDOWS
+  parent_group_ids:
+  - PB-G-0b362b6e6e1ff1857de9
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Pink uniforms, green lower wall, left windows/radiator and pale
+    desks.
+- proposal_id: SCB-PURPLE-PLAYBACK
+  parent_group_ids:
+  - PB-G-3b1f3d27a00ab1226fe2
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Approved same playback-overlay scene. Preserve crop pixels including
+    source UI; overlay is not target evidence.
+- proposal_id: SCB-BLUE-FRONT
+  parent_group_ids:
+  - PB-G-8173339441056d9b03c1
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Blue uniforms, white/blue tables, pale pink room and front banner.
+- proposal_id: SCB-GREEN-TABLES
+  parent_group_ids:
+  - PB-G-41440742fe40e6bdfa60
+  additional_sample_ids: []
+  proposed_split: val
+  visual_evidence: Green/yellow desks and green chairs with white bow-tie uniforms
+    and striped cream wall; distinct furniture from purple-desk and grey-window scenes.
+- proposal_id: SCB-GREEN-WALL
+  parent_group_ids:
+  - PB-G-0725a79583f2250311c2
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Green panel wall, teal/white uniforms, dark/blue desks and wooden
+    stools.
+- proposal_id: SCB-SCREEN-BOARD
+  parent_group_ids:
+  - PB-G-fb0d01784f4417facf05
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Left screen and large green board with white/red-scarf uniforms.
+- proposal_id: SCB-RED-BANNER
+  parent_group_ids:
+  - PB-G-4197008f0efc60786b95
+  additional_sample_ids: []
+  proposed_split: train
+  visual_evidence: Approved front-board/red-banner pair retained in train alongside
+    potentially related purple-desk training views.
+- proposal_id: SCB-BLUE-WOOD
+  parent_group_ids: []
+  additional_sample_ids:
+  - SCB-read-001
+  - SCB-read-004
+  - SCB-write-025
+  proposed_split: train
+  visual_evidence: Blue/white jackets, white/blue desks and cream vertical wall panels
+    with wooden lower wall; conservative opposite-view cluster.
+- proposal_id: SCB-GREY-YELLOW
+  parent_group_ids: []
+  additional_sample_ids:
+  - SCB-read-018
+  - SCB-write-026
+  proposed_split: test
+  visual_evidence: Grey/white striped jackets and yellow desks with red-coated teacher
+    and blue curtain; keep both views together. Visible uniform/furniture differs
+    from train purple-desk scenes and val bow-tie/green-table scenes.
+- proposal_id: SCB-RED-WHITE-STRIP
+  parent_group_ids: []
+  additional_sample_ids:
+  - SCB-read-015
+  - SCB-turnhead-013
+  - SCB-write-013
+  - SCB-write-017
+  - SCB-write-023
+  proposed_split: train
+  visual_evidence: White/red-scarf or red/white uniforms, yellow desks and pale striped
+    walls/window views. Broader conservative cluster, not a claim of one capture/session.
+- proposal_id: SCB-MIRROR-STRIP
+  parent_group_ids: []
+  additional_sample_ids:
+  - SCB-read-027
+  - SCB-write-018
+  proposed_split: train
+  visual_evidence: White/navy striped uniforms, pale yellow desks and mirrored rear
+    wall; keep possible opposite room views together.
+split_policy:
+  version: pilot-b-explicit-scene-split-draft-v1
+  algorithm: explicit_whole_group_assignment
+  seed: null
+  ratio_target:
+  - 0.7
+  - 0.15
+  - 0.15
+  ratio_is_soft_target: true
+  unassigned_usage: review_only
+  metadata_ids_remain_null: true
+  independence_status: visual_boundary_proposal_pending_owner_review
+  test_freeze_status: not_frozen
+  test_access: Annotation/QA before freeze only; after approved freeze no model/epoch/augmentation/threshold
+    selection on test.
+schema_policy:
+  schema_version: pilot-b-manifest-v1
+  target_encoding_version: pilot-b-targets-v1
+  crop_policy_version: pilot-b-reviewed-context-v1
+  unknown_supervision: masked
+  crop_and_previously_known_target_changes: false
+proposed_use_scope: local_classifier_research
+use_scope_limits:
+- Local offline classifier train/validation/final evaluation only after owner acceptance
+  and new canonical release.
+- Keep source attribution and derivative notes; no redistribution or external media
+  upload/logging.
+- Research/demo only; no disciplinary decisions.
+- Runtime detector/context crop gate remains separate before end-to-end baseline.
+limitations:
+- Visual conservative clusters are not recovered room/session/person metadata; residual
+  leakage uncertainty requires owner boundary review.
+- No classifier metrics or independent exam-like holdout demonstrated.
+- RF phone positives and SCB phone negatives are source-confounded; small val/test
+  support cannot establish real-exam generalization.
+- Unassigned records remain in the 112-member ledger but cannot enter training/evaluation.

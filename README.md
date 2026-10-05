@@ -4,10 +4,10 @@ Hệ thống nghiên cứu/demo phân tích video phòng thi bằng Computer Vis
 
 ## Trạng thái hiện tại
 
-- Phase: **P0 Project Foundation → P1 Dataset Research**.
+- Phase: **P2 pilot B đã đóng gói; đang chốt bàn giao DVC trước P3 classifier baseline**.
 - MVP đầu tiên: **recorded video end-to-end**; webcam/live làm sau.
-- Candidate labels: `normal`, `looking_around`, `phone_use`.
-- Candidate sources: SCB5 và bộ Exam Cheating trên Roboflow; chưa được dùng chính thức trước khi audit license, provenance, annotation và leakage.
+- Classifier targets: `[phone_use, looking_around]`, positive/negative/unknown với mask; `normal` là metadata review.
+- Subset SCB5 + Roboflow v1 trong pilot v4 đã accepted; toàn bộ hai nguồn vẫn candidate.
 - Formulation B đã chốt: YOLO person → crop context → classifier multi-label (ADR-012).
 - Dữ liệu/model thật không nằm trong Git. Git lưu code/config/docs/pointer; DVC remote Google Drive lưu binary lớn.
 
@@ -24,7 +24,7 @@ Chế độ solo: chủ repository đảm nhiệm cả ba vai trò và là ngư�
 
 | Vai trò | Contract bàn giao |
 |---|---|
-| Data Lead | Package classifier B có version, manifest/target states/split/provenance; exporter còn cần triển khai |
+| Data Lead | Pilot B v4 accepted: 112 ledger, 84 usage manifest, split/test frozen; bàn giao DVC theo runbook |
 | Model Lead | experiment config + metrics + plots + DVC-tracked `best.pt` + run metadata |
 | Pipeline Lead | annotated video + structured JSON predictions/tracks/events + performance report |
 
@@ -78,6 +78,8 @@ dvc remote modify teamdrive gdrive_use_service_account false
 
 Chỉ commit `.dvc/config` và pointer `.dvc`; authentication cục bộ nằm ngoài Git. Test với folder nhỏ trước khi đưa dataset thật vào. Chi tiết: [docs/22-training-environment-and-runbook.md](docs/22-training-environment-and-runbook.md).
 
+Repository hiện đã cấu hình `teamdrive` và smoke push/pull qua cache sạch đã đạt. Owner cho phép lưu đúng package v4 trên Drive restricted trong task bàn giao ngày 2026-10-05; phạm vi và bằng chứng tại [runbook pilot](docs/data/pilot-b-preparation-v1.md). Không chạy lại `dvc init` hoặc tạo smoke fixture. Từ checkout đã bàn giao, lấy dataset bằng `dvc pull data/processed/pilot-b/pilot-b-20261005-v4.dvc -r teamdrive`; credential được cấu hình local, không chép vào Git.
+
 ## Luồng làm việc ngắn
 
 ```bash
@@ -87,7 +89,7 @@ python -m ai_exam_monitoring.data.audit --dataset data/raw/scb --images images -
 python -m unittest discover -s tests -v
 ```
 
-Build/train/evaluate YOLO legacy từ chối config B hiện hành. Chưa có exporter hay trainer classifier B được hỗ trợ. [Trạng thái hai nguồn và gate release](docs/data/dataset-research.md) là đầu mối hiện hành; không chạy train hoặc coi audit snapshot là dataset accepted.
+Build/train/evaluate YOLO legacy từ chối config B. [Pilot B v4](artifacts/reports/pilot-b-release-acceptance-20261005/README.md) đã accepted: 60 train/13 val/11 test, 28 review_only; test frozen, training scope `local_classifier_research`. [Runbook](docs/data/pilot-b-preparation-v1.md) ghi bàn giao Drive và CLI/schema/exporter; trainer classifier B chưa triển khai. `dvc.yaml` là pipeline YOLO legacy, không dùng `dvc repro` để train B. Automatic runtime crop còn gate riêng trước end-to-end.
 
 ## Audit nguồn và ảnh mẫu bbox (CPU)
 
@@ -121,8 +123,8 @@ Chưa kiểm tra gần trùng, group/split leakage, license/consent hoặc ngữ
 
 - Không kèm dataset SCB5/Roboflow, model weights hoặc video người thật.
 - Không có số metric giả, threshold giả hay `best.pt` giả.
-- B/person unit/semantics đã chốt; classifier schema/crop inference và dataset release chưa freeze.
-- Tracking/event/risk có contract và code nền, nhưng chỉ được tích hợp với model đã promote ở P5/P6.
+- B/person unit/semantics và schema/dataset/split pilot v4 đã chốt; model/experiment và automatic crop runtime còn pending.
+- Tracking/event/risk có contracts và config draft; implementation và integration ở P5/P6 sau model baseline/evaluation.
 - Web FastAPI được quyết định cho P7 nhưng chưa phải critical path hiện tại.
 
 Các quyết định còn thiếu dữ liệu để chốt được ghi rõ trong [docs/00-INDEX.md](docs/00-INDEX.md), không bị che bằng mock UI.

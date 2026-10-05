@@ -31,6 +31,7 @@ def forbidden_path(relative: str) -> bool:
     path = Path(relative)
     name = path.name.lower()
     normalized = relative.lower()
+    data_metadata = path.suffix.lower() == ".dvc" or name == ".gitignore"
     return (
         path.suffix.lower() in FORBIDDEN_TRACKED_SUFFIXES
         or name == ".env"
@@ -39,6 +40,8 @@ def forbidden_path(relative: str) -> bool:
                     "token.json", "id_rsa", "id_ed25519"}
         or normalized == ".dvc/config.local"
         or any(normalized.startswith(f"{directory}/") and name != ".gitkeep"
+               and not (directory in {"data/raw", "data/interim", "data/processed"}
+                        and data_metadata)
                for directory in FORBIDDEN_TRACKED_DIRS)
     )
 

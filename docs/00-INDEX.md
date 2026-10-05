@@ -1,10 +1,14 @@
 # 00 — Documentation Index
 
-Đã áp dụng owner R1–R3: [crop ngữ cảnh và target labels](data/candidates/Roboflow-phone-use-20261004-review.md), 28 bbox/crop được duyệt, 24 phone positives + 5 looking positives (1 co-occurrence); 27 người còn target unknown, chưa accepted/train.
+Snapshot owner R1–R3 của Roboflow: [crop ngữ cảnh và target labels](data/candidates/Roboflow-phone-use-20261004-review.md),28 bbox/crop đã duyệt. Approval training cho subset pilot hiện hành nằm trong release local bên dưới; snapshot lịch sử không sửa.
 
 ## Trạng thái hiện tại
 
-Ngày cập nhật: 2026-10-04. Owner: chủ repository (solo). Audit & Spec đã consolidation theo B; dataset release còn pending preparation. P0/P1 chưa đóng.
+Owner đã approve phương án và hoàn tất [release pilot B local v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md). Canonical `data/processed/pilot-b/pilot-b-20261005-v4`,config `pilot_b_release_v4.yaml`,status accepted/local_classifier_research:112 ledger/crops, 84 manifest(60 train/13 val/11 test),16 nhóm;28 review_only. Test đã freeze,108 tests/rebuild/hash QA PASS. [Approval](../artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json),[runbook](data/pilot-b-preparation-v1.md).
+
+Toàn ledger phone 24P/9N/79U,looking 33P/56N/23U,9 normal và1 co-occurrence;crop/source/known approvals cũ giữ nguyên. Used84 phone 20P/8N/56U,looking 22P/43N/19U,8 normal. Nguồn phone còn confounding,val/test support nhỏ; không có model metrics hoặc real-world holdout.
+
+Ngày cập nhật: 2026-10-05. Owner: chủ repository (solo). DVC đã cấu hình và smoke push/pull/cache sạch đạt; artifact thử local đã dọn. Owner yêu cầu lưu đúng v4 trên teamdrive restricted; ACL chỉ user/owner đã kiểm, round-trip v4 đang thực hiện theo [runbook](data/pilot-b-preparation-v1.md)/[WORKLOG](WORKLOG.md). Classifier trainer/model/config và crop runtime còn pending; P0/P1/P2 toàn dự án chưa tự đóng.
 
 `Accepted` = implementation contract (hợp đồng triển khai); `Draft` = hướng dẫn đang hoàn thiện; `TBD` = không được tự bịa giá trị.
 
@@ -70,8 +74,8 @@ Checkpoint task đang hoạt động cho agent: [`.codex/TASK.md`](../.codex/TAS
 
 | ID | Câu hỏi | Owner | Chốt khi |
 |---|---|---|---|
-| TBD-DATA-01 | Budget pilot đã chốt ở ADR-013; còn membership SCB cụ thể và manifest nhóm | Owner | S2/S5 theo hợp đồng pilot B |
-| LABEL-01 (đã chốt ngữ nghĩa/unknown policy) | Normal/co-occurrence ADR-012; ba trạng thái và masked supervision ADR-013 | Owner | Schema thiết kế tại contract pilot B, còn implementation/review exporter |
+| TBD-DATA-01 (resolved cho pilot local v4) | Membership112,16 nhóm84 used,28 review_only đã owner duyệt | Owner | Evidence release v4; không chấp nhận toàn bộ nguồn |
+| LABEL-01 (resolved cho pilot local v4) | Normal/co-occurrence vàP/N/U/masked supervision; schema/config/crop/targets v4 đã duyệt | Owner | Không chốt model/loss/runtime bằng approval dataset |
 | TASK-01 (đã chốt) | YOLO person → crop → multi-label classifier B, ADR-012 | Owner | Không phải kết quả benchmark A/B |
 | TBD-ANN-01 | Pilot đóng gói crop đã review; crop tự động còn là gate riêng | Owner | S9 trước baseline B end-to-end |
 | TBD-EVT-01 | Ngưỡng duration/gap/event | Pipeline Lead | event validation set |
@@ -84,8 +88,8 @@ Mọi quyết định lớn: ADR → canonical docs/config → code. Không sử
 
 [Phương án hai nguồn và việc còn lại](data/dataset-research.md), [P2 preparation B](09-phase-p2-dataset-preparation.md), [ADR-012](decisions/ADR-012-formulation-b-multilabel.md).
 
-[Hợp đồng đóng gói pilot B v1](data/pilot-b-release-contract-v1.md) là đầu ra thiết kế hiện tại: exact RF membership, SCB quota/selection rule, target encoding/eligibility, crop/split gates và backlog S1–S9. Quyết định owner ở [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md); chưa trích xuất/build dataset và chưa đóng P0/P1/P2.
+[Hợp đồng đóng gói pilot B v1](data/pilot-b-release-contract-v1.md) giữ exact RF membership, SCB quota/selection rule, target encoding/eligibility, crop/split gates và backlog S1–S9. [ADR-013](decisions/ADR-013-pilot-b-packaging-contract.md) chốt thiết kế; [release v4](../artifacts/reports/pilot-b-release-acceptance-20261005/README.md) là snapshot nghiệm thu local/freeze. Quyền storage Drive bổ sung và trạng thái S8 theo runbook/WORKLOG; S9 vẫn gate riêng trước end-to-end.
 
-Roboflow: [card](data/candidates/Roboflow-phone-use-20261004.md), [audit gốc](data/candidates/Roboflow-phone-use-20261004-audit.md), [quyết định tổng hợp](data/candidates/Roboflow-phone-use-20261004-review.md). 28 person/crop đã duyệt, 27 target unknown, chưa training eligible.
+Roboflow: [card](data/candidates/Roboflow-phone-use-20261004.md),[audit gốc](data/candidates/Roboflow-phone-use-20261004-audit.md),[quyết định tổng hợp](data/candidates/Roboflow-phone-use-20261004-review.md). Giữ28 reviewed records; release v4 dùng23 crop vàgiữ5 review_only; unknown vẫn mask.
 
 SCB5: [card](data/candidates/SCB5-supplied-20261003.md), [audit gốc](data/candidates/SCB5-supplied-20261003-audit.md), [review](data/candidates/SCB5-supplied-20261003-review.md). Discuss loại; Head/HRW là nguồn ứng viên relabel theo B.

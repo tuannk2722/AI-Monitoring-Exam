@@ -1,0 +1,9 @@
+status: preparation_only
+dataset_version: pilot-b-20261005-v3
+parent_package: data/processed/pilot-b/pilot-b-20261005-v2
+parent_checksums_sha256: 19ec494d9fe46c3b7c8a62defe6460e691aaceffa4fdbf956fa4245183bba406
+parent_config: configs/datasets/pilot_b_groups_v2.yaml
+approved_batch: data/interim/pilot-b/pilot-b-scb-proposals-20261005-v2
+approved_batch_checksums_sha256: 5dbf549895ccb10d2913458a51b413056ada40f752ba3fa8740775599148cba4
+approval: artifacts/reports/pilot-b-scb-acceptance-20261005/owner-approval.json
+approval_sha256: e138edf66eafee78df805654d323cf09d832eeb493a028740f17ce91c208d3fe

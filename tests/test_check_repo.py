@@ -67,10 +67,29 @@ class RepositoryCheckTests(unittest.TestCase):
 
     def test_safe_templates_pointers_and_placeholders(self) -> None:
         self.init_git()
-        for name in [".env.example", "data/raw.dvc", "data/raw/.gitkeep", ".dvc/config"]:
+        for name in [".env.example", "data/raw.dvc", "data/raw/.gitkeep", ".dvc/config",
+                     "data/raw/source.dvc", "data/interim/pilot/.gitignore",
+                     "data/processed/pilot-b/pilot-b-20261005-v4.dvc",
+                     "data/processed/pilot-b/.gitignore"]:
             self.write(name)
             self.git("add", "--", name)
         self.assertEqual(self.check()[0], 0)
+
+    def test_data_metadata_exception_keeps_payload_cache_and_secrets_blocked(self) -> None:
+        self.init_git()
+        for name in ["data/processed/pilot-b/crops/person.png",
+                     "data/processed/pilot-b/manifest.jsonl", "data/raw/credentials.json",
+                     ".dvc/cache/example.dvc", ".dvc/tmp/.gitignore",
+                     ".venv/package.dvc", "artifacts/models/.gitignore"]:
+            self.write(name)
+            self.git("add", "-f", "--", name)
+        code, output = self.check(strict=True)
+        self.assertEqual(code, 1)
+        for name in ["data/processed/pilot-b/crops/person.png",
+                     "data/processed/pilot-b/manifest.jsonl", "data/raw/credentials.json",
+                     ".dvc/cache/example.dvc", ".dvc/tmp/.gitignore",
+                     ".venv/package.dvc", "artifacts/models/.gitignore"]:
+            self.assertIn(name, output)
 
     def test_zip_is_explicitly_partial_and_strict_mode_fails(self) -> None:
         self.write(".venv/local.pth")

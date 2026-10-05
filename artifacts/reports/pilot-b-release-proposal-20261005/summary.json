@@ -1,0 +1,855 @@
+{
+  "status": "draft_pending_owner_acceptance",
+  "proposal_version": "pilot-b-release-proposal-20261005-v2",
+  "parent_checksums_sha256": "29b87891a98ff013443c314a83cebb7b55457fdb43c774444e67d98d25ce96fd",
+  "config_sha256": "8c869c3e395585fd81c69c3b4b11d71a026f85d4bb8270ae969506c471406cce",
+  "producer_sha256": "400b1755a13a36a662ae22e8c204bbf17939711f3142a4a6a4d7e3b3af04afb9",
+  "git_commit": "1f7757bfee5a20dad393ba80064769851e5ccd6a",
+  "canonical_mutated": false,
+  "training_release_accepted": false,
+  "test_frozen": false,
+  "canonical_coverage": {
+    "records": 112,
+    "targets": {
+      "phone_use": {
+        "positive": 24,
+        "negative": 0,
+        "unknown": 88
+      },
+      "looking_around": {
+        "positive": 33,
+        "negative": 56,
+        "unknown": 23
+      }
+    },
+    "support": {
+      "phone_use": {
+        "known": 24,
+        "unknown_ignored": 88,
+        "binary_metric_support": "unavailable_missing_positive_or_negative"
+      },
+      "looking_around": {
+        "known": 89,
+        "unknown_ignored": 23,
+        "binary_metric_support": "available"
+      }
+    },
+    "cooccurrence": 1,
+    "confirmed_normal": 0,
+    "fully_labeled": 1,
+    "partially_labeled": 111,
+    "fully_unknown": 0
+  },
+  "proposed_coverage": {
+    "records": 112,
+    "targets": {
+      "phone_use": {
+        "positive": 24,
+        "negative": 9,
+        "unknown": 79
+      },
+      "looking_around": {
+        "positive": 33,
+        "negative": 56,
+        "unknown": 23
+      }
+    },
+    "proposed_confirmed_normal": 9,
+    "cooccurrence": 1,
+    "fully_labeled": 10,
+    "partially_labeled": 102,
+    "fully_unknown": 0,
+    "binary_target_support": {
+      "phone_use": true,
+      "looking_around": true
+    }
+  },
+  "proposed_split_support": {
+    "train": {
+      "records": 60,
+      "targets": {
+        "phone_use": {
+          "positive": 11,
+          "negative": 5,
+          "unknown": 44
+        },
+        "looking_around": {
+          "positive": 17,
+          "negative": 33,
+          "unknown": 10
+        }
+      },
+      "proposed_confirmed_normal": 5,
+      "cooccurrence": 1,
+      "fully_labeled": 6,
+      "partially_labeled": 54,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": true,
+        "looking_around": true
+      }
+    },
+    "val": {
+      "records": 13,
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "negative": 1,
+          "unknown": 5
+        },
+        "looking_around": {
+          "positive": 3,
+          "negative": 3,
+          "unknown": 7
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 12,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": true,
+        "looking_around": true
+      }
+    },
+    "test": {
+      "records": 11,
+      "targets": {
+        "phone_use": {
+          "positive": 2,
+          "negative": 2,
+          "unknown": 7
+        },
+        "looking_around": {
+          "positive": 2,
+          "negative": 7,
+          "unknown": 2
+        }
+      },
+      "proposed_confirmed_normal": 2,
+      "cooccurrence": 0,
+      "fully_labeled": 2,
+      "partially_labeled": 9,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": true,
+        "looking_around": true
+      }
+    },
+    "review_only": {
+      "records": 28,
+      "targets": {
+        "phone_use": {
+          "positive": 4,
+          "negative": 1,
+          "unknown": 23
+        },
+        "looking_around": {
+          "positive": 11,
+          "negative": 13,
+          "unknown": 4
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 27,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": true,
+        "looking_around": true
+      }
+    }
+  },
+  "proposed_groups": 16,
+  "proposed_used_records": 84,
+  "actual_proposed_ratios": {
+    "train": 0.7142857142857143,
+    "val": 0.15476190476190477,
+    "test": 0.13095238095238096
+  },
+  "review_only_ids": [
+    "P009-person-01",
+    "P019-person-01",
+    "P043-person-01",
+    "P047-extra-01",
+    "P047-person-01",
+    "SCB-read-003",
+    "SCB-read-005",
+    "SCB-read-008",
+    "SCB-read-010",
+    "SCB-read-013",
+    "SCB-read-019",
+    "SCB-read-020",
+    "SCB-read-021",
+    "SCB-read-022",
+    "SCB-read-025",
+    "SCB-turnhead-010",
+    "SCB-turnhead-014",
+    "SCB-turnhead-015",
+    "SCB-turnhead-016",
+    "SCB-turnhead-018",
+    "SCB-turnhead-021",
+    "SCB-turnhead-023",
+    "SCB-turnhead-025",
+    "SCB-turnhead-026",
+    "SCB-turnhead-028",
+    "SCB-write-006",
+    "SCB-write-008",
+    "SCB-write-011"
+  ],
+  "slices": [
+    {
+      "source_id": "roboflow_v1",
+      "proposed_usage": "review_only",
+      "proposed_group_id": null,
+      "records": 5,
+      "targets": {
+        "phone_use": {
+          "positive": 4,
+          "negative": 0,
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 0,
+          "unknown": 4
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 5,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "roboflow_v1",
+      "proposed_usage": "test",
+      "proposed_group_id": "RF-WINDOW",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 2,
+          "negative": 0,
+          "unknown": 0
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "roboflow_v1",
+      "proposed_usage": "train",
+      "proposed_group_id": "RF-TWO-DESKS",
+      "records": 11,
+      "targets": {
+        "phone_use": {
+          "positive": 11,
+          "negative": 0,
+          "unknown": 0
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 0,
+          "unknown": 10
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 1,
+      "fully_labeled": 1,
+      "partially_labeled": 10,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "roboflow_v1",
+      "proposed_usage": "val",
+      "proposed_group_id": "RF-GREEN",
+      "records": 10,
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "negative": 0,
+          "unknown": 3
+        },
+        "looking_around": {
+          "positive": 3,
+          "negative": 0,
+          "unknown": 7
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 10,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "review_only",
+      "proposed_group_id": null,
+      "records": 10,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 10
+        },
+        "looking_around": {
+          "positive": 10,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 10,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "test",
+      "proposed_group_id": "SCB-GREY-WINDOWS",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 2,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-BLUE-CONSERVATIVE",
+      "records": 10,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 10
+        },
+        "looking_around": {
+          "positive": 10,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 10,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-GREEN-WALL",
+      "records": 1,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 1,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-RED-BANNER",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 2,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-RED-WHITE-STRIP",
+      "records": 1,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 1,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_head",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-SCREEN-BOARD",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 2,
+          "negative": 0,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "review_only",
+      "proposed_group_id": null,
+      "records": 13,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 1,
+          "unknown": 12
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 13,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 12,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "test",
+      "proposed_group_id": "SCB-GREY-WINDOWS",
+      "records": 5,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 1,
+          "unknown": 4
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 5,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 4,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "test",
+      "proposed_group_id": "SCB-GREY-YELLOW",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 1,
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 2,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 1,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-BLUE-CONSERVATIVE",
+      "records": 16,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 3,
+          "unknown": 13
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 16,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 3,
+      "cooccurrence": 0,
+      "fully_labeled": 3,
+      "partially_labeled": 13,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-BLUE-FRONT",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 2,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-BLUE-WOOD",
+      "records": 3,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 3
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 3,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 3,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-GREEN-WALL",
+      "records": 1,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 1,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 1,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-MIRROR-STRIP",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 2,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-PINK-WINDOWS",
+      "records": 3,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 3
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 3,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 3,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-PURPLE-PLAYBACK",
+      "records": 2,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 2,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 0,
+      "cooccurrence": 0,
+      "fully_labeled": 0,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "train",
+      "proposed_group_id": "SCB-RED-WHITE-STRIP",
+      "records": 4,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 2,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 4,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 2,
+      "cooccurrence": 0,
+      "fully_labeled": 2,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    },
+    {
+      "source_id": "scb_hrw",
+      "proposed_usage": "val",
+      "proposed_group_id": "SCB-GREEN-TABLES",
+      "records": 3,
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 1,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 3,
+          "unknown": 0
+        }
+      },
+      "proposed_confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "partially_labeled": 2,
+      "fully_unknown": 0,
+      "binary_target_support": {
+        "phone_use": false,
+        "looking_around": false
+      }
+    }
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-05",
+    "phone_unknown_crops_inspected": 88,
+    "source_images_inspected": 105,
+    "method": "Local visual inspection of exact reviewed crops and source sheets; no model prediction or source-class negative mapping."
+  },
+  "split_policy": {
+    "version": "pilot-b-explicit-scene-split-draft-v1",
+    "algorithm": "explicit_whole_group_assignment",
+    "seed": null,
+    "ratio_target": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "ratio_is_soft_target": true,
+    "unassigned_usage": "review_only",
+    "metadata_ids_remain_null": true,
+    "independence_status": "visual_boundary_proposal_pending_owner_review",
+    "test_freeze_status": "not_frozen",
+    "test_access": "Annotation/QA before freeze only; after approved freeze no model/epoch/augmentation/threshold selection on test."
+  },
+  "proposed_use_scope": "local_classifier_research",
+  "limitations": [
+    "Visual conservative clusters are not recovered room/session/person metadata; residual leakage uncertainty requires owner boundary review.",
+    "No classifier metrics or independent exam-like holdout demonstrated.",
+    "RF phone positives and SCB phone negatives are source-confounded; small val/test support cannot establish real-exam generalization.",
+    "Unassigned records remain in the 112-member ledger but cannot enter training/evaluation."
+  ]
+}

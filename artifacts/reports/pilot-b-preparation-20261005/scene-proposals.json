@@ -1,0 +1,125 @@
+{
+  "schema_version": "pilot-b-scene-proposals-v1",
+  "status": "pending_owner_review",
+  "selection_input_sha256": "c9b56c6aca027b9054df315b6b1b39d9d87df3cdf28704f9d7efee331e29c35d",
+  "observed_by": "Codex support; not owner approval",
+  "observed_at": "2026-10-05",
+  "evidence": "All 105 source thumbnails inspected in outputs/pilot-b-group-review-20261005-v1/sheet-01.jpg through sheet-09.jpg; full source evidence in preparation package reports/review",
+  "policy": "Visual relation proposals only. Repeated room layout supports linkage review, not a recovered video/session ID. Unlisted images remain unresolved; no claim of independence. Overlapping proposals may require merging after owner review.",
+  "groups": [
+    {
+      "proposal_id": "VIS-RF-GREEN-CHAIRS",
+      "title_vi": "Phòng có ghế xanh xếp bậc",
+      "observation_vi": "Lặp lại ghế xanh lưng tròn, tường màu kem và bàn gỗ. Hai ảnh P006/P007 gần như cùng góc máy; P002/P008 cần xem thêm quan hệ cùng phòng.",
+      "sample_ids": ["P002-person-01", "P006-extra-01", "P006-person-01", "P006-person-02", "P007-extra-01", "P007-person-01", "P007-person-02", "P008-extra-01", "P008-person-01"],
+      "observation": "Repeated tiered green round-backed chairs, cream walls and wooden desks. P006 and P007 show nearly the same viewpoint and arrangement; P002/P008 need broader room linkage review.",
+      "uncertainty": "Same capture/session for all images is not established; room resemblance is not sufficient to declare separate sessions either."
+    },
+    {
+      "proposal_id": "VIS-RF-WINDOW-ROOM",
+      "title_vi": "Phòng có cửa sổ cao bên phải",
+      "observation_vi": "Cùng góc rộng, dãy cửa sổ bên phải, bàn trắng và bố trí chỗ ngồi; tư thế chỉ thay đổi nhỏ.",
+      "sample_ids": ["P023-person-01", "P028-person-01"],
+      "observation": "Same wide classroom viewpoint, tall right-wall windows, white desks and seated arrangement; small visible pose changes.",
+      "uncertainty": "Original video/session metadata unavailable."
+    },
+    {
+      "proposal_id": "VIS-RF-TWO-DESKS",
+      "title_vi": "Hai bàn trắng trước tường màu kem",
+      "observation_vi": "Lặp lại hai bàn trắng, ổ cắm trên tường và cửa bên phải. Quần áo, chỗ ngồi và bố cục gần nhau; tư thế và khung hình thay đổi.",
+      "sample_ids": ["P029-person-01", "P029-person-02", "P030-person-01", "P031-person-01", "P032-person-01", "P033-person-01", "P034-person-01", "P035-person-01", "P036-person-01", "P038-person-01", "P039-person-01"],
+      "observation": "Repeated two white desks, cream wall/socket and right door; burgundy and dark shirts recur with changing poses and camera framing.",
+      "uncertainty": "Strong visible capture relation; no asserted subject identity, video ID or session boundaries."
+    },
+    {
+      "proposal_id": "VIS-SCB-GREY-WINDOWS",
+      "title_vi": "Lớp đồng phục xám, cửa sổ bên trái",
+      "observation_vi": "Cùng góc trước bên trái, cửa sổ và rèm cao, các thiết bị trên tường sau, bàn trắng và bố trí chỗ ngồi.",
+      "sample_ids": ["SCB-read-002", "SCB-read-011", "SCB-read-024", "SCB-turnhead-017", "SCB-turnhead-022", "SCB-write-003", "SCB-write-015"],
+      "observation": "Same front-left view, tall left windows/curtains, pale rear wall fixtures, white desks and grey uniform arrangement.",
+      "uncertainty": "Poses differ. Capture continuity and independence between times are unknown."
+    },
+    {
+      "proposal_id": "VIS-SCB-BLUE-POSTER",
+      "title_vi": "Lớp có tranh phong cảnh và bàn xanh tím",
+      "observation_vi": "Lặp lại tranh trên tường sau, dãy bàn xanh tím và góc máy. Các ảnh này nằm ở cả hai nguồn SCB nhưng có thể liên quan.",
+      "sample_ids": ["SCB-read-006", "SCB-read-023", "SCB-turnhead-004", "SCB-turnhead-009", "SCB-turnhead-019", "SCB-turnhead-020", "SCB-write-009", "SCB-write-027"],
+      "observation": "Repeated landscape poster on rear wall, blue-purple desk rows and pale walls; near-matching camera angle and seated arrangement across Head/HRW sources.",
+      "uncertainty": "Cross-source linkage is plausible and must be reviewed; archive boundaries do not establish independence."
+    },
+    {
+      "proposal_id": "VIS-SCB-DARK-SIDE-VIEW",
+      "title_vi": "Góc bên của lớp có bàn xanh tím",
+      "observation_vi": "Lặp lại rèm xanh bên trái, màn hình tối phía sau, cửa bên phải và màn hình ở tiền cảnh. Có thể cùng phòng với nhóm góc rộng có rèm và tranh phong cảnh bên dưới; chưa coi hai nhóm độc lập.",
+      "sample_ids": ["SCB-read-012", "SCB-read-014", "SCB-turnhead-001", "SCB-turnhead-002", "SCB-turnhead-003", "SCB-turnhead-007", "SCB-turnhead-012"],
+      "observation": "Repeated side view of blue-purple desks, left blue curtain, dark rear display, right doorway and monitor in foreground; red/dark clothing arrangement recurs.",
+      "uncertainty": "Multiple frames likely related visually; exact session boundaries unknown."
+    },
+    {
+      "proposal_id": "VIS-SCB-CURTAIN-LANDSCAPE",
+      "title_vi": "Góc rộng có rèm dài và tranh phong cảnh",
+      "observation_vi": "Cùng góc rộng, rèm dài bên trái, tranh phía xa, bàn xanh tím và nhiều vị trí/quần áo lặp lại. Có thể liên quan nhóm góc bên ở trên.",
+      "sample_ids": ["SCB-read-026", "SCB-write-001", "SCB-write-004", "SCB-write-012", "SCB-write-014", "SCB-write-016", "SCB-write-019", "SCB-write-021", "SCB-write-022", "SCB-write-028"],
+      "observation": "Same wide front-side view, long grey curtains on left, landscape poster on far wall, blue-purple desks and repeated red/dark clothing layout.",
+      "uncertainty": "Potential room relation to VIS-SCB-DARK-SIDE-VIEW needs owner review of opposite camera views; do not declare those two proposals independent."
+    },
+    {
+      "proposal_id": "VIS-SCB-PINK-WINDOWS",
+      "title_vi": "Lớp áo hồng/xanh, cửa sổ bên trái",
+      "observation_vi": "Lặp lại cửa sổ bên trái, các hàng bàn gỗ nhỏ và màn hình ở tường xa. Hai ảnh read016/read017 rất gần nhau; write005 có góc khác.",
+      "sample_ids": ["SCB-read-016", "SCB-read-017", "SCB-write-005"],
+      "observation": "Pink and blue shirts, windows along left wall, same rows of small wood desks and far wall display; read016/read017 are near-matching views.",
+      "uncertainty": "Write005 uses a different crop/viewpoint; metadata required to establish capture boundaries."
+    },
+    {
+      "proposal_id": "VIS-SCB-PURPLE-PLAYBACK",
+      "title_vi": "Lớp đồng phục tím có nút phát video",
+      "observation_vi": "Cùng các hàng đồng phục tím/trắng, giáo viên phía sau và biểu tượng phát video ở giữa; hai ảnh nhìn rất gần nhau.",
+      "sample_ids": ["SCB-read-009", "SCB-write-007"],
+      "observation": "Same purple/white uniform rows, teacher behind class and central playback triangle; source frames appear closely related.",
+      "uncertainty": "Playback overlay is evidence of source context, not session metadata."
+    },
+    {
+      "proposal_id": "VIS-SCB-BLUE-FRONT",
+      "title_vi": "Lớp đồng phục xanh/trắng nhìn từ phía trước",
+      "observation_vi": "Lặp lại chữ trên tường sau, cửa sổ bên trái, rèm xám và bố trí các hàng học sinh.",
+      "sample_ids": ["SCB-read-007", "SCB-write-010"],
+      "observation": "Blue/white uniforms, same pale rear wall writing, left window and grey curtains; repeated front-facing row arrangement.",
+      "uncertainty": "Original capture time is unavailable."
+    },
+    {
+      "proposal_id": "VIS-SCB-GREEN-TABLES",
+      "title_vi": "Lớp có ghế xanh và bàn vàng/xanh",
+      "observation_vi": "Cùng ghế xanh sáng, bàn vàng/xanh, màn hình phía sau và góc máy; tư thế người thay đổi.",
+      "sample_ids": ["SCB-write-002", "SCB-write-020", "SCB-write-024"],
+      "observation": "Bright green chairs, yellow/green desks, rear display and same camera viewpoint; visible teacher and student poses change.",
+      "uncertainty": "Scene similarity does not recover exact video/session boundaries."
+    },
+    {
+      "proposal_id": "VIS-SCB-GREEN-WALL",
+      "title_vi": "Lớp có tường xanh và bàn ghép nhóm",
+      "observation_vi": "Đồng phục xanh/trắng, các mảng tường xanh, bàn xanh ghép nhóm và bàn phía trước giống nhau. Góc nhìn khác nên quan hệ còn kém chắc hơn các ảnh gần trùng.",
+      "sample_ids": ["SCB-read-028", "SCB-turnhead-008"],
+      "observation": "Blue/white uniforms, green wall panels, grouped blue desks and front demonstration desk. Views differ but room layout appears related.",
+      "uncertainty": "Possible related room/capture; weaker evidence than near-matching frames."
+    },
+    {
+      "proposal_id": "VIS-SCB-SCREEN-GREEN-BOARD",
+      "title_vi": "Góc sau lớp có màn chiếu và bảng xanh",
+      "observation_vi": "Màn chiếu bên trái, bảng xanh bên phải và bố trí chỗ ngồi giống nhau; nội dung màn chiếu thay đổi.",
+      "sample_ids": ["SCB-turnhead-005", "SCB-turnhead-011"],
+      "observation": "Rear classroom view toward a screen on left, green chalkboard on right, same seated layout and front speaker area; screen content differs.",
+      "uncertainty": "Could be related frames or separate lessons in the same room; no independent-session evidence."
+    },
+    {
+      "proposal_id": "VIS-SCB-RED-BANNER",
+      "title_vi": "Góc sau lớp có bảng và băng chữ đỏ",
+      "observation_vi": "Cùng băng chữ đỏ trên bảng/màn hình, rèm xanh bên trái và bố trí đồng phục đỏ/tối; nội dung màn hình và tư thế khác nhau.",
+      "sample_ids": ["SCB-turnhead-006", "SCB-turnhead-024"],
+      "observation": "Same rear classroom angle, red banner above paired board/screens, left blue curtain and red/dark uniforms; front screen content and poses differ.",
+      "uncertainty": "Session timing unknown."
+    }
+  ],
+  "groups_approved": 0,
+  "split_assigned": false
+}

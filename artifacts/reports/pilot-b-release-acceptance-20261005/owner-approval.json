@@ -1,0 +1,168 @@
+{
+  "decision": "approve_pilot_b_release",
+  "reviewer": "repository_owner",
+  "reviewed_at": "2026-10-05",
+  "recorded_at": "2026-10-05T04:01:07+07:00",
+  "owner_message": "approve phương án release pilot B",
+  "approved_items": [
+    "phone_context",
+    "group_boundaries",
+    "split_config",
+    "schema_config",
+    "local_use_scope",
+    "release",
+    "test_freeze"
+  ],
+  "exceptions": [],
+  "use_scope": "local_classifier_research",
+  "report": "artifacts/reports/pilot-b-release-proposal-20261005/README.md",
+  "report_sha256": "97e0ba7d1bed657437484d70059c9de4fc5eabbe3eb51e3ab04e346731f5b423",
+  "proposal_config_sha256": "8c869c3e395585fd81c69c3b4b11d71a026f85d4bb8270ae969506c471406cce",
+  "proposal_payload_sha256": "b49c9ec09eea434dc63497e0a79836f6a5c052cabdb95515055801f7f59ff7d7",
+  "assignment_sha256": "783a6e03be728a93e0c35984b21ff2133c2fa2accd493ede3e3ad2d8c1ddebc7",
+  "submission_evidence": "Explicit user approval in conversation on 2026-10-05; execute the approved release plan end-to-end.",
+  "excluded_authorizations": [
+    "model or training decisions",
+    "runtime crop gate",
+    "external media upload or redistribution",
+    "DVC remote push"
+  ],
+  "schema_config": {
+    "schema_version": "pilot-b-manifest-v1",
+    "target_encoding_version": "pilot-b-targets-v1",
+    "crop_policy_version": "pilot-b-reviewed-context-v1",
+    "unknown_supervision": "masked",
+    "crop_and_previously_known_target_changes": false
+  },
+  "split_config": {
+    "algorithm": "explicit_whole_group_assignment",
+    "seed": null,
+    "ratio_target": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "actual_crop_counts": {
+      "train": 60,
+      "val": 13,
+      "test": 11,
+      "review_only": 28
+    },
+    "assignment_sha256": "783a6e03be728a93e0c35984b21ff2133c2fa2accd493ede3e3ad2d8c1ddebc7",
+    "test_freeze_authorized": true,
+    "protocol": "Annotation/QA before freeze only; after approved freeze no model/epoch/augmentation/threshold selection on test."
+  },
+  "group_boundaries": {
+    "RF-GREEN": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/0"
+    },
+    "RF-WINDOW": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/1"
+    },
+    "RF-TWO-DESKS": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/2"
+    },
+    "SCB-GREY-WINDOWS": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/3"
+    },
+    "SCB-BLUE-CONSERVATIVE": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/4"
+    },
+    "SCB-PINK-WINDOWS": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/5"
+    },
+    "SCB-PURPLE-PLAYBACK": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/6"
+    },
+    "SCB-BLUE-FRONT": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/7"
+    },
+    "SCB-GREEN-TABLES": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/8"
+    },
+    "SCB-GREEN-WALL": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/9"
+    },
+    "SCB-SCREEN-BOARD": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/10"
+    },
+    "SCB-RED-BANNER": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/11"
+    },
+    "SCB-BLUE-WOOD": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/12"
+    },
+    "SCB-GREY-YELLOW": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/13"
+    },
+    "SCB-RED-WHITE-STRIP": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/14"
+    },
+    "SCB-MIRROR-STRIP": {
+      "decision": "accepted_for_local_pilot",
+      "evidence_ref": "configs/datasets/pilot_b_release_proposal_v1.yaml#groups/15"
+    }
+  },
+  "phone_context": {
+    "SCB-read-015": {
+      "crop_sha256": "8e1231a6acfdc6801ee9235e990ec660ab24b81cc0e0b45309631c606500d009",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-read-024": {
+      "crop_sha256": "e09a3b29a62b099279881a580d9009eb34fe3c06561cd4544c85737951916929",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-001": {
+      "crop_sha256": "bdeb4e0f5a582e7b5925fe7aa6107be74512daf790a559a06a2eb02f7289961e",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-002": {
+      "crop_sha256": "9023f258790f48cb78abd923c93a0c750da814fe73f54d148bffc96b4ff802ef",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-006": {
+      "crop_sha256": "61f7fab3efc270b0ce373788978669cf793cc570e9199920454bd51b385430dd",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-009": {
+      "crop_sha256": "192b9db40c496f1acb1e97fe0a252639fdbd10c15764628ab127d2347722d4ee",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-013": {
+      "crop_sha256": "18743198a5a0914a1e5e33b1c2cae11e7d5018610bb8892142bd2f91d5328a04",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-014": {
+      "crop_sha256": "f7a00d55f05443b4790b127c1de4a7143d62ed49bbde3cb4b1f918f340494d64",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    },
+    "SCB-write-026": {
+      "crop_sha256": "b3bc752849b7c5eb69f54b788340b688db2209a7b71d396ebfa247bef3227514",
+      "phone_use": "negative",
+      "work_context": "confirmed_working"
+    }
+  }
+}

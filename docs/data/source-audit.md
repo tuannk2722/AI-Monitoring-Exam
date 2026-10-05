@@ -12,7 +12,7 @@ Owner/người chốt: chủ repository; Codex hỗ trợ triển khai/review. �
 
 ## Report JSON schema_version = 2
 
-Thay report v1 ghép global stem bằng schema v2. DVC audit stage và README đã cập nhật tham số; pipeline vẫn bị gate dataset chưa accepted.
+Thay report v1 ghép global stem bằng schema v2. DVC audit stage vàREADME đã cập nhật tham số. Builder YOLO legacy vẫn từ chối config B; [pilot B local v4](../../artifacts/reports/pilot-b-release-acceptance-20261005/README.md) dùng exporter riêng đã accepted. DVC remote/runtime gates vẫn riêng.
 
 - `source_layout`, `source_names`: input và quy tắc ghép đã sử dụng.
 - `image_count`, `label_file_count`, `ignored_metadata`, `resolution_counts`: inventory/ảnh decode được.

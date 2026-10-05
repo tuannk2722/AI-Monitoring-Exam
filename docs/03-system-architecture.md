@@ -6,7 +6,7 @@
 data/raw (bất biến, DVC)
   → src/data — audit + source converters
   → data/interim (có thể tái tạo)
-  → data/processed/exam (canonical, grouped split, DVC)
+  → data/processed/pilot-b/<version> (classifier B, grouped split, DVC)
   → src/training + evaluation
   → artifacts/models/<EXP> + metrics/plots
   → src/inference — structured predictions
@@ -25,7 +25,9 @@ Formulation A được giữ làm phương án nghiên cứu lịch sử; owner 
 
 ## Formulation B — kiến trúc đã chọn
 
-**Đã chọn B:** `frame → YOLO person bbox → crop → multi-label behavior classifier`, theo ADR-012. Tracking chưa thuộc baseline. Normal cần review thủ công; đồng thời phone_use/looking_around giữ cả hai nhãn. Owner cho phép crop có ngữ cảnh được review; cách tạo crop tự động và model cụ thể chưa chốt. Chưa có dataset accepted hoặc benchmark A/B.
+**Đã chọn B:** `frame → YOLO person bbox → crop → multi-label behavior classifier`, theo ADR-012. Tracking chưa thuộc baseline. Normal là metadata review; đồng thời phone_use/looking_around giữ cả hai nhãn. Pilot v4 reviewed crops/schema/split đã accepted và test frozen; unknown dùng masked supervision. Model cụ thể và automatic crop runtime chưa chốt; chưa có benchmark/model metrics. Có thể chuẩn bị classifier baseline trên reviewed crops trước runtime gate theo ADR-013.
+
+`data/processed/exam`, các adapters YOLO behavior detection và `dvc.yaml` là scaffold legacy; không phải pipeline train B hiện hành. Trạng thái bàn giao theo [runbook pilot](data/pilot-b-preparation-v1.md).
 
 ## Các trạng thái lỗi (failure states)
 

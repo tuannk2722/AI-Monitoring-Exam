@@ -1,0 +1,16 @@
+{
+  "status": "preparation_verified_pending_owner_gates",
+  "unittest_passed": 105,
+  "ruff": "passed",
+  "group_count": 14,
+  "grouped_records": 70,
+  "unassigned_records": 42,
+  "records": 112,
+  "reviewed_crops": 28,
+  "package_checksums_sha256": "19ec494d9fe46c3b7c8a62defe6460e691aaceffa4fdbf956fa4245183bba406",
+  "rebuild_payload_identical": true,
+  "crop_review_checksums_sha256": "33aaf48a4ea353b54830fb22e595f498dd7f75f1806136770741b43cad77c1df",
+  "crop_editor_javascript_syntax": "passed",
+  "browser_visual_qa": "not_performed",
+  "training_release_accepted": false
+}

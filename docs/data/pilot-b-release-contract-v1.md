@@ -2,8 +2,10 @@
 
 - Contract ID: `pilot-b-contract-v1`. Date: 2026-10-04 (Asia/Saigon).
 - Owner/người chốt: chủ repository (solo); Codex hỗ trợ triển khai và kiểm tra.
-- Status: **hợp đồng thiết kế; các lựa chọn phạm vi/gates đã chốt tại ADR-013. Chưa có dataset release, manifest membership SCB, exporter hoặc split được freeze.**
+- Status: **hợp đồng thiết kế Accepted theo ADR-013; đã hiện thực và nghiệm thu release pilot-b-20261005-v4, test đã freeze.** Training scope `local_classifier_research`; owner bổ sung quyền lưu đúng v4 trên Drive restricted ngày 2026-10-05. Evidence/phạm vi storage/round-trip theo [preparation runbook](pilot-b-preparation-v1.md); crop runtime vẫn gate riêng.
 - Source of truth: [dataset research](dataset-research.md), [ADR-011](../decisions/ADR-011-person-unit-phone-definition.md), [ADR-012](../decisions/ADR-012-formulation-b-multilabel.md), [ADR-013](../decisions/ADR-013-pilot-b-packaging-contract.md). Khi triển khai, schema/config và membership cụ thể còn phải được owner review; không coi draft config hiện tại là đã được duyệt.
+
+Checkpoint 2026-10-05: owner đã approve phương án release; canonical v4 có112 ledger/crops,84 manifest(60train/13val/11test),16 nhóm,28 review_only. Looking33P/56N/23U,phone24P/9N/79U,9normal. Crop/source/known approvals cũ giữ nguyên;9 phone/context vàranh giới cụm thị giác đã duyệt cho pilot local. [Release evidence](../../artifacts/reports/pilot-b-release-acceptance-20261005/README.md), config `pilot_b_release_v4.yaml`; không mở scope upload/runtime.
 
 ## 1. Mục đích và phạm vi hữu hạn
 
@@ -32,7 +34,7 @@ Nguồn SCB có thể cho phone positive nếu review có bằng chứng thật;
 - Quyền SCB đã owner xác nhận; không hỏi lại. Roboflow giữ attribution/license record của nguồn và review quyền cho phạm vi release cụ thể; quyết định watermark không thay thế consent/phạm vi phân phối. V1 triển khai cục bộ, không upload/phân phối media nếu chưa có policy cho hành động đó.
 - Raw/archive bất biến. Audit giải nén hiện tại chỉ là input kiểm chứng; output mới đi vào version mới ở `data/interim`/`data/processed`. Không ghi đè media, review bundle hoặc manifest lịch sử.
 
-### 2.2 Quy tắc chọn 84 SCB candidate (thiết kế, chưa chạy)
+### 2.2 Quy tắc chọn 84 SCB candidate
 
 1. Tái sử dụng inventory strict-valid trong head/hrw audit; chỉ lấy `images/train/` và đúng source ID trong bảng. Không lấy source val/test, không cứu file geometry lỗi ở v1, không đổi epsilon/clip bbox nguồn. Bỏ source box không hợp lệ; không dùng tên/prefix để gán group.
 2. Candidate identity là `(source_archive_sha256, source_image_relpath, source_label_relpath, source_label_line_1based)`. Kiểm lại bytes/hash và dòng anchor với audit trước selection. `source_label_line_1based` chỉ là provenance, không phải person ID.
@@ -41,7 +43,7 @@ Nguồn SCB có thể cho phone positive nếu review có bằng chứng thật;
 5. Freeze `selection.jsonl` đủ 84 candidate khi chọn đủ, kèm hash, anchor, stratum, rank/reason và mọi alias exact duplicate. Mỗi selected anchor chỉ tạo tối đa một person/crop record; không tự thêm người ngoài anchor. Near duplicates có thể còn trong selection; bước group/QA phải xử lý, không gọi 84 ảnh là 84 tình huống độc lập.
 6. Review toàn bộ selection trong **một bộ preparation chung**; mỗi record nhận approved/unknown/excluded với evidence. Không sinh launcher theo batch. Nếu anchor không xác định được một người duy nhất, loại với lý do; bbox nguồn phải được vẽ lại thành visible-person khi cần. Không map source label thành target trong bước chọn.
 
-Manifest cụ thể 84 ID/path/hash là output task triển khai S2; hợp đồng này không giả vờ đã trích xuất ảnh. Selection deterministic theo bytes/input đã pin; thứ tự filesystem không ảnh hưởng membership. Nếu muốn tăng đa dạng/đổi quy tắc chọn sau khi thấy thiếu coverage, owner duyệt selection version mới; không thay tập v1 âm thầm.
+Selection cụ thể84 ID/path/hash đã freeze ở S2 vàowner nghiệm thu trong release v4; đường dẫn/checksum trong runbook. Selection deterministic theo bytes/input đã pin; thứ tự filesystem không ảnh hưởng membership. Tăng đa dạng/đổi selection cần version/review mới; không thay tập v1 âm thầm.
 
 ## 3. Target encoding và điều kiện sử dụng
 
@@ -113,9 +115,11 @@ reports/leakage.json
 checksums.sha256
 ```
 
-Đây là layout **dự kiến**, chưa có lệnh build B. Không sử dụng YOLO `labels/*.txt` hay `dataset.yaml` detection làm nhãn classifier. Package staging được ghi `prepared_pending_gates`, manifest sử dụng/split chưa có nếu gate chưa đạt; không gắn label “release training” cho staging. Rebuild phải từ pinned raw/review/config, không cần các launcher lịch sử; hash payload/config/membership phải giống nhau, timestamps thao tác ghi ngoài payload deterministic.
+Layout này đã được exporter B hiện thực; CLI staging/API reviewed export ở preparation runbook. Không sử dụng YOLO `labels/*.txt` hay `dataset.yaml` detection làm nhãn classifier. Package staging được ghi `prepared_pending_gates`, manifest sử dụng/split chưa có nếu gate chưa đạt; không gắn label “release training” cho staging. Rebuild phải từ pinned raw/review/config, không cần các launcher lịch sử; hash payload/config/membership phải giống nhau, timestamps thao tác ghi ngoài payload deterministic.
 
 ## 5. Crop policy `pilot-b-reviewed-context-v1`
+
+Workflow cập nhật theo yêu cầu owner 2026-10-05: Codex tự tạo crop/target **đề xuất** từ source class/bbox/metadata, owner nghiệm thu batch và ngoại lệ qua báo cáo. Không yêu cầu owner thao tác HTML/Canvas hoặc vẽ từng crop. Rule đề xuất hiện tại cắt bbox nguồn với tọa độ integer bao ngoài, không padding; đây chưa phải visible-person/context policy đã duyệt. Source-class suggestions nằm riêng, không thay target canonical/normal hoặc bỏ các gate bên dưới.
 
 1. **Person bbox** bao các phần nhìn thấy của đúng người, không ước lượng cơ thể dưới bàn; giữ riêng **context crop** có thể gồm bàn/tay/phone liên quan. Crop phải chứa person bbox và bằng chứng được dùng để duyệt target; không làm bbox person phình thành vùng bàn.
 2. RF giữ nguyên 28 approved person/context coordinates và target approvals từ snapshot. SCB review visible-person và context cho người anchor ở độ phân giải gốc; không biến source action box thành person box bằng padding. Bằng chứng liên quan người khác không được gán cho anchor; context có người khác cần review attribution từng target.
@@ -161,7 +165,7 @@ Một workflow preparation chung, canonical logic trong `src/`; không script th
 | S1 | Pin input/provenance/use scope — owner + Codex | ADR-013 | Hash archives/bundles/crop inputs; exact 28 RF; quyền SCB giữ nguyên; Roboflow/remote scope có decision hoặc blocker |
 | S2 | Select 84 SCB anchors deterministic — Codex, owner review selection | S1 | selection.jsonl 28/28/28, source row/hash/aliases; không mutate raw/refill; shortage báo rõ |
 | S3 | Hiện thực structured schema, codec/validator và config B riêng — Codex, owner review | S1–S2 | Versioned schema/config/fixtures cho state/null/mask/normal/geometry/usage; legacy builder giữ gate B |
-| S4 | Chuẩn bị một gói crop/target review chung — owner chốt, Codex hỗ trợ | S2–S3 | Ledger đúng 112 record; RF giữ approvals; SCB vẽ/review một lần, known/unknown/excluded đầy đủ |
+| S4 | Tự tạo một batch crop/target proposals — Codex thực hiện, owner nghiệm thu | S2–S3 | Đúng 84 SCB đề xuất + 28 RF giữ approvals; báo cáo/ngoại lệ một lần, owner Approve/Reject; known/unknown/excluded chỉ nhập canonical sau xác nhận |
 | S5 | Dedup/leakage graph và group review — Codex + owner | S4 | group manifest + evidence/report; unresolved records review_only; không session giả |
 | S6 | Chốt split config, coverage review và freeze test — owner, Codex hỗ trợ | S5 | Owner decisions/assignment/version/hashes/protocol; hoặc report chặn release do group/coverage |
 | S7 | Builder classifier B và validation/rebuild — Codex | S3–S6 | Package layout/checksums/card/report; meaningful tests/masked fixtures và rebuild deterministic pass; không train |
@@ -170,15 +174,17 @@ Một workflow preparation chung, canonical logic trong `src/`; không script th
 
 ## 9. TBD còn lại (không phải giá trị mặc định)
 
+Release local v4 đã chốt S1–S7 vàký pointer local S8. Bảng dưới phân biệt gate đã resolved cho subset sử dụng với remote/runtime chưa được phép.
+
 | ID | Owner | Lý do / điều kiện chốt | Chặn gì |
 |---|---|---|---|
-| TBD-PB-MEMBERSHIP | Owner | SCB chưa chọn/relabel; S2 freeze 84 identity/hash rồi S4 review | Không có training dataset cụ thể trong task thiết kế |
-| TBD-PB-GROUP | Owner | Thiếu metadata từng mẫu; S5 phải có evidence độc lập và linkage | Split và release training |
-| TBD-PB-SPLIT-CONFIG | Owner | Cần actual group/coverage trước chọn ratio/seed/assignment; S6 | Split freeze và release training |
+| TBD-PB-MEMBERSHIP (resolved v4) | Owner | Exact SCB84 + RF28 ledger;84 used/28review_only đã duyệt | Không chặn release local |
+| TBD-PB-GROUP (resolved cho84used) | Owner | 16 conservative visual components/boundaries đã chấp nhận, giữ14 must-links;28 unresolved không sử dụng | Không chặn84used;28 record vẫn review_only |
+| TBD-PB-SPLIT-CONFIG (resolved v4) | Owner | Explicit whole-group60/13/11,seed=null,soft70/15/15;test freeze hashes/protocol trong release.json | Không chặn release local |
 | TBD-PB-CROP-RUNTIME | Owner | Chưa có automatic context policy/QA; S9 không dùng annotation phone | Baseline B end-to-end; không chặn package reviewed-crop theo ADR-013 |
-| TBD-PB-COVERAGE | Owner | Chưa có SCB negative/normal đã duyệt; review/actual report S4–S6 mới kết luận đủ mục đích pilot | Release nếu coverage không đạt; không refill âm thầm |
-| TBD-PB-EXPORT | Owner + Codex | Schema/codec/layout là thiết kế, exporter/consumer B chưa có; S3/S7 | Rebuild/validation và release |
-| TBD-PB-RELEASE-SCOPE | Owner | Pin quyền/attribution Roboflow theo phạm vi sử dụng, remote/private storage trước S8; không hỏi lại quyền SCB | Hành động vượt phạm vi đã duyệt/DVC remote |
+| TBD-PB-COVERAGE (resolved cho local classifier pilot) | Owner | Phone24P9N79U,looking33P56N23U,9normal;train/val/test có P/N cho cả hai target;support nhỏ/confounding được báo | Không là model promotion/generalization gate |
+| TBD-PB-EXPORT (resolved v4) | Owner + Codex | Schema/config/release đã duyệt;108 tests/pixels/hash/rebuild/freeze pass | Không chặn release local |
+| TBD-PB-RELEASE-SCOPE (local/storage scope resolved) | Owner | local_classifier_research + attribution đã duyệt; owner cho phép DVC storage đúng v4 trên teamdrive restricted, evidence/runbook ghi ngoài immutable payload | S8 round-trip theo WORKLOG; không cho redistribution/W&B hoặc thu thập mới |
 
 ## Phụ lục A — Đúng 28 RF record được đưa vào ledger
 
