@@ -1,0 +1,5 @@
+[core]
+    remote = teamdrive
+['remote "teamdrive"']
+    url = gdrive://1mK1xBZJaeA1AMcTXCLvpmWCrkVFfuNJq
+    gdrive_use_service_account = false
