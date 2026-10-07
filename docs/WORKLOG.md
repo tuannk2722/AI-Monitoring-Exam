@@ -1,5 +1,13 @@
 # WORKLOG
 
+## 2026-10-07 — E002 FINISHED, báo cáo validation và artifact local
+
+- [E002 results](experiments/E002-results.md): codecommit082523947f5bb045622740bf6279fbc44c65130d, git_dirty=false từ checkout outputs/E002-code, exact resolvedconfig/seed/env/data/weights theo approval. Smoke interruptepoch1/resume đến3 PASS; baseline27epoch/earlystop, bestepoch7, routine5.26748s/peak454.13MiB.
+- Independent val reload exact scores/metrics. Attempt đầu lỗi default Windows encoding đọc JSON UTF-8 hypothesis, bị approval guard chặn trước output/inference; `python -X utf8` trên cùng code/candidate/config giải quyết, không retrain hoặc sửa code identity. Runbook ghi mode này.
+- PrimaryvalBCE0.6333627105 so E0010.5477269888, delta+0.0856357217: H1 chưa được ủng hộ. MacroAP0.980867 so0.927296; lookingF1 tăng0→0.5, phone recall giảm1→4/7/F1 giảm0.933→0.727. Errors/slices/support/constantbaseline báo đầy đủ, không tuning sau run hoặc promotion.
+-141tests/0skip, Ruff/compile/pip/repo checks PASS; checkpoint/config/code/data/artifact checksums và val/test preservation kiểm sau chạy. Local DVC pointers baseline/smoke/val/QA, restore37fileSHA từ shared cache vào verificationrepo mới PASS; không remote/fresh-cache roundtrip/upload. Binary/media ignored, chỉ metrics/docs/pointer nhỏ vàoGit.
+- Hoàn tất phạm vi E002 smoke/train/validation/report. Test chỉ integrity, không finaltest/model inference trên test/Gitpush/E003; numerical promotion và real-world holdout vẫn mở. Proposal/preparation/package/E001 giữ snapshot lịch sử; checkpoint/index/docs10/22 đồng bộ.
+
 ## 2026-10-07 — Owner approve E002, triển khai preservation loader
 
 - Owner review toàn bộ thay đổi/thông số E002.yaml, approve và yêu cầu thực hiện tiếp tới khi hoàn tất. [ADR-015 Accepted](decisions/ADR-015-e002-v5-preservation-linear-probe.md), approval hiện hành và snapshot pending lịch sử; exact config digests không đổi. Phạm vi local CPU/smoke/train/validation, không final test/upload.

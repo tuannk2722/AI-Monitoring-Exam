@@ -1,0 +1,6 @@
+outs:
+- md5: e416400581dc6624acc402c63c3b3c9e.dir
+  size: 1314996
+  nfiles: 1
+  hash: md5
+  path: E002-transform-qa

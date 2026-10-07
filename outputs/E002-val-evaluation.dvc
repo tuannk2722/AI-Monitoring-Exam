@@ -1,0 +1,6 @@
+outs:
+- md5: 8c587d18f328a78f928c1fa156fe4d0d.dir
+  size: 40026
+  nfiles: 6
+  hash: md5
+  path: E002-val-evaluation

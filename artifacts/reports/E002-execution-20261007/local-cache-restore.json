@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "mode": "DVC local no-scm verification repository, shared-cache restore",
+  "network_transfer": false,
+  "fresh_remote_cache_roundtrip": false,
+  "artifact_file_counts": {
+    "E002": 15,
+    "E002-smoke": 15,
+    "E002-val-evaluation": 6,
+    "E002-transform-qa": 1
+  },
+  "restore_path": "outputs/E002-cache-restore",
+  "dvc_pointers": [
+    {
+      "path": "outputs/E002.dvc",
+      "sha256": "11024eab799295e3fff05975cf3a4363f5fe3328e680f04c46fffe8e4a99be25"
+    },
+    {
+      "path": "outputs/E002-smoke.dvc",
+      "sha256": "1f00737c8e167f7b53da46d7e99b05cbac6fc521c3fa66e810e1957cf6115032"
+    },
+    {
+      "path": "outputs/E002-val-evaluation.dvc",
+      "sha256": "10f9052e8d85d3558bfebc3086c9770ec08aad1bfb35965273b95ee9093a4513"
+    },
+    {
+      "path": "outputs/E002-transform-qa.dvc",
+      "sha256": "ee4d6a1f46aec15ed5d31d348df04d8de8e369a53bc505d22b95cde18b3ad5f8"
+    }
+  ],
+  "first_attempt": "Root Git ignore chặn nested pointer; chưa restore, không sửa Git ignore của project.",
+  "resolution": "Local verification DVC repo --no-scm tại restore path, dùng cache local project; không remote/auth.",
+  "note": "Khôi phục vào output mới và đối chiếu mọi fileSHA; không checkout đè run gốc hoặc tuyên bố fresh remote round-trip."
+}

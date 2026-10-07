@@ -1,6 +1,6 @@
 # E002-EXECUTION-20261007 — Triển khai và chạy thử nghiệm đã được owner duyệt
 
-- Trạng thái / khu vực / ưu tiên: owner đã duyệt, preflight/tests PASS, chuẩn bị clean checkout để chạy / AI experiment / cao.
+- Trạng thái / khu vực / ưu tiên: hoàn tất E002 smoke/train/validation/report; H1 chưa được ủng hộ, không promotion / AI experiment / cao.
 - Owner / người nghiệm thu: chủ repository (solo); Codex chuẩn bị cấu hình, protocol và bằng chứng kiểm tra.
 - Phụ thuộc: release local Pilot B v5 đã accepted; E001 đã hoàn tất. Approval dataset không phải approval E002.
 
@@ -31,6 +31,8 @@ Toàn bộ mô tả/spec bằng tiếng Việt. Owner đã review toàn bộ tha
 - docs/experiments/E002-protocol.md: giả thuyết, biến kiểm soát, selection, metrics/masks, giới hạn, freeze và review gates.
 - docs/experiments/E002-approval.json: pending_owner_review, configs rỗng, chỉ proposed_configs chứa digest; không phải approval.
 - artifacts/reports/E002-preparation-20261007/: README đề xuất và verification/config comparison/evidence nhỏ; không chứa media/metric giả.
+- docs/experiments/E002-results.md và artifacts/reports/E002/: experiment card/metrics/comparison/errors/history/provenance/checksums thật.
+- artifacts/reports/E002-execution-20261007/: approval/preflight/cleancheckout/smoke/validation/cache-restore/verification; outputs/E002*.dvc pointers local.
 
 ## Ảnh hưởng đến data-label-split / experiment / privacy
 
@@ -44,7 +46,7 @@ Không mutation dataset/labels/split; chỉ kiểm integrity metadata/hash. Ch�
 
 - TBD-E002-APPROVAL: đã resolve bằng owner approval ngày2026-10-07; phải pin exact config/protocol và ghi evidence trước chạy.
 - TBD-E002-TEST: owner quyết định protocol final test sau freeze candidate; hiện không đề nghị inference test.
-- TBD-E002-LOADER: owner đã duyệt toàn bộ đề xuất và yêu cầu tiếp tục; triển khai loader preservation pointer như protocol, kiểm regression/tamper/preservation PASS trước chạy, không sửa dataset hoặc bỏ gate.
+- TBD-E002-LOADER: đã resolve, loader/preflight/regression/tamper PASS, không sửa dataset hoặc bỏ gate.
 - TBD-METRIC-01: numerical promotion gate chưa accepted; research metrics không tự thành model promotion.
 - Số mẫu/nhóm nhỏ, source confounding và Classroom chỉ train hạn chế kết luận generalization.
 - Có thể hoàn tác riêng config/protocol/report mới; không sửa dữ liệu accepted.
@@ -58,6 +60,13 @@ Không mutation dataset/labels/split; chỉ kiểm integrity metadata/hash. Ch�
 -23 training/preservation tests và full141tests PASS/0skip; Ruff toànsrc/tests/scripts, pip check, compileall, repo checker và diff check PASS. Preflight E00184/E002104/E002-smoke104 và approval/test guard PASS. Evidence mới ở execution/preflight.json; proposal/preparation cũ không ghi đè.
 - Đã xem QA sheet20train additions (original/letterbox pairs); RGB224 giữ đầy đủ crop/không center-crop, không xem test hoặc đổi nhãn. Sheet local ignored outputs/E002-transform-qa/new-train-transforms.png; ghi metadata/hash riêng.
 - Bước hiện hành: commit implementation và approvals local trên branch experiment riêng; detached clean worktree outputs/E002-code. Dùng env E001 đã pin (không tuyên bố fresh install), dataset/weights workspace gốc; exact config digests không đổi. Sau smoke interruption/resume phải tiếp tục baseline/val, xuất report thật rồi hoàn tất.
+- E002 thực tế FINISHED27epoch/best7/earlystop; routine5.26748s, peak476192768byte. Smoke INTERRUPTEDepoch1 → FINISHED3 với1resume, checkpoint/checksums PASS. Codecommit082523947f5bb045622740bf6279fbc44c65130d/clean checkout, sourcehashf8e58956a9918d0fddffa04ac2d59ca8da837931e0deeab0128fef4c3cacfee5; headbestSHA5c45de5d8e02ee6f48babb6c9331dced061240adbdd50c5baff1ce7b239609d8.
+- Val reload attempt đầu bị chặn trước output vì Windows defaultencoding đọc sai UTF-8 hypothesis; chạy `python -X utf8` trên same code/candidate/config tái lập exact scores/metrics. Không sửa code/identity hoặc retrain. Exception này ghi runbook/attempt JSON, UTF-8 là mode cần cho evaluator trên Windows commit này.
+- H1 không được ủng hộ: valBCE0.6333627104759216 so0.5477269887924194, delta+0.0856357216835022. MacroAP0.9808673469, lookingF1=.5, phoneF1=.72727/recall4/7. Không thaythreshold/model hoặc promotion; E003/holdout/finaltest cần decision riêng nếu owner yêu cầu tiếp.
+- DVCadd/cache local4outputs, restore37fileSHA vào outputs/E002-cache-restore no-SCM verificationrepo dùng sharedcache PASS; rootGitignore không đổi, không upload/remote. Sheet20QA và model/cache/media khôngcommit. Attemptrestore đầu bịgitignorechặn; workaround no-SCM chỉ trongignoredoutputdir.
+- Đã tạo report thật/comparison/train-val error&group-normal slices/summary/checksum; cập nhật results/index/docs10/22/WORKLOG. Phạm vi thực hiện hoàn tất; kiểm cuối toànartifact/package/pins/text/links/DVCstatus/diff và commit report/pointers nhỏ để bàn giao. Clean code checkout giữ exact commit, không chỉnh nó sau training.
+- Kiểm cuối PASS:47checksum entries của E001/E002/smoke/val, candidate/weights/payload v4-v5 và preservation; independent val exact, config digests giữ bản duyệt; UTF-8/JSON/46local links PASS. DVCstatus uptodate, localrestore37fileSHA PASS;141tests/0skip và lint/compile/pip/repo checks đã đạt, không cần rerun code tests khi chỉ cập nhật docs/report.
+- Bàn giao Done trên branch experiment/e002-pilot-b-v5; commit closeout chỉ docs/metrics nhỏ/pointers/verification, không binary/media hoặc chỉnh code checkout. Không còn công việc bắt buộc trong scope E002 đã duyệt. Các bước E003/finaltest/holdout/promotion chưa được duyệt và không tự thực hiện.
 - 2026-10-07: đối chiếu index/checkpoint/Git; task release cũ đã hoàn tất và được thay bằng task E002 hiện hành.
 - exec trong sandbox và node REPL lỗi khởi tạo. exec ngoài sandbox qua auto-review đọc repo thành công; không có rejection approval.
 - Đã xác nhận release accepted, training_run_approved=false, new_test_inference_authorized=false. Tiếp tục đọc implementation trước chọn đề xuất có thể nghiệm thu.

@@ -19,13 +19,13 @@ $e002Workspace = 'D:\ai-exam-monitoring-final'
 & $e002Python -m ai_exam_monitoring.training.train --config configs/experiments/E002-smoke.yaml --workspace $e002Workspace --output "$e002Workspace/outputs/E002-smoke" --interrupt-after 1
 & $e002Python -m ai_exam_monitoring.training.train --config configs/experiments/E002-smoke.yaml --workspace $e002Workspace --output "$e002Workspace/outputs/E002-smoke" --resume
 & $e002Python -m ai_exam_monitoring.training.train --config configs/experiments/E002.yaml --workspace $e002Workspace --output "$e002Workspace/outputs/E002"
-& $e002Python -m ai_exam_monitoring.training.evaluate --workspace $e002Workspace --run "$e002Workspace/outputs/E002" --split val --output "$e002Workspace/outputs/E002-val-evaluation"
+& $e002Python -X utf8 -m ai_exam_monitoring.training.evaluate --workspace $e002Workspace --run "$e002Workspace/outputs/E002" --split val --output "$e002Workspace/outputs/E002-val-evaluation"
 ```
 
-Smoke interruption sau epoch1 phải ghi `INTERRUPTED`, giữ last/checksums; resume đến3 epoch phải `FINISHED`. Không dùng metrics smoke để tuning/chọn candidate. E002 giữ seed42/max200/patience20/min_delta0.0001; best bằng raw minimum val BCE và tie sớm. Evaluator val phải tái lập predictions/metrics của best.
+Smoke interruption sau epoch1 phải ghi `INTERRUPTED`, giữ last/checksums; resume đến3 epoch phải `FINISHED`. Không dùng metrics smoke để tuning/chọn candidate. E002 giữ seed42/max200/patience20/min_delta0.0001; best bằng raw minimum val BCE và tie sớm. Evaluator val phải tái lập predictions/metrics của best. Trên Windows code commit thực nghiệm dùng `read_text()` mặc định cho resolved JSON; `-X utf8` đọc đúng hypothesis tiếng Việt và giữ approval digest. Đây là I/O mode, không đổi recipe/code/candidate; lần đầu bị từ chối trước inference đã ghi trong execution report.
 
 ## Kiểm chứng và bàn giao
 
 Lưu code commit/hash và clean state, environment/pip-freeze, config/dataset/split/encoding/weights pins, start/end/status/commands, best/last/cache/history/metrics/predictions/checksums và observation/decision. Báo cáo so E001 chỉ train/val; error analysis dùng predictions đã freeze, không relabel/tuning. Metrics E002 chỉ được ghi sau run thật.
 
-Kiểm mọi checksum artifact và package v5/v4 sau run, không có test feature/prediction; dừng ở validation theo protocol. Nếu dùng DVC, chỉ add/cache/restore local và pointer để bảo toàn binary; quyền upload vẫn chưa có. Model promotion/holdout/final-test là quyết định riêng. Báo cáo triển khai/kiểm chứng tại [E002 execution](../../artifacts/reports/E002-execution-20261007/README.md); experiment card `docs/experiments/E002-results.md` được tạo sau khi hoàn tất.
+Kiểm mọi checksum artifact và package v5/v4 sau run, không có test feature/prediction; dừng ở validation theo protocol. DVC chỉ add/cache/restore local và pointer để bảo toàn binary; quyền upload vẫn chưa có. Model promotion/holdout/final-test là quyết định riêng. [Execution report](../../artifacts/reports/E002-execution-20261007/README.md), [experiment card/kết quả](E002-results.md).

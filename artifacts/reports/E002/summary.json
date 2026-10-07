@@ -1,0 +1,61 @@
+{
+  "status": "FINISHED",
+  "experiment_id": "E002",
+  "owner": "repository-owner",
+  "parent_experiment": "E001",
+  "hypothesis_supported": false,
+  "decision": "continue_research_only",
+  "code_commit": "082523947f5bb045622740bf6279fbc44c65130d",
+  "code_sha256": "f8e58956a9918d0fddffa04ac2d59ca8da837931e0deeab0128fef4c3cacfee5",
+  "config_sha256": "7ffb2807d5602aaabc2bd95d44f3c7cc58d1341ca9d6eae4deef73de949c62bf",
+  "dataset_version": "pilot-b-20261007-v5",
+  "split_version": "pilot-b-v5-train-expansion-v1",
+  "payload_sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a",
+  "best_epoch": 7,
+  "completed_epochs": 27,
+  "early_stopped": true,
+  "elapsed_seconds": 5.267480700014858,
+  "peak_rss_bytes": 476192768,
+  "started_at": "2026-10-07T03:52:01.245920+00:00",
+  "ended_at": "2026-10-07T03:52:06.518430+00:00",
+  "train_macro_masked_bce": 0.6381784677505493,
+  "validation_macro_masked_bce": 0.6333627104759216,
+  "validation_macro_ap": 0.9808673469387755,
+  "delta_validation_bce": 0.0856357216835022,
+  "validation_reloaded_exactly": true,
+  "test_evaluated": false,
+  "uploads_executed": false,
+  "artifact_pins": [
+    {
+      "path": "outputs/E002/best.pt",
+      "sha256": "5c45de5d8e02ee6f48babb6c9331dced061240adbdd50c5baff1ce7b239609d8"
+    },
+    {
+      "path": "outputs/E002/last.pt",
+      "sha256": "18e3f08c84af54e9fa964305eac65a2e5ff2ca69156b6b68d35a57968aa1ca72"
+    },
+    {
+      "path": "outputs/E002/checksums.json",
+      "sha256": "abc4759ce1b951714247379f145bdc96aa1e192c42babadec3241b3afeec8c83"
+    }
+  ],
+  "commands": {
+    "train": [
+      "D:\\ai-exam-monitoring-final\\outputs\\E002-code\\src\\ai_exam_monitoring\\training\\train.py",
+      "--config",
+      "configs/experiments/E002.yaml",
+      "--workspace",
+      "D:/ai-exam-monitoring-final",
+      "--output",
+      "D:/ai-exam-monitoring-final/outputs/E002"
+    ],
+    "evaluation": "python -X utf8 -m ai_exam_monitoring.training.evaluate --workspace D:/ai-exam-monitoring-final --run D:/ai-exam-monitoring-final/outputs/E002 --split val --output D:/ai-exam-monitoring-final/outputs/E002-val-evaluation"
+  },
+  "observation": "H1 chưa được ủng hộ theo primary validation BCE. AP/looking cải thiện nhưng phone recall/F1 giảm; không promotion hoặc tuning sau run.",
+  "limitations": [
+    "Validation13 crop/2nhóm được dùng để select epoch và so model.",
+    "Val/test source-confounded, Classroom chỉ train; chưa có real-world holdout.",
+    "Không có promotion gate numerical hoặc final test E002.",
+    "Windows evaluation cần -X utf8 để đọc JSON tiếng Việt trên code commit này."
+  ]
+}

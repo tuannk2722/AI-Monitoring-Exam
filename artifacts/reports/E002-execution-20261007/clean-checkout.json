@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "commit": "082523947f5bb045622740bf6279fbc44c65130d",
+  "git_dirty": false,
+  "code_sha256": "f8e58956a9918d0fddffa04ac2d59ca8da837931e0deeab0128fef4c3cacfee5",
+  "module_file": "D:\\ai-exam-monitoring-final\\outputs\\E002-code\\src\\ai_exam_monitoring\\__init__.py",
+  "checkout": "outputs/E002-code",
+  "config_bytes_and_resolved_digest_match_approved": true,
+  "package_preflight": "PASS:104manifest",
+  "test_inference_executed": false
+}

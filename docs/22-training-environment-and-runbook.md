@@ -10,6 +10,8 @@ Lưu ý: Colab local runtime không cung cấp GPU cloud.
 
 Ngoại lệ E001 được owner duyệt ngày 2026-10-06 tại [ADR-014](decisions/ADR-014-e001-local-linear-probe.md): frozen-feature linear probe chạy CPU local theo [runbook E001](experiments/E001-runbook.md), từ clean isolated Git checkout và exact dependency/config/data pins. Run local này không cần Git push hoặc mở quyền Colab; output vẫn local. Các GPU experiment sau tiếp tục áp dụng workflow bên dưới.
 
+Ngoại lệ E002 riêng đã được owner duyệt ngày2026-10-07 tại [ADR-015](decisions/ADR-015-e002-v5-preservation-linear-probe.md), cùng frozen probe/môi trường CPU, accepted v5 local và clean checkout theo [runbook](experiments/E002-runbook.md). E002 smoke/resume/baseline/validation đã hoàn tất; trên Windows evaluator code commit này cần `python -X utf8` để đọc đúng hypothesis JSON tiếng Việt. Không upload/final test; storage DVC remote v4 và local v5/E002 là các phạm vi khác nhau.
+
 ## Thiết lập DVC một lần
 
 Cài `requirements/dvc.txt`; `dvc init`; owner tạo folder Drive restricted; thêm `gdrive://<folder-id>` làm default remote; commit `.dvc/config`, không bao giờ commit credential JSON/token. Test với folder nhỏ không nhạy cảm: owner `dvc push`, sau đó clone đúng commit sang thư mục khác với DVC cache mới rỗng (không dùng cache gốc/shared), chạy `dvc pull`, đối chiếu SHA-256; ghi commit/pointer/lệnh/checksum vào WORKLOG trước khi đưa data thật vào.
