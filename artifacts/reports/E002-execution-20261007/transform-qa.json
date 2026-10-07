@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "reviewed_on": "2026-10-07",
+  "samples": 20,
+  "sample_ids": [
+    "EXP-CM-001",
+    "EXP-CM-002",
+    "EXP-CM-003",
+    "EXP-CM-004",
+    "EXP-CM-005",
+    "EXP-CM-006",
+    "EXP-CM-007",
+    "EXP-CM-009",
+    "EXP-CM-010",
+    "EXP-CM-011",
+    "EXP-CM-012",
+    "EXP-CM-013",
+    "EXP-CM-014",
+    "EXP-CM-015",
+    "EXP-CM-017",
+    "EXP-CM-018",
+    "EXP-CM-019",
+    "EXP-CM-020",
+    "EXP-CM-024",
+    "EXP-RF-019"
+  ],
+  "split": "train",
+  "sheet": {
+    "path": "outputs/E002-transform-qa/new-train-transforms.png",
+    "sha256": "80cb2e95b33d6c81f6ec70314605b0da4ea74e9eb2e380f493c33fb3bfc83287"
+  },
+  "review": "Đã xem20cặp original/letterbox RGB224, giữ toàn crop và ngữ cảnh, không center-crop; không thay nhãn hoặc xem test."
+}

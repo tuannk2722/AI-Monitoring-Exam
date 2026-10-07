@@ -1,129 +1,71 @@
-﻿# DATA-EXPANSION-20261006 — Triển khai hướng mở rộng đã được owner duyệt
+# E002-EXECUTION-20261007 — Triển khai và chạy thử nghiệm đã được owner duyệt
 
-- Trạng thái / khu vực / ưu tiên: Release pilot B v5 local hoàn tất, accepted theo owner / dữ liệu / cao.
-- Người chịu trách nhiệm và nghiệm thu: chủ repository (solo); Codex thực hiện và chuẩn bị bằng chứng.
-- Phụ thuộc: E001 hoàn tất; candidate mới phụ thuộc archive đúng hash và bằng chứng nguồn/nhóm.
+- Trạng thái / khu vực / ưu tiên: owner đã duyệt, preflight/tests PASS, chuẩn bị clean checkout để chạy / AI experiment / cao.
+- Owner / người nghiệm thu: chủ repository (solo); Codex chuẩn bị cấu hình, protocol và bằng chứng kiểm tra.
+- Phụ thuộc: release local Pilot B v5 đã accepted; E001 đã hoàn tất. Approval dataset không phải approval E002.
 
 ## Mục tiêu và bối cảnh
-Ngày 2026-10-06, owner duyệt hướng hai luồng SCB/RF hiện có + thẩm định nguồn mới; cho phép mở thẩm định metadata Classroom-monitoring-dataset và tạo draft dataset pointer v5 sau khi có candidate. Giữ phone_use, looking_around và mask unknown. Ghi nhận quyết định này và tiến hành các phần có đủ đầu vào.
+
+Theo yêu cầu ngày 2026-10-07: tạo configs/experiments/E002.yaml trỏ package pilot-b-20261007-v5; xây dựng giả thuyết nghiên cứu và protocol đánh giá chi tiết; bàn giao đề xuất và kiểm tra hợp lệ để owner nghiệm thu trước huấn luyện thực tế.
 
 ## Đọc trước / ADR đã được accept
-Đã đọc trong lượt này: AGENTS.md; docs/00-INDEX.md; checkpoint trước; docs/templates/task-template.md; docs 01/02/04/08/09/19/21/25; ADR-012/013; candidate cards SCB5-supplied-20261003 và Roboflow-phone-use-20261004; kế hoạch data-expansion-20261006; source-research.json; config pilot_b_release_v4 và pilot_b_scb_proposals_v1; pyproject.toml; phần WORKLOG liên quan. Đã đọc thêm contract pilot B, script inventory, cấu hình release proposal, schema record hiện hành, repo checker và điều khoản/trang project/license nguồn công khai. Không đọc lại tài liệu không đổi.
+
+Đã đọc: AGENTS.md; docs/00-INDEX.md; checkpoint task dữ liệu trước; docs/templates/task-template.md và experiment-template.md; docs 04/09/10/15/22/23/24; ADR-012 và ADR-014 (Accepted chỉ cho E001); runbook E001 và phần kết quả validation; WORKLOG liên quan. Đã đối chiếu config E001/accepted v5, README proposal/release v5, release-pointer/evaluation-preservation, release.json/dataset-card v5, requirements CPU/lockfile, pyproject và gitignore. Đã đọc training config/data/model/metrics/train/evaluate/artifacts, pilot_schema/verify_payload, checker và test guard/metrics; đối chiếu resolved-config/run/code-provenance/metrics val/weights receipt E001. Không coi ADR-014 là approval E002; không đọc lại docs không đổi.
 
 ## Input và phiên bản chính xác
-Parent pilot-b-20261005-v4: 112 ledger, 84 manifest, 28 review_only; config accepted pilot_b_release_v4.yaml. Kế hoạch và evidence data-expansion-20261006 đã tồn tại nhưng chưa commit. V4/test/E001 bất biến; queue không phải membership v5.
+
+- Package: data/processed/pilot-b/pilot-b-20261007-v5; dataset version pilot-b-20261007-v5; split pilot-b-v5-train-expansion-v1; targets phone_use, looking_around; unknown masked.
+- Checksum list SHA-256: 2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a.
+- Ledger 208; manifest 104 = train80/val13/test11; review_only93/excluded11; crop197.
+- Val/test giữ nguyên v4. Test đã evaluate E001; không gọi là holdout chưa nhìn. Nhóm Classroom chỉ train, chưa có holdout độc lập.
+- Git bắt đầu sạch. Không thay package accepted, E001 hoặc evidence release lịch sử.
 
 ## Yêu cầu / ràng buộc
-Chỉ approval cho hướng triển khai và metadata, chưa chấp nhận nguồn/nhãn/split/release mới. Không tự tải media nguồn mới, không upload, không gửi liên hệ bên ngoài, không train E002. Không tự chuyển nhãn nguồn thành target; Discuss tiếp tục loại. Bảo toàn sửa AGENTS.md và file review bị xóa từ trước.
+
+Toàn bộ mô tả/spec bằng tiếng Việt. Owner đã review toàn bộ thay đổi/thông số E002.yaml và approve, yêu cầu tiếp tục tới khi xong hoặc có quyết định mới cần chốt. Được ghi approval, sửa loader theo hướng hẹp đã đề xuất, kiểm regression/tamper, chạy smoke/resume, E002 và validation theo protocol. Không đổi resolved config đã duyệt, dataset/nhãn/split, threshold hoặc acceptance metric; không final test/upload/push. Có thể tạo local commit/clean isolated checkout cần thiết cho provenance theo protocol đã duyệt. Không mở rộng dashboard/tracking/runtime detector hoặc hỏi lại approvals đã có.
 
 ## Deliverables (đường dẫn artifact/contract)
-- Bằng chứng phê duyệt trong artifacts/reports/data-expansion-20261006/ và đồng bộ kế hoạch/index/WORKLOG.
-- Báo cáo thẩm định metadata Classroom-monitoring-dataset với URL, trạng thái xác minh và TBD có owner.
-- Kiểm tra archive local đúng đường dẫn/hash; ghi rõ điều kiện tạo candidate/pointer v5 nếu thiếu đầu vào.
+
+- configs/experiments/E002.yaml, tương thích config loader hiện hành và trỏ đúng version/pins.
+- configs/experiments/E002-smoke.yaml: đề xuất smoke3 epoch sau nghiệm thu, chưa chạy.
+- docs/experiments/E002-protocol.md: giả thuyết, biến kiểm soát, selection, metrics/masks, giới hạn, freeze và review gates.
+- docs/experiments/E002-approval.json: pending_owner_review, configs rỗng, chỉ proposed_configs chứa digest; không phải approval.
+- artifacts/reports/E002-preparation-20261007/: README đề xuất và verification/config comparison/evidence nhỏ; không chứa media/metric giả.
 
 ## Ảnh hưởng đến data-label-split / experiment / privacy
-Không sửa raw/v4, semantics, labels, split hoặc test freeze. Pointer v5 chỉ được tạo ở trạng thái draft sau khi có candidate; quyền này không phải approval training/release. Không dùng kết quả test để chọn dữ liệu.
+
+Không mutation dataset/labels/split; chỉ kiểm integrity metadata/hash. Chỉ manifest dùng cho train/val khi sau này được duyệt; không dùng review_only/excluded. E002 và môi trường CPU local phải được nghiệm thu riêng; test không thuộc đề nghị chạy trước mắt. Không log media hay gửi dữ liệu ra ngoài.
 
 ## Tiêu chí nghiệm thu và lệnh verify
-Approval truy vết đúng bốn lựa chọn owner; metadata tách claim với xác minh archive; không tạo pointer giả khi chưa có candidate. Kiểm JSON/UTF-8/liên kết, inventory bằng parser canonical, hash parent, repository checker và git diff --check.
+
+Đối chiếu schema config, payload/weights pins, membership/support/leakage, val/test preservation, E001 controls; parse YAML/JSON/UTF-8 và links; chạy validation phù hợp, repository checker và git diff --check. Không cần training để xác nhận cấu hình.
 
 ## Rủi ro / rollback / quyết định chưa giải quyết
-Archive đã xác minh có tại path pin, 3/3 SHA PASS; không còn blocker thiếu archive. R2 đã có 48SCB/24RF mới; draft ban đầu chỉ có 28 review_only được giữ lịch sử. TBD-EXP-SOURCE: owner nghiệm thu nguồn sau bằng chứng quyền/provenance/version/group. TBD-EXP-V5: owner nghiệm thu membership/nhãn/group/split sau candidate, không suy từ approval hướng. Đã thêm workflow proposal canonical và hỗ trợ layout RF train; giữ raw/v4/E001 bất biến. Có thể hoàn tác riêng code/config/evidence R2.
+
+- TBD-E002-APPROVAL: đã resolve bằng owner approval ngày2026-10-07; phải pin exact config/protocol và ghi evidence trước chạy.
+- TBD-E002-TEST: owner quyết định protocol final test sau freeze candidate; hiện không đề nghị inference test.
+- TBD-E002-LOADER: owner đã duyệt toàn bộ đề xuất và yêu cầu tiếp tục; triển khai loader preservation pointer như protocol, kiểm regression/tamper/preservation PASS trước chạy, không sửa dataset hoặc bỏ gate.
+- TBD-METRIC-01: numerical promotion gate chưa accepted; research metrics không tự thành model promotion.
+- Số mẫu/nhóm nhỏ, source confounding và Classroom chỉ train hạn chế kết luận generalization.
+- Có thể hoàn tác riêng config/protocol/report mới; không sửa dữ liệu accepted.
 
 ## Checkpoint agent
-- 2026-10-06: đã đối chiếu Git; có sửa/untracked từ task trước, không ghi đè công việc user.
-- Sandbox exec và node lỗi khởi tạo; exec đọc repo ngoài sandbox đã chạy qua approval review. Đây là lỗi công cụ, không phải từ chối quyền dữ liệu.
-- Trang project công khai vẫn hiển thị 150 ảnh, 2 versions, 7 lớp, CC BY 4.0; không có mô tả project. Chưa đủ chứng minh provenance/consent hoặc group.
-- Đã tạo owner-approval.json, candidate-batch-v5-draft.json, classroom-monitoring-metadata-review.json, README.md và verification.json trong artifacts/reports/data-expansion-20261006/; pointer configs/datasets/pilot_b_expansion_v5_draft.yaml. Đồng bộ kế hoạch/index/WORKLOG.
-- Candidate batch đúng 28 review_only hiện có (10 Head,13 HRW,5 RF); 0 media candidate mới. Kiểm source image/label ZIP và crop SHA 28/28 PASS; giữ target/crop/source/mask. Chưa review near-duplicate/nhóm; split=null, training_eligible=false, không tạo package/DVC release.
-- Sửa hai thông tin sai ở kế hoạch: archive đang có và khớp SHA; SCB review_only là23, không phải16. Snapshot evidence inventory/queue/source-research ban đầu giữ nguyên; metadata review mới là phần bổ sung.
-- Verification PASS: inventory tái lập112/84/28; toàn123 file trong checksum list v4 khớp, checksum list SHA dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53; pins pointer/approval/batch; parse JSON/YAML/UTF-8/link mới; Ruff, repository checker và diff check. Hai link cũ tới file review đã bị owner xóa giữ nguyên. Không đổi code nghiệp vụ nên không chạy lại full suite.
-- Bước tiếp sau resume: đối chiếu Git/checkpoint/index; khai thác shortlist SCB mới ngoài ledger từ archive đã pin, không dùng test E001 để chọn; hoàn thiện group/near-duplicate evidence và scope release v5. Nguồn Classroom-monitoring còn TBD quyền/provenance/version/unit/group; không nhận media trước gate. Không hỏi lại bốn quyết định đã duyệt, không tự nhận dataset/nhãn/split hoặc train E002.
 
-## Tiếp tục sau owner review ngày 2026-10-06
-- Owner đã review toàn bộ thay đổi và approve, yêu cầu tiến hành tới khi hoàn tất; cho phép hỏi thông tin còn thiếu. Bảo toàn snapshot draft ban đầu, tạo revision mới cho candidate/đề xuất mới.
-- Owner xác nhận có thông tin quyền/provenance/consent Classroom-monitoring và sẽ cung cấp đường dẫn/thông tin; nguồn đó chờ bằng chứng, SCB/RF tiếp tục độc lập.
-- Đang đọc pipeline selection, similarity và proposals để tái sử dụng; không delegation. Tuyển/QA bằng heuristics là Draft, không tự nâng thành target/split Accepted.
-
-## Resume sau gián đoạn công cụ
-- Đã đối chiếu lại index/TASK/Git: R2 có 48 SCB +24 RF mới, visual proposals cho72,11 đề xuất loại anchor,2 crop RF sửa và11 đề xuất nối cảnh; còn28 review_only parent.
-- Đã triển khai pilot_expansion.py và hỗ trợ explicit RF train layout trong pilot_selection.py;131 tests, Ruff và repo checker PASS ở lượt trước. Chưa hoàn tất verification artifact, index/WORKLOG hoặc handoff R2.
-- Lệnh kiểm cuối bị chặn do automatic approval review hết hạn mức (không phải kết luận hành động không an toàn); sau user resume, công cụ đã hoạt động lại.
-- Xác nhận một số chuỗi tiếng Việt bị PowerShell chuyển thành dấu hỏi: README R2, scope note config RF/pointer R2 và reason của crop refinements. Sẽ sửa text, lưu bằng chứng hash config đã chạy và bảo toàn mọi identity/crop/nhãn/split.
-- Thông tin quyền/provenance Classroom-monitoring owner hứa cung cấp vẫn chưa có nội dung/đường dẫn; không suy quyền từ lời hứa. Tiếp tục validation độc lập trước nghiệm thu cụ thể.
-
-## Checkpoint R2 hiện tại
-- Đã đọc thêm source-audit, label-spec-v1, pilot_inputs/selection/scb_proposals/owner_groups/image_similarity/yolo, tests selector/similarity, fingerprint/scene proposals lịch sử; không đọc lại canonical docs không đổi.
-- Hai config selection R2, code pilot_expansion và tests đã chạy thành công; output SCB/RF ở data/interim/pilot-b/expansion[-rf]-20261006-r2; evidence ở artifacts/reports/data-expansion[-rf]-20261006-r2. Proposal nhãn có 72 observations/hash,11 anchor đề xuất loại,2 crop RF sửa và 11 liên hệ cảnh. Canonical target mới vẫn unknown; split/group null, training_eligible=false.
-- Vòng trước đã chạy 131 tests PASS, Ruff toàn src/tests/scripts PASS, repo checker PASS. Sau resume sửa mô tả UTF-8; encoding-repair lưu chính xác text/hash RF config thực thi, chứng minh chỉ khác selection.scope_note; summary phân biệt config_sha256 lúc chạy với current_config_sha256.
-- Đã đồng bộ index/kế hoạch/WORKLOG; verification R2 PASS (72 candidate, 74 crop tái tạo đúng pixel, 11 quan hệ, pins và parent payload). Không tạo release, không train, không upload/commit/push. User sửa AGENTS và xóa review cũ được giữ nguyên.
-- Phụ thuộc còn thiếu: owner nghiệm thu báo cáo R2 mới; quyền RF mới theo phạm vi release; metadata quyền/provenance Classroom-monitoring owner chưa gửi; group independence/split/holdout chưa có quyết định. Chỉ hỏi trên báo cáo cụ thể, không hỏi lại hướng hai luồng/semantics/quyền SCB.
-
-## Owner nghiệm thu R2 và staging
-- Owner trả lời: “Duyệt proposal R2, tiếp tục staging review-only”. Phạm vi 72 candidate, 11 anchor loại, nhãn/crop theo hash và 11 liên hệ cảnh; chưa duyệt split/release/training. Approval này thay trạng thái chờ nghiệm thu ở checkpoint trước.
-- Tạo snapshot approval pin evidence R2; staging riêng đúng 72 candidate mới (61 review_only, 11 excluded), dùng schema/builder hiện có. Parent 112 record và queue 28 cũ giữ nguyên, chưa chốt membership release v5 hợp nhất.
-- Nhập target/crop đã duyệt, unknown vẫn mask 0. Lưu quan hệ cảnh như ràng buộc đã duyệt; không suy nhóm độc lập/split. Không upload hoặc train.
-- Đã hỏi bằng chứng Classroom-monitoring và scope quyền RF mới; chưa có trả lời. Công cụ đã hoạt động lại sau resume; lần sửa checkpoint trước không được thực thi vì automatic approval review hết hạn mức.
-
-## Xác nhận quyền của owner
-- Owner xác nhận toàn quyền sử dụng mọi dataset đang dùng trong project, yêu cầu không hỏi lại hoặc giữ quyền sử dụng làm blocker. Áp dụng cho SCB/RF của staging R2; không yêu cầu thêm bằng chứng quyền. Phê duyệt staging R2 vẫn hiệu lực.
-- Tiếp tục hoàn tất staging, kiểm checksum/pixel/schema và bàn giao; split/release/training chưa nằm trong approval R2.
-
-## Bàn giao cuối cùng — trạng thái hiện hành thay checkpoint lịch sử
-- Hoàn tất staging `data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging`: 72 record mới, 61 review_only/crop, 11 excluded; target theo proposal đã duyệt, unknown null/mask0. Parent112/manifest84/queue28 bất biến.
-- Approval/rights confirmation/ledger/selection/scene constraints/build metadata/result/verification/README ở `artifacts/reports/data-expansion-staging-20261006-r2/`; pointer `configs/datasets/pilot_b_expansion_v5_r2_staging.yaml`. Snapshot R2 trước approval giữ nguyên.
-- Verification PASS: source/label72, pixel/hash61, masks/nhãn/crop đúng approval,11 quan hệ, pins/schema, checksum123 file parent, UTF-8 và media Git ignore. Code không đổi sau131tests/Ruff/repo checker PASS trước đó; diff check PASS.
-- Đã đồng bộ index/kế hoạch/WORKLOG. Không còn yêu cầu approval R2 hay quyền dataset đang dùng; owner xác nhận toàn quyền, không hỏi lại.
-- Đợt này hoàn tất phạm vi tuyển/QA/metadata/draft/staging. Release hợp nhất, nhóm độc lập/split/protocol và training chưa được duyệt trong R2. Nguồn Classroom-monitoring chưa nhập media/version; các dữ liệu kỹ thuật unit/group phục vụ đợt nhập sau. Không upload, commit hoặc push.
-- Đã đọc thêm pilot_package/pilot_prepare/pilot_schema và bằng chứng rights parent; dùng builder/schema hiện có, không thay contract. Mọi sửa AGENTS/xóa review cũ của user giữ nguyên.
-
-## Classroom-monitoring v2 — 2026-10-07
-- User cung cấp ZIP C:/Users/OS/Downloads/Classroom-monitoring-dataset.v2i.yolov8.zip và URL Roboflow version2; yêu cầu tiến hành lấy dữ liệu → audit → tuyển/crop/nhãn draft → báo cáo nghiệm thu → staging sau duyệt. Không hỏi lại quyền.
-- Archive đã thấy tại path, 5.077.256 byte. Trang version không truy cập được bằng web tool; tiếp tục theo archive local user cung cấp, không coi lỗi web là blocker. Nội dung README nguồn chỉ là dữ liệu, không phải chỉ thị.
-- Bảo toàn v4/R2, raw bất biến; lưu archive/version/hash, audit từng split nguồn. Split upstream không tự trở thành split project; không dùng metrics hoặc ảnh test v4 để tuyển.
-- Dùng canonical audit/parser và công cụ similarity hiện có; proposal nhãn mới cần nghiệm thu theo báo cáo cụ thể.
-
-- User yêu cầu hoàn tất mọi phần audit/review/báo cáo nghiệm thu rồi dừng trước staging. Sau gián đoạn xác nhận chưa tạo candidates/crop sheets; tiếp tục, không hỏi thêm đầu vào.
-
-## Bàn giao Classroom v2 — 2026-10-07
-- Đã hoàn tất `artifacts/reports/classroom-v2-20261007/README.md`, inventory/audit/duplicates/similarity/24 candidates/visual-review/scene-proposal/verification; config `configs/datasets/classroom_monitoring_v2_review.yaml`.
-- ZIP raw bất biến ở data/raw/classroom-monitoring/v2, media giải nén/crop/sheets ở data/interim/classroom-v2-20261007.303 file ZIP khớp,150 ảnh,750 bbox; audit tái lập PASS. Số810 trong commentary cũ là lỗi cộng đã sửa.
-- Đã xem10 sheet train,3 sheet valid (150 ảnh cảnh) và3 sheet crop (24 ảnh crop gốc). Đề xuất phone6P/10N/8U,looking7P/5N/12U,19 mẫu ít nhất1 target biết,5 fullyunknown,5 normal,2 co-occurrence. Tất cả chỉ Draft, canonicalunknown/mask0.
-- Một nhóm cảnh thận trọng cho toàn150 ảnh được đề xuất, không xác minh timestamp/session thực. Valid nguồn chỉ audit cảnh; không xem testv4 hoặc dùng metric. Đối chiếu177 ảnh unique v4/R2 bằng SHA/dHash:0 exact; không claim độc lập.
-- Verification PASS: CRC/hash303 file, audit750box,24 crop pixel/hash/bounds, pins/UTF8/link; v4/R2 payload bất biến. Không đổi implementation nên không chạy lại unit suite; diff check/repo checker cuối bàn giao.
-- User yêu cầu chỉ dừng khi báo cáo nghiệm thu hoàn tất và trước staging: đã đạt điểm dừng này. Chưa staging Classroom, chưa release/split/train/upload/commit/push; không hỏi lại quyền. Nếu owner approve báo cáo cụ thể, nhập quyết định theo hash và tạo staging mới.
-- Đã đọc thêm source-audit và đối chiếu label-spec phần phone/looking trước review; không suy label nguồn.
-
-## Tiếp tục sau nghiệm thu24 crop/nhãn
-- Owner đã review toàn24 proposal và approve, yêu cầu tiếp tục. Tạo staging review-only bằng builder canonical; pin approval/report/candidate/visual theo hash.
-- Approval nêu crop/nhãn; đã hỏi riêng đề xuất nhóm150 ảnh CM-V2-SCENE-01. Trong lúc chờ, group null và không split/train. Quyền nguồn đã xác nhận, không hỏi lại.
-- Bảo toàn raw/v4/R2 và evidence Classroom trước approval; tạo report/pointer/package mới.
-
-## Bàn giao staging Classroom — checkpoint hiện hành
-- Owner đã trả lời duyệt gộp150 ảnh thành một nhóm; không còn chờ nhóm/crop/nhãn.
-- Package `data/interim/pilot-b/classroom-v2-20261007-staging`, report `artifacts/reports/classroom-v2-staging-20261007/`, pointer `configs/datasets/classroom_monitoring_v2_staging.yaml`.24 record/crop review_only, group CM-V2-SCENE-01, nhóm150 ảnh được pin bằng SHA.
-- Verification PASS:24 source/label/crop hash/pixel, targets đúng proposal, unknown mask0, schema/pins, nhóm150, parent v4/R2 bất biến. README proposal khác hash do sửa khoảng trắng, đã đọc đối chiếu và pin bản hiện hành trong approval mới, giữ hash lịch sử; mọi file dữ liệu giữ hash cũ.
-- Đã cập nhật index/WORKLOG/kế hoạch; không đổi implementation, không chạy lại suite không liên quan. Diff/repo checker/media ignore kiểm cuối.
-- Staging hoàn tất. Phần release v5 còn cần nhóm SCB/RF toàn bộ, membership hợp nhất/split/protocol riêng; chưa tự chốt hoặc train/upload/commit/push. Quyền và approval Classroom đã đủ, không hỏi lại.
-
-## Tiếp tục v5 sau duyệt staging
-- Owner “approve and continue!”: nghiệm thu bàn giao Classroom, tiếp tục lập đề xuất membership/nhóm/split/protocol v5. Không tự suy approval release mới chưa tồn tại.
-- Hợp nhất kiểm kê112 parent +72 R2 +24 Classroom thành208 record metadata; bảo toàn nhãn/crop/unknown và test v4. Chỉ dùng approved group/must-link và metadata; chưa có bằng chứng độc lập thì giữ review_only. Chuẩn bị phương án cụ thể, kiểm constraints và coverage trước nghiệm thu.
-
-## Đề xuất v5 đã hoàn tất — chờ nghiệm thu cụ thể
-- Báo cáo `artifacts/reports/pilot-b-v5-proposal-20261007/README.md`, membership208, group-components, summary, source-record-snapshots, continuation-approval,verification; config `configs/datasets/pilot_b_v5_release_proposal_20261007.yaml`.
-- Đề xuất train80/val13/test11/review_only93/excluded11;20 train mới gồm19 Classroom +RF-019. Nhãn/crop bất biến, Classroom cùng1 splittrain, val/test giữ nguyên. Group chưa đủ độc lập giữreview_only; không tuyên bố hoàn tất mọi groupSCB/RF.
-- Verification PASS:208 nguồn,20 bổ sung,11 links,0 xung đột exact/group/crop qua split,3 parent payload bất biến. Canonical schema đơn version vẫn giữ nguyên; snapshot nhiều nguồn validate từng record, không phải manifest hợp nhất.
-- Đã đọc phần liên quan E001-runbook, release-contract và pilot_release_proposals; chưa đổi code/cấu hình training.
-- Bước tiếp: sau owner duyệt membership/split/release đề xuất cụ thể, tạo accepted package version mới với builder hiện có, ghi approval/hash/review evidence. Không suy “approve and continue” trước khi proposal tồn tại thành duyệt proposal này. Không hỏi lại quyền/nhãn/nhómClassroom.
-
-## Owner approve release v5
-- User đã review/approve báo cáo proposal v5 và yêu cầu tiếp tục. Đóng gói accepted version pilot-b-20261007-v5:208 ledger,80train/13val/11test/93review_only/11excluded. Không chạy E002.
-- Pin approval/config/membership; bảo toàn mọi crop/target và parent; test chỉ kiểm integrity khi packaging, không inference/tuning. Dùng builder/schema hiện có.
-
-## Bàn giao cuối — release v5 local accepted
-- Package data/processed/pilot-b/pilot-b-20261007-v5; config configs/datasets/pilot_b_release_v5.yaml; report artifacts/reports/pilot-b-v5-release-20261007/README.md và release-pointer.json pin checksum.
--208 ledger/104 manifest:80train/13val/11test,93review_only/11excluded,197crop. Thêm19Classroom +RF019 train; toàn source/crop/target/review/rights giữ nguyên, val/test group/freeze giữ nguyên. Parent3 payload bất biến. V5-COMP không tự thành group độc lập, record giữ null/review_only.
--Approval pin README proposal hiện tại (sửa khoảng trắng) và hash lịch sử; các membership/config/evidence dữ liệu khớp snapshot. Builder canonical gate accepted PASS; verify schema/hash/pixel/pins/leakage/parent PASS. Không đổi implementation.
--Đồng bộ index/WORKLOG/kế hoạch/runbook; diff/repo/media ignore kiểm cuối. Không train, finaltest inference, upload, commit hoặc push. Test chỉ kiểm integrity trong packaging.
--Bước kế tiếp ngoài release: chuẩn bị E002 experiment config/protocol để nghiệm thu trước chạy; không hỏi lại approval dataset/rights/crop/nhómClassroom.
+- Tiếp tục2026-10-07: owner “tôi đã review toàn bộ thay đổi và thông số được cấu hình trong E002.yaml. Approve bản này, hãy thực hiện tiếp! Chỉ dừng lại khi xong hoặc có gì cần hỏi hay review/chốt lại.” Approval này thay trạng thái chờ duyệt trong checkpoint lịch sử bên dưới. Chưa cho phép final test; protocol chỉ smoke/train/validation.
+- Đã đọc lại index/TASK và Git: base1e1a31a, branch data/pilot-b-preparation, đúng11 file preparation modified/untracked; không có thay đổi owner khác. Đọc thêm doc06, approval release/parent freeze và fixtures. Sandbox tiếp tục lỗi khởi tạo; exec ngoài sandbox auto-review hoạt động.
+- Bước tiếp: pin approval hiện hành, Accepted ADR riêng E002/loader scope; bảo toàn preparation snapshot; triển khai loader/tests; kiểm và commit scope E002, tạo clean local checkout để chạy đúng config/seed/env. Không dừng ở readiness nếu mọi gate đủ.
+- Loader đã triển khai trong training/data.py: verify pointer containment/SHA/owner/membership/parent inline freeze và semantic val/test; manifest/ledger/split nhất quán, schema leakage gate giữ nguyên; lỗi malformed đổi thành DataContractError. Signature và runtime select/letterbox/image_tensor/labels/crop_path giữ nguyên (AST proof); các training module khác khớp E001 provenance.
+-23 training/preservation tests và full141tests PASS/0skip; Ruff toànsrc/tests/scripts, pip check, compileall, repo checker và diff check PASS. Preflight E00184/E002104/E002-smoke104 và approval/test guard PASS. Evidence mới ở execution/preflight.json; proposal/preparation cũ không ghi đè.
+- Đã xem QA sheet20train additions (original/letterbox pairs); RGB224 giữ đầy đủ crop/không center-crop, không xem test hoặc đổi nhãn. Sheet local ignored outputs/E002-transform-qa/new-train-transforms.png; ghi metadata/hash riêng.
+- Bước hiện hành: commit implementation và approvals local trên branch experiment riêng; detached clean worktree outputs/E002-code. Dùng env E001 đã pin (không tuyên bố fresh install), dataset/weights workspace gốc; exact config digests không đổi. Sau smoke interruption/resume phải tiếp tục baseline/val, xuất report thật rồi hoàn tất.
+- 2026-10-07: đối chiếu index/checkpoint/Git; task release cũ đã hoàn tất và được thay bằng task E002 hiện hành.
+- exec trong sandbox và node REPL lỗi khởi tạo. exec ngoài sandbox qua auto-review đọc repo thành công; không có rejection approval.
+- Đã xác nhận release accepted, training_run_approved=false, new_test_inference_authorized=false. Tiếp tục đọc implementation trước chọn đề xuất có thể nghiệm thu.
+- Bước sau resume: đọc index/TASK, đối chiếu Git và artifact; chỉ đọc lại docs thay đổi. Hoàn tất đề xuất/verification rồi dừng trước huấn luyện và chờ nghiệm thu E002.
+- Đã tạo config/protocol/pending/report/comparison/data-checks/verification; H1 giảm val macro BCE so E001 với chỉ20croptrain bổ sung; mọi training controls giữ E001. Protocol không cấp quyền test hoặc promotion, đề xuất ngoại lệ CPU local riêng E002.
+- Audit read-only hoàn tất:208ledger/104manifest/197cropSHA và checksum toàn payload,80/13/11/93/11,60train cũ và24val/test semantics giữ nguyên,20 train mới,0 exact/group/crop leakage, Classroom19train/5review_only, weights/env/trainingmodules khớp E001. Không decode media/test inference.
+- verify_dataset v4 PASS84; v5 bị KeyError status. Đây là xung đột loader với accepted release, không phải hỏng hash/schema. Không đổi src/data; hướng fix fail-closed ghi protocol. Approval pending bị từ chối cho cả E002/smoke; test selection guard PASS.
+-8test sẵn có về schema/mask/metrics/selection/protocol/approval PASS; checker/diff trước báo cáo PASS. Kiểm cuối UTF-8/JSON/YAML/link/pins/diff sau chốt docs; không chạy fullsuite hoặc huấn luyện thật vì src/tests không đổi.
+- Verifier một lần nằm local ignored outputs/E002-preparation-tools/verify.py, được pin trong report; chỉ audit metadata/bytes và guard. Không chứa media/credentials; không commit/upload.
+- Điểm dừng: bàn giao để owner nghiệm thu đề xuất cụ thể; chưa smoke/train/test/upload/commit/push. Sau approval vẫn phải sửa/kiểm loader rồi clean checkout/pins và smoke trước baseline; không coi approval dataset hoặc checkpoint là approval E002.
+- Bàn giao cuối 2026-10-07: UTF-8/JSON/YAML/whitespace và 29 local links PASS; pins config/protocol/approval/verifier khớp; checker failures0 và diff check PASS. 8 tests PASS/0skip. 11 file trong scope đề xuất; src/tests/data/E001 không đổi. Training-ready=false, cần nghiệm thu và giải quyết TBD-E002-LOADER trước chạy.

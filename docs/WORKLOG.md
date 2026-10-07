@@ -1,5 +1,20 @@
 # WORKLOG
 
+## 2026-10-07 — Owner approve E002, triển khai preservation loader
+
+- Owner review toàn bộ thay đổi/thông số E002.yaml, approve và yêu cầu thực hiện tiếp tới khi hoàn tất. [ADR-015 Accepted](decisions/ADR-015-e002-v5-preservation-linear-probe.md), approval hiện hành và snapshot pending lịch sử; exact config digests không đổi. Phạm vi local CPU/smoke/train/validation, không final test/upload.
+- training/data.py hỗ trợ pointer preservation v5 có containment/SHA/owner/parent inline freeze/semantic val-test và manifest-ledger-split consistency; giữ freeze v4/leakage/test guard. Không sửa package accepted hoặc recipe; các runtime functions giữ AST, training module khác giữ normalizedSHA E001.
+-23tests targeted và full141tests PASS/0skip, gồm10tamper/regression tests mới. Ruff, pip check, compile/repo/diff PASS. Preflight thật E00184/E002104/smoke104 và approval guards PASS; blocker loader đã giải quyết. QA20croptrain mới giữ ngữ cảnh qua letterbox; media local ignored.
+- [Execution evidence](../artifacts/reports/E002-execution-20261007/README.md), [runbook](experiments/E002-runbook.md); đang chốt local commit/clean checkout để smoke/resume và một baseline/val evaluation. Chưa điền metric E002 trước run, không dùng test để tuning.
+
+## 2026-10-07 — Chuẩn bị E002 để owner nghiệm thu
+
+- Theo yêu cầu owner: tạo [config E002](../configs/experiments/E002.yaml) và smoke kỹ thuật3 epoch trỏ accepted Pilot B v5, [protocol](experiments/E002-protocol.md), [bản ghi pending](experiments/E002-approval.json), [báo cáo đề xuất](../artifacts/reports/E002-preparation-20261007/README.md). Không tự phê duyệt experiment hoặc ngoại lệ CPU từ ADR-014 của E001.
+- H1 đề xuất: thêm20 train crops, giữ recipe E001, giảm macro masked BCE trên val13 cố định. Chỉ biến dữ liệu thay đổi; chọn raw minimum val BCE, threshold0.5 cố định, AP/F1/confusion/support và baseline prevalence kèm giới hạn source/nhóm. Test11 đã dùng E001 không phải holdout mới; chưa xin quyền final test.
+- Audit độc lập PASS: checksum payload v5/v4, schema208/manifest104,197cropSHA, membership80/13/11/93/11,20 train mới, source/crop/geometry/target/mask/group/rights cũ bất biến,24val/testpreserved,0 exact image/crop/group leakage. Local weights và training modules đúng E001 provenance; config digest/bytes/protocol pins trong verification.
+- Phát hiện xung đột: loader `verify_dataset` đòi inline test_freeze kiểu E001, v5 accepted dùng preservation pointer; lỗi `KeyError: 'status'` cho cả E002/smoke. Ghi TBD-E002-LOADER và hướng sửa hẹp có verify/tamper/regression; không sửa src hoặc package accepted để ép chạy. Training-ready=false.
+-8test sẵn có về schema/mask/metrics/selection/protocol/approval PASS; repository checker PASS. Kiểm văn bản/liên kết/diff ở bàn giao. Approval pending bị trainer từ chối như yêu cầu. Không chạy smoke/train/model inference/test/upload/commit/push; không có metric E002 giả. Checkpoint/index đồng bộ task chuẩn bị; owner nghiệm thu trước phạm vi chạy tiếp theo.
+
 ## 2026-10-07 — Release pilot B v5 accepted/local
 
 Owner review/approve proposal v5; [bàn giao](../artifacts/reports/pilot-b-v5-release-20261007/README.md), [config](../configs/datasets/pilot_b_release_v5.yaml). Builder canonical tạo208 ledger,104 manifest(80train/13val/11test),93review_only/11excluded,197crop.19Classroom +RF019 thêmtrain; val/test giữ ID/crop/nhãn/group/freeze cũ. Policy/version metadata thống nhất, source/crop geometry/target/review/rights của208 records giữ nguyên.

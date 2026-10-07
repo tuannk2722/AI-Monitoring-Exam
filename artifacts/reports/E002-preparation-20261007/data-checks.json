@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "scope": "Integrity metadata/bytes, không decode/test inference hoặc train.",
+  "usage_counts": {
+    "train": 80,
+    "review_only": 93,
+    "excluded": 11,
+    "val": 13,
+    "test": 11
+  },
+  "ledger": 208,
+  "manifest": 104,
+  "crops": 197,
+  "payload_files_checked": 208,
+  "parent_files_checked": 123,
+  "coverage": {
+    "train": {
+      "records": 80,
+      "groups": 12,
+      "sources": {
+        "classroom_monitoring_v2": 19,
+        "roboflow_v1": 12,
+        "scb_hrw": 33,
+        "scb_head": 16
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 17,
+          "negative": 16,
+          "unknown": 47
+        },
+        "looking_around": {
+          "unknown": 17,
+          "positive": 25,
+          "negative": 38
+        }
+      },
+      "fully_known": 16,
+      "co_positive": 3,
+      "normal": 10
+    },
+    "val": {
+      "records": 13,
+      "groups": 2,
+      "sources": {
+        "roboflow_v1": 10,
+        "scb_hrw": 3
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "unknown": 5,
+          "negative": 1
+        },
+        "looking_around": {
+          "unknown": 7,
+          "positive": 3,
+          "negative": 3
+        }
+      },
+      "fully_known": 1,
+      "co_positive": 0,
+      "normal": 1
+    },
+    "test": {
+      "records": 11,
+      "groups": 3,
+      "sources": {
+        "roboflow_v1": 2,
+        "scb_hrw": 7,
+        "scb_head": 2
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 2,
+          "unknown": 7,
+          "negative": 2
+        },
+        "looking_around": {
+          "unknown": 2,
+          "negative": 7,
+          "positive": 2
+        }
+      },
+      "fully_known": 2,
+      "co_positive": 0,
+      "normal": 2
+    }
+  },
+  "leakage": {
+    "image": [],
+    "crop": [],
+    "group": []
+  },
+  "old_train_preserved": 60,
+  "new_train_ids": [
+    "EXP-CM-001",
+    "EXP-CM-002",
+    "EXP-CM-003",
+    "EXP-CM-004",
+    "EXP-CM-005",
+    "EXP-CM-006",
+    "EXP-CM-007",
+    "EXP-CM-009",
+    "EXP-CM-010",
+    "EXP-CM-011",
+    "EXP-CM-012",
+    "EXP-CM-013",
+    "EXP-CM-014",
+    "EXP-CM-015",
+    "EXP-CM-017",
+    "EXP-CM-018",
+    "EXP-CM-019",
+    "EXP-CM-020",
+    "EXP-CM-024",
+    "EXP-RF-019"
+  ],
+  "val_test_semantics_preserved": 24,
+  "parent_checksum_list_sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53",
+  "pins": [
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/checksums.sha256",
+      "sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/manifest.jsonl",
+      "sha256": "f7ce29341c2b7ae535d1bffb930edd4c83d3847b961a41f49da98ea6fb194ab2"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/review-ledger.jsonl",
+      "sha256": "47a388ced4c03f8443e3b933d3dc56443e25d629de52b3b124e70472d193297e"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/split-assignment.jsonl",
+      "sha256": "d12e2adf15681aadff9dc21d84185fd6796770946f2c5547dcce7c2316eb6d82"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/release.json",
+      "sha256": "d644a62e8fa51b99d0c8f6c021263ede03e581f5a8f9f23c4876ce6e23d1f48e"
+    }
+  ],
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/pilot-b-v5-release-20261007/evaluation-preservation.json",
+      "sha256": "202cff030dd49b77441e5d0cb470d348af4101eb70e94c531da66771efb91206"
+    },
+    {
+      "path": "configs/datasets/pilot_b_release_v5.yaml",
+      "sha256": "f6cec0d5f56533d8821ff64c52762dbb8e23592b22394cf19650c95046212934"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+      "sha256": "f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f"
+    }
+  ]
+}
