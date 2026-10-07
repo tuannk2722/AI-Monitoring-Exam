@@ -1,5 +1,70 @@
 # WORKLOG
 
+## 2026-10-07 — Release pilot B v5 accepted/local
+
+Owner review/approve proposal v5; [bàn giao](../artifacts/reports/pilot-b-v5-release-20261007/README.md), [config](../configs/datasets/pilot_b_release_v5.yaml). Builder canonical tạo208 ledger,104 manifest(80train/13val/11test),93review_only/11excluded,197crop.19Classroom +RF019 thêmtrain; val/test giữ ID/crop/nhãn/group/freeze cũ. Policy/version metadata thống nhất, source/crop geometry/target/review/rights của208 records giữ nguyên.
+
+Verification PASS: schema/pins/manifest/crop SHA, builder preflight pixel/source,0 leakage image/crop/group qua split,3parent payload bất biến. Test chỉ integrity trong packaging, không inference/tuning. README proposal sửa khoảng trắng được pin bản hiện tại, không ghi đè lịch sử. Không đổi code, không train/upload/commit/push.93 review_only giữ evidence; E002 cần config/protocol riêng.
+
+
+## 2026-10-07 — Đề xuất v5 sau nghiệm thu staging
+
+Owner approve staging và yêu cầu tiếp tục. Đã đối chiếu208 record,17 group đã duyệt và11 must-link R2 bằng metadata, không mở test pixel/metric. [Báo cáo nghiệm thu](../artifacts/reports/pilot-b-v5-proposal-20261007/README.md) đề nghị80train/13val/11test/93review_only/11excluded: thêm19 Classroom có target biết vàRF-019 nối train cũ. RF-007/009 liên hệ val giữ review_only; các component chưa đủ bằng chứng độc lập không tự vào train.
+
+Verification PASS:208 snapshot giữ nguyên crop/nhãn,20 train mới đủ gate nhãn/quyền/crop,11 must-link không băng split, exact/group/crop không xung đột,3 package parent khớp checksum, val/test bất biến. Snapshot nguồn giữ version riêng từng record, không giả thành package đơn version. Chưa release/train; cần nghiệm thu membership/split/protocol cụ thể mới. Không thay implementation.
+
+
+## 2026-10-07 — Staging Classroom v2 sau owner nghiệm thu
+
+Owner duyệt24 crop/nhãn và trả lời riêng “Duyệt gộp 150 ảnh thành một nhóm”. Đã ghi approval pin artifact hiện tại, giữ hash README lịch sử (README được sửa khoảng trắng, dữ liệu/nhãn/group/config không đổi). [Bàn giao](../artifacts/reports/classroom-v2-staging-20261007/README.md), [pointer](../configs/datasets/classroom_monitoring_v2_staging.yaml).
+
+Builder canonical xuất24 record/crop review_only; phone6P/10N/8U,looking7P/5N/12U,5 normal/2 co-occurrence/5 fullyunknown. Group CM-V2-SCENE-01 được ghi trên24 record, quyết định nhóm kèm SHA đủ150 ảnh để áp dụng mẫu nhập sau. Chưa split/release/train. Verification PASS: source/label/crop24 đúng hash/pixel, nhãn/mask/schema/pins, nhóm150, v4/R2 bất biến. Không đổi implementation, không upload/commit/push; raw/interim Git ignore.
+
+
+## 2026-10-07 — Classroom v2 hoàn tất báo cáo nghiệm thu, chưa staging
+
+Owner cung cấp ZIP/version2 và yêu cầu audit → review → báo cáo, dừng trước staging. Đã giữ ZIP raw SHA59e4e301330d75dd77b2540722624c0104178e37ecae03a5d406738c6da9fb90; kiểm303 file giải nén,150 ảnh/750 bbox (120train/600box,30valid/150box), không lỗi cấu trúc hoặc exact byte/pixel duplicate. Số810 từng báo trong hội thoại được sửa thành750 theo inventory.
+
+Đã xem150 ảnh ở mức cảnh,24 crop train ở mức target; đề xuất phone6P/10N/8U, looking7P/5N/12U,5 normal/2 co-occurrence,5 cả hai unknown. Canonical candidate vẫn unknown/mask0. Đề xuất giữ150 ảnh trong một nhóm chống rò rỉ vì cùng phòng và cảnh lặp qua train/valid; không dùng split nguồn làm split độc lập. So với177 ảnh v4/R2 không exact SHA overlap; không suy độc lập từ hash/dHash.
+
+[Báo cáo nghiệm thu](../artifacts/reports/classroom-v2-20261007/README.md), [config pin](../configs/datasets/classroom_monitoring_v2_review.yaml), [verification](../artifacts/reports/classroom-v2-20261007/verification.json) PASS. Audit canonical tái lập,24 crop hash/pixel/geometry/target đúng evidence, v4/R2 payload giữ nguyên; không đổi code, không train/upload/commit/push. Media raw/interim được Git ignore. Chờ nghiệm thu24 proposal và nhóm trước staging, không hỏi lại quyền.
+
+
+## 2026-10-06 — Hoàn tất staging mở rộng R2
+
+Owner duyệt 72 proposal R2/11 excluded/nhãn-crop/11 liên hệ và xác nhận toàn quyền sử dụng dataset đang dùng. Đã ghi approval theo hash, đóng blocker quyền SCB/RF, không hỏi lại. [Bàn giao](../artifacts/reports/data-expansion-staging-20261006-r2/README.md), [pointer](../configs/datasets/pilot_b_expansion_v5_r2_staging.yaml).
+
+Builder canonical tạo gói riêng 72 record mới, 61 review_only/crop, 11 excluded. 39 mẫu có target biết, 22 cả hai unknown, 13 normal; unknown null/mask0. Verification PASS: 72 nguồn/label/hash, 61 crop pixel/hash, nhãn đúng proposal, 11 quan hệ, pins và parent123 payload files bất biến. Code không đổi sau131 tests/Ruff/repo checker PASS ở R2; diff check PASS. Media được Git ignore, không upload/commit/push. Chưa split/release/training. Classroom-monitoring dừng đúng phạm vi metadata của đợt này; nhập nguồn là bước tiếp theo khi có version/unit/group.
+
+
+## 2026-10-06 — Tuyển và review mở rộng R2 sau owner approve tiếp tục
+
+- Lưu continuation-approval.json, giữ snapshot draft/approval trước. Triển khai canonical pilot_expansion.py, tái sử dụng selector/dHash/parser/payload verifier; selector hỗ trợ explicit RF train/images/ và chặn val/test.
+- Kiểm source/archive/audit pins; từ pool strict train mới3.801SCB/2.502RF chọn48/24 ảnh bằng dHash diversity và anchor lớn nhất, không dùng metrics/test media. Budget chỉ là proposal review, không quota release.
+- Review local72 source/crops; đề xuất SCB phone0P18N30U,looking18P11N19U; RF phone1P5N18U,looking5P3N16U. Tất cả canonical target mới vẫn unknown/mask0; chưa nhập proposal thành approved.
+- Đề xuất giữ61/loại11 anchor, tạo2 crop RF theo người/context và11 must-link cảnh; bổ sung triage28review_only cũ. Không khẳng định ảnh khác SHA hoặc dHash xa là cảnh độc lập.
+- [Báo cáo R2](../artifacts/reports/data-expansion-20261006-r2/README.md), [pointer R2](../configs/datasets/pilot_b_expansion_v5_r2_draft.yaml); chưa split/release/train. Classroom-monitoring chờ owner cung cấp thông tin quyền/provenance đã hứa; không tải media mới.
+-131 tests PASS, Ruff toàn src/tests/scripts PASS, repo checker failures=0 ở lượt triển khai. Lượt chốt bị gián đoạn vì automatic approval review hết hạn mức; user resume, công cụ hoạt động lại. Sửa mô tả bị lỗi encoding bằng UTF-8, lưu config thực thi cũ/hash trong encoding-repair.json, không sửa dữ liệu/crop/target/thuật toán.
+- Verification cuối và giới hạn trong report R2; index/checkpoint/kế hoạch được đồng bộ. Approval R2 và bằng chứng nguồn còn chờ, không coi user review thay đổi trước R2 là approval nhãn/crop/group vừa tạo.
+
+## 2026-10-06 — Owner duyệt hướng mở rộng, thẩm định metadata và draft v5
+
+- Ghi [approval](../artifacts/reports/data-expansion-20261006/owner-approval.json) đúng bốn lựa chọn owner; cập nhật kế hoạch/index/checkpoint. Giữ semantics và mask unknown.
+- Đính chính ghi chú thiếu archive trước đây: SCB Head/HRW và RF v1 đều hiện diện ở đường dẫn đã pin, cả ba SHA khớp. Sửa lỗi cộng số SCB review-only trong kế hoạch: 23, không phải 16.
+- Tạo [batch khởi đầu](../artifacts/reports/data-expansion-20261006/candidate-batch-v5-draft.json) từ đúng 28 review-only (23 SCB + 5 RF); kiểm image/label ZIP và crop local 28/28 PASS, không xem ảnh test. 0 media candidate mới, group/near-duplicate vẫn pending.
+- Tạo [pointer v5 Draft](../configs/datasets/pilot_b_expansion_v5_draft.yaml) pin parent/approval/batch; split_version=null, training_eligible=false, chưa package/DVC release.
+- [Thẩm định metadata](../artifacts/reports/data-expansion-20261006/classroom-monitoring-metadata-review.json): đọc claim project, chưa đọc được version; quyền/provenance/consent/group còn TBD. Chưa tải nguồn mới hoặc gửi liên hệ.
+- [Báo cáo và validation](../artifacts/reports/data-expansion-20261006/README.md) phân biệt approval hướng và release. Shortlist mới ngoài ledger, group/split/release và thẩm định nguồn chưa hoàn tất; không train E002.
+
+## 2026-10-06 — Kiểm kê và đề xuất mở rộng dữ liệu
+
+- Đọc v4 bằng parser canonical: 112 ledger, 84 usage (60/13/11), 28 review-only, 105 ảnh nguồn/112 crop và 16 leakage group; tổng/source/split/target khớp `reports/coverage.json`.
+- Tạo [inventory metadata](../artifacts/reports/data-expansion-20261006/inventory.json), [queue 28 hồ sơ review-only](../artifacts/reports/data-expansion-20261006/review-queue.json) và [sàng lọc nguồn](../artifacts/reports/data-expansion-20261006/source-research.json). Hash config, approval, manifest, ledger và payload checksum list được pin trong evidence.
+- Báo cáo [đề xuất mở rộng](data/data-expansion-20261006.md) khuyến nghị cả nguồn hiện có lẫn nguồn behavior mới; không đặt quota, đổi nhãn/split, tạo version/pointer hoặc train. Không tải/upload media.
+- Kiểm tra parser 112/84 PASS; payload v4 vẫn có checksum `dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53`. Giới hạn: archive SCB gốc không có tại path đã pin nên chưa đếm shortlist chưa dùng; nguồn mới chưa audit archive/quyền theo từng asset; 28 review-only chưa có group.
+- Xác minh queue JSON khớp chính xác 28 ID canonical và mọi record tiếp tục `training_eligible=false`, chưa có group. Ruff, `check_repo.py --require-git`, UTF-8, link mới và `git diff --check` PASS. Hai link lịch sử tới file review owner đã xóa giữ nguyên; test suite không chạy vì không có code nghiệp vụ/model thay đổi.
+- Script từ chối chạy nếu config `accepted`, owner approval, verification report và payload checksum của v4 không khớp hash/pin lẫn nhau.
+
 ## 2026-10-06 — E001 implemented and executed locally
 
 - Owner approved the complete training-readiness proposal. ADR014/config/approval pin frozen ResNet18 IMAGENET1K_V1, masked macro BCE, seed42, CPU local; no dataset mutation/cloud upload. Implementation commit45240ea6234c70a80ecf3dc11f2e69eb8e253a53; clean isolated checkout and fresh pinned CPU environment. 126 tests, pip check, lint/compile/repo checks PASS; user deletion of old codebase review preserved.

@@ -1,0 +1,89 @@
+{
+  "approved_use_scope": [
+    "local_classifier_research"
+  ],
+  "build_environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+  },
+  "config_sha256": "f6cec0d5f56533d8821ff64c52762dbb8e23592b22394cf19650c95046212934",
+  "crop_policy_review_notes": "Version policy hợp nhất; mọi geometry/pixel/crop SHA và target review của208 input được giữ nguyên.",
+  "dataset_version": "pilot-b-20261007-v5",
+  "expected_selection_count": 208,
+  "expected_source_counts": {
+    "classroom_monitoring_v2": 24,
+    "roboflow_v1": 52,
+    "scb_head": 44,
+    "scb_hrw": 88
+  },
+  "git_commit": "58d8f8f9ca621cd9c9ad3ed01680f9cf1d076cc6",
+  "git_dirty": true,
+  "group_boundaries": {
+    "path": "artifacts/reports/pilot-b-v5-release-20261007/group-boundaries.json",
+    "sha256": "137bf29a3196f6137f7731356662341cb5c2900c23bdc81edf5202ca95faeea4"
+  },
+  "implementation_sha256": {
+    "src/ai_exam_monitoring/data/pilot_package.py": "cb259fe9fa3e2bd84c06c9f88d4978efc725fd50ee4b0ecc00f12a0d869f7040",
+    "src/ai_exam_monitoring/data/pilot_schema.py": "2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253"
+  },
+  "leakage_review_ref": "artifacts/reports/pilot-b-v5-release-20261007/group-boundaries.json",
+  "limitations": [
+    "93 review_only chưa đủ điều kiện vào manifest theo quyết định owner.",
+    "Classroom chỉ thuộc train; chưa có holdout độc lập nguồn này.",
+    "Test v4 đã evaluate ở E001, không tự chạy lại."
+  ],
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+    "sha256": "f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f"
+  },
+  "owner_decision_ref": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+  "parent_packages": [
+    {
+      "checksums": {
+        "path": "data/processed/pilot-b/pilot-b-20261005-v4/checksums.sha256",
+        "sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53"
+      },
+      "ledger": {
+        "path": "data/processed/pilot-b/pilot-b-20261005-v4/review-ledger.jsonl",
+        "sha256": "0e89e31b67d040c748bc099ae79d5d55c69946bf8c7ff4dad1abb4ae0c3ee011"
+      },
+      "package": "data/processed/pilot-b/pilot-b-20261005-v4"
+    },
+    {
+      "checksums": {
+        "path": "data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging/checksums.sha256",
+        "sha256": "d1d482477678c1fd1137a8981bc5425a3b8e6dcd62a2ca70f172ce804d9ca48f"
+      },
+      "ledger": {
+        "path": "data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging/review-ledger.jsonl",
+        "sha256": "0d15182957c9f922ab31c0e3c0c3a77edbf4443af0f12d7043ee50a626e26c8e"
+      },
+      "package": "data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging"
+    },
+    {
+      "checksums": {
+        "path": "data/interim/pilot-b/classroom-v2-20261007-staging/checksums.sha256",
+        "sha256": "62e33da4c504fbab2a5e397849bd5cec1d322380487c2d1a490bd86bbfdf2550"
+      },
+      "ledger": {
+        "path": "data/interim/pilot-b/classroom-v2-20261007-staging/review-ledger.jsonl",
+        "sha256": "0b115019fac96d1b07ce0b6ecaf757ff1ee2863d2d42fb2aff0f710f587ca3b3"
+      },
+      "package": "data/interim/pilot-b/classroom-v2-20261007-staging"
+    }
+  ],
+  "schema_config_review_ref": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+  "source_attribution_refs": [
+    "artifacts/reports/classroom-v2-staging-20261007/rights-scope.json",
+    "artifacts/reports/data-expansion-staging-20261006-r2/owner-rights-confirmation.json",
+    "docs/data/candidates/Roboflow-phone-use-20261004.md",
+    "docs/data/candidates/SCB5-supplied-20261003.md"
+  ],
+  "split_config_review_ref": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+  "status": "accepted",
+  "test_freeze": {
+    "path": "artifacts/reports/pilot-b-v5-release-20261007/evaluation-preservation.json",
+    "sha256": "202cff030dd49b77441e5d0cb470d348af4101eb70e94c531da66771efb91206"
+  },
+  "test_freeze_ref": "artifacts/reports/pilot-b-v5-release-20261007/evaluation-preservation.json",
+  "use_scope": "local_classifier_research"
+}

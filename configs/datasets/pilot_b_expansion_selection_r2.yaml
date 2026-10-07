@@ -1,0 +1,48 @@
+# Config triển khai proposal; selection và nhãn mới chờ nghiệm thu.
+status: draft_proposals
+formulation: B
+proposal_version: pilot-b-expansion-20261006-r2
+parent_package: data/processed/pilot-b/pilot-b-20261005-v4
+parent_checksums_sha256: dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53
+parent_fingerprints: outputs/pilot-b-group-review-20261005-v3/images.json
+parent_fingerprints_sha256: 36d74bb5550415b212c40efbb6a01d8ac65a073bac211c6ad0f25d5dee2a7a6d
+continuation_approval: artifacts/reports/data-expansion-20261006/continuation-approval.json
+continuation_approval_sha256: 811af2e5d5e35ff974ac7624d66668ed31be77aaa38236d8b5ab99a3264bf29c
+selection:
+  algorithm: dhash_farthest_first
+  anchor_rule: largest_source_box_per_exact_image
+  rank_namespace: pilot-b-expansion-20261006-r2
+  review_budget: 48
+  nearest_count: 3
+  canonical_targets: unknown
+  scope_note: Đề xuất hữu hạn 48 ảnh để review; không quota theo nhãn/nguồn, không
+    acceptance metric, không ngưỡng similarity được chấp thuận.
+sources:
+- id: scb_head
+  archive: C:/Users/OS/Downloads/SCB_BowTurnHead_20250509.zip
+  archive_sha256: a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828
+  archive_prefix: SCB_BowTurnHead_20250509/SCB5-Turn-Bow-Head-2024-9-17
+  root: outputs/scb-audit-20261003-v1/extracted/head/SCB_BowTurnHead_20250509/SCB5-Turn-Bow-Head-2024-9-17
+  audit: outputs/scb-audit-20261003-v1/head-audit.json
+  audit_sha256: c83c80c54058dabec9dd3b1ad9f3ff0d1e78a75dd78ee6667cada70e8bffc5f9
+  source_names:
+    0: BowHead
+    1: TurnHead
+  strata_by_class:
+    1: turnhead
+- id: scb_hrw
+  archive: C:/Users/OS/Downloads/SCB5-Handrise-Read-write-2024-9-17.zip
+  archive_sha256: 46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d
+  archive_prefix: SCB5-Handrise-Read-write-2024-9-17
+  root: outputs/scb-audit-20261003-v1/extracted/hrw/SCB5-Handrise-Read-write-2024-9-17
+  audit: outputs/scb-audit-20261003-v1/hrw-audit.json
+  audit_sha256: 223885f017271392f7bae83b5bf9154539f52b61a28e27f98fe752a87587b089
+  source_names:
+    0: hand-raising
+    1: read
+    2: write
+  strata_by_class:
+    1: read
+    2: write
+output_dir: data/interim/pilot-b/expansion-20261006-r2
+report_dir: artifacts/reports/data-expansion-20261006-r2

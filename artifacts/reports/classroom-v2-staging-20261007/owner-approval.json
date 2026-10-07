@@ -1,0 +1,33 @@
+{
+  "approved_candidate_count": 24,
+  "approved_source_group_image_count": 150,
+  "candidates": {
+    "path": "artifacts/reports/classroom-v2-20261007/candidates.json",
+    "sha256": "0c64438807a13bd61b48efe4a86aa6dc234bb00a594d121cb78d646d59a4aa1a"
+  },
+  "decision": "approved_crops_labels_and_leakage_group_for_staging",
+  "historical_report_sha256": "82ef6d27b4b01e0e0d9875b0deacd0d2fe233d797977be7cf6e5c98a7ce2dce4",
+  "owner_crop_label_statement": "sau khi đã review toàn bộ 24 proposal crop/nhãn thì tôi approve. hãy thực hiện tiếp!",
+  "owner_group_statement": "Duyệt gộp 150 ảnh thành một nhóm",
+  "report": {
+    "path": "artifacts/reports/classroom-v2-20261007/README.md",
+    "sha256": "c5e60deaa76405b5bb0f30a50098a19c53eb035adbd4c6b448f0977eb3641049"
+  },
+  "report_change_note": "README hiện tại đã được đọc đối chiếu, có sửa khoảng trắng; các artifact dữ liệu/nhãn/crop/nhóm/config giữ hash của verification cũ. Approval pin README hiện tại.",
+  "review_config": {
+    "path": "configs/datasets/classroom_monitoring_v2_review.yaml",
+    "sha256": "e2bb72454657e63bf405710bc060e1b1dd21d550ff2303376ec50518d66a8385"
+  },
+  "reviewed_at": "2026-10-07",
+  "reviewer": "repository_owner",
+  "scene_proposal": {
+    "path": "artifacts/reports/classroom-v2-20261007/scene-proposal.json",
+    "sha256": "5d8804ce466e258a4b039fd62882bf8cefa540dfc94fe84a18557acb2803fe16"
+  },
+  "split_approved": false,
+  "training_release_accepted": false,
+  "visual_review": {
+    "path": "artifacts/reports/classroom-v2-20261007/visual-review-proposals.json",
+    "sha256": "4ac1681b633300d6fcba0ed12f1901b39420391c70ea845efb71c1bb7eea5d65"
+  }
+}

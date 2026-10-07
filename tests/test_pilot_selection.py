@@ -29,6 +29,16 @@ def anchor(source: str, image: str, rank: str, line: int = 1) -> CandidateAnchor
 
 
 class PilotSelectionTests(unittest.TestCase):
+    def test_expansion_layout_is_explicit_train_only(self) -> None:
+        for prefix in ("", "images/val/", "test/images/"):
+            with self.assertRaisesRegex(DataContractError, "upstream train"):
+                inventory_anchors(
+                    {"schema_version": 2, "samples": []}, source_id="rf",
+                    source_root=Path.cwd(), archive_sha256="a" * 64,
+                    strata_by_class={1: "candidate"}, rank_namespace="draft",
+                    image_prefix=prefix,
+                )
+
     def test_dedup_across_strata_and_order_independence(self) -> None:
         candidates = [
             anchor("a", "shared", "01"), anchor("a", "a2", "05"),

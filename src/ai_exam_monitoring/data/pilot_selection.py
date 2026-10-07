@@ -74,6 +74,7 @@ def inventory_anchors(
     strata_by_class: dict[int, str], rank_namespace: str,
     aliases_by_sha: dict[str, tuple[str, ...]] | None = None,
     archive_path: Path | None = None, archive_prefix: str = "",
+    image_prefix: str = "images/train/",
 ) -> list[CandidateAnchor]:
     """Reuse strict audit inventory and verify its anchors/bytes against pinned inputs.
 
@@ -84,6 +85,8 @@ def inventory_anchors(
         raise DataContractError("Expected schema-v2 source audit inventory")
     if not strata_by_class or not rank_namespace:
         raise DataContractError("Selection strata and rank namespace are required")
+    if image_prefix not in {"images/train/", "train/images/"}:
+        raise DataContractError("Candidate inventory must use an explicit upstream train layout")
     source_root = Path(source_root).resolve()
     aliases_by_sha = aliases_by_sha or {}
     result = []
@@ -92,7 +95,7 @@ def inventory_anchors(
     try:
         for sample in report["samples"]:
             image_relative, label_relative = sample["image"], sample["label"]
-            if not image_relative.startswith("images/train/"):
+            if not image_relative.startswith(image_prefix):
                 continue
             expected = [YoloAnnotation(**row) for row in sample["annotations"]]
             if not any(row.class_id in strata_by_class for row in expected):

@@ -1,0 +1,43 @@
+# Đề xuất metadata v5; chưa phải cấu hình release hoặc training.
+status: draft_pending_owner_acceptance
+formulation: B
+proposal_version: pilot-b-expansion-v5-draft-20261006
+proposed_dataset_version: pilot-b-20261006-v5
+parent_package: data/processed/pilot-b/pilot-b-20261005-v4
+parent_config: configs/datasets/pilot_b_release_v4.yaml
+parent_config_sha256: 918eb53cbac1a9a5b1defdcc2e94875b2c27f42fd9a7a8a67e3a68688df5c212
+parent_checksums_sha256: dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53
+direction_approval: artifacts/reports/data-expansion-20261006/owner-approval.json
+direction_approval_sha256: 13f60803a195897cd5861a09dd6c71ab395251d0388efca6be5b4f40e61c3462
+candidate_batch: artifacts/reports/data-expansion-20261006/candidate-batch-v5-draft.json
+candidate_batch_sha256: f65b25b03a44dd272d9577583fcb90773737186ee6d52692b6e8a6adc6bdba06
+candidate_count: 28
+new_media_candidates: 0
+owner_approval_required: true
+canonical_mutation: false
+training_eligible: false
+target_order:
+- phone_use
+- looking_around
+target_encoding_version: pilot-b-targets-v1
+unknown_supervision: masked
+split_version: null
+release_approval: null
+scope_note: Pointer tới metadata đề xuất để review; chưa có package dataset v5 hoặc
+  DVC release. Không đưa pointer này vào trainer/builder release.
+pending_decisions:
+- id: TBD-V5-MEMBERSHIP
+  owner: repository_owner
+  reason: 28 candidate tồn đọng chưa phải membership release; shortlist ảnh mới chưa
+    có.
+  resolve_when: Owner nghiệm thu báo cáo candidate và phạm vi nguồn.
+- id: TBD-V5-GROUP-SPLIT
+  owner: repository_owner
+  reason: Candidate chưa có group đủ evidence; exact hash không chứng minh độc lập.
+  resolve_when: Có review nhóm/cảnh, near-duplicate, cách ly liên hệ test v4 và protocol
+    split/holdout mới.
+- id: TBD-V5-RELEASE
+  owner: repository_owner
+  reason: Approval hướng không phải approval dataset hoặc training.
+  resolve_when: Membership/crop/nhãn/quyền/group/split được nghiệm thu và package
+    validation đạt.

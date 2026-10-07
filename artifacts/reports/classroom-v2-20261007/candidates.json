@@ -1,0 +1,938 @@
+[
+  {
+    "sample_id": "EXP-CM-001",
+    "image_id": "CM-001",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_001_jpg.rf.2aa1de936b76d70946c010726bb59489.jpg",
+    "source_image_sha256": "882c731b0cc5619c3e5014bac05ea8865108810e5df4847ffe270f264802a0bd",
+    "source_label": "train/labels/frame_001_jpg.rf.2aa1de936b76d70946c010726bb59489.txt",
+    "source_label_sha256": "b7946362cbe97665f2318a06fd30d645f11311d092e5fbdae85a315ea4132a0c",
+    "source_label_line_1based": 2,
+    "source_class_id": 5,
+    "person_xyxy": [
+      241,
+      397,
+      349,
+      574
+    ],
+    "context_xyxy": [
+      241,
+      397,
+      349,
+      574
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-001.png",
+    "crop_sha256": "276c21755dcadd423ed30d34e0be6fa723557b4a7edcbc1ce3efebd1caed8bc6",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-002",
+    "image_id": "CM-005",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_006_jpg.rf.e098f2e96ee66b296efa8e816224b212.jpg",
+    "source_image_sha256": "ce3ed4823fed3083c922a6f72bb738e0d776d7cddedb23962906cb6b6fca4933",
+    "source_label": "train/labels/frame_006_jpg.rf.e098f2e96ee66b296efa8e816224b212.txt",
+    "source_label_sha256": "7f2acb083894bd48f2f4679aee81d10b3e53547b2aa565a2f727ccc81c934572",
+    "source_label_line_1based": 3,
+    "source_class_id": 5,
+    "person_xyxy": [
+      243,
+      358,
+      351,
+      554
+    ],
+    "context_xyxy": [
+      243,
+      358,
+      351,
+      554
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-002.png",
+    "crop_sha256": "b42b8227e7fa0f97d1ec5d9e7ac97f7d5ee7221d5e346617fde9cc79e95d504a",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-003",
+    "image_id": "CM-017",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_025_jpg.rf.75b2940285361675fa621befe2c7051a.jpg",
+    "source_image_sha256": "60ec384f7ea44c3284958b44141510ea306d221349a01b4b27a280b08c66ad6b",
+    "source_label": "train/labels/frame_025_jpg.rf.75b2940285361675fa621befe2c7051a.txt",
+    "source_label_sha256": "9c4286f8d2db72427816d240028245e730e13ffd099510dcdc4f02370e075ede",
+    "source_label_line_1based": 3,
+    "source_class_id": 5,
+    "person_xyxy": [
+      225,
+      353,
+      336,
+      547
+    ],
+    "context_xyxy": [
+      225,
+      353,
+      336,
+      547
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-003.png",
+    "crop_sha256": "23fd2bf2f934a2500747ab2be3bfb0a013797af1b8c15c2e835c29f8b9dcfa23",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-004",
+    "image_id": "CM-020",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_031_jpg.rf.74e469a34590f4694a83e0ed249a8f0a.jpg",
+    "source_image_sha256": "4feb743fb8a070534e0f8f82f9947308de82fafa0a99158e6a908626d3ce8304",
+    "source_label": "train/labels/frame_031_jpg.rf.74e469a34590f4694a83e0ed249a8f0a.txt",
+    "source_label_sha256": "c4fdf2f8da20f453cab86c67b3ec0d0fd2b92fc856d31a36421c53154e93af14",
+    "source_label_line_1based": 4,
+    "source_class_id": 5,
+    "person_xyxy": [
+      290,
+      353,
+      378,
+      486
+    ],
+    "context_xyxy": [
+      290,
+      353,
+      378,
+      486
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-004.png",
+    "crop_sha256": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-005",
+    "image_id": "CM-027",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_041_jpg.rf.fb1077f523b593aa131ec3dcc333a9bd.jpg",
+    "source_image_sha256": "a53c15438445525ecae1761c51d8db4b0de14f65f9bc9035348791c104c4221e",
+    "source_label": "train/labels/frame_041_jpg.rf.fb1077f523b593aa131ec3dcc333a9bd.txt",
+    "source_label_sha256": "f1ffdbdbba4f783d9693553ffae96a1c7a94ad1502715c264d519a87f63182aa",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      218,
+      346,
+      320,
+      539
+    ],
+    "context_xyxy": [
+      218,
+      346,
+      320,
+      539
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-005.png",
+    "crop_sha256": "8e2bb61c849b5b19dc30c62f1c050e176d6ea0a84afefbeedac88ace3434f7ef",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-006",
+    "image_id": "CM-032",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_048_jpg.rf.30a489ea1d28a144f5d06254be64fbf4.jpg",
+    "source_image_sha256": "33cc53cf03cfaec671a07a8d840986423e0e0f10aafd998f525eec1f070a1e3d",
+    "source_label": "train/labels/frame_048_jpg.rf.30a489ea1d28a144f5d06254be64fbf4.txt",
+    "source_label_sha256": "cf78324506f9cb8bfd04b0328da5c096275e9f2c5b2374dfcdad4bfdb5c67105",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      225,
+      362,
+      331,
+      543
+    ],
+    "context_xyxy": [
+      225,
+      362,
+      331,
+      543
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-006.png",
+    "crop_sha256": "58d48fa940b1f65cbef69e9de6e36f8b943ea49c741362d6a1d91015367d1235",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-007",
+    "image_id": "CM-046",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_071_jpg.rf.d8633a0f9be0ca43cd64aea34d172c28.jpg",
+    "source_image_sha256": "ac62ecf5da0d23b89838b700269ca5b2cf3781caece39331a8fbd00fdfe172cb",
+    "source_label": "train/labels/frame_071_jpg.rf.d8633a0f9be0ca43cd64aea34d172c28.txt",
+    "source_label_sha256": "52ddcdbd35e31c9514da4db69d15a69b7a046da4fc600c2a2babb2037e114874",
+    "source_label_line_1based": 1,
+    "source_class_id": 5,
+    "person_xyxy": [
+      451,
+      383,
+      566,
+      548
+    ],
+    "context_xyxy": [
+      451,
+      383,
+      566,
+      548
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-007.png",
+    "crop_sha256": "7275b221b24c2bd2b48b4a1a5933f1bd5f1158fe22331d3ce4c765bc0c72114a",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-008",
+    "image_id": "CM-047",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_072_jpg.rf.e30c25806fe31b921d65303192d723e1.jpg",
+    "source_image_sha256": "58290bb8362bfbddac47b76a3ed16790c5dcf5d78626f1eabaf4e510c45546a8",
+    "source_label": "train/labels/frame_072_jpg.rf.e30c25806fe31b921d65303192d723e1.txt",
+    "source_label_sha256": "072bf2e89aa664e9ce8bebfb1041ab73c64af84fb829e0de7b931d6768f061c7",
+    "source_label_line_1based": 3,
+    "source_class_id": 5,
+    "person_xyxy": [
+      207,
+      377,
+      320,
+      563
+    ],
+    "context_xyxy": [
+      207,
+      377,
+      320,
+      563
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-008.png",
+    "crop_sha256": "ea342b083aff907fc0b710981df78b2876d33f20c54c724de7c9577a142c07a5",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-009",
+    "image_id": "CM-053",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_078_jpg.rf.b8664e3a413da1f05dc1ef3e64eaefc0.jpg",
+    "source_image_sha256": "319885eb8178b68d4a5a146d2042bd0778973a22ab07c5067b9dd915e7fa4174",
+    "source_label": "train/labels/frame_078_jpg.rf.b8664e3a413da1f05dc1ef3e64eaefc0.txt",
+    "source_label_sha256": "e5fbed1511b80488ffb4835478ee2324b6602082e8bbcdc74df341093637da4d",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      190,
+      411,
+      312,
+      587
+    ],
+    "context_xyxy": [
+      190,
+      411,
+      312,
+      587
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-009.png",
+    "crop_sha256": "dd8794dc39ce4b0285e110a3d5f080e5e5bdd5c06c9f0909ad7f7ba5771f9e61",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-010",
+    "image_id": "CM-061",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_090_jpg.rf.9e398f4ece51f311496d02f240c64595.jpg",
+    "source_image_sha256": "4aabccd42a1e222c45619996377c7935bc65b6084fb8aa46b0d3b0fce3632aeb",
+    "source_label": "train/labels/frame_090_jpg.rf.9e398f4ece51f311496d02f240c64595.txt",
+    "source_label_sha256": "f77e64b66216bbe9f6849712ad05688ffbda7f1e90371c62aeacbfc685082759",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "person_xyxy": [
+      69,
+      280,
+      168,
+      569
+    ],
+    "context_xyxy": [
+      69,
+      280,
+      168,
+      569
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-010.png",
+    "crop_sha256": "e72ba2c37d04deebbe8fddb98deef0f6118fbb061c5100edb5eba1d4b11163f4",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-011",
+    "image_id": "CM-064",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_093_jpg.rf.fd336b6bf5b3937aace1820b3857f442.jpg",
+    "source_image_sha256": "5643a423a6c6c919860f2c0295ff847abc08eb346972e5e60205a61daecdedf4",
+    "source_label": "train/labels/frame_093_jpg.rf.fd336b6bf5b3937aace1820b3857f442.txt",
+    "source_label_sha256": "d998a96f1cf68bab6c2b4c49b4b7773a83870de9d0293a75157def208b2c7733",
+    "source_label_line_1based": 5,
+    "source_class_id": 2,
+    "person_xyxy": [
+      192,
+      395,
+      311,
+      562
+    ],
+    "context_xyxy": [
+      192,
+      395,
+      311,
+      562
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-011.png",
+    "crop_sha256": "dcbc7324c3a700d98d4bba5eb7782398ebacfa5a7156f3dc445c2188a91b6c19",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-012",
+    "image_id": "CM-069",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_099_jpg.rf.a972a9c218cdcb0b3bccfd709aa490a6.jpg",
+    "source_image_sha256": "54ba2c904d7c7102bcc3880105487787150d14a55807becad5ace1198e9b2328",
+    "source_label": "train/labels/frame_099_jpg.rf.a972a9c218cdcb0b3bccfd709aa490a6.txt",
+    "source_label_sha256": "1fcd596d7cffec83877b77fcdf825a74547085af23472cd19cf46b159bff14bb",
+    "source_label_line_1based": 5,
+    "source_class_id": 4,
+    "person_xyxy": [
+      267,
+      333,
+      346,
+      482
+    ],
+    "context_xyxy": [
+      267,
+      333,
+      346,
+      482
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-012.png",
+    "crop_sha256": "5711e51833802c51faef81f58526cd741ebc389d06b595da7e18b6b5be8a21de",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-013",
+    "image_id": "CM-078",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_112_jpg.rf.649e3f7a0c45dbb25c9230f289888cd6.jpg",
+    "source_image_sha256": "1ca05b295df584eba12fa355c85c3dd7a9dddf77c36c23dd1e7ea86d216b7ea7",
+    "source_label": "train/labels/frame_112_jpg.rf.649e3f7a0c45dbb25c9230f289888cd6.txt",
+    "source_label_sha256": "6a12a4493c827ead8febb2440321e8d82d05781899ea0d88aabccfc32d1d861f",
+    "source_label_line_1based": 5,
+    "source_class_id": 4,
+    "person_xyxy": [
+      190,
+      366,
+      309,
+      588
+    ],
+    "context_xyxy": [
+      190,
+      366,
+      309,
+      588
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-013.png",
+    "crop_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-014",
+    "image_id": "CM-085",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_131_jpg.rf.654a74d80050e295f54dc94aa213b416.jpg",
+    "source_image_sha256": "1b8cda0e9a11da468e1551a6b48875e89532d58dc8006d07650a52611812738b",
+    "source_label": "train/labels/frame_131_jpg.rf.654a74d80050e295f54dc94aa213b416.txt",
+    "source_label_sha256": "0d71436852e8e288600379c7c02a683469c720931c73fc256995d68ab5a25e03",
+    "source_label_line_1based": 1,
+    "source_class_id": 4,
+    "person_xyxy": [
+      76,
+      380,
+      173,
+      581
+    ],
+    "context_xyxy": [
+      76,
+      380,
+      173,
+      581
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-014.png",
+    "crop_sha256": "d2d98494e58cf20960be8b1d8ce09f2b7f661a23cada4124499cde41776aa06a",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-015",
+    "image_id": "CM-088",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_137_jpg.rf.719fa6965b5a8e3d325da4526065c885.jpg",
+    "source_image_sha256": "c7aeb3b4ff3f4adfb09abb4f4bd48b94194a4b74ad5690af3f3f40e784461ae8",
+    "source_label": "train/labels/frame_137_jpg.rf.719fa6965b5a8e3d325da4526065c885.txt",
+    "source_label_sha256": "47122d59a722d3ef44550ac3221177bb15cd43a456be0d9e828fb476adf8b803",
+    "source_label_line_1based": 5,
+    "source_class_id": 2,
+    "person_xyxy": [
+      211,
+      426,
+      326,
+      596
+    ],
+    "context_xyxy": [
+      211,
+      426,
+      326,
+      596
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-015.png",
+    "crop_sha256": "70b063bda6d78ea79839a60485da4a8ff40aa93c4e106dc26bfd350699b83c0d",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-016",
+    "image_id": "CM-091",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_146_jpg.rf.449578d640c97b000db5560c13503b0b.jpg",
+    "source_image_sha256": "48cd007234ac8320e7a1bbebab87020434131244ed40299b30954af5a8738374",
+    "source_label": "train/labels/frame_146_jpg.rf.449578d640c97b000db5560c13503b0b.txt",
+    "source_label_sha256": "e5e805c6ddf563bc08c93fc924a80de251ab73353590979f6a78523a18695ec3",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      305,
+      390,
+      397,
+      590
+    ],
+    "context_xyxy": [
+      305,
+      390,
+      397,
+      590
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-016.png",
+    "crop_sha256": "0a422e6fb3a20bcc6946215137a89844973b70280f082d610a65251a2f5346fb",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-017",
+    "image_id": "CM-095",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_150_jpg.rf.60bdbe44ea5b0038fdbc442ec3772349.jpg",
+    "source_image_sha256": "06fc1d65c42e68b306221df9ce4a2bdc0ac262689f16608cc48b5758b5858b71",
+    "source_label": "train/labels/frame_150_jpg.rf.60bdbe44ea5b0038fdbc442ec3772349.txt",
+    "source_label_sha256": "6097e19e08e152143f549665e680f401c158837afe2da76eb73b3b8c66a29245",
+    "source_label_line_1based": 3,
+    "source_class_id": 5,
+    "person_xyxy": [
+      313,
+      410,
+      401,
+      594
+    ],
+    "context_xyxy": [
+      313,
+      410,
+      401,
+      594
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-017.png",
+    "crop_sha256": "ca276e8e58c1c122eb1b9a731e030ac6ccba9ff292947abd70eaaad55b1a4ced",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-018",
+    "image_id": "CM-098",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_158_jpg.rf.691f61b13abc1c1e514bb74b92cbf53f.jpg",
+    "source_image_sha256": "016d0c046ea32b58cd5f6edb120ea130c57e795bf0e619ac022540f787e8103a",
+    "source_label": "train/labels/frame_158_jpg.rf.691f61b13abc1c1e514bb74b92cbf53f.txt",
+    "source_label_sha256": "2b31d448e144fd244c2999c62a02d4aff351499b4da9242eea50324258ddf91f",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      278,
+      419,
+      398,
+      590
+    ],
+    "context_xyxy": [
+      278,
+      419,
+      398,
+      590
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-018.png",
+    "crop_sha256": "0b15d6359b49212962e4110a767a53419f204adfe82d4aa105b4bd54719596ee",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-019",
+    "image_id": "CM-100",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_160_jpg.rf.1d65145a654e0da64f6b5ce538b9c035.jpg",
+    "source_image_sha256": "7d5f913097321ff6fd03c358f8a881b823977312dd2acb61732c5a17b40d77b4",
+    "source_label": "train/labels/frame_160_jpg.rf.1d65145a654e0da64f6b5ce538b9c035.txt",
+    "source_label_sha256": "3fd35cb090023d95603df2c76bfef18d45d2799883e064384d2a99917ee732dc",
+    "source_label_line_1based": 3,
+    "source_class_id": 4,
+    "person_xyxy": [
+      283,
+      395,
+      391,
+      577
+    ],
+    "context_xyxy": [
+      283,
+      395,
+      391,
+      577
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-019.png",
+    "crop_sha256": "02635e9c1cceb3aea5b0c6260f3fe2a03e356f27b3432fdc2ed3c4459c5661cc",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-020",
+    "image_id": "CM-104",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_167_jpg.rf.3543df51e614dccc463153070a347b1c.jpg",
+    "source_image_sha256": "a3089464c5e554ac5c69f2664aa3c374917842aaa6ea5a2723d5649d057e9315",
+    "source_label": "train/labels/frame_167_jpg.rf.3543df51e614dccc463153070a347b1c.txt",
+    "source_label_sha256": "9e64c9b36c63ce31c44c0b65f238bf1dec8e502633bfd68fdfd85a38f19c9a00",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "person_xyxy": [
+      267,
+      432,
+      366,
+      609
+    ],
+    "context_xyxy": [
+      267,
+      432,
+      366,
+      609
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-020.png",
+    "crop_sha256": "b3a2b3d4004a9aaabc3ecb4fafe7167104260aebfa120dc409c4bb92570cc026",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-021",
+    "image_id": "CM-107",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_171_jpg.rf.6b827aacc81c83a699c70fa4842f724b.jpg",
+    "source_image_sha256": "ce0aebad55681673a385e54d6006c118c6941c3270aca12690b3fee87f97b4a4",
+    "source_label": "train/labels/frame_171_jpg.rf.6b827aacc81c83a699c70fa4842f724b.txt",
+    "source_label_sha256": "cdd6a5fa9720bff95d82ab2efb357e04adc7c0e8f4acab41ca2d5e31274c3e06",
+    "source_label_line_1based": 4,
+    "source_class_id": 3,
+    "person_xyxy": [
+      438,
+      401,
+      526,
+      497
+    ],
+    "context_xyxy": [
+      438,
+      401,
+      526,
+      497
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-021.png",
+    "crop_sha256": "b74fc346a5c50772b3d99e86cf6223e2318458ceaba5f816cff10e6b31cdf726",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-022",
+    "image_id": "CM-114",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_187_jpg.rf.382e1263b5e4b6a2fe382fc2cbb57e6d.jpg",
+    "source_image_sha256": "d0be66995e8eadc15d4c302aaece6e7d06d536c3b6c371df163126b6459923fc",
+    "source_label": "train/labels/frame_187_jpg.rf.382e1263b5e4b6a2fe382fc2cbb57e6d.txt",
+    "source_label_sha256": "2a6120868edeed0af7a00f3975cdaca2e16447083a7fe5fff6e4dc8ffbe7164c",
+    "source_label_line_1based": 4,
+    "source_class_id": 5,
+    "person_xyxy": [
+      427,
+      372,
+      499,
+      488
+    ],
+    "context_xyxy": [
+      427,
+      372,
+      499,
+      488
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-022.png",
+    "crop_sha256": "256dc2c6dbcf6c41198ecfc28a9517469eae1ee9f900fae701a40bbaf72da3b6",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-023",
+    "image_id": "CM-115",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_188_jpg.rf.f0175e6d2338c00dd87d05c7627d69cc.jpg",
+    "source_image_sha256": "1f02e7acaccf4d558cc5a82ef88cd61b3f609834ae05c7c359ad89128a0db0fd",
+    "source_label": "train/labels/frame_188_jpg.rf.f0175e6d2338c00dd87d05c7627d69cc.txt",
+    "source_label_sha256": "32321522add6a4cdf828b5ead014f926b3a0574c448e1f93145dafc419fb9c12",
+    "source_label_line_1based": 4,
+    "source_class_id": 5,
+    "person_xyxy": [
+      432,
+      360,
+      510,
+      475
+    ],
+    "context_xyxy": [
+      432,
+      360,
+      510,
+      475
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-023.png",
+    "crop_sha256": "379af04d4260021fbfb8eda351ee4cc5fe4e68b83e8b1717c1b9c9516bbb8e7a",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  },
+  {
+    "sample_id": "EXP-CM-024",
+    "image_id": "CM-117",
+    "source_id": "classroom_monitoring_v2",
+    "source_image": "train/images/frame_191_jpg.rf.f1b22f8adb8e3d723ab2d48debcb1f10.jpg",
+    "source_image_sha256": "88b0bf8f37639a35649b9c67177bb51233b2b136509a315162e445188dac4786",
+    "source_label": "train/labels/frame_191_jpg.rf.f1b22f8adb8e3d723ab2d48debcb1f10.txt",
+    "source_label_sha256": "122c158158634fb12b4070309096dcc718b9f09ce715c66bf1cbc0d63a87bcf9",
+    "source_label_line_1based": 4,
+    "source_class_id": 4,
+    "person_xyxy": [
+      445,
+      330,
+      524,
+      457
+    ],
+    "context_xyxy": [
+      445,
+      330,
+      524,
+      457
+    ],
+    "crop_path": "data/interim/classroom-v2-20261007/crops/EXP-CM-024.png",
+    "crop_sha256": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+    "status": "draft_pending_owner_review",
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false
+  }
+]

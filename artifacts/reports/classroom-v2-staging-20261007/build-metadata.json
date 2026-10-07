@@ -1,0 +1,43 @@
+{
+  "build_environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+  },
+  "dataset_version": "classroom-v2-20261007-staging",
+  "expected_selection_count": 24,
+  "expected_source_counts": {
+    "classroom_monitoring_v2": 24
+  },
+  "git_commit": "58d8f8f9ca621cd9c9ad3ed01680f9cf1d076cc6",
+  "git_dirty": true,
+  "group_decision": {
+    "path": "artifacts/reports/classroom-v2-staging-20261007/group-decision.json",
+    "sha256": "0198e9bf427921cb595693caa9d5c961651348d15688411667ec7c7cade1a7eb"
+  },
+  "implementation_sha256": {
+    "src/ai_exam_monitoring/data/pilot_package.py": "cb259fe9fa3e2bd84c06c9f88d4978efc725fd50ee4b0ecc00f12a0d869f7040",
+    "src/ai_exam_monitoring/data/pilot_schema.py": "2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253"
+  },
+  "limitations": [
+    "24 crop thuộc một nhóm nguồn gộp150 ảnh; không chia nhóm sang nhiều split.",
+    "5 mẫu cả hai target unknown giữ review_only.",
+    "Chưa split/release/train; chưa quyết định membership v5 hợp nhất."
+  ],
+  "owner_approval": {
+    "path": "artifacts/reports/classroom-v2-staging-20261007/owner-approval.json",
+    "sha256": "be103e84cd6df5e4c7f321e32c730ac79347493aef800ad3db46814d9fbf17f0"
+  },
+  "owner_decision_ref": "artifacts/reports/classroom-v2-staging-20261007/owner-approval.json",
+  "parent_checksums": {
+    "data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging": "d1d482477678c1fd1137a8981bc5425a3b8e6dcd62a2ca70f172ce804d9ca48f",
+    "data/processed/pilot-b/pilot-b-20261005-v4": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53"
+  },
+  "review_config": {
+    "path": "configs/datasets/classroom_monitoring_v2_review.yaml",
+    "sha256": "e2bb72454657e63bf405710bc060e1b1dd21d550ff2303376ec50518d66a8385"
+  },
+  "rights_scope": {
+    "path": "artifacts/reports/classroom-v2-staging-20261007/rights-scope.json",
+    "sha256": "a9b80a8ff2e3eb4c9502024e4de55855989e78eb3a689161dc4f2641b8e70130"
+  },
+  "status": "prepared_pending_gates"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "sample_id": "EXP-RF-003",
+    "status": "draft_pending_owner_acceptance",
+    "source_image_sha256": "f55f34d4c9c3585967d55e75ba1097ea2f5ef2cd2684c21eb43c585519588714",
+    "source_crop_sha256": "793c5fd27aff8a2f137f2296a58429ac09495aae29cc853d1a9807974e059e4b",
+    "proposed_person_xyxy": [
+      95,
+      10,
+      322,
+      416
+    ],
+    "proposed_context_xyxy": [
+      40,
+      8,
+      325,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/refined-crops/EXP-RF-003.png",
+    "crop_sha256": "c486bbe1489737b3660a10b3d3e1a70595426af98b004db57bbc7402da7723af",
+    "reason": "Đề xuất bbox người nhìn thấy và crop ngữ cảnh bao người, tay, thiết bị/bài; không dùng source phone box làm person box."
+  },
+  {
+    "sample_id": "EXP-RF-014",
+    "status": "draft_pending_owner_acceptance",
+    "source_image_sha256": "a7e84b14894ac3d6ffccffa819bb3898c28f2e5a7d4b056af203859b655242e3",
+    "source_crop_sha256": "af8f126a250cc97fbb5d159716423423b0a86185e149a716305eef9eb3ed7249",
+    "proposed_person_xyxy": [
+      200,
+      75,
+      326,
+      416
+    ],
+    "proposed_context_xyxy": [
+      119,
+      75,
+      327,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/refined-crops/EXP-RF-014.png",
+    "crop_sha256": "d5bb83794f25d610c02787efb9320929e3db456c5cf400d17a33678f07cb5356",
+    "reason": "Đề xuất bbox người nhìn thấy và crop ngữ cảnh bao người, tay, thiết bị/bài; không dùng source phone box làm person box."
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verified_on": "2026-10-06",
+  "ledger_records": 72,
+  "review_only": 61,
+  "excluded": 11,
+  "exported_crops_pixel_and_hash_verified": 61,
+  "source_image_label_hashes_verified": 72,
+  "owner_labels_match_exact_reviewed_crops": true,
+  "unknown_null_mask_zero": true,
+  "rights_confirmation_recorded": true,
+  "accepted_scene_relations": 11,
+  "no_split_or_training_manifest": true,
+  "parent_payload_unchanged": true,
+  "parent_payload_files": 123,
+  "parent_checksums_sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53",
+  "staging_checksums_sha256": "d1d482477678c1fd1137a8981bc5425a3b8e6dcd62a2ca70f172ce804d9ca48f",
+  "historical_r2_verification": {
+    "path": "artifacts/reports/data-expansion-20261006-r2/verification.json",
+    "sha256": "fa5ce96a17524fe4606459978a392810db96f4253227aacfd885b97f2526cc20"
+  },
+  "code_validation": "131 tests, Ruff và repo checker đã PASS ở R2; staging chỉ thêm dữ liệu/docs, không đổi implementation.",
+  "artifact_sha256": {
+    "artifacts/reports/data-expansion-staging-20261006-r2/build-inputs.json": "87952b12d05f39edd0174c33f7d516ef54ae51e441bbd3247f98b18b248e09c9",
+    "artifacts/reports/data-expansion-staging-20261006-r2/build-metadata.json": "4b49d4ba59e378cba65935ea7af64704feaedde7b2a05b863a7b0a6953980d6f",
+    "artifacts/reports/data-expansion-staging-20261006-r2/build-result.json": "33f68fb1a6d42092a40384fa0f6e7eb5efe6d8c5ee9b1dc7d848f434a3076c2f",
+    "artifacts/reports/data-expansion-staging-20261006-r2/dataset-card.md": "70766b90a58ff01228d67b859fc8a31875ce71aafdfa68ac4ac38f7749b190a4",
+    "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json": "a0e424b17ad467ace38ec60243bb80c6a56ff0ad6bdc588c668d1f0ee7d7b2b8",
+    "artifacts/reports/data-expansion-staging-20261006-r2/owner-rights-confirmation.json": "966d72d0913d0327bf406baf80a961273e5da0dc83ccd6abe71737e7e0207a1d",
+    "artifacts/reports/data-expansion-staging-20261006-r2/README.md": "217fef6d596e4181b7991a18ffc510c3fab8c3a03ceed5dbd94484258b95079b",
+    "artifacts/reports/data-expansion-staging-20261006-r2/review-ledger.jsonl": "0d15182957c9f922ab31c0e3c0c3a77edbf4443af0f12d7043ee50a626e26c8e",
+    "artifacts/reports/data-expansion-staging-20261006-r2/scene-constraints.json": "bc9c8d82119be606cc88a0510f136b9e29b6263d530db5349a5bb4393a41f263",
+    "artifacts/reports/data-expansion-staging-20261006-r2/selection.jsonl": "7e1692d4cc3fd58c03ae6ceaafbdc044c4748e7b8eefea55195690f845b8635b"
+  },
+  "pointer_sha256": "3a533534eb85e91956368a82efd45aa263d379493e1850d2619d63582dbbbffc"
+}

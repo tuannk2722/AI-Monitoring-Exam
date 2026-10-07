@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "verified_on": "2026-10-06",
+  "parent_payload_files_verified": 123,
+  "parent_checksums_sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53",
+  "ledger_records": 112,
+  "usage_records": 84,
+  "new_candidates": 72,
+  "unique_new_images": 72,
+  "new_pool_images": 6303,
+  "exact_overlap_with_parent": 0,
+  "source_and_crop_hashes": "PASS",
+  "crop_pixel_rebuild_checks": 74,
+  "canonical_unknown_and_mask_preserved": true,
+  "proposal_membership_counts_and_review_hashes": "PASS",
+  "draft_pointer_pins": "PASS",
+  "encoding_repair_config_equivalence": "PASS",
+  "new_json_yaml_utf8_and_links": "PASS",
+  "diff_check": "PASS",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests",
+    "result": "131 tests PASS",
+    "execution": "Đã chạy ở lượt triển khai trước resume, sau thay đổi code cuối; resume chỉ sửa tài liệu/mô tả/hash. Không chạy lại training."
+  },
+  "ruff": {
+    "command": ".venv/Scripts/python.exe -m ruff check src tests scripts",
+    "result": "PASS ở lượt triển khai"
+  },
+  "repo_checker": {
+    "command": ".venv/Scripts/python.exe scripts/check_repo.py --require-git",
+    "result": "PASS; checker chỉ xét Git index, file mới đã kiểm riêng"
+  },
+  "implementation_sha256": {
+    "src/ai_exam_monitoring/data/pilot_expansion.py": "81dcf9f6c85fba3be4c0292285cf22aa8744d33c78fe96eb118a506550022a00",
+    "src/ai_exam_monitoring/data/pilot_selection.py": "fffa2c0a6735b68fe815e07f0cc061c042155e91a427b0d63dd11af890e8e363",
+    "tests/test_pilot_expansion.py": "5cf7d780309accac2c09212d373cd2276281c2418266ec4c0c33451e9f223fcd",
+    "tests/test_pilot_selection.py": "8ba3497830aa0a680c0bd0bbab2b34ed2ff1278ba3c2458af8875483d989d1d7"
+  },
+  "artifact_sha256": {
+    "artifacts/reports/data-expansion-20261006-r2/candidates.json": "2e799c965e1685fe294316070852ffce939005ea11b79e4bd137c537e55480ed",
+    "artifacts/reports/data-expansion-20261006-r2/encoding-repair.json": "f051a1fec5712c385fbbf0a3fe23d092dae032afc58ef0dbf3e911495c152258",
+    "artifacts/reports/data-expansion-20261006-r2/existing-group-triage.json": "f95d357382232940bbc16b02c779ef03728cf1cef51891727c2799bc79a3100e",
+    "artifacts/reports/data-expansion-20261006-r2/scene-link-proposals.json": "a534fdf9e960d89e54ae3863786545aa462c9c3fca74b7f6b68550095c07386c",
+    "artifacts/reports/data-expansion-20261006-r2/summary.json": "3a032dd711cd52aedbddaca83767bd1d29c7bfe42fcb665ee44ffc22d1715db2",
+    "artifacts/reports/data-expansion-20261006-r2/visual-review-proposals.json": "eaee56b127913001b2ac61aaa74e9de980eaf71f6db0b444c5c143f6460637cb",
+    "artifacts/reports/data-expansion-rf-20261006-r2/candidates.json": "da31c59d554cdd5d433a8bf93542680b5413e2fbd85360ed0153935d9ae48bd1",
+    "artifacts/reports/data-expansion-rf-20261006-r2/crop-refinements.json": "d2f633ea21ebd32c6c4451508b2a038a7128f108edca245e7bcfb7979a29cf66",
+    "artifacts/reports/data-expansion-rf-20261006-r2/existing-group-triage.json": "f95d357382232940bbc16b02c779ef03728cf1cef51891727c2799bc79a3100e",
+    "artifacts/reports/data-expansion-rf-20261006-r2/summary.json": "5c068bea03035a589f676eb2c7a77cb4e5f1faf0f4fe8a3fece4028681031fd6",
+    "artifacts/reports/data-expansion-rf-20261006-r2/visual-review-proposals.json": "80b6be697ad0fbc2c6f53df93fd2195f345342044b76ef7dadfad405d7891e05",
+    "artifacts/reports/data-expansion-20261006-r2/README.md": "a54a19bad1e0e73c602951d170b8cbe9652f64419c386a9616a963cc1dad95c5",
+    "configs/datasets/pilot_b_expansion_v5_r2_draft.yaml": "dd04e64c911a97e90935242841e71231b9b50db120bcad200822668914ea41ea",
+    "configs/datasets/pilot_b_expansion_selection_r2.yaml": "b8ee9d560defeda7645cf27a220e9645fd19bdf24c49cc5faee19f37f3019a9a",
+    "configs/datasets/pilot_b_expansion_rf_selection_r2.yaml": "c9a25151f134e871090e999b76689cef8a72b998bbf41955b78fbc9f5233466c"
+  },
+  "limits": [
+    "Visual labels/crops/scene links đang chờ owner nghiệm thu.",
+    "Chưa xác nhận độc lập group/session, chưa split/release/holdout mới.",
+    "Quyền cho RF mới và metadata Classroom-monitoring chưa đủ evidence.",
+    "Khác SHA hoặc dHash xa không chứng minh độc lập; không đánh giá model hoặc dùng test media."
+  ]
+}

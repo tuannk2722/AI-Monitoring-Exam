@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "verified_on": "2026-10-07",
+  "source_label_crop_hash_and_pixels_verified": 24,
+  "ledger_records": 24,
+  "review_only_records": 24,
+  "unknown_mask_preserved": true,
+  "owner_labels_match_proposals": true,
+  "approved_group_source_images": 150,
+  "leakage_group_id": "CM-V2-SCENE-01",
+  "all24_records_group_assigned": true,
+  "no_split_or_training_manifest": true,
+  "parent_v4_and_r2_unchanged": true,
+  "staging_checksums_sha256": "62e33da4c504fbab2a5e397849bd5cec1d322380487c2d1a490bd86bbfdf2550",
+  "config_sha256": "8d766579371502144d4325720a12c672bf6ee031ce4dd80943e43dff3abb075f",
+  "artifact_sha256": {
+    "artifacts/reports/classroom-v2-staging-20261007/build-inputs.json": "9fb47ffb344252a23c57cb0f11215789a411dd3cf8d013a860a76d1fbf118bff",
+    "artifacts/reports/classroom-v2-staging-20261007/build-metadata.json": "edf30b95da475726af4395bf6339d0919fe924f63d59eac757e09a82f5480689",
+    "artifacts/reports/classroom-v2-staging-20261007/build-result.json": "7778e218b19da2c6c7fa6d039017b0050c344efe44ed62957fe7e3f6c619e03e",
+    "artifacts/reports/classroom-v2-staging-20261007/dataset-card.md": "7b333f0df0bf538efb25ae5a85fbe724ba3df4f32bb0e8b720cacd0438f093e2",
+    "artifacts/reports/classroom-v2-staging-20261007/group-decision.json": "0198e9bf427921cb595693caa9d5c961651348d15688411667ec7c7cade1a7eb",
+    "artifacts/reports/classroom-v2-staging-20261007/owner-approval.json": "be103e84cd6df5e4c7f321e32c730ac79347493aef800ad3db46814d9fbf17f0",
+    "artifacts/reports/classroom-v2-staging-20261007/README.md": "bd26cfe0d3317a5b37127c520bee512fad34c8061532c57d8e3c65088b255d76",
+    "artifacts/reports/classroom-v2-staging-20261007/review-ledger.jsonl": "0b115019fac96d1b07ce0b6ecaf757ff1ee2863d2d42fb2aff0f710f587ca3b3",
+    "artifacts/reports/classroom-v2-staging-20261007/rights-scope.json": "a9b80a8ff2e3eb4c9502024e4de55855989e78eb3a689161dc4f2641b8e70130",
+    "artifacts/reports/classroom-v2-staging-20261007/selection.jsonl": "3f85f29b08982bf701a4b0b661173fd3e5c743c8a408d4c70b8d850ef2e001ad"
+  },
+  "code_changed": false
+}

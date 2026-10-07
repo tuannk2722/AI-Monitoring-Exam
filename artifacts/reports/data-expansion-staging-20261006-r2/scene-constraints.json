@@ -1,0 +1,200 @@
+{
+  "independence_confirmed": false,
+  "note": "Liên hệ cảnh đã duyệt; chưa chốt toàn bộ nhóm độc lập hoặc split. Các ID parent chỉ là tham chiếu, không sửa package v4.",
+  "owner_approval": {
+    "path": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+    "sha256": "a0e424b17ad467ace38ec60243bb80c6a56ff0ad6bdc588c668d1f0ee7d7b2b8"
+  },
+  "relations": [
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng cảnh đồng phục xanh/trắng, tường chia ô, bàn xanh, người đứng tiền cảnh và overlay video; góc nhìn/tư thế thay đổi.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [],
+      "proposal_id": "EXP-LINK-01",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-001",
+        "EXP-SCB-028"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Lặp mẫu áo, bàn/cửa sổ và bố trí chỗ ngồi; crop thuộc hai source khác nhưng cùng bối cảnh.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [],
+      "proposal_id": "EXP-LINK-02",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-005",
+        "EXP-SCB-024"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng sàn xanh, bàn màu cam, tường dưới ốp gỗ, cửa bên và phòng kính; phải giữ chung ranh giới phòng thận trọng.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "review_only"
+      ],
+      "proposal_id": "EXP-LINK-03",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-015",
+        "SCB-turnhead-026"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng tường sọc be/nâu, các ô xanh, bàn và đồng phục; không coi frame mới là cảnh độc lập.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "review_only"
+      ],
+      "proposal_id": "EXP-LINK-04",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-021",
+        "SCB-turnhead-016"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng bàn kem, đồng phục xanh nhạt, bảng sau và rèm phải; cảnh liên quan dù SHA khác.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "review_only"
+      ],
+      "proposal_id": "EXP-LINK-05",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-027",
+        "SCB-read-025"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng bàn tím, đồng phục xanh/trắng, phòng kính phía sau và logo tròn; hai góc cùng lớp cần nối.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "review_only"
+      ],
+      "proposal_id": "EXP-LINK-06",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-SCB-032",
+        "SCB-turnhead-028"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng tủ xám, bàn trắng, ghế đỏ, người áo trắng và kiểu phụ đề; một frame có phone và một frame không thấy phone.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [],
+      "proposal_id": "EXP-LINK-07",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-RF-003",
+        "EXP-RF-014"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Bố cục phòng lab/ghế xanh, đồng phục và overlay video cùng nguồn; đề xuất gom thận trọng, không suy danh tính người.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [],
+      "proposal_id": "EXP-LINK-08",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-RF-005",
+        "EXP-RF-006",
+        "EXP-RF-010"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cảnh ghế xanh lưng tròn/bàn gỗ liên quan nhóm RF-GREEN đã mô tả trong scene-proposals lịch sử; không xem lại ảnh parent val/test.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "val"
+      ],
+      "proposal_id": "EXP-LINK-09",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-RF-007",
+        "EXP-RF-009",
+        "EXP-RF-011",
+        "EXP-RF-012",
+        "P002-person-01",
+        "P006-person-01",
+        "P007-person-01",
+        "P008-person-01"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Hai bàn trắng, tường kem/ổ cắm, cửa phải và bố trí áo đỏ/tối khớp mô tả RF-TWO-DESKS lịch sử; đề xuất nối, không suy session.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "train"
+      ],
+      "proposal_id": "EXP-LINK-10",
+      "relation": "must_link",
+      "sample_ids": [
+        "EXP-RF-019",
+        "P029-person-01",
+        "P030-person-01",
+        "P031-person-01",
+        "P032-person-01",
+        "P033-person-01",
+        "P034-person-01",
+        "P035-person-01",
+        "P036-person-01",
+        "P038-person-01",
+        "P039-person-01"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    },
+    {
+      "independent_session_confirmed": false,
+      "observation_vi": "Cùng source image SHA đã pin; exact must-link, vẫn chưa chứng minh độc lập với các nhóm khác.",
+      "owner_decision_ref": "artifacts/reports/data-expansion-staging-20261006-r2/owner-approval.json",
+      "parent_usages": [
+        "review_only"
+      ],
+      "proposal_id": "EXP-LINK-11",
+      "relation": "must_link",
+      "sample_ids": [
+        "P047-person-01",
+        "P047-extra-01"
+      ],
+      "split_assigned": false,
+      "status": "owner_approved_relation"
+    }
+  ],
+  "source_proposals": {
+    "path": "artifacts/reports/data-expansion-20261006-r2/scene-link-proposals.json",
+    "sha256": "a534fdf9e960d89e54ae3863786545aa462c9c3fca74b7f6b68550095c07386c"
+  },
+  "split_assigned": false,
+  "status": "owner_approved_relations_only"
+}

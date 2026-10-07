@@ -1,0 +1,32 @@
+{
+  "decision": "approve_data_expansion_direction_and_metadata_review",
+  "reviewer": "repository_owner",
+  "reviewed_at": "2026-10-06",
+  "timezone": "Asia/Saigon",
+  "evidence": "Chủ repository xác nhận trực tiếp trong hội thoại ngày 2026-10-06.",
+  "owner_message": [
+    "Duyệt hướng hai luồng (khai thác SCB/RF hiện có + thẩm định nguồn mới)",
+    "Cho phép mở thẩm định metadata `Classroom-monitoring-dataset`",
+    "Cho phép tạo draft dataset pointer v5 sau khi có candidate",
+    "Giữ nguyên semantics (`phone_use`, `looking_around`, mask `unknown`)"
+  ],
+  "plan": "docs/data/data-expansion-20261006.md",
+  "plan_sha256_before_approval_sync": "9eae8f3bcfeba13461f139399fa2dc03530e3b4f9b128bccf4927feaffee9a21",
+  "approved_items": [
+    "two_stream_direction",
+    "classroom_monitoring_metadata_review",
+    "draft_v5_pointer_after_candidates",
+    "preserve_target_semantics_and_unknown_mask"
+  ],
+  "not_approved_by_this_decision": [
+    "new_source_acceptance",
+    "new_label_approval",
+    "new_group_or_split_approval",
+    "dataset_release",
+    "training",
+    "external_media_upload_or_redistribution"
+  ],
+  "parent_config": "configs/datasets/pilot_b_release_v4.yaml",
+  "parent_config_sha256": "918eb53cbac1a9a5b1defdcc2e94875b2c27f42fd9a7a8a67e3a68688df5c212",
+  "parent_checksums_sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53"
+}

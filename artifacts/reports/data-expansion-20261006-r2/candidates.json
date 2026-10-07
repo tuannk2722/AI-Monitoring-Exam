@@ -1,0 +1,3903 @@
+[
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3000069.jpg",
+    "source_image_sha256": "21a5e86ff907b2d5b2b11b3ae34201df002a1e6d9cd03b86d4ea078fbfc7be69",
+    "source_label_relpath": "labels/train/3000069.txt",
+    "source_label_sha256": "b5bd3f0010397d01a0de912908912a70147e900fb97f6e6bf96932f90912610b",
+    "source_label_line_1based": 1,
+    "source_class_id": 2,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.25537631770833336,
+      "y_center": 0.411574,
+      "width": 0.09446888541666666,
+      "height": 0.276852
+    },
+    "rank_sha256": "000a5a7707b79b107e58ceb8e60265ef448502ef486337f95cd8c304a35ce8c9",
+    "exact_aliases": [
+      "scb_hrw:images/train/3000069.jpg"
+    ],
+    "sample_id": "EXP-SCB-001",
+    "source_anchor_xyxy": [
+      399.6324000000001,
+      294.99984,
+      581.01266,
+      594.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      399,
+      294,
+      582,
+      594
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-001.png",
+    "crop_sha256": "c2879187e7965d964f052ce54c2d21bf40eb7c64bf61e68a0892389203ba3fc2",
+    "dhash": 3309106012114721820,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "e605f2297a6925dfc5ee169e08ecc399f72943a66208e14de57935314f3ea8c0",
+        "sample_ids": [
+          "SCB-turnhead-007"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "253d27d4af82afd3454c676e57cc09a79e4269ddd00be9bd266e5736ad7b1381",
+        "sample_ids": [
+          "SCB-turnhead-016"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "80615d5f0622f914cc86d5bcf4a9566bd19a6e237d3d2c1afa0b8b09ad9f41da",
+        "sample_ids": [
+          "SCB-turnhead-001"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3004157.jpg",
+    "source_image_sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+    "source_label_relpath": "labels/train/3004157.txt",
+    "source_label_sha256": "4e415f8d314ba931d3e916577a344c4e973cd32823218b00895a54cb2fbf5dff",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 874,
+    "height": 494,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5005719965675057,
+      "y_center": 0.6639067813765182,
+      "width": 0.2093820022883295,
+      "height": 0.33210542510121455
+    },
+    "rank_sha256": "660c2e39c07f5b8587c263ab0a45a89ca341b191baf2d63cccb2320bfb5c761b",
+    "exact_aliases": [
+      "scb_hrw:images/train/3004157.jpg"
+    ],
+    "sample_id": "EXP-SCB-002",
+    "source_anchor_xyxy": [
+      345.99999,
+      245.93990999999997,
+      528.99986,
+      409.99998999999997
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      345,
+      245,
+      529,
+      410
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-002.png",
+    "crop_sha256": "7ab29073d34e3787784a0d510d702763bb2a7f8c8da670e9a42ea750038600e7",
+    "dhash": 10634067135536458739,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "c2eda5ff5ba2c5e5b0062f57e84dc16534162b463d22401265849f16ea09d921",
+        "sample_ids": [
+          "SCB-turnhead-015"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+        "sample_ids": [
+          "P036-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+        "sample_ids": [
+          "SCB-write-024"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/10_001710.jpg",
+    "source_image_sha256": "f8be87cd095fb80d7b9ed8f25576f04d205335f8415f3090cf58a62e7f504202",
+    "source_label_relpath": "labels/train/10_001710.txt",
+    "source_label_sha256": "05de070a3f349cc5c32157603254688cf8eed39b0b43a990d05328ff7d75a82d",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 640,
+    "height": 480,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.7041188515625,
+      "y_center": 0.6321368854166667,
+      "width": 0.149265421875,
+      "height": 0.2251220625
+    },
+    "rank_sha256": "beb72e5fc32b60ac3179a6800822e95bad02e08f25bd6926b6e07c13c4ecc173",
+    "exact_aliases": [
+      "scb_head:images/train/10_001710.jpg"
+    ],
+    "sample_id": "EXP-SCB-003",
+    "source_anchor_xyxy": [
+      402.87113,
+      249.39640999999997,
+      498.401,
+      357.45500000000004
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      402,
+      249,
+      499,
+      358
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-003.png",
+    "crop_sha256": "dc0eadeedcc18108074bced64985833d9c60b14d546d165f3931171827f6e950",
+    "dhash": 5290455835612529516,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "d416441163ad9620ab35ef03eb610a017211fb1ba3bea0c68f07ae569d88549a",
+        "sample_ids": [
+          "SCB-turnhead-027"
+        ],
+        "distance": 3
+      },
+      {
+        "image_sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+        "sample_ids": [
+          "SCB-read-016"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "4a674ea2574b4323b42468147ac0c7328761932afa1c0fae46e2b0bc45a82386",
+        "sample_ids": [
+          "SCB-read-003"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/0002068.jpg",
+    "source_image_sha256": "4941dcb0aafa502b958a15d692451926340734bbd72c24708a941803b3114fa1",
+    "source_label_relpath": "labels/train/0002068.txt",
+    "source_label_sha256": "26f10795ac0405c705215b29fde44ea32d3060b3720b945add6156fda5856977",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1357,
+    "height": 755,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.13563354826823876,
+      "y_center": 0.7321724701986755,
+      "width": 0.12548410464259394,
+      "height": 0.4560530728476821
+    },
+    "rank_sha256": "1d209c3153fc69d45de5356e4848d48b06326d12a7936c6877c21d9aa91b8ed6",
+    "exact_aliases": [
+      "scb_head:images/train/0002068.jpg"
+    ],
+    "sample_id": "EXP-SCB-004",
+    "source_anchor_xyxy": [
+      98.91376000000001,
+      380.63018,
+      269.19569,
+      724.95025
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      98,
+      380,
+      270,
+      725
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-004.png",
+    "crop_sha256": "fe5ca410ddccf4dee070e39f4d5f8d607268dfca0726c8debadedd2aea108a6f",
+    "dhash": 18173204351191464340,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b2587fd11ddf61cd79b4735818525d63e652efd9a3ff91df96d1af51dd78e76e",
+        "sample_ids": [
+          "SCB-turnhead-028"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "90118c0df162635ce9b5f30cd941f3450b20469816f0b0c7ddb50605adc91b1c",
+        "sample_ids": [
+          "P019-person-01"
+        ],
+        "distance": 26
+      },
+      {
+        "image_sha256": "de90fc7eb40010ec6074eeb7fe433a340d2e2726c05649a4179055aecf63cd01",
+        "sample_ids": [
+          "P002-person-01"
+        ],
+        "distance": 26
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1307017.jpg",
+    "source_image_sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+    "source_label_relpath": "labels/train/1307017.txt",
+    "source_label_sha256": "2aa14cf80a33476ae8d1ee870f7c251e1bee5a7312afb7d7fbf3b31c203e37a1",
+    "source_label_line_1based": 4,
+    "source_class_id": 1,
+    "width": 993,
+    "height": 721,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5357849949647533,
+      "y_center": 0.6340661442441055,
+      "width": 0.1875055387713998,
+      "height": 0.6725279056865465
+    },
+    "rank_sha256": "1b037665187ed9ec738bd495e09b5c91767ddf7db25030dfb6403fa40963d3a3",
+    "exact_aliases": [
+      "scb_hrw:images/train/1307017.jpg"
+    ],
+    "sample_id": "EXP-SCB-005",
+    "source_anchor_xyxy": [
+      438.93800000000005,
+      214.71538,
+      625.131,
+      699.6080000000001
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      438,
+      214,
+      626,
+      700
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-005.png",
+    "crop_sha256": "b728e114061fbab2df8dfb31d73e8cf2234ec066ba09e67f81be548756df3b8c",
+    "dhash": 9783388824202416625,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "7a19cf7ccdc489796d8844a661f5bcc4483d0d74dd05022467e48ebd89c7680b",
+        "sample_ids": [
+          "SCB-write-020"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+        "sample_ids": [
+          "SCB-write-024"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "b56a4fb0944a120d4479a3050fcb00acfcdff68927aaec294972dfd1032b2db8",
+        "sample_ids": [
+          "SCB-write-002"
+        ],
+        "distance": 20
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/51_000047.jpg",
+    "source_image_sha256": "aafd5ff8f8f7f83f05b0cb9cd2fdccd1fd77200d0f92f3c070b5edfce8028f66",
+    "source_label_relpath": "labels/train/51_000047.txt",
+    "source_label_sha256": "3a0f35aa622f6b37658c980648d64e4ef23d1a1f639971981f8adb4b8c2bd733",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 480,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.7028125,
+      "y_center": 0.6973958333333333,
+      "width": 0.188125,
+      "height": 0.39895833333333336
+    },
+    "rank_sha256": "26bc9728b6accf36a12816817b208f62606606a86e087b3cd96ecdac80035bd8",
+    "exact_aliases": [
+      "scb_head:images/train/51_000047.jpg"
+    ],
+    "sample_id": "EXP-SCB-006",
+    "source_anchor_xyxy": [
+      486.99999999999994,
+      239.0,
+      637.5,
+      430.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      486,
+      239,
+      638,
+      431
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-006.png",
+    "crop_sha256": "99e429611c63efe1bfd180784a63fd8b2ee18e4ba231a45e6c1e07da2b90133f",
+    "dhash": 15896841217395788327,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "37ca2bb9894bc139304cce5b33d7318603ae5ebd05c6ae4c89f5ce04dcb054b5",
+        "sample_ids": [
+          "SCB-read-019"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+        "sample_ids": [
+          "P028-person-01"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "43d23494a9a8cb8264235c8897b4db4ed2b6592cb40d363ca434b34f35572034",
+        "sample_ids": [
+          "SCB-turnhead-014"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/149_001998.jpg",
+    "source_image_sha256": "9e5a7acee4adf0fa01d0984f9a4775dc0e88276af043a69c0fab3e19f6a4431c",
+    "source_label_relpath": "labels/train/149_001998.txt",
+    "source_label_sha256": "63f8b404bea7f71425279ba875a4dba648c20b3763ca43fc3217f7d82a75d68a",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.7464192708333334,
+      "y_center": 0.7517361111111112,
+      "width": 0.12955729166666666,
+      "height": 0.4525462962962963
+    },
+    "rank_sha256": "1e2a4015a09928aaa1b0a408d20df6808c2d18eefb8eb511cd2b0837ba53be29",
+    "exact_aliases": [
+      "scb_head:images/train/149_001998.jpg"
+    ],
+    "sample_id": "EXP-SCB-007",
+    "source_anchor_xyxy": [
+      1308.75,
+      567.5000000000001,
+      1557.5000000000002,
+      1056.25
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1308,
+      567,
+      1558,
+      1057
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-007.png",
+    "crop_sha256": "b2b93610091444937adb36362cdb55e7c52c7b6d3736c025f50a8ec4cdc838aa",
+    "dhash": 3734439929734145166,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "438bc72640ccc23a6643d65f7920592e178bce593ba7485468ccd0bfccaa1cad",
+        "sample_ids": [
+          "SCB-read-018"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "c2eda5ff5ba2c5e5b0062f57e84dc16534162b463d22401265849f16ea09d921",
+        "sample_ids": [
+          "SCB-turnhead-015"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/51_000297.jpg",
+    "source_image_sha256": "ad456695464b7908a5d2d9220d0997f8a0054b771fb17ce456c629cf06948fa9",
+    "source_label_relpath": "labels/train/51_000297.txt",
+    "source_label_sha256": "3631ec2ba02ab82f71757e058945cd12a0ce3a5ae2c834b155fc7f83004e73b3",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 480,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.2003125,
+      "y_center": 0.8859375,
+      "width": 0.136875,
+      "height": 0.21770833333333334
+    },
+    "rank_sha256": "6825edb3d6a9143a441dc2c9bd76abebad975c600421f87a3617744c269e7c78",
+    "exact_aliases": [
+      "scb_head:images/train/51_000297.jpg"
+    ],
+    "sample_id": "EXP-SCB-008",
+    "source_anchor_xyxy": [
+      105.50000000000001,
+      373.0,
+      215.0,
+      477.50000000000006
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      105,
+      373,
+      215,
+      478
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-008.png",
+    "crop_sha256": "b3a0c018adcfe6684f13bb616abe304a182f1bbf26993d862089c4f239d077a6",
+    "dhash": 15372308804543276690,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "fb9aa70466782281308431206d590033f2e05b2db98d28c06b462bbca4694ced",
+        "sample_ids": [
+          "P006-extra-01",
+          "P006-person-01",
+          "P006-person-02"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "1f12f1dc8e26367b308592bddc54e95d3ae926d06237367cc1b4b4999d97525f",
+        "sample_ids": [
+          "P033-person-01"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+        "sample_ids": [
+          "P030-person-01"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1424011.jpg",
+    "source_image_sha256": "a49cf19af4d5fdb7a24dc8e02eb303ed36bec5e1f19826023b017ecde33952c7",
+    "source_label_relpath": "labels/train/1424011.txt",
+    "source_label_sha256": "5f9cb9fc8bc73aa4099a09e372c0c4092a94568c44785aff77170c81383c2875",
+    "source_label_line_1based": 7,
+    "source_class_id": 2,
+    "width": 880,
+    "height": 661,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.6538479829545454,
+      "y_center": 0.7567091679273827,
+      "width": 0.30150630681818186,
+      "height": 0.47491304084720126
+    },
+    "rank_sha256": "0e2365f221fbd7472125ef1c68f9ea523b4596f24b32a88f2c8ffdea6f607577",
+    "exact_aliases": [
+      "scb_hrw:images/train/1424011.jpg"
+    ],
+    "sample_id": "EXP-SCB-009",
+    "source_anchor_xyxy": [
+      442.72344999999996,
+      343.22599999999994,
+      708.049,
+      657.1435200000001
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      442,
+      343,
+      709,
+      658
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-009.png",
+    "crop_sha256": "c689395a640043e68a330db5e8a346e696bbfa3b9b9a4c716d969a14b381930d",
+    "dhash": 7078174963784643607,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "66019b1bda2668b5fccace85f52bb210f8f4dcca013d852d2be4bec5d5bed4f1",
+        "sample_ids": [
+          "SCB-read-015"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+        "sample_ids": [
+          "SCB-read-027"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+        "sample_ids": [
+          "P038-person-01"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/4_000843.jpg",
+    "source_image_sha256": "df6894d0df86f5312110e1fb51b1e09a3a24a21b39d00223d9c4a242d6cf43a2",
+    "source_label_relpath": "labels/train/4_000843.txt",
+    "source_label_sha256": "fb672b6e7d2b78876825990a5adff9b57e6916e5a3dd853c3c3f08e616bb65ba",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 450,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.81704136875,
+      "y_center": 0.5273381333333333,
+      "width": 0.1416366875,
+      "height": 0.39568346666666665
+    },
+    "rank_sha256": "379540080cb1b280bb920f5833770c632e43e727847b1777c53875075404ca7f",
+    "exact_aliases": [
+      "scb_hrw:images/train/4_000843.jpg"
+    ],
+    "sample_id": "EXP-SCB-010",
+    "source_anchor_xyxy": [
+      596.97842,
+      148.27338,
+      710.2877699999999,
+      326.33094
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      596,
+      148,
+      711,
+      327
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-010.png",
+    "crop_sha256": "0b2a98edfbf92a85e610ce179e348e9df9e9809479035b7a90bdc5dc651690d8",
+    "dhash": 8853012246445782369,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0c7ab118889f1c314ac1046dbe8cc5578c5c67c7d5588ec3ca02765f9fcb2ddc",
+        "sample_ids": [
+          "SCB-turnhead-024"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+        "sample_ids": [
+          "SCB-read-017"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "bd33b77fdb9ff051f677e7e2d74774e445220170791bb2c85618c65c2380acae",
+        "sample_ids": [
+          "SCB-read-023"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/19_002470.jpg",
+    "source_image_sha256": "a7b35f7407dddeb722598eb8605f78aef0fbe55a990bcba1811f0804e3e1f40f",
+    "source_label_relpath": "labels/train/19_002470.txt",
+    "source_label_sha256": "8ed3a63334c976b037d360afffd48cb115115b6a167f020801ae28c170f50223",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 450,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6381,
+      "y_center": 0.25760000000000005,
+      "width": 0.0666,
+      "height": 0.2144
+    },
+    "rank_sha256": "4b8aac14f9b7cbf16eda3f5b430370dd0d611cc0cb93d55df587c0f0b17f7130",
+    "exact_aliases": [
+      "scb_hrw:images/train/19_002470.jpg"
+    ],
+    "sample_id": "EXP-SCB-011",
+    "source_anchor_xyxy": [
+      483.84000000000003,
+      67.68000000000002,
+      537.12,
+      164.16000000000003
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      483,
+      67,
+      538,
+      165
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-011.png",
+    "crop_sha256": "fefbbb1d71bbf655a5e80c702ef5d814d851b672dc540dc1ef2adbebbaf580d1",
+    "dhash": 2838998505629796747,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+        "sample_ids": [
+          "SCB-read-011"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "7ba28dee53a35f2092140eff61792c01561fb61d393df55e5c45f0ee660f5c8f",
+        "sample_ids": [
+          "SCB-read-024"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "c6b3304e95e3a9683fc0d5f8af97b8c2ce08eef99cfef7570c0244a0705be80e",
+        "sample_ids": [
+          "SCB-write-003"
+        ],
+        "distance": 21
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0081_001512.jpg",
+    "source_image_sha256": "fff0fb6c1c8e646393dfd201ebe85b0157b5cf77ad48a5d347c0824b638a1ca2",
+    "source_label_relpath": "labels/train/0081_001512.txt",
+    "source_label_sha256": "6bcd78b8e90d5f89fcb85494bdc881a0669b5c7aef06a35c2c1f8cb2b6cea79b",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 720,
+    "height": 576,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.652083,
+      "y_center": 0.205729,
+      "width": 0.12083300000000005,
+      "height": 0.11631899999999999
+    },
+    "rank_sha256": "76bb47a3bc9caacf6a43be70aa2fa5ba9a19f905b69b5182940a376b1a1a509d",
+    "exact_aliases": [
+      "scb_hrw:images/train/0081_001512.jpg"
+    ],
+    "sample_id": "EXP-SCB-012",
+    "source_anchor_xyxy": [
+      425.99987999999996,
+      85.00003199999999,
+      512.99964,
+      151.999776
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      425,
+      85,
+      513,
+      152
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-012.png",
+    "crop_sha256": "ebd43aa0e7ac74e7aaffc86275556fe2f10e16a01bd7b916a02e9ef4a9289074",
+    "dhash": 28926828232058377,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "31f776fdc9cdf6bc32e7a943486c3de97d992c15027e6c0456c94553390363e9",
+        "sample_ids": [
+          "SCB-write-017"
+        ],
+        "distance": 15
+      },
+      {
+        "image_sha256": "5ba69477c4cba4b87f699e8d6b3892ccce64b3d34b5c68b7c39062fe125103b1",
+        "sample_ids": [
+          "SCB-write-023"
+        ],
+        "distance": 16
+      },
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1281002.jpg",
+    "source_image_sha256": "dc390752ab0b31a559498aede4c8112111e12063b71a6f67aad1047f195fd8bf",
+    "source_label_relpath": "labels/train/1281002.txt",
+    "source_label_sha256": "f47ba85623345af98746fea4222b6fa5daf30f15b8165975e9273457f3c5d8e2",
+    "source_label_line_1based": 15,
+    "source_class_id": 1,
+    "width": 603,
+    "height": 345,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5655172305140962,
+      "y_center": 0.7376546376811594,
+      "width": 0.13508825870646765,
+      "height": 0.5154327536231884
+    },
+    "rank_sha256": "7ab97cdf8e6b6e9056a6369339eb316c295cf532775ce7e10379b4f03bf15b5c",
+    "exact_aliases": [
+      "scb_hrw:images/train/1281002.jpg"
+    ],
+    "sample_id": "EXP-SCB-013",
+    "source_anchor_xyxy": [
+      300.27778,
+      165.57869999999997,
+      381.736,
+      343.40299999999996
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      300,
+      165,
+      382,
+      344
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-013.png",
+    "crop_sha256": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+    "dhash": 3691250519414069852,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+        "sample_ids": [
+          "SCB-write-005"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "37ca2bb9894bc139304cce5b33d7318603ae5ebd05c6ae4c89f5ce04dcb054b5",
+        "sample_ids": [
+          "SCB-read-019"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "6cfd8574ee918001372922309c431f546310b16618ee2b58854944b8fce7572f",
+        "sample_ids": [
+          "SCB-turnhead-017"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1266055.jpg",
+    "source_image_sha256": "47bb099221462296d32c2e17a52a7c5038403fcc14e0bac9121d2d4e2e71c28c",
+    "source_label_relpath": "labels/train/1266055.txt",
+    "source_label_sha256": "77e7723442146e05bf03ec7ba9cab73feb5fe60974563534d397609b9860ebae",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 1177,
+    "height": 656,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.18148248937977912,
+      "y_center": 0.5354941310975609,
+      "width": 0.16342037383177568,
+      "height": 0.4969141768292683
+    },
+    "rank_sha256": "f479346248b6b070ba22e8561ca6e64904077e6d96fa1d4f73b2cd7748feb544",
+    "exact_aliases": [
+      "scb_hrw:images/train/1266055.jpg"
+    ],
+    "sample_id": "EXP-SCB-014",
+    "source_anchor_xyxy": [
+      117.43200000000003,
+      188.29629999999997,
+      309.77778,
+      514.272
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      117,
+      188,
+      310,
+      515
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-014.png",
+    "crop_sha256": "cc2b83c5233ae81fafbb57019a912a2923441f000661f01e4759c748986892c6",
+    "dhash": 11393697360351757952,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "161d79c488318ba37700815b898283ba582eee8d54897575d8243197152e1198",
+        "sample_ids": [
+          "SCB-turnhead-003"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "5a9e35c7febb9f3f3cac05e057403b3a7e1898bba9f64a1b5585c79f889dac06",
+        "sample_ids": [
+          "SCB-read-005"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "f665a033c0ff8bc9c313feafae82d22d8af9b6d7d9ca30c71f99d5a62a7d7fa9",
+        "sample_ids": [
+          "SCB-read-012"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/133_000402.jpg",
+    "source_image_sha256": "2479aa940bad13e037e862a668a062a5e6a88a36e2b721da3f12122b815ccd11",
+    "source_label_relpath": "labels/train/133_000402.txt",
+    "source_label_sha256": "3b425bbc6ee3b7cc25401293d46bc440a220ab6a3835836b84496099c9e749a2",
+    "source_label_line_1based": 13,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.9206384453125,
+      "y_center": 0.721582949074074,
+      "width": 0.14001790104166664,
+      "height": 0.25467669444444446
+    },
+    "rank_sha256": "f8ffea4d3fc5ce5be3b73257db72c01e80369d0e06dd6a1d2408beb7a9b72869",
+    "exact_aliases": [
+      "scb_hrw:images/train/133_000402.jpg"
+    ],
+    "sample_id": "EXP-SCB-015",
+    "source_anchor_xyxy": [
+      1633.20863,
+      641.7841699999999,
+      1902.0430000000001,
+      916.835
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1633,
+      641,
+      1903,
+      917
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-015.png",
+    "crop_sha256": "b6b4d048330a99d38796735f34078cc1a6726290fcfb108bcb9348af7f8a4d98",
+    "dhash": 1511381043270613262,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "8b00e9489d45b4e93c318bcd4dce549c6a89309d1ff0c860e13c49a5f62fd390",
+        "sample_ids": [
+          "SCB-read-013"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "b809e813d352f5323d3621ec5ef25b8a5b6dc6064d9d05f8e6ed0152efbd4f0f",
+        "sample_ids": [
+          "SCB-turnhead-021"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+        "sample_ids": [
+          "P007-extra-01",
+          "P007-person-01",
+          "P007-person-02"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0013024.jpg",
+    "source_image_sha256": "7335a508a26d4f95cd4864ff1d88c79394f92bbd63323b9dbde6b39b415966f2",
+    "source_label_relpath": "labels/train/0013024.txt",
+    "source_label_sha256": "938c1a510d6759ec9856700053666a736d61f90145ad1611c1028aa837593702",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 689,
+    "height": 441,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.4993742888243832,
+      "y_center": 0.6468116213151928,
+      "width": 0.25774178519593616,
+      "height": 0.6862407029478459
+    },
+    "rank_sha256": "05289a77ee1873781cf76206a69ff04f4e1a9c99ae85e79e0597aea200b9fe82",
+    "exact_aliases": [
+      "scb_hrw:images/train/0013024.jpg"
+    ],
+    "sample_id": "EXP-SCB-016",
+    "source_anchor_xyxy": [
+      255.27684,
+      133.92784999999998,
+      432.86093000000005,
+      436.56
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      255,
+      133,
+      433,
+      437
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-016.png",
+    "crop_sha256": "aed5a0d67af8f5f5f6c8b29dd94c26e958b809a14270a75c3ffd81ce72867030",
+    "dhash": 2688019859927102419,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "c53653d828ee39fa6d4307d2baa24d755eac4274944b7175a711f153c6c1135d",
+        "sample_ids": [
+          "P043-person-01"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "108fe4cc450b4c9cf959651b77fbccce3fd4e567964bfcdf8c073f8cf983936a",
+        "sample_ids": [
+          "P039-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "2232030fef6ab4611f74b5240940ac63308339de3cc528c7f2efba375e3804b0",
+        "sample_ids": [
+          "SCB-write-006"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0013002.jpg",
+    "source_image_sha256": "c7cd9bfe1cee24fa04b966dc400f2701e9c92dc0b5fe5f2cd664ce98f9617c6a",
+    "source_label_relpath": "labels/train/0013002.txt",
+    "source_label_sha256": "962cd3dbb3e592f139bb66f605ef096f32cb55e1f32bf925a51a898eca7670e0",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 1034,
+    "height": 707,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.8495758558994196,
+      "y_center": 0.6598427157001414,
+      "width": 0.26488672147001935,
+      "height": 0.5637799151343705
+    },
+    "rank_sha256": "19008477e023c300c9f047fa8786f10eae3899d3e6eba4a554d570a482933ab7",
+    "exact_aliases": [
+      "scb_hrw:images/train/0013002.jpg"
+    ],
+    "sample_id": "EXP-SCB-017",
+    "source_anchor_xyxy": [
+      741.515,
+      267.2126,
+      1015.4078699999999,
+      665.805
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      741,
+      267,
+      1016,
+      666
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-017.png",
+    "crop_sha256": "d729595fd30bea6d0e85b0273a26fed09cfe1f8b7f5802f7f78c0a1fe5c56828",
+    "dhash": 3461186591266557381,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+        "sample_ids": [
+          "P036-person-01"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+        "sample_ids": [
+          "P034-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "9838667ffbfa121624e85025953441478693ff961d651afed7a86975552a6cb3",
+        "sample_ids": [
+          "P035-person-01"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0203019.jpg",
+    "source_image_sha256": "ce28b2701e4f78bce6fd4e11f643d4b01986f193b8a003d16abf6510d4797ea5",
+    "source_label_relpath": "labels/train/0203019.txt",
+    "source_label_sha256": "aee122f9946fc1969953478c056e52b9bd068888821bd2e33806b2f7e0a710d5",
+    "source_label_line_1based": 4,
+    "source_class_id": 2,
+    "width": 737,
+    "height": 526,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.15273812754409768,
+      "y_center": 0.7412442965779468,
+      "width": 0.299921302578019,
+      "height": 0.49935171102661596
+    },
+    "rank_sha256": "26265cee045b17548f2883d807ca2cfd11234d7b37700f89100d447d737d9b2b",
+    "exact_aliases": [
+      "scb_hrw:images/train/0203019.jpg"
+    ],
+    "sample_id": "EXP-SCB-018",
+    "source_anchor_xyxy": [
+      2.046999999999984,
+      258.565,
+      223.089,
+      521.2239999999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      2,
+      258,
+      224,
+      522
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-018.png",
+    "crop_sha256": "080866f33bb9e2c86e416a5ec696e72405e42b7b899b2aa31f2aef4753ee824c",
+    "dhash": 10997902050223901129,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "df441ad80c804df7d30f8cec78788412bab87f7f2d8c02a5679b32d4650055ed",
+        "sample_ids": [
+          "SCB-turnhead-009"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "8749df295ef88fec1440a708cdcd468865e5025e06e7dbb2b073e17ebaa5a90d",
+        "sample_ids": [
+          "SCB-turnhead-020"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+        "sample_ids": [
+          "SCB-write-026"
+        ],
+        "distance": 26
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3005215.jpg",
+    "source_image_sha256": "d755f3187d8f10cecde653627a878ff22b9fe8315fecc33258f257844adf4c27",
+    "source_label_relpath": "labels/train/3005215.txt",
+    "source_label_sha256": "ea88b9cee01f201db0af6dc61af4b11071fbe98248386e22a47b533659774617",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 851,
+    "height": 469,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.4535840011750881,
+      "y_center": 0.6491666098081024,
+      "width": 0.15276099882491187,
+      "height": 0.26243577825159914
+    },
+    "rank_sha256": "49ca1eebd8d7b0587cc470e362e424110c0792d4ae248a03d2e94cfe6182d6fd",
+    "exact_aliases": [
+      "scb_hrw:images/train/3005215.jpg"
+    ],
+    "sample_id": "EXP-SCB-019",
+    "source_anchor_xyxy": [
+      321.00018,
+      242.91795000000002,
+      450.99979,
+      366.00033
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      321,
+      242,
+      451,
+      367
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-019.png",
+    "crop_sha256": "ee9c92604384c6383d716f21342a3605d1a88007170cf08aab92541a3bd8b3d4",
+    "dhash": 16285039010731953816,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+        "sample_ids": [
+          "SCB-write-005"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "23920abda9bc554e039097f583eaffd6bdda7c49c62c744e23c87c451fc187e4",
+        "sample_ids": [
+          "SCB-read-025"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+        "sample_ids": [
+          "SCB-write-024"
+        ],
+        "distance": 27
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0086_002310.jpg",
+    "source_image_sha256": "6c7efb4d4b99adea16795a633532dc8e23741e6dc887df1aeb19da43567adf91",
+    "source_label_relpath": "labels/train/0086_002310.txt",
+    "source_label_sha256": "a1cbb91251242728c5b463d69b6f70db601fb2c782c70e0d112c766d010cb72d",
+    "source_label_line_1based": 25,
+    "source_class_id": 2,
+    "width": 800,
+    "height": 450,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.345,
+      "y_center": 0.8033330000000001,
+      "width": 0.13000000000000003,
+      "height": 0.3800000000000001
+    },
+    "rank_sha256": "e4a5168ccf9109738fa080c83c38e594b8358dfcbb4607ea2215b091f086ff5d",
+    "exact_aliases": [
+      "scb_hrw:images/train/0086_002310.jpg"
+    ],
+    "sample_id": "EXP-SCB-020",
+    "source_anchor_xyxy": [
+      223.99999999999997,
+      275.99985,
+      328.0,
+      446.99985000000004
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      223,
+      275,
+      328,
+      447
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-020.png",
+    "crop_sha256": "dbe4b725e09c8002d6fc71d5b2e64d07bb8ce8f15038d34cc9c1a8b6e457c941",
+    "dhash": 4510177356165734119,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "321284c838b74ac3dc5f3d7d6888b1d06b2bc78d7aeb521d3ce219d7774587e6",
+        "sample_ids": [
+          "SCB-read-026"
+        ],
+        "distance": 2
+      },
+      {
+        "image_sha256": "6e540e7450b262b8699f6f5fc6654e84dd58962aa375d357d2cf594f46997954",
+        "sample_ids": [
+          "SCB-write-022"
+        ],
+        "distance": 3
+      },
+      {
+        "image_sha256": "8ec1ffa34af9762e74b8cfa949984e04b04056077f417d949f2dcf1dc220784d",
+        "sample_ids": [
+          "SCB-write-004"
+        ],
+        "distance": 4
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/6_000942.jpg",
+    "source_image_sha256": "0fc8b59aad2c9fae6379a7c6a35bce8c27e4afec2bac4ee61b5c269f640b665f",
+    "source_label_relpath": "labels/train/6_000942.txt",
+    "source_label_sha256": "be8bb12f43ea2d048896edec754ec23c4afdfb49124f31d709afc0d21f0e043a",
+    "source_label_line_1based": 8,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 448,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.8166331249999998,
+      "y_center": 0.5481674107142857,
+      "width": 0.13294875,
+      "height": 0.24741517857142856
+    },
+    "rank_sha256": "00effeb7e9a88df0987f1cd6aca4e9ff9675a3f3c94ff264c8c3993a928b7614",
+    "exact_aliases": [
+      "scb_head:images/train/6_000942.jpg"
+    ],
+    "sample_id": "EXP-SCB-021",
+    "source_anchor_xyxy": [
+      600.127,
+      190.15799999999996,
+      706.4859999999999,
+      300.99999999999994
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      600,
+      190,
+      707,
+      301
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-021.png",
+    "crop_sha256": "9b25fdc98774274fa5c19ab71c74340d2f8b46f7ba1b5161776743dd6311497d",
+    "dhash": 12532829152435106424,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "253d27d4af82afd3454c676e57cc09a79e4269ddd00be9bd266e5736ad7b1381",
+        "sample_ids": [
+          "SCB-turnhead-016"
+        ],
+        "distance": 10
+      },
+      {
+        "image_sha256": "feb8ed04c68b046412d0af51fbe2e390e1cf356f358de4062c59f4bed94f9e4e",
+        "sample_ids": [
+          "SCB-turnhead-018"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "5ba69477c4cba4b87f699e8d6b3892ccce64b3d34b5c68b7c39062fe125103b1",
+        "sample_ids": [
+          "SCB-write-023"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3003084.jpg",
+    "source_image_sha256": "b3a18fdb30c23571b49ef2c7beb3d4b43430cb5dd9e90ba8b919a6b2ad14d2a9",
+    "source_label_relpath": "labels/train/3003084.txt",
+    "source_label_sha256": "82ba3ec3bf06fb011b38b0df7ad43b776f36cb3b6ccebc875c8b1e3f33d9be6f",
+    "source_label_line_1based": 4,
+    "source_class_id": 1,
+    "width": 1801,
+    "height": 883,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.24676490838423099,
+      "y_center": 0.2251658154020385,
+      "width": 0.08225474736257635,
+      "height": 0.1677699093997735
+    },
+    "rank_sha256": "011507fa448d32ea993f1c988094bb2e3cd178305dbab5f6ba208cdf87d632ec",
+    "exact_aliases": [
+      "scb_hrw:images/train/3003084.jpg"
+    ],
+    "sample_id": "EXP-SCB-022",
+    "source_anchor_xyxy": [
+      370.3532,
+      124.751,
+      518.494,
+      272.89183
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      370,
+      124,
+      519,
+      273
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-022.png",
+    "crop_sha256": "3d060818ec2a0b8251ac4a0223209a4d5e17fe9878e0c07886fea9b86f04a70f",
+    "dhash": 8621905964449580497,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+        "sample_ids": [
+          "SCB-write-026"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "7a841f22710ff3fb5a32b027647608ca3d3cb26d3b850bf45b9de29fd66ec1a2",
+        "sample_ids": [
+          "SCB-read-002"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "87a7f8f97d4168a006ca6d9ad8902f9477419792dca6a94a21016741b3fad043",
+        "sample_ids": [
+          "P009-person-01"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1000019.jpg",
+    "source_image_sha256": "782d4ac4a2e50d392ccddb16f58fc2a5201b49b20a65c23db4c2bfe29ad671a1",
+    "source_label_relpath": "labels/train/1000019.txt",
+    "source_label_sha256": "cfac03ab013eb7ebb30ceb2273e893c4e5fecfcc491c7d88e8e389bff3251295",
+    "source_label_line_1based": 3,
+    "source_class_id": 2,
+    "width": 723,
+    "height": 546,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.09649631396957123,
+      "y_center": 0.8466669688644689,
+      "width": 0.1862798478561549,
+      "height": 0.2688895054945055
+    },
+    "rank_sha256": "0d48f9320ceb186a9df21695387ce876d0676d3fecd8bca8a60f046a8bd66ce3",
+    "exact_aliases": [
+      "scb_hrw:images/train/1000019.jpg"
+    ],
+    "sample_id": "EXP-SCB-023",
+    "source_anchor_xyxy": [
+      2.426670000000004,
+      388.87333,
+      137.10699999999997,
+      535.687
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      2,
+      388,
+      138,
+      536
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-023.png",
+    "crop_sha256": "34f720a64649fe9da10d4aa758f1a48cd946378ddc905e201b8afb6925c41d47",
+    "dhash": 7883383367080294197,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+        "sample_ids": [
+          "SCB-turnhead-013"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+        "sample_ids": [
+          "SCB-write-026"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "feb8ed04c68b046412d0af51fbe2e390e1cf356f358de4062c59f4bed94f9e4e",
+        "sample_ids": [
+          "SCB-turnhead-018"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/0006005.jpg",
+    "source_image_sha256": "cb136c2d7242fca6f92b45d09300fd03e08ffedffe24b6b74421b4802fe427d9",
+    "source_label_relpath": "labels/train/0006005.txt",
+    "source_label_sha256": "70821512bda2b673c053d29fcde624434719e509886cf3c713522556dc7cb004",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1314,
+    "height": 973,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.8907153729071537,
+      "y_center": 0.3122302158273381,
+      "width": 0.2024353120243531,
+      "height": 0.3079136690647482
+    },
+    "rank_sha256": "0e9fe7de56adf9ffbf955f9b11ee8eb531094bf24837ce4cba35b1ce0059ae86",
+    "exact_aliases": [
+      "scb_head:images/train/0006005.jpg"
+    ],
+    "sample_id": "EXP-SCB-024",
+    "source_anchor_xyxy": [
+      1037.4,
+      154.0,
+      1303.4,
+      453.59999999999997
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1037,
+      154,
+      1304,
+      454
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-024.png",
+    "crop_sha256": "077fd1659927a77100970ccc09bda95dad626dec4a159b9ab829b3b7cb710b46",
+    "dhash": 9397343445982460265,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "6e6010ac3c9ba97539d90c3f8c400beb62ebffddb3289535ba140bdce06f144b",
+        "sample_ids": [
+          "SCB-read-021"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+        "sample_ids": [
+          "P038-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "108fe4cc450b4c9cf959651b77fbccce3fd4e567964bfcdf8c073f8cf983936a",
+        "sample_ids": [
+          "P039-person-01"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3005039.jpg",
+    "source_image_sha256": "bd9348b823b45fcb082fd9e9406e68f69443715ccc4edeef32c29a76fd775d6f",
+    "source_label_relpath": "labels/train/3005039.txt",
+    "source_label_sha256": "f9cea0e5e96d6ae70fd69f25d60b81967376fffe06748cdf320bfb60e76bbe33",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 1879,
+    "height": 998,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.888505,
+      "y_center": 0.753006,
+      "width": 0.126131,
+      "height": 0.3937880000000001
+    },
+    "rank_sha256": "13ad603c94093cee46a34b9a5573be47dc84b7d79ac1662a8577a3a61fe05ade",
+    "exact_aliases": [
+      "scb_hrw:images/train/3005039.jpg"
+    ],
+    "sample_id": "EXP-SCB-025",
+    "source_anchor_xyxy": [
+      1551.0008205,
+      554.9997759999999,
+      1788.0009694999999,
+      948.0002
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1551,
+      554,
+      1789,
+      949
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-025.png",
+    "crop_sha256": "43553c161d366cca0343c49cafae56080f8aef3aff9b53c815bfbfb3615a8032",
+    "dhash": 6567236720236709454,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "6527078a230cb750b366638dffef9a42bef1825deba0bb2d9e1200ce3a1c6bf1",
+        "sample_ids": [
+          "SCB-write-025"
+        ],
+        "distance": 7
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "c31aabfad559a3c877c532aa07bd5e0048c6acd1577672a9eaeea28203d68d6e",
+        "sample_ids": [
+          "SCB-turnhead-023"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3004144.jpg",
+    "source_image_sha256": "5c5f2da7cc42427f22077562db595a1b3eb4a03aa32a664f37e9b0310f57d191",
+    "source_label_relpath": "labels/train/3004144.txt",
+    "source_label_sha256": "f10c6c52eb0693e99436502cd1c1dd2e083e16aa6361a77d4aa602501219aa5b",
+    "source_label_line_1based": 8,
+    "source_class_id": 1,
+    "width": 2692,
+    "height": 1879,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.89023,
+      "y_center": 0.73736,
+      "width": 0.2083950000000001,
+      "height": 0.236828
+    },
+    "rank_sha256": "20193bacefabcfa2a219b44070e4047071c9a167f58eb2e5389405698c0d6d2b",
+    "exact_aliases": [
+      "scb_hrw:images/train/3004144.jpg"
+    ],
+    "sample_id": "EXP-SCB-026",
+    "source_anchor_xyxy": [
+      2115.9994899999997,
+      1162.999534,
+      2676.99883,
+      1607.999346
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      2115,
+      1162,
+      2677,
+      1608
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-026.png",
+    "crop_sha256": "9213fc193858a613b22b84896156afbd1f5286fa46fe0d28a079ddd03c6292f6",
+    "dhash": 14685904073002301727,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "43d23494a9a8cb8264235c8897b4db4ed2b6592cb40d363ca434b34f35572034",
+        "sample_ids": [
+          "SCB-turnhead-014"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "c53653d828ee39fa6d4307d2baa24d755eac4274944b7175a711f153c6c1135d",
+        "sample_ids": [
+          "P043-person-01"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "e605f2297a6925dfc5ee169e08ecc399f72943a66208e14de57935314f3ea8c0",
+        "sample_ids": [
+          "SCB-turnhead-007"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3004107.jpg",
+    "source_image_sha256": "5f0da07087fa2e8622d9630969392c4a97ccae2cc2a86d6928bd45710794c22d",
+    "source_label_relpath": "labels/train/3004107.txt",
+    "source_label_sha256": "803cdd4aad256ea6ff36db2521b0d651e89d80fbfed10a033b0ec531fadab40e",
+    "source_label_line_1based": 9,
+    "source_class_id": 1,
+    "width": 843,
+    "height": 489,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.16251499999999997,
+      "y_center": 0.804703,
+      "width": 0.211151,
+      "height": 0.36196300000000003
+    },
+    "rank_sha256": "4bf6df0c1af2b26816ea1734f596d50de6a51bdea2cbcbf0f539e1d1020534bd",
+    "exact_aliases": [
+      "scb_hrw:images/train/3004107.jpg"
+    ],
+    "sample_id": "EXP-SCB-027",
+    "source_anchor_xyxy": [
+      47.99999849999997,
+      304.99981349999996,
+      226.00029149999997,
+      481.99972049999997
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      47,
+      304,
+      227,
+      482
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-027.png",
+    "crop_sha256": "4007159ef6b054a28daf3905c6568e6c78f7fd5692a43418b06746e3e3ffa61c",
+    "dhash": 11928108077387321138,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "23920abda9bc554e039097f583eaffd6bdda7c49c62c744e23c87c451fc187e4",
+        "sample_ids": [
+          "SCB-read-025"
+        ],
+        "distance": 17
+      },
+      {
+        "image_sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+        "sample_ids": [
+          "P007-extra-01",
+          "P007-person-01",
+          "P007-person-02"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "6e6010ac3c9ba97539d90c3f8c400beb62ebffddb3289535ba140bdce06f144b",
+        "sample_ids": [
+          "SCB-read-021"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3000058.jpg",
+    "source_image_sha256": "3d0a1eacda862befaef26fa6ea30b7d23ed9f2fdafc50c6e8165fcbb604a8aef",
+    "source_label_relpath": "labels/train/3000058.txt",
+    "source_label_sha256": "6db074c363f9edb37d0b3210ee1bd0b6ec667b05077f98e0ab73febd9f042857",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.397396,
+      "y_center": 0.69213,
+      "width": 0.29375000000000007,
+      "height": 0.482407
+    },
+    "rank_sha256": "680e0d4319be86b9248c5c56a952c56058b701dbeffa290673314ef368debbb7",
+    "exact_aliases": [
+      "scb_hrw:images/train/3000058.jpg"
+    ],
+    "sample_id": "EXP-SCB-028",
+    "source_anchor_xyxy": [
+      481.00032,
+      487.00062,
+      1045.00032,
+      1008.00018
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      481,
+      487,
+      1046,
+      1009
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-028.png",
+    "crop_sha256": "76f3cac55cdd8867ced4661de67ec0df4ad61be511030ad83f24776a1ec7f4af",
+    "dhash": 7407933360419956007,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "553d1040df1a9cbc4576e318908ccafef70cd625a7ed1c87164f162341df6f39",
+        "sample_ids": [
+          "SCB-write-009"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "0c90cbcb72fb7b4a537ad759f5b9c38c408a16fe3161699f67c1adff37c20a17",
+        "sample_ids": [
+          "SCB-read-006"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "7f3f35363753ed9bdaa534132ac00db129a897e2e997c1e566de26f2f9b66d48",
+        "sample_ids": [
+          "SCB-write-027"
+        ],
+        "distance": 21
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0009034.jpg",
+    "source_image_sha256": "2d4f130c54986ac0c7796166389be11d0f9ee0a223c72182a1a48d04fc75af59",
+    "source_label_relpath": "labels/train/0009034.txt",
+    "source_label_sha256": "7e421e396c4d2aa3b48ccc650f4e6fdd4505e07f5867b75ced099b4a030474a3",
+    "source_label_line_1based": 1,
+    "source_class_id": 2,
+    "width": 1921,
+    "height": 812,
+    "stratum": "write",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.4466280583029672,
+      "y_center": 0.6746249999999999,
+      "width": 0.33158302967204584,
+      "height": 0.6425652709359606
+    },
+    "rank_sha256": "fcb76d2999fe01b0602789d4beb3a18a92b7a39293877a46cabbc2b400518321",
+    "exact_aliases": [
+      "scb_hrw:images/train/0009034.jpg"
+    ],
+    "sample_id": "EXP-SCB-029",
+    "source_anchor_xyxy": [
+      539.487,
+      286.91399999999993,
+      1176.4579999999999,
+      808.6769999999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      539,
+      286,
+      1177,
+      809
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-029.png",
+    "crop_sha256": "cd89e8ccc4e99c80ab0846ca29de929c1fb56fc641bc3fa39000d1da0395aee5",
+    "dhash": 15071498147168462671,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "6527078a230cb750b366638dffef9a42bef1825deba0bb2d9e1200ce3a1c6bf1",
+        "sample_ids": [
+          "SCB-write-025"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "108fe4cc450b4c9cf959651b77fbccce3fd4e567964bfcdf8c073f8cf983936a",
+        "sample_ids": [
+          "P039-person-01"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/0002060.jpg",
+    "source_image_sha256": "ee37b7ac4ab6163a1a53acdb6a2836d844fd5554e205d842d6732445a7c46c1a",
+    "source_label_relpath": "labels/train/0002060.txt",
+    "source_label_sha256": "4014b4dedeea1d45528c6d8e855609edb87cad82857b40aadf280b57408976ac",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1094,
+    "height": 615,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.4938577422303473,
+      "y_center": 0.6373830975609757,
+      "width": 0.11978678244972578,
+      "height": 0.2915889593495935
+    },
+    "rank_sha256": "0aae453be86c71de05beafc5fe865dfb164e9c1e5e7bc8d32af1f393beda3c11",
+    "exact_aliases": [
+      "scb_head:images/train/0002060.jpg"
+    ],
+    "sample_id": "EXP-SCB-030",
+    "source_anchor_xyxy": [
+      474.75699999999995,
+      302.32700000000006,
+      605.80374,
+      481.65421000000003
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      474,
+      302,
+      606,
+      482
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-030.png",
+    "crop_sha256": "60fe72b097ade1414f7218fb5006fa6b5e08af6b84a256bf0280231b95cabc4a",
+    "dhash": 16488122239415002541,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "7fc9fcf1de1572bf3e034ecdd5267e2905fcb7953b02cff51f0b40f7855b8a88",
+        "sample_ids": [
+          "SCB-turnhead-006"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "505d1c14ba63dd22fa0143dae0bc5c09d64c3da5962916b1a595e3a2dd5b1d7d",
+        "sample_ids": [
+          "SCB-turnhead-011"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "ada542729d4d183ab0e6b3ee05fbc347834fc224ee010dbdbce90ffec417bdf6",
+        "sample_ids": [
+          "P008-extra-01",
+          "P008-person-01"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1305004.jpg",
+    "source_image_sha256": "4e2bfc7fff785a3d65106a199de0abe6ba9556b4323f786fe533a2ba33751f88",
+    "source_label_relpath": "labels/train/1305004.txt",
+    "source_label_sha256": "1b1be4da53a142bf0ae0333fe79fe1f6d6df4f34db0a43b216b86ac9fa3e4eff",
+    "source_label_line_1based": 4,
+    "source_class_id": 1,
+    "width": 1486,
+    "height": 958,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.37417206258411845,
+      "y_center": 0.8127755741127348,
+      "width": 0.18176085464333783,
+      "height": 0.3722463465553236
+    },
+    "rank_sha256": "15cc989553371e08fa97b294f6c83483cdd8dcb3f688e8e9cbd1612d498c63d5",
+    "exact_aliases": [
+      "scb_hrw:images/train/1305004.jpg"
+    ],
+    "sample_id": "EXP-SCB-031",
+    "source_anchor_xyxy": [
+      420.97137000000004,
+      600.333,
+      691.068,
+      956.9449999999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      420,
+      600,
+      692,
+      957
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-031.png",
+    "crop_sha256": "156d4732cbea3453f4e005020fe4bcffc12f3fe3596b30519c97415d4c4d8927",
+    "dhash": 9025001684587928282,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+        "sample_ids": [
+          "SCB-read-017"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+        "sample_ids": [
+          "P038-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "0074d7eed70ae8c4bdb6c0a284e67b9adefa5979c8189bc42233c9a6d8e71f7f",
+        "sample_ids": [
+          "SCB-read-010"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/49_001017.jpg",
+    "source_image_sha256": "252f77ce0c276768759e60001cf1f66677471b3821caf1840e5bc2e5807ae21e",
+    "source_label_relpath": "labels/train/49_001017.txt",
+    "source_label_sha256": "814326d0f2494cdf11c8d49f1f2f280f44b927961947ee2ef8863f918e78baeb",
+    "source_label_line_1based": 13,
+    "source_class_id": 1,
+    "width": 720,
+    "height": 404,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6461642638888889,
+      "y_center": 0.8397982673267327,
+      "width": 0.17010630555555556,
+      "height": 0.30316089108910893
+    },
+    "rank_sha256": "1b69833b60c2c6c75400b89dd1f1cb94d066f4db818ee9d8b14a2bf0aec6b45b",
+    "exact_aliases": [
+      "scb_head:images/train/49_001017.jpg"
+    ],
+    "sample_id": "EXP-SCB-032",
+    "source_anchor_xyxy": [
+      404.0,
+      278.03999999999996,
+      526.47654,
+      400.51700000000005
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      404,
+      278,
+      527,
+      401
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-032.png",
+    "crop_sha256": "90c0cc86e05d6da563b30961ee7da198188cfb40673cfb09c25ebae7a55134f2",
+    "dhash": 1314112432206721845,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "d3379a41f315c99d8b10167e2418a608118230f4db11b52ee318e4da2d02b0a3",
+        "sample_ids": [
+          "P029-person-01",
+          "P029-person-02"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+        "sample_ids": [
+          "SCB-read-027"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/130_001699.jpg",
+    "source_image_sha256": "c1e8335486a8db0a574afeda8be2719cf17a618faddc8b51f9d8bb95d7ad9d59",
+    "source_label_relpath": "labels/train/130_001699.txt",
+    "source_label_sha256": "3e297b3506d0ab6cffcbea31a0dc2ce05f98afe6a9b9efe3cf154ccc51322989",
+    "source_label_line_1based": 12,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.7713127604166666,
+      "y_center": 0.7482012268518519,
+      "width": 0.13597135416666667,
+      "height": 0.46043208333333335
+    },
+    "rank_sha256": "30833d7109a119ecb5d7d6d97bb71696a8572cbe7f7f8935bcadee58178a79a7",
+    "exact_aliases": [
+      "scb_head:images/train/130_001699.jpg",
+      "scb_hrw:images/train/130_001699.jpg"
+    ],
+    "sample_id": "EXP-SCB-033",
+    "source_anchor_xyxy": [
+      1350.388,
+      559.424,
+      1611.453,
+      1056.69065
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1350,
+      559,
+      1612,
+      1057
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-033.png",
+    "crop_sha256": "78984412122823d0d0f436860afb485e74e9bd434b246940d63e14208d05166a",
+    "dhash": 11351001628576521262,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "7db537835d094a6d46860b55ef7ca4ee51b450a15133219ed84cb3a9673d7357",
+        "sample_ids": [
+          "SCB-turnhead-002"
+        ],
+        "distance": 6
+      },
+      {
+        "image_sha256": "8870fcbf67061a5bf756fa21cf423c9825f5efb056033c37f7533e516067f8ff",
+        "sample_ids": [
+          "SCB-read-014"
+        ],
+        "distance": 9
+      },
+      {
+        "image_sha256": "161d79c488318ba37700815b898283ba582eee8d54897575d8243197152e1198",
+        "sample_ids": [
+          "SCB-turnhead-003"
+        ],
+        "distance": 11
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/18_000764.jpg",
+    "source_image_sha256": "6007db3a57044efe6e037b92d98e741609c5e334f67e2a035dd0370f274203bc",
+    "source_label_relpath": "labels/train/18_000764.txt",
+    "source_label_sha256": "5367733f769460855adc56d85a0203c9ca851d65123928dc69d998ec7c451cba",
+    "source_label_line_1based": 12,
+    "source_class_id": 1,
+    "width": 800,
+    "height": 450,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.8490625,
+      "y_center": 0.7638888888888888,
+      "width": 0.218125,
+      "height": 0.4722222222222222
+    },
+    "rank_sha256": "378d1efb910e10d1157486b86faa0382d75742082cdf4dfe7769069fff5ae091",
+    "exact_aliases": [
+      "scb_head:images/train/18_000764.jpg",
+      "scb_hrw:images/train/18_000764.jpg"
+    ],
+    "sample_id": "EXP-SCB-034",
+    "source_anchor_xyxy": [
+      592.0,
+      237.49999999999994,
+      766.5000000000001,
+      450.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      592,
+      237,
+      767,
+      450
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-034.png",
+    "crop_sha256": "1c63f26594fa706e4d34b034573c34ad7578559ac53bb0f5276f24281c253c96",
+    "dhash": 3562298350205762590,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5be91b2bdd2e58b5185e4c187d73506c37accb10cdf50132500484b418fc9972",
+        "sample_ids": [
+          "SCB-read-028"
+        ],
+        "distance": 9
+      },
+      {
+        "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+        "sample_ids": [
+          "P036-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "3126997f90c981e51c2e142b6154249fb202c1226312db0b7f3df5213b858e1c",
+        "sample_ids": [
+          "P032-person-01"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3005018.jpg",
+    "source_image_sha256": "1d3030dda307cbe4ccb2468fc0aee1c041398f72aa506a6a5f530c56d24d2441",
+    "source_label_relpath": "labels/train/3005018.txt",
+    "source_label_sha256": "d9cf59334e931de3db2dc281554dd2488159b535871947124e04c43265337308",
+    "source_label_line_1based": 6,
+    "source_class_id": 1,
+    "width": 1892,
+    "height": 1030,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.2344080021141649,
+      "y_center": 0.7205749854368931,
+      "width": 0.1728330021141649,
+      "height": 0.5180730388349515
+    },
+    "rank_sha256": "3b1573eec0dab92c4763d709a08c3153515f4bb7ecca1f88094ab0900938d387",
+    "exact_aliases": [
+      "scb_hrw:images/train/3005018.jpg"
+    ],
+    "sample_id": "EXP-SCB-035",
+    "source_anchor_xyxy": [
+      279.99992,
+      475.3846199999999,
+      606.99996,
+      1008.9998499999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      279,
+      475,
+      607,
+      1009
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-035.png",
+    "crop_sha256": "32d6e943e26d935b0eb2765bb92c9df142746bd93dbe6b3a88c4d23a0d9e7219",
+    "dhash": 13329243508239156115,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "90118c0df162635ce9b5f30cd941f3450b20469816f0b0c7ddb50605adc91b1c",
+        "sample_ids": [
+          "P019-person-01"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+        "sample_ids": [
+          "P034-person-01"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+        "sample_ids": [
+          "P036-person-01"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/3000099.jpg",
+    "source_image_sha256": "5b1ce39c511504efac87270f2f13ad291e861b976f10ea3460e0480c5f5e4a2c",
+    "source_label_relpath": "labels/train/3000099.txt",
+    "source_label_sha256": "6a8e3e8da600def3fed2a3bfedfa90add4db91c959ede95ed779d8a5c83843fc",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 877,
+    "height": 499,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5260712656784493,
+      "y_center": 0.6772154308617235,
+      "width": 0.5803888255416191,
+      "height": 0.6223627254509019
+    },
+    "rank_sha256": "3e4dffa2dd4bcfb94903225cb7711c5ef668c5269881f14f0e73a475ecbd4c5e",
+    "exact_aliases": [
+      "scb_hrw:images/train/3000099.jpg"
+    ],
+    "sample_id": "EXP-SCB-036",
+    "source_anchor_xyxy": [
+      206.8640000000001,
+      182.651,
+      715.865,
+      493.21000000000004
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      206,
+      182,
+      716,
+      494
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-036.png",
+    "crop_sha256": "956657ebe3cf669c5babe755d838deb1cea7189f24a2fcd8f2185ac8941d2f83",
+    "dhash": 17506604332565090668,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5be91b2bdd2e58b5185e4c187d73506c37accb10cdf50132500484b418fc9972",
+        "sample_ids": [
+          "SCB-read-028"
+        ],
+        "distance": 20
+      },
+      {
+        "image_sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+        "sample_ids": [
+          "P038-person-01"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/24_000065.jpg",
+    "source_image_sha256": "fc081b8b91c03219f1760ae83c892317812614ff840e5a2eb1eb20be2808ceeb",
+    "source_label_relpath": "labels/train/24_000065.txt",
+    "source_label_sha256": "ae9d2406ccf1c1b3fad7651159237f44ee047d70148ea51a881d83ea82e8dc00",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 720,
+    "height": 404,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.11739793055555556,
+      "y_center": 0.4585556930693069,
+      "width": 0.12227358333333334,
+      "height": 0.2299480198019802
+    },
+    "rank_sha256": "4ef51a65ffbc4fa098f622ea0d60e94df91f54803400c68da32e3369df14d758",
+    "exact_aliases": [
+      "scb_head:images/train/24_000065.jpg"
+    ],
+    "sample_id": "EXP-SCB-037",
+    "source_anchor_xyxy": [
+      40.50802,
+      138.807,
+      128.545,
+      231.70600000000002
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      40,
+      138,
+      129,
+      232
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-037.png",
+    "crop_sha256": "04cd83e6e914e1fc711f6536b3a043e51c5d65f98e4e3a070bfd1f2220bf8c95",
+    "dhash": 11068377073035660764,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "80615d5f0622f914cc86d5bcf4a9566bd19a6e237d3d2c1afa0b8b09ad9f41da",
+        "sample_ids": [
+          "SCB-turnhead-001"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "e605f2297a6925dfc5ee169e08ecc399f72943a66208e14de57935314f3ea8c0",
+        "sample_ids": [
+          "SCB-turnhead-007"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "87a7f8f97d4168a006ca6d9ad8902f9477419792dca6a94a21016741b3fad043",
+        "sample_ids": [
+          "P009-person-01"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1301001.jpg",
+    "source_image_sha256": "fe229da4bfeffd3d3abe9da7f99a6f762008eecd1bcea04ba07088f1f9cc8fc7",
+    "source_label_relpath": "labels/train/1301001.txt",
+    "source_label_sha256": "6545867a83211863657ee9d3d02b2a47770a8e896727124a04c9d981f73f20cd",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 919,
+    "height": 510,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.16098533732317738,
+      "y_center": 0.4699333431372549,
+      "width": 0.09331561479869424,
+      "height": 0.2160353137254902
+    },
+    "rank_sha256": "507d1d910d7f3b77c7deac57f07561afa7a01555c733efbc37874e11795e6331",
+    "exact_aliases": [
+      "scb_hrw:images/train/1301001.jpg"
+    ],
+    "sample_id": "EXP-SCB-038",
+    "source_anchor_xyxy": [
+      105.06700000000001,
+      184.57699999999997,
+      190.82405,
+      294.75500999999997
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      105,
+      184,
+      191,
+      295
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-038.png",
+    "crop_sha256": "bfe0f39d97a02f64ae7246d691991a7830a9814ee726fbcbcf636306d25c2502",
+    "dhash": 6437997257503029509,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "493e050c702d0d43b0e4bdceb41637c5534f5383d7ae35ad16dcb1e58429ae0a",
+        "sample_ids": [
+          "SCB-read-008"
+        ],
+        "distance": 17
+      },
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+        "sample_ids": [
+          "SCB-write-024"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/53_001587.jpg",
+    "source_image_sha256": "b5cf1651c6c94ae977386630ec73c72e44c7016020630bd17ae63ab815dbda35",
+    "source_label_relpath": "labels/train/53_001587.txt",
+    "source_label_sha256": "7210deb0bb4d8a2d0b4b3bc5cb2b5f46b249967ddcbb9fdb5c3688f533b56350",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 720,
+    "height": 404,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.1388888888888889,
+      "y_center": 0.536509900990099,
+      "width": 0.10555555555555556,
+      "height": 0.32301980198019803
+    },
+    "rank_sha256": "61fdf37997ac07bc7f36edcf292356bd523092306e703c7c7ad1c0b7fa4a24dd",
+    "exact_aliases": [
+      "scb_head:images/train/53_001587.jpg"
+    ],
+    "sample_id": "EXP-SCB-039",
+    "source_anchor_xyxy": [
+      62.0,
+      151.5,
+      138.0,
+      282.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      62,
+      151,
+      138,
+      282
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-039.png",
+    "crop_sha256": "cc5e05099b066900b0c51fc403d8b49cafae642b8e2dd9de0d58c680e5c243d0",
+    "dhash": 10708672266643001435,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5ba69477c4cba4b87f699e8d6b3892ccce64b3d34b5c68b7c39062fe125103b1",
+        "sample_ids": [
+          "SCB-write-023"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "8157df6c3f8d350374d969ef95d799b9cfc18ac8c85e486e86fe11dfda767c2c",
+        "sample_ids": [
+          "SCB-turnhead-005"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "470fe5b4f97a35249842b1d966610a5c6c8d6d848671601293c55fa1c4fff049",
+        "sample_ids": [
+          "P047-extra-01",
+          "P047-person-01"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/00030013.jpg",
+    "source_image_sha256": "68848e9d14308f8acd854611177480f661b32a72baaa0699d4e5468eb25e66f4",
+    "source_label_relpath": "labels/train/00030013.txt",
+    "source_label_sha256": "e85826b009b9c02848f7c939a271f3c4558cd3ae7d65e899e289ea1bf2079365",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1893,
+    "height": 852,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6422227865821448,
+      "y_center": 0.26578058098591545,
+      "width": 0.0882216851558373,
+      "height": 0.20597977699530515
+    },
+    "rank_sha256": "815a43b354135f47a699a4311718a0045146f49003135b3c62aa5a0247f2bb63",
+    "exact_aliases": [
+      "scb_head:images/train/00030013.jpg"
+    ],
+    "sample_id": "EXP-SCB-040",
+    "source_anchor_xyxy": [
+      1132.22591,
+      138.69767,
+      1299.2295600000002,
+      314.1924399999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1132,
+      138,
+      1300,
+      315
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-040.png",
+    "crop_sha256": "a5f6190a784b7756b47feb015c7cae6fbf42942324bbbdc71cc11470731c8f9f",
+    "dhash": 14492080905443849959,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+        "sample_ids": [
+          "SCB-read-016"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+        "sample_ids": [
+          "SCB-read-017"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "8157df6c3f8d350374d969ef95d799b9cfc18ac8c85e486e86fe11dfda767c2c",
+        "sample_ids": [
+          "SCB-turnhead-005"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/136_001457.jpg",
+    "source_image_sha256": "9359aeff05a4e3f17adcae7aa52ddbd43efdda5d000f8166a366cf2e6460cefc",
+    "source_label_relpath": "labels/train/136_001457.txt",
+    "source_label_sha256": "88fe16296b0bb62b3e32151290db864343232c58b2753e09cf7113efc7ca2422",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 1280,
+    "height": 720,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.93984375,
+      "y_center": 0.6555555555555556,
+      "width": 0.0765625,
+      "height": 0.2361111111111111
+    },
+    "rank_sha256": "90b2576f1d507e8569bb4d74da5c35225f9015d735f38d334d5bbc2052f7be77",
+    "exact_aliases": [
+      "scb_head:images/train/136_001457.jpg"
+    ],
+    "sample_id": "EXP-SCB-041",
+    "source_anchor_xyxy": [
+      1154.0,
+      387.0,
+      1252.0,
+      557.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1154,
+      387,
+      1252,
+      557
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-041.png",
+    "crop_sha256": "f6020e2222e3b338cdea6b0b649842f896c50a873bd42726d1e327d0bf12b2ee",
+    "dhash": 10182372369827584934,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+        "sample_ids": [
+          "P007-extra-01",
+          "P007-person-01",
+          "P007-person-02"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "86f478f4e521d48f4011e34950c5ebcfc7412b93ddc1baaea575a6c1cb901ae4",
+        "sample_ids": [
+          "SCB-write-013"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+        "sample_ids": [
+          "SCB-read-016"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1120036.jpg",
+    "source_image_sha256": "a6157ea16c02775837857732064618cd3a5d0779ad67045916d3b1af7f913c02",
+    "source_label_relpath": "labels/train/1120036.txt",
+    "source_label_sha256": "1611161dd7e59c7f3d1d9fc07cd218273e0045ed424e97c1a94aeb076fdc490f",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 1028,
+    "height": 683,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.21715674610894942,
+      "y_center": 0.631322840409956,
+      "width": 0.20164617704280155,
+      "height": 0.5350204978038067
+    },
+    "rank_sha256": "aef2a738d47b70a3d0e2ff8ee3862717208c8e92051a4fd93438bd0541baed6c",
+    "exact_aliases": [
+      "scb_hrw:images/train/1120036.jpg"
+    ],
+    "sample_id": "EXP-SCB-042",
+    "source_anchor_xyxy": [
+      119.59100000000001,
+      248.48399999999998,
+      326.88327,
+      613.9029999999999
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      119,
+      248,
+      327,
+      614
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-042.png",
+    "crop_sha256": "04b16f55a50c44a0b7579b606f0d05d942a9504740f396097fe90e08bc590361",
+    "dhash": 1373981766785370228,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "fed6424697b84d46fe2e3c66500adf168a8b4a32bf8047ef7ce7559f2f69ae01",
+        "sample_ids": [
+          "SCB-turnhead-008"
+        ],
+        "distance": 18
+      },
+      {
+        "image_sha256": "5be91b2bdd2e58b5185e4c187d73506c37accb10cdf50132500484b418fc9972",
+        "sample_ids": [
+          "SCB-read-028"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+        "sample_ids": [
+          "P030-person-01"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1000011.jpg",
+    "source_image_sha256": "d9d46b21f8114f01b5681a239f86d509de59660c496abd4a66233b37aa54d506",
+    "source_label_relpath": "labels/train/1000011.txt",
+    "source_label_sha256": "6c1ac3eb767c19796c2c2150caaab59b35304e81a2439d23d237d82660a14234",
+    "source_label_line_1based": 3,
+    "source_class_id": 1,
+    "width": 707,
+    "height": 538,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6860001131541725,
+      "y_center": 0.5047472118959108,
+      "width": 0.18881700141442714,
+      "height": 0.2943048327137547
+    },
+    "rank_sha256": "c159d1d6dbb131e7ae3ce7a6f9266fee5f603d2304bbb571a4d5135fc41f7eea",
+    "exact_aliases": [
+      "scb_hrw:images/train/1000011.jpg"
+    ],
+    "sample_id": "EXP-SCB-043",
+    "source_anchor_xyxy": [
+      418.25526999999994,
+      192.38599999999997,
+      551.74889,
+      350.72200000000004
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      418,
+      192,
+      552,
+      351
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-043.png",
+    "crop_sha256": "ca4e8f0cc8ee7164849d0370e3d779096b688e060e4811b7ec028be80a1aab29",
+    "dhash": 3171757607007727159,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "feb8ed04c68b046412d0af51fbe2e390e1cf356f358de4062c59f4bed94f9e4e",
+        "sample_ids": [
+          "SCB-turnhead-018"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "c6b3304e95e3a9683fc0d5f8af97b8c2ce08eef99cfef7570c0244a0705be80e",
+        "sample_ids": [
+          "SCB-write-003"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "37ca2bb9894bc139304cce5b33d7318603ae5ebd05c6ae4c89f5ce04dcb054b5",
+        "sample_ids": [
+          "SCB-read-019"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1399020.jpg",
+    "source_image_sha256": "5d2a3f42be5ebdb7e600e031c002bf80b4378a0a9b55484fa0a62ec6f86e73d9",
+    "source_label_relpath": "labels/train/1399020.txt",
+    "source_label_sha256": "599ab231bc6d3a01dd9523f30e5797ac76500361d594dd8750fe83cbe7cdd1b1",
+    "source_label_line_1based": 10,
+    "source_class_id": 1,
+    "width": 1541,
+    "height": 916,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6337360220635951,
+      "y_center": 0.6132288864628821,
+      "width": 0.3251976508760545,
+      "height": 0.757847903930131
+    },
+    "rank_sha256": "de95a8b51c45c1e012ee57da8559d59cac505aeb9f891d930aeddf89118e709e",
+    "exact_aliases": [
+      "scb_hrw:images/train/1399020.jpg"
+    ],
+    "sample_id": "EXP-SCB-044",
+    "source_anchor_xyxy": [
+      726.02242,
+      214.62332,
+      1227.152,
+      908.812
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      726,
+      214,
+      1228,
+      909
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-044.png",
+    "crop_sha256": "5d6f5aa3a77e9b729ec6947422d5ae3d6f23abf1187c5ff295132a64ff4d5faa",
+    "dhash": 5197638223635704040,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "bd33b77fdb9ff051f677e7e2d74774e445220170791bb2c85618c65c2380acae",
+        "sample_ids": [
+          "SCB-read-023"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "86f478f4e521d48f4011e34950c5ebcfc7412b93ddc1baaea575a6c1cb901ae4",
+        "sample_ids": [
+          "SCB-write-013"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "df441ad80c804df7d30f8cec78788412bab87f7f2d8c02a5679b32d4650055ed",
+        "sample_ids": [
+          "SCB-turnhead-009"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/130_001631.jpg",
+    "source_image_sha256": "db8c0040bb0b2a0448c72f2ef67edc5da830ef2bed264f1d0a998c6a9a573445",
+    "source_label_relpath": "labels/train/130_001631.txt",
+    "source_label_sha256": "649f1d8117e8458d75626c5bf109488dfc9d2e286bc3d98f7c95580e434b5087",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.20517089322916665,
+      "y_center": 0.8014389861111112,
+      "width": 0.10602511979166666,
+      "height": 0.3165464907407407
+    },
+    "rank_sha256": "e51c3daa927c391480f066d06f9e54134a56b3090d68b82a2bfe0e349aa470d0",
+    "exact_aliases": [
+      "scb_head:images/train/130_001631.jpg"
+    ],
+    "sample_id": "EXP-SCB-045",
+    "source_anchor_xyxy": [
+      292.14399999999995,
+      694.6190000000001,
+      495.7122299999999,
+      1036.4892100000002
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      292,
+      694,
+      496,
+      1037
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-045.png",
+    "crop_sha256": "3fbd039fc284f30a9f35ea7fd3e6a116c9ab6ed809ef92b769d6715d98674c70",
+    "dhash": 8674890948728630445,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0c7ab118889f1c314ac1046dbe8cc5578c5c67c7d5588ec3ca02765f9fcb2ddc",
+        "sample_ids": [
+          "SCB-turnhead-024"
+        ],
+        "distance": 8
+      },
+      {
+        "image_sha256": "7fc9fcf1de1572bf3e034ecdd5267e2905fcb7953b02cff51f0b40f7855b8a88",
+        "sample_ids": [
+          "SCB-turnhead-006"
+        ],
+        "distance": 14
+      },
+      {
+        "image_sha256": "1d7eda339b30c6ab574abda55db5ca693ba90556eba1ed1c9ab4effece62bdc5",
+        "sample_ids": [
+          "SCB-read-020"
+        ],
+        "distance": 21
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/1322018.jpg",
+    "source_image_sha256": "f1ad391cbe05487f97c876b3a76edfa5de55d70df9412e439cddaa6decb33efb",
+    "source_label_relpath": "labels/train/1322018.txt",
+    "source_label_sha256": "137c2859350281d1f50c922471a48c20eb8bedcaf8487b533331273c0412d629",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 1353,
+    "height": 733,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.27655065779748705,
+      "y_center": 0.2093594815825375,
+      "width": 0.07138944567627495,
+      "height": 0.21921282401091405
+    },
+    "rank_sha256": "f96184bc4bf62b829159066337aaa16b171fbe44a12e384244c50e85ce44aff7",
+    "exact_aliases": [
+      "scb_hrw:images/train/1322018.jpg"
+    ],
+    "sample_id": "EXP-SCB-046",
+    "source_anchor_xyxy": [
+      325.87808,
+      73.11899999999999,
+      422.46799999999996,
+      233.802
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      325,
+      73,
+      423,
+      234
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-046.png",
+    "crop_sha256": "c946a8bc49c1c3ad152e962c2773728e56d563dff71f8ff3e9c06d7ade0c6306",
+    "dhash": 17501089979902088804,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "3771a15afd37da9af7f75d94fe46fa01ab54e00e66ba42d2ef15ac0287356c1b",
+        "sample_ids": [
+          "SCB-read-009"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "ab4a3002a89fafe85c063e351339c0ed6cc7465a8118e82dac03da0394b536dd",
+        "sample_ids": [
+          "SCB-write-007"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_head",
+    "archive_sha256": "a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828",
+    "source_image_relpath": "images/train/134_000493.jpg",
+    "source_image_sha256": "8d0b7d97f13bd12a9b9073fb5c13307025b6d577633ed6bb715a03adde636790",
+    "source_label_relpath": "labels/train/134_000493.txt",
+    "source_label_sha256": "d28674f46295caf0ae863b6e6be6993c4b8219fe61ea48697643d871d743ab72",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 1920,
+    "height": 1080,
+    "stratum": "turnhead",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.6292715911458334,
+      "y_center": 0.6136690925925926,
+      "width": 0.09469422395833332,
+      "height": 0.2230215185185185
+    },
+    "rank_sha256": "0e1f297f82ba65706069c846923f866f5757b5efbd42cb502883f3f9533f20c1",
+    "exact_aliases": [
+      "scb_head:images/train/134_000493.jpg"
+    ],
+    "sample_id": "EXP-SCB-047",
+    "source_anchor_xyxy": [
+      1117.2950000000003,
+      542.331,
+      1299.1079100000002,
+      783.19424
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1117,
+      542,
+      1300,
+      784
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-047.png",
+    "crop_sha256": "1b3e9dc2499ed10ef245661c5a1bd2950d092bf494fceee0699880dce3db5b69",
+    "dhash": 13762612962999770051,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+        "sample_ids": [
+          "P034-person-01"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+        "sample_ids": [
+          "P036-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "75a98ae4b3eaf81caa049a9cafd8c9d694277003b8fdb504c289d1c5fdffdc99",
+        "sample_ids": [
+          "SCB-turnhead-026"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "scb_hrw",
+    "archive_sha256": "46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d",
+    "source_image_relpath": "images/train/0081_001263.jpg",
+    "source_image_sha256": "927e4d48635676cfba6b94343fe6fe9cb43562dce61376a37e5958f16efa7880",
+    "source_label_relpath": "labels/train/0081_001263.txt",
+    "source_label_sha256": "a977c2b5a53115eaac08be70baf4e29567371a70f7a59be3dac6283a22b1b63b",
+    "source_label_line_1based": 2,
+    "source_class_id": 1,
+    "width": 720,
+    "height": 576,
+    "stratum": "read",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.8194440000000001,
+      "y_center": 0.69184,
+      "width": 0.1666670000000001,
+      "height": 0.293403
+    },
+    "rank_sha256": "2248fa31f5003b001eccdf92d72ce2250eec42e8fdbf73051480d9f9ccaa9339",
+    "exact_aliases": [
+      "scb_hrw:images/train/0081_001263.jpg"
+    ],
+    "sample_id": "EXP-SCB-048",
+    "source_anchor_xyxy": [
+      529.99956,
+      313.999776,
+      649.9998,
+      482.999904
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      529,
+      313,
+      650,
+      483
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-20261006-r2/crops/EXP-SCB-048.png",
+    "crop_sha256": "2c89c7269894e962f8cd75437fd353cb42b08ce29750434beed9c96d8fbfb481",
+    "dhash": 735270039706116864,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b2587fd11ddf61cd79b4735818525d63e652efd9a3ff91df96d1af51dd78e76e",
+        "sample_ids": [
+          "SCB-turnhead-028"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "43d23494a9a8cb8264235c8897b4db4ed2b6592cb40d363ca434b34f35572034",
+        "sample_ids": [
+          "SCB-turnhead-014"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "4a674ea2574b4323b42468147ac0c7328761932afa1c0fae46e2b0bc45a82386",
+        "sample_ids": [
+          "SCB-read-003"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  }
+]

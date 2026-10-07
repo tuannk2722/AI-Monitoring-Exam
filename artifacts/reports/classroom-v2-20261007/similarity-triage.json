@@ -1,0 +1,4212 @@
+{
+  "parent_fingerprints_sha256": "36d74bb5550415b212c40efbb6a01d8ac65a073bac211c6ad0f25d5dee2a7a6d",
+  "comparison_existing_unique_images": 177,
+  "comparison_scope": "112 record parent v4 (105 ảnh) và72 candidate R2; fingerprint cache, không đọc ảnh test v4.",
+  "no_independence_inference": true,
+  "images": [
+    {
+      "image_id": "CM-001",
+      "nearest_other_source_split": {
+        "image_id": "CM-142",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-002",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-003",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-004",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 9
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-002"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-005",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 9
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-006",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 13
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-007"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-007",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 13
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "P006-extra-01",
+            "P006-person-01",
+            "P006-person-02"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-008",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 10
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-011"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-041"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-009",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-037"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-010",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-013"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-011",
+      "nearest_other_source_split": {
+        "image_id": "CM-123",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-003"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-012",
+      "nearest_other_source_split": {
+        "image_id": "CM-123",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-013",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "P038-person-01"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "P039-person-01"
+          ],
+          "distance": 26
+        }
+      ]
+    },
+    {
+      "image_id": "CM-014",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-021"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-014"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-015",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 8
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-016"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-021"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-016",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-023"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-017",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 8
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-009"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-018",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-015"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-019",
+      "nearest_other_source_split": {
+        "image_id": "CM-124",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-020",
+      "nearest_other_source_split": {
+        "image_id": "CM-125",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 17
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-021",
+      "nearest_other_source_split": {
+        "image_id": "CM-125",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-003"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-022",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-023",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-024",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-025",
+      "nearest_other_source_split": {
+        "image_id": "CM-128",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-026",
+      "nearest_other_source_split": {
+        "image_id": "CM-128",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-027",
+      "nearest_other_source_split": {
+        "image_id": "CM-128",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-001"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-028",
+      "nearest_other_source_split": {
+        "image_id": "CM-126",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-025"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-015"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-029",
+      "nearest_other_source_split": {
+        "image_id": "CM-128",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-030",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-031",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-032",
+      "nearest_other_source_split": {
+        "image_id": "CM-128",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-033",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-025"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "P039-person-01"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-034",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-003"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-035",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-026"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-036",
+      "nearest_other_source_split": {
+        "image_id": "CM-130",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-008"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-037",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 9
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-RF-003"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-026"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-008"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-038",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 8
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-003"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-039",
+      "nearest_other_source_split": {
+        "image_id": "CM-124",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-040",
+      "nearest_other_source_split": {
+        "image_id": "CM-124",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-041",
+      "nearest_other_source_split": {
+        "image_id": "CM-131",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-011"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-042",
+      "nearest_other_source_split": {
+        "image_id": "CM-131",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-025"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-043",
+      "nearest_other_source_split": {
+        "image_id": "CM-136",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-044",
+      "nearest_other_source_split": {
+        "image_id": "CM-136",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-045",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-023"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-046",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-047",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-048",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-049",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-011"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-050",
+      "nearest_other_source_split": {
+        "image_id": "CM-140",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-051",
+      "nearest_other_source_split": {
+        "image_id": "CM-136",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-011"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-052",
+      "nearest_other_source_split": {
+        "image_id": "CM-132",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-006"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-053",
+      "nearest_other_source_split": {
+        "image_id": "CM-132",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-007"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-009"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-054",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-055",
+      "nearest_other_source_split": {
+        "image_id": "CM-133",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-012"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-056",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-057",
+      "nearest_other_source_split": {
+        "image_id": "CM-133",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-058",
+      "nearest_other_source_split": {
+        "image_id": "CM-133",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-026"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-059",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-013"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-060",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-061",
+      "nearest_other_source_split": {
+        "image_id": "CM-133",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-026"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-062",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-063",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-064",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-065",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-066",
+      "nearest_other_source_split": {
+        "image_id": "CM-136",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-067",
+      "nearest_other_source_split": {
+        "image_id": "CM-136",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-068",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-069",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-070",
+      "nearest_other_source_split": {
+        "image_id": "CM-137",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-071",
+      "nearest_other_source_split": {
+        "image_id": "CM-135",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-020"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-072",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-073",
+      "nearest_other_source_split": {
+        "image_id": "CM-134",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-007"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-074",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-075",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-076",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-077",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-078",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-079",
+      "nearest_other_source_split": {
+        "image_id": "CM-139",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-080",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-016"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-037"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-081",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "P007-extra-01",
+            "P007-person-01",
+            "P007-person-02"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-082",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 10
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-016"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-083",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-025"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-007"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-084",
+      "nearest_other_source_split": {
+        "image_id": "CM-129",
+        "distance": 10
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-037"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-011"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-085",
+      "nearest_other_source_split": {
+        "image_id": "CM-141",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-038"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-086",
+      "nearest_other_source_split": {
+        "image_id": "CM-141",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-013"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "P002-person-01"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-087",
+      "nearest_other_source_split": {
+        "image_id": "CM-123",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-023"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-088",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-011"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-089",
+      "nearest_other_source_split": {
+        "image_id": "CM-142",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-037"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-090",
+      "nearest_other_source_split": {
+        "image_id": "CM-143",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-037"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-091",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 13
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-015"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-007"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-092",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-015"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-014"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-093",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 9
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-027"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-004"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-094",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-014"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-002"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-095",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 9
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-041"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-004"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-001"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-096",
+      "nearest_other_source_split": {
+        "image_id": "CM-121",
+        "distance": 18
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-021"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-041"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-097",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-098",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-011"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-099",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-027"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-100",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-011"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-018"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-101",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-102",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-103",
+      "nearest_other_source_split": {
+        "image_id": "CM-144",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-104",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-017"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-105",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 18
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-017"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-106",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-107",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 17
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-017"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-108",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-012"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-109",
+      "nearest_other_source_split": {
+        "image_id": "CM-145",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 18
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-110",
+      "nearest_other_source_split": {
+        "image_id": "CM-122",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-014"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-111",
+      "nearest_other_source_split": {
+        "image_id": "CM-123",
+        "distance": 11
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-013"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-032"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-write-011"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-112",
+      "nearest_other_source_split": {
+        "image_id": "CM-146",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-025"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-023"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-020"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-113",
+      "nearest_other_source_split": {
+        "image_id": "CM-148",
+        "distance": 10
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-013"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-007"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-114",
+      "nearest_other_source_split": {
+        "image_id": "CM-147",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "P033-person-01"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "P034-person-01"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "P036-person-01"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-115",
+      "nearest_other_source_split": {
+        "image_id": "CM-147",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "P034-person-01"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-024"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-116",
+      "nearest_other_source_split": {
+        "image_id": "CM-150",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "P032-person-01"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-023"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-024"
+          ],
+          "distance": 20
+        }
+      ]
+    },
+    {
+      "image_id": "CM-117",
+      "nearest_other_source_split": {
+        "image_id": "CM-148",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "P033-person-01"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-118",
+      "nearest_other_source_split": {
+        "image_id": "CM-149",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "P032-person-01"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-119",
+      "nearest_other_source_split": {
+        "image_id": "CM-149",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-013"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-120",
+      "nearest_other_source_split": {
+        "image_id": "CM-149",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-013"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "P034-person-01"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-121",
+      "nearest_other_source_split": {
+        "image_id": "CM-001",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-001"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-122",
+      "nearest_other_source_split": {
+        "image_id": "CM-012",
+        "distance": 7
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-013"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-007"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-123",
+      "nearest_other_source_split": {
+        "image_id": "CM-011",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-124",
+      "nearest_other_source_split": {
+        "image_id": "CM-039",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-001"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-125",
+      "nearest_other_source_split": {
+        "image_id": "CM-019",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 18
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-126",
+      "nearest_other_source_split": {
+        "image_id": "CM-023",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-127",
+      "nearest_other_source_split": {
+        "image_id": "CM-023",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-128",
+      "nearest_other_source_split": {
+        "image_id": "CM-025",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-129",
+      "nearest_other_source_split": {
+        "image_id": "CM-034",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-028"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-003"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-130",
+      "nearest_other_source_split": {
+        "image_id": "CM-036",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-008"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-131",
+      "nearest_other_source_split": {
+        "image_id": "CM-041",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-011"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-132",
+      "nearest_other_source_split": {
+        "image_id": "CM-056",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-write-006"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-133",
+      "nearest_other_source_split": {
+        "image_id": "CM-054",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-134",
+      "nearest_other_source_split": {
+        "image_id": "CM-054",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-026"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-135",
+      "nearest_other_source_split": {
+        "image_id": "CM-071",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-005"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-136",
+      "nearest_other_source_split": {
+        "image_id": "CM-066",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-137",
+      "nearest_other_source_split": {
+        "image_id": "CM-047",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-138",
+      "nearest_other_source_split": {
+        "image_id": "CM-056",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-021"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-007"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-139",
+      "nearest_other_source_split": {
+        "image_id": "CM-063",
+        "distance": 1
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-002"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-140",
+      "nearest_other_source_split": {
+        "image_id": "CM-041",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-011"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-141",
+      "nearest_other_source_split": {
+        "image_id": "CM-086",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-013"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "P002-person-01"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-005"
+          ],
+          "distance": 24
+        }
+      ]
+    },
+    {
+      "image_id": "CM-142",
+      "nearest_other_source_split": {
+        "image_id": "CM-001",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-003"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-143",
+      "nearest_other_source_split": {
+        "image_id": "CM-001",
+        "distance": 3
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-read-005"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 23
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-014"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-144",
+      "nearest_other_source_split": {
+        "image_id": "CM-101",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-write-004"
+          ],
+          "distance": 24
+        },
+        {
+          "sample_ids": [
+            "SCB-read-009"
+          ],
+          "distance": 25
+        },
+        {
+          "sample_ids": [
+            "SCB-write-022"
+          ],
+          "distance": 25
+        }
+      ]
+    },
+    {
+      "image_id": "CM-145",
+      "nearest_other_source_split": {
+        "image_id": "CM-106",
+        "distance": 2
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-022"
+          ],
+          "distance": 17
+        },
+        {
+          "sample_ids": [
+            "SCB-read-024"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-146",
+      "nearest_other_source_split": {
+        "image_id": "CM-112",
+        "distance": 6
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "SCB-read-020"
+          ],
+          "distance": 22
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-025"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-147",
+      "nearest_other_source_split": {
+        "image_id": "CM-115",
+        "distance": 4
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "P033-person-01"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "P032-person-01"
+          ],
+          "distance": 22
+        }
+      ]
+    },
+    {
+      "image_id": "CM-148",
+      "nearest_other_source_split": {
+        "image_id": "CM-117",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "SCB-turnhead-015"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "P033-person-01"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 21
+        }
+      ]
+    },
+    {
+      "image_id": "CM-149",
+      "nearest_other_source_split": {
+        "image_id": "CM-118",
+        "distance": 0
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "EXP-RF-019"
+          ],
+          "distance": 20
+        },
+        {
+          "sample_ids": [
+            "EXP-RF-024"
+          ],
+          "distance": 21
+        },
+        {
+          "sample_ids": [
+            "P032-person-01"
+          ],
+          "distance": 23
+        }
+      ]
+    },
+    {
+      "image_id": "CM-150",
+      "nearest_other_source_split": {
+        "image_id": "CM-116",
+        "distance": 5
+      },
+      "exact_existing_matches": [],
+      "nearest_existing": [
+        {
+          "sample_ids": [
+            "P034-person-01"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "EXP-SCB-011"
+          ],
+          "distance": 19
+        },
+        {
+          "sample_ids": [
+            "P036-person-01"
+          ],
+          "distance": 20
+        }
+      ]
+    }
+  ]
+}

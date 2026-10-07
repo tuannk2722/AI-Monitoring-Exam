@@ -1,0 +1,62 @@
+# Đề xuất cụ thể v5, chưa phải accepted dataset hoặc trainer config.
+status: draft_pending_owner_acceptance
+formulation: B
+proposed_dataset_version: pilot-b-20261007-v5
+proposed_split_version: pilot-b-v5-train-expansion-v1
+strategy: Giữ membership val/test v4; chỉ bổ sung train từ nhóm đã duyệt hoặc nối
+  train bằng approved must-link.
+parent_packages:
+- package: data/processed/pilot-b/pilot-b-20261005-v4
+  checksums:
+    path: data/processed/pilot-b/pilot-b-20261005-v4/checksums.sha256
+    sha256: dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53
+  ledger:
+    path: data/processed/pilot-b/pilot-b-20261005-v4/review-ledger.jsonl
+    sha256: 0e89e31b67d040c748bc099ae79d5d55c69946bf8c7ff4dad1abb4ae0c3ee011
+- package: data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging
+  checksums:
+    path: data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging/checksums.sha256
+    sha256: d1d482477678c1fd1137a8981bc5425a3b8e6dcd62a2ca70f172ce804d9ca48f
+  ledger:
+    path: data/interim/pilot-b/pilot-b-expansion-20261006-r2-staging/review-ledger.jsonl
+    sha256: 0d15182957c9f922ab31c0e3c0c3a77edbf4443af0f12d7043ee50a626e26c8e
+- package: data/interim/pilot-b/classroom-v2-20261007-staging
+  checksums:
+    path: data/interim/pilot-b/classroom-v2-20261007-staging/checksums.sha256
+    sha256: 62e33da4c504fbab2a5e397849bd5cec1d322380487c2d1a490bd86bbfdf2550
+  ledger:
+    path: data/interim/pilot-b/classroom-v2-20261007-staging/review-ledger.jsonl
+    sha256: 0b115019fac96d1b07ce0b6ecaf757ff1ee2863d2d42fb2aff0f710f587ca3b3
+continuation_approval:
+  path: artifacts/reports/pilot-b-v5-proposal-20261007/continuation-approval.json
+  sha256: 01f18086a0930dfbb58d57b13965439c9d852b06d8ecb35391ffc857da3d1050
+membership:
+  path: artifacts/reports/pilot-b-v5-proposal-20261007/membership-proposals.json
+  sha256: 33d1415995f7fac18b0bbc57089bd52e645b086ebdfcf4d24e26a82fa4e9f533
+group_components:
+  path: artifacts/reports/pilot-b-v5-proposal-20261007/group-components.json
+  sha256: 139f622c24f50b5a477812f6b5bea010d6a94f823d7d06b18c2848848f984184
+summary:
+  path: artifacts/reports/pilot-b-v5-proposal-20261007/summary.json
+  sha256: 18837b25d4b18dd616abd29b32c895e8bf7742114511ff7bf8816867099b4489
+expected_counts:
+  train: 80
+  review_only: 93
+  excluded: 11
+  val: 13
+  test: 11
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+test_policy: Giữ nguyên11 test v4, đã evaluate ở E001; không dùng tuning và không
+  tự chạy lại.
+evaluation_policy: Val13 cũ phục vụ chọn candidate; Classroom chỉ train, chưa có holdout
+  độc lập nguồn này. E002 cần experiment config/protocol riêng trước chạy.
+owner_release_approval: null
+training_started: false
+source_record_snapshots:
+  path: artifacts/reports/pilot-b-v5-proposal-20261007/source-record-snapshots.jsonl
+  sha256: d060ce6501bd2f4ad017dbdd5fef4290ab5f34490bd8a84a8035580798a873d9
+  scope: Snapshot từng record giữ version của3 package nguồn; không phải canonical
+    package/manifest hợp nhất.

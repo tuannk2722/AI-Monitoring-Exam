@@ -53,3 +53,7 @@ Commit implementation `97b90ebfe0e8f5457ac5c783205c98be02925866`; commit sửa p
 S1–S8 hoàn tất cho release pilot và storage scope bổ sung trên. S9 automatic runtime crop cần owner policy/QA riêng trước baseline B end-to-end; không chặn chuẩn bị experiment classifier trên reviewed crops. Task bàn giao không train. Sau đó E001 đã được owner duyệt và chạy local CPU theo [ADR-014](../decisions/ADR-014-e001-local-linear-probe.md)/[kết quả](../experiments/E001-results.md), không sửa release payload hoặc storage scope.
 
 Release gốc ghi design/base commit `1f7757bfee5a20dad393ba80064769851e5ccd6a`, dirty=true và implementation SHA đúng lúc tạo. Commit bàn giao chứa implementation/config/evidence/pointer và cleanup, được ghi trong WORKLOG; không sửa provenance cũ để giả release được build ở commit mới. Không tự tuyên bố toàn P0/P1/P2 đã đạt mọi gate.
+
+## Release v5 local — 2026-10-07
+
+Owner đã duyệt membership/split của [proposal v5](../../artifacts/reports/pilot-b-v5-proposal-20261007/README.md). [Release v5](../../artifacts/reports/pilot-b-v5-release-20261007/README.md) accepted tại data/processed/pilot-b/pilot-b-20261007-v5; [config](../../configs/datasets/pilot_b_release_v5.yaml).208 ledger/104manifest(80train/13val/11test),93review_only/11excluded,197crop; verification PASS. Train chỉ đọc manifest, không glob crops. V4/staging bất biến; không chạy E002 hoặc final test từ approval dataset. Chưa upload/commit/push.

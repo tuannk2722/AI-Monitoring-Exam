@@ -1,0 +1,31 @@
+# Release local v5 đã được owner nghiệm thu; không phải cấu hình training.
+status: accepted
+formulation: B
+dataset_version: pilot-b-20261007-v5
+split_version: pilot-b-v5-train-expansion-v1
+package: data/processed/pilot-b/pilot-b-20261007-v5
+approved_use_scope:
+- local_classifier_research
+proposal_config:
+  path: configs/datasets/pilot_b_v5_release_proposal_20261007.yaml
+  sha256: 95383658ab754aaa9dd5acf7b69cfaabdc9e8cc35356dda370f48d7a0235ff30
+approval:
+  path: artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json
+  sha256: f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f
+group_boundaries:
+  path: artifacts/reports/pilot-b-v5-release-20261007/group-boundaries.json
+  sha256: 137bf29a3196f6137f7731356662341cb5c2900c23bdc81edf5202ca95faeea4
+evaluation_preservation:
+  path: artifacts/reports/pilot-b-v5-release-20261007/evaluation-preservation.json
+  sha256: 202cff030dd49b77441e5d0cb470d348af4101eb70e94c531da66771efb91206
+expected_counts:
+  train: 80
+  review_only: 93
+  excluded: 11
+  val: 13
+  test: 11
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+training_run_approved: false

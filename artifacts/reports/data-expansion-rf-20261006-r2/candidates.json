@@ -1,0 +1,1953 @@
+[
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good943_jpg.rf.828b452de805437d254aafeb5d8d7c4a.jpg",
+    "source_image_sha256": "09dce09292226df8dbdfff8ec956ca18519f8d2705f3dadcee114c2383163a0f",
+    "source_label_relpath": "train/labels/good943_jpg.rf.828b452de805437d254aafeb5d8d7c4a.txt",
+    "source_label_sha256": "1d8e192ffd128d91e5a3dcb3d14178e92898d3b07e6900331f9dc92bbbaf1775",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5480769230769231,
+      "y_center": 0.5528846153846154,
+      "width": 0.4807692307692308,
+      "height": 0.8942307692307693
+    },
+    "rank_sha256": "000de6e83169036654b066016e8d1ca6f208dbe585faecae56e30e6a5f5eb161",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good943_jpg.rf.828b452de805437d254aafeb5d8d7c4a.jpg"
+    ],
+    "sample_id": "EXP-RF-001",
+    "source_anchor_xyxy": [
+      128.0,
+      44.00000000000001,
+      328.00000000000006,
+      416.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      128,
+      44,
+      329,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-001.png",
+    "crop_sha256": "cfb46e813ef712098fd9201ebed1e204b6881f285174be6dbf82cfe71feccff8",
+    "dhash": 2854044734687189963,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "505d1c14ba63dd22fa0143dae0bc5c09d64c3da5962916b1a595e3a2dd5b1d7d",
+        "sample_ids": [
+          "SCB-turnhead-011"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+        "sample_ids": [
+          "SCB-read-011"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/2023-02-25-21-52-12_mp4-29_jpg.rf.fd7ccea1549e9581cbd512ec778a2f03.jpg",
+    "source_image_sha256": "99b36a5a8873cea4d8aad1df64a7e0922d6dfd54f51dceb8f3063cd4d8e41459",
+    "source_label_relpath": "train/labels/2023-02-25-21-52-12_mp4-29_jpg.rf.fd7ccea1549e9581cbd512ec778a2f03.txt",
+    "source_label_sha256": "28c8ae7fd0cbf4a760e2a2645d51d1c25a4ede313bf0ff5aa57d5d2144e479c2",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 640,
+    "height": 640,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.49140625,
+      "y_center": 0.553125,
+      "width": 0.109375,
+      "height": 0.221875
+    },
+    "rank_sha256": "a466a0b706f58075ac9a75979e9d89024c0521d283a8b1f19d5726d79951b5c3",
+    "exact_aliases": [
+      "roboflow_v1:train/images/2023-02-25-21-52-12_mp4-29_jpg.rf.fd7ccea1549e9581cbd512ec778a2f03.jpg"
+    ],
+    "sample_id": "EXP-RF-002",
+    "source_anchor_xyxy": [
+      279.5,
+      283.0,
+      349.5,
+      425.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      279,
+      283,
+      350,
+      425
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-002.png",
+    "crop_sha256": "a0843a29c708cc90dd4034f8f0bf07cd3a214e257618b64a89cb6fc22e5de1a3",
+    "dhash": 16018258708851154974,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "438bc72640ccc23a6643d65f7920592e178bce593ba7485468ccd0bfccaa1cad",
+        "sample_ids": [
+          "SCB-read-018"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "d3379a41f315c99d8b10167e2418a608118230f4db11b52ee318e4da2d02b0a3",
+        "sample_ids": [
+          "P029-person-01",
+          "P029-person-02"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat1024_jpg.rf.03ec1423a96296df266641b1c0dcd590.jpg",
+    "source_image_sha256": "f55f34d4c9c3585967d55e75ba1097ea2f5ef2cd2684c21eb43c585519588714",
+    "source_label_relpath": "train/labels/cheat1024_jpg.rf.03ec1423a96296df266641b1c0dcd590.txt",
+    "source_label_sha256": "6e5f9883759d640ae895f3f841d210dcaf4f437018e8c63f37b9962d065364e6",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.5552884615384616,
+      "y_center": 0.5,
+      "width": 0.37740384615384615,
+      "height": 0.9927884615384616
+    },
+    "rank_sha256": "728f7d7305a1d6beeb6369ab64f096e8a1eed034b73594448a1e6c6637901a1c",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat1024_jpg.rf.03ec1423a96296df266641b1c0dcd590.jpg"
+    ],
+    "sample_id": "EXP-RF-003",
+    "source_anchor_xyxy": [
+      152.5,
+      1.4999999999999947,
+      309.5,
+      414.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      152,
+      1,
+      310,
+      415
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-003.png",
+    "crop_sha256": "793c5fd27aff8a2f137f2296a58429ac09495aae29cc853d1a9807974e059e4b",
+    "dhash": 12948736261531002482,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0074d7eed70ae8c4bdb6c0a284e67b9adefa5979c8189bc42233c9a6d8e71f7f",
+        "sample_ids": [
+          "SCB-read-010"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "c14c1a2b10eff64f3c10d3419bb71772119a1f4e58046dc61ef3869b86cdd565",
+        "sample_ids": [
+          "SCB-turnhead-022"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "6527078a230cb750b366638dffef9a42bef1825deba0bb2d9e1200ce3a1c6bf1",
+        "sample_ids": [
+          "SCB-write-025"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat336_jpg.rf.8a319d04b009cdd1c11b1331ce65a9ac.jpg",
+    "source_image_sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+    "source_label_relpath": "train/labels/cheat336_jpg.rf.8a319d04b009cdd1c11b1331ce65a9ac.txt",
+    "source_label_sha256": "593b8d09a7dcb737301eeae617d92fcb68eb6698405e6d3389796c12902903ad",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.5012019230769231,
+      "y_center": 0.5012019230769231,
+      "width": 0.9975961538461539,
+      "height": 0.9975961538461539
+    },
+    "rank_sha256": "4b5708ccd5f6d5895aa4a4270946dadd40a48f2e93ba976301332ab9b1ec0b9a",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat336_jpg.rf.8a319d04b009cdd1c11b1331ce65a9ac.jpg"
+    ],
+    "sample_id": "EXP-RF-004",
+    "source_anchor_xyxy": [
+      1.0000000000000195,
+      1.0000000000000195,
+      416.0,
+      416.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      1,
+      1,
+      416,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-004.png",
+    "crop_sha256": "46f5626d43a9c12356376443544fe6e095e242334d3c8276e7a6b40eb19896a3",
+    "dhash": 2231171841537980725,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "43d23494a9a8cb8264235c8897b4db4ed2b6592cb40d363ca434b34f35572034",
+        "sample_ids": [
+          "SCB-turnhead-014"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "ada542729d4d183ab0e6b3ee05fbc347834fc224ee010dbdbce90ffec417bdf6",
+        "sample_ids": [
+          "P008-extra-01",
+          "P008-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+        "sample_ids": [
+          "SCB-turnhead-013"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/Suasana-Ujian-Tengah-Semester-Ganjil-2022-2023_-Ada-yang-menggunakan-jurus-dapat-nilai-A__mp4-94_jpg.rf.eca0918e70f61c07e228c4ae09d9acb0.jpg",
+    "source_image_sha256": "9236bb49c59ff0fe684028606eef016cc15cf1fdbd2a9497955da81ddcf2f155",
+    "source_label_relpath": "train/labels/Suasana-Ujian-Tengah-Semester-Ganjil-2022-2023_-Ada-yang-menggunakan-jurus-dapat-nilai-A__mp4-94_jpg.rf.eca0918e70f61c07e228c4ae09d9acb0.txt",
+    "source_label_sha256": "524d171967ae69cca2672562cf3db2b6bb606097a37adcad46607e335ed84e27",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 640,
+    "height": 640,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.06015625,
+      "y_center": 0.50625,
+      "width": 0.1203125,
+      "height": 0.296875
+    },
+    "rank_sha256": "6013fa6c8d66156139e4a425d710f3ebb77962ec3bbf35f11e1cfaf5accab9e9",
+    "exact_aliases": [
+      "roboflow_v1:train/images/Suasana-Ujian-Tengah-Semester-Ganjil-2022-2023_-Ada-yang-menggunakan-jurus-dapat-nilai-A__mp4-94_jpg.rf.eca0918e70f61c07e228c4ae09d9acb0.jpg"
+    ],
+    "sample_id": "EXP-RF-005",
+    "source_anchor_xyxy": [
+      0.0,
+      229.0,
+      77.0,
+      419.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      0,
+      229,
+      77,
+      419
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-005.png",
+    "crop_sha256": "0e887298d59d110b0b7cd1d16216ed3a20b43b22d3e0b5966ab81cb8c9665c92",
+    "dhash": 7760955911317523470,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "df441ad80c804df7d30f8cec78788412bab87f7f2d8c02a5679b32d4650055ed",
+        "sample_ids": [
+          "SCB-turnhead-009"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "0c90cbcb72fb7b4a537ad759f5b9c38c408a16fe3161699f67c1adff37c20a17",
+        "sample_ids": [
+          "SCB-read-006"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "7f3f35363753ed9bdaa534132ac00db129a897e2e997c1e566de26f2f9b66d48",
+        "sample_ids": [
+          "SCB-write-027"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good139_jpg.rf.7c58d85207dba49d2e9d8304c2cb6363.jpg",
+    "source_image_sha256": "03612c473550d2929aa6e584f4997e1346edbb8bb55240452cf80a019d965a31",
+    "source_label_relpath": "train/labels/good139_jpg.rf.7c58d85207dba49d2e9d8304c2cb6363.txt",
+    "source_label_sha256": "862eb815555710fe9ccf81a176e630dd992c0b0de2d3fff47e6eba7e89eb7a2f",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.4833173076923077,
+      "y_center": 0.4983413461538462,
+      "width": 0.799951923076923,
+      "height": 0.9926442307692308
+    },
+    "rank_sha256": "aa1ec32ecbcbdd23a951a1ea806749f41c99bae6f9ab119b2816af93fc834f9c",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good139_jpg.rf.7c58d85207dba49d2e9d8304c2cb6363.jpg"
+    ],
+    "sample_id": "EXP-RF-006",
+    "source_anchor_xyxy": [
+      34.670000000000016,
+      0.8400000000000016,
+      367.44999999999993,
+      413.78
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      34,
+      0,
+      368,
+      414
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-006.png",
+    "crop_sha256": "bd428befdec857aa83600bbb210d1b3f2070b1839a4304c6cd833df170639931",
+    "dhash": 2949265848495492071,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b2587fd11ddf61cd79b4735818525d63e652efd9a3ff91df96d1af51dd78e76e",
+        "sample_ids": [
+          "SCB-turnhead-028"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "d416441163ad9620ab35ef03eb610a017211fb1ba3bea0c68f07ae569d88549a",
+        "sample_ids": [
+          "SCB-turnhead-027"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+        "sample_ids": [
+          "SCB-read-011"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/IMG_20220620_181417_jpg.rf.707cbb34bb334b800e5376ca6f09ac0e.jpg",
+    "source_image_sha256": "126781a55e2e48d55dc3575870f4a26ddb40cde0b6fd70ee628ce215c53f9531",
+    "source_label_relpath": "train/labels/IMG_20220620_181417_jpg.rf.707cbb34bb334b800e5376ca6f09ac0e.txt",
+    "source_label_sha256": "df00ba7a89c35ea527ef0ee993a376a699642fd0da3e84b829fb7a1e56c86546",
+    "source_label_line_1based": 6,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.5324519230769231,
+      "y_center": 0.7668269230769231,
+      "width": 0.3701923076923077,
+      "height": 0.39903846153846156
+    },
+    "rank_sha256": "7afd9821395c44f8a5190d3f059fae9dbd8099cadcf36c76bae34f8f4349dddd",
+    "exact_aliases": [
+      "roboflow_v1:train/images/IMG_20220620_181417_jpg.rf.707cbb34bb334b800e5376ca6f09ac0e.jpg"
+    ],
+    "sample_id": "EXP-RF-007",
+    "source_anchor_xyxy": [
+      144.50000000000003,
+      236.0,
+      298.5,
+      402.00000000000006
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      144,
+      236,
+      299,
+      403
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-007.png",
+    "crop_sha256": "3b89b693b628b1be5bf1c580c309e3627a038fd598858a0e7a6f71ec0096c4f4",
+    "dhash": 10464484037290515505,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "de90fc7eb40010ec6074eeb7fe433a340d2e2726c05649a4179055aecf63cd01",
+        "sample_ids": [
+          "P002-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "23920abda9bc554e039097f583eaffd6bdda7c49c62c744e23c87c451fc187e4",
+        "sample_ids": [
+          "SCB-read-025"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "8b00e9489d45b4e93c318bcd4dce549c6a89309d1ff0c860e13c49a5f62fd390",
+        "sample_ids": [
+          "SCB-read-013"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/20220525_171659_jpg.rf.b298b9e5d67e04bfbdc276e25254eae1.jpg",
+    "source_image_sha256": "3bb5e85fcfe3f5779042fac29b6f50c7b7294b31fcb34d722e868077d6adec79",
+    "source_label_relpath": "train/labels/20220525_171659_jpg.rf.b298b9e5d67e04bfbdc276e25254eae1.txt",
+    "source_label_sha256": "a8b01616612e71da1aefda9baabd106fc899a453db7edbe052833615e1fb8316",
+    "source_label_line_1based": 2,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.3942307692307692,
+      "y_center": 0.7211538461538461,
+      "width": 0.13701923076923078,
+      "height": 0.33653846153846156
+    },
+    "rank_sha256": "9a70a9e3c3dfd1dc58039e1645a0d498c558e6eb4e55ef6632a614caa0ab3594",
+    "exact_aliases": [
+      "roboflow_v1:train/images/20220525_171659_jpg.rf.b298b9e5d67e04bfbdc276e25254eae1.jpg"
+    ],
+    "sample_id": "EXP-RF-008",
+    "source_anchor_xyxy": [
+      135.5,
+      230.0,
+      192.5,
+      370.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      135,
+      230,
+      193,
+      370
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-008.png",
+    "crop_sha256": "c8fdf99e9c387cba0113cfba7feeafd6ca5759aae907211c877b41368206eaaa",
+    "dhash": 11137365157509014886,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "161d79c488318ba37700815b898283ba582eee8d54897575d8243197152e1198",
+        "sample_ids": [
+          "SCB-turnhead-003"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "7db537835d094a6d46860b55ef7ca4ee51b450a15133219ed84cb3a9673d7357",
+        "sample_ids": [
+          "SCB-turnhead-002"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "b5a5eb870ae72a2c5313f3b12fecbe98b5b0a323f16580415158d0d2fdc97f26",
+        "sample_ids": [
+          "SCB-turnhead-025"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/IMG_20220620_181351_jpg.rf.8630cfc19fc9beccda54926ac72df9a1.jpg",
+    "source_image_sha256": "d33104b3343b3de2e9b8b2c99852f5d14637f8a5abbf498473a16076c45cb340",
+    "source_label_relpath": "train/labels/IMG_20220620_181351_jpg.rf.8630cfc19fc9beccda54926ac72df9a1.txt",
+    "source_label_sha256": "7c7fc592c7f0922c0663146c2ab6fe33cddc21c15c72cab26edfeb3b99d6daa4",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.4795673076923077,
+      "y_center": 0.42788461538461536,
+      "width": 0.3004807692307692,
+      "height": 0.4423076923076923
+    },
+    "rank_sha256": "ca1d886ab19d522b060a8da4355a28ff0eb7476dffbbcf794c516073da705b78",
+    "exact_aliases": [
+      "roboflow_v1:train/images/IMG_20220620_181351_jpg.rf.8630cfc19fc9beccda54926ac72df9a1.jpg"
+    ],
+    "sample_id": "EXP-RF-009",
+    "source_anchor_xyxy": [
+      137.00000000000003,
+      86.0,
+      262.0,
+      269.99999999999994
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      137,
+      86,
+      262,
+      270
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-009.png",
+    "crop_sha256": "b1ddb3a8e682fdb8b7d9693f5198ad5d6df2407e295b03d48c29578c32d3d5d6",
+    "dhash": 14137522124919143559,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "7fc9fcf1de1572bf3e034ecdd5267e2905fcb7953b02cff51f0b40f7855b8a88",
+        "sample_ids": [
+          "SCB-turnhead-006"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "8b00e9489d45b4e93c318bcd4dce549c6a89309d1ff0c860e13c49a5f62fd390",
+        "sample_ids": [
+          "SCB-read-013"
+        ],
+        "distance": 25
+      },
+      {
+        "image_sha256": "3b35d2bcdec009aea54275d785c194b66e3bff077f911dc2d50d4ca8798acc5e",
+        "sample_ids": [
+          "SCB-write-001"
+        ],
+        "distance": 26
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good127_jpg.rf.3d09a9b8ff6b0668ee2dcb3cb306343b.jpg",
+    "source_image_sha256": "815c2056a14002db78635d80cf9b6d040c228c9edd1242f6ec3c4593e2653f70",
+    "source_label_relpath": "train/labels/good127_jpg.rf.3d09a9b8ff6b0668ee2dcb3cb306343b.txt",
+    "source_label_sha256": "c73fedc17e5515dfca3ecf7d1fadf1ae08118115c7f216d1090e265ebf073d97",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.7007211538461539,
+      "y_center": 0.5084134615384616,
+      "width": 0.5985576923076923,
+      "height": 0.9831730769230769
+    },
+    "rank_sha256": "1206670041b93be685c3f1e862a7087362f4aeb9fc41f4c10c03c8e6a5c29e7a",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good127_jpg.rf.3d09a9b8ff6b0668ee2dcb3cb306343b.jpg"
+    ],
+    "sample_id": "EXP-RF-010",
+    "source_anchor_xyxy": [
+      167.0,
+      7.000000000000021,
+      416.0,
+      416.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      167,
+      7,
+      416,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-010.png",
+    "crop_sha256": "deddaf1f289f4573f686afca5398046e5dd930455b4083812b95823330ae9caf",
+    "dhash": 15511783441357063003,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+        "sample_ids": [
+          "P028-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "ada542729d4d183ab0e6b3ee05fbc347834fc224ee010dbdbce90ffec417bdf6",
+        "sample_ids": [
+          "P008-extra-01",
+          "P008-person-01"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+        "sample_ids": [
+          "SCB-write-005"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/20220518_135538_jpg.rf.8116010a93e674be53dd7ffef6bda6b7.jpg",
+    "source_image_sha256": "32b0c43fca442f4360f3fdd51362327593f38ded69913439a9f2434329b929eb",
+    "source_label_relpath": "train/labels/20220518_135538_jpg.rf.8116010a93e674be53dd7ffef6bda6b7.txt",
+    "source_label_sha256": "1d4abe304f7d1528ad670530d1d99f5f26b51c251d06cdda4993b9aa3354e03d",
+    "source_label_line_1based": 2,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.20622596153846157,
+      "y_center": 0.4801442307692308,
+      "width": 0.19810096153846152,
+      "height": 0.6165144230769232
+    },
+    "rank_sha256": "17a0f28943d3b10576c77c91d97665e3ade22bec00cac457e1a8ed3fbd7be96c",
+    "exact_aliases": [
+      "roboflow_v1:train/images/20220518_135538_jpg.rf.8116010a93e674be53dd7ffef6bda6b7.jpg"
+    ],
+    "sample_id": "EXP-RF-011",
+    "source_anchor_xyxy": [
+      44.585000000000015,
+      71.505,
+      126.99500000000002,
+      327.975
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      44,
+      71,
+      127,
+      328
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-011.png",
+    "crop_sha256": "088a862ce849615f05e741b0019a5618752eed665f05a7c00c21e33a35356eca",
+    "dhash": 1734356641852833667,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+        "sample_ids": [
+          "P007-extra-01",
+          "P007-person-01",
+          "P007-person-02"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+        "sample_ids": [
+          "SCB-read-027"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "fb9aa70466782281308431206d590033f2e05b2db98d28c06b462bbca4694ced",
+        "sample_ids": [
+          "P006-extra-01",
+          "P006-person-01",
+          "P006-person-02"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/20220518_135610_jpg.rf.80e9cc05aef34b5bc8708480c285cdff.jpg",
+    "source_image_sha256": "f0f59caae65fc35b4bfff7ffd2ff60dfb09d460a718b139117434cced38d09db",
+    "source_label_relpath": "train/labels/20220518_135610_jpg.rf.80e9cc05aef34b5bc8708480c285cdff.txt",
+    "source_label_sha256": "7f30f186633e3aaa962d45e5a6661df280452b9645794177cdaa04b798956523",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.1346153846153846,
+      "y_center": 0.33413461538461536,
+      "width": 0.2692307692307692,
+      "height": 0.13701923076923078
+    },
+    "rank_sha256": "3bd43f31281db3b1cb591a256b5de335809c8e3630ed9791fc947f8e85b6a5a1",
+    "exact_aliases": [
+      "roboflow_v1:train/images/20220518_135610_jpg.rf.80e9cc05aef34b5bc8708480c285cdff.jpg"
+    ],
+    "sample_id": "EXP-RF-012",
+    "source_anchor_xyxy": [
+      0.0,
+      110.5,
+      112.0,
+      167.49999999999997
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      0,
+      110,
+      112,
+      168
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-012.png",
+    "crop_sha256": "32a365dfbbddf0ba6f5454da863c22aef40c64690eb83e4c508dbfacf4af45df",
+    "dhash": 16586257854107741293,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "d416441163ad9620ab35ef03eb610a017211fb1ba3bea0c68f07ae569d88549a",
+        "sample_ids": [
+          "SCB-turnhead-027"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+        "sample_ids": [
+          "P038-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "108fe4cc450b4c9cf959651b77fbccce3fd4e567964bfcdf8c073f8cf983936a",
+        "sample_ids": [
+          "P039-person-01"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat248_jpg.rf.858317a65c615899e8d4a9f5dd13d1e2.jpg",
+    "source_image_sha256": "c1b487ea3964a7630001e6933d94fef15b19cc400b85b9a7cd2e641ca9914000",
+    "source_label_relpath": "train/labels/cheat248_jpg.rf.858317a65c615899e8d4a9f5dd13d1e2.txt",
+    "source_label_sha256": "d07c62e8b4c3f1bc9add0f9c15a2f77747d0b14ff567c715ea76f4907c7a2e4a",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.2536057692307692,
+      "y_center": 0.42788461538461536,
+      "width": 0.5048076923076923,
+      "height": 0.8557692307692307
+    },
+    "rank_sha256": "51b578bec9487fa3d7ef287f01a56c39f1185afdd43fba2eb6fe4b48d8a609fe",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat248_jpg.rf.858317a65c615899e8d4a9f5dd13d1e2.jpg"
+    ],
+    "sample_id": "EXP-RF-013",
+    "source_anchor_xyxy": [
+      0.4999999999999982,
+      0.0,
+      210.5,
+      356.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      0,
+      0,
+      211,
+      356
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-013.png",
+    "crop_sha256": "c413fa2e92121c3cce9f827b9eb4637dffd046de6e6f49b43f2a9910cb4200cf",
+    "dhash": 16276513468086891208,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "2232030fef6ab4611f74b5240940ac63308339de3cc528c7f2efba375e3804b0",
+        "sample_ids": [
+          "SCB-write-006"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "87a7f8f97d4168a006ca6d9ad8902f9477419792dca6a94a21016741b3fad043",
+        "sample_ids": [
+          "P009-person-01"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+        "sample_ids": [
+          "SCB-write-024"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat986_jpg.rf.413be797f4a2fac19c1e747921ca311c.jpg",
+    "source_image_sha256": "a7e84b14894ac3d6ffccffa819bb3898c28f2e5a7d4b056af203859b655242e3",
+    "source_label_relpath": "train/labels/cheat986_jpg.rf.413be797f4a2fac19c1e747921ca311c.txt",
+    "source_label_sha256": "a3e87233b8c23e02ceb76184ab8d22986fe6d1197074adbaf408a9045431cccb",
+    "source_label_line_1based": 1,
+    "source_class_id": 2,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_phone",
+    "source_anchor_yolo": {
+      "class_id": 2,
+      "x_center": 0.5420673076923077,
+      "y_center": 0.6081730769230769,
+      "width": 0.13701923076923078,
+      "height": 0.2620192307692308
+    },
+    "rank_sha256": "afe64b33e12f5d8f7f3f4ecf84d8363b79655d4aabcb2351b7fb96bff11165b4",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat986_jpg.rf.413be797f4a2fac19c1e747921ca311c.jpg"
+    ],
+    "sample_id": "EXP-RF-014",
+    "source_anchor_xyxy": [
+      197.0,
+      198.49999999999997,
+      254.00000000000003,
+      307.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      197,
+      198,
+      255,
+      308
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-014.png",
+    "crop_sha256": "af8f126a250cc97fbb5d159716423423b0a86185e149a716305eef9eb3ed7249",
+    "dhash": 6222386243558858364,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "fed6424697b84d46fe2e3c66500adf168a8b4a32bf8047ef7ce7559f2f69ae01",
+        "sample_ids": [
+          "SCB-turnhead-008"
+        ],
+        "distance": 17
+      },
+      {
+        "image_sha256": "5be91b2bdd2e58b5185e4c187d73506c37accb10cdf50132500484b418fc9972",
+        "sample_ids": [
+          "SCB-read-028"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+        "sample_ids": [
+          "SCB-write-005"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good743_jpg.rf.65594dab2a3eb5f0bc8ff56111f9dbf0.jpg",
+    "source_image_sha256": "aa9bc723f350d6ca177180eb31ba4c8ad20f28f8da147b5de600f21af4706e64",
+    "source_label_relpath": "train/labels/good743_jpg.rf.65594dab2a3eb5f0bc8ff56111f9dbf0.txt",
+    "source_label_sha256": "b02215e94454dc3d96b05283493735bdb2c9aab14f8bb62090afd5a3512b940e",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5,
+      "y_center": 0.5012019230769231,
+      "width": 1.0,
+      "height": 0.9975961538461539
+    },
+    "rank_sha256": "06489b87ee23cd89e326075c2467f8b3de53fbead33765c00d96bcd4de27d162",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good743_jpg.rf.65594dab2a3eb5f0bc8ff56111f9dbf0.jpg"
+    ],
+    "sample_id": "EXP-RF-015",
+    "source_anchor_xyxy": [
+      0.0,
+      1.0000000000000195,
+      416.0,
+      416.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      0,
+      1,
+      416,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-015.png",
+    "crop_sha256": "accddf5fb33a003f7dcabc61b71b2b5511d5d65d0838c86365715359905e595d",
+    "dhash": 4060149883913446985,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+        "sample_ids": [
+          "SCB-write-010"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "493e050c702d0d43b0e4bdceb41637c5534f5383d7ae35ad16dcb1e58429ae0a",
+        "sample_ids": [
+          "SCB-read-008"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "8157df6c3f8d350374d969ef95d799b9cfc18ac8c85e486e86fe11dfda767c2c",
+        "sample_ids": [
+          "SCB-turnhead-005"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good803_jpg.rf.17476357f510524cee1fc6bc1cde0def.jpg",
+    "source_image_sha256": "d5437aff1bfef1905df60b9f95655bcc188da5647a07f87b3df08fe9c7fbd949",
+    "source_label_relpath": "train/labels/good803_jpg.rf.17476357f510524cee1fc6bc1cde0def.txt",
+    "source_label_sha256": "08a09bc32ef3fc29d52be96315f1472089663ae8c53ed5a0251641065f5fc5fa",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.5,
+      "y_center": 0.5072115384615384,
+      "width": 1.0,
+      "height": 0.7908653846153846
+    },
+    "rank_sha256": "076687e6feaf7bf5fb79f3b2066a8301a657ad6d314506936ff9082e7e0782cb",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good803_jpg.rf.17476357f510524cee1fc6bc1cde0def.jpg"
+    ],
+    "sample_id": "EXP-RF-016",
+    "source_anchor_xyxy": [
+      0.0,
+      46.5,
+      416.0,
+      375.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      0,
+      46,
+      416,
+      376
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-016.png",
+    "crop_sha256": "ed1a7653ce1a11c4e6f31bd75b7fa36c416e1b389fa8d6ce3a4085ffe4094923",
+    "dhash": 14936086072358868583,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "6527078a230cb750b366638dffef9a42bef1825deba0bb2d9e1200ce3a1c6bf1",
+        "sample_ids": [
+          "SCB-write-025"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+        "sample_ids": [
+          "SCB-turnhead-013"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+        "sample_ids": [
+          "SCB-read-027"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good906_jpg.rf.1321bb71494ce8a6be405c030f50e05c.jpg",
+    "source_image_sha256": "5b10db8df578f4b34c0eb16cce26b28543501e7bead693e5b314c795fc067e14",
+    "source_label_relpath": "train/labels/good906_jpg.rf.1321bb71494ce8a6be405c030f50e05c.txt",
+    "source_label_sha256": "62d19915a0212f01ee7c4f3aff1c1bb784d4ed1a49a475fecff348dd28bbb0d8",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.3473557692307692,
+      "y_center": 0.5829326923076923,
+      "width": 0.6370192307692307,
+      "height": 0.8341346153846154
+    },
+    "rank_sha256": "237ab26142816976a35d1e7550c5778ec953767b0629f7b1a3fa44156c95872c",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good906_jpg.rf.1321bb71494ce8a6be405c030f50e05c.jpg"
+    ],
+    "sample_id": "EXP-RF-017",
+    "source_anchor_xyxy": [
+      12.000000000000004,
+      68.99999999999999,
+      277.0,
+      416.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      12,
+      68,
+      277,
+      416
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-017.png",
+    "crop_sha256": "8f463d8b55706147cc90b99255c76be7d5a00d6c6c76419a9dfc4a00da16a244",
+    "dhash": 3993959916837153058,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "b2587fd11ddf61cd79b4735818525d63e652efd9a3ff91df96d1af51dd78e76e",
+        "sample_ids": [
+          "SCB-turnhead-028"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "3976aa059cf83ec320d2a969a7402bf6e09994ebe6bd26bb20fdfdd4ec566798",
+        "sample_ids": [
+          "SCB-read-022"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "1d7eda339b30c6ab574abda55db5ca693ba90556eba1ed1c9ab4effece62bdc5",
+        "sample_ids": [
+          "SCB-read-020"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/good488_jpg.rf.4022268934c0e8e974481b1760b5f101.jpg",
+    "source_image_sha256": "9764c7ef12a1a8e14d9896b3910d8bf8bf9d37324faf60025798e80ac36c4b7c",
+    "source_label_relpath": "train/labels/good488_jpg.rf.4022268934c0e8e974481b1760b5f101.txt",
+    "source_label_sha256": "06bfb2afd8bb0a372403aa633ca27fd2f7672f03e613228ccb701612b70ef2b6",
+    "source_label_line_1based": 1,
+    "source_class_id": 1,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_no_cheating",
+    "source_anchor_yolo": {
+      "class_id": 1,
+      "x_center": 0.47836538461538464,
+      "y_center": 0.421875,
+      "width": 0.47836538461538464,
+      "height": 0.7908653846153846
+    },
+    "rank_sha256": "a733ac2261d9d29f4808a41f6b6afd1b27b43f2cdd36b031b656b346725a3337",
+    "exact_aliases": [
+      "roboflow_v1:train/images/good488_jpg.rf.4022268934c0e8e974481b1760b5f101.jpg"
+    ],
+    "sample_id": "EXP-RF-018",
+    "source_anchor_xyxy": [
+      99.5,
+      11.000000000000007,
+      298.5,
+      340.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      99,
+      11,
+      299,
+      340
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-018.png",
+    "crop_sha256": "6acf2baa759572d86d781dc9817aa78c09230e5e50d0412e3e08f5d2fdd1c467",
+    "dhash": 2884609094653612272,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "de90fc7eb40010ec6074eeb7fe433a340d2e2726c05649a4179055aecf63cd01",
+        "sample_ids": [
+          "P002-person-01"
+        ],
+        "distance": 19
+      },
+      {
+        "image_sha256": "37ca2bb9894bc139304cce5b33d7318603ae5ebd05c6ae4c89f5ce04dcb054b5",
+        "sample_ids": [
+          "SCB-read-019"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "0c90cbcb72fb7b4a537ad759f5b9c38c408a16fe3161699f67c1adff37c20a17",
+        "sample_ids": [
+          "SCB-read-006"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/IMG_6389_jpg.rf.fd18956080fab40ff74e8de504b97d1d.jpg",
+    "source_image_sha256": "aa2088cb3f3cadaaed603360667532f3856fab42a12c4e3f1d8c09aa3ae1f9fa",
+    "source_label_relpath": "train/labels/IMG_6389_jpg.rf.fd18956080fab40ff74e8de504b97d1d.txt",
+    "source_label_sha256": "005dff23381892df42b3ec7fa62030a690121870512b72a031c030ce74d5e077",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 640,
+    "height": 640,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.303125,
+      "y_center": 0.571359375,
+      "width": 0.4578125,
+      "height": 0.719265625
+    },
+    "rank_sha256": "b0d2b5870c1bf3f48445b843876ac868d332982038e2ffa4ad3d886c8c153a31",
+    "exact_aliases": [
+      "roboflow_v1:train/images/IMG_6389_jpg.rf.fd18956080fab40ff74e8de504b97d1d.jpg"
+    ],
+    "sample_id": "EXP-RF-019",
+    "source_anchor_xyxy": [
+      47.499999999999986,
+      135.505,
+      340.5,
+      595.835
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      47,
+      135,
+      341,
+      596
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-019.png",
+    "crop_sha256": "d2699433e2e0a3d34bc42e34add5d723ea8317d1e8da12f402a2e651179b4c73",
+    "dhash": 808171194567193561,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "3126997f90c981e51c2e142b6154249fb202c1226312db0b7f3df5213b858e1c",
+        "sample_ids": [
+          "P032-person-01"
+        ],
+        "distance": 15
+      },
+      {
+        "image_sha256": "1f12f1dc8e26367b308592bddc54e95d3ae926d06237367cc1b4b4999d97525f",
+        "sample_ids": [
+          "P033-person-01"
+        ],
+        "distance": 16
+      },
+      {
+        "image_sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+        "sample_ids": [
+          "P030-person-01"
+        ],
+        "distance": 18
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/Kebiasaan-Mencontek-Saat-Ujian_mp4-60_jpg.rf.8e96cb25bb2a8ecaff2990e3bdb9f97a.jpg",
+    "source_image_sha256": "bdd1ca5974cd4d3ac2783bf694984dcbc0534cf80c5a680acc52af544fce027e",
+    "source_label_relpath": "train/labels/Kebiasaan-Mencontek-Saat-Ujian_mp4-60_jpg.rf.8e96cb25bb2a8ecaff2990e3bdb9f97a.txt",
+    "source_label_sha256": "77833c6cae8e56e6bdb1d0707608eaac6c5a6694b99b477256fd1506ecb20aa8",
+    "source_label_line_1based": 10,
+    "source_class_id": 0,
+    "width": 640,
+    "height": 640,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.9421875,
+      "y_center": 0.34453125,
+      "width": 0.103125,
+      "height": 0.2359375
+    },
+    "rank_sha256": "b4ab167cff56f9f7f4254f34604d41af2fc7028ff4286aa1c504fab6ec12e2bf",
+    "exact_aliases": [
+      "roboflow_v1:train/images/Kebiasaan-Mencontek-Saat-Ujian_mp4-60_jpg.rf.8e96cb25bb2a8ecaff2990e3bdb9f97a.jpg"
+    ],
+    "sample_id": "EXP-RF-020",
+    "source_anchor_xyxy": [
+      570.0,
+      145.0,
+      636.0,
+      296.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      570,
+      145,
+      636,
+      296
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-020.png",
+    "crop_sha256": "67b083decfba1bf61d484d85ef61e61c7673443f8f9b2ebfdb3628aa65e8be43",
+    "dhash": 16234795602325335429,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "493e050c702d0d43b0e4bdceb41637c5534f5383d7ae35ad16dcb1e58429ae0a",
+        "sample_ids": [
+          "SCB-read-008"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "c53653d828ee39fa6d4307d2baa24d755eac4274944b7175a711f153c6c1135d",
+        "sample_ids": [
+          "P043-person-01"
+        ],
+        "distance": 24
+      },
+      {
+        "image_sha256": "ab4a3002a89fafe85c063e351339c0ed6cc7465a8118e82dac03da0394b536dd",
+        "sample_ids": [
+          "SCB-write-007"
+        ],
+        "distance": 25
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat207_jpg.rf.5f552906ab9917b12daad7ee3b04576d.jpg",
+    "source_image_sha256": "156ad71f9ec7a3460e7aa6d74d57fabd94e5a09d9d8645bdccb743bcf3dc677f",
+    "source_label_relpath": "train/labels/cheat207_jpg.rf.5f552906ab9917b12daad7ee3b04576d.txt",
+    "source_label_sha256": "18aa9140f352026e19f25c1212616242e6a8b22a92608dca1596173524e33750",
+    "source_label_line_1based": 2,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.6141826923076923,
+      "y_center": 0.5372596153846154,
+      "width": 0.3076923076923077,
+      "height": 0.5192307692307693
+    },
+    "rank_sha256": "0ed1708cf28bdcf30e0f90eddaeb83fc588c666aeb8c1ca59d53fd887e7d4519",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat207_jpg.rf.5f552906ab9917b12daad7ee3b04576d.jpg"
+    ],
+    "sample_id": "EXP-RF-021",
+    "source_anchor_xyxy": [
+      191.5,
+      115.5,
+      319.5,
+      331.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      191,
+      115,
+      320,
+      332
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-021.png",
+    "crop_sha256": "6a7ffa1b311ee7c5a1dcdbca033620768a760fabb0f374a9a35b4b1562153f91",
+    "dhash": 6474886970335463323,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "5a9e35c7febb9f3f3cac05e057403b3a7e1898bba9f64a1b5585c79f889dac06",
+        "sample_ids": [
+          "SCB-read-005"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "c2eda5ff5ba2c5e5b0062f57e84dc16534162b463d22401265849f16ea09d921",
+        "sample_ids": [
+          "SCB-turnhead-015"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "1f12f1dc8e26367b308592bddc54e95d3ae926d06237367cc1b4b4999d97525f",
+        "sample_ids": [
+          "P033-person-01"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat915_jpg.rf.15211dab014482ca7784cd01b4bff21d.jpg",
+    "source_image_sha256": "74c42a436d5e82ee2b8bd855e86cfbf2cec98f945a9d8868010aadf4c2ef7d4d",
+    "source_label_relpath": "train/labels/cheat915_jpg.rf.15211dab014482ca7784cd01b4bff21d.txt",
+    "source_label_sha256": "2d2c50f3c2962ead9095f59a03178e0961117a30cdf43bb7c3b9856e1eb05379",
+    "source_label_line_1based": 2,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.6033653846153846,
+      "y_center": 0.265625,
+      "width": 0.4326923076923077,
+      "height": 0.53125
+    },
+    "rank_sha256": "0f7fec7a1dfd36b6414cf9aaefd578740268f98240a645ee1cd20cdd38023b79",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat915_jpg.rf.15211dab014482ca7784cd01b4bff21d.jpg"
+    ],
+    "sample_id": "EXP-RF-022",
+    "source_anchor_xyxy": [
+      160.99999999999997,
+      0.0,
+      341.0,
+      221.0
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      160,
+      0,
+      341,
+      221
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-022.png",
+    "crop_sha256": "6cfc68e3965726927676ddeaae242e92de8241e563afcc232b0ec79d7dc029e7",
+    "dhash": 5615609043648723642,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "0074d7eed70ae8c4bdb6c0a284e67b9adefa5979c8189bc42233c9a6d8e71f7f",
+        "sample_ids": [
+          "SCB-read-010"
+        ],
+        "distance": 21
+      },
+      {
+        "image_sha256": "3976aa059cf83ec320d2a969a7402bf6e09994ebe6bd26bb20fdfdd4ec566798",
+        "sample_ids": [
+          "SCB-read-022"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "76307e998ab350f2542626dac214b40e5698857d7b1db11a0b6a29f0f96c7479",
+        "sample_ids": [
+          "SCB-write-018"
+        ],
+        "distance": 22
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat259_jpg.rf.9cc24b19070f7e786875dd89be646b0a.jpg",
+    "source_image_sha256": "556d917cdb5ddde40b3cca449ac8bbb908c1ce4cf7d64bb04a0bbbc332036838",
+    "source_label_relpath": "train/labels/cheat259_jpg.rf.9cc24b19070f7e786875dd89be646b0a.txt",
+    "source_label_sha256": "348092b7505856c235f7e88119709e40115844db8056953c6583bfdf27415b89",
+    "source_label_line_1based": 3,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.7728365384615384,
+      "y_center": 0.40384615384615385,
+      "width": 0.39663461538461536,
+      "height": 0.46875
+    },
+    "rank_sha256": "22c886a553c4d02da4e1810043e68d22d5105262a167ed81321866021c3731eb",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat259_jpg.rf.9cc24b19070f7e786875dd89be646b0a.jpg"
+    ],
+    "sample_id": "EXP-RF-023",
+    "source_anchor_xyxy": [
+      238.99999999999997,
+      70.5,
+      404.0,
+      265.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      238,
+      70,
+      404,
+      266
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-023.png",
+    "crop_sha256": "44bd3acd5e5e7b1386714af208fc2397ea1d8ecc5e8bfb9db0855c39a62c6b05",
+    "dhash": 12841122180732483214,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "31f776fdc9cdf6bc32e7a943486c3de97d992c15027e6c0456c94553390363e9",
+        "sample_ids": [
+          "SCB-write-017"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+        "sample_ids": [
+          "SCB-read-007"
+        ],
+        "distance": 22
+      },
+      {
+        "image_sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+        "sample_ids": [
+          "SCB-write-005"
+        ],
+        "distance": 24
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  },
+  {
+    "source_id": "roboflow_v1",
+    "archive_sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "source_image_relpath": "train/images/cheat703_jpg.rf.0ccaec1bc9061928e5793e234b490c1c.jpg",
+    "source_image_sha256": "fe271fabff10e3d17622df37e266f96dc0cb05a939325aad7290b55c070810bc",
+    "source_label_relpath": "train/labels/cheat703_jpg.rf.0ccaec1bc9061928e5793e234b490c1c.txt",
+    "source_label_sha256": "d5816ea905af3f0b67cc6fb2061aa09c25dadd509d082aeef085373a54400760",
+    "source_label_line_1based": 1,
+    "source_class_id": 0,
+    "width": 416,
+    "height": 416,
+    "stratum": "source_looking",
+    "source_anchor_yolo": {
+      "class_id": 0,
+      "x_center": 0.6658653846153846,
+      "y_center": 0.6622596153846154,
+      "width": 0.5432692307692307,
+      "height": 0.2980769230769231
+    },
+    "rank_sha256": "478eca5a8b2d7a9b6cc5650312c9df9eafda237e19ea7a835b09b41acd25a09a",
+    "exact_aliases": [
+      "roboflow_v1:train/images/cheat703_jpg.rf.0ccaec1bc9061928e5793e234b490c1c.jpg"
+    ],
+    "sample_id": "EXP-RF-024",
+    "source_anchor_xyxy": [
+      164.0,
+      213.5,
+      390.0,
+      337.5
+    ],
+    "selection_reason": "draft_dhash_diversity_largest_anchor_no_target_mapping",
+    "annotation_status": "source_anchor_not_person_or_target_approval",
+    "status": "draft_pending_owner_acceptance",
+    "usage": "review_only",
+    "split": null,
+    "leakage_group_id": null,
+    "training_eligible": false,
+    "phone_use": "unknown",
+    "looking_around": "unknown",
+    "target_values": [
+      null,
+      null
+    ],
+    "target_mask": [
+      0,
+      0
+    ],
+    "proposed_xyxy": [
+      164,
+      213,
+      390,
+      338
+    ],
+    "crop_path": "data/interim/pilot-b/expansion-rf-20261006-r2/crops/EXP-RF-024.png",
+    "crop_sha256": "373698594c4bcccd7e073e97b4c73ea652a816daacca771696c525bfd9a50ef4",
+    "dhash": 2098525629684929934,
+    "nearest_parent_images": [
+      {
+        "image_sha256": "3b35d2bcdec009aea54275d785c194b66e3bff077f911dc2d50d4ca8798acc5e",
+        "sample_ids": [
+          "SCB-write-001"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "5a5696fe8c3a201b9b9b3736baaaaf7dccc397e77b1146698c6398c79a52675f",
+        "sample_ids": [
+          "SCB-write-019"
+        ],
+        "distance": 23
+      },
+      {
+        "image_sha256": "6e540e7450b262b8699f6f5fc6654e84dd58962aa375d357d2cf594f46997954",
+        "sample_ids": [
+          "SCB-write-022"
+        ],
+        "distance": 23
+      }
+    ],
+    "qa_status": "pending_visual_review"
+  }
+]

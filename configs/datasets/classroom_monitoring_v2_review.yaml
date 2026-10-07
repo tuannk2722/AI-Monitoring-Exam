@@ -1,0 +1,139 @@
+# Đề xuất review Classroom v2, chưa phải staging/release.
+status: draft_pending_owner_acceptance
+formulation: B
+source_id: classroom_monitoring_v2
+source_version: 2
+archive:
+  supplied_path: C:\Users\OS\Downloads\Classroom-monitoring-dataset.v2i.yolov8.zip
+  raw_path: data/raw/classroom-monitoring/v2/Classroom-monitoring-dataset.v2i.yolov8.zip
+  sha256: 59e4e301330d75dd77b2540722624c0104178e37ecae03a5d406738c6da9fb90
+  bytes: 5077256
+report_dir: artifacts/reports/classroom-v2-20261007
+source_root: data/interim/classroom-v2-20261007/extracted
+source_names:
+  path: artifacts/reports/classroom-v2-20261007/source-names.json
+  sha256: 61713ad0ce60271d0b4567b3cc3b9da02e59c5e9a15a8a38ec9ed281592cb148
+audit_reports:
+- path: artifacts/reports/classroom-v2-20261007/train-audit.json
+  sha256: 372b32a57e98af666d3f85f6c636a34825622a6bb4bd6f95ed9411e01f65d425
+- path: artifacts/reports/classroom-v2-20261007/valid-audit.json
+  sha256: 0d32962c366d783304219c27b2e04cec1a122980993c90803c0f857c3cd0b44a
+selection:
+  method: Review thủ công toàn120 ảnh train, chọn24 anchor đại diện phone/hướng nhìn/làm
+    bài và trường hợp mơ hồ; không lấy mẫu xác suất, không claim đại diện thống kê.
+  image_count: 24
+  one_anchor_per_selected_image: true
+  upstream_split: train
+  exact_membership:
+  - sample_id: EXP-CM-001
+    image_id: CM-001
+    source_image: train/images/frame_001_jpg.rf.2aa1de936b76d70946c010726bb59489.jpg
+    source_label_line_1based: 2
+  - sample_id: EXP-CM-002
+    image_id: CM-005
+    source_image: train/images/frame_006_jpg.rf.e098f2e96ee66b296efa8e816224b212.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-003
+    image_id: CM-017
+    source_image: train/images/frame_025_jpg.rf.75b2940285361675fa621befe2c7051a.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-004
+    image_id: CM-020
+    source_image: train/images/frame_031_jpg.rf.74e469a34590f4694a83e0ed249a8f0a.jpg
+    source_label_line_1based: 4
+  - sample_id: EXP-CM-005
+    image_id: CM-027
+    source_image: train/images/frame_041_jpg.rf.fb1077f523b593aa131ec3dcc333a9bd.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-006
+    image_id: CM-032
+    source_image: train/images/frame_048_jpg.rf.30a489ea1d28a144f5d06254be64fbf4.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-007
+    image_id: CM-046
+    source_image: train/images/frame_071_jpg.rf.d8633a0f9be0ca43cd64aea34d172c28.jpg
+    source_label_line_1based: 1
+  - sample_id: EXP-CM-008
+    image_id: CM-047
+    source_image: train/images/frame_072_jpg.rf.e30c25806fe31b921d65303192d723e1.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-009
+    image_id: CM-053
+    source_image: train/images/frame_078_jpg.rf.b8664e3a413da1f05dc1ef3e64eaefc0.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-010
+    image_id: CM-061
+    source_image: train/images/frame_090_jpg.rf.9e398f4ece51f311496d02f240c64595.jpg
+    source_label_line_1based: 1
+  - sample_id: EXP-CM-011
+    image_id: CM-064
+    source_image: train/images/frame_093_jpg.rf.fd336b6bf5b3937aace1820b3857f442.jpg
+    source_label_line_1based: 5
+  - sample_id: EXP-CM-012
+    image_id: CM-069
+    source_image: train/images/frame_099_jpg.rf.a972a9c218cdcb0b3bccfd709aa490a6.jpg
+    source_label_line_1based: 5
+  - sample_id: EXP-CM-013
+    image_id: CM-078
+    source_image: train/images/frame_112_jpg.rf.649e3f7a0c45dbb25c9230f289888cd6.jpg
+    source_label_line_1based: 5
+  - sample_id: EXP-CM-014
+    image_id: CM-085
+    source_image: train/images/frame_131_jpg.rf.654a74d80050e295f54dc94aa213b416.jpg
+    source_label_line_1based: 1
+  - sample_id: EXP-CM-015
+    image_id: CM-088
+    source_image: train/images/frame_137_jpg.rf.719fa6965b5a8e3d325da4526065c885.jpg
+    source_label_line_1based: 5
+  - sample_id: EXP-CM-016
+    image_id: CM-091
+    source_image: train/images/frame_146_jpg.rf.449578d640c97b000db5560c13503b0b.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-017
+    image_id: CM-095
+    source_image: train/images/frame_150_jpg.rf.60bdbe44ea5b0038fdbc442ec3772349.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-018
+    image_id: CM-098
+    source_image: train/images/frame_158_jpg.rf.691f61b13abc1c1e514bb74b92cbf53f.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-019
+    image_id: CM-100
+    source_image: train/images/frame_160_jpg.rf.1d65145a654e0da64f6b5ce538b9c035.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-020
+    image_id: CM-104
+    source_image: train/images/frame_167_jpg.rf.3543df51e614dccc463153070a347b1c.jpg
+    source_label_line_1based: 3
+  - sample_id: EXP-CM-021
+    image_id: CM-107
+    source_image: train/images/frame_171_jpg.rf.6b827aacc81c83a699c70fa4842f724b.jpg
+    source_label_line_1based: 4
+  - sample_id: EXP-CM-022
+    image_id: CM-114
+    source_image: train/images/frame_187_jpg.rf.382e1263b5e4b6a2fe382fc2cbb57e6d.jpg
+    source_label_line_1based: 4
+  - sample_id: EXP-CM-023
+    image_id: CM-115
+    source_image: train/images/frame_188_jpg.rf.f0175e6d2338c00dd87d05c7627d69cc.jpg
+    source_label_line_1based: 4
+  - sample_id: EXP-CM-024
+    image_id: CM-117
+    source_image: train/images/frame_191_jpg.rf.f1b22f8adb8e3d723ab2d48debcb1f10.jpg
+    source_label_line_1based: 4
+candidates:
+  path: artifacts/reports/classroom-v2-20261007/candidates.json
+  sha256: 0c64438807a13bd61b48efe4a86aa6dc234bb00a594d121cb78d646d59a4aa1a
+visual_proposals:
+  path: artifacts/reports/classroom-v2-20261007/visual-review-proposals.json
+  sha256: 4ac1681b633300d6fcba0ed12f1901b39420391c70ea845efb71c1bb7eea5d65
+scene_proposal:
+  path: artifacts/reports/classroom-v2-20261007/scene-proposal.json
+  sha256: 5d8804ce466e258a4b039fd62882bf8cefa540dfc94fe84a18557acb2803fe16
+unknown_supervision: masked
+target_order:
+- phone_use
+- looking_around
+training_eligible: false
+split_version: null
+staging_created: false

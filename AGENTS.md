@@ -55,11 +55,9 @@ Mỗi run phải có: experiment ID, owner, hypothesis, Git commit, dataset/spli
 - Không tạo mock metric/model prediction trong production path.
 - Mỗi PR có một owner và một mục tiêu chính. Solo: owner tự review/chốt, Codex hỗ trợ; ghi bằng chứng kiểm tra, không yêu cầu người thứ hai.
 
-## Before/after
+## Spec and document rules
 
-Trước code: nêu goal, docs/ADR đã đọc, assumptions, files, plan và acceptance criteria.
-
-Sau code: nêu files changed, implementation, commands/tests, kết quả, unresolved/TBD, spec/ADR/experiment impact.
+- Toàn bộ đều phải được viết bằng tiêngs việt.
 
 ## Stop conditions
 

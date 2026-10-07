@@ -1,0 +1,40 @@
+# Staging crop/nhãn và nhóm nguồn đã được owner duyệt.
+status: prepared_pending_gates
+formulation: B
+dataset_version: classroom-v2-20261007-staging
+package: data/interim/pilot-b/classroom-v2-20261007-staging
+checksums_sha256: 62e33da4c504fbab2a5e397849bd5cec1d322380487c2d1a490bd86bbfdf2550
+ledger_records: 24
+review_only_records: 24
+training_eligible: false
+split_version: null
+leakage_group_id: CM-V2-SCENE-01
+group_source_image_count: 150
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+owner_approval:
+  path: artifacts/reports/classroom-v2-staging-20261007/owner-approval.json
+  sha256: be103e84cd6df5e4c7f321e32c730ac79347493aef800ad3db46814d9fbf17f0
+group_decision:
+  path: artifacts/reports/classroom-v2-staging-20261007/group-decision.json
+  sha256: 0198e9bf427921cb595693caa9d5c961651348d15688411667ec7c7cade1a7eb
+rights_scope:
+  path: artifacts/reports/classroom-v2-staging-20261007/rights-scope.json
+  sha256: a9b80a8ff2e3eb4c9502024e4de55855989e78eb3a689161dc4f2641b8e70130
+build_metadata:
+  path: artifacts/reports/classroom-v2-staging-20261007/build-metadata.json
+  sha256: edf30b95da475726af4395bf6339d0919fe924f63d59eac757e09a82f5480689
+build_inputs:
+  path: artifacts/reports/classroom-v2-staging-20261007/build-inputs.json
+  sha256: 9fb47ffb344252a23c57cb0f11215789a411dd3cf8d013a860a76d1fbf118bff
+review_ledger:
+  path: artifacts/reports/classroom-v2-staging-20261007/review-ledger.jsonl
+  sha256: 0b115019fac96d1b07ce0b6ecaf757ff1ee2863d2d42fb2aff0f710f587ca3b3
+selection:
+  path: artifacts/reports/classroom-v2-staging-20261007/selection.jsonl
+  sha256: 3f85f29b08982bf701a4b0b661173fd3e5c743c8a408d4c70b8d850ef2e001ad
+dataset_card:
+  path: artifacts/reports/classroom-v2-staging-20261007/dataset-card.md
+  sha256: 7b333f0df0bf538efb25ae5a85fbe724ba3df4f32bb0e8b720cacd0438f093e2

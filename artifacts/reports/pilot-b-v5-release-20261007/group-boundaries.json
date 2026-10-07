@@ -1,0 +1,1441 @@
+{
+  "classroom_all150_images": {
+    "path": "artifacts/reports/classroom-v2-staging-20261007/group-decision.json",
+    "sha256": "0198e9bf427921cb595693caa9d5c961651348d15688411667ec7c7cade1a7eb"
+  },
+  "classroom_reserved_split": "train",
+  "components": {
+    "approved_relations": {
+      "path": "artifacts/reports/data-expansion-staging-20261006-r2/scene-constraints.json",
+      "sha256": "bc9c8d82119be606cc88a0510f136b9e29b6263d530db5349a5bb4393a41f263"
+    },
+    "component_count": 102,
+    "components": [
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "CM-V2-SCENE-01"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "CM-V2-SCENE-01",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "CM-V2-SCENE-01",
+        "sample_ids": [
+          "EXP-CM-001",
+          "EXP-CM-002",
+          "EXP-CM-003",
+          "EXP-CM-004",
+          "EXP-CM-005",
+          "EXP-CM-006",
+          "EXP-CM-007",
+          "EXP-CM-008",
+          "EXP-CM-009",
+          "EXP-CM-010",
+          "EXP-CM-011",
+          "EXP-CM-012",
+          "EXP-CM-013",
+          "EXP-CM-014",
+          "EXP-CM-015",
+          "EXP-CM-016",
+          "EXP-CM-017",
+          "EXP-CM-018",
+          "EXP-CM-019",
+          "EXP-CM-020",
+          "EXP-CM-021",
+          "EXP-CM-022",
+          "EXP-CM-023",
+          "EXP-CM-024"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-001",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-001"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-002",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-002"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-07"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-67126c25dc3d",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-67126c25dc3d",
+        "sample_ids": [
+          "EXP-RF-003",
+          "EXP-RF-014"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-004",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-004"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-08"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-5b9028c06fb2",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-5b9028c06fb2",
+        "sample_ids": [
+          "EXP-RF-005",
+          "EXP-RF-006",
+          "EXP-RF-010"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-09"
+        ],
+        "approved_parent_group_ids": [
+          "PB-G-baf0e0aa45deba62941c"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-baf0e0aa45deba62941c",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "val"
+        ],
+        "proposed_group_id": "PB-G-baf0e0aa45deba62941c",
+        "sample_ids": [
+          "EXP-RF-007",
+          "EXP-RF-009",
+          "EXP-RF-011",
+          "EXP-RF-012",
+          "P002-person-01",
+          "P006-extra-01",
+          "P006-person-01",
+          "P006-person-02",
+          "P007-extra-01",
+          "P007-person-01",
+          "P007-person-02",
+          "P008-extra-01",
+          "P008-person-01",
+          "P022-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-008",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-008"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-013",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-013"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-015",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-015"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-016",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-016"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-017",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-017"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-018",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-018"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-10"
+        ],
+        "approved_parent_group_ids": [
+          "PB-G-88e21db5e6c794bef0f2"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-88e21db5e6c794bef0f2",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-88e21db5e6c794bef0f2",
+        "sample_ids": [
+          "EXP-RF-019",
+          "P029-person-01",
+          "P029-person-02",
+          "P030-person-01",
+          "P031-person-01",
+          "P032-person-01",
+          "P033-person-01",
+          "P034-person-01",
+          "P035-person-01",
+          "P036-person-01",
+          "P038-person-01",
+          "P039-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-020",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-020"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-021",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-021"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-022",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-022"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-023",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-023"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-RF-024",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-RF-024"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-01"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-0d1a82fab3fd",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-0d1a82fab3fd",
+        "sample_ids": [
+          "EXP-SCB-001",
+          "EXP-SCB-028"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-002",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-002"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-003",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-003"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-004",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-004"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-02"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-85045be9db4b",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-85045be9db4b",
+        "sample_ids": [
+          "EXP-SCB-005",
+          "EXP-SCB-024"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-006",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-006"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-007",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-007"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-008",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-008"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-009",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-009"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-010",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-010"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-011",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-011"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-012",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-012"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-013",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-013"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-014",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-014"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-03"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-f7ccfbc832ce",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-f7ccfbc832ce",
+        "sample_ids": [
+          "EXP-SCB-015",
+          "SCB-turnhead-026"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-016",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-016"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-017",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-017"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-018",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-018"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-019",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-019"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-020",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-020"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-04"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-6af358955ba8",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-6af358955ba8",
+        "sample_ids": [
+          "EXP-SCB-021",
+          "SCB-turnhead-016"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-022",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-022"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-023",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-023"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-025",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-025"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-026",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-026"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-05"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-e807a4df97a3",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-e807a4df97a3",
+        "sample_ids": [
+          "EXP-SCB-027",
+          "SCB-read-025"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-029",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-029"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-030",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-030"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-031",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-031"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-06"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-7f8137444d3c",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-7f8137444d3c",
+        "sample_ids": [
+          "EXP-SCB-032",
+          "SCB-turnhead-028"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-033",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-033"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-034",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-034"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-035",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-035"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-036",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-036"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-037",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-037"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-038",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-038"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-039",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-039"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-040",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-040"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-041",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-041"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-042",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-042"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-043",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-043"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-044",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-044"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-045",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-045"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-046",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-046"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-047",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-047"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-EXP-SCB-048",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "EXP-SCB-048"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-P009-person-01",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "P009-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-P019-person-01",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "P019-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-3369d47e05ce355b3db8"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-3369d47e05ce355b3db8",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "test"
+        ],
+        "proposed_group_id": "PB-G-3369d47e05ce355b3db8",
+        "sample_ids": [
+          "P023-person-01",
+          "P028-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-P043-person-01",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "P043-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [
+          "EXP-LINK-11"
+        ],
+        "approved_parent_group_ids": [],
+        "boundary_status": "linked_component_independence_unresolved",
+        "component_id": "V5-COMP-78b435b55fa5",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": "V5-COMP-78b435b55fa5",
+        "sample_ids": [
+          "P047-extra-01",
+          "P047-person-01"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-950af88cd17908a77c81"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-950af88cd17908a77c81",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-950af88cd17908a77c81",
+        "sample_ids": [
+          "SCB-read-001",
+          "SCB-read-004",
+          "SCB-write-025"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-2bfd674c05ef8b6e2ea6"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-2bfd674c05ef8b6e2ea6",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "test"
+        ],
+        "proposed_group_id": "PB-G-2bfd674c05ef8b6e2ea6",
+        "sample_ids": [
+          "SCB-read-002",
+          "SCB-read-011",
+          "SCB-read-024",
+          "SCB-turnhead-017",
+          "SCB-turnhead-022",
+          "SCB-write-003",
+          "SCB-write-015"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-003",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-003"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-005",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-005"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-f0b75b5ac12d58228355"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-f0b75b5ac12d58228355",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-f0b75b5ac12d58228355",
+        "sample_ids": [
+          "SCB-read-006",
+          "SCB-read-012",
+          "SCB-read-014",
+          "SCB-read-023",
+          "SCB-read-026",
+          "SCB-turnhead-001",
+          "SCB-turnhead-002",
+          "SCB-turnhead-003",
+          "SCB-turnhead-004",
+          "SCB-turnhead-007",
+          "SCB-turnhead-009",
+          "SCB-turnhead-012",
+          "SCB-turnhead-019",
+          "SCB-turnhead-020",
+          "SCB-turnhead-027",
+          "SCB-write-001",
+          "SCB-write-004",
+          "SCB-write-009",
+          "SCB-write-012",
+          "SCB-write-014",
+          "SCB-write-016",
+          "SCB-write-019",
+          "SCB-write-021",
+          "SCB-write-022",
+          "SCB-write-027",
+          "SCB-write-028"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-0d6c5bf196aadec95d7c"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-0d6c5bf196aadec95d7c",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-0d6c5bf196aadec95d7c",
+        "sample_ids": [
+          "SCB-read-007",
+          "SCB-write-010"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-008",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-008"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-66da3ab14fede8835db8"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-66da3ab14fede8835db8",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-66da3ab14fede8835db8",
+        "sample_ids": [
+          "SCB-read-009",
+          "SCB-write-007"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-010",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-010"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-013",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-013"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-18b53fda4c21055b08af"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-18b53fda4c21055b08af",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-18b53fda4c21055b08af",
+        "sample_ids": [
+          "SCB-read-015",
+          "SCB-turnhead-013",
+          "SCB-write-013",
+          "SCB-write-017",
+          "SCB-write-023"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-13e190f7784f3cb34c62"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-13e190f7784f3cb34c62",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-13e190f7784f3cb34c62",
+        "sample_ids": [
+          "SCB-read-016",
+          "SCB-read-017",
+          "SCB-write-005"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-7fb27f65676f43721a39"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-7fb27f65676f43721a39",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "test"
+        ],
+        "proposed_group_id": "PB-G-7fb27f65676f43721a39",
+        "sample_ids": [
+          "SCB-read-018",
+          "SCB-write-026"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-019",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-019"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-020",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-020"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-021",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-021"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-read-022",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-read-022"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-dca2707060694e8e8350"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-dca2707060694e8e8350",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-dca2707060694e8e8350",
+        "sample_ids": [
+          "SCB-read-027",
+          "SCB-write-018"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-7adf3e797f0d4d4978d9"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-7adf3e797f0d4d4978d9",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-7adf3e797f0d4d4978d9",
+        "sample_ids": [
+          "SCB-read-028",
+          "SCB-turnhead-008"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-e75177c4ea5ebe2443ac"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-e75177c4ea5ebe2443ac",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-e75177c4ea5ebe2443ac",
+        "sample_ids": [
+          "SCB-turnhead-005",
+          "SCB-turnhead-011"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-b3e360cd83d1dfacd186"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-b3e360cd83d1dfacd186",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "train"
+        ],
+        "proposed_group_id": "PB-G-b3e360cd83d1dfacd186",
+        "sample_ids": [
+          "SCB-turnhead-006",
+          "SCB-turnhead-024"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-010",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-010"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-014",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-014"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-015",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-015"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-018",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-018"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-021",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-021"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-023",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-023"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-turnhead-025",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-turnhead-025"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [
+          "PB-G-d4148f8feed0711bb6c6"
+        ],
+        "boundary_status": "approved_group_with_approved_links",
+        "component_id": "PB-G-d4148f8feed0711bb6c6",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [
+          "val"
+        ],
+        "proposed_group_id": "PB-G-d4148f8feed0711bb6c6",
+        "sample_ids": [
+          "SCB-write-002",
+          "SCB-write-020",
+          "SCB-write-024"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-write-006",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-write-006"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-write-008",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-write-008"
+        ]
+      },
+      {
+        "approved_must_link_refs": [],
+        "approved_parent_group_ids": [],
+        "boundary_status": "unresolved_singleton",
+        "component_id": "UNRESOLVED-SCB-write-011",
+        "independence_newly_inferred": false,
+        "parent_assigned_splits": [],
+        "proposed_group_id": null,
+        "sample_ids": [
+          "SCB-write-011"
+        ]
+      }
+    ],
+    "conflicting_parent_groups_or_splits": 0,
+    "note": "Connected components chỉ lan truyền quan hệ đã duyệt/exact SHA; không có cạnh không chứng minh độc lập. Group chưa chốt vẫn review_only."
+  },
+  "note": "V5-COMP chỉ là liên hệ nội bộ chưa chốt độc lập; record giữ group ID null và review_only. Approved parent groups/CM được giữ; liên hệ RF019/train,RF007009/val được lan truyền.",
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+    "sha256": "f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f"
+  }
+}
