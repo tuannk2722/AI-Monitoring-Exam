@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-07",
+  "status": "PASS",
+  "meaning": "Kiểm bằng chứng nghiên cứu; không phải dataset accepted hoặc model quality gate.",
+  "local_receipts_verified": 40,
+  "json_utf8_and_newfile_whitespace": "PASS",
+  "local_links": [
+    {
+      "file": "artifacts/reports/fpi-scb-research-20261007/README.md",
+      "target": "../../../docs/data/fpi-scb-research-20261007.md",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/fpi-metadata-audit.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/scb-local-reaudit.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/scb-upstream-inventory.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/current-usage.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/provenance.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/current-usage.json",
+      "exists": true
+    },
+    {
+      "file": "docs/data/fpi-scb-research-20261007.md",
+      "target": "../../artifacts/reports/fpi-scb-research-20261007/verification.json",
+      "exists": true
+    }
+  ],
+  "scb_recount_assertions": "PASS",
+  "fpi_count_assertions": "PASS",
+  "repository_check": "Checking Git index (including staged files; ignored/untracked files excluded)\nRepository check complete; failures=0",
+  "git_diff_check": "PASS",
+  "production_code_changed": false,
+  "dataset_mutated": false,
+  "training_or_model_inference": false,
+  "limitations": [
+    "Chưa kiểm đầy đủ payload ảnh FPI.",
+    "SCB near-duplicate toàn nguồn và group independence chưa kiểm.",
+    "Central directory remote chỉ là kiểm kê; không phải hash/CRC toàn payload."
+  ],
+  "artifact_checksums": {
+    "current-usage.json": "cd0afb4d6b4d2bba3274954a606fca6d40426dcc19b2d0d97326f36418cb9380",
+    "fpi-metadata-audit.json": "0bf94792f60b36616ff1d0e1e144d27f575a4f6f6198448cc7148a19b4e7b103",
+    "provenance.json": "55e4891e0446d2c38ebef55ef8802055d2b449d8d085883e33862c6eedf8e4b1",
+    "README.md": "72398fbb147a00e5e9c3fdd2bccfaca8f3b1a28471e9de9b94fdb5ec9be48305",
+    "scb-local-reaudit.json": "4bab6b0da5fc74d4fdf4e47eff49beaf7dc6107bd2af55b9958e002aeadf7622",
+    "scb-upstream-inventory.json": "0d940e203d712f0a33452c9955b299e65969558a9c76d53b516b37c70c204f6e"
+  },
+  "report_sha256": "5815ff0cf512524ed3a177a7558eb527cc5a9b30f922de9325db73802c742332"
+}

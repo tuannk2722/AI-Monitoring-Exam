@@ -1,5 +1,12 @@
 # WORKLOG
 
+## 2026-10-08 — Hoàn tất release v6 theo owner approval
+
+- [Bàn giao v6](../artifacts/reports/pilot-b-v6-release-20261007/README.md), [config accepted](../configs/datasets/pilot_b_release_v6.yaml):317train/50val/11test;378manifest,498ledger,471crop;93review_only27excluded. Owner approve báo cáo expansionR2 ngày2026-10-07; gián đoạn hạn mức auto-review, tiếp tục và hoàn tất ngày2026-10-08, không hỏi lại approval.
+- Canonical schema/exporter materialize đúng assignment; evidence nhãn/crop/group/rights/release được gắn approval. Test11 và val13lịch sử, toàn104usedv5 giữ identity/evidence; v5 và proposal bất biến. Unknownmasked; FPI/Discuss không nhập.
+- QA pixel/hash/membership/group, publicloader integrity PASS;162tests66.686sPASS, Ruff/Mypy/diff/repo checksPASS. Không train/testinference/upload/commit/push. Pointer local và provenance đã ghi; bước tiếp là experiment config/protocol riêng.
+
+
 ## 2026-10-07 — E002 FINISHED, báo cáo validation và artifact local
 
 - [E002 results](experiments/E002-results.md): codecommit082523947f5bb045622740bf6279fbc44c65130d, git_dirty=false từ checkout outputs/E002-code, exact resolvedconfig/seed/env/data/weights theo approval. Smoke interruptepoch1/resume đến3 PASS; baseline27epoch/earlystop, bestepoch7, routine5.26748s/peak454.13MiB.

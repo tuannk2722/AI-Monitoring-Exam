@@ -1,0 +1,1343 @@
+{
+  "selection": "Hai tên đầu theo thứ tự lexical trong mỗi bucket val numeric-label/box-presence; chỉ annotation QA, không model inference/tuning; không thay membership.",
+  "samples": [
+    {
+      "id": 1,
+      "filename": "MNhnXRLYVte5FiGxHbouPslr84UJp7gI.jpg",
+      "numeric_csv": 0,
+      "categories": [
+        1
+      ],
+      "member": "reorganized_dataset/val/images/MNhnXRLYVte5FiGxHbouPslr84UJp7gI.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-1.jpg",
+      "sha256": "760f9c368d19b0976469622b4c106987386448a8d59042dadd5f51e0f6ac4c53"
+    },
+    {
+      "id": 2,
+      "filename": "MQG2EmWsjO67N9BP8vH3yzoFq4gJLTxh.jpg",
+      "numeric_csv": 0,
+      "categories": [
+        1
+      ],
+      "member": "reorganized_dataset/val/images/MQG2EmWsjO67N9BP8vH3yzoFq4gJLTxh.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-2.jpg",
+      "sha256": "de19a5d5ee75b20ddb4af03bbc97406c958b3ed31177413ecb6dd77323bb44c8"
+    },
+    {
+      "id": 3,
+      "filename": "MOzfbkPUANBTKuxr7s2HwigYvey3pc4q.jpg",
+      "numeric_csv": 1,
+      "categories": [
+        0,
+        1
+      ],
+      "member": "reorganized_dataset/val/images/MOzfbkPUANBTKuxr7s2HwigYvey3pc4q.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-3.jpg",
+      "sha256": "47efe2bdfaebd76701eedd83ae6f7a9f3fa348c5ed9e62acdaf322eec07554af"
+    },
+    {
+      "id": 4,
+      "filename": "MUCfw5RxO89tq2u4EAKDLISXheZBgiYT.jpg",
+      "numeric_csv": 1,
+      "categories": [
+        0,
+        1
+      ],
+      "member": "reorganized_dataset/val/images/MUCfw5RxO89tq2u4EAKDLISXheZBgiYT.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-4.jpg",
+      "sha256": "9310a26c128b14898d2ff02992f5cdde96a7c05ae1d90e16284153305b98f458"
+    },
+    {
+      "id": 5,
+      "filename": "QNFMiaUgk078vARGnVm6cDuY5JZ3HlOh.jpg",
+      "numeric_csv": 0,
+      "categories": [],
+      "member": "reorganized_dataset/val/images/QNFMiaUgk078vARGnVm6cDuY5JZ3HlOh.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-5.jpg",
+      "sha256": "d1a88d45dda08ec9d40154d4ecbe75abd19cc7eedb4874a07cc5c4685f74f38e"
+    },
+    {
+      "id": 6,
+      "filename": "Tb5ipxUy3s9Ivnmj8BqHlaEdCFWMONrw.jpg",
+      "numeric_csv": 0,
+      "categories": [],
+      "member": "reorganized_dataset/val/images/Tb5ipxUy3s9Ivnmj8BqHlaEdCFWMONrw.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-6.jpg",
+      "sha256": "d67673aec3893726cb36a35cedb3274b4398b63991628b2e3179826ca2bdcb02"
+    },
+    {
+      "id": 7,
+      "filename": "QAFu8Ew6Lvjl5bPr3SyIOGs7RpofhqxB.jpg",
+      "numeric_csv": 1,
+      "categories": [
+        0
+      ],
+      "member": "reorganized_dataset/val/images/QAFu8Ew6Lvjl5bPr3SyIOGs7RpofhqxB.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-7.jpg",
+      "sha256": "6b0a80a2db63b6f03b18fb464861bf819d3ea7aee4651de05a5c9507b424ac70"
+    },
+    {
+      "id": 8,
+      "filename": "VmU4Pv5fb1Lywzx7lhEGuYcAqH2kOMta.jpg",
+      "numeric_csv": 1,
+      "categories": [
+        0
+      ],
+      "member": "reorganized_dataset/val/images/VmU4Pv5fb1Lywzx7lhEGuYcAqH2kOMta.jpg",
+      "path": "outputs/pilot-b-v6-source-research-20261007/fpi-polarity-8.jpg",
+      "sha256": "1a6f25381c919bc25de10e1d37d0025e88f550389363e896b751185ee7097644"
+    }
+  ],
+  "geometry_diagnostics": {
+    "train": {
+      "overflow_at_most_1e_12_normalized": 1,
+      "overflow_above_1e_12_normalized": 1087,
+      "max_overflow_normalized": 0.892,
+      "nonpositive_wh": 1,
+      "malformed_rows": [
+        {
+          "member": "reorganized_dataset/train/labels/08ge912OPt3bZj5yH6hJdBNzpUVxFLa4.txt",
+          "fields": 10,
+          "raw": "0 0.7555555555555555 0.484394506866417 0.1925925925925926 0.07990012484394507 0 0.5703703703703703 0.6947565543071161 0.2617283950617284 0.1136079900124844"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/0YpRidGLzShKa15XUCgE7qFONMywoTuV.txt",
+          "fields": 10,
+          "raw": "0 0.6617647058823529 0.2862523540489642 0.28823529411764703 0.05649717514124294 0 0.5911764705882353 0.1271186440677966 0.17058823529411765 0.07721280602636535"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/0YVeuWwXSmJNhtdQTKiz7jGE8kZRlvC4.txt",
+          "fields": 10,
+          "raw": "0 0.4933333333333333 0.3473333333333333 0.16 0.28933333333333333 0 0.7333333333333333 0.42 0.10666666666666666 0.07466666666666666"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/1mbJ50BVX6LhGK4Yn7oU98skAyRd3Hca.txt",
+          "fields": 10,
+          "raw": "0 0.5548128342245989 0.3656156156156156 0.14705882352941177 0.1006006006006006 0 0.9184491978609625 0.40465465465465467 0.15775401069518716 0.07357357357357357"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/2c0iCJlug5jSrys63toBHdaGN17UKZez.txt",
+          "fields": 10,
+          "raw": "0 0.5504731861198738 0.5139372822299652 0.10410094637223974 0.06620209059233449 0 0.17350157728706625 0.0313588850174216 0.10725552050473186 0.0627177700348432"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/2LuC10HaJ4NroYFQ3qyIhVjzdwUPK8ZG.txt",
+          "fields": 10,
+          "raw": "0 0.48639455782312924 0.10609756097560975 0.11564625850340135 0.07073170731707316 0 0.6700680272108843 0.14878048780487804 0.11564625850340135 0.058536585365853655"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/3ouWgm4l5XnSkqZjJOzNy8e1PBdA9QDw.txt",
+          "fields": 10,
+          "raw": "0 0.10886319845857417 0.5185381355932204 0.17533718689788053 0.06673728813559322 0 0.3044315992292871 0.4676906779661017 0.15028901734104047 0.0815677966101695"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/4Ke6aUtXL3yBqp2oQVYmMlwfd7jZFIuS.txt",
+          "fields": 10,
+          "raw": "0 0.45915032679738566 0.4366438356164383 0.10784313725490197 0.1541095890410959 0 0.369281045751634 0.0273972602739726 0.16993464052287582 0.0547945205479452"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/5rBVIhZcuLmEywMNio4DvdJxeXG7FU19.txt",
+          "fields": 10,
+          "raw": "0 0.2777777777777778 0.15283018867924528 0.15789473684210525 0.10943396226415095 0 0.7690058479532164 0.40943396226415096 0.1695906432748538 0.13962264150943396"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/6Inm7pEKrFhQltdvqPzAZ1UGs9cifCB2.txt",
+          "fields": 10,
+          "raw": "0 0.5457516339869282 0.1613861386138614 0.2549019607843137 0.11683168316831684 0 0.5130718954248367 0.1297029702970297 0.1895424836601307 0.09702970297029703"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/6jRFUevQMObZzrIGmnDPkASg0qBELKt8.txt",
+          "fields": 10,
+          "raw": "0 0.9037735849056604 0.49999999999999994 0.19245283018867926 0.07045735475896167 0 0.7150943396226415 0.29666254635352285 0.1849056603773585 0.054388133498145856"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/6t7UgofOblna4GBeH3FSDZ2Q9CsNjmYk.txt",
+          "fields": 10,
+          "raw": "0 0.6028806584362141 0.42334494773519166 0.20164609053497945 0.11498257839721254 0 0.9444444444444445 0.47909407665505227 0.102880658436214 0.14982578397212543"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/76yUaWAvnJGujQ10Bob4FCEqDStwPepc.txt",
+          "fields": 10,
+          "raw": "0 0.8846153846153847 0.3107638888888889 0.18681318681318682 0.12152777777777778 0 0.4395604395604396 0.07291666666666666 0.13186813186813187 0.06944444444444445"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/7TJbU9uEZMaCQLNYgh2jeKiBIP0S3owr.txt",
+          "fields": 10,
+          "raw": "0 0.2808988764044944 0.08139534883720931 0.11235955056179775 0.08527131782945736 0 0.848314606741573 0.4127906976744186 0.19101123595505617 0.12790697674418605"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/7yxudNg3L6qkKbftP5ezRU1HDQWATGjl.txt",
+          "fields": 10,
+          "raw": "0 0.3321078431372549 0.4518970189701897 0.14950980392156862 0.06097560975609756 0 0.20220588235294118 0.22560975609756098 0.11519607843137254 0.05013550135501355"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/86eUlmRZuG5gPOHBNEiShktjKdvxs4wr.txt",
+          "fields": 15,
+          "raw": "0 0.9066985645933014 0.24647887323943662 0.1291866028708134 0.1267605633802817 0 0.9019138755980861 0.4665492957746479 0.19617224880382775 0.06690140845070423 0 0.9138755980861244 0.5246478873239436 0.17224880382775118 0.07746478873239437"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/8Kq1b5eEBzRGWadcFyOJvpnPHMrmZQXt.txt",
+          "fields": 10,
+          "raw": "0 0.5692090395480226 0.21024546424759874 0.20056497175141244 0.128068303094984 0 0.538135593220339 0.17075773745997866 0.2062146892655367 0.1344717182497332"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/8l7HxS2nXjei6OqIgWBFKvQsGhfdTuP5.txt",
+          "fields": 15,
+          "raw": "0 0.9195121951219513 0.28035714285714286 0.14146341463414633 0.14642857142857144 0 0.9121951219512195 0.5 0.16585365853658537 0.06428571428571428 0 0.9170731707317074 0.5517857142857143 0.15609756097560976 0.060714285714285714"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/8pDWOR6n47fV1dMIeyBuNoTwQqXFEr0C.txt",
+          "fields": 10,
+          "raw": "0 0.057 0.328 0.114 0.086 0 0.057 0.328 0.114 0.086"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/8QBDXHWnb7kzLfETSCuaUFAo5gsVP9O6.txt",
+          "fields": 10,
+          "raw": "0 0.7358490566037735 0.5334448160535117 0.2358490566037736 0.14381270903010032 0 0.8655660377358491 0.07859531772575251 0.2122641509433962 0.08361204013377926"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/9EVLStdaN6nc2yrvo8ApMuiGbfk5ZjQ3.txt",
+          "fields": 10,
+          "raw": "0 0.9 0.4274193548387097 0.136 0.11290322580645161 0 0.606 0.38548387096774195 0.164 0.13225806451612904"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/9jXlhHcEvCZpze7BI628UsLgrq3uNYSA.txt",
+          "fields": 10,
+          "raw": "0 0.2837423312883436 0.1711136890951276 0.15030674846625766 0.09396751740139211 0 0.32975460122699385 0.16531322505800464 0.13190184049079756 0.08700696055684454"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/9uQ0OTB2Ktah7PEf65wZydVrH3xWsJYF.txt",
+          "fields": 10,
+          "raw": "0 0.5695364238410596 0.16526138279932545 0.2913907284768212 0.11467116357504215 0 0.48013245033112584 0.14418212478920742 0.2185430463576159 0.07925801011804384"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/9WCrgkyLKhmxASVB1oEjs8nzu0walUtM.txt",
+          "fields": 10,
+          "raw": "0 0.7916666666666666 0.47692307692307695 0.23148148148148145 0.16153846153846155 0 0.5648148148148148 0.3788461538461539 0.18518518518518517 0.11923076923076924"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/9wK3yJV2LW6d8mFAoTkBhjsp15bx0qSn.txt",
+          "fields": 10,
+          "raw": "0 0.8504464285714285 0.38244047619047616 0.23660714285714285 0.14583333333333331 0 0.13169642857142858 0.2693452380952381 0.20982142857142855 0.11011904761904762"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/A0JENtO7khHVv52PSXQax9n1jWU4CdrM.txt",
+          "fields": 10,
+          "raw": "0 0.41331658291457285 0.20625000000000002 0.2236180904522613 0.12980769230769232 0 0.45979899497487436 0.1764423076923077 0.19095477386934673 0.11826923076923078"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/aCY28b5suQAi1UTxIJPOokZylGwfnLWB.txt",
+          "fields": 10,
+          "raw": "0 0.7625000000000001 0.5735735735735735 0.2 0.12012012012012012 0 0.921875 0.30930930930930933 0.14375000000000002 0.04804804804804805"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/aifWJdYVjtA0RGPkm7s4MnCbuxOTeprD.txt",
+          "fields": 10,
+          "raw": "0 0.6538461538461539 0.33933161953727503 0.21678321678321677 0.07712082262210797 0 0.7797202797202797 0.12339331619537275 0.16083916083916083 0.04627249357326478"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bHhJKI3EBr6w0gqQS1VDYvkLyaNCoeA8.txt",
+          "fields": 10,
+          "raw": "0 0.156 0.435 0.211 0.097 0 0.595 0.949 0.208 0.096"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bkF9G7BL2YfNXdTAMUVrcaRqzu4HysPW.txt",
+          "fields": 10,
+          "raw": "0 0.7113095238095237 0.6607929515418502 0.17261904761904762 0.1762114537444934 0 0.6994047619047619 0.08370044052863437 0.1845238095238095 0.07929515418502203"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bMHVBCF1ZJPap09iIe2wAyzLGO3TS7qh.txt",
+          "fields": 10,
+          "raw": "0 0.8459821428571428 0.2107843137254902 0.22767857142857142 0.09477124183006536 0 0.7901785714285714 0.30718954248366015 0.24107142857142855 0.17647058823529413"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bsvUxNlMr2fkz0HwR1qBO5C6JE8pDP7y.txt",
+          "fields": 10,
+          "raw": "0 0.28458333333333335 0.18362282878411912 0.11916666666666667 0.2853598014888337 0 0.8554166666666667 0.22022332506203474 0.09250000000000001 0.21464019851116625"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bUiCxuNKXgRZqpm0Qwth5a1MYnHOs6G3.txt",
+          "fields": 10,
+          "raw": "0 0.485 0.32 0.169 0.117 0 0.852 0.812 0.218 0.087"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bZdCwxNOq6tH0EnuUyY18ohGjv9FcIP5.txt",
+          "fields": 10,
+          "raw": "0 0.8826815642458101 0.28135593220338984 0.1564245810055866 0.08813559322033898 0 0.4357541899441341 0.03220338983050847 0.1340782122905028 0.06440677966101695"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/bzlOHRNXeoh50uvnUyQ9G4DSIiA7MCZK.txt",
+          "fields": 10,
+          "raw": "0 0.8681592039800995 0.39464285714285713 0.17412935323383083 0.125 0 0.43034825870646765 0.06428571428571428 0.1144278606965174 0.049999999999999996"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/C8nb6cItBlUFk9rMmxVHNvYDzAGaJqwQ.txt",
+          "fields": 10,
+          "raw": "0 0.2545126353790614 0.29194956353055285 0.148014440433213 0.14354995150339475 0 0.11191335740072203 0.6178467507274491 0.22382671480144406 0.07565470417070805"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/cAD8nzM2jgVastqZIYPyTW9JXBwHQGCN.txt",
+          "fields": 10,
+          "raw": "0 0.7447368421052631 0.2064516129032258 0.17368421052631577 0.06451612903225806 0 0.8578947368421053 0.4064516129032258 0.2631578947368421 0.18064516129032257"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/cBybfTQpACxVrHtuDjJ6PWEGsUmg7o21.txt",
+          "fields": 10,
+          "raw": "0 0.7225609756097561 0.1984732824427481 0.21341463414634146 0.15267175572519084 0 0.9207317073170732 0.8473282442748091 0.14634146341463417 0.0916030534351145"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/CFsZjlJWmDztVQPNEegxYAwLunvOKSU5.txt",
+          "fields": 10,
+          "raw": "0 0.5710382513661202 0.2002053388090349 0.22404371584699453 0.12114989733059549 0 0.5710382513661202 0.17453798767967146 0.15846994535519127 0.09856262833675565"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/cHLmYhiCUoOd5A3x2QgF6plZ4jGnyRXB.txt",
+          "fields": 10,
+          "raw": "0 0.8308080808080809 0.14136904761904762 0.2070707070707071 0.09226190476190475 0 0.7525252525252526 0.5863095238095237 0.20202020202020204 0.08333333333333333"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/corHyYaBbq7LPtJfs1iXml60vMQxzgj9.txt",
+          "fields": 10,
+          "raw": "0 0.41725352112676056 0.45302013422818793 0.15140845070422534 0.16778523489932887 0 0.34330985915492956 0.03859060402684564 0.17253521126760563 0.07718120805369127"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/cSWbzpgdHRZaoI6QwYr75tfDV0XPUM24.txt",
+          "fields": 10,
+          "raw": "0 0.21 0.269 0.196 0.075 0 0.79 0.74 0.371 0.099"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/CWOfZQwyr7X8dVuavgxR2lK9cn4hemBs.txt",
+          "fields": 10,
+          "raw": "0 0.24896265560165975 0.16866438356164382 0.1078838174273859 0.10102739726027396 0 0.3630705394190871 0.16352739726027396 0.2033195020746888 0.0702054794520548"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/cYirFBP4DRakNjSztLC0V8vTwKfJnIAx.txt",
+          "fields": 15,
+          "raw": "0 0.178 0.122 0.197 0.061 0 0.497 0.331 0.156 0.101 0 0.878 0.799 0.179 0.08"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/CzZtXVaue0IF1DkTNJngQB8SiGb4yW3P.txt",
+          "fields": 10,
+          "raw": "0 0.8134328358208955 0.3829787234042553 0.20398009950248755 0.0851063829787234 0 0.7512437810945274 0.8978723404255319 0.15920398009950248 0.19574468085106383"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/DC2VubHI7Mel1YxsEOoTzKS4UZLkAnWa.txt",
+          "fields": 10,
+          "raw": "0 0.882943143812709 0.42058823529411765 0.11371237458193979 0.12941176470588234 0 0.5167224080267558 0.4852941176470588 0.16387959866220736 0.11764705882352941"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/dDopcmrY297FL6zBAJEOSVhNgUIPX3us.txt",
+          "fields": 10,
+          "raw": "0 0.7228260869565217 0.41187050359712235 0.17391304347826086 0.16906474820143885 0 0.7472826086956521 0.1852517985611511 0.11413043478260869 0.08273381294964029"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Dib9OS6mQqHEJeWBU8zgk43NF0ylVMIG.txt",
+          "fields": 10,
+          "raw": "0 0.868663594470046 0.37735849056603776 0.2073732718894009 0.1320754716981132 0 0.4308755760368664 0.05817610062893082 0.15207373271889402 0.07232704402515723"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/dosSUXqEZgvG2cmi6h5FKItNnO31aBuk.txt",
+          "fields": 10,
+          "raw": "0 0.11926605504587157 0.40458015267175573 0.23853211009174313 0.17557251908396945 0 0.11926605504587157 0.33587786259541985 0.23853211009174313 0.16030534351145037"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/dZMvAfp5hTmnNU039qrIzaKG6coxXuRW.txt",
+          "fields": 10,
+          "raw": "0 0.6982758620689655 0.2383107088989442 0.16009852216748768 0.13273001508295626 0 0.6564039408866995 0.2171945701357466 0.14039408866995073 0.1478129713423831"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/E8d903MzuyTiASXCU4Yw7Dn1FKxHrafO.txt",
+          "fields": 10,
+          "raw": "0 0.5921052631578947 0.27741935483870966 0.17543859649122806 0.17419354838709677 0 0.7280701754385964 0.25806451612903225 0.14035087719298245 0.07096774193548387"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/eaYqFPrTHc2sIV57pUdhz0NXD1wQxf9G.txt",
+          "fields": 10,
+          "raw": "0 0.14855072463768115 0.07042253521126761 0.18115942028985507 0.13380281690140847 0 0.947463768115942 0.19190140845070422 0.10507246376811594 0.11619718309859155"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ecmM4iB1GjTogznkusFAU8CKvy5JhYL0.txt",
+          "fields": 10,
+          "raw": "0 0.294 0.195 0.149 0.112 0 0.542 0.77 0.263 0.088"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/EKMS0oW5dgLUD3GqpYstOXJzB1AikVna.txt",
+          "fields": 10,
+          "raw": "0 0.8971291866028708 0.3707692307692308 0.19617224880382775 0.13230769230769232 0 0.27990430622009566 0.10615384615384615 0.2248803827751196 0.05846153846153846"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/eowBf0vhupixNZCWUAlTJn2r87cQ9IgK.txt",
+          "fields": 10,
+          "raw": "0 0.532258064516129 0.16182572614107885 0.16129032258064516 0.13692946058091288 0 0.5253456221198156 0.12655601659751037 0.11059907834101382 0.11203319502074689"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/eZgGTKoQfCO6AwMbdVDNiE2Inq7HRSsm.txt",
+          "fields": 10,
+          "raw": "0 0.9362139917695474 0.4444444444444445 0.11934156378600824 0.12418300653594772 0 0.6213991769547326 0.41013071895424835 0.18106995884773663 0.13398692810457516"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/EZvzAjd2YhewPiLCnuMTfI7B5SDO8l6N.txt",
+          "fields": 10,
+          "raw": "0 0.7795454545454545 0.6658163265306122 0.22272727272727272 0.1173469387755102 0 0.7272727272727273 0.22193877551020405 0.13636363636363635 0.061224489795918366"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/F4G9pEVjuoi87rhI3gBKAqncPdXT2x5N.txt",
+          "fields": 10,
+          "raw": "0 0.3810810810810811 0.02976190476190476 0.14054054054054055 0.05952380952380952 0 0.041891891891891894 0.5520833333333333 0.08378378378378379 0.13392857142857142"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/fakqioXF3pUcslJHIbCMWSE7RZB1jPv4.txt",
+          "fields": 10,
+          "raw": "0 0.8769633507853404 0.39271255060728744 0.193717277486911 0.15384615384615385 0 0.40314136125654454 0.8087044534412956 0.13612565445026178 0.11133603238866396"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/fBoPYK7x3aq2DR5ZrIinXd8vcuF9VEkT.txt",
+          "fields": 10,
+          "raw": "0 0.6537037037037037 0.47307692307692306 0.20370370370370372 0.13384615384615384 0 0.5703703703703704 0.4684615384615385 0.22962962962962963 0.1276923076923077"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/fPvIx126hz5MBwFVTL8XA0sHiRSoaepj.txt",
+          "fields": 10,
+          "raw": "0 0.484251968503937 0.46563573883161513 0.18110236220472442 0.1683848797250859 0 0.9350393700787402 0.3900343642611684 0.1220472440944882 0.140893470790378"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/fUVewPWlHb7iarcDREQpokY40dz8unJO.txt",
+          "fields": 10,
+          "raw": "0 0.7748538011695906 0.6923076923076923 0.2046783625730994 0.14392059553349876 0 0.7880116959064327 0.23449131513647642 0.16666666666666666 0.1315136476426799"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/FvrHDjYXmZM2cBdWE756SAVI3itgGuq1.txt",
+          "fields": 10,
+          "raw": "0 0.7201946472019465 0.21485148514851485 0.12652068126520682 0.12079207920792079 0 0.9440389294403894 0.5831683168316831 0.10705596107055962 0.07722772277227723"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/GcnSiBVZWyRgPpNHOjulTxJKstUAmbqC.txt",
+          "fields": 10,
+          "raw": "0 0.508 0.138 0.164 0.104 0 0.156 0.635 0.28 0.092"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/gdGT2x9qYZRlw1EAMmN0cbkSfpzvBout.txt",
+          "fields": 10,
+          "raw": "0 0.602 0.338 0.136 0.087 0 0.864 0.704 0.233 0.075"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Gj2g95RkTtYbEsqH4lvPzrAmKMhXULSN.txt",
+          "fields": 10,
+          "raw": "0 0.6806020066889632 0.2017364657814096 0.29765886287625415 0.12972420837589377 0 0.7073578595317725 0.17262512768130747 0.19732441471571907 0.12053115423901942"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/GKR2lAyPdQFLCkprT0HjqwvgZXfi1zxM.txt",
+          "fields": 10,
+          "raw": "0 0.7177033492822966 0.36101694915254234 0.2200956937799043 0.1864406779661017 0 0.8038277511961722 0.14576271186440679 0.2296650717703349 0.10169491525423728"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/GpqIxhEJmnTkb49MCKB2R1z3YoODaZ56.txt",
+          "fields": 10,
+          "raw": "0 0.5831024930747922 0.20530145530145533 0.19667590027700832 0.12785862785862787 0 0.5443213296398892 0.17255717255717257 0.20221606648199447 0.13097713097713098"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/gPYNUFAz6bBGVHMIlvKw8Qohp5CJ4uDx.txt",
+          "fields": 10,
+          "raw": "0 0.24609375 0.3057692307692308 0.1484375 0.11923076923076924 0 0.66796875 0.3269230769230769 0.1796875 0.09230769230769231"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/gQVrE1m0KyGYSCjBLZxOqRkIpaMTXhJD.txt",
+          "fields": 10,
+          "raw": "0 0.5910852713178294 0.35762711864406777 0.19767441860465115 0.14576271186440679 0 0.8953488372093024 0.39999999999999997 0.13178294573643412 0.13559322033898305"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/GqW3gJULn5SRtuVerAmQxKzo0IMdkZwB.txt",
+          "fields": 10,
+          "raw": "0 0.6115702479338843 0.4321428571428571 0.17355371900826447 0.14285714285714285 0 0.9297520661157025 0.4464285714285714 0.14049586776859505 0.1357142857142857"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/H08pXncBSEgZVJPlRwo1I3yq5DW6Nex7.txt",
+          "fields": 10,
+          "raw": "0 0.283 0.107 0.113 0.075 0 0.671 0.261 0.146 0.107"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/h6Uw2IZrly9F3tbvNLegpGQoW8umjDSO.txt",
+          "fields": 10,
+          "raw": "0 0.27983539094650206 0.29186602870813394 0.15637860082304528 0.13875598086124402 0 0.3209876543209877 0.2643540669856459 0.13168724279835392 0.14114832535885166"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/H781eE4QCM69OiRan2toyTVKfgYjUNqA.txt",
+          "fields": 10,
+          "raw": "0 0.35674157303370785 0.29888888888888887 0.1853932584269663 0.1622222222222222 0 0.4353932584269663 0.2866666666666667 0.19662921348314605 0.16"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/HBt1TGhDs8lMRC7p6c0EzNKjXkrVx9bi.txt",
+          "fields": 10,
+          "raw": "0 0.7129186602870813 0.33505154639175255 0.2296650717703349 0.1958762886597938 0 0.8038277511961722 0.1563573883161512 0.24880382775119617 0.0859106529209622"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/HCqhTIswdtaNfPYZR1JxrOzE6BoeWXbn.txt",
+          "fields": 10,
+          "raw": "0 0.539308176100629 0.3469387755102041 0.2169811320754717 0.1377551020408163 0 0.5455974842767296 0.822704081632653 0.21069182389937108 0.10459183673469387"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/hCV5Rlt2dnipaZ0EvJqUYLMgDHcfN4SG.txt",
+          "fields": 10,
+          "raw": "0 0.158 0.325 0.224 0.048 0 0.846 0.443 0.189 0.08"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/HE1agpk0J4YLwTUyt8XrKNdRAxFSIe3q.txt",
+          "fields": 10,
+          "raw": "0 0.4 0.263 0.075 0.131 0 0.396 0.773 0.245 0.228"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/hgUZEmizIneB4sQ5YGN6Hya8uKTObMqR.txt",
+          "fields": 10,
+          "raw": "0 0.357 0.312 0.129 0.128 0 0.441 0.283 0.178 0.117"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/hHF4T1o2tlLNzOwY8ZMbnXpxRieSA9mj.txt",
+          "fields": 10,
+          "raw": "0 0.134 0.415 0.163 0.084 0 0.59 0.933 0.218 0.11"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/HhmMsvou1U2ROVQ0cejz9dZDAkBFy4Xt.txt",
+          "fields": 10,
+          "raw": "0 0.8121019108280255 0.3847457627118644 0.15923566878980894 0.07796610169491525 0 0.6847133757961784 0.6830508474576271 0.2484076433121019 0.14576271186440679"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/huKFpDJ8Cy7WgbA4TmNOxeSVa0kXRB9j.txt",
+          "fields": 10,
+          "raw": "0 0.7553191489361702 0.3506289308176101 0.2170212765957447 0.15408805031446543 0 0.0723404255319149 0.2028301886792453 0.1446808510638298 0.09119496855345913"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/hy9lbBUAC6vOJxV3nrH0DE21SoMuQimI.txt",
+          "fields": 10,
+          "raw": "0 0.5511811023622047 0.41304347826086957 0.19685039370078738 0.14381270903010032 0 0.8838582677165354 0.4180602006688963 0.1377952755905512 0.12709030100334448"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/I3CYKQehicay0MtGm9oLdnFZbUHSV2f5.txt",
+          "fields": 10,
+          "raw": "0 0.8338509316770186 0.6582278481012658 0.20186335403726707 0.13924050632911392 0 0.5170807453416149 0.3370253164556962 0.19565217391304346 0.16772151898734178"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ICPagfs3B9WFkYjelD8dnhKpNGRtLocv.txt",
+          "fields": 10,
+          "raw": "0 0.5635245901639344 0.12431941923774954 0.15163934426229508 0.12885662431941924 0 0.4877049180327869 0.14609800362976405 0.11475409836065574 0.10707803992740471"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/iDIvV2dN9WzG1MfQ46cw7xZnLOTqYHbU.txt",
+          "fields": 10,
+          "raw": "0 0.2296686746987952 0.4931880108991825 0.3117469879518072 0.6757493188010899 0 0.2914156626506024 0.6001362397820164 0.6280120481927711 0.8160762942779292"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/imUZtksf4Vwq38561PCpBLSzYOKGcn2y.txt",
+          "fields": 10,
+          "raw": "0 0.7957317073170732 0.3619246861924686 0.1524390243902439 0.0794979079497908 0 0.20731707317073172 0.05230125523012552 0.20731707317073172 0.10460251046025104"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/IN5BSsouvrmC9UEjQ17KFa3MbTDhYtJ0.txt",
+          "fields": 10,
+          "raw": "0 0.4166666666666667 0.5750853242320819 0.18333333333333332 0.07849829351535836 0 0.3875 0.7849829351535836 0.2583333333333333 0.15699658703071673"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/inmhkoc4Eb9I1uJUPNMzWYDvx6Rq3HlG.txt",
+          "fields": 10,
+          "raw": "0 0.2793427230046948 0.08058608058608059 0.23004694835680753 0.14652014652014653 0 0.9342723004694836 0.40476190476190477 0.13145539906103287 0.18681318681318682"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/iQzev97H2juP8BsWOf4YMSEJhbZ6mNIo.txt",
+          "fields": 10,
+          "raw": "0 0.8070175438596491 0.3744769874476987 0.17543859649122806 0.09623430962343095 0 0.2222222222222222 0.06903765690376569 0.2222222222222222 0.0711297071129707"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/IrSpc3jqt2gi9lYaozmVBPJhZy5DNUA1.txt",
+          "fields": 10,
+          "raw": "0 0.8786764705882353 0.5057660626029654 0.20588235294117646 0.08896210873146623 0 0.9099264705882353 0.4769357495881384 0.1801470588235294 0.11696869851729819"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/IvJN1j4if5PAVaR6eWnGXgY8pMcybCxt.txt",
+          "fields": 10,
+          "raw": "0 0.9035433070866141 0.44816053511705684 0.1377952755905512 0.13377926421404682 0 0.5708661417322834 0.41471571906354515 0.19685039370078738 0.13377926421404682"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/j2p4wSxUqGy5bWBiC7MhvsJfPRoEZDra.txt",
+          "fields": 10,
+          "raw": "0 0.6608391608391608 0.3444730077120822 0.20279720279720279 0.061696658097686374 0 0.7797202797202797 0.12596401028277635 0.14685314685314685 0.030848329048843187"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/J8QCpqWkHX75FbvlDMVUhT39Gg6IOEKL.txt",
+          "fields": 10,
+          "raw": "0 0.5890804597701149 0.12256809338521402 0.15517241379310345 0.10894941634241245 0 0.7528735632183908 0.11964980544747082 0.25287356321839083 0.08365758754863814"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/jG0JiVeMcAsuZRUXK3wBInOy2zNhCD8W.txt",
+          "fields": 10,
+          "raw": "0 0.132 0.376 0.037 0.033 0 0.9 0.717 0.199 0.117"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/JHZU6CGjlTB5ImSQpnq1Ffzowcb4uaWO.txt",
+          "fields": 10,
+          "raw": "0 0.8613636363636363 0.2905982905982906 0.20454545454545453 0.15954415954415954 0 0.17045454545454544 0.18660968660968663 0.12272727272727273 0.08831908831908833"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Jv8oz5bLxtQKjPuIqY2a7FXSrTDGhlin.txt",
+          "fields": 10,
+          "raw": "0 0.115 0.349 0.224 0.104 0 0.513 0.764 0.363 0.086"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/K9R4Sq7IaAF8f2LTEZUNgmM0GvjuhXl1.txt",
+          "fields": 15,
+          "raw": "0 0.8720588235294118 0.8317580340264651 0.23823529411764705 0.10586011342155009 0 0.6294117647058823 0.5746691871455577 0.21764705882352942 0.11342155009451796 0 0.11911764705882352 0.34215500945179583 0.25588235294117645 0.2495274102079395"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/kd248IwKnh07xlsaoXbyDe1TP5friZMR.txt",
+          "fields": 10,
+          "raw": "0 0.5467479674796748 0.37959866220735783 0.21544715447154475 0.15719063545150502 0 0.8760162601626017 0.41638795986622074 0.14227642276422767 0.13712374581939799"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/kh23TCMqFfK0PuNE41e6vwLA9dWcGHpQ.txt",
+          "fields": 10,
+          "raw": "0 0.22 0.25257731958762886 0.184 0.07731958762886598 0 0.804 0.5373711340206185 0.168 0.07474226804123711"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/KMvZ6nCWAbEosYmk3HhIezu2Rp5VixB9.txt",
+          "fields": 10,
+          "raw": "0 0.24588235294117644 0.47619047619047616 0.19058823529411764 0.09523809523809523 0 0.23058823529411762 0.4485407066052227 0.1552941176470588 0.08602150537634409"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/kt96maBlYSxy78grwNde3JXMzv0ITi4K.txt",
+          "fields": 10,
+          "raw": "0 0.6016949152542372 0.14705882352941177 0.15254237288135594 0.07450980392156863 0 0.536723163841808 0.14411764705882352 0.1694915254237288 0.07647058823529412"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/kXTHwVOJvau7x0iF4QSjfmEpPnBAKoI5.txt",
+          "fields": 10,
+          "raw": "0 0.738 0.589 0.218 0.146 0 0.945 0.288 0.105 0.075"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/LadqBvTlEuoV5w7FkChiXJOQZsKHNx3m.txt",
+          "fields": 10,
+          "raw": "0 0.7790973871733967 0.19498464687819858 0.18527315914489312 0.1218014329580348 0 0.7292161520190024 0.1760491299897646 0.18527315914489312 0.0880245649948823"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/lCdVsgzcSoBfPXx8nv4HaeY5qDLIptiO.txt",
+          "fields": 10,
+          "raw": "0 0.7683982683982684 0.317741935483871 0.22943722943722944 0.1774193548387097 0 0.8225108225108225 0.22096774193548388 0.23376623376623376 0.1"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/LqgYbw9G8e4PzCaJHA7O501KoZUSrt2i.txt",
+          "fields": 10,
+          "raw": "0 0.3076923076923077 0.17190569744597248 0.13986013986013987 0.07662082514734773 0 0.3741258741258741 0.15127701375245578 0.16083916083916083 0.08644400785854617"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/LVbiCNxonGz0QTXuK1pmIYw5FWldEjS6.txt",
+          "fields": 10,
+          "raw": "0 0.9 0.312 0.187 0.114 0 0.888 0.43 0.221 0.07"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/LXdVHNu0n6t4KWRqG9mofzarMcJSpx7B.txt",
+          "fields": 10,
+          "raw": "0 0.9435483870967742 0.5193661971830986 0.10215053763440861 0.10211267605633803 0 0.6989247311827957 0.25 0.1827956989247312 0.11971830985915494"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/M0NIarL4JSUqWvzonjl21mpwgtsXHiBc.txt",
+          "fields": 15,
+          "raw": "0 0.561 0.165 0.084 0.066 0 0.641 0.344 0.082 0.103 0 0.866 0.789 0.097 0.078"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/M10chOZG62Vdkuv7QB3PWrYNKtRHXpzf.txt",
+          "fields": 10,
+          "raw": "0 0.3028846153846154 0.20833333333333334 0.2692307692307693 0.11666666666666667 0 0.34375 0.17583333333333334 0.20673076923076925 0.09166666666666667"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/MckyjvTIGB9tb8zn3poaO47xr6VQ1dl0.txt",
+          "fields": 10,
+          "raw": "0 0.8601036269430052 0.2795969773299748 0.12435233160621761 0.09571788413098237 0 0.8160621761658031 0.26448362720403024 0.17098445595854922 0.13602015113350124"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/mCz6L8ZTrNE7utKPVv0ex3aG1bwFfd5O.txt",
+          "fields": 10,
+          "raw": "0 0.8793103448275862 0.3758064516129032 0.1896551724137931 0.16451612903225807 0 0.5150862068965517 0.03225806451612903 0.10775862068965517 0.06451612903225806"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/MENUf105nTB2lwcVKpyx4o9RtrYHJqjG.txt",
+          "fields": 10,
+          "raw": "0 0.875609756097561 0.24 0.17073170731707318 0.055384615384615386 0 0.6317073170731707 0.5861538461538461 0.21951219512195122 0.14461538461538462"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/mFzposJZMhaG6XYLQwk8eIdEjVuBx0iA.txt",
+          "fields": 10,
+          "raw": "0 0.8996062992125984 0.33773584905660375 0.16141732283464566 0.13584905660377358 0 0.27755905511811024 0.19245283018867926 0.1220472440944882 0.09811320754716982"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/mg0bQVh1MFCpj8WzReKZXw7qnDsEu9NG.txt",
+          "fields": 10,
+          "raw": "0 0.8594470046082949 0.36774193548387096 0.19815668202764977 0.16129032258064516 0 0.43317972350230416 0.04838709677419355 0.16589861751152074 0.07096774193548387"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/MIrCFkylV4tzn3uWfxTAhgY5LvjN2R9H.txt",
+          "fields": 10,
+          "raw": "0 0.23049645390070922 0.16940451745379878 0.1631205673758865 0.08418891170431211 0 0.28723404255319146 0.16940451745379878 0.1347517730496454 0.08008213552361397"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/moxLwFOH8dspiYajbqT72MAD0vIGKZCl.txt",
+          "fields": 10,
+          "raw": "0 0.4621212121212121 0.3464052287581699 0.16666666666666666 0.06209150326797386 0 0.7333333333333333 0.75 0.19393939393939394 0.16993464052287582"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/MSHAVE6Dh9w4zdcWkvftXuOKb3JG2qIn.txt",
+          "fields": 10,
+          "raw": "0 0.446 0.195 0.233 0.109 0 0.446 0.195 0.233 0.109"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/msuKDThGOY3dfiEAV2kWJaH17CvbNtLo.txt",
+          "fields": 10,
+          "raw": "0 0.219 0.172 0.135 0.079 0 0.648 0.816 0.201 0.097"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/mWTnu69rF4dpQ5aHAcO7SkKwlht1PLDb.txt",
+          "fields": 10,
+          "raw": "0 0.6028571428571429 0.10803059273422562 0.1657142857142857 0.08221797323135754 0 0.7342857142857143 0.12428298279158699 0.2342857142857143 0.08030592734225621"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/nb1zQgmqOYFRNUI4AWhKfyciSaTl2B59.txt",
+          "fields": 10,
+          "raw": "0 0.8250000000000001 0.5450236966824645 0.12187500000000001 0.28909952606635075 0 0.32734375000000004 0.4869668246445498 0.1171875 0.28199052132701424"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/NGoqgh0Y7BdZK2jtbFJ9aAfXH3VvPLTw.txt",
+          "fields": 10,
+          "raw": "0 0.8726851851851851 0.19300911854103345 0.13425925925925924 0.16717325227963525 0 0.4421296296296296 0.0425531914893617 0.17129629629629628 0.0668693009118541"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/NLpCtEfcTyUxY5RPBzDXwOZGvo0JKsu1.txt",
+          "fields": 10,
+          "raw": "0 0.4385665529010239 0.3339041095890411 0.15358361774744028 0.0821917808219178 0 0.4726962457337884 0.9289383561643835 0.3174061433447099 0.14212328767123286"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/NQRPVxUh7L5Fjm9k28TzpMJEuI41vCD6.txt",
+          "fields": 10,
+          "raw": "0 0.155 0.627 0.236 0.117 0 0.451 0.791 0.212 0.19"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/nw41cGA8beXNm5ZOVdPvtz30lSChDo6s.txt",
+          "fields": 10,
+          "raw": "0 0.6363636363636364 0.4814814814814815 0.1645021645021645 0.15637860082304528 0 0.9415584415584416 0.42386831275720166 0.11688311688311688 0.15637860082304528"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/NwbT5JXdOgGkxjcR18M0mprI4Z9yeCal.txt",
+          "fields": 10,
+          "raw": "0 0.12580645161290321 0.41002949852507375 0.2645161290322581 0.1415929203539823 0 0.7870967741935484 0.140117994100295 0.15483870967741936 0.06784660766961652"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/OKbYeEI9SgmVN5rRn32XjP1wCtp7DAZT.txt",
+          "fields": 10,
+          "raw": "0 0.54 0.344 0.321 0.116 0 0.513 0.325 0.172 0.082"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/oY4NuDtOZbalvFjLz0d1gkU5TIH92eWR.txt",
+          "fields": 10,
+          "raw": "0 0.6319148936170212 0.4232142857142857 0.17446808510638298 0.14642857142857144 0 0.9425531914893617 0.4714285714285714 0.1148936170212766 0.12857142857142856"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/pDgjhEXmP6NqTGdLZ40oM7nAURfVubJs.txt",
+          "fields": 10,
+          "raw": "0 0.253 0.453 0.164 0.133 0 0.734 0.108 0.195 0.134"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ph6NDjekPWuXvbAl1syIMEdUQVHB9gTx.txt",
+          "fields": 10,
+          "raw": "0 0.043 0.069 0.077 0.107 0 0.345 0.244 0.155 0.134"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/PK2YCDQqmurzwbO3WT8NXAR7glten6hM.txt",
+          "fields": 10,
+          "raw": "0 0.2457627118644068 0.5277777777777778 0.21549636803874092 0.1111111111111111 0 0.238498789346247 0.49382716049382713 0.18159806295399517 0.08024691358024691"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/PpUwyaJb4EFH2uo7YAM6Sqjrfi1Kc893.txt",
+          "fields": 10,
+          "raw": "0 0.8662280701754386 0.38405797101449274 0.22368421052631576 0.15217391304347827 0 0.7719298245614035 0.11594202898550725 0.10526315789473684 0.07246376811594203"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/purOAkDUTZwQNnt3e45Sac0fdg6Xhbjm.txt",
+          "fields": 10,
+          "raw": "0 0.874 0.502 0.214 0.088 0 0.874 0.502 0.214 0.088"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/PwBlsOLyHJAqjbTX2KucSFg1tDU375pd.txt",
+          "fields": 10,
+          "raw": "0 0.1483050847457627 0.3868613138686131 0.19491525423728814 0.11678832116788321 0 0.2076271186440678 0.35036496350364965 0.2796610169491525 0.16058394160583941"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/pyNtFSl5asqn4XOwHZCxIjTcEPJvBezi.txt",
+          "fields": 10,
+          "raw": "0 0.25 0.15676567656765678 0.20754716981132074 0.1254125412541254 0 0.25943396226415094 0.12211221122112212 0.16037735849056603 0.09570957095709572"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/qEUwbdKsuOBxMR0Z57C3gymIpaHe84Wf.txt",
+          "fields": 10,
+          "raw": "0 0.9193548387096774 0.12734082397003746 0.10599078341013825 0.12734082397003746 0 0.7419354838709677 0.4794007490636704 0.18433179723502305 0.1198501872659176"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/QF3kuW4VYMtPJ7pKSorlRwdUzcbqa8BC.txt",
+          "fields": 10,
+          "raw": "0 0.8619402985074627 0.10211267605633803 0.20149253731343283 0.06338028169014084 0 0.5559701492537313 0.2535211267605634 0.21641791044776118 0.09859154929577466"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/qgA8vZH2Lh0yOGVjW9zRDreciFtPdfln.txt",
+          "fields": 15,
+          "raw": "0 0.900497512437811 0.5017182130584192 0.1990049751243781 0.041237113402061855 0 0.8830845771144279 0.27835051546391754 0.14427860696517414 0.10996563573883161 0 0.9104477611940298 0.5549828178694158 0.1791044776119403 0.06529209621993128"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/qIWXLkQcerEZBlNtjfACKy6M2vis9m31.txt",
+          "fields": 10,
+          "raw": "0 0.35751295336787564 0.17547169811320754 0.19689119170984457 0.033962264150943396 0 0.8523316062176166 0.4679245283018868 0.24352331606217617 0.12830188679245283"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/qMWjNoBEcdGlbFUK1Q59huJyPHR2LS6C.txt",
+          "fields": 10,
+          "raw": "0 0.17073170731707318 0.21863799283154123 0.1788617886178862 0.13261648745519714 0 0.22764227642276424 0.20698924731182797 0.1869918699186992 0.11648745519713262"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/QscYJhgd10o4MxVH2GXNpqTiPSICk5Lr.txt",
+          "fields": 10,
+          "raw": "0 0.7166064981949459 0.2957957957957958 0.148014440433213 0.11711711711711711 0 0.7391696750902528 0.2602602602602603 0.11010830324909748 0.08808808808808809"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/QtlAaiNm69GbFMegvJTYwkDE5Z0RqWrx.txt",
+          "fields": 10,
+          "raw": "0 0.7825112107623319 0.28662420382165604 0.18385650224215247 0.1656050955414013 0 0.09865470852017937 0.04936305732484077 0.15246636771300448 0.09872611464968153"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/R56n3KGBeHgWZEAIOD8YrwVFypoqCc21.txt",
+          "fields": 10,
+          "raw": "0 0.9075471698113208 0.391304347826087 0.1320754716981132 0.13377926421404682 0 0.5962264150943396 0.3729096989966555 0.18113207547169813 0.14381270903010032"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/r6mnxp7uIBUHsldt9fjqJkh1WOS0yCYw.txt",
+          "fields": 10,
+          "raw": "0 0.384 0.052 0.168 0.084 0 0.851 0.351 0.192 0.191"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Rc2XFnjOMhtz3TabilfI1v6CupWP5LKm.txt",
+          "fields": 10,
+          "raw": "0 0.23029045643153526 0.42236842105263156 0.16597510373443983 0.07894736842105263 0 0.09854771784232365 0.6296052631578947 0.2095435684647303 0.11973684210526316"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/rDqPtLsachzSYHiGJk5REfI08TWN2n4K.txt",
+          "fields": 10,
+          "raw": "0 0.8524229074889869 0.39295774647887327 0.24229074889867844 0.15492957746478875 0 0.4140969162995595 0.035211267605633804 0.2114537444933921 0.0647887323943662"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/RKFvNso6Z2qga8CGBnc9yekXwpjidlEM.txt",
+          "fields": 10,
+          "raw": "0 0.7072072072072072 0.6843575418994413 0.35135135135135137 0.19553072625698326 0 0.6126126126126126 0.34776536312849166 0.18018018018018017 0.04189944134078213"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/roaWvpgJMRVj6NA7h9CyctGO35QX21FT.txt",
+          "fields": 10,
+          "raw": "0 0.911 0.298 0.129 0.046 0 0.672 0.633 0.258 0.146"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ruMNVKxAci6d8aJvyqFDQn1LUORwmB0s.txt",
+          "fields": 10,
+          "raw": "0 0.8735955056179775 0.3177257525083612 0.2191011235955056 0.12040133779264214 0 0.45224719101123595 0.06521739130434782 0.1292134831460674 0.07023411371237458"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/RUnGukgfMLjOCF5l3xiZNPE7VcI2QbBe.txt",
+          "fields": 10,
+          "raw": "0 0.8433179723502304 0.28205128205128205 0.22119815668202764 0.15384615384615385 0 0.16129032258064516 0.18233618233618235 0.15668202764976957 0.07977207977207977"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ryCq6kBx0M3nEKTedUuALswNglhtDJZj.txt",
+          "fields": 10,
+          "raw": "0 0.3178294573643411 0.8154205607476634 0.20155038759689922 0.17289719626168223 0 0.1821705426356589 0.5350467289719626 0.2248062015503876 0.0794392523364486"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/s1mfvDqzGKFQAxhO0B69gpRP3ktSEHXj.txt",
+          "fields": 10,
+          "raw": "0 0.4207920792079208 0.470326409495549 0.24752475247524752 0.1632047477744807 0 0.5346534653465347 0.6810089020771514 0.16831683168316833 0.12166172106824927"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/s9bKeUu3EVPCfXqFWRiGJotvZypHI5wz.txt",
+          "fields": 10,
+          "raw": "0 0.8865740740740741 0.42402826855123676 0.1898148148148148 0.127208480565371 0 0.7939814814814814 0.16961130742049468 0.14351851851851852 0.0706713780918728"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/sDwiOkX4dMIm167E3tlWuhZYNenG5apb.txt",
+          "fields": 10,
+          "raw": "0 0.582 0.949 0.006 0.0 0 0.502 0.902 0.192 0.123"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/sH7pxOCoEGIRXmJnifwjeWStQ5DYa08q.txt",
+          "fields": 10,
+          "raw": "0 0.2950138504155125 0.14183835182250396 0.13573407202216067 0.07448494453248812 0 0.37119113573407203 0.2163232963549921 0.08310249307479224 0.049128367670364506"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/SiofjbR1a7PBcg3Q0HYKmFhDA8vUwlO9.txt",
+          "fields": 10,
+          "raw": "0 0.5727969348659003 0.38071895424836605 0.18773946360153257 0.13398692810457516 0 0.8773946360153256 0.4199346405228758 0.13793103448275862 0.12091503267973856"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/sRjOctIWN3kFxyAV6mnd9TDK0MBup8UP.txt",
+          "fields": 10,
+          "raw": "0 0.1223021582733813 0.529126213592233 0.2446043165467626 0.11650485436893203 0 0.45683453237410077 0.24271844660194172 0.1510791366906475 0.1262135922330097"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/STWkupEzoRM8F4cB0ViHLQKYUAflasXj.txt",
+          "fields": 10,
+          "raw": "0 0.6368715083798883 0.3209677419354839 0.2681564245810056 0.06774193548387097 0 0.7849162011173184 0.4483870967741935 0.2737430167597765 0.08387096774193549"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/sWKDBC2caUA6dMYtLl7GyfRZnwQjuVPx.txt",
+          "fields": 10,
+          "raw": "0 0.6639871382636656 0.2041123370110331 0.29260450160771706 0.12938816449348045 0 0.6768488745980707 0.1760280842527583 0.1832797427652733 0.10531594784353059"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/SXnEGzkrRl4N73QOVmYyUojuaesfdcPb.txt",
+          "fields": 10,
+          "raw": "0 0.33906250000000004 0.4652061855670103 0.12812500000000002 0.37371134020618557 0 0.8718750000000001 0.40463917525773196 0.15625 0.4381443298969072"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/T6PnQH2UWzxpd9Z0XiLBAg7K1YrwbkcI.txt",
+          "fields": 10,
+          "raw": "0 0.36879432624113473 0.16855203619909503 0.2553191489361702 0.11990950226244344 0 0.38652482269503546 0.13009049773755657 0.1631205673758865 0.09728506787330318"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/t8yoOwc7aKqFlibLTmJRUnBvre56PdpI.txt",
+          "fields": 10,
+          "raw": "0 0.37974683544303794 0.15155440414507773 0.15822784810126583 0.06217616580310881 0 0.25316455696202533 0.23316062176165803 0.15822784810126583 0.07253886010362695"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/To2AfmQGbWzFYk0UaxhipeNXwRjgyCdI.txt",
+          "fields": 10,
+          "raw": "0 0.34153005464480873 0.1243119266055046 0.15300546448087432 0.04862385321100918 0 0.41120218579234974 0.18119266055045874 0.11748633879781421 0.05045871559633028"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Tqt9wcgR21bnCKoA3f0LhaDXBQVykW67.txt",
+          "fields": 10,
+          "raw": "0 0.9136904761904762 0.1542056074766355 0.1607142857142857 0.07165109034267912 0 0.7291666666666666 0.7165109034267912 0.26785714285714285 0.11838006230529595"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/tqySoaI7wRdpEM0sKVbPAfcXnT6YgrDL.txt",
+          "fields": 10,
+          "raw": "0 0.8743169398907104 0.24698795180722893 0.2185792349726776 0.04819277108433735 0 0.8989071038251366 0.49397590361445787 0.18032786885245902 0.0783132530120482"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/tyKMJDTYogsv7IbcZx9qpG5C1wWfak4V.txt",
+          "fields": 10,
+          "raw": "0 0.6337209302325582 0.12568306010928962 0.15891472868217055 0.08743169398907104 0 0.5813953488372093 0.3114754098360656 0.13178294573643412 0.06557377049180328"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/TYrlqsuaJiQ3W2vVI1e67zEGNZDUAyhm.txt",
+          "fields": 10,
+          "raw": "0 0.5363128491620112 0.16733067729083664 0.111731843575419 0.14342629482071712 0 0.2122905027932961 0.4203187250996016 0.1452513966480447 0.12350597609561753"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/u4k5jRhfLdFeDrx0lTM9ncgs813YNHC7.txt",
+          "fields": 10,
+          "raw": "0 0.7635782747603833 0.4627450980392157 0.24281150159744408 0.16078431372549018 0 0.8610223642172523 0.5215686274509804 0.2715654952076677 0.18823529411764706"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/UBl2pu4YkWqG7DHRcvKm3QtN6nJfChe5.txt",
+          "fields": 10,
+          "raw": "0 0.41899441340782123 0.07268722466960353 0.1229050279329609 0.09251101321585904 0 0.9078212290502794 0.4515418502202644 0.17318435754189945 0.13656387665198239"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/UfcXlZ32sNmCT4rY7KvL8gPiWBE5SuGx.txt",
+          "fields": 10,
+          "raw": "0 0.7870813397129186 0.3680555555555555 0.24401913875598086 0.1875 0 0.7344497607655502 0.057291666666666664 0.1291866028708134 0.07291666666666666"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/uGTLwpNgMjUDSbmdIORxytlE18shCnYF.txt",
+          "fields": 10,
+          "raw": "0 0.205 0.864 0.159 0.153 0 0.205 0.864 0.159 0.153"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ulItQLDGJKr7g9Bxoa1dnEZ8Xwh5cSfR.txt",
+          "fields": 10,
+          "raw": "0 0.5675675675675675 0.20103092783505155 0.21621621621621623 0.12577319587628866 0 0.5675675675675675 0.1731958762886598 0.15135135135135136 0.10309278350515465"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/unOpbX6BlZmGtqasKP4CHNQyUV30TxL5.txt",
+          "fields": 10,
+          "raw": "0 0.728125 0.4134199134199134 0.18125000000000002 0.12554112554112554 0 0.921875 0.05844155844155844 0.15625 0.05627705627705628"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/UueLYiPpwDCFR26y7HfBrA8TOcgkzZIE.txt",
+          "fields": 10,
+          "raw": "0 0.8651315789473684 0.8289473684210525 0.20394736842105263 0.23684210526315788 0 0.8585526315789473 0.12280701754385964 0.1513157894736842 0.08771929824561403"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/UWjXMfyl1Ir4mqePLHORtY7i36vTCbZz.txt",
+          "fields": 10,
+          "raw": "0 0.5296296296296297 0.4381898454746137 0.14814814814814814 0.08167770419426049 0 0.7537037037037038 0.9172185430463576 0.32962962962962966 0.12582781456953643"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/UxO8MqmiNVfPh7QRXbFkyoTIEesKcY0L.txt",
+          "fields": 10,
+          "raw": "0 0.46153846153846156 0.8395989974937343 0.23384615384615384 0.16541353383458646 0 0.5092307692307693 0.3558897243107769 0.24923076923076923 0.12531328320802004"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/uZWFm6CGlq9wSbe4zR1PoM37OIHjJEQ5.txt",
+          "fields": 10,
+          "raw": "0 0.5718849840255591 0.2028601694915254 0.24281150159744408 0.1260593220338983 0 0.6118210862619808 0.17266949152542374 0.1757188498402556 0.1038135593220339"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/V7ZCgHe8D3NozhPS1iJuMGYrqnRm04bE.txt",
+          "fields": 10,
+          "raw": "0 0.3157894736842105 0.22615384615384615 0.24561403508771928 0.06461538461538462 0 0.35526315789473684 0.35846153846153844 0.21052631578947367 0.12615384615384614"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/v9CxlRitjYuF4WrUGJT5d06zXHKpZLO2.txt",
+          "fields": 10,
+          "raw": "0 0.8236842105263158 0.3008130081300813 0.2263157894736842 0.10569105691056911 0 0.9026315789473685 0.3577235772357724 0.18421052631578946 0.13821138211382114"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/vNPwUiHyQp7rJRWqIlnOL8VDaZfsXuxz.txt",
+          "fields": 10,
+          "raw": "0 0.8660714285714285 0.5943708609271523 0.22023809523809523 0.08940397350993377 0 0.27976190476190477 0.1870860927152318 0.17857142857142855 0.0695364238410596"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/VsMOHdP04IQqTzXFa8xhmto9Wl1cgKy7.txt",
+          "fields": 10,
+          "raw": "0 0.311 0.3319327731092437 0.09 0.20448179271708683 0 0.806 0.29551820728291317 0.076 0.17086834733893558"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/vUbiCmu8sc76QWK4NpjRTrgP5SfD9Eda.txt",
+          "fields": 10,
+          "raw": "0 0.8702830188679245 0.48443579766536965 0.22169811320754715 0.14396887159533073 0 0.455188679245283 0.4163424124513619 0.20283018867924527 0.13229571984435798"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/VwQ6zZ4Ki2FfqeDjAGPCI8pUXhaEcWO0.txt",
+          "fields": 10,
+          "raw": "0 0.5804597701149425 0.36451612903225805 0.1954022988505747 0.12903225806451613 0 0.8793103448275862 0.40161290322580645 0.13409961685823754 0.13225806451612904"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/WEMS3ntcuOhRYBILDqAQZdw70NF28mj6.txt",
+          "fields": 10,
+          "raw": "0 0.8366013071895425 0.5043859649122807 0.14379084967320263 0.08771929824561403 0 0.7124183006535948 0.888157894736842 0.27450980392156865 0.17105263157894735"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/wfoGDmNJi4dR0vIPtE9BVSClWcMrQYhx.txt",
+          "fields": 10,
+          "raw": "0 0.4373040752351097 0.3483606557377049 0.18495297805642633 0.1366120218579235 0 0.4780564263322884 0.31079234972677594 0.16614420062695925 0.12431693989071038"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/wGcVkO0rlTgutb7iB6aCWImQh83KsZfe.txt",
+          "fields": 10,
+          "raw": "0 0.8564593301435406 0.3536585365853659 0.23923444976076555 0.1402439024390244 0 0.23444976076555024 0.10365853658536586 0.2296650717703349 0.06707317073170732"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/whySZAnPaHfo5Jl8uMTtcqzdeU6OjBkG.txt",
+          "fields": 10,
+          "raw": "0 0.74 0.10765550239234449 0.14285714285714285 0.08133971291866028 0 0.76 0.8803827751196172 0.17142857142857143 0.2200956937799043"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/wL0bVl3GSyzqspCKQT8M62fPxjJRnHEd.txt",
+          "fields": 10,
+          "raw": "0 0.6297071129707112 0.450530035335689 0.19665271966527195 0.13074204946996465 0 0.9414225941422594 0.4293286219081272 0.10878661087866108 0.13780918727915195"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/wVq3d1c6H7NWoRj8Df0J5evSblga9Yp4.txt",
+          "fields": 10,
+          "raw": "0 0.8226950354609929 0.7115384615384616 0.2127659574468085 0.29120879120879123 0 0.6276595744680851 0.6840659340659341 0.5035460992907801 0.2142857142857143"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/XA5hMFJDus0ZUSP36BjN9Y8ypzkevCwE.txt",
+          "fields": 10,
+          "raw": "0 0.9149484536082474 0.5567010309278351 0.15979381443298968 0.06872852233676977 0 0.922680412371134 0.3745704467353952 0.14432989690721648 0.061855670103092786"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/XDW3brc6Zji78gaRdAVYuSE2IxylNTsp.txt",
+          "fields": 10,
+          "raw": "0 0.532608695652174 0.2543035993740219 0.23043478260869565 0.12989045383411582 0 0.5434782608695652 0.2190923317683881 0.17391304347826086 0.10954616588419405"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/Xiw5SgCcorjWJdZeI1QYLPDR3M804qx6.txt",
+          "fields": 10,
+          "raw": "0 0.8951612903225807 0.32783882783882784 0.19892473118279572 0.15018315018315018 0 0.5322580645161291 0.031135531135531136 0.13978494623655915 0.06227106227106227"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/xrqAoyb5LimfBVFQNj4IclC90KU3zWYw.txt",
+          "fields": 10,
+          "raw": "0 0.433852140077821 0.4583333333333333 0.12062256809338522 0.06944444444444445 0 0.8832684824902723 0.923611111111111 0.14785992217898833 0.08333333333333333"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/XRTvqsOKdpJbHIcYruZjfDWe513tVoB4.txt",
+          "fields": 10,
+          "raw": "0 0.7164948453608248 0.27147766323024053 0.14432989690721648 0.12371134020618557 0 0.461340206185567 0.12199312714776632 0.08762886597938144 0.07216494845360824"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/XZl5gceqGowMT3nQFEjk1HUa6dSYyvWR.txt",
+          "fields": 10,
+          "raw": "0 0.6775700934579438 0.2864583333333333 0.21495327102803738 0.10763888888888888 0 0.8317757009345794 0.890625 0.3177570093457944 0.21180555555555555"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/yJpr3KePSx1GLzVlCjQ4hAnMcTWHbY57.txt",
+          "fields": 10,
+          "raw": "0 0.5434782608695652 0.14926931106471814 0.2608695652173913 0.11899791231732776 0 0.4855072463768116 0.12108559498956158 0.21739130434782608 0.08350730688935282"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/YoCATgIhJib2tHsOdfwNPyp38V9KzB5D.txt",
+          "fields": 10,
+          "raw": "0 0.5333333333333334 0.42366412213740456 0.2285714285714286 0.13740458015267176 0 0.9000000000000001 0.48282442748091603 0.1619047619047619 0.13358778625954199"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/yVgnohJ7t50KsrGzRZcfH4Du2bw8WPmi.txt",
+          "fields": 10,
+          "raw": "0 0.34888059701492535 0.7666666666666667 0.3619402985074627 0.09230769230769231 0 0.34514925373134325 0.3730769230769231 0.2574626865671642 0.11538461538461539"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/zdCtSAIWw6vQR1OqYaxKBE3sb5DJyHXF.txt",
+          "fields": 10,
+          "raw": "0 0.6222222222222222 0.17092337917485265 0.17777777777777778 0.09823182711198428 0 0.7074074074074075 0.16404715127701375 0.17037037037037037 0.10805500982318271"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ZDQsCNiytBJW6f13GSFacp0HKOIETwx5.txt",
+          "fields": 10,
+          "raw": "0 0.6268292682926829 0.2588235294117647 0.11219512195121951 0.07058823529411765 0 0.573170731707317 0.6029411764705882 0.2 0.11176470588235293"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ZmiJc4LC2DnlMWs6gkItqKQ3wrEPf8Xb.txt",
+          "fields": 10,
+          "raw": "0 0.7718750000000001 0.31007751937984496 0.25625000000000003 0.15503875968992248 0 0.89375 0.0562015503875969 0.1375 0.08139534883720931"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/ZUrQTfnW0JHRjMa4xbkqNCVAtSseOdYB.txt",
+          "fields": 10,
+          "raw": "0 0.7844827586206896 0.3058659217877095 0.22413793103448276 0.08659217877094973 0 0.14224137931034483 0.16620111731843576 0.12068965517241378 0.08100558659217877"
+        },
+        {
+          "member": "reorganized_dataset/train/labels/zyXpg3jNUvAG24WbOnHSEJPTxi0DYtu8.txt",
+          "fields": 10,
+          "raw": "0 0.8694029850746269 0.42058823529411765 0.11194029850746269 0.1588235294117647 0 0.13059701492537312 0.3058823529411765 0.17164179104477612 0.10588235294117647"
+        }
+      ]
+    },
+    "val": {
+      "overflow_at_most_1e_12_normalized": 0,
+      "overflow_above_1e_12_normalized": 6,
+      "max_overflow_normalized": 0.003500000000000003,
+      "nonpositive_wh": 0,
+      "malformed_rows": [
+        {
+          "member": "reorganized_dataset/val/labels/o2iRY7GFSDTNu4yU9HeaZCVpx8Iz6smd.txt",
+          "fields": 10,
+          "raw": "0 0.57 0.622 0.23 0.079 0 0.318 0.416 0.231 0.051"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/OIKMdi7F9obn2u5aCUWslZHtQYVm6hpz.txt",
+          "fields": 10,
+          "raw": "0 0.225 0.376 0.13 0.095 0 0.467 0.818 0.173 0.066"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/ONepbUjl4Mh0yzVPuwgnZ1tdHBKETSo5.txt",
+          "fields": 10,
+          "raw": "0 0.547 0.374 0.135 0.176 0 0.448 0.029 0.163 0.058"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/rm6eYo4QIVS9g0RGXzwqFPuEikdJ3WcU.txt",
+          "fields": 10,
+          "raw": "0 0.311 0.3 0.071 0.116 0 0.32 0.372 0.091 0.256"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/uWo7PM6AakSqjTCKpYR3GrwHFZE9fO5x.txt",
+          "fields": 10,
+          "raw": "0 0.271 0.273 0.084 0.17 0 0.275 0.255 0.07 0.14"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/V31ZQdgFxkhfCNmnaOqKPHMRWvJorDXA.txt",
+          "fields": 10,
+          "raw": "0 0.658 0.501 0.201 0.108 0 0.971 0.542 0.057 0.098"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/w4YLCNeFZMTHdXK6oaWr9gbmxinkA0yD.txt",
+          "fields": 10,
+          "raw": "0 0.064 0.926 0.127 0.077 0 0.064 0.926 0.127 0.077"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/wdKZev1sJ86RFOQh9lBNXoptW4Y0yTif.txt",
+          "fields": 10,
+          "raw": "0 0.82 0.319 0.181 0.155 0 0.355 0.032 0.167 0.063"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/xU6rmXCJyAzlPG9s0QKpM2Z7iEBHYvaF.txt",
+          "fields": 10,
+          "raw": "0 0.268 0.27 0.127 0.062 0 0.298 0.278 0.19 0.079"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/YtgICLV3xln6Mj9P1adyUouF0As8JepX.txt",
+          "fields": 10,
+          "raw": "0 0.834 0.626 0.251 0.137 0 0.834 0.626 0.251 0.137"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/yvCdBuckI2JX8gZDWA1GlnTqw7KieM5Q.txt",
+          "fields": 10,
+          "raw": "0 0.327 0.282 0.131 0.048 0 0.141 0.044 0.089 0.041"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/Z78mbv2SKT6PjkGMHWchLfIA4rCVRysi.txt",
+          "fields": 10,
+          "raw": "0 0.679 0.202 0.101 0.066 0 0.67 0.212 0.118 0.086"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/zCKeZ0Snx4Fh3bpal9uJVPjoEYAH6R8Q.txt",
+          "fields": 10,
+          "raw": "0 0.222 0.457 0.158 0.061 0 0.279 0.493 0.15 0.073"
+        },
+        {
+          "member": "reorganized_dataset/val/labels/ZkQE51RwPlCThtf42dr3gBpV69mn08ID.txt",
+          "fields": 10,
+          "raw": "0 0.756 0.118 0.092 0.104 0 0.771 0.111 0.119 0.121"
+        }
+      ]
+    },
+    "test": {
+      "overflow_at_most_1e_12_normalized": 0,
+      "overflow_above_1e_12_normalized": 21,
+      "max_overflow_normalized": 0.849,
+      "nonpositive_wh": 1,
+      "malformed_rows": [
+        {
+          "member": "reorganized_dataset/test/labels/01gA2hbj9WaVZ3SXl7x5ovfriBQ6YFyn.txt",
+          "fields": 10,
+          "raw": "0 0.682 0.377 0.141 0.097 0 0.682 0.377 0.141 0.097"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/1BD9lReTyUvr6OFmxVQ35WLAnog8E2zX.txt",
+          "fields": 10,
+          "raw": "0 0.316 0.45 0.121 0.326 0 0.304 0.371 0.094 0.176"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/3gjnQqNPoSIk7OdTuHfh8KZmUMsEWDRY.txt",
+          "fields": 15,
+          "raw": "0 0.222 0.098 0.115 0.076 0 0.56 0.238 0.102 0.172 0 0.562 0.212 0.088 0.12"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/4LqMGvFpgjJ0EosW95QtiRczYCUfTOan.txt",
+          "fields": 10,
+          "raw": "0 0.826 0.793 0.349 0.414 0 0.812 0.75 0.377 0.499"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/4mYHz61XolAGyqS73VpJOw9beFZdDhT5.txt",
+          "fields": 10,
+          "raw": "0 0.208 0.382 0.136 0.059 0 0.061 0.021 0.116 0.043"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/5td4yijCnoevGPB3W9gcTNFSp7bMOD6q.txt",
+          "fields": 10,
+          "raw": "0 0.289 0.24 0.163 0.059 0 0.289 0.24 0.163 0.059"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/6k0vQMJWbzF1mZoPOCd57pEcq4iAx9aB.txt",
+          "fields": 10,
+          "raw": "0 0.26 0.444 0.187 0.058 0 0.26 0.444 0.187 0.058"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/6OPcSECxbLHfgBqW0rZMNTFKkVawduio.txt",
+          "fields": 10,
+          "raw": "0 0.888 0.323 0.222 0.08 0 0.893 0.338 0.205 0.053"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/9ot37rQuRIplaGH2gkA0MjZcB8FVmCW5.txt",
+          "fields": 10,
+          "raw": "0 0.839 0.428 0.181 0.051 0 0.82 0.434 0.213 0.063"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/aw8m2lI90OnbZskhFTgWrCVXYjSGveqL.txt",
+          "fields": 10,
+          "raw": "0 0.258 0.303 0.314 0.312 0 0.213 0.252 0.225 0.206"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/bMtc3PjoIspT0EQNaJZW6dYqmknifgKz.txt",
+          "fields": 10,
+          "raw": "0 0.079 0.859 0.154 0.088 0 0.116 0.479 0.15 0.061"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/buFq7vkaiSgMTHw1LRIQo6pWXcmJE0yf.txt",
+          "fields": 10,
+          "raw": "0 0.936 0.448 0.128 0.135 0 0.631 0.426 0.177 0.149"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/dHOboBNY73kiPt8InumUv1eacZspCGVx.txt",
+          "fields": 10,
+          "raw": "0 0.725 0.441 0.217 0.062 0 0.703 0.444 0.167 0.056"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/DYtzTiaBG1sd0FhOvNmUJcSuAxy34CHZ.txt",
+          "fields": 10,
+          "raw": "0 0.42 0.405 0.268 0.245 0 0.443 0.377 0.213 0.231"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/F5GLiEYWtfBneO2w9rHKzap6DUSCsRMV.txt",
+          "fields": 10,
+          "raw": "0 0.545 0.108 0.079 0.087 0 0.542 0.093 0.074 0.059"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/FcJp794KnB8sQWqRDG6jSofOe0md3taP.txt",
+          "fields": 15,
+          "raw": "0 0.553 0.627 0.183 0.124 0 0.458 0.643 0.233 0.13 0 0.425 0.644 0.163 0.122"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/fKhFNYQTtg7p1ZUWyzXd28kIqSC6vmE4.txt",
+          "fields": 10,
+          "raw": "0 0.331 0.591 0.151 0.113 0 0.021 0.013 0.041 0.027"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/HcuqCW203ADMeKSOBophj45P8tQaJRmX.txt",
+          "fields": 15,
+          "raw": "0 0.632 0.189 0.114 0.095 0 0.61 0.226 0.144 0.132 0 0.624 0.203 0.129 0.121"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/hEH3l2r6aeAongfbYT9KskcCu4piNvQV.txt",
+          "fields": 10,
+          "raw": "0 0.63 0.446 0.146 0.238 0 0.624 0.495 0.166 0.337"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/Hkq6i7daXMyU3JlGIvTQhROFZ1oxYBbp.txt",
+          "fields": 10,
+          "raw": "0 0.89 0.669 0.107 0.078 0 0.453 0.178 0.085 0.053"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/HLCMhrQgRKXUOjNxVekBWZqy1wnEGtmA.txt",
+          "fields": 10,
+          "raw": "0 0.345 0.137 0.117 0.111 0 0.346 0.126 0.104 0.088"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/Hq8BmlgQydxC41hW7cVXKoafbjFv23P0.txt",
+          "fields": 15,
+          "raw": "0 0.207 0.148 0.159 0.087 0 0.177 0.145 0.106 0.083 0 0.235 0.151 0.191 0.084"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/hsxDPAn9O6WyodpKIk2j7UJHvclYXq5R.txt",
+          "fields": 15,
+          "raw": "0 0.274 0.15 0.132 0.079 0 0.372 0.133 0.21 0.099 0 0.338 0.13 0.171 0.1"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/IgZQmyLdVN6vJR3sqxAzMSXCoKl0cti7.txt",
+          "fields": 10,
+          "raw": "0 0.559 0.249 0.261 0.156 0 0.54 0.288 0.268 0.154"
+        },
+        {
+          "member": "reorganized_dataset/test/labels/m6OsiY2WEwrGf9SUJpBtIH7xbePLj1gc.txt",
+          "fields": 10,
+          "raw": "0 0.746 0.26 0.169 0.154 0 0.124 0.041 0.172 0.081"
+        }
+      ]
+    }
+  },
+  "cross_split_exact_duplicates": [
+    {
+      "sha256": "b6fd79c93d3eb3f407749cca4861019f097b618f92f71c6ede3de0fa840a8cd0",
+      "members": [
+        {
+          "split": "val",
+          "name": "XUieoOp8WQMTVaNbhjC54JrB0IF172dc.jpg"
+        },
+        {
+          "split": "test",
+          "name": "HpoAQO4IVs37GjLMSic9JhlYb06CPedZ.jpg"
+        }
+      ]
+    }
+  ],
+  "note": "Epsilon chỉ phân loại sai số để báo cáo, không sửa validator hoặc raw."
+}

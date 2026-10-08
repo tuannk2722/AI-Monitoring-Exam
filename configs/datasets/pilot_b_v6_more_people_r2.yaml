@@ -1,0 +1,50 @@
+status: draft_preparation
+candidate_path: data/interim/pilot-b/v6-preparation-20261007-r4/proposals.jsonl
+candidate_sha256: 3aeb543a19cd898c7c5b2d5303df6430c168ed8471f8f00e8a234e53914fda8f
+output: data/interim/pilot-b/v6-more-people-20261007-r2
+prefix: V6R2-MP
+anchor_ids:
+- V6-SB-001
+- V6-SB-002
+- V6-SB-003
+- V6-SB-004
+- V6-SB-005
+- V6-SB-006
+- V6-SB-007
+- V6-SB-008
+- V6-SB-009
+- V6-SB-010
+- V6-SB-011
+- V6-SB-012
+- V6-SB-013
+- V6-SB-014
+- V6-SB-015
+- V6-SB-016
+- V6-SB-017
+- V6-SB-018
+- V6-SB-019
+- V6-SB-020
+- V6-SB-021
+- V6-SB-022
+- V6-SB-023
+- V6-SB-024
+- V6-SB-025
+- V6-SB-026
+- V6-SB-027
+- V6-SB-028
+- V6-SB-029
+- V6-SB-030
+- V6-SB-031
+- V6-SB-032
+body_class_ids:
+- 1
+- 7
+- 10
+- 11
+padding: 0.1
+review_min_width: 45
+review_min_height: 70
+same_person_overlap_hint: 0.65
+max_people_per_image: 3
+note: Budget/geometry chỉ triage review, không ngưỡng acceptance/train; tìm cả phone
+  và negative cùng camera.

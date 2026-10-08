@@ -1,0 +1,33 @@
+{
+  "status": "owner_confirmed_local_use",
+  "owner_evidence": "artifacts/reports/pilot-b-v6-preparation-20261007/owner-scope-approval.json",
+  "approved_use_scope": [
+    "local_classifier_research"
+  ],
+  "sources": [
+    {
+      "source_id": "classroom_attitude",
+      "project": "https://universe.roboflow.com/nguyenducmanhs-workspace/classroom-attitude",
+      "version": 3,
+      "license_in_export": "CC BY 4.0",
+      "attribution": "nguyenducmanhs-workspace trên Roboflow Universe"
+    },
+    {
+      "source_id": "student_behaviour",
+      "project": "https://universe.roboflow.com/mywork-lkwz4/student-behaviour-detection-neazg",
+      "version": 6,
+      "license_in_export": "CC BY 4.0",
+      "attribution": "mywork-lkwz4 trên Roboflow Universe"
+    },
+    {
+      "source_id": "exam_cheating_keaor",
+      "project": "https://universe.roboflow.com/behavior-cheating/exam_cheating-keaor",
+      "version": 2,
+      "license_in_export": "CC BY 4.0",
+      "attribution": "behavior-cheating trên Roboflow Universe"
+    }
+  ],
+  "transformations": "Chọn subset train nguồn; giữ provenance/hash, crop ngữ cảnh người, review lại hai target P/N/U, nhóm cảnh và chia train/val riêng dự án. Không đổi raw/ZIP. Metadata tác giả chỉ ghi tài khoản upstream, không suy tên cá nhân.",
+  "fpi": "Quyền đã owner xác nhận; vẫn ngoài membership chính theo phương án đã duyệt.",
+  "media_upload": "Không thực hiện."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "accepted",
+  "dataset_version": "pilot-b-20261007-v6",
+  "package": "data/processed/pilot-b/pilot-b-20261007-v6",
+  "checksums": {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256",
+    "sha256": "971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f"
+  },
+  "config": {
+    "path": "configs/datasets/pilot_b_release_v6.yaml",
+    "sha256": "fcce661b922909e81108fee0b9fe3fd8d7904f8f90a639d83fb0c30d1d3047d8"
+  },
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v6-release-20261007/owner-approval.json",
+    "sha256": "d792457961d701259e6a7bc5da1fc43103fc9caf751a26387a39aa7e652a275a"
+  },
+  "evaluation_preservation": {
+    "path": "artifacts/reports/pilot-b-v6-release-20261007/evaluation-preservation.json",
+    "sha256": "3dc20c0a217cbdb2b7ad406ffef7b6f5539b37c3dfd3fb25e437ab000ab80be5"
+  },
+  "ledger_records": 498,
+  "manifest_records": 378,
+  "reviewed_crops": 471,
+  "usage": {
+    "train": 317,
+    "excluded": 27,
+    "val": 50,
+    "review_only": 93,
+    "test": 11
+  }
+}

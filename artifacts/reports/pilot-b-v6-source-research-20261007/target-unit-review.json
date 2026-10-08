@@ -1,0 +1,411 @@
+{
+  "selection": "Bốn ảnh train mỗi class theo SHA, unique filename lineage; bbox đầu thuộc class. Chỉ review minh họa, không ước lượng chất lượng toàn nguồn.",
+  "samples": [
+    {
+      "id": 1,
+      "source": "student_behaviour",
+      "class": "Using_phone",
+      "image_path": "train/images/00154_jpg.rf.99708f38fb9735e4a30b96848af39272.jpg",
+      "sha256": "00393ca5527305769ee09e0037ac39d53015cc3aa029ef67718f4d1a44f4e977",
+      "source_bbox_pixels": [
+        361,
+        14,
+        370,
+        23
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 2,
+      "source": "student_behaviour",
+      "class": "Using_phone",
+      "image_path": "train/images/00000501_jpg.rf.162b880b02fb24b97394a8846c7c8c09.jpg",
+      "sha256": "006cdb15d5d61154765fec8395a8268936b37f8e94a2d1db6525f84982b7bd8a",
+      "source_bbox_pixels": [
+        169,
+        398,
+        187,
+        418
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 3,
+      "source": "student_behaviour",
+      "class": "Using_phone",
+      "image_path": "train/images/0000000249_jpg.rf.0baad64c962211de2f34799f8f3527a0.jpg",
+      "sha256": "007c9178699ec99763b87b22a37bcf7911b51c470bd7110e14ed4ad3c298ee50",
+      "source_bbox_pixels": [
+        394,
+        263,
+        430,
+        288
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 4,
+      "source": "student_behaviour",
+      "class": "Using_phone",
+      "image_path": "train/images/00299_jpg.rf.e36fefda27f1a9d22da6d09f127fd572.jpg",
+      "sha256": "0092b949eebda4e3cd7f3028d4888e9ed4bad625036f8405b0aba621758844dd",
+      "source_bbox_pixels": [
+        359,
+        14,
+        369,
+        23
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 5,
+      "source": "student_behaviour",
+      "class": "turn_head",
+      "image_path": "train/images/00000501_jpg.rf.162b880b02fb24b97394a8846c7c8c09.jpg",
+      "sha256": "006cdb15d5d61154765fec8395a8268936b37f8e94a2d1db6525f84982b7bd8a",
+      "source_bbox_pixels": [
+        529,
+        360,
+        575,
+        437
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 6,
+      "source": "student_behaviour",
+      "class": "turn_head",
+      "image_path": "train/images/0000000249_jpg.rf.0baad64c962211de2f34799f8f3527a0.jpg",
+      "sha256": "007c9178699ec99763b87b22a37bcf7911b51c470bd7110e14ed4ad3c298ee50",
+      "source_bbox_pixels": [
+        43,
+        64,
+        60,
+        104
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 7,
+      "source": "student_behaviour",
+      "class": "turn_head",
+      "image_path": "train/images/00911_jpg.rf.c4d92182759690e1ddf5bbadb258a6bf.jpg",
+      "sha256": "00b988ff37c2222c308e431a66c23f020db42b6aa0b7c82881d5158df7856b33",
+      "source_bbox_pixels": [
+        310,
+        40,
+        319,
+        59
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 8,
+      "source": "student_behaviour",
+      "class": "turn_head",
+      "image_path": "train/images/00000270_jpg.rf.7f46fa787088441598598fc5b352a4ec.jpg",
+      "sha256": "0102005528a616458c9c3d8b5c7111a3e0008488d16c43f277414d31747bec20",
+      "source_bbox_pixels": [
+        225,
+        284,
+        262,
+        356
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 9,
+      "source": "student_behaviour",
+      "class": "writing",
+      "image_path": "train/images/0022016_png.rf.f38ff0467cd9daa87123ccc0639c800f.jpg",
+      "sha256": "0062bdd93cff8d74119a8930781087c53fb59070b536887350cd14c4770e414a",
+      "source_bbox_pixels": [
+        11,
+        302,
+        292,
+        637
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 10,
+      "source": "student_behaviour",
+      "class": "writing",
+      "image_path": "train/images/0016005_png.rf.c24b303edea8c92114b5b23a36469965.jpg",
+      "sha256": "0249004d3f09e304c12ad23c7d48598293f40bb6963cd3d17deb135697d25148",
+      "source_bbox_pixels": [
+        230,
+        392,
+        422,
+        638
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 11,
+      "source": "student_behaviour",
+      "class": "writing",
+      "image_path": "train/images/13210053_png.rf.a9d6194a3b851a3200966bed0f2d54a0.jpg",
+      "sha256": "053a740d98de9c4370e91a74f091917b9cf8a6c1ccad15ec4c058845e0ab3c1c",
+      "source_bbox_pixels": [
+        32,
+        214,
+        118,
+        315
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 12,
+      "source": "student_behaviour",
+      "class": "writing",
+      "image_path": "train/images/0016028_png.rf.16304f9b3eae50322395c669972f8f67.jpg",
+      "sha256": "0572d5c9aa70e61822c6dd552ecbd69514aaec74b8b4abc437697f9f4c9503eb",
+      "source_bbox_pixels": [
+        46,
+        13,
+        579,
+        628
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 13,
+      "source": "student_behaviour",
+      "class": "phone",
+      "image_path": "train/images/00154_jpg.rf.99708f38fb9735e4a30b96848af39272.jpg",
+      "sha256": "00393ca5527305769ee09e0037ac39d53015cc3aa029ef67718f4d1a44f4e977",
+      "source_bbox_pixels": [
+        252,
+        49,
+        261,
+        57
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 14,
+      "source": "student_behaviour",
+      "class": "phone",
+      "image_path": "train/images/00000501_jpg.rf.162b880b02fb24b97394a8846c7c8c09.jpg",
+      "sha256": "006cdb15d5d61154765fec8395a8268936b37f8e94a2d1db6525f84982b7bd8a",
+      "source_bbox_pixels": [
+        79,
+        478,
+        101,
+        502
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 15,
+      "source": "student_behaviour",
+      "class": "phone",
+      "image_path": "train/images/00299_jpg.rf.e36fefda27f1a9d22da6d09f127fd572.jpg",
+      "sha256": "0092b949eebda4e3cd7f3028d4888e9ed4bad625036f8405b0aba621758844dd",
+      "source_bbox_pixels": [
+        618,
+        459,
+        626,
+        482
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 16,
+      "source": "student_behaviour",
+      "class": "phone",
+      "image_path": "train/images/00911_jpg.rf.c4d92182759690e1ddf5bbadb258a6bf.jpg",
+      "sha256": "00b988ff37c2222c308e431a66c23f020db42b6aa0b7c82881d5158df7856b33",
+      "source_bbox_pixels": [
+        120,
+        103,
+        128,
+        115
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 17,
+      "source": "student_behaviour",
+      "class": "upright",
+      "image_path": "train/images/00154_jpg.rf.99708f38fb9735e4a30b96848af39272.jpg",
+      "sha256": "00393ca5527305769ee09e0037ac39d53015cc3aa029ef67718f4d1a44f4e977",
+      "source_bbox_pixels": [
+        68,
+        192,
+        104,
+        244
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 18,
+      "source": "student_behaviour",
+      "class": "upright",
+      "image_path": "train/images/00000501_jpg.rf.162b880b02fb24b97394a8846c7c8c09.jpg",
+      "sha256": "006cdb15d5d61154765fec8395a8268936b37f8e94a2d1db6525f84982b7bd8a",
+      "source_bbox_pixels": [
+        96,
+        340,
+        172,
+        486
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 19,
+      "source": "student_behaviour",
+      "class": "upright",
+      "image_path": "train/images/0000000249_jpg.rf.0baad64c962211de2f34799f8f3527a0.jpg",
+      "sha256": "007c9178699ec99763b87b22a37bcf7911b51c470bd7110e14ed4ad3c298ee50",
+      "source_bbox_pixels": [
+        15,
+        119,
+        69,
+        192
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 20,
+      "source": "student_behaviour",
+      "class": "upright",
+      "image_path": "train/images/00299_jpg.rf.e36fefda27f1a9d22da6d09f127fd572.jpg",
+      "sha256": "0092b949eebda4e3cd7f3028d4888e9ed4bad625036f8405b0aba621758844dd",
+      "source_bbox_pixels": [
+        74,
+        171,
+        108,
+        237
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 21,
+      "source": "classroom_attitude",
+      "class": "Phone use",
+      "image_path": "train/images/istockphoto-1213739002-612x612_jpg.rf.bd756a9a9cb0cfacfca35f9caa663bb3.jpg",
+      "sha256": "000ecf06103d5e0a41b374af5401c1bea1f2ec984a0b90445caa928218278c31",
+      "source_bbox_pixels": [
+        93,
+        0,
+        414,
+        206
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 22,
+      "source": "classroom_attitude",
+      "class": "Phone use",
+      "image_path": "train/images/cheat219_jpg.rf.543e81445161a7dcc5b4d6adcf8b6f4f.jpg",
+      "sha256": "00a2a3cb1518ae597536243995c53a15b46a1214d6fa20add418f54d290c7032",
+      "source_bbox_pixels": [
+        232,
+        67,
+        418,
+        342
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 23,
+      "source": "classroom_attitude",
+      "class": "Phone use",
+      "image_path": "train/images/IMG_20220525_171746_jpg.rf.8fb45a40c3bf0724b905f52c6b6dd67e.jpg",
+      "sha256": "00e56a51c3bf656f9d538be10ca9f7d1d1cd859acfc5c4978c267492e2e13dad",
+      "source_bbox_pixels": [
+        35,
+        145,
+        161,
+        353
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 24,
+      "source": "classroom_attitude",
+      "class": "Phone use",
+      "image_path": "train/images/2023-03-14-11-10-11_mp4-256_jpg.rf.5971fde857a70f3ec48e26766cc5664c.jpg",
+      "sha256": "00ec7c97228f8f05530ef83e4af044c4900e4e7fb09d57e21393110badc7c323",
+      "source_bbox_pixels": [
+        146,
+        298,
+        231,
+        428
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 25,
+      "source": "exam_cheating_keaor",
+      "class": "Use_phone",
+      "image_path": "train/images/4_JPG_jpg.rf.778c8ca4d550b125076753d5feeebb73.jpg",
+      "sha256": "03f53ac2f0afead7d9d4ff870b98e7bd9384d2cb99e742e9130d310f7e3257eb",
+      "source_bbox_pixels": [
+        187,
+        384,
+        272,
+        460
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 26,
+      "source": "exam_cheating_keaor",
+      "class": "Use_phone",
+      "image_path": "train/images/36_jpg.rf.32de4de7d52fa6ef0b3741da49d78a90.jpg",
+      "sha256": "076e44d960ade18a2ff5f5c832e2d7f4bff92c6204e6efda590e4bb4d8d735e3",
+      "source_bbox_pixels": [
+        347,
+        448,
+        449,
+        554
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 27,
+      "source": "exam_cheating_keaor",
+      "class": "Use_phone",
+      "image_path": "train/images/2_JPG_jpg.rf.8e95ab704a753cde56dc34d387c8b181.jpg",
+      "sha256": "07edb74678ace97b60d292a178f0edffd98cb9a8f1bdcf7ef717a69f591fe9a9",
+      "source_bbox_pixels": [
+        265,
+        295,
+        389,
+        485
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    },
+    {
+      "id": 28,
+      "source": "exam_cheating_keaor",
+      "class": "Use_phone",
+      "image_path": "train/images/phones-over-landlines_jpg.rf.022aaf29341efbc67486db3844ee601e.jpg",
+      "sha256": "0b8b30886fed33dd026e12b26eeb555ce9742c8c502cb3af8c32c8f5d8e59ccb",
+      "source_bbox_pixels": [
+        76,
+        0,
+        523,
+        640
+      ],
+      "note": "Crop bbox nguồn để kiểm unit; không phải crop accepted hoặc nhãn target."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "Codex",
+    "status": "draft_observation_not_owner_approval",
+    "samples_viewed": 28,
+    "observations": {
+      "student_Using_phone": "Bốn crop 9x9,18x20,36x25,10x9 px; bao vùng nhỏ của tương tác/thiết bị, không đủ người. Không map trực tiếp thành crop person positive.",
+      "student_turn_head": "Các mẫu chủ yếu bbox đầu, không phải đầy đủ người/ngữ cảnh bài làm.",
+      "student_phone": "Các mẫu crop rất nhỏ (9x8,22x24,8x23,8x12), không đủ person attribution.",
+      "student_writing_upright": "Có bbox người/phần thân, kích thước thay đổi; cần liên kết cùng người với bbox đầu/vật thể qua review, không nearest tự động.",
+      "classroom_Phone_use": "Các mẫu có cả tay/điện thoại, crop thân/người và người cạnh điện thoại trên bàn; unit không đồng nhất.",
+      "exam_Use_phone": "Bốn mẫu có tay/điện thoại hoặc phần thân, không mặc định bbox người đầy đủ."
+    },
+    "limitation": "Mẫu chọn theo SHA/lineage, không đo tỷ lệ lỗi hoặc đại diện toàn nguồn; chưa gán nhãn target accepted."
+  }
+}

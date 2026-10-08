@@ -1,0 +1,25 @@
+{
+  "status": "pass_preparation_not_release_acceptance",
+  "records": 351,
+  "new_candidate_pixel_checks": 143,
+  "crop_payload_files": 340,
+  "review_html_local_references_checked": 730,
+  "parent_package_checksums": "pass",
+  "proposal_package_checksums": "pass",
+  "exact_assignment_recompute": "pass",
+  "all_parent_labels_crop_source_preserved": "pass",
+  "all_parent_used_groups_membership_preserved": "pass",
+  "test_11_integrity": "pass",
+  "historical_val_13_integrity": "pass",
+  "cross_split_image_crop_group_conflicts": 0,
+  "nearest_new_cross_split_flags_distance_le_8": [],
+  "unit_tests": {
+    "status": "pass",
+    "count": 152
+  },
+  "ruff_new_scope": "pass",
+  "mypy_new_scope": "pass",
+  "training_release_accepted": false,
+  "model_training_or_test_inference": false,
+  "owner_pending": "Nghiệm thu gói crop/nhãn/nhóm/membership cụ thể; không phải quyền nguồn hoặc phạm vi train/val."
+}

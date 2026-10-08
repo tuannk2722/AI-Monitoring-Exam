@@ -1,0 +1,1484 @@
+{
+  "byte_sha256": {
+    "groups": 58,
+    "extra_copies": 61,
+    "cross_source_groups": [
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/50-Copy_jpg.rf.2190cc69eed9d92d9ccb271f7177d2f0.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/50_jpg.rf.7edce6070ba5dade87d5d13aefef044f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/52-Copy-2-_jpg.rf.f4aa38f529dd483caae4e09818716f14.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/52_jpg.rf.dae47baf276cbdbaa40c347adee406c2.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/59-Copy_jpg.rf.2b6f95d050edcef1ff68987e99cdd29b.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/59_jpg.rf.cfe9fd79b052bb482662e134ed6f7741.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/63_jpeg-Copy_jpg.rf.533e7e52f7ef5ef8e3dffd6525de1877.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/63_jpeg_jpg.rf.698586241e7693cf2c706d296e12cf1f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/smartphone_650x400_81464286736-Copy_jpg.rf.3bc22d0328c04159d7b8ccd0b6b8c7c5.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/smartphone_650x400_81464286736_jpg.rf.d55caa36ced3eb06251ed1f9f04d7421.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/18_JPG-Copy_jpg.rf.cd4f9146ccbb9d0822b4f57d12654c7d.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/18_JPG_jpg.rf.765f3b0f824d15e9fc116b735a788461.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/21_JPG-Copy_jpg.rf.b3bae1af7091ee263b1652f7c823675a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/21_JPG_jpg.rf.c2b1cf80d1ea09da9c6f371033c1126f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/2_JPG-Copy_jpg.rf.6d698903aa01ed67308b4d869d8377ce.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/2_JPG_jpg.rf.9dee9630ea221115c3c7901555392e9e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/31-Copy_jpg.rf.b871f2de5e4ae3f85ffb40fd73437227.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/31_jpg.rf.dfab312697f7bc88cbf689f0e89e93c3.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/32-Copy_jpg.rf.7f3d379f8e593fa6eb4e9c28f41c3c7e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/32_jpg.rf.19418bea5f2be6b6da92bb002f697f02.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/33-Copy_jpg.rf.06e04031d72ee2f6174ab4fb46b3bbc6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/33_jpg.rf.42694d4e78327361bb11714f907411a9.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/37-Copy_jpg.rf.aa6b5acf62f6a9bb319505f879071be2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/37_jpg.rf.d6464655d69cad8492321f678745db3e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/38-Copy_jpg.rf.9f9a20d5b509028e5314cf0625b5e10f.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/38_jpg.rf.fb0a5bb2851d21880499a76cb400c108.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/40-Copy_jpg.rf.f7ed1766a94b6488b522bd810cedd7e6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/40_jpg.rf.3d7de17f68ec80a3421bdc48539a9ddf.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/41-Copy_jpg.rf.38c94703240d9a2a02ebe7c5c91a0f61.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/41_jpg.rf.37623e900e2f181c778b9a4eb2de9f30.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/42_jpeg-Copy_jpg.rf.9486b793ca979fe6a5793804da16129e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/42_jpeg_jpg.rf.c507940792e3476f829c1b89a35f513d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/43-Copy_jpg.rf.a86b2ef8236fdf2132ba4b449d4fe7c6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/43_jpg.rf.c6d1021895c9bad52dc1ead3b29aceec.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/44_jpg.rf.bb12ee577662211ec713515b9cc5314f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/44-Copy_jpg.rf.e5b49affb38ae1789093df3d0137cbea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/44_jpg.rf.d4ddc81555906f11230bd2aadba81135.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/45-Copy_jpg.rf.911f876b8455b18288d063c2387432dd.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/45_jpg.rf.e43e6146fccd67dc8d260ef042ddd81a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/46-Copy_jpg.rf.f705dc222f7f5aaf44df192fcab5ad2f.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/46_jpg.rf.cfdd2d8494a19ee65f24ac353fb3d205.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/49-Copy_jpg.rf.e9d7fa2aba02bfc9098e8cc650285e6a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/49_jpg.rf.b2558bacdc13cd7bc0afb3a544c6a937.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/4_JPG-Copy_jpg.rf.73cf8ed49124a74e4a391efea5f22b06.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/4_JPG_jpg.rf.a47bc44b9e544a03c96c49fb5f78563e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/54-Copy_jpg.rf.3cc636eb63ac70ecd66b64f3006c787e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/54_jpg.rf.429242660b3a728cdc06e24cccab0903.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/56-Copy_jpg.rf.771aab80306d78217624998384a4288d.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/56_jpg.rf.ee45fe5f2b59dbfc584c86b176177801.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/68-Copy_jpg.rf.2599fb71c672533d66d09d11bc84b673.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/68_jpg.rf.50ec2424c2b871fec1fb2d6020b9a752.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/69-Copy_jpg.rf.9e9a384d61aa48c2deef0f3291357c40.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/69_jpg.rf.a4330fafcec25c7c9aec70069f70f99b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/6_JPG-Copy_jpg.rf.c010819bb889a3e06513b2b7f6b8b164.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/6_JPG_jpg.rf.5d83119f4730dba1f2a59a0ca9a46b56.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/78-Copy-2-_jpg.rf.7d4c4e91182e021fb39dfc876d269395.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/78_jpg.rf.edfd333fa19ebd805f9561ca1ecca2d0.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6291-Copy_jpg.rf.e9efb667a1be1cf78dc0f49197b9c70e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6291_jpg.rf.d45f5e1ee946d3b455604252efd91a96.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6373-Copy_jpg.rf.ccb420423700228f98b18e802ac89cf2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6373_jpg.rf.1bea87881f3d7a882f2037595e2c1ae8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6380-Copy_jpg.rf.5b8f7c3cda0f5afe25b670233b1994de.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6380_jpg.rf.f575f24961a411cfb79970d24ebb9364.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6427-Copy_jpg.rf.c5bf325fc027f56f362273e8b333288c.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6427_jpg.rf.787afd260be7fbefc39d087c16ea4d0b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6430-Copy_jpg.rf.0939b74d80334e5940338b734cbcb9aa.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6430_jpg.rf.82014deb2c2e7fceed7b66b106603a0a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6431-Copy_jpg.rf.cb662f2122ced534a3834de0319fc78a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6431_jpg.rf.19ebaed6ff5f7b73e12038f199b30b7c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6434-Copy_jpg.rf.1acc6b12e19cdfb7bcdb0aeb9bc8efdc.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6434_jpg.rf.57a02f55991acf4e7677fc0016998e1b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6442-Copy_jpg.rf.e71c0c0e4a9945df68490a3a6b02cbad.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6442_jpg.rf.fafe5d4ffee4b4dcb2bbdfbb6bee8a70.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6459-Copy_jpg.rf.bcf980b1a082e77818996a5f5d6e7607.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6459_jpg.rf.f4984a705f6f9e8945b4284b12de5f07.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6463-Copy_jpg.rf.fc4b57bee07bea0ec74ad38da71ed07c.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6463_jpg.rf.7a36d4103f50a4bdd8e874b5da81b4fa.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6477-Copy_jpg.rf.0e96b11fec3dfa2c94ccde9ad0639d54.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6477_jpg.rf.45ee3d7ebf259cc2ccaf6c0ee21fee74.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6485-Copy_jpg.rf.80af48e58cfda90ed7f8c96dd37afa44.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6485_jpg.rf.ebe86395a66e67fa0e24b153c4d42d02.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6493-Copy_jpg.rf.d62ef8143e5a3a9951c653144b12e744.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6493_jpg.rf.32ae028338c17505e1f945f8a55213c8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6497-Copy_jpg.rf.ed936bc8a85122fd2bd65933cab1da1a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6497_jpg.rf.cb002306e53905db20be6c361b7e2102.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6500-Copy_jpg.rf.1ba252146536d5df50771eb29a69e898.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6500_jpg.rf.9c2d513147af9e70baa51ab559397a30.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6500_jpg.rf.7cbf4f4c8177e481d54f8c8af05dc5eb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6502-Copy_jpg.rf.ddf461598cc97c068419a2ad17a55bb0.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6502_jpg.rf.cf806b9dce5d1594c3febf6c0dc7efec.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/hp_jpeg-Copy_jpg.rf.9a018df74e34026aef1ec35536ce27c1.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/hp_jpeg_jpg.rf.7b1ec47eb87d04e852c1d1625545d00b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.b92edb80efdb6faf35675168fbacfc65.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/images_jpeg-Copy_jpg.rf.04cfa2ad6007f657f764461b2f1c42c2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.8627429a591b1c1eba1df50424c44a76.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/landscape-1469742347-gettyimages-498204000_jpg.rf.08014113feb6cf2df64061d65e8a5648.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/landscape-1469742347-gettyimages-498204000_jpg.rf.30ffba2905e40f4d8c93ec3388e078dd.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/smartphone-1460533008-Copy_jpg.rf.fdea177b97b5f6d91ff10894d5388b2a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/smartphone-1460533008_jpg.rf.1decee634aaccc35c391d376ea381c73.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/1_JPG-Copy_jpg.rf.56048f19459225b767a1d8594239fbc1.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/35-Copy_jpg.rf.da0a85f2a68b69942c070137264ac5e9.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/35_jpg.rf.4cb0b57415be923116deccef603d45ed.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/47-Copy_jpg.rf.a5f7a3f226087452a01b158c330f2cf7.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/47_jpg.rf.730f8ac1f98d8cf426e9d71472535344.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/53-Copy_jpg.rf.7391f5ffa08949a167441419f33d6bea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/53_jpg.rf.ce13bbec434b46fe97f8d021f940a69a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/9_JPG-Copy_jpg.rf.2278029f6959da2e4eef1576e6861eec.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/9_JPG_jpg.rf.5eb0b073e4d9da2f7c32e3d7e75db1f4.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6378-Copy_jpg.rf.02c1d68d98c2b2b13c15dd2856170371.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6378_jpg.rf.6912c5a098867d93aa150ca07ec75b71.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6482-Copy_jpg.rf.e40c0a338f3bb96de9f1841b604790df.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6482_jpg.rf.a26ccbe720149cd5b171b1007b892104.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6486-Copy_jpg.rf.54b5f635d2e4178389756685fd4facb7.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6486_jpg.rf.89dc410fbc9f7a4706e4f6f5f161fc11.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/phones-over-landlines-Copy_jpg.rf.deff50eaad76da82f128905f1b8da942.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/phones-over-landlines_jpg.rf.09dbc2b538acad1585389cc5b4a85503.jpg"
+        }
+      ]
+    ],
+    "within_source_cross_split_groups": [
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/44_jpg.rf.bb12ee577662211ec713515b9cc5314f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/44-Copy_jpg.rf.e5b49affb38ae1789093df3d0137cbea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/44_jpg.rf.d4ddc81555906f11230bd2aadba81135.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.b92edb80efdb6faf35675168fbacfc65.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/images_jpeg-Copy_jpg.rf.04cfa2ad6007f657f764461b2f1c42c2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.8627429a591b1c1eba1df50424c44a76.jpg"
+        }
+      ]
+    ]
+  },
+  "decoded_rgb_sha256": {
+    "groups": 58,
+    "extra_copies": 61,
+    "cross_source_groups": [
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/50-Copy_jpg.rf.2190cc69eed9d92d9ccb271f7177d2f0.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/50_jpg.rf.7edce6070ba5dade87d5d13aefef044f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/52-Copy-2-_jpg.rf.f4aa38f529dd483caae4e09818716f14.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/52_jpg.rf.dae47baf276cbdbaa40c347adee406c2.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/59-Copy_jpg.rf.2b6f95d050edcef1ff68987e99cdd29b.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/59_jpg.rf.cfe9fd79b052bb482662e134ed6f7741.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/63_jpeg-Copy_jpg.rf.533e7e52f7ef5ef8e3dffd6525de1877.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/63_jpeg_jpg.rf.698586241e7693cf2c706d296e12cf1f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/smartphone_650x400_81464286736-Copy_jpg.rf.3bc22d0328c04159d7b8ccd0b6b8c7c5.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/smartphone_650x400_81464286736_jpg.rf.d55caa36ced3eb06251ed1f9f04d7421.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/18_JPG-Copy_jpg.rf.cd4f9146ccbb9d0822b4f57d12654c7d.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/18_JPG_jpg.rf.765f3b0f824d15e9fc116b735a788461.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/21_JPG-Copy_jpg.rf.b3bae1af7091ee263b1652f7c823675a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/21_JPG_jpg.rf.c2b1cf80d1ea09da9c6f371033c1126f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/2_JPG-Copy_jpg.rf.6d698903aa01ed67308b4d869d8377ce.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/2_JPG_jpg.rf.9dee9630ea221115c3c7901555392e9e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/31-Copy_jpg.rf.b871f2de5e4ae3f85ffb40fd73437227.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/31_jpg.rf.dfab312697f7bc88cbf689f0e89e93c3.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/32-Copy_jpg.rf.7f3d379f8e593fa6eb4e9c28f41c3c7e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/32_jpg.rf.19418bea5f2be6b6da92bb002f697f02.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/33-Copy_jpg.rf.06e04031d72ee2f6174ab4fb46b3bbc6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/33_jpg.rf.42694d4e78327361bb11714f907411a9.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/37-Copy_jpg.rf.aa6b5acf62f6a9bb319505f879071be2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/37_jpg.rf.d6464655d69cad8492321f678745db3e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/38-Copy_jpg.rf.9f9a20d5b509028e5314cf0625b5e10f.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/38_jpg.rf.fb0a5bb2851d21880499a76cb400c108.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/40-Copy_jpg.rf.f7ed1766a94b6488b522bd810cedd7e6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/40_jpg.rf.3d7de17f68ec80a3421bdc48539a9ddf.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/41-Copy_jpg.rf.38c94703240d9a2a02ebe7c5c91a0f61.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/41_jpg.rf.37623e900e2f181c778b9a4eb2de9f30.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/42_jpeg-Copy_jpg.rf.9486b793ca979fe6a5793804da16129e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/42_jpeg_jpg.rf.c507940792e3476f829c1b89a35f513d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/43-Copy_jpg.rf.a86b2ef8236fdf2132ba4b449d4fe7c6.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/43_jpg.rf.c6d1021895c9bad52dc1ead3b29aceec.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/44_jpg.rf.bb12ee577662211ec713515b9cc5314f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/44-Copy_jpg.rf.e5b49affb38ae1789093df3d0137cbea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/44_jpg.rf.d4ddc81555906f11230bd2aadba81135.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/45-Copy_jpg.rf.911f876b8455b18288d063c2387432dd.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/45_jpg.rf.e43e6146fccd67dc8d260ef042ddd81a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/46-Copy_jpg.rf.f705dc222f7f5aaf44df192fcab5ad2f.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/46_jpg.rf.cfdd2d8494a19ee65f24ac353fb3d205.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/49-Copy_jpg.rf.e9d7fa2aba02bfc9098e8cc650285e6a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/49_jpg.rf.b2558bacdc13cd7bc0afb3a544c6a937.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/4_JPG-Copy_jpg.rf.73cf8ed49124a74e4a391efea5f22b06.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/4_JPG_jpg.rf.a47bc44b9e544a03c96c49fb5f78563e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/54-Copy_jpg.rf.3cc636eb63ac70ecd66b64f3006c787e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/54_jpg.rf.429242660b3a728cdc06e24cccab0903.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/56-Copy_jpg.rf.771aab80306d78217624998384a4288d.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/56_jpg.rf.ee45fe5f2b59dbfc584c86b176177801.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/68-Copy_jpg.rf.2599fb71c672533d66d09d11bc84b673.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/68_jpg.rf.50ec2424c2b871fec1fb2d6020b9a752.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/69-Copy_jpg.rf.9e9a384d61aa48c2deef0f3291357c40.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/69_jpg.rf.a4330fafcec25c7c9aec70069f70f99b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/6_JPG-Copy_jpg.rf.c010819bb889a3e06513b2b7f6b8b164.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/6_JPG_jpg.rf.5d83119f4730dba1f2a59a0ca9a46b56.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/78-Copy-2-_jpg.rf.7d4c4e91182e021fb39dfc876d269395.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/78_jpg.rf.edfd333fa19ebd805f9561ca1ecca2d0.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6291-Copy_jpg.rf.e9efb667a1be1cf78dc0f49197b9c70e.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6291_jpg.rf.d45f5e1ee946d3b455604252efd91a96.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6373-Copy_jpg.rf.ccb420423700228f98b18e802ac89cf2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6373_jpg.rf.1bea87881f3d7a882f2037595e2c1ae8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6380-Copy_jpg.rf.5b8f7c3cda0f5afe25b670233b1994de.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6380_jpg.rf.f575f24961a411cfb79970d24ebb9364.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6427-Copy_jpg.rf.c5bf325fc027f56f362273e8b333288c.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6427_jpg.rf.787afd260be7fbefc39d087c16ea4d0b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6430-Copy_jpg.rf.0939b74d80334e5940338b734cbcb9aa.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6430_jpg.rf.82014deb2c2e7fceed7b66b106603a0a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6431-Copy_jpg.rf.cb662f2122ced534a3834de0319fc78a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6431_jpg.rf.19ebaed6ff5f7b73e12038f199b30b7c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6434-Copy_jpg.rf.1acc6b12e19cdfb7bcdb0aeb9bc8efdc.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6434_jpg.rf.57a02f55991acf4e7677fc0016998e1b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6442-Copy_jpg.rf.e71c0c0e4a9945df68490a3a6b02cbad.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6442_jpg.rf.fafe5d4ffee4b4dcb2bbdfbb6bee8a70.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6459-Copy_jpg.rf.bcf980b1a082e77818996a5f5d6e7607.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6459_jpg.rf.f4984a705f6f9e8945b4284b12de5f07.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6463-Copy_jpg.rf.fc4b57bee07bea0ec74ad38da71ed07c.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6463_jpg.rf.7a36d4103f50a4bdd8e874b5da81b4fa.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6477-Copy_jpg.rf.0e96b11fec3dfa2c94ccde9ad0639d54.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6477_jpg.rf.45ee3d7ebf259cc2ccaf6c0ee21fee74.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6485-Copy_jpg.rf.80af48e58cfda90ed7f8c96dd37afa44.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6485_jpg.rf.ebe86395a66e67fa0e24b153c4d42d02.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6493-Copy_jpg.rf.d62ef8143e5a3a9951c653144b12e744.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6493_jpg.rf.32ae028338c17505e1f945f8a55213c8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6497-Copy_jpg.rf.ed936bc8a85122fd2bd65933cab1da1a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "valid",
+          "path": "valid/images/IMG_6497_jpg.rf.cb002306e53905db20be6c361b7e2102.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6500-Copy_jpg.rf.1ba252146536d5df50771eb29a69e898.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6500_jpg.rf.9c2d513147af9e70baa51ab559397a30.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6500_jpg.rf.7cbf4f4c8177e481d54f8c8af05dc5eb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG_6502-Copy_jpg.rf.ddf461598cc97c068419a2ad17a55bb0.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6502_jpg.rf.cf806b9dce5d1594c3febf6c0dc7efec.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/hp_jpeg-Copy_jpg.rf.9a018df74e34026aef1ec35536ce27c1.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/hp_jpeg_jpg.rf.7b1ec47eb87d04e852c1d1625545d00b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.b92edb80efdb6faf35675168fbacfc65.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/images_jpeg-Copy_jpg.rf.04cfa2ad6007f657f764461b2f1c42c2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.8627429a591b1c1eba1df50424c44a76.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/landscape-1469742347-gettyimages-498204000_jpg.rf.08014113feb6cf2df64061d65e8a5648.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/landscape-1469742347-gettyimages-498204000_jpg.rf.30ffba2905e40f4d8c93ec3388e078dd.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/smartphone-1460533008-Copy_jpg.rf.fdea177b97b5f6d91ff10894d5388b2a.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/smartphone-1460533008_jpg.rf.1decee634aaccc35c391d376ea381c73.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/1_JPG-Copy_jpg.rf.56048f19459225b767a1d8594239fbc1.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/1_JPG_jpg.rf.074a57a8c4a4f3881bf09845fe70e5a8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/35-Copy_jpg.rf.da0a85f2a68b69942c070137264ac5e9.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/35_jpg.rf.4cb0b57415be923116deccef603d45ed.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/47-Copy_jpg.rf.a5f7a3f226087452a01b158c330f2cf7.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/47_jpg.rf.730f8ac1f98d8cf426e9d71472535344.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/53-Copy_jpg.rf.7391f5ffa08949a167441419f33d6bea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/53_jpg.rf.ce13bbec434b46fe97f8d021f940a69a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/9_JPG-Copy_jpg.rf.2278029f6959da2e4eef1576e6861eec.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/9_JPG_jpg.rf.5eb0b073e4d9da2f7c32e3d7e75db1f4.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6378-Copy_jpg.rf.02c1d68d98c2b2b13c15dd2856170371.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6378_jpg.rf.6912c5a098867d93aa150ca07ec75b71.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6482-Copy_jpg.rf.e40c0a338f3bb96de9f1841b604790df.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/IMG_6482_jpg.rf.a26ccbe720149cd5b171b1007b892104.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG_6486-Copy_jpg.rf.54b5f635d2e4178389756685fd4facb7.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/IMG_6486_jpg.rf.89dc410fbc9f7a4706e4f6f5f161fc11.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/phones-over-landlines-Copy_jpg.rf.deff50eaad76da82f128905f1b8da942.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/phones-over-landlines_jpg.rf.09dbc2b538acad1585389cc5b4a85503.jpg"
+        }
+      ]
+    ],
+    "within_source_cross_split_groups": [
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/44_jpg.rf.bb12ee577662211ec713515b9cc5314f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/44-Copy_jpg.rf.e5b49affb38ae1789093df3d0137cbea.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "test",
+          "path": "test/images/44_jpg.rf.d4ddc81555906f11230bd2aadba81135.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.b92edb80efdb6faf35675168fbacfc65.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/images_jpeg-Copy_jpg.rf.04cfa2ad6007f657f764461b2f1c42c2.jpg"
+        },
+        {
+          "source": "old_rf",
+          "split": "train",
+          "path": "train/images/images_jpeg_jpg.rf.8627429a591b1c1eba1df50424c44a76.jpg"
+        }
+      ]
+    ]
+  }
+}

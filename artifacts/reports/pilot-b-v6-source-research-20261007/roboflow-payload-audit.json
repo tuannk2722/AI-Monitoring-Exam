@@ -1,0 +1,2093 @@
+{
+  "classroom_attitude": {
+    "archive": "classroom-attitude.v3i.yolov8.zip",
+    "bytes": 117151276,
+    "sha256": "aa51db8e4bbf1ef52c05825497d7cd16f2db0a7a3d9257a51aa36bce0670785d",
+    "metadata": {
+      "data.yaml": "train: ../train/images\nval: ../valid/images\ntest: ../test/images\n\nnc: 16\nnames: ['Cheating', 'CheatingDevice', 'Exam Device', 'Leaning Down', 'Leaving Seat', 'Looking around', 'Phone', 'Phone use', 'Sleeping', 'Standing', 'Turning head', 'Turning_Around', 'Walking', 'cell-phones', 'invigilator', 'person']\n\nroboflow:\n  workspace: nguyenducmanhs-workspace\n  project: classroom-attitude\n  version: 3\n  license: CC BY 4.0\n  url: https://universe.roboflow.com/nguyenducmanhs-workspace/classroom-attitude/dataset/3",
+      "README.dataset.txt": "# classroom-attitude > 2026-04-11 2:05pm\nhttps://universe.roboflow.com/nguyenducmanhs-workspace/classroom-attitude\n\nProvided by a Roboflow user\nLicense: CC BY 4.0\n\n",
+      "README.roboflow.txt": "\nclassroom-attitude - v3 2026-04-11 2:05pm\n==============================\n\nThis dataset was exported via roboflow.com on April 12, 2026 at 9:03 AM GMT\n\nRoboflow is an end-to-end computer vision platform that helps you\n* collaborate with your team on computer vision projects\n* collect & organize images\n* understand and search unstructured image data\n* annotate, and create datasets\n* export, train, and deploy computer vision models\n* use active learning to improve your dataset over time\n\nFor state of the art Computer Vision training notebooks you can use with this dataset,\nvisit https://github.com/roboflow/notebooks\n\nTo find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com\n\nThe dataset includes 3573 images.\nClassroom-attidititue are annotated in YOLOv8 format.\n\nThe following pre-processing was applied to each image:\n* Auto-orientation of pixel data (with EXIF-orientation stripping)\n* Resize to 512x512 (Stretch)\n\nNo image augmentation techniques were applied.\n\n\n"
+    },
+    "classes": {
+      "0": "Cheating",
+      "1": "CheatingDevice",
+      "2": "Exam Device",
+      "3": "Leaning Down",
+      "4": "Leaving Seat",
+      "5": "Looking around",
+      "6": "Phone",
+      "7": "Phone use",
+      "8": "Sleeping",
+      "9": "Standing",
+      "10": "Turning head",
+      "11": "Turning_Around",
+      "12": "Walking",
+      "13": "cell-phones",
+      "14": "invigilator",
+      "15": "person"
+    },
+    "splits": {
+      "test": {
+        "images": 342,
+        "boxes": {
+          "Phone": 2,
+          "Turning head": 1,
+          "Leaning Down": 1,
+          "Looking around": 260,
+          "Phone use": 121,
+          "cell-phones": 118,
+          "person": 116,
+          "invigilator": 6,
+          "Cheating": 26,
+          "CheatingDevice": 13,
+          "Exam Device": 9,
+          "Turning_Around": 44,
+          "Sleeping": 29
+        },
+        "class_images": {
+          "Phone": 1,
+          "Leaning Down": 1,
+          "Turning head": 1,
+          "Looking around": 80,
+          "Phone use": 82,
+          "person": 24,
+          "cell-phones": 24,
+          "invigilator": 6,
+          "Cheating": 8,
+          "CheatingDevice": 6,
+          "Exam Device": 3,
+          "Turning_Around": 44,
+          "Sleeping": 29
+        },
+        "empty_labels": 119,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      },
+      "train": {
+        "images": 2566,
+        "boxes": {
+          "Phone use": 1013,
+          "Looking around": 2806,
+          "Leaving Seat": 2,
+          "Standing": 2,
+          "Walking": 1,
+          "Turning head": 3,
+          "Phone": 3,
+          "Cheating": 112,
+          "Sleeping": 257,
+          "Leaning Down": 3,
+          "invigilator": 66,
+          "CheatingDevice": 30,
+          "cell-phones": 797,
+          "person": 776,
+          "Exam Device": 43,
+          "Turning_Around": 269
+        },
+        "class_images": {
+          "Looking around": 758,
+          "Phone use": 630,
+          "Walking": 1,
+          "Standing": 2,
+          "Phone": 3,
+          "Leaving Seat": 2,
+          "Turning head": 1,
+          "Cheating": 51,
+          "Sleeping": 255,
+          "Leaning Down": 3,
+          "invigilator": 50,
+          "CheatingDevice": 19,
+          "person": 178,
+          "cell-phones": 178,
+          "Exam Device": 12,
+          "Turning_Around": 269
+        },
+        "empty_labels": 787,
+        "missing_labels": 0,
+        "invalid_rows": 1,
+        "invalid_files": 1,
+        "decode_errors": 0
+      },
+      "valid": {
+        "images": 665,
+        "boxes": {
+          "Phone use": 252,
+          "Looking around": 504,
+          "Sleeping": 72,
+          "Phone": 2,
+          "cell-phones": 220,
+          "person": 211,
+          "Cheating": 88,
+          "CheatingDevice": 61,
+          "invigilator": 17,
+          "Exam Device": 6,
+          "Turning_Around": 77
+        },
+        "class_images": {
+          "Looking around": 167,
+          "Phone use": 146,
+          "Sleeping": 72,
+          "Phone": 1,
+          "person": 51,
+          "cell-phones": 51,
+          "Cheating": 19,
+          "CheatingDevice": 19,
+          "Exam Device": 5,
+          "invigilator": 17,
+          "Turning_Around": 77
+        },
+        "empty_labels": 216,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "path": "train/labels/Class_1_Video_1_mp4-8_jpg.rf.ed0214e79566a5678f7f3fbadce7b5d2.txt",
+        "line": 2,
+        "error": "Expected 5 YOLO fields, got 9: '1 0.3888671875 0.6803319453125 0.4068359375 0.659504166015625 0.3826171875 0.60535277734375 0.3888671875 0.6803319453125'"
+      }
+    ],
+    "orphan_labels": 0,
+    "lineage_hint_groups": 3500,
+    "lineage_hint_cross_split": [
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_1_mp4-11_jpg.rf.971e6f249d663568484bee23a3cfa02e.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-11_jpg.rf.d2e39cbc19736126422c20c8de3ab6e6.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_1_mp4-22_jpg.rf.c98e0bbbbdca36fe409fab9c02392bd9.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-22_jpg.rf.cae55c25e7d63536fc748fb20ead412b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_2_mp4-2_jpg.rf.05c47972241aa64c3e231a3aa9bc6384.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-2_jpg.rf.3d74269b63b438d1c5d036c697c17f95.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_2_mp4-4_jpg.rf.199d41a4aba8d94060dd25c95b7519ed.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-4_jpg.rf.762dbde020fa2f6b04f04303c8db47f7.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_2_mp4-5_jpg.rf.b0a1229241141a77e397e4f3cf0db597.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-5_jpg.rf.3c5088837ac2bb8352c0508cff504ed5.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_2_mp4-8_jpg.rf.7a47f3fd3eb097b13d11f79b1cb70e8c.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_2_mp4-8_jpg.rf.a4000c8a861b4d46290f07b0a9011179.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_1_Video_2_mp4-9_jpg.rf.4ff0fe0e082e8b67d206ef279276bd2b.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-9_jpg.rf.897a1455aab76a76ed8cd4ec3f55a9d8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_2_Video_1_mp4-10_jpg.rf.a6e08b3e578d40f9838a34cbc45a4318.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-10_jpg.rf.f331bb3f3c86784c0c11675248812ec2.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_2_Video_1_mp4-11_jpg.rf.4922e341dcdf1bc1c8e3996927a1df0d.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-11_jpg.rf.e27d954559b859c0cf2e582f46e2de87.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_2_Video_1_mp4-13_jpg.rf.49b0f5961fa5c5a90639a2c7cb8d9b94.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-13_jpg.rf.8d8198597172c84bd90f94b765498b5c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_2_Video_1_mp4-15_jpg.rf.bc3d8db20eee1bc7b0d33690cbd8be79.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-15_jpg.rf.f04ef382209f8eebd0ba19e0165f6aed.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "test",
+          "path": "test/images/Class_2_Video_1_mp4-16_jpg.rf.e1a8b288477e03e4bb7d761252e8e6b7.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-16_jpg.rf.ec1769605e310e7af2b06366f7bc4efd.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-17_jpg.rf.5cd1ba998f64727f92bfbfb05a886fd3.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-17_jpg.rf.81fb52fa9b36f6517fb6e5c3351d57b0.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-1_jpg.rf.b22d28a0f1f6ee40e63cc0f84780d73c.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-1_jpg.rf.556f248d2b2a99812e880b2e7f7a8508.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-23_jpg.rf.6ade318112d422d7e80ca668aab1c6cd.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-23_jpg.rf.346bf5eb9386508b33b7e2b9318b13cb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-2_jpg.rf.6d14775f3431a8d7905adc759c287970.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-2_jpg.rf.70902d52aafd3a1a1b439970a7fb533f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-4_jpg.rf.402ec95a38c0f8f596d9693cda8ce8cf.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-4_jpg.rf.05efe20e14d303aa24330105a926842e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_1_mp4-7_jpg.rf.ccc62f8b789f643df7e4f60b989c18e4.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_1_mp4-7_jpg.rf.ea124108601c4018f012e54e8329dfeb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-11_jpg.rf.af2336513af30245d24c1f96e9e4c992.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_2_mp4-11_jpg.rf.e01ac7bf4c71f3100ba2baaa5f253944.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_1_Video_2_mp4-1_jpg.rf.39e01ee0014388ce2d385b03c9a06b3a.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_1_Video_2_mp4-1_jpg.rf.b1dcc92eefa16b62a9abbaf4e679c2db.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-12_jpg.rf.77295cd0fb1a95b9632bb657b6e8bea7.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-12_jpg.rf.87f6068ac72f6b6221fb135df7dac1ce.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-14_jpg.rf.38c9dd1b72c840e810e94647043dcbe8.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-14_jpg.rf.74e1049b65160dea28f19a9102a26491.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-17_jpg.rf.1f9263a1d18541aa5e2ccfc37945dcb7.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-17_jpg.rf.ce753cececcd4dfc83ee6e83a3fa1a2c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-18_jpg.rf.43198259c83dd327e30f2d24ae62fb6e.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-18_jpg.rf.8e5e8605d964cc3558340090ed14bf4f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-19_jpg.rf.358b3b75bea44f8e1eebaae44765ccbd.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-19_jpg.rf.c13fae0bea403b0b94e5c819b632de65.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-1_jpg.rf.3c0c96fac2c75f27f02709a2ed08194f.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-1_jpg.rf.70da74c8b251ba0dc72ec6bdbf140022.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-20_jpg.rf.53328a5da43b07f9f1e0c1885b1ca21a.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-20_jpg.rf.a9a8083c410e3fa8d2605c2464ab6f86.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-25_jpg.rf.81b95f29cbd955315b55bbb42b70e08f.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-25_jpg.rf.1fde921ebf468e3311828dbce4302b04.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-27_jpg.rf.babc97d447556403a01041e83999ca43.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-27_jpg.rf.91339025411d89d94bb15cc5a689a74c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-28_jpg.rf.924fc3a1248118c50f7b2e19b9945a31.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-28_jpg.rf.9c247f8800115ae8c7da141e80ce2554.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-2_jpg.rf.dc5a647840bb499e215ca96bf39ece4c.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-2_jpg.rf.86e4f13e7269a5535360fedf248ad7a2.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-30_jpg.rf.0ecb8ea9cb97abef17741f6054d11760.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-30_jpg.rf.b77ed9d5dba6b46f97bf2a7f5c3554d2.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-31_jpg.rf.108949954ae40cc2be17fc865879950c.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-31_jpg.rf.7bde6d4eebef9033f1eb87e6533e91db.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-32_jpg.rf.beb0ac5ede595c817fa03f449057cb5f.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-32_jpg.rf.7a486d1be14a10e6eccd6b40e79e6347.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-33_jpg.rf.f7a87309f8f90501beb5ccef2a47b12a.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-33_jpg.rf.a77a0be11a34293cba89e256e9a8920e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-35_jpg.rf.0745f6918424324c1125df02ba016afe.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-35_jpg.rf.f7657b94d6a8b9464700f229c1b4b233.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_1_mp4-39_jpg.rf.47884411104cd482809ec05e425ac9e4.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_1_mp4-39_jpg.rf.f5e5e5b3966e0741fdb718e2cbaf2246.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_2_Video_2_mp4-11_jpg.rf.531cc1dc7b5f13aec76ec91e2b9c8346.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_2_Video_2_mp4-11_jpg.rf.cae93555b0293dc71065e0f067dd467d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "classroom_attitude",
+          "split": "train",
+          "path": "train/images/Class_3_Video_1_mp4-48_jpg.rf.447c69f1b41b8039c85b92445c2851b4.jpg"
+        },
+        {
+          "source": "classroom_attitude",
+          "split": "valid",
+          "path": "valid/images/Class_3_Video_1_mp4-48_jpg.rf.ea2084ad8c04c8a5631f3b06ac453f7e.jpg"
+        }
+      ]
+    ],
+    "sample_selection": "Hai ảnh train đầu theo tên cho mỗi class; chỉ minh họa, không đại diện ngẫu nhiên.",
+    "sample_receipts": [
+      {
+        "class": "Looking around",
+        "path": "train/images/10-technology-in-classrooms_BLOG-scaled_jpg.rf.cfb653a8ffff23481570cc3997921aba.jpg"
+      },
+      {
+        "class": "Looking around",
+        "path": "train/images/105d0083726t4276l1_jpg.rf.1774563dfb2d419e67c3a88286b3f9cc.jpg"
+      },
+      {
+        "class": "Phone use",
+        "path": "train/images/10-technology-in-classrooms_BLOG-scaled_jpg.rf.cfb653a8ffff23481570cc3997921aba.jpg"
+      },
+      {
+        "class": "Phone use",
+        "path": "train/images/105d0083726t4276l1_jpg.rf.1774563dfb2d419e67c3a88286b3f9cc.jpg"
+      },
+      {
+        "class": "Walking",
+        "path": "train/images/10b9cbc0-Messenger_creation_6170F2DB-418B-4F28-8E4F-F9ACA93CF16A_jpeg.rf.93ef2dc1dbc9ff50c278f462501fab83.jpg"
+      },
+      {
+        "class": "Standing",
+        "path": "train/images/10b9cbc0-Messenger_creation_6170F2DB-418B-4F28-8E4F-F9ACA93CF16A_jpeg.rf.93ef2dc1dbc9ff50c278f462501fab83.jpg"
+      },
+      {
+        "class": "Standing",
+        "path": "train/images/f1293b32-IMG_20260316_082322_1_jpg.rf.822ce888444f6e6c4e96ee7c6101e8d5.jpg"
+      },
+      {
+        "class": "Phone",
+        "path": "train/images/10b9cbc0-Messenger_creation_6170F2DB-418B-4F28-8E4F-F9ACA93CF16A_jpeg.rf.93ef2dc1dbc9ff50c278f462501fab83.jpg"
+      },
+      {
+        "class": "Phone",
+        "path": "train/images/60c24aff-IMG_7249_JPG.rf.e0074b0ff3f7a6d129b49117d26b7aee.jpg"
+      },
+      {
+        "class": "Leaving Seat",
+        "path": "train/images/10b9cbc0-Messenger_creation_6170F2DB-418B-4F28-8E4F-F9ACA93CF16A_jpeg.rf.93ef2dc1dbc9ff50c278f462501fab83.jpg"
+      },
+      {
+        "class": "Leaving Seat",
+        "path": "train/images/a84d4b88-IMG_20260316_080622_1_jpg.rf.5a74541670171d6bfc0ba619c524dcf2.jpg"
+      },
+      {
+        "class": "Turning head",
+        "path": "train/images/10b9cbc0-Messenger_creation_6170F2DB-418B-4F28-8E4F-F9ACA93CF16A_jpeg.rf.93ef2dc1dbc9ff50c278f462501fab83.jpg"
+      },
+      {
+        "class": "Cheating",
+        "path": "train/images/124760682-high-school-students-cheating-while-passing-note-in-exam-at-university_jpg.rf.5141db7af8c247b2dbd0bbefc73e71c3.jpg"
+      },
+      {
+        "class": "Cheating",
+        "path": "train/images/2446c1312e9c86c55e0905cae76e2564_jpg.rf.3fd3f0adff0cae5d2dc030ca1640d38b.jpg"
+      },
+      {
+        "class": "Sleeping",
+        "path": "train/images/221e5973-IMG_20260316_142115_jpg.rf.feed79ba15a73ba4e60a37c8db73e790.jpg"
+      },
+      {
+        "class": "Sleeping",
+        "path": "train/images/60c24aff-IMG_7249_JPG.rf.e0074b0ff3f7a6d129b49117d26b7aee.jpg"
+      },
+      {
+        "class": "Leaning Down",
+        "path": "train/images/60c24aff-IMG_7249_JPG.rf.e0074b0ff3f7a6d129b49117d26b7aee.jpg"
+      },
+      {
+        "class": "Leaning Down",
+        "path": "train/images/8ab3c11b-IMG_20260316_142223_jpg.rf.62eb8d51c6358d941d5aa47f368ee25d.jpg"
+      },
+      {
+        "class": "invigilator",
+        "path": "train/images/CCTV-footage-of-malpractices-in-the-Departmental-Examination-of-Postal-Department_mp4-0000_jpg.rf.d7b4cc85bd379fd8db70e1891993887f.jpg"
+      },
+      {
+        "class": "invigilator",
+        "path": "train/images/CCTV-footage-of-malpractices-in-the-Departmental-Examination-of-Postal-Department_mp4-0001_jpg.rf.2241fcf5ce471c72022b7c80ec14177f.jpg"
+      },
+      {
+        "class": "CheatingDevice",
+        "path": "train/images/CCTV-footage-of-malpractices-in-the-Departmental-Examination-of-Postal-Department_mp4-0001_jpg.rf.2241fcf5ce471c72022b7c80ec14177f.jpg"
+      },
+      {
+        "class": "CheatingDevice",
+        "path": "train/images/Class_1_Video_1_mp4-0_jpg.rf.0448daac9863ee4f1ebee1fc02c038f3.jpg"
+      },
+      {
+        "class": "person",
+        "path": "train/images/Class_1_Video_1_mp4-0_jpg.rf.b37d673cbe4588165a3b2243d190d4fc.jpg"
+      },
+      {
+        "class": "person",
+        "path": "train/images/Class_1_Video_1_mp4-10_jpg.rf.d1090e886d0d3cb7b8a7fc8826fb3d91.jpg"
+      },
+      {
+        "class": "cell-phones",
+        "path": "train/images/Class_1_Video_1_mp4-0_jpg.rf.b37d673cbe4588165a3b2243d190d4fc.jpg"
+      },
+      {
+        "class": "cell-phones",
+        "path": "train/images/Class_1_Video_1_mp4-10_jpg.rf.d1090e886d0d3cb7b8a7fc8826fb3d91.jpg"
+      },
+      {
+        "class": "Exam Device",
+        "path": "train/images/Class_1_Video_1_mp4-14_jpg.rf.5f4ce9467947793943671cd14b9fd719.jpg"
+      },
+      {
+        "class": "Exam Device",
+        "path": "train/images/Class_1_Video_2_mp4-0_jpg.rf.8de44a06d9dc82d62d115a2156773e31.jpg"
+      },
+      {
+        "class": "Turning_Around",
+        "path": "train/images/around01_rgb_1_frame10_png.rf.f4897cba8511c7f1f3f3e8d6b117f2d5.jpg"
+      },
+      {
+        "class": "Turning_Around",
+        "path": "train/images/around01_rgb_1_frame11_png.rf.517bd97a62a81db0b5766eb4fb64363b.jpg"
+      }
+    ]
+  },
+  "student_behaviour": {
+    "archive": "Student Behaviour Detection.v6i.yolov8.zip",
+    "bytes": 276797061,
+    "sha256": "aa5161fd31d50c5e1c38e76102a4f9c6448736c2fe95acc1f13978913754fb12",
+    "metadata": {
+      "data.yaml": "train: ../train/images\nval: ../valid/images\ntest: ../test/images\n\nnc: 12\nnames: ['Using_phone', 'bend', 'book', 'bow_head', 'hand-raising', 'phone', 'raise_head', 'reading', 'sleep', 'turn_head', 'upright', 'writing']\n\nroboflow:\n  workspace: mywork-lkwz4\n  project: student-behaviour-detection-neazg\n  version: 6\n  license: CC BY 4.0\n  url: https://universe.roboflow.com/mywork-lkwz4/student-behaviour-detection-neazg/dataset/6",
+      "README.dataset.txt": "# Student Behaviour Detection > 2024-03-02 5:45pm\nhttps://universe.roboflow.com/mywork-lkwz4/student-behaviour-detection-neazg\n\nProvided by a Roboflow user\nLicense: CC BY 4.0\n\n",
+      "README.roboflow.txt": "\nStudent Behaviour Detection - v6 2024-03-02 5:45pm\n==============================\n\nThis dataset was exported via roboflow.com on March 4, 2024 at 9:15 AM GMT\n\nRoboflow is an end-to-end computer vision platform that helps you\n* collaborate with your team on computer vision projects\n* collect & organize images\n* understand and search unstructured image data\n* annotate, and create datasets\n* export, train, and deploy computer vision models\n* use active learning to improve your dataset over time\n\nFor state of the art Computer Vision training notebooks you can use with this dataset,\nvisit https://github.com/roboflow/notebooks\n\nTo find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com\n\nThe dataset includes 4065 images.\nStudents are annotated in YOLOv8 format.\n\nThe following pre-processing was applied to each image:\n* Auto-orientation of pixel data (with EXIF-orientation stripping)\n* Resize to 640x640 (Stretch)\n\nThe following augmentation was applied to create 2 versions of each source image:\n* Random Gaussian blur of between 0 and 1 pixels\n* Salt and pepper noise was applied to 0.34 percent of pixels\n\n\n"
+    },
+    "classes": {
+      "0": "Using_phone",
+      "1": "bend",
+      "2": "book",
+      "3": "bow_head",
+      "4": "hand-raising",
+      "5": "phone",
+      "6": "raise_head",
+      "7": "reading",
+      "8": "sleep",
+      "9": "turn_head",
+      "10": "upright",
+      "11": "writing"
+    },
+    "splits": {
+      "test": {
+        "images": 292,
+        "boxes": {
+          "upright": 3441,
+          "book": 1109,
+          "bend": 989,
+          "raise_head": 1307,
+          "bow_head": 2739,
+          "turn_head": 272,
+          "Using_phone": 711,
+          "reading": 423,
+          "sleep": 199,
+          "phone": 425
+        },
+        "class_images": {
+          "bow_head": 274,
+          "raise_head": 204,
+          "book": 258,
+          "upright": 292,
+          "bend": 223,
+          "Using_phone": 272,
+          "turn_head": 114,
+          "reading": 194,
+          "sleep": 91,
+          "phone": 193
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      },
+      "train": {
+        "images": 3192,
+        "boxes": {
+          "upright": 31344,
+          "bend": 8520,
+          "book": 12598,
+          "raise_head": 8590,
+          "turn_head": 2514,
+          "bow_head": 27920,
+          "reading": 7154,
+          "Using_phone": 9774,
+          "sleep": 1214,
+          "phone": 3744,
+          "hand-raising": 2834,
+          "writing": 2084
+        },
+        "class_images": {
+          "bow_head": 1920,
+          "raise_head": 1384,
+          "book": 1770,
+          "upright": 1980,
+          "bend": 1586,
+          "reading": 2150,
+          "turn_head": 928,
+          "Using_phone": 1814,
+          "sleep": 598,
+          "phone": 1296,
+          "hand-raising": 774,
+          "writing": 528
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      },
+      "valid": {
+        "images": 581,
+        "boxes": {
+          "upright": 7161,
+          "book": 3278,
+          "bend": 1978,
+          "bow_head": 6723,
+          "raise_head": 1718,
+          "turn_head": 575,
+          "reading": 1370,
+          "Using_phone": 2427,
+          "sleep": 214,
+          "phone": 901,
+          "hand-raising": 540,
+          "writing": 163
+        },
+        "class_images": {
+          "bow_head": 352,
+          "raise_head": 286,
+          "book": 337,
+          "upright": 370,
+          "bend": 294,
+          "reading": 341,
+          "Using_phone": 347,
+          "turn_head": 192,
+          "sleep": 117,
+          "phone": 265,
+          "hand-raising": 156,
+          "writing": 48
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      }
+    },
+    "invalid_examples": [],
+    "orphan_labels": 0,
+    "lineage_hint_groups": 2469,
+    "lineage_hint_cross_split": [],
+    "sample_selection": "Hai ảnh train đầu theo tên cho mỗi class; chỉ minh họa, không đại diện ngẫu nhiên.",
+    "sample_receipts": [
+      {
+        "class": "bow_head",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "bow_head",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "raise_head",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "raise_head",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "book",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "book",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "upright",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "upright",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "bend",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "bend",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "reading",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "reading",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "turn_head",
+        "path": "train/images/0000000100_jpg.rf.37bdffb59d8e5d416bea56b3ce4c34fc.jpg"
+      },
+      {
+        "class": "turn_head",
+        "path": "train/images/0000000100_jpg.rf.f2de323fe5e9c1197f535af2f1001c31.jpg"
+      },
+      {
+        "class": "Using_phone",
+        "path": "train/images/0000000103_jpg.rf.d70b9bcbe932237ecf70d2d6d2bd4a82.jpg"
+      },
+      {
+        "class": "Using_phone",
+        "path": "train/images/0000000103_jpg.rf.e7dfec893fe6640de8d83e6aa3e8b226.jpg"
+      },
+      {
+        "class": "sleep",
+        "path": "train/images/0000000116_jpg.rf.9968191b31c71c34ec23cfc5228635a8.jpg"
+      },
+      {
+        "class": "sleep",
+        "path": "train/images/0000000116_jpg.rf.ce5b882251ba31ae14ce52055cd8da8c.jpg"
+      },
+      {
+        "class": "phone",
+        "path": "train/images/00000004_jpg.rf.1f1f6d9eb924051ff1db2194f787084d.jpg"
+      },
+      {
+        "class": "phone",
+        "path": "train/images/00000004_jpg.rf.1fd3dfdbbff82e96fe5236c99283145d.jpg"
+      },
+      {
+        "class": "hand-raising",
+        "path": "train/images/0001001_png.rf.073a86b28cc87abec61ddb204df4a550.jpg"
+      },
+      {
+        "class": "hand-raising",
+        "path": "train/images/0001001_png.rf.b47e498195642fb154c7890fb4bd7364.jpg"
+      },
+      {
+        "class": "writing",
+        "path": "train/images/0001010_png.rf.768deacaef6e3247384e70f6f6051a31.jpg"
+      },
+      {
+        "class": "writing",
+        "path": "train/images/0001010_png.rf.f644513235a1b44a1016633be64ba06e.jpg"
+      }
+    ]
+  },
+  "exam_cheating_keaor": {
+    "archive": "exam_cheating.v2i.yolov8.zip",
+    "bytes": 36896156,
+    "sha256": "46c3f6ac00af912f25f1915f2865c9ab1348a6c4893e1e256358426a60c10e7d",
+    "metadata": {
+      "data.yaml": "train: ../train/images\nval: ../valid/images\ntest: ../test/images\n\nnc: 4\nnames: ['Cheat_paper', 'Look_around', 'Normal', 'Use_phone']\n\nroboflow:\n  workspace: behavior-cheating\n  project: exam_cheating-keaor\n  version: 2\n  license: CC BY 4.0\n  url: https://universe.roboflow.com/behavior-cheating/exam_cheating-keaor/dataset/2",
+      "README.dataset.txt": "# exam_cheating > 2026-01-10 6:25pm\nhttps://universe.roboflow.com/behavior-cheating/exam_cheating-keaor\n\nProvided by a Roboflow user\nLicense: CC BY 4.0\n\n",
+      "README.roboflow.txt": "\nexam_cheating - v2 2026-01-10 6:25pm\n==============================\n\nThis dataset was exported via roboflow.com on January 20, 2026 at 4:35 PM GMT\n\nRoboflow is an end-to-end computer vision platform that helps you\n* collaborate with your team on computer vision projects\n* collect & organize images\n* understand and search unstructured image data\n* annotate, and create datasets\n* export, train, and deploy computer vision models\n* use active learning to improve your dataset over time\n\nFor state of the art Computer Vision training notebooks you can use with this dataset,\nvisit https://github.com/roboflow/notebooks\n\nTo find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com\n\nThe dataset includes 772 images.\nExam-cheating are annotated in YOLOv8 format.\n\nThe following pre-processing was applied to each image:\n* Auto-orientation of pixel data (with EXIF-orientation stripping)\n* Resize to 640x640 (Stretch)\n\nNo image augmentation techniques were applied.\n\n\n"
+    },
+    "classes": {
+      "0": "Cheat_paper",
+      "1": "Look_around",
+      "2": "Normal",
+      "3": "Use_phone"
+    },
+    "splits": {
+      "test": {
+        "images": 30,
+        "boxes": {
+          "Normal": 32,
+          "Look_around": 15,
+          "Cheat_paper": 1,
+          "Use_phone": 3
+        },
+        "class_images": {
+          "Look_around": 12,
+          "Normal": 18,
+          "Cheat_paper": 1,
+          "Use_phone": 3
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      },
+      "train": {
+        "images": 679,
+        "boxes": {
+          "Look_around": 461,
+          "Normal": 473,
+          "Use_phone": 159,
+          "Cheat_paper": 108
+        },
+        "class_images": {
+          "Look_around": 399,
+          "Normal": 246,
+          "Use_phone": 94,
+          "Cheat_paper": 108
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      },
+      "valid": {
+        "images": 63,
+        "boxes": {
+          "Use_phone": 4,
+          "Cheat_paper": 3,
+          "Look_around": 39,
+          "Normal": 66
+        },
+        "class_images": {
+          "Use_phone": 4,
+          "Cheat_paper": 3,
+          "Look_around": 34,
+          "Normal": 37
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 0,
+        "invalid_files": 0,
+        "decode_errors": 0
+      }
+    },
+    "invalid_examples": [],
+    "orphan_labels": 0,
+    "lineage_hint_groups": 482,
+    "lineage_hint_cross_split": [
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110245_BURST006_jpg.rf.ce068d95b49ea00878cff8d40d564726.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST006_jpg.rf.fc6e90b1e2a61d28e674fab1b8ef718c.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST006_jpg.rf.fca4c235084f33306fa8f4993b809feb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110245_BURST009_jpg.rf.e6a69624a1641c14f0341d764aa7625f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST009_jpg.rf.759b0ba9232b9f50fcbcf40c9e38c6ea.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST009_jpg.rf.1f6286003974948e83ccfcd894f17f2c.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110245_BURST010_jpg.rf.7dd4066779bfdd2b5c82f9d2238c4cee.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST010_jpg.rf.35b4844c8d876eb90b49cffc4b72d317.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST010_jpg.rf.dc71e666098489495fa6fdc532c4a541.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110245_BURST013_jpg.rf.156b6bec0a23eb10b70c58558487a124.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST013_jpg.rf.8e6b7c4439441c255613d49405f0564b.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST013_jpg.rf.93287e30b1656091c2ae5bece3de69fe.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110258_BURST005_jpg.rf.dc41e266abd5304aeb5953b3d4e1bd4a.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST005_jpg.rf.0c6ad7e76f3fc6da08fa37bd2546cc7a.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST005_jpg.rf.31dc805063b7ca30e251c8ebcda0edc6.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110303_BURST009_jpg.rf.3a9f03da19c6c88a85db531ac7123ee6.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST009_jpg.rf.7f4137e4efda1885c85870586cdb4247.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110303_BURST014_jpg.rf.9aea564f0dcabfa813db5f5bb00a768a.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST014_jpg.rf.34af5e84f7cf5f155b18ed5df551457e.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST014_jpg.rf.767643088d503dd69f445e3be7080204.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110330_BURST010_jpg.rf.bcea85fefd9c58118380bec4289f32b6.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110330_BURST010_jpg.rf.feccdbdf0ace2bf5722aa1a764e922df.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110333_BURST002_jpg.rf.8468c37026eb640cbaee91e5182bc1b7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST002_jpg.rf.90feca71e42bce33656b9e6afa541409.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110333_BURST003_jpg.rf.03b3099c8dc798943a3be4cbb79bd7ea.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST003_jpg.rf.ab7e7047c549ff33c70f3d73ef2fce97.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110333_BURST008_jpg.rf.a70895273a81615a4e868c88cf3487f6.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST008_jpg.rf.2cf8d1025d3c26abcdeaae282037647d.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST008_jpg.rf.9218bc1ae880f5cebbb3ee195c43b797.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110333_BURST014_jpg.rf.1ebf214cd966da9d92551700b88f7529.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST014_jpg.rf.d3ae738a5b26f2d3d208b73562c000cd.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST014_jpg.rf.dca5da55cce05b51a4fc10c50e8f074a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110338_BURST002_jpg.rf.da8423ee888bf3040cf826e5c7ddb1a7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110338_BURST002_jpg.rf.a93f7564b5ed5b76174be845f28d8853.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110338_BURST002_jpg.rf.c908600e084e4aaab7738c13d883fe67.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110338_BURST011_jpg.rf.d73397d0f6198b1b216151a5733e0f0e.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110338_BURST011_jpg.rf.160e83530b7b2f2b698df0a77b4e5fac.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110346_BURST002_jpg.rf.da2ad9fbb81c03fb18c84c41e661f030.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110346_BURST002_jpg.rf.f94f0568078bb57dacfd0e40c851fd8b.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST002_jpg.rf.a4dff7def5297a1f1a632affcd98c028.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110346_BURST003_jpg.rf.9ed5f1fa63ad79549d6ce5fab256e137.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST003_jpg.rf.94d3dcdbef49d41d5bed2931b0131315.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110346_BURST003_jpg.rf.8c225b8a47b7895585c02cee6763764b.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110346_BURST013_jpg.rf.66757b3f3d7788484a486df33398f7a7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST013_jpg.rf.43bda51eeb3d8c34c8b465ae1fdc70cc.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST013_jpg.rf.c115272afe6273389c74a0df9ca5b766.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110346_BURST014_jpg.rf.5b3c60dd799a7db96a4d8ed2803dc85d.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST014_jpg.rf.199b06913439d4249df2b05f3a57fb10.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110346_BURST014_jpg.rf.da91751f915c319bd7d84633ba0fdb52.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110350_BURST009_jpg.rf.0412a73b63649b1917c99e6825a56fa7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110350_BURST009_jpg.rf.43ba8875dae4745e6dce9b06257df8f6.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110355_BURST002_jpg.rf.d98dac74241f8d97706fef570188cfce.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST002_jpg.rf.c6a0835707dc65acbab0c428819a7176.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110355_BURST019_jpg.rf.335d6dec4f642d2e71a371e05ff41efe.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST019_jpg.rf.b7ee7a44595fda50af0e896f30f18c2d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110420_BURST003_jpg.rf.b4c04ac9c1a50bcaa740642308bce7c9.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110420_BURST003_jpg.rf.296639816227b2984c98a94d0f69a49a.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "test",
+          "path": "test/images/IMG20220406110420_BURST005_jpg.rf.552a02791438bb8c9f92c646609808cb.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110420_BURST005_jpg.rf.257507a2029e8eaa3e5ccf581bfb367e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST003_jpg.rf.60c0248853f959a28d146666db53bed7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST003_jpg.rf.c2e7b74f681ee477304bb23d3c57372f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST003_jpg.rf.513a8772bd43a7414e2e9a172818d84d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST015_jpg.rf.3d595e8a302de8bec60bb77c76157354.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST015_jpg.rf.6618894caa884dceeecc696090407619.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST015_jpg.rf.ada8b58ab8ba71f3bbfdab2bd7335ca6.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST016_jpg.rf.dc9c86cb45e9488af5885172ef21fc83.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST016_jpg.rf.fc20a2f4a2b71beec127dbebe1879372.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST016_jpg.rf.9bae459c98eaa63db89c7a360d0643ab.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST017_jpg.rf.e329074c8ec421270e10391448350551.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST017_jpg.rf.60e7e8ea2023a499f8148fb4261fe9e4.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110245_BURST019_jpg.rf.3e38417b2ee4e1167b091713edef9089.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110245_BURST019_jpg.rf.5c60c4769c31b2488c0d9485fa991db4.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST004_jpg.rf.91f30a4a68b91797ad783cda5b66ff98.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST004_jpg.rf.9eb6c696f04d654eff2cd1fb7aacbcd2.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110258_BURST004_jpg.rf.c8dcd72d8407a1b8bc45a383bb8ead26.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST017_jpg.rf.e187f42467c0e595a676eef97a7318e6.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110258_BURST017_jpg.rf.cd914641559fc31df14c819cdebe60b4.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST018_jpg.rf.06f39ae3a8154fb5f9f70df5fb36245d.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST018_jpg.rf.a890e2ff83c0e0070a781f36f78d5cb9.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110258_BURST018_jpg.rf.bb6a1a43abde2e49f581fc51307c4bf8.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110258_BURST019_jpg.rf.d96561f576f812d0311db9e3e5ef2805.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110258_BURST019_jpg.rf.57dc36bc1b0bd35839c49e97df87c8bb.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST005_jpg.rf.5f8baee39698e483ae899c16eaa23267.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST005_jpg.rf.7f493da54f18e1ab84fc3715450ecffc.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST007_jpg.rf.4bb61bde39f097568ba2c1bb46f196ab.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST007_jpg.rf.dcf39d98a56b20f0007f8ea9255be57e.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST015_jpg.rf.26631c700010f13720c3977a739de1d4.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST015_jpg.rf.998617b2135251d3febc05a73cc8e5e5.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST015_jpg.rf.2d97c3566cc77385ed178a82bc852429.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST016_jpg.rf.d1465944510c944eaf7426e591b07f9b.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST016_jpg.rf.2649694890fe397b1aa5ecdb665bf8f1.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST016_jpg.rf.2e62479044f31a784e5714d561e4c2cf.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110303_BURST018_jpg.rf.05759a42aba5ca1df3fd369c9f7d32bb.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110303_BURST018_jpg.rf.519910285905d9666a199e6add3f2c96.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110330_BURST014_jpg.rf.0bd0035856d89de87743150c32ff51b7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110330_BURST014_jpg.rf.3102593662b4f2bee242c0d1ab1ec12b.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110330_BURST014_jpg.rf.fa981eaf23e80c80fe6840253384042f.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST004_jpg.rf.03976e7891391623f10f17556d7393f0.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST004_jpg.rf.7bcad3c49104f162ffe19f768a7d95fe.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110333_BURST004_jpg.rf.207b67cf2ef16aae20631f0111021722.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST005_jpg.rf.82885a1aaa279fd2310b16ce126eff44.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST005_jpg.rf.f1a718b9cf05dd2156c6c5593dc06a95.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110333_BURST005_jpg.rf.0b60b040e123c2dd3d999d999a062afa.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110333_BURST013_jpg.rf.78aab672241d168a0d0cd916c5066a05.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110333_BURST013_jpg.rf.f0236f62778e7e202135dade9ae7b33f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110333_BURST013_jpg.rf.f11081b64c84c37c4fab6415c2eecd76.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110338_BURST010_jpg.rf.25b93699e4041bab02b95fe43c7e01b3.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110338_BURST010_jpg.rf.a5fc4bc8500d4b5abe10300c3f927408.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110343_BURST003_jpg.rf.0c8917b16b5fd4c138cb47ca45411ca4.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110343_BURST003_jpg.rf.1384267b6d739832753c8e93b1a9a6c6.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110343_BURST003_jpg.rf.01d59fb8df13f48072df91764a5e9c41.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST006_jpg.rf.61b961efaf22af6caa51ad770b64a28a.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST006_jpg.rf.d2f8a879d4475b60aaf1e9d0f9d8ccfc.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110346_BURST006_jpg.rf.657e19179bd1c4d19cffbe39b7ef37e1.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST011_jpg.rf.08ce0047c98628f08ba38c2f1077e8c7.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110346_BURST011_jpg.rf.52353a00b67f06d5793bb345d864e5bf.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110346_BURST011_jpg.rf.f89c52335f34c536a56fccf3d20cc95d.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110350_BURST006_jpg.rf.663b52453768af2dff793308b0508314.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110350_BURST006_jpg.rf.050e81c1114d1c0e672d7242bca7a0f7.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110350_BURST010_jpg.rf.829b9a71024a14eab1d2fe8353b58150.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110350_BURST010_jpg.rf.479362ad87687393277474a43649ae21.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110350_BURST012_jpg.rf.bae6577d74df12d911e28dc8f09589c3.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110350_BURST012_jpg.rf.7ccd839051cd65802e34c96ffcc42492.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST003_jpg.rf.5d1eb0d7b3d64871db9bb227a852c9be.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110355_BURST003_jpg.rf.a106a2b8162ef4f32ce486320f800710.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST010_jpg.rf.01acf7cf79718699d8d4728d8d554065.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST010_jpg.rf.50aa9ad10cf14ad21ff0e813b42a6b1f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110355_BURST010_jpg.rf.97d9e1f95a1b72d5b428ee9651b12607.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST012_jpg.rf.19c9ceb84d7d15143ac5edd3fd9bbcd1.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST012_jpg.rf.d24e097e71143dc33df802b615e9ecd0.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110355_BURST012_jpg.rf.691244e153bf42bbf685b838558cc3bd.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST016_jpg.rf.fe6b77609413caeadcffd1f32bb2b246.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110355_BURST016_jpg.rf.3a951c1f87dc13d18f6b9b77e3fc7456.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST017_jpg.rf.1d904020d200dd99843b6b47bdacbe34.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110355_BURST017_jpg.rf.242c2b6bb3d68b125a4fa807bd5d2ed1.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110355_BURST017_jpg.rf.801a647b6853b3a9269516586d65c5c3.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110408_BURST016_jpg.rf.21f8d83122e2e856cb95cc063f23a004.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110408_BURST016_jpg.rf.ff57b139f5558e9c3cffc9b2448d7107.jpg"
+        }
+      ],
+      [
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110408_BURST018_jpg.rf.23e74298b584a79d9559c65f7b499e7f.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "train",
+          "path": "train/images/IMG20220406110408_BURST018_jpg.rf.cd350f23f5f205677b2d2c1491017417.jpg"
+        },
+        {
+          "source": "exam_cheating_keaor",
+          "split": "valid",
+          "path": "valid/images/IMG20220406110408_BURST018_jpg.rf.2a401c133e9d260ef6418c9e85edd717.jpg"
+        }
+      ]
+    ],
+    "sample_selection": "Hai ảnh train đầu theo tên cho mỗi class; chỉ minh họa, không đại diện ngẫu nhiên.",
+    "sample_receipts": [
+      {
+        "class": "Look_around",
+        "path": "train/images/11_JPG_jpg.rf.2e858b3a3f0c4bc2437df1a204085e8b.jpg"
+      },
+      {
+        "class": "Look_around",
+        "path": "train/images/11_JPG_jpg.rf.77ab912147fc879cd1227b33ed2bb83e.jpg"
+      },
+      {
+        "class": "Normal",
+        "path": "train/images/13_JPG_jpg.rf.69e85e81d7432f197880b1fc24f7e737.jpg"
+      },
+      {
+        "class": "Normal",
+        "path": "train/images/13_JPG_jpg.rf.d636cbc3da7a3a1d552dbb827fad415a.jpg"
+      },
+      {
+        "class": "Use_phone",
+        "path": "train/images/20220525_171648_jpg.rf.c147690c973c5d3aae694c506405ca3e.jpg"
+      },
+      {
+        "class": "Use_phone",
+        "path": "train/images/20220616_140641_jpg.rf.3764530c79ef85f4eecf0b76facaa4cb.jpg"
+      },
+      {
+        "class": "Cheat_paper",
+        "path": "train/images/20_JPG_jpg.rf.2bf3c7b7b962a52408d116fc62d148ab.jpg"
+      },
+      {
+        "class": "Cheat_paper",
+        "path": "train/images/20_JPG_jpg.rf.fc5a0ad138314e7c9ba0e367f34d5126.jpg"
+      }
+    ]
+  },
+  "old_rf": {
+    "archive": "Exam cheating.v1i.yolov8.zip",
+    "bytes": 98747246,
+    "sha256": "70060bfe7d65dedcca6a72aaac423c95f402369eec08563b24ae8d962e666eed",
+    "metadata": {
+      "data.yaml": "train: ../train/images\nval: ../valid/images\ntest: ../test/images\n\nnc: 3\nnames: ['Looking around', 'No cheating', 'Phone use']\n\nroboflow:\n  workspace: trn-quang-tip\n  project: exam-cheating-9iz1y-rrfsz\n  version: 1\n  license: CC BY 4.0\n  url: https://universe.roboflow.com/trn-quang-tip/exam-cheating-9iz1y-rrfsz/dataset/1",
+      "README.dataset.txt": "# Exam cheating > 2024-09-18 4:50am\nhttps://universe.roboflow.com/trn-quang-tip/exam-cheating-9iz1y-rrfsz\n\nProvided by a Roboflow user\nLicense: CC BY 4.0\n\n",
+      "README.roboflow.txt": "\nExam cheating - v1 2024-09-18 4:50am\n==============================\n\nThis dataset was exported via roboflow.com on September 30, 2024 at 10:40 AM GMT\n\nRoboflow is an end-to-end computer vision platform that helps you\n* collaborate with your team on computer vision projects\n* collect & organize images\n* understand and search unstructured image data\n* annotate, and create datasets\n* export, train, and deploy computer vision models\n* use active learning to improve your dataset over time\n\nFor state of the art Computer Vision training notebooks you can use with this dataset,\nvisit https://github.com/roboflow/notebooks\n\nTo find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com\n\nThe dataset includes 3407 images.\nPeople are annotated in YOLOv8 format.\n\nThe following pre-processing was applied to each image:\n\nNo image augmentation techniques were applied.\n\n\n"
+    },
+    "classes": {
+      "0": "Looking around",
+      "1": "No cheating",
+      "2": "Phone use"
+    },
+    "splits": {
+      "test": {
+        "images": 282,
+        "boxes": {
+          "Looking around": 575,
+          "No cheating": 146,
+          "Phone use": 12
+        },
+        "class_images": {
+          "Looking around": 194,
+          "No cheating": 107,
+          "Phone use": 9
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 1,
+        "invalid_files": 1,
+        "decode_errors": 0
+      },
+      "train": {
+        "images": 2543,
+        "boxes": {
+          "Looking around": 6634,
+          "Phone use": 82,
+          "No cheating": 1535
+        },
+        "class_images": {
+          "Looking around": 1849,
+          "Phone use": 66,
+          "No cheating": 990
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 22,
+        "invalid_files": 22,
+        "decode_errors": 0
+      },
+      "valid": {
+        "images": 582,
+        "boxes": {
+          "Looking around": 1094,
+          "No cheating": 389,
+          "Phone use": 26
+        },
+        "class_images": {
+          "Looking around": 362,
+          "No cheating": 249,
+          "Phone use": 23
+        },
+        "empty_labels": 0,
+        "missing_labels": 0,
+        "invalid_rows": 12,
+        "invalid_files": 11,
+        "decode_errors": 0
+      }
+    },
+    "invalid_examples": [
+      {
+        "path": "test/labels/20220622_185436_jpg.rf.b527b5181bedf6cb56b4e2d15fc44f11.txt",
+        "line": 3,
+        "error": "YOLO box exceeds vertical image bounds"
+      },
+      {
+        "path": "train/labels/20220518_135625_jpg.rf.0577e5cb7e0c633a5f614cca0b04abec.txt",
+        "line": 3,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220518_135727_jpg.rf.5f4bd36716e1dd6e1e86a635ad508c49.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220525_171707_jpg.rf.f73145644eeb1b1f53b624f0fbe8fef7.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220525_171732_jpg.rf.72cd0a011e67c51785e94c56a53a7610.txt",
+        "line": 6,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220525_171742_jpg.rf.a0e7341937542f69dd48b4b086258c2d.txt",
+        "line": 4,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220525_171824_jpg.rf.0379ea41f43636bb216301ff8e0d25ba.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/20220616_140741_jpg.rf.2e07b3a634cd62aede19ea9528958959.txt",
+        "line": 7,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/33_jpg.rf.42694d4e78327361bb11714f907411a9.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/35_jpg.rf.4cb0b57415be923116deccef603d45ed.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_20220516_135031_jpg.rf.c1fee6257e6de82d51a799a7ae1814fd.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_20220622_174313_jpg.rf.1a6738f66aed0c49baadaa0bf42fd4fe.txt",
+        "line": 4,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_6300_jpg.rf.97761274abaf4f26c1bf7e480551bbde.txt",
+        "line": 11,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_6303_jpg.rf.6fcea356ba268e28103053e52de2cae0.txt",
+        "line": 13,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_6305_jpg.rf.b7fa0b4953876294d8bdf315e236f19f.txt",
+        "line": 1,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/IMG_6310_jpg.rf.f0d8b2e2ed509265006d2fafab600221.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/Kebiasaan-Mencontek-Saat-Ujian_mp4-79_jpg.rf.8bf9db01c73a3ef3be5f7767272a32df.txt",
+        "line": 1,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/Suasana-Ujian-Tengah-Semester-Ganjil-2022-2023_-Ada-yang-menggunakan-jurus-dapat-nilai-A__mp4-23_jpg.rf.7eb1b40a352cd6c6e551d58509aa51ad.txt",
+        "line": 2,
+        "error": "YOLO box exceeds vertical image bounds"
+      },
+      {
+        "path": "train/labels/cheat253_jpg.rf.e7639f84683a9c7dbaee3cc65ad9aa10.txt",
+        "line": 2,
+        "error": "YOLO box exceeds horizontal image bounds"
+      },
+      {
+        "path": "train/labels/cheat380_jpg.rf.df7ad52e582440686ca570cd87108fff.txt",
+        "line": 1,
+        "error": "YOLO box exceeds vertical image bounds"
+      }
+    ],
+    "orphan_labels": 0,
+    "lineage_hint_groups": 3396,
+    "lineage_hint_cross_split": [],
+    "sample_selection": "Hai ảnh train đầu theo tên cho mỗi class; chỉ minh họa, không đại diện ngẫu nhiên."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "status": "draft_pending_owner_review",
+  "training_eligible": false,
+  "ledger_records": 498,
+  "candidate_records": 290,
+  "proposed_counts": {
+    "train": 317,
+    "excluded": 27,
+    "val": 50,
+    "review_only": 93,
+    "test": 11
+  },
+  "parent_promotions": 79,
+  "new_used": 195,
+  "coverage": {
+    "train": {
+      "records": 317,
+      "groups": 103,
+      "targets": {
+        "phone_use": {
+          "positive": 93,
+          "negative": 91,
+          "unknown": 133
+        },
+        "looking_around": {
+          "unknown": 88,
+          "positive": 117,
+          "negative": 112
+        }
+      },
+      "sources": {
+        "classroom_monitoring_v2": 24,
+        "roboflow_v1": 28,
+        "scb_hrw": 65,
+        "scb_head": 35,
+        "classroom_attitude": 24,
+        "exam_cheating_keaor": 38,
+        "student_behaviour": 103
+      },
+      "cooccurrence": 16
+    },
+    "val": {
+      "records": 50,
+      "groups": 14,
+      "targets": {
+        "phone_use": {
+          "unknown": 13,
+          "negative": 20,
+          "positive": 17
+        },
+        "looking_around": {
+          "positive": 18,
+          "unknown": 21,
+          "negative": 11
+        }
+      },
+      "sources": {
+        "roboflow_v1": 13,
+        "scb_hrw": 6,
+        "scb_head": 1,
+        "classroom_attitude": 17,
+        "exam_cheating_keaor": 6,
+        "student_behaviour": 7
+      },
+      "cooccurrence": 2
+    },
+    "test": {
+      "records": 11,
+      "groups": 3,
+      "targets": {
+        "phone_use": {
+          "positive": 2,
+          "unknown": 7,
+          "negative": 2
+        },
+        "looking_around": {
+          "unknown": 2,
+          "negative": 7,
+          "positive": 2
+        }
+      },
+      "sources": {
+        "roboflow_v1": 2,
+        "scb_hrw": 7,
+        "scb_head": 2
+      },
+      "cooccurrence": 0
+    }
+  },
+  "decisions_sha256": "adcb0a3aa971e8c6a30def8072e48925b0062c9e1d16ca1dfe7d3ea4c953e6b3",
+  "assignment_sha256": "fec8f071b707e0fb0c1d98db4ccb06cfef871743d831852911b63c9d9e83deeb",
+  "parent_checksums_sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a",
+  "test_sample_ids": [
+    "P023-person-01",
+    "P028-person-01",
+    "SCB-read-002",
+    "SCB-read-011",
+    "SCB-read-018",
+    "SCB-read-024",
+    "SCB-turnhead-017",
+    "SCB-turnhead-022",
+    "SCB-write-003",
+    "SCB-write-015",
+    "SCB-write-026"
+  ],
+  "source_and_crop_hashes": "pass",
+  "new_crop_pixels": "pass",
+  "group_split_check": "pass",
+  "limits": "Ranh giới nhóm thị giác thận trọng; không chứng minh độc lập subject/session. Validation mở rộng không so trực tiếp E002. Chưa đo cải thiện model."
+}

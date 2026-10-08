@@ -1,0 +1,51 @@
+# Đề xuất nguồn v6; chưa phải config build/train hoặc release accepted.
+status: draft_pending_candidate_and_owner_review
+formulation: B
+proposal_version: pilot-b-v6-source-proposal-20261007
+proposed_dataset_version: pilot-b-20261007-v6
+parent_package: data/processed/pilot-b/pilot-b-20261007-v5
+parent_config: configs/datasets/pilot_b_release_v5.yaml
+parent_config_sha256: f6cec0d5f56533d8821ff64c52762dbb8e23592b22394cf19650c95046212934
+target_order:
+- phone_use
+- looking_around
+target_encoding_version: pilot-b-targets-v1
+unknown_supervision: masked
+source_metadata: artifacts/reports/pilot-b-v6-source-research-20261007/source-metadata.json
+source_metadata_sha256: 20c887233ad8794183848b5fb71eb7102a5acc53217c20aab4ea770495cdaea0
+proposed_source_roles:
+  accepted_v5: bảo toàn baseline và membership đánh giá lịch sử
+  scb_head_hrw: nguồn mở rộng chính sau review nhóm/crop/nhãn
+  exam_cheating_keaor: bổ sung chọn lọc; đã xác nhận overlap RF cũ, không dùng làm
+    holdout mặc định
+  student_behaviour: ưu tiên thẩm định phần mới sau dựng lại person crop; Using_phone
+    bbox mẫu là vùng nhỏ, overlap SCB; chưa accepted
+  classroom_attitude: bổ sung chọn lọc sau kiểm overlap RF cũ và ledger đánh giá v5
+  fpi_det: tạm ngoài đợt v6 chính; cần xử lý annotation, person attribution, semantics
+    và quyền
+split_version: null
+membership: null
+expected_counts: null
+release_approval: null
+training_eligible: false
+canonical_mutation: false
+scope_note: Đề xuất nguồn cho v6, chưa phải package hoặc config của trainer/builder.
+  Không tự chốt số mẫu/tỷ lệ split trước audit raw và nhóm.
+pending_decisions:
+- id: TBD-V6-LABEL-GROUP
+  owner: repository_owner
+  reason: Nhãn nguồn/unit/lineage/group chưa được review cho membership v6.
+  resolve_when: Codex tạo proposal tự động và bằng chứng, owner nghiệm thu nhãn/crop/nhóm.
+- id: TBD-V6-SPLIT
+  owner: repository_owner
+  reason: Coverage/nhóm độc lập chưa rõ; giữ v5 lịch sử, chưa tự chốt evaluation mới.
+  resolve_when: Review protocol development/holdout và bảng counts theo group.
+- id: TBD-V6-RIGHTS
+  owner: repository_owner
+  reason: Ba ZIP mới ghi CC BY 4.0; cần ghi phạm vi tiếp nhận/attribution trong release.
+    FPI riêng, chưa nhập. Không mở lại quyền SCB/RF cũ.
+  resolve_when: Ghi nhận phạm vi sử dụng các nguồn mới cùng lần nghiệm thu membership.
+payload_audit: artifacts/reports/pilot-b-v6-source-research-20261007/roboflow-payload-audit.json
+payload_audit_sha256: 5fbebac4d94238dc60db8dcfde51a2222a16ca2540fc6f830fbc94500bb4aec1
+source_unit_review: artifacts/reports/pilot-b-v6-source-research-20261007/target-unit-review.json
+source_unit_review_sha256: 46bb709778a65b179f5fbea1c59e9b92f01bb91fb131a289ccd5d4f129c19c77

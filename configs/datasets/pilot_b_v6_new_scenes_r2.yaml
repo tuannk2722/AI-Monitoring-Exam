@@ -1,0 +1,84 @@
+status: draft_preparation
+formulation: B
+selection_version: v6-source-selection-20261007-r2
+output: data/interim/pilot-b/v6-new-scenes-20261007-r2
+parent_package: data/processed/pilot-b/pilot-b-20261007-v5
+draft_padding: 0.1
+selection_note: Mở hàng đợi54ảnh ngoài lineage/ảnh đã review;6ảnh/stratum để kiểm
+  thị giác. Không tự gán nhãn/split.
+approval: artifacts/reports/pilot-b-v6-preparation-20261007/owner-scope-approval.json
+inventory: outputs/pilot-b-v6-source-research-20261007/roboflow-image-inventory.json
+payload_audit: artifacts/reports/pilot-b-v6-source-research-20261007/roboflow-payload-audit.json
+sources:
+- id: student_behaviour
+  prefix: V6R2-SB
+  archive: C:/Users/OS/Downloads/Student Behaviour Detection.v6i.yolov8.zip
+  body_classes:
+  - upright
+  - bend
+  - reading
+  - writing
+  strata:
+  - id: phone_hint
+    classes:
+    - Using_phone
+    review_budget: 6
+  - id: looking_hint
+    classes:
+    - turn_head
+    review_budget: 6
+  - id: work_or_negative_hint
+    classes:
+    - reading
+    - writing
+    review_budget: 6
+- id: classroom_attitude
+  prefix: V6R2-CA
+  archive: C:/Users/OS/Downloads/classroom-attitude.v3i.yolov8.zip
+  body_classes:
+  - person
+  - Phone use
+  - Looking around
+  - Turning_Around
+  - Sleeping
+  strata:
+  - id: phone_hint
+    classes:
+    - Phone use
+    review_budget: 6
+  - id: looking_hint
+    classes:
+    - Looking around
+    - Turning_Around
+    review_budget: 6
+  - id: work_or_negative_hint
+    classes:
+    - Sleeping
+    - Leaning Down
+    - person
+    review_budget: 6
+- id: exam_cheating_keaor
+  prefix: V6R2-EX
+  archive: C:/Users/OS/Downloads/exam_cheating.v2i.yolov8.zip
+  body_classes:
+  - Normal
+  - Look_around
+  strata:
+  - id: phone_hint
+    classes:
+    - Use_phone
+    review_budget: 6
+  - id: looking_hint
+    classes:
+    - Look_around
+    review_budget: 6
+  - id: work_or_negative_hint
+    classes:
+    - Normal
+    review_budget: 6
+approval_sha256: e69cfde6b75249d90bf8a81d42894d1beadf09aeee0e481f9a643e82bb5a5209
+inventory_sha256: 4f7cde6e8b5c673e66330a46caf259ec520ce41c8d1e1a48f2a9f471dee81985
+payload_audit_sha256: 5fbebac4d94238dc60db8dcfde51a2222a16ca2540fc6f830fbc94500bb4aec1
+previous_candidates:
+- path: data/interim/pilot-b/v6-preparation-20261007-r4/proposals.jsonl
+  sha256: 3aeb543a19cd898c7c5b2d5303df6430c168ed8471f8f00e8a234e53914fda8f

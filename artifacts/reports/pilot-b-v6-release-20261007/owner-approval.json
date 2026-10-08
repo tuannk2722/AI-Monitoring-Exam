@@ -1,0 +1,50 @@
+{
+  "decision": "approve_pilot_b_v6_release",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-07",
+  "recorded_at": "2026-10-07",
+  "owner_statement": "tôi đã review và approve bản báo cáo này, hãy tiến hành đóng release v6 cho tôi.\ntrong quá trình thực hiện nếu có gì chưa rõ thì hỏi lại tôi!",
+  "approved_counts": {
+    "train": 317,
+    "excluded": 27,
+    "val": 50,
+    "review_only": 93,
+    "test": 11
+  },
+  "use_scope": "local_classifier_research",
+  "approved_artifacts": {
+    "report": {
+      "path": "artifacts/reports/pilot-b-v6-expansion-20261007-r2/README.md",
+      "sha256": "bdecfb58a626389ffa069c30c1bdefef9bd790bbff06e1bc289ba86fea7c1ce8"
+    },
+    "proposal_config": {
+      "path": "configs/datasets/pilot_b_v6_release_proposal_r2_20261007.yaml",
+      "sha256": "c6b3742d40f4ef79dfe4490a0097a84a02a17c7ae326aa606b654b16e9ab1044"
+    },
+    "assignment": {
+      "path": "artifacts/reports/pilot-b-v6-expansion-20261007-r2/proposed-assignment.jsonl",
+      "sha256": "fec8f071b707e0fb0c1d98db4ccb06cfef871743d831852911b63c9d9e83deeb"
+    },
+    "decisions": {
+      "path": "artifacts/reports/pilot-b-v6-expansion-20261007-r2/release-review-decisions.json",
+      "sha256": "adcb0a3aa971e8c6a30def8072e48925b0062c9e1d16ca1dfe7d3ea4c953e6b3"
+    },
+    "review_checksums": {
+      "path": "data/interim/pilot-b/v6-release-review-expanded-20261007-r5/checksums.sha256",
+      "sha256": "7ac8b08cede7aa727f53318730053e89bd2e837e2a78a463944d4a7e49ca8038"
+    },
+    "parent_checksums": {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v5/checksums.sha256",
+      "sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a"
+    },
+    "candidate": {
+      "path": "data/interim/pilot-b/v6-expanded-candidates-20261007-r2/proposals.jsonl",
+      "sha256": "2c349854db0ab1a22444b089f7f2394dbb4da887df27b2b56cc06941d49198b1"
+    }
+  },
+  "scope": "Nghiệm thu crop/nhãn/nhóm/membership revision R2; đóng release local v6. Giữ 11 test và 13 val v5 lịch sử. Không train/test inference/upload.",
+  "source_rights_previously_approved": {
+    "path": "artifacts/reports/pilot-b-v6-preparation-20261007/owner-scope-approval.json",
+    "sha256": "e69cfde6b75249d90bf8a81d42894d1beadf09aeee0e481f9a643e82bb5a5209"
+  }
+}

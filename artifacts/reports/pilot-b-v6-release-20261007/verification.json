@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "completed_on": "2026-10-08",
+  "approved_assignment_exact_match": true,
+  "owner_report_and_package_pins": "pass",
+  "parent_v5_unchanged": true,
+  "parent_used_104_preserved": true,
+  "test_11_preserved": true,
+  "historical_val_13_preserved": true,
+  "unknown_mask_preserved": true,
+  "source_crop_pixel_hash_qa": "pass_canonical_exporter",
+  "cross_split_image_crop_group_conflicts": 0,
+  "loader_verify_dataset": "pass",
+  "ledger_records": 498,
+  "manifest_records": 378,
+  "crop_payload_files": 471,
+  "counts": {
+    "train": 317,
+    "excluded": 27,
+    "val": 50,
+    "review_only": 93,
+    "test": 11
+  },
+  "training_or_test_inference": false,
+  "media_uploaded": false,
+  "code_checks": {
+    "unit_tests": 162,
+    "unit_test_status": "pass",
+    "unit_test_seconds": 66.686,
+    "ruff": "pass",
+    "mypy": "pass",
+    "git_diff_check": "pass",
+    "repo_check_failures": 0,
+    "repo_check_scope": "Git index; metadata/media local được kiểm riêng."
+  }
+}

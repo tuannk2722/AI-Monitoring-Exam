@@ -1,0 +1,28 @@
+# Phương án mở rộng sau owner review; chưa accepted hoặc được dùng training.
+status: draft_pending_owner_review
+formulation: B
+proposed_dataset_version: pilot-b-20261007-v6
+proposed_split_version: pilot-b-v6-group-expansion-r2
+parent_package: data/processed/pilot-b/pilot-b-20261007-v5
+review_package: data/interim/pilot-b/v6-release-review-expanded-20261007-r5
+review_package_checksums_sha256: 7ac8b08cede7aa727f53318730053e89bd2e837e2a78a463944d4a7e49ca8038
+decisions:
+  path: artifacts/reports/pilot-b-v6-expansion-20261007-r2/release-review-decisions.json
+  sha256: adcb0a3aa971e8c6a30def8072e48925b0062c9e1d16ca1dfe7d3ea4c953e6b3
+assignment:
+  path: artifacts/reports/pilot-b-v6-expansion-20261007-r2/proposed-assignment.jsonl
+  sha256: fec8f071b707e0fb0c1d98db4ccb06cfef871743d831852911b63c9d9e83deeb
+owner_release_approval: null
+expected_proposed_counts:
+  train: 317
+  excluded: 27
+  val: 50
+  review_only: 93
+  test: 11
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+preserve_v5_test: true
+preserve_v5_val_as_historical_subset: true
+training_run_approved: false

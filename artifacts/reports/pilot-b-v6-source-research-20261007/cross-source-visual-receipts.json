@@ -1,0 +1,289 @@
+[
+  {
+    "query": {
+      "source": "classroom_attitude",
+      "split": "test",
+      "path": "test/images/2022-11-23-369-_png_jpg.rf.44df2b189cad272dfc3fd9aaadf06086.jpg",
+      "sha256": "76f8e0201088b596ded5e7d7b18ca5fe2d7ab0e06082f729d25537bd05b89174",
+      "pixel_sha256": "04ae3cb681788e23916cc914041344c7d2b167d582f82ce517bc961f43448d47",
+      "lineage_hint": "2022-11-23-369-_png_jpg",
+      "classes": [
+        "Looking around",
+        "Phone use"
+      ],
+      "invalid": false,
+      "width": 512,
+      "height": 512,
+      "dhash": 8344523756892770116
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "test",
+      "path": "test/images/2022-11-23-369-_png_jpg.rf.30da7ac9473d31d58f34ff422c7c05ec.jpg",
+      "sha256": "d4091b8bb98153990dc2988cbd203f1070150d6fd3d3980d4703ff903043bbda",
+      "pixel_sha256": "bd2aaa08cde398801b7056f590095fd0ea9801ab9d9b74f8ad487bf00590f52c",
+      "lineage_hint": "2022-11-23-369-_png_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 8344523756892770116
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "classroom_attitude",
+      "split": "test",
+      "path": "test/images/20220622_185436_jpg.rf.028a4ec963b4efc2de885367b79f8e4b.jpg",
+      "sha256": "4b4b24b8b211b88cc25d36dcb46a611f48a9fe1c91e66c05c11e36f3e6241257",
+      "pixel_sha256": "c4337e94f01ecdca253297c8ee4d370920ee6134e5bde3a84ce3560da56d9f4a",
+      "lineage_hint": "20220622_185436_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 512,
+      "height": 512,
+      "dhash": 14822937806415421394
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "test",
+      "path": "test/images/20220622_185436_jpg.rf.b527b5181bedf6cb56b4e2d15fc44f11.jpg",
+      "sha256": "d578011877bbfcc7ca4900263da9b99e2517f4be077e517851e4f71a904c2e46",
+      "pixel_sha256": "d02777e4ece9dd622e2ebd5a810a4e0d4ec9e93b7aeffa8a60fb3ee30f334deb",
+      "lineage_hint": "20220622_185436_jpg",
+      "classes": [
+        "Looking around",
+        "No cheating"
+      ],
+      "invalid": true,
+      "width": 416,
+      "height": 416,
+      "dhash": 14822937806415421394
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "classroom_attitude",
+      "split": "test",
+      "path": "test/images/2023-02-25-21-52-12_mp4-11_jpg.rf.24fbe22cafdb8e628020eadc97664f32.jpg",
+      "sha256": "fd43aea6b62db1785ba6e680ee7d255dd8e982862c0b658d902fb0bc22194456",
+      "pixel_sha256": "d7edf217fb9b9da9f86c95c42ab088ee1a202a0a4d17d5eff91d538f8ed19142",
+      "lineage_hint": "2023-02-25-21-52-12_mp4-11_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 512,
+      "height": 512,
+      "dhash": 16018258674491418654
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "test",
+      "path": "test/images/2023-02-25-21-52-12_mp4-11_jpg.rf.298c477ea04a4f4a41d5835e1070a71f.jpg",
+      "sha256": "602c8ae219e515332816a3666a42e7104ec0ed30cbbe931bb47ba603d1f90ca3",
+      "pixel_sha256": "1c560f0c697755874e1dda4f166fbaab37455467ec4ef9f0a9e56f783202930b",
+      "lineage_hint": "2023-02-25-21-52-12_mp4-11_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 16018258674491418654
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "student_behaviour",
+      "split": "train",
+      "path": "train/images/0001001_png.rf.073a86b28cc87abec61ddb204df4a550.jpg",
+      "sha256": "070b995253e7e9b2f4806a2296f555e5d7f408f7570b24db9da2489337dad677",
+      "pixel_sha256": "c956b43c4241679150cc08aa8feda2753ff38a41b0f39e4fb90a49d844776a6b",
+      "lineage_hint": "0001001_png",
+      "classes": [
+        "hand-raising"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 9525729154033737037
+    },
+    "reference": {
+      "source": "scb_hrw",
+      "path": "SCB5-Handrise-Read-write-2024-9-17/images/val/0001001.jpg",
+      "split": "val",
+      "sha256": "00ed8bbcffe3bc7bd979c26f759bd809a97f2838ff530b9b75c2d11867b006ce",
+      "dhash": 9525729154033737037
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "student_behaviour",
+      "split": "train",
+      "path": "train/images/0001002_png.rf.6bb91dbd95d211d40e0d4183c9d23e7a.jpg",
+      "sha256": "1857cd7a162bca41084e986e69604d27272f7e9672e2068b477ea6d4cee72a67",
+      "pixel_sha256": "bd5be488f64b061a153dcd1ac2e9cab7246e5b8f200177ea663482e1c75205bd",
+      "lineage_hint": "0001002_png",
+      "classes": [
+        "hand-raising"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 9309558596730309924
+    },
+    "reference": {
+      "source": "scb_hrw",
+      "path": "SCB5-Handrise-Read-write-2024-9-17/images/val/0001002.jpg",
+      "split": "val",
+      "sha256": "fc0c3bd2630ac994e318e89219f45f89c19ec88608143415ee1fc648d3d8b910",
+      "dhash": 9309558596730309924
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "student_behaviour",
+      "split": "train",
+      "path": "train/images/0001004_png.rf.e8b2db9f16df51c598dd58f9cf65b17a.jpg",
+      "sha256": "c7ada0c1ef338e650e86eac8906c5a91d1dd25d5f4725dfb5c341552ccd1e97f",
+      "pixel_sha256": "0804ee0136358b1ab3af7c4ed38bcb1f3fde4aeba2ede3d5b5703e537db990fc",
+      "lineage_hint": "0001004_png",
+      "classes": [
+        "hand-raising",
+        "reading"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 2411810594723233833
+    },
+    "reference": {
+      "source": "scb_hrw",
+      "path": "SCB5-Handrise-Read-write-2024-9-17/images/val/0001004.jpg",
+      "split": "val",
+      "sha256": "1568ab580feeaeb10d79052af5b320983834e7e851ef1a72e89b1a11d58e52eb",
+      "dhash": 2411810594723233833
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "exam_cheating_keaor",
+      "split": "test",
+      "path": "test/images/50-Copy_jpg.rf.2190cc69eed9d92d9ccb271f7177d2f0.jpg",
+      "sha256": "11f1f8cb85fba9105cd3a98b9e2169ada7a43d89cc8a436c9b95d0734c4560de",
+      "pixel_sha256": "3505b809a45f96ecd95341624413436711e5615b321aa53548bd2148ad1e6f8f",
+      "lineage_hint": "50-Copy_jpg",
+      "classes": [
+        "Look_around",
+        "Normal"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 684705620723679235
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "train",
+      "path": "train/images/50_jpg.rf.7edce6070ba5dade87d5d13aefef044f.jpg",
+      "sha256": "11f1f8cb85fba9105cd3a98b9e2169ada7a43d89cc8a436c9b95d0734c4560de",
+      "pixel_sha256": "3505b809a45f96ecd95341624413436711e5615b321aa53548bd2148ad1e6f8f",
+      "lineage_hint": "50_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 684705620723679235
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "exam_cheating_keaor",
+      "split": "test",
+      "path": "test/images/52-Copy-2-_jpg.rf.f4aa38f529dd483caae4e09818716f14.jpg",
+      "sha256": "7acb98755673c5ea7770e80ba750638547f4bd3febc2a2371579dfeeae0c0a4f",
+      "pixel_sha256": "5c2f32ac51daf5d5017d4b885d223bf98d0744a3c3e7bd303cac820d84c22a52",
+      "lineage_hint": "52-Copy-2-_jpg",
+      "classes": [
+        "Cheat_paper"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 2975077999429882206
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "train",
+      "path": "train/images/52_jpg.rf.dae47baf276cbdbaa40c347adee406c2.jpg",
+      "sha256": "7acb98755673c5ea7770e80ba750638547f4bd3febc2a2371579dfeeae0c0a4f",
+      "pixel_sha256": "5c2f32ac51daf5d5017d4b885d223bf98d0744a3c3e7bd303cac820d84c22a52",
+      "lineage_hint": "52_jpg",
+      "classes": [
+        "No cheating"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 2975077999429882206
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  },
+  {
+    "query": {
+      "source": "exam_cheating_keaor",
+      "split": "test",
+      "path": "test/images/59-Copy_jpg.rf.2b6f95d050edcef1ff68987e99cdd29b.jpg",
+      "sha256": "fad216e145988c19d967e51f9b816f42963353948fd4c9eca2e7223757965511",
+      "pixel_sha256": "e719f26856f95611509d2c309409e4fdd20ab7235defefacfa2cc781f32a7d28",
+      "lineage_hint": "59-Copy_jpg",
+      "classes": [
+        "Look_around",
+        "Use_phone"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 4114543935732652958
+    },
+    "reference": {
+      "source": "old_rf",
+      "split": "train",
+      "path": "train/images/59_jpg.rf.cfe9fd79b052bb482662e134ed6f7741.jpg",
+      "sha256": "fad216e145988c19d967e51f9b816f42963353948fd4c9eca2e7223757965511",
+      "pixel_sha256": "e719f26856f95611509d2c309409e4fdd20ab7235defefacfa2cc781f32a7d28",
+      "lineage_hint": "59_jpg",
+      "classes": [
+        "Looking around"
+      ],
+      "invalid": false,
+      "width": 640,
+      "height": 640,
+      "dhash": 4114543935732652958
+    },
+    "distance": 0,
+    "status": "heuristic_needs_visual_review"
+  }
+]

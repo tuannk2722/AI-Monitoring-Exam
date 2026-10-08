@@ -1,0 +1,102 @@
+{
+  "YOLO.zip": {
+    "central_entries": 27815,
+    "central_sha256": "89bda221323782fb8b9b8a3b47eb48fcfc0f4f0143bd8691df4342306b07493a",
+    "extensions": {
+      ".pyc": 551,
+      ".jpg": 12339,
+      ".yaml": 456,
+      ".png": 67,
+      ".pt": 14,
+      ".csv": 33,
+      ".ipynb": 26,
+      ".py": 868,
+      ".md": 766,
+      ".txt": 12260,
+      ".json": 6,
+      "": 138,
+      ".sh": 30,
+      ".yml": 39,
+      ".toml": 12,
+      ".cff": 3,
+      ".64": 1,
+      ".pack": 7,
+      ".idx": 7,
+      ".sample": 91,
+      ".0": 4,
+      ".in": 1,
+      ".cfg": 1,
+      ".ico": 2,
+      ".css": 3,
+      ".html": 6,
+      ".js": 6,
+      ".svg": 4,
+      ".cc": 10,
+      ".rs": 27,
+      ".cpp": 20,
+      ".h": 11,
+      ".cache": 2,
+      ".zip": 1,
+      ".pdf": 1,
+      ".onnx": 1,
+      ".hpp": 1
+    },
+    "top_level_directories": {
+      "YOLO/yolov5": 220,
+      "YOLO/YOLOv8": 283,
+      "YOLO/yolov10": 736,
+      "YOLO/yolov12": 507,
+      "YOLO/yolov9": 194,
+      "YOLO/yolov13": 24950,
+      "YOLO/ultralytics": 925
+    },
+    "yaml_phase_status": "unavailable",
+    "yaml_phase_error": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
+    "payload_verified": false,
+    "targeted_yaml_followup": {
+      "status": "đã đọc riêng YAML SCB của YOLOv13",
+      "names": [
+        "guide",
+        "answer",
+        "On-stage interaction",
+        "blackboard-writing",
+        "teacher",
+        "stand",
+        "screen",
+        "blackBoard"
+      ],
+      "sha256": "8e6d31a8fee1074d7ff68b5a8458ba020496c6bd33797c5f70f1d3a0bfb4f9e6"
+    },
+    "embedded_teacher_images": {
+      "train": 8984,
+      "val": 3240
+    }
+  },
+  "SCB_LLM_202506/读写.zip": {
+    "central_entries": 912,
+    "central_sha256": "7594bf1926e834d33d8cc7b67045517e3b4a3ee4572fa0804d93d7c64187bfed",
+    "extensions": {
+      ".jpg": 912
+    },
+    "top_level_directories": null,
+    "yaml_phase_status": "central_directory_read",
+    "yaml_phase_error": null,
+    "payload_verified": false,
+    "same_basename_crc32_size_as_local": 524,
+    "same_basename_as_local": 524
+  },
+  "SCB_LLM_202506/听讲.zip": {
+    "central_entries": 2451,
+    "central_sha256": "06794b3f244fe477db62bdeb9303447752d1a69a8d6efeee01698d52da929987",
+    "extensions": {
+      ".jpg": 2451
+    },
+    "top_level_directories": null,
+    "yaml_phase_status": "central_directory_read",
+    "yaml_phase_error": null,
+    "payload_verified": false,
+    "same_basename_crc32_size_as_local": 496,
+    "same_basename_as_local": 496
+  },
+  "overlap_interpretation": "Trùng tên+CRC32+kích thước là dấu hiệu overlap mạnh, không thay SHA-256 pixel/byte và chưa chứng minh độc lập cảnh."
+}

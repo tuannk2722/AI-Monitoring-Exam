@@ -1,0 +1,22 @@
+{
+  "completed_on": "2026-10-08",
+  "git_commit": "310b1abd233657d11788bfa0bb7852f1852d553c",
+  "git_dirty": true,
+  "package_checksums": {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256",
+    "sha256": "971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f"
+  },
+  "receipts": {
+    "artifacts/reports/pilot-b-v6-release-20261007/evaluation-preservation.json": "3dc20c0a217cbdb2b7ad406ffef7b6f5539b37c3dfd3fb25e437ab000ab80be5",
+    "artifacts/reports/pilot-b-v6-release-20261007/group-boundaries.json": "35770faa3537e9e37ad53dc221d0827b5416e9d1c69a1589816cca2b3b1991a8",
+    "artifacts/reports/pilot-b-v6-release-20261007/owner-approval.json": "d792457961d701259e6a7bc5da1fc43103fc9caf751a26387a39aa7e652a275a",
+    "artifacts/reports/pilot-b-v6-release-20261007/release-pointer.json": "51fac897bfd60867c695ff2dfe86f94e1cbea5ad51c12361de72b8bf3a73a33f",
+    "artifacts/reports/pilot-b-v6-release-20261007/verification.json": "4fdb824dc6c5ff8f399dc3a3bd788e2ddb0f638b00d94dae470e3f2035cb62ab",
+    "artifacts/reports/pilot-b-v6-release-20261007/README.md": "d761d6a1861b135118007a41c5486ccbd9638bb4be946b6f6b67ef13a0202867",
+    "configs/datasets/pilot_b_release_v6.yaml": "fcce661b922909e81108fee0b9fe3fd8d7904f8f90a639d83fb0c30d1d3047d8",
+    "src/ai_exam_monitoring/data/pilot_review_acceptance.py": "eced6aa6104cfe2c19d327cda5d91d6bb118d74ee3b27a5dd92e77e4e5f90f6e",
+    "tests/test_pilot_review_acceptance.py": "8c7866e377b93e218257e87b05f46f4c4b91d29fdb624691d857974802f3dcf4"
+  },
+  "media_uploaded": false,
+  "training_run": false
+}
