@@ -1,0 +1,21 @@
+{
+  "status": "pending",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "prepared_on": "2026-10-08",
+  "configs": {},
+  "training_authorized": false,
+  "final_test_authorized": false,
+  "dataset_approval_is_not_experiment_approval": true,
+  "proposal_ref": "docs/experiments/E003-protocol.md",
+  "decision_ref": null,
+  "note": "Chỉ đề xuất. Owner chưa nghiệm thu recipe, hypothesis, protocol hoặc ngoại lệ CPU local E003.",
+  "proposed_configs": {
+    "E003": "a937009cd5d1cd9c1fbd7ba6867d79bbfe38ebbc4848eb2009b97c9ee071ca24",
+    "E003-smoke": "b335850b671cbc9a65eb2870fba145ca7b32685d8c53f38431acabf365fee19b"
+  },
+  "protocol": {
+    "path": "docs/experiments/E003-protocol.md",
+    "sha256": "52acca0ff64329203afe26c6901825a6a746d2eeecf4b4c0e4b1b55a7d977421"
+  }
+}

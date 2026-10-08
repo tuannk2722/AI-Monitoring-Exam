@@ -3,5 +3,7 @@ src/ai_exam_monitoring/data/pilot_*.py text eol=lf
 configs/datasets/pilot_b_*.yaml text eol=lf
 configs/experiments/E002*.yaml text eol=lf
 docs/experiments/E002-* text eol=lf
+configs/experiments/E003*.yaml text eol=lf
+docs/experiments/E003-* text eol=lf
 artifacts/reports/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 *.dvc text eol=lf

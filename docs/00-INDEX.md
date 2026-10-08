@@ -4,6 +4,8 @@ Snapshot owner R1–R3 của Roboflow: [crop ngữ cảnh và target labels](dat
 
 ## Trạng thái hiện tại
 
+[E003 — hồ sơ chuẩn bị chờ nghiệm thu](../artifacts/reports/E003-preparation-20261008/README.md): [config](../configs/experiments/E003.yaml), [protocol](experiments/E003-protocol.md), [approval pending](experiments/E003-approval.json). Đề xuất frozen linear probe trên v6, primary BCE val50 so đối chứng prevalence train; đối chiếu E002 trên13val lịch sử là phân tích phụ. Chưa train/smoke/inference; dataset approval không cấp quyền chạy experiment.
+
 **Release hiện hành: [pilot B v6 accepted local](../artifacts/reports/pilot-b-v6-release-20261007/README.md)** — 317train/50val/11test,378manifest,498ledger;93review_only27excluded,471crop. Owner đã nghiệm thu; hoàn tất ngày2026-10-08. [Config v6](../configs/datasets/pilot_b_release_v6.yaml), [pointer/checksum](../artifacts/reports/pilot-b-v6-release-20261007/release-pointer.json). QA/loader và162testsPASS, v5/test11/val13lịch sử bất biến. Chưa train/upload. Các proposal bên dưới là snapshot nghiên cứu trước release.
 
 [V6 mở rộng R2 sau phản hồi owner](data/pilot-b-v6-expanded-review-20261007.md): **317 train/50 val/11 test đề xuất**, thêm 46 review_only cũ +97 crop bổ sung so gói trước; giữ v5/test, QA PASS, chưa accepted/train. [Báo cáo và review mới](../artifacts/reports/pilot-b-v6-expansion-20261007-r2/README.md). Phương án 193/31/11 bên dưới là snapshot trước revision.

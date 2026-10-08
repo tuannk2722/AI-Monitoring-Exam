@@ -1,5 +1,12 @@
 # WORKLOG
 
+## 2026-10-08 — Chuẩn bị E003 trên Pilot B v6
+
+- User yêu cầu cấu hình, hypothesis/protocol và báo cáo để nghiệm thu trước training. [Hồ sơ](../artifacts/reports/E003-preparation-20261008/README.md), [protocol](experiments/E003-protocol.md), hai YAML E003/E003-smoke và approval pending; chưa có approval chạy, commit hoặc upload.
+- Đề xuất giữ recipe E002, train317/val50; H1 so masked BCE với đối chứng prevalence train (BCE0.6911010403687807), không so metric khác tập với E002. Historical13/added37 là slices phụ, test11 chỉ integrity. Không thay dataset hoặc trainer.
+- Strict config/loader/payload/preservation104 mẫu parent/leakage/weights/environment và guard pending PASS.23tests training/preservation PASS11.364s, không skip; fixture tổng hợp. pip check/Ruff/repository checker PASS; checker chỉ Git index. Verification và pins trong hồ sơ ghi phạm vi thực tế, chưa có model metrics E003.
+- Bước sau là owner nghiệm thu recipe/H1/protocol/ngoại lệ CPU local. Clean execution commit/checkout, full suite, smoke/resume, baseline và validation chỉ sau approve; không final test/promotion. Promotion gate/holdout độc lập còn TBD.
+
 ## 2026-10-08 — Hoàn tất release v6 theo owner approval
 
 - [Bàn giao v6](../artifacts/reports/pilot-b-v6-release-20261007/README.md), [config accepted](../configs/datasets/pilot_b_release_v6.yaml):317train/50val/11test;378manifest,498ledger,471crop;93review_only27excluded. Owner approve báo cáo expansionR2 ngày2026-10-07; gián đoạn hạn mức auto-review, tiếp tục và hoàn tất ngày2026-10-08, không hỏi lại approval.
