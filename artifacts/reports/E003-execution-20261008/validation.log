@@ -1,0 +1,331 @@
+{
+  "targets": {
+    "phone_use": {
+      "positive": 17,
+      "negative": 20,
+      "unknown": 13,
+      "tp": 9,
+      "fp": 2,
+      "fn": 8,
+      "tn": 18,
+      "ap": 0.7125073664951971,
+      "precision": 0.8181818181818182,
+      "recall": 0.5294117647058824,
+      "f1": 0.6428571428571429,
+      "reason": null
+    },
+    "looking_around": {
+      "positive": 18,
+      "negative": 11,
+      "unknown": 21,
+      "tp": 11,
+      "fp": 1,
+      "fn": 7,
+      "tn": 10,
+      "ap": 0.8631083699295916,
+      "precision": 0.9166666666666666,
+      "recall": 0.6111111111111112,
+      "f1": 0.7333333333333333,
+      "reason": null
+    }
+  },
+  "macro_ap": 0.7878078682123943,
+  "threshold": 0.5,
+  "records": 50,
+  "cooccurrence": {
+    "fully_known": 16,
+    "positive": 2,
+    "metric": null,
+    "reason": "insufficient_pilot_support"
+  },
+  "macro_masked_bce": 0.6107752323150635,
+  "constant_train_prevalence": {
+    "targets": {
+      "phone_use": {
+        "positive": 17,
+        "negative": 20,
+        "unknown": 13,
+        "tp": 17,
+        "fp": 20,
+        "fn": 0,
+        "tn": 0,
+        "ap": 0.4594594594594595,
+        "precision": 0.4594594594594595,
+        "recall": 1.0,
+        "f1": 0.6296296296296297,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 18,
+        "negative": 11,
+        "unknown": 21,
+        "tp": 18,
+        "fp": 11,
+        "fn": 0,
+        "tn": 0,
+        "ap": 0.6206896551724138,
+        "precision": 0.6206896551724138,
+        "recall": 1.0,
+        "f1": 0.7659574468085106,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.5400745573159367,
+    "threshold": 0.5,
+    "records": 50,
+    "cooccurrence": {
+      "fully_known": 16,
+      "positive": 2,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    }
+  },
+  "by_source": {
+    "classroom_attitude": {
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "negative": 8,
+          "unknown": 2,
+          "tp": 1,
+          "fp": 0,
+          "fn": 6,
+          "tn": 8,
+          "ap": 0.6346415489272632,
+          "precision": 1.0,
+          "recall": 0.14285714285714285,
+          "f1": 0.25,
+          "reason": null
+        },
+        "looking_around": {
+          "positive": 6,
+          "negative": 0,
+          "unknown": 11,
+          "tp": 2,
+          "fp": 0,
+          "fn": 4,
+          "tn": 0,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        }
+      },
+      "macro_ap": null,
+      "threshold": 0.5,
+      "records": 17,
+      "cooccurrence": {
+        "fully_known": 4,
+        "positive": 2,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "exam_cheating_keaor": {
+      "targets": {
+        "phone_use": {
+          "positive": 3,
+          "negative": 2,
+          "unknown": 1,
+          "tp": 2,
+          "fp": 1,
+          "fn": 1,
+          "tn": 1,
+          "ap": 0.6388888888888888,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666,
+          "reason": null
+        },
+        "looking_around": {
+          "positive": 2,
+          "negative": 1,
+          "unknown": 3,
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "tn": 0,
+          "ap": 1.0,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "reason": null
+        }
+      },
+      "macro_ap": 0.8194444444444444,
+      "threshold": 0.5,
+      "records": 6,
+      "cooccurrence": {
+        "fully_known": 2,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "roboflow_v1": {
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "negative": 0,
+          "unknown": 6,
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "tn": 0,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        },
+        "looking_around": {
+          "positive": 6,
+          "negative": 0,
+          "unknown": 7,
+          "tp": 4,
+          "fp": 0,
+          "fn": 2,
+          "tn": 0,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        }
+      },
+      "macro_ap": null,
+      "threshold": 0.5,
+      "records": 13,
+      "cooccurrence": {
+        "fully_known": 0,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "scb_head": {
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 0,
+          "unknown": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 0,
+          "unknown": 0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        }
+      },
+      "macro_ap": null,
+      "threshold": 0.5,
+      "records": 1,
+      "cooccurrence": {
+        "fully_known": 0,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "scb_hrw": {
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 4,
+          "unknown": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 4,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        },
+        "looking_around": {
+          "positive": 3,
+          "negative": 3,
+          "unknown": 0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "tn": 3,
+          "ap": 0.9166666666666666,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "reason": null
+        }
+      },
+      "macro_ap": null,
+      "threshold": 0.5,
+      "records": 6,
+      "cooccurrence": {
+        "fully_known": 4,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    },
+    "student_behaviour": {
+      "targets": {
+        "phone_use": {
+          "positive": 0,
+          "negative": 6,
+          "unknown": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "tn": 5,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        },
+        "looking_around": {
+          "positive": 0,
+          "negative": 7,
+          "unknown": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 7,
+          "ap": null,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "reason": "missing_positive_or_negative"
+        }
+      },
+      "macro_ap": null,
+      "threshold": 0.5,
+      "records": 7,
+      "cooccurrence": {
+        "fully_known": 6,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+outs:
+- md5: daf2b33334a0eb810ef18de509540978.dir
+  size: 997931
+  nfiles: 15
+  hash: md5
+  path: E003-smoke

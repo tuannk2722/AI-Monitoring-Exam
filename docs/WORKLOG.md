@@ -1,5 +1,12 @@
 # WORKLOG
 
+## 2026-10-08 — E003 FINISHED trên v6
+
+- Owner review/approve toàn hồ sơ, ADR-016 và approval pin exact config; local commit4e206a636024767dd86eb4e9238fd9d4642cd072, clean outputs/E003-code. Không sửa trainer/dataset, không push/upload.
+- Full162tests PASS51.460s/0skip, preflight lint/compile/pip/repo/config/payload/weights/environment PASS. Smoke ngắt epoch1/resume FINISHED3; baseline64epoch/best45,29.1987723s/RSS480571392byte. Auto-review hết hạn mức sau launch; resume đọc FINISHED, không chạy baseline lại.
+- [Kết quả](experiments/E003-results.md): val BCE0.6107752323 so constant0.6911010404, delta−0.0803258081; H1 được ủng hộ trong tập phát triển. PhoneP/R/F1=0.8182/0.5294/0.6429, looking0.9167/0.6111/0.7333. Historical13 BCE0.413776 so E0020.633363; added37 phone recall0.30, chưa generalization/promotion.
+- Val reload exact50scores/metrics; slices source/group/normal, historical/added và mọi FP/FN đã ghi. DVC baseline/smoke/val local cache restore36filesSHA PASS, test11 chỉ integrity. [Execution/checksums](../artifacts/reports/E003-execution-20261008/README.md). Không tuning/final test/holdout/tracking/web; scope execution hoàn tất.
+
 ## 2026-10-08 — Chuẩn bị E003 trên Pilot B v6
 
 - User yêu cầu cấu hình, hypothesis/protocol và báo cáo để nghiệm thu trước training. [Hồ sơ](../artifacts/reports/E003-preparation-20261008/README.md), [protocol](experiments/E003-protocol.md), hai YAML E003/E003-smoke và approval pending; chưa có approval chạy, commit hoặc upload.

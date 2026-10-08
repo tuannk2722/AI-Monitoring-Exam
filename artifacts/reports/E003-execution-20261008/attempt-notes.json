@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-08",
+  "protocol_drift": "Chỉ thêm một khoảng trắng trong 'known ở 0.5'. Đảo đúng thay đổi này bằng regex và UTF-8 tái lập SHA chuẩn bị 52acca0ff64329203afe26c6901825a6a746d2eeecf4b4c0e4b1b55a7d977421. Approval pin bản hiện tại owner vừa review; không đổi recipe/metric/protocol nghiên cứu.",
+  "first_drift_check": "Lần đầu kiểm qua PowerShell pipe có chuỗi tiếng Việt không tái lập SHA; lần kiểm regex ASCII tiếp theo PASS. Không sửa protocol.",
+  "first_preflight": "Lần preflight đầu dừng tại assertion Git sạch khi full suite đang chạy. Chưa tạo output/model/inference. Sau suite, git status sạch và preflight độc lập PASS; không bỏ guard hoặc đổi source. Không kết luận nguyên nhân nếu chưa có evidence.",
+  "lint": "Một dòng script preflight quá100ký tự, đã ngắt dòng; không ảnh hưởng code trainer hoặc config."
+}

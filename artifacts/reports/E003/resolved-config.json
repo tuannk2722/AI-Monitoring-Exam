@@ -1,0 +1,50 @@
+{
+  "experiment_id": "E003",
+  "owner": "repository-owner",
+  "hypothesis": "Frozen ResNet18 linear probe trên 317 train Pilot B v6 đạt macro masked BCE trên 50 validation thấp hơn đối chứng hằng prevalence tính chỉ từ train v6. Đây là giả thuyết phát triển, không phải bằng chứng cải thiện nhân quả hoặc promotion.",
+  "approval_ref": "docs/experiments/E003-approval.json",
+  "dataset": "data/processed/pilot-b/pilot-b-20261007-v6",
+  "dataset_version": "pilot-b-20261007-v6",
+  "split_version": "pilot-b-v6-group-expansion-r2",
+  "encoding_version": "pilot-b-targets-v1",
+  "payload_sha256": "971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f",
+  "weights": "outputs/pretrained/resnet18-f37072fd.pth",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+  "seed": 42,
+  "image_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "fill": [
+    124,
+    116,
+    104
+  ],
+  "extraction_batch_size": 16,
+  "threads": 4,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 200,
+  "patience": 20,
+  "min_delta": 0.0001,
+  "threshold": 0.5,
+  "model": "resnet18_frozen_linear",
+  "weights_id": "IMAGENET1K_V1",
+  "device": "cpu",
+  "optimizer": "AdamW",
+  "loss": "macro_masked_bce",
+  "transform": "rgb_letterbox_bilinear_v1",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "run_kind": "baseline"
+}

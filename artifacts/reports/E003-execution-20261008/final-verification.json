@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "preserved_parent_records": 104,
+  "test_inference": false,
+  "raw_minimum_best_epoch": 45,
+  "early_stop_epoch": 64,
+  "stale": 20,
+  "protocol_whitespace_only_drift_verified": true,
+  "preparation_snapshot_preserved": true,
+  "dataset_and_output_checksums": "PASS",
+  "commands": [
+    {
+      "command": [
+        "D:\\ai-exam-monitoring-final\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "D:\\ai-exam-monitoring-final\\artifacts\\reports\\E003-execution-20261008"
+      ],
+      "exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "D:\\ai-exam-monitoring-final\\.venv\\Scripts\\python.exe",
+        "scripts/check_repo.py",
+        "--require-git"
+      ],
+      "exit_code": 0,
+      "stdout": "Checking Git index (including staged files; ignored/untracked files excluded)\nRepository check complete; failures=0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

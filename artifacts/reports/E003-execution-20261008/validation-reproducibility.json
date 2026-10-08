@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exact_scores": true,
+  "exact_metrics": true,
+  "validation_records": 50,
+  "test_inference": false,
+  "dataset_reverified": true,
+  "smoke_resume_verified": true,
+  "artifact_checksums_verified": true
+}

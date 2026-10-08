@@ -4,7 +4,7 @@ Snapshot owner R1–R3 của Roboflow: [crop ngữ cảnh và target labels](dat
 
 ## Trạng thái hiện tại
 
-[E003 — hồ sơ chuẩn bị chờ nghiệm thu](../artifacts/reports/E003-preparation-20261008/README.md): [config](../configs/experiments/E003.yaml), [protocol](experiments/E003-protocol.md), [approval pending](experiments/E003-approval.json). Đề xuất frozen linear probe trên v6, primary BCE val50 so đối chứng prevalence train; đối chiếu E002 trên13val lịch sử là phân tích phụ. Chưa train/smoke/inference; dataset approval không cấp quyền chạy experiment.
+[E003 đã hoàn tất](experiments/E003-results.md): [ADR-016 Accepted](decisions/ADR-016-e003-v6-local-linear-probe.md), [approval](experiments/E003-approval.json), [execution](../artifacts/reports/E003-execution-20261008/README.md).162tests PASS; smoke/resume3epoch, baseline64epoch/best45, validation reload exact. BCE val50=0.610775 so constant0.691101, H1 được ủng hộ trong tập phát triển; phone recall added37=0.30, không promotion. Test chỉ integrity, không upload. [Hồ sơ chuẩn bị](../artifacts/reports/E003-preparation-20261008/README.md) là snapshot trước duyệt.
 
 **Release hiện hành: [pilot B v6 accepted local](../artifacts/reports/pilot-b-v6-release-20261007/README.md)** — 317train/50val/11test,378manifest,498ledger;93review_only27excluded,471crop. Owner đã nghiệm thu; hoàn tất ngày2026-10-08. [Config v6](../configs/datasets/pilot_b_release_v6.yaml), [pointer/checksum](../artifacts/reports/pilot-b-v6-release-20261007/release-pointer.json). QA/loader và162testsPASS, v5/test11/val13lịch sử bất biến. Chưa train/upload. Các proposal bên dưới là snapshot nghiên cứu trước release.
 

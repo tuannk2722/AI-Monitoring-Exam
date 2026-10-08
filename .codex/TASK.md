@@ -1,10 +1,18 @@
 ﻿# E003-PREP-20261008 — Chuẩn bị thử nghiệm Pilot B v6
 
-- Trạng thái hiện hành: owner đã nghiệm thu E003; đang thực thi smoke/resume, baseline và validation local theo protocol. Phạm vi: AI/classifier.
+- Trạng thái hiện hành: HOÀN TẤT E003 FINISHED và validation/báo cáo. Phạm vi: AI/classifier.
 - Owner/người chốt: chủ repository; Codex chuẩn bị và kiểm chứng.
 - Phụ thuộc: release v6 accepted, E002 hoàn tất; không kế thừa approval chạy E002.
 
 ## Mục tiêu và bối cảnh
+
+### Checkpoint execution sau resume
+
+Hậu kiểm cuối PASS: dataset/outputSHA,104parent, rawbest45/earlystop64, snapshot bảo toàn,45links/40filepins. Reports và DVC pointers local sẵn sàng; không còn việc model trong scope. Chỉ chốt commit bàn giao và Git status; không hỏi lại approval, không final test/upload/promotion. Report kết luận H1 ủng hộ nhưng phone added37recall0.30, giữ nghiên cứu. Fullsuite162PASS, valexact, localrestore36SHA. Các mô tả pending/preparation phía dưới chỉ là lịch sử.
+
+Đã val reload exact và analyze PASS: primary0.6107752323, constant0.6911010404, delta−0.0803258081; historical13 delta−0.2195866283; added37phone recall0.30. Report artifacts/reports/E003, docs/experiments/E003-results.md và executionREADME đã viết. DVC add/cache restore3outputs/36filesSHA PASS, không remote. Còn final-verification/checksum/link/diff/repo và commit hồ sơ bàn giao; không rerun model. Training run source commit giữ4e206a6, report commit sau không thay identity.
+
+Commit thực thi 4e206a6, clean detached outputs/E003-code.162tests PASS51.460s, preflight PASS. Smoke INTERRUPTEDepoch1/resume FINISHED3epoch. Baseline FINISHED64epoch/best45,29.1987723s; chưa kết luận metric trước val reload. Auto-review hết hạn mức ở lệnh ghi drift/đọc trạng thái, lệnh đó không thực thi; user resume, đọc run thật và tiếp tục val evaluator. Không rerun baseline. Script analyze.py/preflight.py và logs đang untracked, cần kiểm/checksums/bàn giao. Còn validation exact, slices/FPFN/comparison, DVC local restore, results/index/WORKLOG và final diff.
 
 ### Authorization hiện hành ngày 2026-10-08
 
