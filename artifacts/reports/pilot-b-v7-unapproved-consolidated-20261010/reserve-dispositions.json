@@ -1,0 +1,479 @@
+[
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-078",
+    "screening_set": "oi",
+    "screening_id": "V7-OI-SCREEN-063",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      256,
+      0,
+      799,
+      570
+    ],
+    "visual_family_hint": "OI-image-1c20eedd8864fb96",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "c6a9f2aad3f87a4aa40ddee21e9ec5207f5cdb7a3c72e06f9e4423303cee926b",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-079",
+    "screening_set": "oi",
+    "screening_id": "V7-OI-SCREEN-109",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      184,
+      0,
+      507,
+      1024
+    ],
+    "visual_family_hint": "OI-image-0a4694b85a31aa05",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "at_ear",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "b8084594bc4fb88de0bb35179adcfb1e34dedaec8d644e47a27cc7dd7042dbd9",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-080",
+    "screening_set": "oi",
+    "screening_id": "V7-OI-SCREEN-135",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      0,
+      77,
+      549,
+      1024
+    ],
+    "visual_family_hint": "OI-image-001a064f84f98c59",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "1ded78af1a2984598923be165df6480bdf72f73b787198e2935a5dcaf00b3754",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-081",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-010",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      63,
+      0,
+      500,
+      370
+    ],
+    "visual_family_hint": "COCO3-image-535137",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "69bbe6983a21a78065019dad013e0507659d5a6dc5da8b5dac46d2b98cf5053c",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-082",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-018",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      99,
+      53,
+      304,
+      301
+    ],
+    "visual_family_hint": "COCO3-image-263212",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "516a098cb4b4cf6de1f49d49ae9d2022bb87c3c28ad53dae5886485ca103009a",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-083",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-039",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      313,
+      0,
+      640,
+      509
+    ],
+    "visual_family_hint": "COCO3-image-544471",
+    "person_unit_hint": "right-woman",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "732d2d580ecc648556a39c1a4225193a7816b01eed3b1373bbfa3465349b4603",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r3.json",
+    "candidate_id": "V7-B-084",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-045",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      377,
+      24,
+      640,
+      480
+    ],
+    "visual_family_hint": "COCO3-image-325287",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "at_ear",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "ce9ac2a454626969d9bb75ecb16668e9c44530691e4c20bdc1bf53dbf03bd19a",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r4.json",
+    "candidate_id": "V7-C-123",
+    "screening_set": "oi3",
+    "screening_id": "V7-OI-SCREEN-149",
+    "bucket": "C",
+    "role": "positive",
+    "states": [
+      "N",
+      "P"
+    ],
+    "xyxy": [
+      276,
+      122,
+      635,
+      715
+    ],
+    "visual_family_hint": "OI3-image-01933ab305f3311f",
+    "observation": "Nam áo đen trái nhìn phải khỏi own paper,2tay bare; auxiliary meeting.",
+    "phenotypes": [
+      "side_or_forward_head",
+      "own_workarea",
+      "auxiliary_context"
+    ],
+    "person_unit_hint": "left-man",
+    "domain": "auxiliary_out_of_exam",
+    "pair_id": null,
+    "known_evaluation_family": false,
+    "aliases": [],
+    "source_sha256": "e45147df7d20dc460de0bc19b3a59530a5578ac9b3b53b7024599537ce7edc82",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r4.json",
+    "candidate_id": "V7-C-124",
+    "screening_set": "oi3",
+    "screening_id": "V7-OI-SCREEN-187",
+    "bucket": "C",
+    "role": "positive",
+    "states": [
+      "N",
+      "P"
+    ],
+    "xyxy": [
+      364,
+      76,
+      715,
+      500
+    ],
+    "visual_family_hint": "OI3-image-00165e8dabc5a01c",
+    "observation": "Nữ rest-hand-near-face bàn cờ hướng trước ngoài board; own2hands bare, auxiliary attention.",
+    "phenotypes": [
+      "side_or_forward_head",
+      "own_workarea",
+      "rest_hand_near_face"
+    ],
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "pair_id": null,
+    "known_evaluation_family": false,
+    "aliases": [],
+    "source_sha256": "94563de6a97b40bb8f3a6c9f53ebf352601f05773007b5eeda0ce2cc9c6a5dfd",
+    "pilot_source_refs": [
+      "V7-UNAPPROVED-S-022"
+    ],
+    "disposition": "source_recovered_review_only",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r5.json",
+    "candidate_id": "V7-B-081",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-010",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      63,
+      0,
+      500,
+      370
+    ],
+    "visual_family_hint": "COCO3-image-535137",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "69bbe6983a21a78065019dad013e0507659d5a6dc5da8b5dac46d2b98cf5053c",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r5.json",
+    "candidate_id": "V7-B-082",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-018",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      99,
+      53,
+      304,
+      301
+    ],
+    "visual_family_hint": "COCO3-image-263212",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "516a098cb4b4cf6de1f49d49ae9d2022bb87c3c28ad53dae5886485ca103009a",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r5.json",
+    "candidate_id": "V7-B-083",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-039",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      313,
+      0,
+      640,
+      509
+    ],
+    "visual_family_hint": "COCO3-image-544471",
+    "person_unit_hint": "right-woman",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "hand_occlusion",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "732d2d580ecc648556a39c1a4225193a7816b01eed3b1373bbfa3465349b4603",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r5.json",
+    "candidate_id": "V7-B-084",
+    "screening_set": "coco3",
+    "screening_id": "V7-COCO-SCREEN-045",
+    "bucket": "B",
+    "role": "positive",
+    "states": [
+      "P",
+      "U"
+    ],
+    "xyxy": [
+      377,
+      24,
+      640,
+      480
+    ],
+    "visual_family_hint": "COCO3-image-325287",
+    "person_unit_hint": "anchor",
+    "domain": "auxiliary_out_of_exam",
+    "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+    "phenotypes": [
+      "small_or_partial_held_phone",
+      "at_ear",
+      "auxiliary_work_context"
+    ],
+    "pair_id": null,
+    "aliases": [],
+    "known_evaluation_family": false,
+    "source_sha256": "ce9ac2a454626969d9bb75ecb16668e9c44530691e4c20bdc1bf53dbf03bd19a",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  },
+  {
+    "revision": "targeted-reserve-r5.json",
+    "candidate_id": "V7-C-140",
+    "screening_set": "oi4",
+    "screening_id": "V7-OI-SCREEN-180",
+    "bucket": "C",
+    "role": "negative",
+    "states": [
+      "U",
+      "N"
+    ],
+    "xyxy": [
+      593,
+      82,
+      1014,
+      673
+    ],
+    "person_unit_hint": "right-paper-woman",
+    "visual_family_hint": "OI4-image-0b6f8f9f13e23bac",
+    "observation": "Nữ đọc sheet đang cầm, head/page đủ nhưng source low contrast; phone U.",
+    "phenotypes": [
+      "read_write_or_computer_negative",
+      "own_workarea"
+    ],
+    "domain": "auxiliary_out_of_exam",
+    "pair_id": null,
+    "known_evaluation_family": false,
+    "aliases": [],
+    "source_sha256": "b40b961098ae0218ee8434ba5925e6290dfa2e065ef1873a86bc3791f7d29be2",
+    "pilot_source_refs": [],
+    "disposition": "not_restored_after_source_recheck",
+    "reason": "Reserve là đề xuất cũ, không approval. Easy-held-phone auxiliary không tự bù thiếu classroom; giữ source lead nếu có workarea đáng review."
+  }
+]

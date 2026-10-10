@@ -1,0 +1,14 @@
+selection:
+  path: artifacts/reports/pilot-b-v7-r8-execution-20261009/r8-local-selection-r1.json
+  sha256: 9beac9990d9d115df30394c97c891fe97dcf7b8c834c5a6a4a56927d830e2bed
+screenings:
+  local:
+    path: data/interim/pilot-b/v7-r8-local-screening-20261009-r1/screening.jsonl
+    sha256: 403c80632e33864f8ab105d5a6d9361ae80bd302240868062d9b21c791ae0184
+  approved_r5_source:
+    path: data/interim/pilot-b/v7-r8-approved-source-reference-20261009/screening.jsonl
+    sha256: c87693b882feac7e80cc0b1fb7a9a2c36a75b9de7c20d01ede1cbbc964f38ded
+preprocessing:
+  path: configs/experiments/E003.yaml
+  sha256: e080a56dd676bf73cbc5e473a2683de7d13bfbdea406c2e407c725bc4f0424c1
+output: outputs/v7-r8-owner-review-20261009-r1

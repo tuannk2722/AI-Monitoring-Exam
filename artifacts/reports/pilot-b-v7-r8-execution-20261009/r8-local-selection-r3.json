@@ -1,0 +1,237 @@
+{
+  "status": "draft_pending_owner_review",
+  "proposals": [
+    {
+      "sample_id": "V7-R8-B-001",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-003",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        105,
+        0,
+        430,
+        507
+      ],
+      "person_unit_hint": "nam áo đen ngồi bàn, giữ mobile landscape",
+      "visual_family_hint": "R8-DARK-ROOM-SESSION-UNKNOWN",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "phone_low_light",
+        "phone_partial_hand_occlusion"
+      ],
+      "reason": "Mobile nhỏ dạng landscape có thân/screen và ngón tay hai bên, thuộc nam áo đen. Nguồn tối nhưng màn hình còn rõ; gaze/workarea riêng chưa đủ nên looking U. Đây là biến thể low-light/partial cần kiểm224, không desk-phone nằm tự do trên bàn."
+    },
+    {
+      "sample_id": "V7-R8-C-001",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-107",
+      "states": [
+        "N",
+        "P"
+      ],
+      "xyxy": [
+        145,
+        175,
+        325,
+        495
+      ],
+      "person_unit_hint": "nữ kính tiền cảnh áo trắng sọc, bàn xanh",
+      "visual_family_hint": "R8-EXAM-IMG3485-FAMILY-OWNER-PENDING",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "looking_side"
+      ],
+      "reason": "Nữ kính đặt bút và tay trên tờ bài riêng, mặt hướng sang trái ở ngoài tờ bài nằm thấp trước người. Đề xuất looking P theo static semantics; không suy ý định vi phạm. Tay/bàn trong vùng crop không thấy mobile, vật trắng là túi bút, phone N đề xuất."
+    },
+    {
+      "sample_id": "V7-R8-C-002",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-107",
+      "states": [
+        "N",
+        "N"
+      ],
+      "xyxy": [
+        475,
+        235,
+        615,
+        485
+      ],
+      "person_unit_hint": "nam phía phải đang viết trên giấy riêng",
+      "visual_family_hint": "R8-EXAM-IMG3485-FAMILY-OWNER-PENDING",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "matched_looking_negative"
+      ],
+      "reason": "Nam áo trắng sọc phía phải cúi nhìn tờ giấy mình đang viết; đầu, hai tay và vùng bài được giữ. Không thấy mobile ở vùng tay/bàn quan sát. Đề xuất N/N, là looking negative cùng ảnh/camera với nữ C001."
+    },
+    {
+      "sample_id": "V7-R8-C-003",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-152",
+      "states": [
+        "U",
+        "P"
+      ],
+      "xyxy": [
+        165,
+        170,
+        340,
+        450
+      ],
+      "person_unit_hint": "nam áo xanh trắng tiền cảnh giữa quay lại phía giáo viên",
+      "visual_family_hint": "PARENT-TRAIN-PB-G-7adf3e797f0d4d4978d9",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "looking_side",
+        "instruction_context"
+      ],
+      "reason": "Nam giữ bút cạnh bài riêng và quay đầu rõ về người/giáo viên phía sau trái, ngoài vùng bài trước tay. Đề xuất looking P theo ADR012, không gọi hành vi này là gian lận; phone U do ngữ cảnh tay/bàn chồng lấn. Scene18 đã có trong R7/parent train, không nhóm mới."
+    },
+    {
+      "sample_id": "V7-R8-C-004",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-152",
+      "states": [
+        "U",
+        "N"
+      ],
+      "xyxy": [
+        145,
+        160,
+        240,
+        320
+      ],
+      "person_unit_hint": "nữ áo xanh trắng tóc buộc, bên trái nam C003, đang viết trên bài riêng",
+      "visual_family_hint": "PARENT-TRAIN-PB-G-7adf3e797f0d4d4978d9",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "matched_looking_negative"
+      ],
+      "reason": "Anchor mới là nữ tóc buộc phía trái, giữ đầu, bút, hai tay và trang riêng; mắt/mặt hướng xuống vùng đang viết nên looking N đề xuất. Phone U do vùng bàn không quan sát đầy đủ. Loại anchor nữ kính của R1/R2 vì người đó nhìn sang trái về giáo viên, không đủ cho looking N. Negative cùng ảnh C003; không nhóm mới."
+    },
+    {
+      "sample_id": "V7-R8-C-005",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-155",
+      "states": [
+        "U",
+        "P"
+      ],
+      "xyxy": [
+        1230,
+        555,
+        1535,
+        910
+      ],
+      "person_unit_hint": "nam áo đỏ đen hàng giữa bên phải, giơ tay và nhìn sang trái",
+      "visual_family_hint": "PARENT-TRAIN-PB-G-f0b75b5ac12d58228355",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "looking_side",
+        "instruction_context"
+      ],
+      "reason": "Nam áo đỏ đen bên phải có tờ bài riêng ở phía trước, mặt quay sang trái ngoài vùng bài; đề xuất looking P theo static semantics, dù đang tham gia hoạt động lớp. Phone U. Scene130 đã có trong R7/parent train, không independent group gain."
+    },
+    {
+      "sample_id": "V7-R8-C-006",
+      "screening_set": "local",
+      "screening_id": "V7-R8-SCREEN-155",
+      "states": [
+        "U",
+        "N"
+      ],
+      "xyxy": [
+        530,
+        460,
+        815,
+        790
+      ],
+      "person_unit_hint": "nam áo đỏ đen hàng giữa phía trái đang cúi viết",
+      "visual_family_hint": "PARENT-TRAIN-PB-G-f0b75b5ac12d58228355",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "own_paper_visible",
+        "matched_looking_negative"
+      ],
+      "reason": "Nam áo đỏ đen nhìn xuống bài trước tay, giữ đầu/bút/trang. Đề xuất looking N, phone U do occlusion. Đây là negative cùng ảnh với C005, không suy BowHead annotation thành N mà dựa own page vừa xem."
+    },
+    {
+      "sample_id": "V7-R8-D-001",
+      "screening_set": "approved_r5_source",
+      "screening_id": "V7-D-026",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        105,
+        20,
+        315,
+        500
+      ],
+      "person_unit_hint": "nam teacher áo vest cầm own mobile thấp",
+      "visual_family_hint": "R8-SAME-SOURCE-APPROVED-V7-D-026",
+      "domain": "classroom_or_exam_context",
+      "phenotypes": [
+        "crowded_ownership",
+        "phone_small_partial"
+      ],
+      "reason": "Nam teacher giữ mobile đen thấp ở tay; phone này không thuộc nữ áo sọc đang viết. Phone P proposal theo source/feedback owner về ownership; looking U vì own workarea chưa đủ. Crop mới/phone nhỏ tại224 cần review. Pair phone P/N cùng ảnh với nữ V7-D-026 N/N đã được owner nghiệm thu; không lặp thêm crop nữ."
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "V7-R8-PAIR-001",
+      "positive_id": "V7-R8-C-001",
+      "negative_id": "V7-R8-C-002",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Hai anchor và bài riêng trong đúng source107/camera; gaze khác nhau.",
+      "owner_approved": false,
+      "independent_group_gain": 0
+    },
+    {
+      "pair_id": "V7-R8-PAIR-002",
+      "positive_id": "V7-R8-C-003",
+      "negative_id": "V7-R8-C-004",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Cùng source152, mỗi anchor có trang riêng; scene18 parent train đã dùng.",
+      "owner_approved": false,
+      "independent_group_gain": 0
+    },
+    {
+      "pair_id": "V7-R8-PAIR-003",
+      "positive_id": "V7-R8-C-005",
+      "negative_id": "V7-R8-C-006",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Cùng source155, own page mỗi người; scene130 parent train đã dùng.",
+      "owner_approved": false,
+      "independent_group_gain": 0
+    },
+    {
+      "pair_id": "V7-R8-PAIR-004",
+      "positive_id": "V7-R8-D-001",
+      "negative_id": "V7-D-026",
+      "target": "phone_use",
+      "match_strength": "same_image",
+      "matching_basis": "Teacher sở hữu phone, nữ viết không sở hữu phone đó; negative nằm trong approved R5, không đếm lại crop.",
+      "negative_review_pointer": "artifacts/reports/pilot-b-v7-audit-r8-20261009/review-pointer-final.json",
+      "negative_approval": "artifacts/reports/pilot-b-v7-r8-execution-20261009/owner-approval.json",
+      "owner_approved": false,
+      "independent_group_gain": 0
+    }
+  ],
+  "desk_phone_training_proposal_yield": 0,
+  "note": "Green-chair desk-phone positive bị quarantine bởi RF-GREEN validation boundary; purple device022 chưa xác minh. Không refill bằng easy public negatives. Các crop mới chưa được approval R5 bao phủ."
+}

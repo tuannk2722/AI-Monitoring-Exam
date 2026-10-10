@@ -1,0 +1,18 @@
+{
+  "status": "owner_approved_local_direction_and_release_preparation",
+  "owner": "repository-owner",
+  "date": "2026-10-10",
+  "owner_message_verbatim": "Duy?t h??ng v7 local; ti?p t?c ki?m ?i?u ki?n v? chu?n b? release",
+  "approved_proposal": {
+    "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/membership-split-next-proposal.json",
+    "sha256": "e5bf1be6a4483f40cc34690810a8749791df9060c6a2920df4ae5646769ae74f"
+  },
+  "crop_review": {
+    "path": "outputs/v7-owner-execution-20261010-r3/REVIEW.md",
+    "sha256": "86eb1c46373771d412c017d288be5379862bc853135ce4f2c05c62fd6931a13c"
+  },
+  "scope": "Ki?m rights/lineage/whole-family v? chu?n b? release local theo ph??ng ?n694/49/11 c? ?i?u ki?n; d? li?u kh?ng ??t gate ???c gi? ngo?i assignment s? d?ng.",
+  "release_acceptance_signed": false,
+  "training_run_approved": false,
+  "unknown_independence_not_inferred": true
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "owner_items": 125,
+  "explicit_feedback": 51,
+  "default_approve": 74,
+  "existing_crops_byte_preserved": 29,
+  "owner_label_unknown_correction": "V7-R8-C-005",
+  "new_crop_proposals": 99,
+  "source_reserve": 14,
+  "media_assets_sha_decode_verified": 512,
+  "native224_verified": 128,
+  "crop_pixel_duplicates": 0,
+  "staging_ledger_byte_identical": true,
+  "all_output_staging_seals_pass": true,
+  "markdown_image_links_verified": 150,
+  "whole_family_checks_pass": true,
+  "must_link_components": 76,
+  "pool_crops": 402,
+  "pool_whole_components": 308,
+  "pool_states": {
+    "P/U": 109,
+    "P/P": 20,
+    "P/N": 13,
+    "N/N": 80,
+    "N/P": 10,
+    "N/U": 7,
+    "U/U": 21,
+    "U/P": 68,
+    "U/N": 74
+  },
+  "pool_eligibility": {
+    "conditional_pending_group_rights_input224_QA": 285,
+    "quarantine_no_train_evaluation_family": 1,
+    "review_only_all_unknown": 21,
+    "new_crop_final_annotation_review_pending": 95
+  },
+  "known_execution_crops": 123,
+  "fully_known_execution_crops": 54,
+  "owner_exact_crop_approved_in_full_pool": 303,
+  "visual_qa": "12sourceboards;7nativeR1boards128input;6nativeR2boards99new+approved7;R3only3unknownstatecorrections, pixelsunchanged. R3 native02/04/06 reviewed.",
+  "full_tests": 253,
+  "ruff_src_tests_scripts": "PASS",
+  "mypy_new_module": "PASS",
+  "test_media_read": false,
+  "training_started": false,
+  "independent_groups_proven": 0,
+  "html_files_created": 0,
+  "pins": [
+    {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/owner-approval.json",
+      "sha256": "288cf6011b74da421a491fb4a6852578f4b7282d53c1b31470875c264afb273f"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/owner-reviewed-input.md",
+      "sha256": "b6916f714d614f8a89e436e7eade4e018a2ca8055efcf07c3a05b6f2bf05af2f"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/crop-plan-r3.json",
+      "sha256": "5a2c9e34757dbdca1b279660821def844180593107be896d9ae10352c3aa922d"
+    },
+    {
+      "path": "configs/datasets/pilot_b_v7_owner_execution_r3_20261010.yaml",
+      "sha256": "2cfb8946fcabf812cd32cbada8e83f90e18964638c1a2c10c9502a163eb7950c"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/checksums.sha256",
+      "sha256": "27698d96f5fcf3c3b89faece30d89de24456d996cdde67bfce23c04a75a7a6f6"
+    },
+    {
+      "path": "data/interim/pilot-b/v7-owner-staging-20261010-r3/checksums.sha256",
+      "sha256": "a24ad28aeb85d344806f826909f4e868e9057a1acce757b628cc37fa14155936"
+    }
+  ],
+  "repository_check": "PASS",
+  "git_diff_check": "PASS"
+}

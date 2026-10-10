@@ -1,0 +1,4150 @@
+[
+  {
+    "component_id": "V7-PREP-COMP-001",
+    "sample_ids": [
+      "V7-A-001"
+    ],
+    "source_sha256": [
+      "2a46538ed80db512f2323f769baf4c9787ddcb032b34f3f9b3ae59ee97a78203"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-002",
+    "sample_ids": [
+      "V7-A-003"
+    ],
+    "source_sha256": [
+      "d083d80696c1a371a4ae918d00b00bb1ef7d6c9f29778626cb0f6e42f9400225"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-003",
+    "sample_ids": [
+      "V7-A-005"
+    ],
+    "source_sha256": [
+      "b616805e8c13ee9781384aee8511ce7a55c1569aee01cc91b7bdeaa9d7f089ed"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-004",
+    "sample_ids": [
+      "V7-A-007"
+    ],
+    "source_sha256": [
+      "952ea52e86c922c4ce3309d5d7fd335079fccbc0309c311d40d189b6480a449c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-005",
+    "sample_ids": [
+      "V7-A-009"
+    ],
+    "source_sha256": [
+      "2055b01521e9d2c49ffa1116f8ba9c0c86e087f9668cd4ddbc94fee7b7578496"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-006",
+    "sample_ids": [
+      "V7-A-011"
+    ],
+    "source_sha256": [
+      "8ed163d5ebb7c73bd5511083adda71dfd55245578a59525fa846dded1bb23179"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-007",
+    "sample_ids": [
+      "V7-A-013"
+    ],
+    "source_sha256": [
+      "35e2fac28ff898944adc2f64660a2814a63efa91b4db364d47c16fc85da20723"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-008",
+    "sample_ids": [
+      "V7-A-015"
+    ],
+    "source_sha256": [
+      "f1e220f0b8668fa0b678a45942bad321b820d2e57f62eb0dff6db8fbff96acbc"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-009",
+    "sample_ids": [
+      "V7-A-017"
+    ],
+    "source_sha256": [
+      "9e22e57846fe06b2f1f64f470da71c7790b492c6680851e7858557c08753ddc2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-010",
+    "sample_ids": [
+      "V7-A-023"
+    ],
+    "source_sha256": [
+      "c30c7f7d3e7edc91957de478b42971d397ef56a7f783366542c18b7726022d27"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-011",
+    "sample_ids": [
+      "V7-A-025"
+    ],
+    "source_sha256": [
+      "04242e2886583db48b961616cd62af0acec3d2b3e28fa0660fe5f74f46a4fcc4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-012",
+    "sample_ids": [
+      "V7-A-027"
+    ],
+    "source_sha256": [
+      "b90975d5ecf6292a592de3252539b125d9aa468525c45d72b850701e05a46f7d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-013",
+    "sample_ids": [
+      "V7-A-029"
+    ],
+    "source_sha256": [
+      "577b2e2667a9cf54c11d2fc729f9d4304406c63ca591f96254931a9f89a1da8d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-014",
+    "sample_ids": [
+      "V7-A-031"
+    ],
+    "source_sha256": [
+      "2eb9a7a89120dfd9cdcf8469c1a04be6871cd52d2a60a98723368aee284b3077"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-015",
+    "sample_ids": [
+      "V7-A-035",
+      "V7-B-053"
+    ],
+    "source_sha256": [
+      "ec577bc3b2a2d539af2de972536c5efe31c717ba5b0e9c61319ab97369f20f40"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-016",
+    "sample_ids": [
+      "V7-A-036"
+    ],
+    "source_sha256": [
+      "f6cc4ca78476c4956c6ae60b8fc794f1ecf845a1097d57415b515b8a2e3b914a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-017",
+    "sample_ids": [
+      "V7-A-037"
+    ],
+    "source_sha256": [
+      "23c0ec07387f45e308a6432cec96d1722e9762959ccb2f2f569eb140ee96418d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-018",
+    "sample_ids": [
+      "V7-A-038"
+    ],
+    "source_sha256": [
+      "14e4455ca4bbf44d1cf94d05688d8f9a77521547b80eeec539f3455ea20b0b03"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-019",
+    "sample_ids": [
+      "V7-A-040"
+    ],
+    "source_sha256": [
+      "8f04c17ac32f5ba01373d58517ea6c79b431f5a2fa9fd9d4b27285af3369d298"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-020",
+    "sample_ids": [
+      "V7-A-042",
+      "V7-B-059",
+      "V7-D-018"
+    ],
+    "source_sha256": [
+      "64b0c6d410e446c308ce69dcad09fbaf284b125a714e507a210f1517d893ce37"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-021",
+    "sample_ids": [
+      "V7-A-056",
+      "V7-D-042"
+    ],
+    "source_sha256": [
+      "25388e727cd6572a2fb145c4ced6c3af7e5ea89bd4bcc0db12ea446f6f20a7a8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-022",
+    "sample_ids": [
+      "V7-A-057"
+    ],
+    "source_sha256": [
+      "4f5e36be1e4d04cfff6c5565eed398de7ed3d20a645a1eca96af8af8447ec0d3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-023",
+    "sample_ids": [
+      "V7-A-058"
+    ],
+    "source_sha256": [
+      "60ab1252772a8395e244e8f9f5c945183660cb94da710e63a201184e8cb8dc1e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-024",
+    "sample_ids": [
+      "V7-A-062"
+    ],
+    "source_sha256": [
+      "9c482eb2b7c5ad7ce9c0dfa6f3126044f780364d7a4dd6f842acd10facb8c9cb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-025",
+    "sample_ids": [
+      "V7-A-002"
+    ],
+    "source_sha256": [
+      "59344c4f3cd1219476910426b2313100b16587ff5c9dd9d5859213f9017ab967"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-026",
+    "sample_ids": [
+      "V7-A-068"
+    ],
+    "source_sha256": [
+      "00eefa8b2afef7ea481648fe665f0dd116c1e7a8ef8da2a4b2fc98bbe0c78988"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-027",
+    "sample_ids": [
+      "V7-A-069"
+    ],
+    "source_sha256": [
+      "19e93d78c08a7adfe887dca895f5822b13e4e20861c1ba0792e2bec3a76285e7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-028",
+    "sample_ids": [
+      "V7-A-070"
+    ],
+    "source_sha256": [
+      "5fcbb4a70f1509679d37ff9504614518f28bc15945d3edd1f8011425ff4e4d63"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-029",
+    "sample_ids": [
+      "V7-A-071"
+    ],
+    "source_sha256": [
+      "e6d82dda25f66502283b60587f88e19d87a90e0ceaf4b82d94263ca85b36d62d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-030",
+    "sample_ids": [
+      "V7-A-072",
+      "V7-D-050"
+    ],
+    "source_sha256": [
+      "d4eee505c064c435c2349aa43aafbb52c194785e2c85057efd1d216a4c1105ef"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-031",
+    "sample_ids": [
+      "V7-A-073",
+      "V7-D-057",
+      "V7-C-144"
+    ],
+    "source_sha256": [
+      "bed0210327fdf5bb38f1f7320ed64099549cecfbf84289ade366fe352396a48f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-032",
+    "sample_ids": [
+      "V7-A-074"
+    ],
+    "source_sha256": [
+      "05654392821a2417767fed1f54f290c9aa04c46a49f6dd33c6f045d364f31006"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-033",
+    "sample_ids": [
+      "V7-A-061"
+    ],
+    "source_sha256": [
+      "66f995f502af4ba94351227b321531720e27ec6fb120d0625633254f9be091a4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-034",
+    "sample_ids": [
+      "V7-A-004"
+    ],
+    "source_sha256": [
+      "a5bfbaab2d32f281a7b8f94a47ede462f413c3cdb39eb0480231ddf652e46459"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-035",
+    "sample_ids": [
+      "V7-A-006"
+    ],
+    "source_sha256": [
+      "ad9b9b377df298f6732dd93399a6788dfbebe535a6abe556649836d4ad6cbb10"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-036",
+    "sample_ids": [
+      "V7-A-008"
+    ],
+    "source_sha256": [
+      "6cadb2ef3d1b175639d6e69f249509dd00b67117f78ef861ce82bb625938f433"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-037",
+    "sample_ids": [
+      "V7-A-014"
+    ],
+    "source_sha256": [
+      "e1c18333c239f0bbfc02b822d81ce776d82d3bfd8f24b0222c469b1bdda63fdf"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-038",
+    "sample_ids": [
+      "V7-A-022"
+    ],
+    "source_sha256": [
+      "0fae0ff11644c42475511ddb1430acbfb90d34fbe24a09c80c4a236d556e751c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-039",
+    "sample_ids": [
+      "V7-A-026"
+    ],
+    "source_sha256": [
+      "559e19c87b4b7827c2d4ade80682327a020f1bbb7c35b5392d2aeca3682fcc36"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-040",
+    "sample_ids": [
+      "V7-A-028"
+    ],
+    "source_sha256": [
+      "ac09e45a72d701cf112fbbbaa03125bac26f169cee34d36474d462744c3d1695"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-041",
+    "sample_ids": [
+      "V7-A-030"
+    ],
+    "source_sha256": [
+      "a5337298cfc0310a9cdb9391b516a249e5f6cb5245c152501eb0e10a73dbd408"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-042",
+    "sample_ids": [
+      "V7-A-032"
+    ],
+    "source_sha256": [
+      "200bdcc60c7bb281c901115970a029a08d72b92af164655fc44987ce233972ca"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-043",
+    "sample_ids": [
+      "V7-A-034"
+    ],
+    "source_sha256": [
+      "e1f06615ae861fe41c06ad90dae7221b0912ca3fac81761c5311d1759927e9b1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-044",
+    "sample_ids": [
+      "V7-A-043"
+    ],
+    "source_sha256": [
+      "0b60cb16fab1bc387687c2669c863a19e4cf71cd7b30dc69c1da9fc62b0d7971"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-045",
+    "sample_ids": [
+      "V7-A-046"
+    ],
+    "source_sha256": [
+      "da7ab470c551e08f48f2c76a1ec5e7f5b8315e17cf32471ac7aede00655a19fd"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-046",
+    "sample_ids": [
+      "V7-A-047"
+    ],
+    "source_sha256": [
+      "5b84156355f9f03133be581f3f741d574bf53c0ca1433ad52a5c4db98315e233"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-047",
+    "sample_ids": [
+      "V7-A-049"
+    ],
+    "source_sha256": [
+      "48032e56a97de7f83bb3dfc0ed26d94dfc39cfe28a11e7948678b2eb767149a1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-048",
+    "sample_ids": [
+      "V7-A-051"
+    ],
+    "source_sha256": [
+      "d4e8ab89d7af0cd6eadc38f220c01bb6ecf92f8c114a4a27d5a27a3e707c83f8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-049",
+    "sample_ids": [
+      "V7-A-052"
+    ],
+    "source_sha256": [
+      "fb1e814530257c04adf450ac01b951fa64b8532707a2ebbceafc31c3318117e3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-050",
+    "sample_ids": [
+      "V7-A-053"
+    ],
+    "source_sha256": [
+      "4feef045512e97d36b9e6a7a3f4695111fb7350b618278f5d7e1e607228dd4e5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-051",
+    "sample_ids": [
+      "V7-A-054"
+    ],
+    "source_sha256": [
+      "ae4d7bedbff8d7e1c49d9c021263f7ac64dc88d845fd8bcad2e14f43ed07eac5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-052",
+    "sample_ids": [
+      "V7-A-064"
+    ],
+    "source_sha256": [
+      "5dffcef31e3705b30e47fe8ad0b3f210d243eb0c4e6a6f462d797cbd08f38aa7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-053",
+    "sample_ids": [
+      "V7-A-065"
+    ],
+    "source_sha256": [
+      "78811b421da939298e21d1453a2c6900966ed6934bd3f640c13fb4f343486c5b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-054",
+    "sample_ids": [
+      "V7-A-066"
+    ],
+    "source_sha256": [
+      "07f5ac8bb3226afb6f7dffa1989eb73b6d4461474a554492fab052b60a50576a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-055",
+    "sample_ids": [
+      "V7-A-067"
+    ],
+    "source_sha256": [
+      "02b913ecb7bb60cb4c1a9775a8cdf8f369b9fc6666ecc2f49cda39251d0998e2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-056",
+    "sample_ids": [
+      "V7-A-075",
+      "V7-C-143"
+    ],
+    "source_sha256": [
+      "62f1581a90ed6ebbcef7c6dc0c399b962b943e12a5f7f1a26a2bb004ea84b6a4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-057",
+    "sample_ids": [
+      "V7-A-076"
+    ],
+    "source_sha256": [
+      "a2f7607ac0ff9ae153772fe1eb38b5097f6e0772cebc0920a18a4738c45c02fb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-058",
+    "sample_ids": [
+      "V7-B-001",
+      "V7-D-021"
+    ],
+    "source_sha256": [
+      "45f834a5e58f310901fd252ac25fe566d6c602ca8bc213d313e73f900393af8b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-059",
+    "sample_ids": [
+      "V7-B-003",
+      "V7-D-022"
+    ],
+    "source_sha256": [
+      "c55b06209b31a2a6549d548538f356ee5aae5f3e23ccc898933599260de18fd5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-060",
+    "sample_ids": [
+      "V7-B-005"
+    ],
+    "source_sha256": [
+      "deadbc463506465e55cfd309d79633f21c8864e0f991c6c9020d83a60efaaed9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-061",
+    "sample_ids": [
+      "V7-B-007"
+    ],
+    "source_sha256": [
+      "7ae5fa4c39615b285f0bc4f8670980b21bd01b204d5f1c167d1757dc99ea477a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-062",
+    "sample_ids": [
+      "V7-B-009"
+    ],
+    "source_sha256": [
+      "3a255742103f477813b3c3b5bba467b1cb9f4c4158dea18efb197ee59c257ffc"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-063",
+    "sample_ids": [
+      "V7-B-011"
+    ],
+    "source_sha256": [
+      "59bace6d0207ee5d1c91d973542e13a4c28260429e9e6c8484a02815894c0578"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-064",
+    "sample_ids": [
+      "V7-B-013",
+      "V7-D-023"
+    ],
+    "source_sha256": [
+      "97114741bac9309d0695973ea98b6f11bf30cc9fc596ee8c5492b13204dfe09c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-065",
+    "sample_ids": [
+      "V7-B-015"
+    ],
+    "source_sha256": [
+      "13b0d8a1428e05b9280d3c1cb86caf2e1ecff5aafb63dd4d66aa33d73cdee0e2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-066",
+    "sample_ids": [
+      "V7-B-017"
+    ],
+    "source_sha256": [
+      "94ea32f784b1d41ea9cc5c59220cd4c3c6266eec4476e341b86dde002493ff6c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-067",
+    "sample_ids": [
+      "V7-B-019"
+    ],
+    "source_sha256": [
+      "59605e2e21dfd7e3fe23d580243d3630e9d1619edc6b534ba052c1c1065c8029"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-068",
+    "sample_ids": [
+      "V7-B-021"
+    ],
+    "source_sha256": [
+      "21b0ea8c1841777fe1d6f23caa3ada7da40cf7f2e66703a5ddf96baf63682c85"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-069",
+    "sample_ids": [
+      "V7-B-023",
+      "V7-D-025"
+    ],
+    "source_sha256": [
+      "5aa06321cda54963520838fa416b6bdd854c9d4e10567a186d721afb69a141a4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-070",
+    "sample_ids": [
+      "V7-B-025"
+    ],
+    "source_sha256": [
+      "109cc54a5420bc5171983552284d1c51baece3c3bbee5cea9bec0b9ef27ad218"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-071",
+    "sample_ids": [
+      "V7-B-027"
+    ],
+    "source_sha256": [
+      "3f8bfd7248f513b1e1ef31eeccf626afb99b7b03148cee8f37b10cb39ba3d86f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-072",
+    "sample_ids": [
+      "V7-B-029"
+    ],
+    "source_sha256": [
+      "0975e8143bb9d0de5c826cd9a46289afeaae90c8fc8a93ce0fb5b8f052498a2d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-073",
+    "sample_ids": [
+      "V7-B-031"
+    ],
+    "source_sha256": [
+      "2dd0b0a7f71b1b5e466ba7f800fc8a91d29bdd4c38b9ef9b01046cfa6477cbf5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-074",
+    "sample_ids": [
+      "V7-B-035"
+    ],
+    "source_sha256": [
+      "279f8a905e6051287afbfa407b0eb88336761e6fe558c94ae245fc2b052c3a57"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-075",
+    "sample_ids": [
+      "V7-B-039",
+      "V7-B-040",
+      "V7-B-089"
+    ],
+    "source_sha256": [
+      "719e71d7c566639cecd558fd8ced12e3401ff2ef11077d2d7cbd9ab01ee0998e",
+      "9c14ca041432292448a9a37232b9ca25f1ff7592e1d0c10ebbcd47a5009b7f15"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-076",
+    "sample_ids": [
+      "V7-B-041"
+    ],
+    "source_sha256": [
+      "a05aec47a443aa3da194c308394f8f17f9cfa0af310d59c48d5bb1a60393ea19"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-077",
+    "sample_ids": [
+      "V7-B-043"
+    ],
+    "source_sha256": [
+      "9948573552144bfa3fabb559df0b53993887663b2e7d3d9e7fe8a6e118abf935"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-078",
+    "sample_ids": [
+      "V7-B-047"
+    ],
+    "source_sha256": [
+      "8d1d0026b90449d58f79ab03247551c33cb028a51ec11d1af0b97fd61c4312de"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-079",
+    "sample_ids": [
+      "V7-B-049",
+      "V7-D-027"
+    ],
+    "source_sha256": [
+      "02fc577a55539b2f8fcc18b61351b8e6ef59e6383578db71b485dcd49eee4e17"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-080",
+    "sample_ids": [
+      "V7-B-051",
+      "V7-D-015"
+    ],
+    "source_sha256": [
+      "5f3160b8b089ac9fc7f0e446d20659ddfb974660eed186d2aca174fd7fd4edc3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-081",
+    "sample_ids": [
+      "V7-B-055",
+      "V7-D-017"
+    ],
+    "source_sha256": [
+      "b7527febd40f8e9705d15071297f71e55057472b8886694743ea336eefb1aabe"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-082",
+    "sample_ids": [
+      "V7-B-057"
+    ],
+    "source_sha256": [
+      "b1af8c194f1ee89bdbc9f09307dcef9f1b24a05841b8c6557051a445b8b8e2d8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-083",
+    "sample_ids": [
+      "V7-B-061"
+    ],
+    "source_sha256": [
+      "5044040d99285092ee371fbaf99f4eb19b02bf3ac2db15a84e3743a101b2321b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-084",
+    "sample_ids": [
+      "V7-B-063"
+    ],
+    "source_sha256": [
+      "3b6a9f2125f4b064990c99be293ab5c195be1de9e222408ede8937b3e0cb15c5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-085",
+    "sample_ids": [
+      "V7-B-065"
+    ],
+    "source_sha256": [
+      "d2a549b0fc9eb2ab7af8c035c4d33e94a7550ff65f1f28d590e8bacd861225da"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-086",
+    "sample_ids": [
+      "V7-B-067"
+    ],
+    "source_sha256": [
+      "e7e32ed1c42c6df9a87c773de25e744c3f81bb844b8106cb8bb49c3c05720503"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-087",
+    "sample_ids": [
+      "V7-B-069"
+    ],
+    "source_sha256": [
+      "dfc3dbff3d1156fbb3a6935c927482d92d87d3ac8ed6b810b7761d6e71673685"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-088",
+    "sample_ids": [
+      "V7-B-071"
+    ],
+    "source_sha256": [
+      "393e3da27116f09bd2ab556d15018f858847794cf543893821000fe3e34db674"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-089",
+    "sample_ids": [
+      "V7-B-073"
+    ],
+    "source_sha256": [
+      "c7554c85b76087157e0c24153483c50d13eeab457f876a82ce2e3629d8da1ab4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-090",
+    "sample_ids": [
+      "V7-B-074"
+    ],
+    "source_sha256": [
+      "2535dff513a6fe0a7b853e8cfe61a04699eed08bfab8a90a0172da43e50429b0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-091",
+    "sample_ids": [
+      "V7-B-076"
+    ],
+    "source_sha256": [
+      "e1b2be025fbffd4d6d8dfa6982ad9748e5e82e097e5af5d0bc42b6caf8eb3188"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-092",
+    "sample_ids": [
+      "V7-B-077"
+    ],
+    "source_sha256": [
+      "19317ab06a21e1ffb513771ce08b16f94b28a4cf1d855f2d619588ab3b001b78"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-093",
+    "sample_ids": [
+      "V7-B-078"
+    ],
+    "source_sha256": [
+      "c6a9f2aad3f87a4aa40ddee21e9ec5207f5cdb7a3c72e06f9e4423303cee926b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-094",
+    "sample_ids": [
+      "V7-B-079"
+    ],
+    "source_sha256": [
+      "b8084594bc4fb88de0bb35179adcfb1e34dedaec8d644e47a27cc7dd7042dbd9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-095",
+    "sample_ids": [
+      "V7-B-080"
+    ],
+    "source_sha256": [
+      "1ded78af1a2984598923be165df6480bdf72f73b787198e2935a5dcaf00b3754"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-096",
+    "sample_ids": [
+      "V7-B-002",
+      "V7-B-048"
+    ],
+    "source_sha256": [
+      "9fceb11cd4fadcd633a42cde57c0f838e5c7969cd04c1d5c6a2568dfa04749e4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-097",
+    "sample_ids": [
+      "V7-B-010",
+      "V7-B-090"
+    ],
+    "source_sha256": [
+      "9153086ef06b396e1ea6e694902ec6d2b7b7cf57c3fd3655d5f7cf2f8e6a4f0b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-098",
+    "sample_ids": [
+      "V7-B-016",
+      "V7-B-062"
+    ],
+    "source_sha256": [
+      "e6ac464e9445f586bcd60e407edb9fa896338f50ba15dbd90dd6aaba2e019dec"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-099",
+    "sample_ids": [
+      "V7-B-018"
+    ],
+    "source_sha256": [
+      "8c7303936593f23f52d07d80e05030de5649487e5909d36ee23793ec3853972f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-100",
+    "sample_ids": [
+      "V7-B-020",
+      "V7-B-066"
+    ],
+    "source_sha256": [
+      "d73d05d0219a4933d62a1234cce4a789758819f53985ed48fea56afd530bcce5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-101",
+    "sample_ids": [
+      "V7-B-022"
+    ],
+    "source_sha256": [
+      "4766f7a8da9526dd9c4d306976255829245cbf08878e3d59649024ac27e14611"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-102",
+    "sample_ids": [
+      "V7-B-024"
+    ],
+    "source_sha256": [
+      "5c6fa3a98616b7e948a13b7cadcea820f06de7a877d73c566ffbee64d35f3351"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-103",
+    "sample_ids": [
+      "V7-B-026"
+    ],
+    "source_sha256": [
+      "f30009cd3d0fb00aaa0ce075a27a3d9a95e7d3abc6434b305b839a6ea41f0bf9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-104",
+    "sample_ids": [
+      "V7-B-028"
+    ],
+    "source_sha256": [
+      "27e956cc9d78ae52722b90e4c196c3dd15ba07e834e31cbf870b7c137de8ebdd"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-105",
+    "sample_ids": [
+      "V7-B-030"
+    ],
+    "source_sha256": [
+      "f0bab2e026f41e3fa2c955557898bf4d508bb8bd4561dbd6deabd0c12cff891e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-106",
+    "sample_ids": [
+      "V7-B-032"
+    ],
+    "source_sha256": [
+      "816c0eef1c9dd1a7bd32fa72e345de0b7de54cdcf3224f9676145896c594ce5c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-107",
+    "sample_ids": [
+      "V7-B-034"
+    ],
+    "source_sha256": [
+      "76ac07f70d36dc85d46d6c5483e526d5b5e6e64281ee5d67a15203ec1dffe8ba"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-108",
+    "sample_ids": [
+      "V7-B-042"
+    ],
+    "source_sha256": [
+      "a575de80801e2e4f475dbdbc33607107b6788470333d08928fb0d064071689ec"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-109",
+    "sample_ids": [
+      "V7-B-046"
+    ],
+    "source_sha256": [
+      "2ea310bd753139766c2f695a4d60d26dae275c4e2603721c1ed0c698c7b7a6c0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-110",
+    "sample_ids": [
+      "V7-B-086"
+    ],
+    "source_sha256": [
+      "624878ddccf1677cfe5ecf169e02d4d3e790305b148c674999068010813f44e9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-111",
+    "sample_ids": [
+      "V7-B-087"
+    ],
+    "source_sha256": [
+      "732d2d580ecc648556a39c1a4225193a7816b01eed3b1373bbfa3465349b4603"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-112",
+    "sample_ids": [
+      "V7-B-092"
+    ],
+    "source_sha256": [
+      "3e6d209dd2b4de6e66ef02295319ba2da5e33332f7f5982dc148bf3db4c60c44"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-113",
+    "sample_ids": [
+      "V7-B-093"
+    ],
+    "source_sha256": [
+      "c256199f8a780ce8e5fd991d4a1b10d8311708b11aab61d3db2fb5b3fe07f6a3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-114",
+    "sample_ids": [
+      "V7-B-094"
+    ],
+    "source_sha256": [
+      "3de647cc6b7910bbaf05e4cb303fe57871f663bab00275f81ad15bc38c7884c6"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-115",
+    "sample_ids": [
+      "V7-B-096"
+    ],
+    "source_sha256": [
+      "b3511c60e8899ed04f98bc8d55f7fb9fd25146fb94be979361fb9763b784b7f4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-116",
+    "sample_ids": [
+      "V7-B-097"
+    ],
+    "source_sha256": [
+      "8e06bf3fb2608a0d0422f9248d8ba17d1f91f1d4924d0c66b995faa2ddca3561"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-117",
+    "sample_ids": [
+      "V7-B-098"
+    ],
+    "source_sha256": [
+      "f4da8b5974c90c7c6a8d06f6b81562a1796a43179c3507215dad893c5818c07a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-118",
+    "sample_ids": [
+      "V7-B-099"
+    ],
+    "source_sha256": [
+      "883432768aec8510ece77830f139ba4c57af7dd24cb2e3d6b631183952efab84"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-119",
+    "sample_ids": [
+      "V7-B-100"
+    ],
+    "source_sha256": [
+      "72a1c6d611db4cd640ae14e1e68c892af80380c3988cadd6df8f59582f1035ef"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-120",
+    "sample_ids": [
+      "V7-B-101"
+    ],
+    "source_sha256": [
+      "1c61064d5435b95e73423455abff2006288ffd19d900e060b4de13614a1aff3a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-121",
+    "sample_ids": [
+      "V7-B-102",
+      "V7-C-131"
+    ],
+    "source_sha256": [
+      "6e562a2102356794fbce6495bb2316685c2267431b6c8e2dbad543938a4f6a50"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-122",
+    "sample_ids": [
+      "V7-B-103"
+    ],
+    "source_sha256": [
+      "fbea77114a248ab165f462a2aeffb4f47210a2d6e33acd738dfc836cec5f7137"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-123",
+    "sample_ids": [
+      "V7-B-104"
+    ],
+    "source_sha256": [
+      "a7281be68b329fd23f7bed5ddcd406709c9c99e036e2a8410cd15e7236607869"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-124",
+    "sample_ids": [
+      "V7-B-106"
+    ],
+    "source_sha256": [
+      "a2cc682419348378aa08c7a5bfc8002d822685665cbdb317bfd8a69bf972f2d9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-125",
+    "sample_ids": [
+      "V7-B-107",
+      "V7-D-053"
+    ],
+    "source_sha256": [
+      "5eaef83cd7c7d57065f2502f860e646205b127bbadfa4a95c92fafbd5b094433"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-126",
+    "sample_ids": [
+      "V7-B-108"
+    ],
+    "source_sha256": [
+      "27602a314d80c6c90e20a525809fc8612a507ee702c974f2d2e1b4fcdf8785a8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-127",
+    "sample_ids": [
+      "V7-B-109"
+    ],
+    "source_sha256": [
+      "46a8e2d8b618af0588cb266cdb3b83aa3c8a78c0e30ec0ee2378380f20a7995b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-128",
+    "sample_ids": [
+      "V7-B-110"
+    ],
+    "source_sha256": [
+      "fca27ed092ece68e50dc8bf67d26bd2769f4a9e303d02d8799f78073c37df47d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-129",
+    "sample_ids": [
+      "V7-C-001",
+      "V7-C-092"
+    ],
+    "source_sha256": [
+      "7bdf20f9bcda901416995012c362d44a6799cae6a9463face1c02017bfcc67ed"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-130",
+    "sample_ids": [
+      "V7-C-003",
+      "V7-C-049",
+      "V7-C-093"
+    ],
+    "source_sha256": [
+      "2b4e1f06a5e41673aa041463ecd959a3beca203733e24b1cf8e7afe7f665339f",
+      "9b8f76800c31e40a28dd1c9e546740c08de51347b25c895255e950e503ba362c"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-131",
+    "sample_ids": [
+      "V7-C-005"
+    ],
+    "source_sha256": [
+      "9319a1824ecefc027d1093a929cf7ba90262ab095ec3960768eb91bb72944df1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-132",
+    "sample_ids": [
+      "V7-C-007"
+    ],
+    "source_sha256": [
+      "d207c011bdd2a8051ed5e38a72c55481c551a51331ab7e4fbd399fc920017f4c"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-133",
+    "sample_ids": [
+      "V7-C-009",
+      "V7-C-016",
+      "V7-C-094"
+    ],
+    "source_sha256": [
+      "8cbfbf4d24c35e74022c5d72d2cbb7636ef0298e7cd6349d815493380d8f599c",
+      "b7bea9899a0deedbfa4eaba87792fa0875066ff368418316c85e3e29a36bba1d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-134",
+    "sample_ids": [
+      "V7-C-011",
+      "V7-C-033",
+      "V7-C-041",
+      "V7-C-047",
+      "V7-C-030"
+    ],
+    "source_sha256": [
+      "653d6ebc02a74253f165ae8c6d68c37d69d4892044bb155822c5feb81a0e7c42",
+      "7a4e5ee87710b5068c7213921583c9640d63657f3e29c5d0d98e63005074e00a",
+      "9624c53a783fdcfe04ee8fda23e9001e5c4f23d107ff68491d32f5e92a0d97eb",
+      "a9e38189d5e53ce6f5fe1fec1f4fc53b1f21d95baa41f3bbe205c7ee8f95f21b",
+      "fe761725347fbe7322cda5f98de53cf64cd1c2c0393c2e2feec1c562051b4763"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-135",
+    "sample_ids": [
+      "V7-C-013"
+    ],
+    "source_sha256": [
+      "e5ccad805cd0c85686858f0f993611e0845c93160f3871fe634f440ae40aebbd"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-136",
+    "sample_ids": [
+      "V7-C-017"
+    ],
+    "source_sha256": [
+      "37419a3ebf83189f019fde0701f657603a7fc800c4e91180cb668c905f2c63b1"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-137",
+    "sample_ids": [
+      "V7-C-019"
+    ],
+    "source_sha256": [
+      "963364e36eb0bb427a0c6c2460c0a9ea18b3b114edef1add109f4f07ef96b845"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-138",
+    "sample_ids": [
+      "V7-C-021"
+    ],
+    "source_sha256": [
+      "1568ab580feeaeb10d79052af5b320983834e7e851ef1a72e89b1a11d58e52eb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-139",
+    "sample_ids": [
+      "V7-C-023"
+    ],
+    "source_sha256": [
+      "58ffa23fa20d1c3b5dbacc1342a9284f79e67d57a9a1752f8e6bc8cfc51324a7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-140",
+    "sample_ids": [
+      "V7-C-025"
+    ],
+    "source_sha256": [
+      "0995a3fe8ef9dc1e9ced065c8d0aaf812c57013e59e1e229b7d54b8c4155b196"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-141",
+    "sample_ids": [
+      "V7-C-035"
+    ],
+    "source_sha256": [
+      "5ea70afd928d709a3e1e23c9cfd993aff0714dab39262c69038e153056f61f16"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-142",
+    "sample_ids": [
+      "V7-C-036"
+    ],
+    "source_sha256": [
+      "eb6c329e9079ef310c0f4964921c93287bbe15fa78a9083c185b5063b1b5b649"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-143",
+    "sample_ids": [
+      "V7-C-039"
+    ],
+    "source_sha256": [
+      "ffbfa12a3fbc5bacab573479c0bf8de740f93682e5714fcfc376c5b59b8d338f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-144",
+    "sample_ids": [
+      "V7-C-043"
+    ],
+    "source_sha256": [
+      "da8952b3e2b586305c256b664d629b5fe87e4497be5c3e2d90432b3daebbe6fa"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-145",
+    "sample_ids": [
+      "V7-C-051",
+      "V7-C-004",
+      "V7-C-028"
+    ],
+    "source_sha256": [
+      "606fb4bed635626df039956033061d8fe610c737fadda7ee6a62ae6763f3a38b",
+      "967d9a6a93287084a6826250033ebd84a317a314554e85eee235f383dc4fbb22",
+      "a1b0ffe8eb3c7ed4eaa0befe20293122d0823576d15c98e624d60bef5d36ad18"
+    ],
+    "historical_split_hints": [
+      "train"
+    ],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-146",
+    "sample_ids": [
+      "V7-C-053"
+    ],
+    "source_sha256": [
+      "75d8f738125f497574eb882cbd41469859a83118213388b281f804b02d3566eb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-147",
+    "sample_ids": [
+      "V7-C-055"
+    ],
+    "source_sha256": [
+      "fe1c567fa0033808b7a8437bf2e42849ec911d6b4738f9596ee20440afc78406"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-148",
+    "sample_ids": [
+      "V7-C-059"
+    ],
+    "source_sha256": [
+      "800dde3f68311e6104d3cb5dcc50e61eda7d9065842232e597f5c1ce8afedabb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-149",
+    "sample_ids": [
+      "V7-C-061"
+    ],
+    "source_sha256": [
+      "c1f0f9031612f2583c39e6a720746be3f10a3d3f5d5451084d54d590d06079f4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-150",
+    "sample_ids": [
+      "V7-C-063",
+      "V7-C-088"
+    ],
+    "source_sha256": [
+      "34fea038f424ff76a70d1a68c54b05e3d5035c27e27d0cf5021976f3ca438c34"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-151",
+    "sample_ids": [
+      "V7-C-065",
+      "V7-C-089"
+    ],
+    "source_sha256": [
+      "c0efae2fdb405b428f6167656c63770cc08e464eeff91d02db54ccca4455b31e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-152",
+    "sample_ids": [
+      "V7-C-069",
+      "V7-C-090"
+    ],
+    "source_sha256": [
+      "2a49ae976aea10a8134f5be3691db055f6972ccdc8712e4b2280f9fa3a64694c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-153",
+    "sample_ids": [
+      "V7-C-075"
+    ],
+    "source_sha256": [
+      "647aa0b7ebf480c43f47a31b03f8990c8cf51f7b4d05270dd7b372dd1090b963"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-154",
+    "sample_ids": [
+      "V7-C-079"
+    ],
+    "source_sha256": [
+      "ceaebd62a8d3b6b3eedd0c84e427b1e2e6d0dc4a51d7f0b821363c4ee23ee9f4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-155",
+    "sample_ids": [
+      "V7-C-081"
+    ],
+    "source_sha256": [
+      "80a4ae5c1b2ab13f66ab71d926c7f6094a46d547614369a9c71a25aa7216c829"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-156",
+    "sample_ids": [
+      "V7-C-083"
+    ],
+    "source_sha256": [
+      "5a643886035bb83fc716290002528a2e7d20c995fe963b0d4285de78b291a4dc"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-157",
+    "sample_ids": [
+      "V7-C-085",
+      "V7-C-091"
+    ],
+    "source_sha256": [
+      "232d858781df69d3290b9c8cf7377d4f62c3776142dc3a2aecb9006c8c956172"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-158",
+    "sample_ids": [
+      "V7-C-107"
+    ],
+    "source_sha256": [
+      "e1babe98fddc8705597c5fe2e742a5d28d71cce53e668d292e38c670426ad2ba"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-159",
+    "sample_ids": [
+      "V7-C-108"
+    ],
+    "source_sha256": [
+      "49dcf930e5a197e6d40b95c860faf41e99b2d5d37bb7ad695870b80418896efe"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-160",
+    "sample_ids": [
+      "V7-C-109"
+    ],
+    "source_sha256": [
+      "763f3be051394ff138a1c47d08eed2a02c798bbc985d7d3edeb966c3c7cd122a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-161",
+    "sample_ids": [
+      "V7-C-110"
+    ],
+    "source_sha256": [
+      "a6ebbca99f11bcccc84bd98950403f346ed11b0d6704820a557f1c9d628a1335"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-162",
+    "sample_ids": [
+      "V7-C-111"
+    ],
+    "source_sha256": [
+      "1095cf5bd84874bb0fcce59f42ac021c1a8bf64a24704babcc4722760da81fde"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-163",
+    "sample_ids": [
+      "V7-C-114"
+    ],
+    "source_sha256": [
+      "aaca55452bacbf404da0ea16736323194c745da553879d25d8e7df400013efc0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-164",
+    "sample_ids": [
+      "V7-C-115",
+      "V7-C-117"
+    ],
+    "source_sha256": [
+      "30f6a00112e64a85e06d2c0fed4cbc36496c3147e6c04af0de7b5c7c61ebb1ff"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-165",
+    "sample_ids": [
+      "V7-C-116",
+      "V7-C-118"
+    ],
+    "source_sha256": [
+      "c8a789e45f604f7a0b10ade699eacb710d3abac2f3856f6f8cac29f5267ef20a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-166",
+    "sample_ids": [
+      "V7-C-119"
+    ],
+    "source_sha256": [
+      "8d76c00384a8488dfb968e533b9284c4ca1d81b2babfd474fa1af0c00e446171"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-167",
+    "sample_ids": [
+      "V7-C-121"
+    ],
+    "source_sha256": [
+      "6ed673215d66e82b9d891ecd8db922d839210d98570d84802d52978fcc8b575f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-168",
+    "sample_ids": [
+      "V7-C-123"
+    ],
+    "source_sha256": [
+      "e45147df7d20dc460de0bc19b3a59530a5578ac9b3b53b7024599537ce7edc82"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-169",
+    "sample_ids": [
+      "V7-C-002"
+    ],
+    "source_sha256": [
+      "27d3c60a27282439ea32e8c3c92c5916a57b2d53c5786f92d31957042d2a9082"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-170",
+    "sample_ids": [
+      "V7-C-006"
+    ],
+    "source_sha256": [
+      "78ff3d4ab8c44f9c4989ede7e8b4c0d4f915f29d228cf5749a54b1089c34608a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-171",
+    "sample_ids": [
+      "V7-C-008"
+    ],
+    "source_sha256": [
+      "452a7fc6affb8c127b4a9000ffc41afdac0ef022c85b58960ff734807b6bd1f8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-172",
+    "sample_ids": [
+      "V7-C-010"
+    ],
+    "source_sha256": [
+      "30f3dc3a867fc366369bae6873611c04aede7de4141b451a1d9696d63169a710"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-173",
+    "sample_ids": [
+      "V7-C-015"
+    ],
+    "source_sha256": [
+      "5df61198137c215b5299a65e11017bf5519b1c369bc9eb59d2b7d42ac92bea4a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-174",
+    "sample_ids": [
+      "V7-C-018"
+    ],
+    "source_sha256": [
+      "ba68d9854e050e86ce462c9da5e76912b1bb616bf573f670588f85a7a03c40e0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-175",
+    "sample_ids": [
+      "V7-C-026"
+    ],
+    "source_sha256": [
+      "1ddb0ae2ccb00358f20ae8c5a6609a726da13a76ad5032e3c4f5690109651de6"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-176",
+    "sample_ids": [
+      "V7-C-038"
+    ],
+    "source_sha256": [
+      "4bcbbc21cf51f9dbe043e255afca98ae32a7af0e3d673b9e0bc9a2117a45d8a2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-177",
+    "sample_ids": [
+      "V7-C-042"
+    ],
+    "source_sha256": [
+      "17f25016bbf294b6b3a8940d0b8c2c41e81b9791d020995dcd22f19fab50c439"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-178",
+    "sample_ids": [
+      "V7-C-044"
+    ],
+    "source_sha256": [
+      "fa6695a860c4a429f3d7ae8a24ce10944624547fc521708ad2591ae37a895361"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-179",
+    "sample_ids": [
+      "V7-C-046"
+    ],
+    "source_sha256": [
+      "8749f1236e43b18264f832e7f430c59047a739a94094a4536f758b127277aadb"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-180",
+    "sample_ids": [
+      "V7-C-048"
+    ],
+    "source_sha256": [
+      "043aad1e66f7688f04c122c8e5fc66e6e37ae3b6017c120319011ab466d684b0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-181",
+    "sample_ids": [
+      "V7-C-050"
+    ],
+    "source_sha256": [
+      "8bc80541c5b7d7f1c270698f1b67d1af231517cc98e3697c7bf690ccbd4afbce"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-182",
+    "sample_ids": [
+      "V7-C-052"
+    ],
+    "source_sha256": [
+      "905fd3b4181af270d1299c816ea2bd7fedb837849d0487014380e1bdbad33558"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-183",
+    "sample_ids": [
+      "V7-C-054"
+    ],
+    "source_sha256": [
+      "c5097cf1208038a369cb49e8979b4cf9cdf8e8af37c59537a89f23f13c3c3872"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-184",
+    "sample_ids": [
+      "V7-C-087"
+    ],
+    "source_sha256": [
+      "389ccc3dbf2139f6a5be05fde58f6047f8484edf6f1dbddeaf3d900fed76c261"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-185",
+    "sample_ids": [
+      "V7-C-095"
+    ],
+    "source_sha256": [
+      "aeb14f0ea0cb5a4aadbe31f54ca88009aef3f8de265117edf70425424d5a037a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-186",
+    "sample_ids": [
+      "V7-C-097"
+    ],
+    "source_sha256": [
+      "a8a1e639b04dd0ac1396734caafc5ad209a7bc99cf2cb3a7f0721718cb86faa1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-187",
+    "sample_ids": [
+      "V7-C-099"
+    ],
+    "source_sha256": [
+      "8192b58a2443eac0c4c6ed5e8e397614c371ddca55be4be9b279e99b6ae3f99c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-188",
+    "sample_ids": [
+      "V7-C-100"
+    ],
+    "source_sha256": [
+      "d74e08c2257f0d5ee11dfe15bec4cca896a0aa2e14322ae85e73530f4f3047bd"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-189",
+    "sample_ids": [
+      "V7-C-102"
+    ],
+    "source_sha256": [
+      "a4d14f429419c756392b7b5d9ba9afe8b88b42b1a11282a76f9774b539d0cc7f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-190",
+    "sample_ids": [
+      "V7-C-104"
+    ],
+    "source_sha256": [
+      "9cc57139b02648ff874b8956ca98db3fd7738c4d194e1231eec0a84edf264a19"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-191",
+    "sample_ids": [
+      "V7-C-105"
+    ],
+    "source_sha256": [
+      "6865a859095ef62efeedf49e5eb8af208bbd15e18fc797168e124e218fe3af70"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-192",
+    "sample_ids": [
+      "V7-C-106"
+    ],
+    "source_sha256": [
+      "cdc57000bb8140b1e4a03e8d7ea9f9f807e1c4f656744fb044de04a5ca517cb3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-193",
+    "sample_ids": [
+      "V7-C-125"
+    ],
+    "source_sha256": [
+      "411566aa1885b445cca12cbb07067bd6ad61c1bc9cdf59c4a33cd05e66afce7f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-194",
+    "sample_ids": [
+      "V7-C-126"
+    ],
+    "source_sha256": [
+      "d1291ac640d292ea81e733575fe6b3625b00216ad2e60bf3a57bdebf64f19aaf"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-195",
+    "sample_ids": [
+      "V7-C-127"
+    ],
+    "source_sha256": [
+      "6472c5e365e70af1047f715d251625c7ca9673b72353e9db4b6a9adc924c3a8a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-196",
+    "sample_ids": [
+      "V7-C-128"
+    ],
+    "source_sha256": [
+      "46e5029239ed4ceb123afad57e0492c6a800a1fac32d80c702207fc519a29639"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-197",
+    "sample_ids": [
+      "V7-C-129"
+    ],
+    "source_sha256": [
+      "0d6111d55e127765ebf39954facf005522ae2d37e0baa34f47f4fa9c1f44a0a8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-198",
+    "sample_ids": [
+      "V7-C-130"
+    ],
+    "source_sha256": [
+      "a34810e100d862bb0662a1d4fd01f3a7013fa156216ad00ddfb9b2df1388dc42"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-199",
+    "sample_ids": [
+      "V7-C-132"
+    ],
+    "source_sha256": [
+      "92dd99122e630c2324188e31e9f70d4d121c40f4bd759a8c9e2f357507a4d542"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-200",
+    "sample_ids": [
+      "V7-C-133"
+    ],
+    "source_sha256": [
+      "259118b495d3fbf37e39340cdbfa26cc0084c81a034b123a973e07b0db577872"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-201",
+    "sample_ids": [
+      "V7-C-134"
+    ],
+    "source_sha256": [
+      "c3c97f58ed71f3f3110d63c46d7f6e3e2a1315bc08f170e27bc3770740371b04"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-202",
+    "sample_ids": [
+      "V7-C-136"
+    ],
+    "source_sha256": [
+      "0858a4a830c0b323e8eaec9b06eff2c49c61b958eda99fd19bfabcfc2490f3b7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-203",
+    "sample_ids": [
+      "V7-C-137"
+    ],
+    "source_sha256": [
+      "9dfffd5c3347c141eabc9246e478c5b5044779921be18b39a421aa94663ff0d2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-204",
+    "sample_ids": [
+      "V7-C-139"
+    ],
+    "source_sha256": [
+      "d07fa91f4d18bba3f3c5e0d151c0b0e47bc9a6004aec51cc9c2bc811d4cdb871"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-205",
+    "sample_ids": [
+      "V7-D-002"
+    ],
+    "source_sha256": [
+      "e5e7d85240febb8583a57131d9f238fc7df311a4e114a4b4fa0613b5bbbc8628"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-206",
+    "sample_ids": [
+      "V7-D-004"
+    ],
+    "source_sha256": [
+      "52d76350289b12fd6062d8b13d029905f7681f1cf89c64f0281a365d8934164e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-207",
+    "sample_ids": [
+      "V7-D-005"
+    ],
+    "source_sha256": [
+      "a1714b624f3e9924832d9bb332a5a57792aa3c075a51cb22efedf2c4d201071c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-208",
+    "sample_ids": [
+      "V7-D-006"
+    ],
+    "source_sha256": [
+      "cc868da0ebb464fb3fbc74208c372da46ce77b692ff5bdf1f9209a00cca9b4cc"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-209",
+    "sample_ids": [
+      "V7-D-008"
+    ],
+    "source_sha256": [
+      "2d95314bf9a068490535cc67eaa7f63a75dc137ded380dbefb827fa0a8e7c2e7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-210",
+    "sample_ids": [
+      "V7-D-009"
+    ],
+    "source_sha256": [
+      "e3a0af52c13b87020858a9c156e0999a33c415c3252afd8b3fa1ba3c2e3d248a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-211",
+    "sample_ids": [
+      "V7-D-010"
+    ],
+    "source_sha256": [
+      "baf5d50142f2d415189ad256ecc70929c40ff1a204a2493283b444f9dc649dfe"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-212",
+    "sample_ids": [
+      "V7-D-011"
+    ],
+    "source_sha256": [
+      "3ef83dc0f7e12514f194561dba5d273ebcb53e5730122bf1c66ce15e67dfcda7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-213",
+    "sample_ids": [
+      "V7-D-012"
+    ],
+    "source_sha256": [
+      "376a7aa1e0a8ce14918b67acca2baae718280f32a2b5b267529b6d7f2367c5e8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-214",
+    "sample_ids": [
+      "V7-D-013"
+    ],
+    "source_sha256": [
+      "e40e127d0146ab4276a1611e4dfb093b9702ce5bdac486b39867f0baf1dd613c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-215",
+    "sample_ids": [
+      "V7-D-014"
+    ],
+    "source_sha256": [
+      "a99b4695f50bd1fd6d13766029f797c76d5937f9fed28926e21deabc89e5bc8d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-216",
+    "sample_ids": [
+      "V7-D-020"
+    ],
+    "source_sha256": [
+      "749a5c91499541264332b4ac1579343ac0024a1cc750fa0f63a408d22f2dfc9f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-217",
+    "sample_ids": [
+      "V7-D-026",
+      "V7-R8-D-001"
+    ],
+    "source_sha256": [
+      "08330a596869314399342ac2bf73bb39d175a625294f4077cfd3da384607db9a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-218",
+    "sample_ids": [
+      "V7-D-028"
+    ],
+    "source_sha256": [
+      "02cab9e57e085f6559d6ca054ad8d94683f08e451842c6a6b35f2d39605679c2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-219",
+    "sample_ids": [
+      "V7-D-029"
+    ],
+    "source_sha256": [
+      "1bea62daf7a2da6370a81ff45b2f857d942bc955d7946a81ff5917aa3b23c12b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-220",
+    "sample_ids": [
+      "V7-D-031"
+    ],
+    "source_sha256": [
+      "782f76ef890a3e8fd76908af7aec29e4b2fc2fa9b35449633ea9a3a94f12241d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-221",
+    "sample_ids": [
+      "V7-D-033"
+    ],
+    "source_sha256": [
+      "63de32649b60c0669c85d4d2de13242c39bd632941432be937600f49ba26aef4"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-222",
+    "sample_ids": [
+      "V7-D-034"
+    ],
+    "source_sha256": [
+      "21ed1561ad9ca00479861b2f113d4f564beb8568be58676b9d58343adef79ecf"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-223",
+    "sample_ids": [
+      "V7-D-035"
+    ],
+    "source_sha256": [
+      "8863e8df68695c461cc6691ef552b45735f533810d1e88bddb5b4d11a27da76f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-224",
+    "sample_ids": [
+      "V7-D-038"
+    ],
+    "source_sha256": [
+      "8aa21380ae9920ae94c0400c19230479d4879dfecd39cff5b93d77a874448f6f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-225",
+    "sample_ids": [
+      "V7-D-044"
+    ],
+    "source_sha256": [
+      "8b668f75a9fff0fcdfcf9e978ecd2b2e665049f32582ace1e89035a2f1a6289e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-226",
+    "sample_ids": [
+      "V7-D-046"
+    ],
+    "source_sha256": [
+      "348a4e1920796bfe9fa2c954d10e49a59531bd5468ef04eeb750465687a56c00"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-227",
+    "sample_ids": [
+      "V7-D-049"
+    ],
+    "source_sha256": [
+      "7f385a8c06ad2052ff8d7124a7ff22e3b5a976b2e9e44a91180e3ed4a35d2c8f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-228",
+    "sample_ids": [
+      "V7-D-051",
+      "V7-D-058"
+    ],
+    "source_sha256": [
+      "de244bb12915fd9cf5ee7359863dba2d2f10df8bbba169016a6ffa07948fe962"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-229",
+    "sample_ids": [
+      "V7-D-054"
+    ],
+    "source_sha256": [
+      "ff85b7af1b3f7ec7f30b527b002635f66670aa424cf4a2793ec2c57e21dc8589"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-230",
+    "sample_ids": [
+      "V7-D-056"
+    ],
+    "source_sha256": [
+      "20589375f40c68f8c2ea170b7fe650a67b3730256a545a03ccc5ba2c6c39e9d9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-231",
+    "sample_ids": [
+      "V7-B-111"
+    ],
+    "source_sha256": [
+      "fd67d2224403ce0d4906aef48d385a0f445f915f71251d978768a05c3242de4f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-232",
+    "sample_ids": [
+      "V7-C-141"
+    ],
+    "source_sha256": [
+      "ad7cc1ef15c372a7d6dbf698621b775bec24f3cfac3a6e712f272a0b38aa3870"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-233",
+    "sample_ids": [
+      "V7-C-142"
+    ],
+    "source_sha256": [
+      "f85543a24c5b91ab5e870198853edd30be8e813ce0616311af9ad5896905325c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-234",
+    "sample_ids": [
+      "V7-R8-B-001"
+    ],
+    "source_sha256": [
+      "b8eac02c2458715b44ba26c5116283aca9b1321cb82e36d7d06c80aafdc3bb72"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-235",
+    "sample_ids": [
+      "V7-R8-C-001",
+      "V7-R8-C-002",
+      "V7-OE-S081-A01"
+    ],
+    "source_sha256": [
+      "1396745d02a803b4a9f8882c01913a9095611a2ffaef4900168ce0f877ebd32f",
+      "ebe0f4492e469832f3c26317d3cd5c497543ef694da1630f5f3e3d647d7ac3e2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-236",
+    "sample_ids": [
+      "V7-R8-C-003"
+    ],
+    "source_sha256": [
+      "08354a0299f814a14e5c2af7d6cf4dd0baf55f1b90f4622da3e54b71991203bf"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-237",
+    "sample_ids": [
+      "V7-R8-C-005",
+      "V7-R8-C-006"
+    ],
+    "source_sha256": [
+      "af4da0f5b1346a06987ae1a7747d0076550a81d001673f0973b9967b9f246420"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-238",
+    "sample_ids": [
+      "V7-R8-C-007",
+      "V7-R8-C-008"
+    ],
+    "source_sha256": [
+      "0f693ca09e96ac267524315350dcc0d8eb9c26d1b170baf33fc131b042861245"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-239",
+    "sample_ids": [
+      "V7-PF-A-001"
+    ],
+    "source_sha256": [
+      "cfe3a3e14356cac596624778532a3aed27af661462170750740f51eeea68c749"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-240",
+    "sample_ids": [
+      "V7-PF-A-002"
+    ],
+    "source_sha256": [
+      "b0e5b1d2f9cc71e8ac40acb74441c8ea1573c122bb0dc8e407b17be4caa21021"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-241",
+    "sample_ids": [
+      "V7-PF-A-004",
+      "V7-PF-C-001",
+      "V7-OE-S041-A01",
+      "V7-OE-S042-A01",
+      "V7-OE-S042-A02",
+      "V7-OE-S043-A01",
+      "V7-OE-S043-A02",
+      "V7-OE-S043-A03",
+      "V7-OE-S043-A04",
+      "V7-OE-S044-A01",
+      "V7-OE-S044-A02",
+      "V7-OE-S044-A03",
+      "V7-OE-S044-A04"
+    ],
+    "source_sha256": [
+      "2d10626a2d17ce85a77f2b4a202aba5b0b9ab19592af87c2a15ca52ef4662a2c",
+      "50355b53643243c7753025665768ab3edf454f290317c8131178d98418a54f2c",
+      "7360d7a7baa85d31c6e63bfea098a77295153f070bd101e9754b7ea170a8160a",
+      "a0ff0aafff75615e92c42bfe54a4cf4282ea99403f55de83299801f098cded2e",
+      "cad3813cf8936cf80b63cd212f3002d140c1b174d1bc4b9050c4d3eb668003a6"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-242",
+    "sample_ids": [
+      "V7-PF-A-005"
+    ],
+    "source_sha256": [
+      "c261ce44ae3c1bfa7dde5e795d7e75cc87ec48bba5bfacae56e69d33c45093e6"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-243",
+    "sample_ids": [
+      "V7-PF-B-001"
+    ],
+    "source_sha256": [
+      "dc9a046261df35fee4e60e74be8fa47de99538c22a9826a0bf1bb3dd894d3a0d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-244",
+    "sample_ids": [
+      "V7-PF-D-001",
+      "V7-PF-D-002"
+    ],
+    "source_sha256": [
+      "10b36e30d7772380e7e2379fa60c6dca62e3d7c7d680746187f5c4ae789e87a1",
+      "9d5bfb2de88e1f07220cb252a312f41eba040539cb6fa3c2d726dd11ae14ea5b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-245",
+    "sample_ids": [
+      "V7-PF-A-006",
+      "V7-OE-S053-A01",
+      "V7-OE-S054-A01"
+    ],
+    "source_sha256": [
+      "1684af582beeaa0918ca999dc99aeb40f4737251f43c2408f0713fe14ef44542",
+      "674a2e20874b048c7de12874247e99c2626645b73aec19b0266b8ebe3cacbcf3",
+      "bd3b83703c20174c8d3f229266863bf15df2af9389ca20b53180cc39431d41b1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-246",
+    "sample_ids": [
+      "V7-PF-C-002"
+    ],
+    "source_sha256": [
+      "b410e420aa4aa9d95957eaac22f78f14ec5af9ceba9e7ca3b1fb11b8c8a4d284"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-247",
+    "sample_ids": [
+      "V7-PF-A-007",
+      "V7-PF-C-003",
+      "V7-PF-C-004",
+      "V7-OE-S063-A01",
+      "V7-OE-S064-A01"
+    ],
+    "source_sha256": [
+      "76b43ebcc8afe5d2e1a93020713b0585a4149abb484dc75056d1ea2448274122",
+      "88826263127b97462771fc034539d1e63ece53f056b303cc492db7a03c7bf8fd",
+      "9fdc77c5a20026d6ed2e8baaa2fde28255723f3ab908c2fd7cf3634f345f73d1",
+      "d0bd0527768300493476866693e6c4f20bad6ccad7e878f1583dd3e75628ad91"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-248",
+    "sample_ids": [
+      "V7-UNAPPROVED-C-001",
+      "V7-UNAPPROVED-C-002"
+    ],
+    "source_sha256": [
+      "460ff8a3cbd89ef862495bd3a15e60271a63599bf3cad092a09f9403d8800d51",
+      "cce80533ad5b5a80fa020b0c5e4fe2cb4de7b0b0bc01234e44e809e6560d144e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-249",
+    "sample_ids": [
+      "V7-UNAPPROVED-C-003",
+      "V7-UNAPPROVED-C-004"
+    ],
+    "source_sha256": [
+      "ba2ea6126b9f972e518011d2fd3a634498cb7a0b1c9a96e0f820ea582d321b1f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-250",
+    "sample_ids": [
+      "V7-UNAPPROVED-C-005",
+      "V7-UNAPPROVED-C-006",
+      "V7-UNAPPROVED-C-007",
+      "V7-OE-S047-A01"
+    ],
+    "source_sha256": [
+      "04e4ac9f5659a4ac429649af0e54430f3eb879b055db59473ff3ac447864aa2a",
+      "4f785aef9b484884c5c9caa935e9c0910ac1cb27daf6bc3f1ada5cdaeda00ddb",
+      "a259cdb1b877ff094a68a3b966cd4bd6ce3473e61d2b9e4f7ec8c333d16161eb",
+      "f782ef960b4f6db8fc0e12da8e88ac949a48529e2a83ccf1df8f3563e64aea3d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-251",
+    "sample_ids": [
+      "V7-OE-S002-A01"
+    ],
+    "source_sha256": [
+      "c3d34a1cbbd6475a0a1826dd292230e4003d6dcd2d9926f8fc6164159c9e119c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-252",
+    "sample_ids": [
+      "V7-OE-S003-A01"
+    ],
+    "source_sha256": [
+      "bf397fe147784108602cc5661941f1f1018be9ec3eb93e9a1cabc7ab0dc701a8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-253",
+    "sample_ids": [
+      "V7-OE-S005-A01"
+    ],
+    "source_sha256": [
+      "b224ad9dd900bb6da8d7eb7bced7030deec7a7f75a32de0f975a59df99f9ebfe"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-254",
+    "sample_ids": [
+      "V7-OE-S006-A01"
+    ],
+    "source_sha256": [
+      "f8bcd1a4b9c9ca00ffde363824a53222e0ff882676aa86fdc0bc35bcbd4e0b3f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-255",
+    "sample_ids": [
+      "V7-OE-S009-A01"
+    ],
+    "source_sha256": [
+      "fa58c881c43d545e4527a2ec650ceb829ebf382bd8bd07a0b2a013318e06ecd7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-256",
+    "sample_ids": [
+      "V7-OE-S011-A01"
+    ],
+    "source_sha256": [
+      "163be737d6318f3d3c9159e4a6153880415227b3ed5b761192db117f4eea1c22"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-257",
+    "sample_ids": [
+      "V7-OE-S012-A01"
+    ],
+    "source_sha256": [
+      "26928ded95cd1540f0dc87f82d9b92d9d5986e13ca67131063c8914a8b2f42a5"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-258",
+    "sample_ids": [
+      "V7-OE-S019-A01"
+    ],
+    "source_sha256": [
+      "a19a738b036f734d059b26d762ef58d16ae9890d00dc1d2d98b1bff1f2efcd21"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-259",
+    "sample_ids": [
+      "V7-OE-S020-A01"
+    ],
+    "source_sha256": [
+      "c073f496469445a1858c6e3a30144c0b2e6bbb0a69ade01bb148a20f8f50e374"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-260",
+    "sample_ids": [
+      "V7-OE-S021-A01"
+    ],
+    "source_sha256": [
+      "b9bd51fb10a696c16b047517b5a99375f0c5dc90c6272e68ea73fbee6a118e2b"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-261",
+    "sample_ids": [
+      "V7-OE-S022-A01"
+    ],
+    "source_sha256": [
+      "94563de6a97b40bb8f3a6c9f53ebf352601f05773007b5eeda0ce2cc9c6a5dfd"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-262",
+    "sample_ids": [
+      "V7-OE-S023-A01"
+    ],
+    "source_sha256": [
+      "c9dc840a361334092b21bd48e4d3f2d8e279f8deab320cabc5d0fdfbab57f8c2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-263",
+    "sample_ids": [
+      "V7-OE-S024-A01"
+    ],
+    "source_sha256": [
+      "63d424c149e7e79b75db616c84e24b33b9c62e68b71ae9ba0e14ed25e2cb655e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-264",
+    "sample_ids": [
+      "V7-OE-S025-A01"
+    ],
+    "source_sha256": [
+      "2c5b7cf8205707e0c1e420bde6e2f5d2da394d4b2c6553a93c2f3002bcaf126d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-265",
+    "sample_ids": [
+      "V7-OE-S027-A01"
+    ],
+    "source_sha256": [
+      "aabcdb7b1419f8bd88ef35a2aff352e8bd22bf6fe054f8ff8be89c8d21f62fb3"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-266",
+    "sample_ids": [
+      "V7-OE-S030-A01"
+    ],
+    "source_sha256": [
+      "8ad35c1a108c6e0d3b7f5828ce5322afd2f5e87d608501b49da1bd56316bd868"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-267",
+    "sample_ids": [
+      "V7-OE-S033-A01"
+    ],
+    "source_sha256": [
+      "deade2d7377ea8f41924ac629af8d7a206002d4d8dac0f9dd2d8f38672af74aa"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-268",
+    "sample_ids": [
+      "V7-OE-S034-A01"
+    ],
+    "source_sha256": [
+      "5c03eff846e165e406db79a1136892f9a21ed32d641f23407e8e7cfec14d5fb7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-269",
+    "sample_ids": [
+      "V7-OE-S035-A01"
+    ],
+    "source_sha256": [
+      "0388dfc14cf09475256d64a7f5c2209e08211d54f94b1014a00ac3fb000f1d25"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-270",
+    "sample_ids": [
+      "V7-OE-S039-A01"
+    ],
+    "source_sha256": [
+      "7b1128b4e7a41432a52e2c2ca894fb8b19034669674cfbacc4b79a152fbf6004"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-271",
+    "sample_ids": [
+      "V7-OE-S040-A01"
+    ],
+    "source_sha256": [
+      "f00895067a8741302f5006754fc7379ba9b7e623ed1fd98dac8e75fc294c1a27"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-272",
+    "sample_ids": [
+      "V7-OE-S049-A01"
+    ],
+    "source_sha256": [
+      "e31bfe45874e12e7c5dc637681db0730c64258abd4e8aa284a0fbb819bfedc5a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-273",
+    "sample_ids": [
+      "V7-OE-S050-A01",
+      "V7-OE-S050-A02"
+    ],
+    "source_sha256": [
+      "14d0456a5d5ec2ac9394de17323abc0f6e6cf1f4b1baa75a2e05b360e4a13f82"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-274",
+    "sample_ids": [
+      "V7-OE-S051-A01"
+    ],
+    "source_sha256": [
+      "7b9bf655cd4de3ae01bb4334d61210c58655004a7c859206b2ab53e832966828"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-275",
+    "sample_ids": [
+      "V7-OE-S052-A01"
+    ],
+    "source_sha256": [
+      "8351062524ba3149befd9dc749bd7511079136b129887fbaa6f73e31bd6973f1"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-276",
+    "sample_ids": [
+      "V7-OE-S055-A01",
+      "V7-OE-S056-A01",
+      "V7-OE-S056-A02",
+      "V7-OE-S057-A01",
+      "V7-OE-S057-A02"
+    ],
+    "source_sha256": [
+      "095f07ae2203498e78d0ae1fe025335be4ed60726401d00e09e47fafabed364f",
+      "761d51b8bbca86b91dd82e71123d96dad9d876d9b3efc3cb202c6700d2eee932",
+      "c11257f7b04e4f7d3064fbfcc886c1067a773ad4c14111804b2df2a6a7d250ea"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-277",
+    "sample_ids": [
+      "V7-OE-S058-A01"
+    ],
+    "source_sha256": [
+      "d9c241d49edde886ce15d8569c33a885befcb4bb6dd3f2e2e759899c3d243311"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-278",
+    "sample_ids": [
+      "V7-OE-S059-A01",
+      "V7-OE-S061-A01"
+    ],
+    "source_sha256": [
+      "a8fa7ceaa60107ae86557068c7ea11cacda465743be65a035382bf5e498c3e63",
+      "f3ccf1c3458ac89a9f181f60981353f3e9fab853a2f023497f5e8b9a2ae27300"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-279",
+    "sample_ids": [
+      "V7-OE-S066-A01",
+      "V7-OE-S066-A02"
+    ],
+    "source_sha256": [
+      "a6dec1bf612b9c58a745af05d8a417b017970999f44f7cff73e721f4cea6a77c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-280",
+    "sample_ids": [
+      "V7-OE-S068-A01",
+      "V7-OE-S068-A02"
+    ],
+    "source_sha256": [
+      "4d92ff61a35797366a91ac4822c36b9fb5e45aa603429b7f7ded27e2a386b263"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-281",
+    "sample_ids": [
+      "V7-OE-S069-A01"
+    ],
+    "source_sha256": [
+      "e678ffaaf4f0e7a416b0dd409e0a8ef08ab86cb724a827c8e349df0618ecc272"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-282",
+    "sample_ids": [
+      "V7-OE-S070-A01"
+    ],
+    "source_sha256": [
+      "9c489b6b86bc6c20320a7740837a2bf86ce82cde93b07d50bcf99604b820243c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-283",
+    "sample_ids": [
+      "V7-OE-S071-A01"
+    ],
+    "source_sha256": [
+      "8d87db4f40b825973e8acd1144de826399377e39aba8628613b40bc0247a2d96"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-284",
+    "sample_ids": [
+      "V7-OE-S072-A01",
+      "V7-OE-S073-A01"
+    ],
+    "source_sha256": [
+      "2bfba85c43602e2420e34c97de125ac7825ba1f459f048402d38aabfd17a273b",
+      "c16ab69d978bae2f42ea559a11efbec4eb0d99e0d26c51d41b091e0638a5979a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-285",
+    "sample_ids": [
+      "V7-OE-S074-A01"
+    ],
+    "source_sha256": [
+      "07a195cdda6dfd7ec6121e51f88e36c5985f319fca52b94a259a4ef1b95c11ba"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-286",
+    "sample_ids": [
+      "V7-OE-S076-A01",
+      "V7-OE-S082-A01",
+      "V7-OE-S084-A01"
+    ],
+    "source_sha256": [
+      "1697d7d9587d30f314bc87a818f87eca6e78215f468e4aad06e25cf55a4f9e5a",
+      "3c38bc4c879a017cf1ac987bffea95edead6b708f23b9d6c58f7ab586db6d726",
+      "beadcc173d3b0ccc7ed2db7001a65ff19c49806fdbf20e030ca160cec6e1bb99"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-287",
+    "sample_ids": [
+      "V7-OE-S077-A01"
+    ],
+    "source_sha256": [
+      "329d61f10c9c18723e309418fdb88e3ad51e569f7ea10feefa369195fb9487c9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-288",
+    "sample_ids": [
+      "V7-OE-S080-A01"
+    ],
+    "source_sha256": [
+      "9c6a4f8d74f4a8d1efd5729b7a8e0686270e3651a2c79fa4f69fa8e76a9bfc41"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-289",
+    "sample_ids": [
+      "V7-OE-S085-A01"
+    ],
+    "source_sha256": [
+      "51e0a28010a16b1cae789e58a547ff5d2e033624e685e9da989caac66ce7638d"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-290",
+    "sample_ids": [
+      "V7-OE-S086-A01"
+    ],
+    "source_sha256": [
+      "3d703c4347e6a5589f40bfbf96dd30a28002ac77adb0b264b582c4edd1728e00"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-291",
+    "sample_ids": [
+      "V7-OE-S087-A01"
+    ],
+    "source_sha256": [
+      "aa8ff54b8e46b061df5e814934e4638a82ed647c66842cd6038982a3c2afadb6"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-292",
+    "sample_ids": [
+      "V7-OE-S088-A01",
+      "V7-OE-S091-A01"
+    ],
+    "source_sha256": [
+      "5598c29f87b34cfa59e46f77537056dee868d7ed55f8439aa6e79f79b0ee7163",
+      "f7fb5e34148f5484fc7aef2f3f84f883ce40396d5f9eb36aa9fab76849be60e0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-293",
+    "sample_ids": [
+      "V7-OE-S089-A01"
+    ],
+    "source_sha256": [
+      "36c2b45a7446e9acd695163765e43d378ed28420578e943886a84d416a47715a"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-294",
+    "sample_ids": [
+      "V7-OE-S090-A01"
+    ],
+    "source_sha256": [
+      "000e1ee3a4877065a3be46eddc233a268dcfac5aef5ed25fa65833ad14939f49"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-295",
+    "sample_ids": [
+      "V7-OE-S093-A01"
+    ],
+    "source_sha256": [
+      "b3982aeb8c4f9344153fff0d1f26ec3ef1f416e7d6f2ae38e83f1ffb2d16200f"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-296",
+    "sample_ids": [
+      "V7-OE-S094-A01"
+    ],
+    "source_sha256": [
+      "1dac8404e2cb63e1de0423c68c0086b806cc1bb867ba7461d1dbe55e922a67a8"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-297",
+    "sample_ids": [
+      "V7-OE-S095-A01"
+    ],
+    "source_sha256": [
+      "54febfd377a671bf2cc569b8cc7fd50c8f6985cd2c9148881a9fe22129ee80a7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-298",
+    "sample_ids": [
+      "V7-OE-S096-A01"
+    ],
+    "source_sha256": [
+      "f584c3b40ae95e3247883a54faea121359ca20daf3585eb598b4463e657af8ae"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-299",
+    "sample_ids": [
+      "V7-OE-S099-A01"
+    ],
+    "source_sha256": [
+      "f7d7cf1d602967058fae97079d2d5487ce9a46b43cf7701cb2f941eef18db044"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-300",
+    "sample_ids": [
+      "V7-OE-S101-A01"
+    ],
+    "source_sha256": [
+      "ae875ea9490f955a8f43d0dce3dab0c0cadc6e70a66134898bd70390cb2dc65e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-301",
+    "sample_ids": [
+      "V7-OE-S102-A01",
+      "V7-OE-S102-A02",
+      "V7-OE-S109-A01",
+      "V7-OE-S109-A02",
+      "V7-OE-S113-A01",
+      "V7-OE-S113-A02",
+      "V7-OE-S116-A01",
+      "V7-OE-S116-A02"
+    ],
+    "source_sha256": [
+      "19ffac454f6647a99a20e8cf26a408445d99832a3cb9d7c88719ea77855bf78b",
+      "78f1f78d31d2b83900d9bb45097e1906cdcdd57543cb1b9859f917f79a672b94",
+      "c6bdd18e40e8d7b6aa210e993be9179d9a1bb96116e778f2adebe4dfd4f41bc3",
+      "f0ad561e0931d721f199a06cb67ad0216af193754c5058b007fc34f0aca785c2"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-302",
+    "sample_ids": [
+      "V7-OE-S103-A01",
+      "V7-OE-S110-A01"
+    ],
+    "source_sha256": [
+      "0eae94b20d68387750b6f60847b91fbee442723ccfaad8823f7adcb1cf1b5384",
+      "1331c47ad3a4269652923d51ae7cb885ab998f83f67090738e4463a0e7eec5b7"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-303",
+    "sample_ids": [
+      "V7-OE-S104-A01",
+      "V7-OE-S105-A01",
+      "V7-OE-S108-A01",
+      "V7-OE-S111-A01"
+    ],
+    "source_sha256": [
+      "284addeb9f1a7a1be6746809609c10db27268d1cc1e1ffe42bef469715e72cb3",
+      "4c7d0a642c2a252b122adcb6fef9349ae0e3b2fcb291b7ed40f16669004d6ab9",
+      "966b67b19d6dc9ad5672cb7e5d5fe0a709af291c0234a2427fdd72ddcf803e5e",
+      "fa2afaf6d57531eac5430e23ab8b00dbbf7cc47e502bc78419e421a645bd4b64"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-304",
+    "sample_ids": [
+      "V7-OE-S106-A01"
+    ],
+    "source_sha256": [
+      "b0c9a796eafe83261355af82749a6373b939ea9189f2bb446d473f9e93e79029"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-305",
+    "sample_ids": [
+      "V7-OE-S107-A01"
+    ],
+    "source_sha256": [
+      "151ff8fa15b617d0848c4ee72fbc97ae038d34339f4c209482b81b454d92601c"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-306",
+    "sample_ids": [
+      "V7-OE-S112-A01"
+    ],
+    "source_sha256": [
+      "7638a54be7e458f3b758f5c75a9429ef0424d3251131ba0fa94f344a5f63fe5e"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-307",
+    "sample_ids": [
+      "V7-OE-S114-A01",
+      "V7-OE-S114-A02"
+    ],
+    "source_sha256": [
+      "5949ae9232c5c947b45537fb01f1c1a16b7866a2794daf827afecdcc6d70ece0"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  },
+  {
+    "component_id": "V7-PREP-COMP-308",
+    "sample_ids": [
+      "V7-OE-S115-A01"
+    ],
+    "source_sha256": [
+      "cdcec5461ee05cd98b6820169c366325b49b3dd66056e8592d21d2195c4926a9"
+    ],
+    "historical_split_hints": [],
+    "independence_proven": false,
+    "owner_release_split_decision": null,
+    "proposal": "Không tách thành phần cùng cảnh/source qua train/val; metadata gần nhau chỉ là cờ, không proofindependence."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "attempts": [
+    {
+      "revision": "r1",
+      "status": "FAILED",
+      "reason": "Windows MAX_PATH l?c copy t?n source d?i; kh?ng c? screening manifest ho?n t?t, kh?ng training/release",
+      "partial_crop_files": 136,
+      "output": "data/interim/pilot-b/v7-targeted-screening-20261008-r1"
+    },
+    {
+      "revision": "r2",
+      "status": "COMPLETED_SCREENING_NOT_MEMBERSHIP",
+      "fix": "Local source materialize t?n SHA, original ZIP paths/provenance gi? nguy?n; output/selection revision m?i",
+      "screening_records": 300
+    }
+  ]
+}

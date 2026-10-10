@@ -1,0 +1,652 @@
+{
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "screening_version": "v7-coco-source-audit-20261008-r1",
+  "records": [
+    {
+      "screening_id": "V7-COCO-SCREEN-001",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-002",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-003",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-004",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-005",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-006",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-007",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-008",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-009",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-010",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-011",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-012",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-013",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-014",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-015",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-016",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-017",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-018",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-019",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-020",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-021",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-022",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-023",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-024",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-025",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-026",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-027",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-028",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-029",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-030",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-031",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-032",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-033",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-034",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-035",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-036",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-037",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-038",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-039",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-040",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-041",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-042",
+      "observation": "Landline ở tai, cell phone annotated trêndesk bottom; tránh nhập phone_use từobjectcategory khi semantics chưa rõ. Không batch chính.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-043",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-044",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-045",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-046",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-047",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-048",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-049",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-050",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-051",
+      "observation": "Phone nhỏ/partial tronghand, đủperson cạnh computer; B auxiliary proposal, outside exam, rights pending.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-052",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-053",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-054",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-055",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-056",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-057",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-058",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-059",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-060",
+      "observation": "Crowded workplace overhead nhiềudevices/person; attribution chưa chứng minh, giữaudit không deskP auto.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-061",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-062",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-063",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-064",
+      "observation": "Phone nhỏ/partial tronghand, đủperson cạnh computer; B auxiliary proposal, outside exam, rights pending.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-065",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-066",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-067",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-068",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-069",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-070",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-071",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-072",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-073",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-074",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-075",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-076",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-077",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-078",
+      "observation": "Phone đặt trước người bên trái, largest-person bênphải khác; cầnassociation khôngnearestperson.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-079",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-080",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-081",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-082",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-083",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-084",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-085",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-086",
+      "observation": "Desk-phone hiện trong ngữ cảnh laptop/giấy/sách riêng của người; A auxiliary proposal, chưa rights/attribution/owner approval. Cần giữ head/tay/phone và không gọi là exam holdout.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-087",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-088",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-089",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-090",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-091",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-092",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-093",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-094",
+      "observation": "COCO không phone annotation nhưng hand người đứng có thiết bị trắng trông phone, headcắt; tuyệt đối không N từ missingannotation.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-095",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-096",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-097",
+      "observation": "Lecture người nhìn forward ngoài laptop workarea; auxiliary looking P candidate, không phoneN tự động.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-098",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-099",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-100",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-101",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-102",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-103",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-104",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-105",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-106",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-107",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-108",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-109",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-110",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-111",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-112",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-113",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-114",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-115",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-116",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-117",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-118",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-119",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-120",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-121",
+      "observation": "Workshop/laptop người quay ngang; auxiliary lookingP candidate, thiếu matchedreadwrite cùngsource.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-122",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-123",
+      "observation": "Có head/tay và ngữ cảnh laptop hoặc giấy; auxiliary negative hypothesis sau visualQA, không suy N từ thiếu COCO box.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-124",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-125",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-126",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-127",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-128",
+      "observation": "Sai unit/thiếuhead, attributionphone không thuộc largest-person hoặc người chỉ trênmàn hình/ảnh; không dùng tự động crop/target.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-COCO-SCREEN-129",
+      "observation": "Ngoài targeted workarea hoặc phone ownership chưa đủ; không tuyển theo COCO labels/captions. Xem source panel; canonical vẫn unknown.",
+      "status": "draft_visual_screening_not_owner_approval"
+    }
+  ]
+}

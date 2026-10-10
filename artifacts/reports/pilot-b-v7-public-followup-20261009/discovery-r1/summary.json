@@ -1,0 +1,165 @@
+{
+  "status": "metadata_candidates_not_visual_or_owner_acceptance",
+  "unique_pages": 121,
+  "eligible_metadata_rows": 57,
+  "exclusions": {
+    "small_original": 11,
+    "not_raster_photo": 50,
+    "license_not_in_research_whitelist": 2,
+    "original_above_byte_budget": 1
+  },
+  "queries": [
+    {
+      "query": "classroom (phone OR smartphone OR cellphone)",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=classroom+%28phone+OR+smartphone+OR+cellphone%29&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-001.json",
+        "sha256": "532953b7a99ddb82d72eb449b78d8db830a076a6e07d3c781c700dde63014dc1"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 79519,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "students (phone OR smartphone) (desk OR table)",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=students+%28phone+OR+smartphone%29+%28desk+OR+table%29&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-002.json",
+        "sha256": "eed76886280556b165de7fb60c1da3a42f14ba56178d07cd1b8ed3601989f14b"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 68520,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"bring your own device\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=%22bring+your+own+device%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-003.json",
+        "sha256": "9df96a8e79bde64326741f8960c27b745c792d8d19cce2fa4fb44c3b361a1442"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 87680,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"mobile learning\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=%22mobile+learning%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-004.json",
+        "sha256": "dd639c832b16194f5e3d4d21f6991162778006f0cd93ef1ca3b0411aa1072af5"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 70373,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "Kahoot classroom",
+      "returned_pages": 3,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=Kahoot+classroom&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-005.json",
+        "sha256": "7c53291310434e8cf2def2151af2c1f9e13b1ac99c699d02832e32b758d945da"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 12538,
+        "etag": null
+      },
+      "has_more": false
+    },
+    {
+      "query": "\"students using smartphones\"",
+      "returned_pages": 0,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=%22students+using+smartphones%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-006.json",
+        "sha256": "ada2a601f24c7f102c6432340d6adca256996c391606174b387338725fe7cf7d"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 20,
+        "etag": null
+      },
+      "has_more": false
+    },
+    {
+      "query": "classroom tablet students",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=classroom+tablet+students&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-007.json",
+        "sha256": "f522ce50a71ba2946c7391016bac75c8f8610092d55d117a72e5d278b4826510"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 75129,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "classroom writing students",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&generator=search&gsrnamespace=6&gsrsearch=classroom+writing+students&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r1/search-008.json",
+        "sha256": "e61344f40f6475f94df26db661e744c8d5d3555f58447e9be70f3c1a177f3c08"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 80499,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "seed_title": "File:A teacher showing some students something on a phone.jpg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&titles=File%3AA+teacher+showing+some+students+something+on+a+phone.jpg",
+      "http": {
+        "status": 200,
+        "bytes": 3504,
+        "etag": null
+      },
+      "metadata_sha256": "317771057554886716f15448caf1fed7d376cc6b6257d9c55d34c5de4470d5fc"
+    },
+    {
+      "seed_title": "File:Guru melakukan share pembelajaran dalam kelas.jpg",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&titles=File%3AGuru+melakukan+share+pembelajaran+dalam+kelas.jpg",
+      "http": {
+        "status": 200,
+        "bytes": 3507,
+        "etag": null
+      },
+      "metadata_sha256": "ae1a751462b86f89757992e6147d2e5526377cb0fa94a368f12d6ed2d6961530"
+    },
+    {
+      "seed_title": "File:Students Play Mobile Game - Kolkata 2016-10-23 1582.JPG",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1600&titles=File%3AStudents+Play+Mobile+Game+-+Kolkata+2016-10-23+1582.JPG",
+      "http": {
+        "status": 200,
+        "bytes": 4158,
+        "etag": null
+      },
+      "metadata_sha256": "ad65725278eb9ee32626af02e6576d27b50cce5a432970848ec6607a65566603"
+    }
+  ],
+  "full_source_exhausted": false,
+  "test_media_read": false
+}

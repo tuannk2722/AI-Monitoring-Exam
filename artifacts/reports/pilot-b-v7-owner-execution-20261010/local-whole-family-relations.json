@@ -1,0 +1,337 @@
+[
+  {
+    "sample_ids": [
+      "V7-C-003",
+      "V7-C-093",
+      "EXP-SCB-034"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-001.png",
+    "evidence_sha256": "fa1515a6798b4c52d5b6954e5a174734bb7c9c03ae9119bd16549751f98a6b0f",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-007",
+      "EXP-SCB-021"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-002.png",
+    "evidence_sha256": "387b6a069705056f6fe8e6c6bd047fb94ea69d5b0f0da2336a12785279db3f8c",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-017",
+      "SCB-turnhead-021"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-003.png",
+    "evidence_sha256": "a8a3b404292613c7f564dceae5b95b3edcb3e66e0c578e98fcf3ed8b459452e2",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-019",
+      "SCB-turnhead-026"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-004.png",
+    "evidence_sha256": "571df48960557f05f23a83f071e77ca12df5812b58172cdbbf596a39f8efb3b3",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-025",
+      "EXP-SCB-032"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-005.png",
+    "evidence_sha256": "b0bac70f35a89864fe504d86d9282beb6329de9c0c40c65a6677702a91923ed4",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-051",
+      "SCB-read-015"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-006.png",
+    "evidence_sha256": "fbe5ed033cd543e1f57cd44dd67be6dbbee5b4ee8b3f90d8953d6bd8670a9ff1",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-079",
+      "V6-EX-017"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-007.png",
+    "evidence_sha256": "9b49d332b039c31a5282a292505781594ed15f23409dbfb531f68275488f033d",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-083",
+      "EXP-RF-023"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-008.png",
+    "evidence_sha256": "282f185382378d4770005459ce5da6f0ff3d5cbb9d94c820aa085f51f6c67d57",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-015",
+      "EXP-SCB-007"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-009.png",
+    "evidence_sha256": "21f816e473a78c4c751dacaabc25a4043039433bde2e2ad106d91919b2f29703",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-028",
+      "SCB-write-023"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-010.png",
+    "evidence_sha256": "b0cba2a0bbbda034765a8ec2e17c4928580edc6dbd3990ae886bbf5f5f9b37fc",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-030",
+      "SCB-write-001"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-011.png",
+    "evidence_sha256": "32ad3ce52825b34c30ed23ca03b0a6b169638a6a388b78bb8d578432fb6634f3",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-038",
+      "EXP-SCB-015"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-012.png",
+    "evidence_sha256": "2e218a284da7f53f6b6399277198e9b05ab0be56162eebe8288557a64ca2d9a0",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-050",
+      "SCB-read-001"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-013.png",
+    "evidence_sha256": "9d6b26c11a510608c46497b178235f9b5244194c3493179fd3bf8626add91098",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S072-A01",
+      "V6R2-EX-001"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-014.png",
+    "evidence_sha256": "94fe1d40b659f15ad3d8789a7644e77a20d73530c58ddfc168da2884773839d6",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S073-A01",
+      "P019-person-01"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-015.png",
+    "evidence_sha256": "51c4fb43136d6efc89dee76b990ffe2eced08ae2dba29eefa2555569ec0cfae6",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S077-A01",
+      "P009-person-01"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-016.png",
+    "evidence_sha256": "8fa9d0594d1b8d404e6163b963dcb740888fd05b1e0616e691dfafddbaf90b7f",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S088-A01",
+      "SCB-read-027"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-017.png",
+    "evidence_sha256": "e9b102b30e11a1d576c8960adc2ccc8dd5b2488c80b28fd466390ee0d8ac4391",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S099-A01",
+      "EXP-SCB-027"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-018.png",
+    "evidence_sha256": "6bee3f80b68dc459b082edcd44df6eb7ce1bb66b9cf96af4d07b521cac306014",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S102-A01",
+      "V7-OE-S102-A02",
+      "P033-person-01"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-019.png",
+    "evidence_sha256": "18536e3bd8013db0664a94e65aaffeee7866e6c461fe47d6d17c5f4b18f2fc7f",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S104-A01",
+      "V6R2-CA-001"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-020.png",
+    "evidence_sha256": "7aa13ecf890e43ec4538529668c3cb6599005408442bb3cf36d20dbdf7da4614",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S109-A01",
+      "V7-OE-S109-A02",
+      "EXP-RF-019"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-021.png",
+    "evidence_sha256": "15c3db4f0de62d39480e02dc89c07b38edbf8dab0e51c3e78e85a645d002005d",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S116-A01",
+      "V7-OE-S116-A02",
+      "P031-person-01"
+    ],
+    "reason": "Đã so ảnh nguồn với parent train: cùng người/bàn/bối cảnh/phòng; giữ whole-family, không chứng minh độc lập giữa các component.",
+    "evidence_ref": "outputs/v7-local-lineage-inspection-20261010-r1/pair-022.png",
+    "evidence_sha256": "d20f6cbe5662c5adcadb4db1b6e1e672b7a1921d2d4e1d1814555204caaca3de",
+    "relation_status": "visually_verified_same_family_proposal"
+  },
+  {
+    "sample_ids": [
+      "V7-C-003",
+      "V7-C-049",
+      "V7-C-093",
+      "EXP-SCB-025",
+      "EXP-SCB-034",
+      "SCB-read-028",
+      "SCB-turnhead-008"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-d835cccbbede",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-C-004",
+      "V7-C-028",
+      "V7-C-051",
+      "EXP-SCB-011",
+      "EXP-SCB-012",
+      "EXP-SCB-048",
+      "SCB-read-015",
+      "SCB-turnhead-013",
+      "SCB-turnhead-018",
+      "SCB-write-013",
+      "SCB-write-017",
+      "SCB-write-023"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-6819c5e7ad38",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-C-007",
+      "EXP-SCB-021",
+      "SCB-turnhead-016"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-ddaaabaaf81c",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-C-011",
+      "V7-C-030",
+      "V7-C-033",
+      "V7-C-041",
+      "V7-C-047",
+      "EXP-SCB-020",
+      "EXP-SCB-033",
+      "SCB-read-006",
+      "SCB-read-012",
+      "SCB-read-014",
+      "SCB-read-023",
+      "SCB-read-026",
+      "SCB-turnhead-001",
+      "SCB-turnhead-002",
+      "SCB-turnhead-003",
+      "SCB-turnhead-004",
+      "SCB-turnhead-007",
+      "SCB-turnhead-009",
+      "SCB-turnhead-012",
+      "SCB-turnhead-019",
+      "SCB-turnhead-020",
+      "SCB-turnhead-027",
+      "SCB-write-001",
+      "SCB-write-004",
+      "SCB-write-009",
+      "SCB-write-012",
+      "SCB-write-014",
+      "SCB-write-016",
+      "SCB-write-019",
+      "SCB-write-021",
+      "SCB-write-022",
+      "SCB-write-027",
+      "SCB-write-028"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-a8bc8cdf57b7",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-C-017",
+      "SCB-turnhead-021"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-ef55f66eb487",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-C-025",
+      "EXP-SCB-032",
+      "SCB-turnhead-028"
+    ],
+    "reason": "Bảo toàn graph conservative đã được owner approve R8, nối trọn parent group cùng train; không thu hẹp group cũ.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/group-whole-component-proposal.json#GC-fb7bbabdf9bb",
+    "relation_status": "inherited_owner_reviewed_conservative_constraint"
+  },
+  {
+    "sample_ids": [
+      "V7-OE-S080-A01",
+      "V6-CA-042"
+    ],
+    "reason": "Metadata cached dHash5 tới parent review-only trong group có val. Chưa đủ evidence giải phóng boundary; quarantine crop mới khỏi train, không kết luận đây là cùng scene đã chứng minh.",
+    "evidence_ref": "artifacts/reports/pilot-b-v7-owner-execution-20261010/lineage-fullpool-triage.json#V7-OE-S080-A01",
+    "relation_status": "conservative_evaluation_boundary_quarantine_not_confirmed_identity"
+  }
+]

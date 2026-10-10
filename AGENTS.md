@@ -58,6 +58,7 @@ Mỗi run phải có: experiment ID, owner, hypothesis, Git commit, dataset/spli
 ## Spec and document rules
 
 - Toàn bộ đều phải được viết bằng tiêngs việt.
+- Đặc biệt chú ý việc viết tài liệu markdown, phải có dấu cách giữa các chữ.
 
 ## Stop conditions
 

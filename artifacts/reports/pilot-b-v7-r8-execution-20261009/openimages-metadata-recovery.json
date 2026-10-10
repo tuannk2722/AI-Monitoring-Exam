@@ -1,0 +1,15 @@
+{
+  "status": "PASS_payload_recovered_after_receipt_finalization_error",
+  "raw_attempt_status_preserved": "FAILED_preserved_attempt",
+  "reason": "st_size property invoked as function in final receipt; payload ranges and old prefix all verified, raw not rewritten",
+  "prefix": {
+    "path": "data/raw/openimages/oi-train-box-prefix-20261009-r8-r1/bbox-train-prefix.csv",
+    "sha256": "13503dfb23d014489a511018829b64f1cd7c3d29eb3565e5f2757376ec8eaa1f"
+  },
+  "bytes": 369098752,
+  "coverage_bytes_fraction": 0.1634302932838924,
+  "additional_bytes": 67108864,
+  "range_parts_verified": 4,
+  "overlap_bytes_verified": 16777216,
+  "full_inventory": false
+}

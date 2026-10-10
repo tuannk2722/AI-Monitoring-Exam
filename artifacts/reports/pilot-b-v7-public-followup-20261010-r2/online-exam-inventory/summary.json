@@ -1,0 +1,27 @@
+{
+  "status": "inventory_only",
+  "entries": 11079,
+  "images_received": 0,
+  "range_bytes_received": 1286751,
+  "range_receipts": [
+    {
+      "start": 833824004,
+      "stop_exclusive": 833824026,
+      "sha256": "6ed1afd65b4c291a641c4c73003c665b59010213522c4c6b34e25f565a17277a"
+    },
+    {
+      "start": 833823984,
+      "stop_exclusive": 833824004,
+      "sha256": "d92c214c8347b5d3800262bc0cb7bcdfaa1ff0025534d8d12c94c38d5ab50aa1"
+    },
+    {
+      "start": 832537295,
+      "stop_exclusive": 833824004,
+      "sha256": "1dfa89c7e62a4b790247cfc9bb565ce618d81cad1b304b3bf7ffe298d0733488"
+    }
+  ],
+  "whole_archive_md5_verified": false,
+  "official_split": null,
+  "training_eligible": false,
+  "config_sha256": "c04f543702a0b89cb6bc520f4772d0bf9a7ea8acbae5b4c3341b5dabc38a12a2"
+}

@@ -1,0 +1,25 @@
+{
+  "canonical_targets_and_masks_unknown": "PASS",
+  "crop_inheritance": [
+    "crop-qa-r3.json",
+    "crop-qa-r4.json",
+    "crop-qa-r5.json",
+    "crop-qa-r6.json"
+  ],
+  "crop_sha_geometry": "PASS",
+  "date": "2026-10-09",
+  "final_changed_panels_reviewed": [
+    "V7-C-123",
+    "V7-C-144"
+  ],
+  "group_independence": "UNPROVEN",
+  "known_lineage_quarantine_excluded": "PASS",
+  "owner_crop_label_review": "PENDING",
+  "pair_contract": "PASS",
+  "public_use_scope": "PENDING_OWNER",
+  "records": 274,
+  "source_sha": "PASS",
+  "status": "draft_visual_qa_pending_owner_review",
+  "test_media_read": false,
+  "unique_crops_and_full_pixel_person_units": "PASS"
+}

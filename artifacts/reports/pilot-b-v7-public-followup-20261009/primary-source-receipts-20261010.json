@@ -1,0 +1,31 @@
+[
+  {
+    "source": "zenodo-online-exam",
+    "url": "https://zenodo.org/api/records/14606173",
+    "status": "failed_metadata_only",
+    "reason": "HTTP Error 504: Gateway Time-out"
+  },
+  {
+    "source": "zenodo-classroom-video",
+    "url": "https://zenodo.org/api/records/21207208",
+    "http": {
+      "status": 200,
+      "bytes": 16225,
+      "etag": "\"4\""
+    },
+    "path": "data/raw/public-photo/primary-research-metadata-20261010-r1/zenodo-classroom-video.json",
+    "sha256": "cd1f187aea96abab63fb80bc936638175de76fd0b1051d8453ce0ee2b5983777",
+    "license": null,
+    "rights": null,
+    "files": [
+      {
+        "key": "CDED-7-v1.1.0-dataset.zip",
+        "size": 129771362,
+        "checksum": "md5:a6d3e46c126bc88c471635549b0ce4d2",
+        "links": {
+          "self": "https://zenodo.org/api/records/21207208/files/CDED-7-v1.1.0-dataset.zip/content"
+        }
+      }
+    ]
+  }
+]

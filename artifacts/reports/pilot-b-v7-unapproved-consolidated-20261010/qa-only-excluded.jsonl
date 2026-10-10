@@ -1,0 +1,2 @@
+{"sample_id": "QA-ONLINE-001", "reason": "QA-only webcam thiếu classroom/workarea; không bù shortage, không copy media.", "original_record_pin": {"path": "outputs/v7-online-exam-qa-20261010-r1/qa-cases.jsonl", "sha256": "0d2bf00cd70c4eaae5bbb56c5df236826429f50f7f8d2b7171443ea9c6cc51d3"}}
+{"sample_id": "QA-ONLINE-002", "reason": "QA-only webcam thiếu classroom/workarea; không bù shortage, không copy media.", "original_record_pin": {"path": "outputs/v7-online-exam-qa-20261010-r1/qa-cases.jsonl", "sha256": "0d2bf00cd70c4eaae5bbb56c5df236826429f50f7f8d2b7171443ea9c6cc51d3"}}

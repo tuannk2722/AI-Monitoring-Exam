@@ -1,0 +1,474 @@
+{
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "screening_version": "v7-targeted-screening-20261008-r2",
+  "media_sheets": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "records": [
+    {
+      "screening_id": "V7-SCREEN-073",
+      "observation": "Phone cầm lớn trên bàn, head cắt; không small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-074",
+      "observation": "Ngoài bối cảnh bàn học; phone lớn cầm tay.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-075",
+      "observation": "Phone cầm trên giấy; cần review attribution nhưng không desk/small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-076",
+      "observation": "Lớp nhiều người; anchor phone chưa rõ, crop thiếu bàn. Chờ full-image QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-077",
+      "observation": "Phone lớn cầm; crowded stock, không bù small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-078",
+      "observation": "Stock augmentation noise, không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-079",
+      "observation": "Phone lớn; stock không matched read/write.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-080",
+      "observation": "Lecture phone foreground nhỏ/partial, context nhiều người. Cần redraw đúng người và matched negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-081",
+      "observation": "Stock phone lớn và nhiều người, không targeted small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-082",
+      "observation": "Unit-only phone nhỏ CCTV, thiếu person ownership; không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-083",
+      "observation": "Ảnh noise stock; anchor sau chưa rõ phone. Không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-084",
+      "observation": "Unit-only phone, không crop person.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-085",
+      "observation": "Thiết bị trông tablet/không có head; không dùng phone label nguồn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-086",
+      "observation": "Thiết bị nằm trên sách bàn, người thao tác; cần phân biệt phone/calculator tại full resolution trước đề xuất.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-087",
+      "observation": "Ngoài lớp bàn học; phone lớn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-088",
+      "observation": "Phone ở tai và thiết bị trên bàn; giữ secondary desk hypothesis chờ QA ownership.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-089",
+      "observation": "Green-chair RF family validation; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-090",
+      "observation": "Library phone rõ lớn, không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-091",
+      "observation": "Phone lớn, không targeted desk/small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-092",
+      "observation": "Ngoài ngữ cảnh làm bài; đứng trao đổi.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-093",
+      "observation": "Phone trong hai tay che một phần cạnh sách, nữ bên cạnh viết. Pair B tiềm năng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-094",
+      "observation": "Đứng ngoài ngữ cảnh bàn học.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-095",
+      "observation": "Đứng ngoài ngữ cảnh bàn học.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-096",
+      "observation": "Đứng ngoài ngữ cảnh bàn học.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-097",
+      "observation": "Phone nhỏ dưới vở trong lecture nhiều người; B/D, cần giữ đủ head/tay.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-098",
+      "observation": "Không ngữ cảnh làm bài bàn học, phone lớn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-099",
+      "observation": "Phone lớn, không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-100",
+      "observation": "Phone thấp trong tay trên bàn, che một phần; không desk. Cần negative cùng nguồn/context.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-101",
+      "observation": "Stock noise mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-102",
+      "observation": "Stock noise mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-103",
+      "observation": "Phone cầm lớn, không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-104",
+      "observation": "Phone thấp cạnh sách; có hai người chồng crop cần attribution/redraw.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-105",
+      "observation": "Phone lớn; không targeted desk/small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-106",
+      "observation": "Yellow/red chairs RF validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-107",
+      "observation": "Phone thấp phần dưới tay/bàn, head/tay đủ; B cần matched negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-108",
+      "observation": "Phoneheld lớn; crowded nhưng không co-positive rõ.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-109",
+      "observation": "Phone lớn; crowded và hướng nhìn ngoài sách, D có thể review.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-110",
+      "observation": "Unit-only thiếu head/person.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-111",
+      "observation": "Watermark stock mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-112",
+      "observation": "Tablet/unit-only, không phone canonical.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-113",
+      "observation": "CCTV head tư thế lạ, tablet không phone; không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-114",
+      "observation": "Head cắt, device attribution không thuộc người đầy đủ.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-115",
+      "observation": "Desk-phone trên bàn máy tính, foreground đủ head/tay; A auxiliary context, cần matched computer negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-116",
+      "observation": "Phone cầm lớn, crowded; không targeted small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-117",
+      "observation": "Cùng ảnh/cảnh79, re-export. Không đếm mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-118",
+      "observation": "Green-chair RF validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-119",
+      "observation": "Phone lớn; không small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-120",
+      "observation": "Cùng scene77, held phones; không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-121",
+      "observation": "Phoneheld lớn, cùng family131; không desk/small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-122",
+      "observation": "Lecture heldphone nhỏ nhưng nhiều tay, cần attribution/full source.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-123",
+      "observation": "Phoneheld lớn; không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-124",
+      "observation": "Ngoài bàn học, heldphone rõ.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-125",
+      "observation": "Cảnh mô phỏng parent train, unit chưa đúng, không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-126",
+      "observation": "Phone lớn, không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-127",
+      "observation": "Cùng scene93, người nam chuyển sang viết giấy; matched negative B tốt nếu redraw riêng nam.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-128",
+      "observation": "Stock noise mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-129",
+      "observation": "Lớp thiếu head/bàn crop anchor; partial phone cần redraw.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-130",
+      "observation": "Phone cầm lớn ngoài workarea.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-131",
+      "observation": "Cùng scene121, heldphone lớn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-132",
+      "observation": "Người đứng, ngoài workarea.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-133",
+      "observation": "Unit-only dưới bàn, không person.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-134",
+      "observation": "Nhiều người/phones bàn; cần redraw person và kiểm phone desk ownership.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-135",
+      "observation": "Thiết bị trong tay trên sách; partial và crowded, B tiềm năng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-136",
+      "observation": "Subtitle/video family owner đã excluded EXP-RF-014; loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-137",
+      "observation": "Phoneheld dưới bàn, thiếu person crop; parent simulation family, không cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-138",
+      "observation": "Watermark/khác cảnh; crophead cắt. Không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-139",
+      "observation": "Stock noise mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-140",
+      "observation": "Phone nhỏ cầm thấp cạnh tờ giấy, head đủ; B, có thể redraw người đọc background làm negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-141",
+      "observation": "Tablet/unit-only, thiếu person.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-142",
+      "observation": "Phone nhỏ trên sách trong tay, nhiều người; B/D; desk phone cạnh người khác cần attribution.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-143",
+      "observation": "Stock noise mạnh; không dùng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-144",
+      "observation": "Green-chair RF validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-145",
+      "observation": "Green-chair RF validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-146",
+      "observation": "Phone cầm nhỏ trước giấy, người đọc phía sau; B pair cần redraw.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-147",
+      "observation": "Lecture forward head và small phone, D/B; cần phân biệt hướng ngoài workarea.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-148",
+      "observation": "Phone lớn che mặt, không small.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-149",
+      "observation": "Thiết bị có phím nhiều, trông calculator. Không map Phone use thành P; hard negative tiềm năng cần full QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-150",
+      "observation": "Green-chair RF validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-151",
+      "observation": "Phone thấp trong tay lecture, không desk; B khi thấy nhỏ/partial.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-152",
+      "observation": "Yellow/red-chair validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-153",
+      "observation": "Parent simulation family, không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-154",
+      "observation": "Crop torso/unit-only thiếu head, không person review.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-155",
+      "observation": "Phone rõ lớn; không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-156",
+      "observation": "Ngoài phòng học bàn giấy; không targeted.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-157",
+      "observation": "Noise/duplicate family101; loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-158",
+      "observation": "Noise augmentation; loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-159",
+      "observation": "Phoneheld lớn; không targeted small/desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-160",
+      "observation": "Thiết bị cạnh bài trông calculator. Cần full QA; không source-label P.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-161",
+      "observation": "Hai người quay sang nhau, workarea nhiều bàn; C có thể redraw người nữ, phone U.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-162",
+      "observation": "Yellow/red-chair validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    }
+  ]
+}

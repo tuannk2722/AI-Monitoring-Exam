@@ -1,0 +1,122 @@
+[
+  {
+    "source": "classroom_attitude",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "U",
+    "group": "R8-DARK-ROOM-SESSION-UNKNOWN",
+    "count": 1
+  },
+  {
+    "source": "classroom_attitude",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "U",
+    "group": "R8-SAME-SOURCE-APPROVED-V7-D-026",
+    "count": 1
+  },
+  {
+    "source": "classroom_attitude",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "P",
+    "group": "R8-DARK-ROOM-SESSION-UNKNOWN",
+    "count": 1
+  },
+  {
+    "source": "classroom_attitude",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "P",
+    "group": "R8-SAME-SOURCE-APPROVED-V7-D-026",
+    "count": 1
+  },
+  {
+    "source": "exam_cheating_keaor",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "N",
+    "group": "R8-EXAM-IMG3485-FAMILY-OWNER-PENDING",
+    "count": 1
+  },
+  {
+    "source": "exam_cheating_keaor",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "P",
+    "group": "R8-EXAM-IMG3485-FAMILY-OWNER-PENDING",
+    "count": 1
+  },
+  {
+    "source": "exam_cheating_keaor",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "N",
+    "group": "R8-EXAM-IMG3485-FAMILY-OWNER-PENDING",
+    "count": 2
+  },
+  {
+    "source": "scb_head",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "N",
+    "group": "PARENT-TRAIN-PB-G-f0b75b5ac12d58228355",
+    "count": 1
+  },
+  {
+    "source": "scb_head",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "P",
+    "group": "PARENT-TRAIN-PB-G-7adf3e797f0d4d4978d9",
+    "count": 1
+  },
+  {
+    "source": "scb_head",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "P",
+    "group": "PARENT-TRAIN-PB-G-f0b75b5ac12d58228355",
+    "count": 1
+  },
+  {
+    "source": "scb_head",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "U",
+    "group": "PARENT-TRAIN-PB-G-7adf3e797f0d4d4978d9",
+    "count": 1
+  },
+  {
+    "source": "scb_head",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "U",
+    "group": "PARENT-TRAIN-PB-G-f0b75b5ac12d58228355",
+    "count": 2
+  },
+  {
+    "source": "wmf_knowledge_everyone",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "N",
+    "group": "WMF-KNOWLEDGE-EVERYONE-ALL-CUTS-ONE-FAMILY-UNPROVEN",
+    "count": 1
+  },
+  {
+    "source": "wmf_knowledge_everyone",
+    "domain": "classroom_or_exam_context",
+    "target": "looking_around",
+    "state": "P",
+    "group": "WMF-KNOWLEDGE-EVERYONE-ALL-CUTS-ONE-FAMILY-UNPROVEN",
+    "count": 1
+  },
+  {
+    "source": "wmf_knowledge_everyone",
+    "domain": "classroom_or_exam_context",
+    "target": "phone_use",
+    "state": "U",
+    "group": "WMF-KNOWLEDGE-EVERYONE-ALL-CUTS-ONE-FAMILY-UNPROVEN",
+    "count": 2
+  }
+]

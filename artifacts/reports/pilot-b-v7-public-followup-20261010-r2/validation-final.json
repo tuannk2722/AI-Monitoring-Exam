@@ -1,0 +1,39 @@
+{
+  "status": "PASS_new_R2_preparation_WITH_historical_R8_README_mismatch",
+  "date": "2026-10-10",
+  "tests_passed": 235,
+  "test_log": {
+    "path": "outputs/public-followup-r2-tests-20261010.log",
+    "sha256": "53a8179f1b772c1f8a6534ba3ff82833529c3266920d62330086b26fb4c3ab22"
+  },
+  "ruff": "PASS_src_tests_scripts",
+  "mypy": "PASS_2_new_modules_only",
+  "check_repo_failures": 0,
+  "git_diff_check": "PASS",
+  "R1_pointer": {
+    "path": "artifacts/reports/pilot-b-v7-public-followup-20261009/review-pointer-final.json",
+    "sha256": "616bd26e31ce90c1f8ca1aac98b939d3bd25cc8bba3e6b20b4646b34140ee83f"
+  },
+  "R1_seal_counts_verified": [
+    31,
+    57
+  ],
+  "new_image_hashes_verified": 38,
+  "QA_media_hashes_verified": 6,
+  "local_markdown_links_verified": 13,
+  "local_HTML_image_links_verified": 6,
+  "untracked_forbidden_media": 0,
+  "visual_screened": 38,
+  "whole_archive_md5_verified": false,
+  "CRC_members_verified": 38,
+  "train_only_publisher_selection": true,
+  "publisher_val_test_media_read": false,
+  "project_holdout_media_read": false,
+  "model_executed": false,
+  "release_materialized": false,
+  "historical_R8_README_mismatch_preserved": {
+    "expected": "cba7e324acf39aad91fef0d52b6a120fdc79801f0484505520b29632acab1a1b",
+    "current": "929d140c12f8c98b6b81c1dfd7887ec14f36115baa58ad3c9f3b1db4975a0284",
+    "owner_clarification_pending": true
+  }
+}

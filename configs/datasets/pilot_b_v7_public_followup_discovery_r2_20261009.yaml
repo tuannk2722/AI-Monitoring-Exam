@@ -1,0 +1,34 @@
+status: draft_public_classroom_gapfill
+owner: repository-owner
+date: '2026-10-09'
+api: https://commons.wikimedia.org/w/api.php
+queries:
+  - 'incategory:Classrooms smartphone'
+  - 'deepcat:Classrooms phone'
+  - '"students" "mobile phones"'
+  - '"students" "smartphones"'
+  - '"classroom" "smartphone" -filetype:pdf'
+  - '"students writing in class"'
+limit_per_query: 20
+thumb_width: 1920
+max_metadata_bytes: 6000000
+max_image_bytes: 25000000
+min_dimension: 600
+allowed_licenses: [CC0, CC BY 2.0, CC BY 3.0, CC BY 4.0, CC BY-SA 2.0, CC BY-SA 3.0, CC BY-SA 4.0]
+blocked_categories: [without consent, copyright violations, deletion requests]
+seed_titles:
+  - 'File:Guru melakukan share pembelajaran dalam kelas.jpg'
+  - 'File:Hand-writing-exam-classroom.jpg'
+  - 'File:Smiling Student Working on Assignments at Desk.jpg'
+  - 'File:Students Of St Peters Anglican School 2.jpg'
+  - 'File:Students Play Mobile Game - Kolkata 2016-10-23 1582.JPG'
+  - 'File:Students writing in class.jpg'
+  - 'File:Tabletunterricht 03.jpg'
+  - 'File:Tabletunterricht 06.jpg'
+  - 'File:Tabletunterricht 07.jpg'
+  - 'File:UNESCO Mobile Learning Week 2019 - Wikimedia table.jpg'
+  - 'File:Wikipedia table at UNESCO Mobile Learning Week 2019 2.jpg'
+raw_metadata: data/raw/public-photo/commons-classroom-discovery-20261009-r2
+discovery_output: artifacts/reports/pilot-b-v7-public-followup-20261009/discovery-r2
+training_eligible: false
+required_crop_count: null

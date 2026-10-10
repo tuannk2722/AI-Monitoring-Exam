@@ -1,0 +1,51 @@
+{
+  "status": "PASS_scoped_audit_validation_WITH_preserved_R7_README_mismatch",
+  "full_suite": {
+    "command": "PYTHONPATH=src outputs/E001-env/Scripts/python.exe -m unittest discover -s tests",
+    "tests": 221,
+    "result": "PASS",
+    "elapsed_seconds": 56.073,
+    "scope": "Trước bổ sung explicit parent-hint graph; fixture tests, không model holdout."
+  },
+  "after_graph_change": {
+    "tests": 6,
+    "result": "PASS",
+    "command": "unittest discover -s tests -p test_v7_annotation_audit.py -v"
+  },
+  "ruff": {
+    "scope": "src tests scripts toàn repository",
+    "result": "PASS"
+  },
+  "mypy": {
+    "scope": "v7_owner_review/v7_input_evidence/v7_source_coverage_audit/v7_annotation_audit; follow-imports=silent",
+    "result": "PASS",
+    "whole_repository_claim": false
+  },
+  "repository_guard": "PASS scripts/check_repo.py --require-git",
+  "untracked_forbidden_paths": [],
+  "git_diff_check": "PASS",
+  "html_local_links_checked": 1918,
+  "markdown_local_links_checked": 54,
+  "review_output_files_hashed": 860,
+  "draft_media_hashes_verified": 822,
+  "review_integrity": {
+    "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/owner-review-verification-r5.json",
+    "sha256": "edfbf2b751f77b44baf62cf9ea44ab7cbf42da920dad3c6c22168a3930ba8453"
+  },
+  "historical_integrity": {
+    "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/historical-integrity-final.json",
+    "sha256": "a9edc56659efcb23febd6a925a0fd95d5bf5309a60bcd2ef53b3d4918fcd8eca"
+  },
+  "historical_test_crop_bytes_read": false,
+  "historical_crop_rehash_claim": false,
+  "model_inference_executed": false,
+  "training_executed": false,
+  "release_materialized": false,
+  "external_media_upload": false,
+  "limitations": [
+    "R7 README khác checksum cũ, nguyên nhân chưa xác minh, giữ nguyên cả hai.",
+    "Camera/room/session/group independence chưa chứng minh; graph chỉ proposal.",
+    "Input224 qualitative review không threshold/acceptance metric mới.",
+    "Không kiểm trực tiếp lại pixels/media của historical evaluation."
+  ]
+}

@@ -1,0 +1,46 @@
+status: draft_targeted_review_package
+owner: repository-owner
+training_eligible: false
+scope_approval:
+  path: artifacts/reports/pilot-b-v7-targeted-20261008/scope-approval.json
+  sha256: d73f06982035f2a344ca78b78be0a5f7f040c8c4575a345016edb0fa3d97c451
+selection:
+  path: artifacts/reports/pilot-b-v7-targeted-20261008/targeted-selection-r6.json
+  sha256: ac9f0245c8a89e367bf5cf226b12560b131400dff5df309b80272179861f6677
+parent_checksums:
+  path: data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256
+  sha256: 971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f
+screenings:
+- id: rf
+  path: data/interim/pilot-b/v7-targeted-screening-20261008-r2/screening.jsonl
+  sha256: 88ce2f912ec0e7a1dcf561db649a43cc348a8952b42e91a07791b295c3eaae4f
+- id: scb
+  path: data/interim/pilot-b/v7-targeted-scb-screening-20261008-r1/screening.jsonl
+  sha256: 41b00927d6992fa4e4b5804120d3b4cf55827d8459b053130640ef35386fc194
+- id: coco
+  path: data/interim/pilot-b/v7-coco-phone-audit-20261008-r1/screening.jsonl
+  sha256: a149e8cf5e44d9f76fd9a23d6432578322dae266ff5d5511610abfabd6470788
+- id: oi
+  path: data/interim/pilot-b/v7-openimages-phone-audit-20261008-r1/screening.jsonl
+  sha256: e9d5bb4602c8e431590711e8ac1e0da378c76ca61f7b0792ae8b4258243faabf
+- id: coco2
+  path: data/interim/pilot-b/v7-coco-phone-audit-20261008-r2/screening.jsonl
+  sha256: a399bfa825c65fda2efa7415a01c458ace014f240801d195eef8806284ed3b4c
+- id: coco3
+  path: data/interim/pilot-b/v7-coco-phone-audit-20261008-r3/screening.jsonl
+  sha256: 0bdb980d4a0ce49b9973abf45855333b3fde70cf1fd07113df60e591ea842655
+- id: oi3
+  path: data/interim/pilot-b/v7-openimages-phone-audit-20261008-r3/screening.jsonl
+  sha256: 781e7f4c64b0f48105ea47efd1efe8eb477eae7779a20a2d1085d8f1eb62138d
+- id: oi4
+  path: data/interim/pilot-b/v7-openimages-phone-audit-20261008-r4/screening.jsonl
+  sha256: 4ed9aa4d5628fdcf5b7484c85ca719720e8e6a82d4a1a3bf0e74edd810114bb5
+output: data/interim/pilot-b/v7-targeted-review-20261008-r6
+budgets:
+  A: 80
+  B: 80
+  C: 100
+  D: 40
+note: Chuẩn bị crop/pair hypotheses để review; không canonical dataset, split hoặc
+  trainer.
+require_person_units: true

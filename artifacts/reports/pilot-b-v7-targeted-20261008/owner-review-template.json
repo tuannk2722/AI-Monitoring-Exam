@@ -1,0 +1,18 @@
+{
+  "crop_label_decision": null,
+  "group_graph_decision": null,
+  "note": "Owner có thể quyết định batch và liệt kê ngoại lệ; không phải annotate thủ công274crop. Null chưa là approval, không tự release.",
+  "owner": "repository-owner",
+  "pointer": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/review-pointer.json",
+    "sha256": "d542ab9514a92e9494a83a5d3b2f5da2d5dadcdc7ddb8200e87184957211f9f8"
+  },
+  "public_rights_notices_use_scope_decision": null,
+  "reject_or_revise_ids": [],
+  "release_approval": null,
+  "reviewed_at": null,
+  "shortage_and_pair_limitations_acknowledged": null,
+  "split_approval": null,
+  "status": "pending_owner_review",
+  "training_approval": null
+}

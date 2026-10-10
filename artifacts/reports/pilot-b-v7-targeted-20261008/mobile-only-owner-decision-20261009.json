@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "status": "owner_scope_decision",
+  "owner": "repository-owner",
+  "user_statement": "Chỉ điện thoại di động",
+  "scope": "phone_use v7 forward; không tự relabel release cũ",
+  "not_approved": [
+    "membership",
+    "public_rights",
+    "groups",
+    "split",
+    "release",
+    "train"
+  ]
+}

@@ -1,0 +1,38 @@
+status: draft_public_classroom_gapfill
+owner: repository-owner
+date: '2026-10-09'
+api: https://commons.wikimedia.org/w/api.php
+queries:
+  - 'classroom (phone OR smartphone OR cellphone)'
+  - 'students (phone OR smartphone) (desk OR table)'
+  - '"bring your own device"'
+  - '"mobile learning"'
+  - 'Kahoot classroom'
+  - '"students using smartphones"'
+  - 'classroom tablet students'
+  - 'classroom writing students'
+limit_per_query: 20
+thumb_width: 1600
+max_metadata_bytes: 6000000
+max_image_bytes: 25000000
+min_dimension: 600
+allowed_licenses:
+  - CC0
+  - CC BY 2.0
+  - CC BY 3.0
+  - CC BY 4.0
+  - CC BY-SA 2.0
+  - CC BY-SA 3.0
+  - CC BY-SA 4.0
+blocked_categories:
+  - without consent
+  - copyright violations
+  - deletion requests
+seed_titles:
+  - 'File:A teacher showing some students something on a phone.jpg'
+  - 'File:Guru melakukan share pembelajaran dalam kelas.jpg'
+  - 'File:Students Play Mobile Game - Kolkata 2016-10-23 1582.JPG'
+raw_metadata: data/raw/public-photo/commons-classroom-discovery-20261009-r1
+discovery_output: artifacts/reports/pilot-b-v7-public-followup-20261009/discovery-r1
+training_eligible: false
+required_crop_count: null

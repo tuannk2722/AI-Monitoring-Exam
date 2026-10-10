@@ -1,0 +1,56 @@
+status: draft_public_auxiliary_inventory
+metadata:
+  path: data/raw/public-photo/source-inventory-20261010-r2/metadata-002.response
+  sha256: 91c10f5effd5ee899ac0bdef1f6db7f3c2af55bb4264522b2d5cae354e5bcbea
+source_id: zenodo_online_exam_original
+source_page: https://zenodo.org/records/14606173
+archive_key: Dataset_Students_Behavior_Online_Exam_Org.zip
+license_id: cc-by-4.0
+raw_output: data/raw/public-photo/online-exam-screen-20261010-r2
+report_output: artifacts/reports/pilot-b-v7-public-followup-20261010-r2/online-exam-screen-r2
+max_range_bytes: 35000000
+max_member_bytes: 8000000
+image_cap: 48
+member_indices:
+- 253
+- 503
+- 640
+- 3519
+- 967
+- 1332
+- 1989
+- 2677
+- 2598
+- 2875
+- 2811
+- 2953
+- 2988
+- 3028
+- 3183
+- 3048
+- 3099
+- 3348
+- 4026
+- 170
+- 461
+- 613
+- 830
+- 1286
+- 1706
+- 2576
+- 2660
+- 2748
+- 2789
+- 2951
+- 2972
+- 3024
+- 3042
+- 3079
+- 3160
+- 3288
+- 3493
+- 3798
+training_eligible: false
+metadata_member_indices:
+- 1
+screen_output: outputs/v7-online-exam-screen-20261010-r2

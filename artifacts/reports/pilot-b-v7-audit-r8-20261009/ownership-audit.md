@@ -1,0 +1,47 @@
+# Crowded ownership/co-occurrence —39 R7 Draft
+
+Đã xem source/crop/native224/nearest448 từng39 D. Chỉ D009/D021 có cả mobile gắn anchor và hướng nhìn ngoài vùng bài nhìn được; đây là visible support cho P/P proposal, chưa owner chốt task/gaze, không phải2 co-occurrence Accepted. Các crop nhiều người/phone không tự thành đồng dương. D050 là phone P/looking N.
+
+D006/D025/D033 cần device review; D010 cần explicit unit, D026 phone ở teacher khác writer, D027 cần recrop để giữ device. Root final override/recrop sẽ thay proposal mới, không sửa R7. Các phone U về ownership/visibility vẫn U. D044/D046 source P rõ hơn224, lựa chọn usability cần owner; không đặt ngưỡng mới.
+
+| ID | R7 | Attribution/evidence | Nhận xét |
+|---|---|---|---|
+| V7-D-002 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ áo kem giữ mobile đen, nữ bên cạnh xem chung; linked holder rõ224, không có own workarea đủ để looking P, không co-occurrence. |
+| V7-D-004 | P/U | direct_hand_or_own_desk_lap_link_visible | Người áo trắng giữa hàng cầm own mobile thấp, neighbors có devices riêng; ownership direct còn đọc được224; gaze/workarea U. |
+| V7-D-005 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam kính áo denim giữ mobile đen, nữ bên trái xem cùng; phone thuộc linked holder, looking U vì hoạt động nhóm không có own workarea rõ. |
+| V7-D-006 | P/U | device_identity_pending | Đã xem source512: thiết bị lớn dựng đứng có case/support giữa nam áo xanh và nữ plaid, giống tablet; chưa chứng minh mobile. Đề xuất U/U/device review, không co-occurrence và không nhận phone P từ class nguồn. |
+| V7-D-008 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo cyan giữ mobile đen hai tay, nữ đỏ neighbor chạm/xem; phone holder rõ224, task nhóm chưa đủ looking P. |
+| V7-D-009 | P/P | direct_hand_or_own_desk_lap_link_visible | Nữ áo cyan có own mobile trong tay phải và sách mở trên bàn trước người; mắt hướng mobile ngoài vùng sách, both P/P là proposal có visible phone+workarea, owner vẫn chốt gaze/task. |
+| V7-D-010 | P/U | owner_recrop_or_anchor_delta_pending | Crop có nữ plaid foreground giữ mobile đỏ dựng và nữ áo trắng giữ mobile xanh ngang, cả hai linked own hands. Metadata anchor không chỉ người nào, cần explicit unit; root đề xuất foreground-plaid-phone-user P/U và recrop. Không gộp hai người thành co-occurrence. |
+| V7-D-011 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ plaid bên trái giữ mobile trắng; người cạnh có own phone riêng, holder và device rõ224; gaze U, không both P. |
+| V7-D-012 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam plaid tiền cảnh cầm mobile selfie giữa nhóm; direct ownership rõ224, không có vùng bài riêng để looking P. |
+| V7-D-013 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo xám kính giữ mobile nhỏ ngang, nam nâu cạnh là neighbor; phone/hand đọc được224, activity nhóm giữ looking U. |
+| V7-D-014 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ bên trái giữ phone đen; nữ neighbor chỉ tay vào màn hình, không thay holder;224 thấy outline/ownership, looking U. |
+| V7-D-015 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo đen phía sau giữ own mobile gần mặt; nhiều phone foreground nhưng linked own device đọc được224; looking U. |
+| V7-D-017 | U/P | ownership_or_observation_unknown_retained | Nữ kính bên phải nhìn sang phone người nữ trái, tay cầm pen sát bài riêng; phone ownership của anchor chưa rõ nên U, looking P là proposal own-workarea/neighbor evidence, không co-occurrence. |
+| V7-D-018 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo trắng ở giữa chạm phone desk ngay vùng bàn của mình; nam bên phải cầm mobile khác. Linked desk phone đọc được224, looking U do có tương tác nhóm. |
+| V7-D-020 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo xám/trắng giữa lớp cầm mobile sáng bằng hai tay trên bài; device rõ224, looking U chờ task/gaze owner, không tự cả hai P. |
+| V7-D-021 | P/P | direct_hand_or_own_desk_lap_link_visible | Nữ tóc tết áo denim foreground giữ own mobile và giấy trước người; mắt hướng phone ngoài giấy. P/P có visible device+own-workarea nhưng task/gaze vẫn proposal owner review, không chỉ nhìn đầu suy P. |
+| V7-D-022 | U/P | ownership_or_observation_unknown_retained | Nam áo sọc bên trái vươn tay/nhìn sang phone của nam plaid bên phải, có sách mở trước người; phone U ownership, looking P proposal. Phone ngoài R7crop không được gán own phone. |
+| V7-D-023 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ tóc xoăn phải giữ mobile đen ngang trên lap, linked hands đọc được224; giấy lap có nhưng task/gaze chưa chốt nên U, không both P. |
+| V7-D-025 | P/U | device_identity_pending | Nữ áo pink giữ thiết bị xanh landscape có hình như smartphone hoặc compact camera; chưa đủ mobile identity. Đề xuất U/U tới owner device review; hình chữ nhật/annotation nguồn không tự là P. |
+| V7-D-026 | P/U | owner_recrop_or_anchor_delta_pending | Phone đen ở tay nam teacher thấp bên trái; nữ áo sọc anchor đang viết bằng pen, tay kia giữ bài. Không gán teacher phone cho writer; root đề xuất N/N, bbox tập trung nữ [190,110,445,512]. Đây là hard negative attribution, không co-occurrence. |
+| V7-D-027 | P/U | owner_recrop_or_anchor_delta_pending | Nam áo xám bên trái có phone sát tay nhưng R7crop cắt thân máy ở cạnh phải, chỉ còn fingers mờ224. Source scene có thể recrop để giữ device; root đang QA bbox mới, giữ source label pending thấy crop mới. |
+| V7-D-028 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ tóc ngắn cardigan vàng giữ phone dạng keyboard bằng hai tay; thân máy/keyboard/ownership đọc được224, seated group không own workarea rõ nên looking U. |
+| V7-D-029 | P/U | direct_hand_or_own_desk_lap_link_visible | Người áo sọc đứng cầm mobile trắng nhỏ gần hip; linked hand/device đọc được224, crowd context không xác lập own workarea, looking U. |
+| V7-D-031 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo trắng bên phải giữ mobile đen ngang sát tay trên bàn ăn; phone direct ownership đọc được224, không work-task evidence để looking P. |
+| V7-D-033 | P/U | device_identity_pending | Đã xem source640: nữ xanh giữ thiết bị trắng landscape/thân dày giống compact camera hoặc handheld khác; chưa chắc mobile. Đề xuất U/U/device review; không lấy COCO class phone thay visual identity. |
+| V7-D-034 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ áo đen giữ mobile flip trắng đóng có screen nhỏ trên bàn; linked hand/phone rõ224, source posed/bàn ăn không own workarea task nên looking U. |
+| V7-D-035 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ khăn tối foreground giữ mobile nâu trong tay trái và vật cầm tay khác bên phải; không gán vật khác thành phone, device anchor rõ224, looking U. |
+| V7-D-038 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ bên trái giữ smartphone màn hình sáng trong nhóm chụp/xem cùng; nam neighbors không ownership thay holder; rõ224, không own workarea, looking U. |
+| V7-D-042 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam áo đen bên trái giữ mobile trắng mỏng phía trên sổ; laptop foreground che phần desk, linked fingers/device còn rõ224, looking U chờ task evidence. |
+| V7-D-044 | P/U | direct_hand_or_own_desk_lap_link_visible | Nam suit xám bên trái giữ phone nhỏ giữa tay; source holder/device đọc được nhưng224 chỉ còn mép máy rất nhỏ. Giữ source P Draft, owner chọn usability224; không dùng số crop thay diversity. |
+| V7-D-046 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ áo xám bên phải giữ mobile nhỏ cạnh bàn laptop, direct own hands;224 chỉ còn thin edge khó đọc identity. Giữ source P Draft với input ambiguity, looking U. |
+| V7-D-049 | U/N | ownership_or_observation_unknown_retained | Nữ tóc đỏ foreground nhìn laptop/workarea, tay còn lại bị che nên phone U hợp lý; nam bên cạnh là unit riêng. Looking N có linked own/shared workarea, không co-occurrence. |
+| V7-D-050 | P/N | direct_hand_or_own_desk_lap_link_visible | Nam áo xanh ở giữa có smartphone trên lap của mình và tay/pen chỉ bài trước người; phone direct own-lap rõ224, looking N proposal làm việc theo bài. Đây là P/N fully-known, không both P. |
+| V7-D-051 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ áo xanh bên phải giữ mobile case pink trong tay sát lap; device/hand đọc được224, mobile nữ trái khác không gán anchor; looking U. |
+| V7-D-053 | U/N | ownership_or_observation_unknown_retained | Nữ áo đỏ trái nhìn laptop shared task; tay còn lại sau laptop nên phone U, looking N proposal workarea rõ; bàn/phone absence chưa đủ N. |
+| V7-D-054 | U/N | ownership_or_observation_unknown_retained | Nữ writer foreground phải viết giấy trong nhóm, own pen/paper rõ224; crowd/partition che phone vùng khác nên U giữ, looking N không suy từ head tilt đơn lẻ. |
+| V7-D-056 | U/N | ownership_or_observation_unknown_retained | Nam áo xanh cà vạt đỏ dùng keyboard; desktop monitor che vùng phone nên U, workarea/keyboard rõ cho looking N; không gán phone do rectangular desk clutter. |
+| V7-D-057 | U/N | ownership_or_observation_unknown_retained | Nam áo tối ở giữa nhìn own desktop/workarea, tay/bàn bị monitor che nên phone U. Phone đen trên bàn foreground thuộc người khác, không gán cho middle anchor; looking N proposal. |
+| V7-D-058 | P/U | direct_hand_or_own_desk_lap_link_visible | Nữ áo đen bên trái giữ mobile đỏ sát lap và thao tác bằng hai tay; linked device còn đọc được224, nữ blue neighbor own phone riêng, looking U. |

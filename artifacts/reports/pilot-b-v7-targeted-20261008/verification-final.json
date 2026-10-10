@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-09",
+  "draft_masks_split_usage": "PASS",
+  "group_independence": "UNPROVEN",
+  "known_evaluation_family_exclusion": "PASS",
+  "owner_review": "PENDING",
+  "package_checksums": "PASS",
+  "pairs_and_primary_budgets": "PASS",
+  "parent_checksums_pin": "PASS",
+  "public_attribution_candidate_pin": "PASS",
+  "public_attribution_metadata_match": "PASS",
+  "records": 274,
+  "source_crop_geometry_hashes": "PASS",
+  "status": "PASS_preparation_integrity_not_dataset_acceptance",
+  "test_media_read": false
+}

@@ -1,0 +1,308 @@
+{
+  "status": "template_pending_owner_decisions",
+  "owner": "repository-owner",
+  "reviewed_at": null,
+  "review_proposals": {
+    "path": "outputs/v7-owner-review-r5-20261009/review-proposals.jsonl",
+    "sha256": "a75071f1628347acf453cb15f5507c2855c56d120d7581bcc260374e5dc272cb"
+  },
+  "review_config": {
+    "path": "configs/datasets/pilot_b_v7_owner_review_r5_20261009.yaml",
+    "sha256": "ce28c0296bec30b9cf4ac644e06deba3c78e805562bf8297558f9d14d38e7c94"
+  },
+  "annotation_summary": {
+    "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r4/annotation-summary.json",
+    "sha256": "6fea70404e9836b3e9ebc65c2cf9500ab611572a17391ae87f860664df364cff"
+  },
+  "batch_crop_label_decision": null,
+  "case_decisions": [
+    {
+      "sample_id": "V7-A-035",
+      "proposed_states": [
+        "P",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-A-002",
+      "proposed_states": [
+        "P",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-A-061",
+      "proposed_states": [
+        "N",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-057",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-061",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-079",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-080",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-032",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-040",
+      "proposed_states": [
+        "N",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-048",
+      "proposed_states": [
+        "N",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-066",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-087",
+      "proposed_states": [
+        "U",
+        "P"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-090",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-096",
+      "proposed_states": [
+        "U",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-100",
+      "proposed_states": [
+        "U",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-025",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-036",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-090",
+      "proposed_states": [
+        "U",
+        "P"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-092",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-117",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-089",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-093",
+      "proposed_states": [
+        "U",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-094",
+      "proposed_states": [
+        "U",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-C-131",
+      "proposed_states": [
+        "U",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-006",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-010",
+      "proposed_states": [
+        "P",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-025",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-026",
+      "proposed_states": [
+        "N",
+        "N"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-027",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-D-033",
+      "proposed_states": [
+        "U",
+        "U"
+      ],
+      "decision": null,
+      "owner_reason": null
+    },
+    {
+      "sample_id": "V7-B-111",
+      "proposed_states": [
+        "N",
+        "P"
+      ],
+      "decision": null,
+      "owner_reason": null
+    }
+  ],
+  "group_graph_decision": null,
+  "membership_decision": null,
+  "split_decision": null,
+  "public_rights_notice_decision": null,
+  "r7_document_provenance_decision": null,
+  "release_approval": null,
+  "training_approval": null,
+  "holdout_inference_approval": null,
+  "instructions": "Chỉ ghi quyết định crop/label/anchor có pins và ngoại lệ cụ thể. Group/membership/split/rights là quyết định riêng; mẫu này không materialize release hoặc thực thi E004. Không suy batch approval từ phản hồi đã xem crop."
+}

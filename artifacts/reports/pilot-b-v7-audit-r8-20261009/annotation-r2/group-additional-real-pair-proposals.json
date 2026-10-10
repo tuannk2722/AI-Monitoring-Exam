@@ -1,0 +1,96 @@
+{
+  "R7": [
+    {
+      "positive_sample_id": "V7-B-102",
+      "negative_sample_id": "V7-C-131",
+      "target": "looking_around",
+      "strength": "same_image",
+      "source_evidence": {
+        "flickr_photo_id": "19756295171"
+      },
+      "person_unit_hints": [
+        "left-woman",
+        "right-paper-man"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    },
+    {
+      "positive_sample_id": "V7-B-039",
+      "negative_sample_id": "V7-B-089",
+      "target": "phone_use",
+      "strength": "same_image",
+      "source_evidence": {
+        "source_pixel_sha256": "12c9f538e0495d3b1c45c4f5ec3dedff28bd64afa9d9686fa62398d896aa6cdd"
+      },
+      "person_unit_hints": [
+        "anchor",
+        "left-reading-woman"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    },
+    {
+      "positive_sample_id": "V7-B-066",
+      "negative_sample_id": "V7-B-020",
+      "target": "looking_around",
+      "strength": "same_image",
+      "source_evidence": {
+        "source_pixel_sha256": "72afd36afac73ee727b00227b5590f8ad991bc07ea879c7514fc13f6fd736702"
+      },
+      "person_unit_hints": [
+        "anchor",
+        "background-middle-boy"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    }
+  ],
+  "R4-final": [
+    {
+      "positive_sample_id": "V7-B-102",
+      "negative_sample_id": "V7-C-131",
+      "target": "looking_around",
+      "strength": "same_image",
+      "source_evidence": {
+        "flickr_photo_id": "19756295171"
+      },
+      "person_unit_hints": [
+        "left-woman",
+        "right-paper-man"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    },
+    {
+      "positive_sample_id": "V7-B-039",
+      "negative_sample_id": "V7-B-089",
+      "target": "phone_use",
+      "strength": "same_image",
+      "source_evidence": {
+        "source_pixel_sha256": "12c9f538e0495d3b1c45c4f5ec3dedff28bd64afa9d9686fa62398d896aa6cdd"
+      },
+      "person_unit_hints": [
+        "anchor",
+        "left-reading-woman"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    },
+    {
+      "positive_sample_id": "V7-B-066",
+      "negative_sample_id": "V7-B-020",
+      "target": "looking_around",
+      "strength": "same_image",
+      "source_evidence": {
+        "source_pixel_sha256": "72afd36afac73ee727b00227b5590f8ad991bc07ea879c7514fc13f6fd736702"
+      },
+      "person_unit_hints": [
+        "anchor",
+        "background-middle-boy"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0
+    }
+  ]
+}

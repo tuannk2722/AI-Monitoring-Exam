@@ -1,0 +1,697 @@
+{
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "screening_version": "v7-targeted-screening-20261008-r2",
+  "records": [
+    {
+      "screening_id": "V7-SCREEN-170",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-173",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-176",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-190",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-209",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-212",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-225",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-228",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-229",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-230",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-231",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-283",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-286",
+      "observation": "Green-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-180",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-191",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-200",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-204",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-232",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-254",
+      "observation": "Yellow/red-chair RF family của validation: cách ly, không quota/train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-165",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-175",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-182",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-223",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-239",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-240",
+      "observation": "Video lớp blue-chair có subtitle overlays; chưa tuyển, không lấy tiny/wrong anchor để bù.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-174",
+      "observation": "Stock noise augmentation; không scene độc lập, loại khỏi shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-189",
+      "observation": "Stock noise augmentation; không scene độc lập, loại khỏi shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-300",
+      "observation": "Stock noise augmentation; không scene độc lập, loại khỏi shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-186",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-188",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-194",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-197",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-201",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-213",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-247",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-249",
+      "observation": "CCTV overhead máy tính; head/workarea bị cắt hoặc phone/tablet attribution chưa rõ; giữ screening, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-178",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-187",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-195",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-199",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-217",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-219",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-245",
+      "observation": "SCB green-shirt family: hướng đầu rõ nhưng parent/scene phải reconcile; source Turning Around không tự thành P. Không tuyên bố cảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-172",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-207",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-235",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-238",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-256",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-269",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-271",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-289",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-292",
+      "observation": "Student/SCB classroom family đã có parent; nhiều crop tiny/unit-only. Không cảnh mới; chưa đưa shortlist cuối.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-171",
+      "observation": "Sleeping/nhắm mắt; không matched read/write negative, không suy looking P từ label nguồn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-243",
+      "observation": "Sleeping/nhắm mắt; không matched read/write negative, không suy looking P từ label nguồn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-255",
+      "observation": "Sleeping/nhắm mắt; không matched read/write negative, không suy looking P từ label nguồn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-184",
+      "observation": "Watermark/screenshot hoặc teacher sai unit; không tuyển để bù quota.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-246",
+      "observation": "Watermark/screenshot hoặc teacher sai unit; không tuyển để bù quota.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-273",
+      "observation": "Watermark/screenshot hoặc teacher sai unit; không tuyển để bù quota.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-276",
+      "observation": "Watermark/screenshot hoặc teacher sai unit; không tuyển để bù quota.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-163",
+      "observation": "Nam áo đỏ quay trái, bàn máy tính/tay đủ; C side, cần matched computer/work negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-164",
+      "observation": "Nam quay sang bạn, giấy trên bàn; C side, cần redraw head/tay/giấy.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-166",
+      "observation": "Nam áo sọc nhìn ngoài tờ giấy đang cầm; C forward/side; người đọc khác làm negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-167",
+      "observation": "Nữ đầu cúi ở giấy own workarea; source Looking around không được auto P. Negative C tiềm năng.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-168",
+      "observation": "Nữ denim nhìn bài người bên cạnh; matched nữ đang viết cùng frame, C pair.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-169",
+      "observation": "Nữ hijab nhìn lên ngoài vùng bài; workarea crop thiếu. Chờ group/paper QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-177",
+      "observation": "Nam áo xanh quay trái khỏi giấy own desk; C pair với người viết cùng frame.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-179",
+      "observation": "Frame của video subtitle owner excluded ở frame khác; không dùng trong batch chính.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-181",
+      "observation": "Nam viết nhưng có thể nhìn ngang; source Looking around chưa đủ. Chờ eyes/workarea QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-183",
+      "observation": "Nữ nhìn giấy bên trái; matched người viết cùng frame nhưng stock watermark. Giữ optional ngoài batch.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-192",
+      "observation": "Lecture đông, nam nhìn ngang khỏi giấy; C hoặc D, cần redraw person.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-193",
+      "observation": "Anchor background blur không đủ head/workarea; loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-196",
+      "observation": "Cùng scene/person163, góc khác. Không independent scene; giữ một frame ưu tiên.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-198",
+      "observation": "Background head blur; chọn foreground normal nếu cần match, không auto P anchor.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-202",
+      "observation": "Nữ center quay trái nhìn bạn, giấy/bút riêng đủ; C side pair với nữ bên phải viết.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-203",
+      "observation": "Nữ quay trái sang bạn và phone cầm bên phải; D co-positive giả thuyết cần crop giữ cả tay.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-205",
+      "observation": "Green-chair validation family; cách ly.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-206",
+      "observation": "Nữ teacher standing ở frame, anchor tiny background. Chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-208",
+      "observation": "Anchor background blur; foreground có phone lớn nhưng không small, chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-210",
+      "observation": "Lecture cùng scene192/227; C side rõ sau redraw, không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-211",
+      "observation": "Lớp green-wall, anchor head nhỏ và nhiều hands thiếu; chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-214",
+      "observation": "Ảnh collage mô phỏng; anchor nhìn ngang khỏi giấy. C nếu crop đúng panel/person, lineage cùng215/248.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-215",
+      "observation": "Cùng collage/simulation family214; C side ở panel dưới, cần negative cùng panel, không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-216",
+      "observation": "Hai người đọc trao đổi trên sàn, ngoài workarea bàn thi; không C chính.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-218",
+      "observation": "Nam nhìn ngang khi cầm bút; C side, cần negative cùng scene/source.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-220",
+      "observation": "Nhóm đứng/ngồi giao tiếp không có giấy riêng rõ; ngoài targeted.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-221",
+      "observation": "Nữ liếc sang bài bạn, own paper/bút đủ; C pair.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-222",
+      "observation": "Source crop chỉ torso/tay, simulation parent family; không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-224",
+      "observation": "Ảnh B&W người quay sang phải, cả hai tay/giấy đủ; C side.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-226",
+      "observation": "Anchor background nhỏ; không chọn từ hint này.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-227",
+      "observation": "Lecture same scene192; anchor ngoài edge cắt người, không tuyển anchor.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-233",
+      "observation": "Nam head angled khi viết, cần eyes/workarea QA; nữ calculator trên giấy là hard negative phone, không source P.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-234",
+      "observation": "Computer lab hai người liếc ngang; C side, có thể match người làm máy tính cùng frame.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-236",
+      "observation": "Người phone lớn trên tàu/ghế, outside classroom; không main bucket.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-237",
+      "observation": "Nữ quay sang nam bên phải, crowded trao đổi, C/D; cần crop upperbody+workarea.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-241",
+      "observation": "Nữ đỏ viết giấy own workarea, C negative; source Looking around sai.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-242",
+      "observation": "Nữ nghiêng sang bài bên trái, C side; match writer cùng frame.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-244",
+      "observation": "Background blur/occluded không đủ head; loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-248",
+      "observation": "Cùng collage214/215, không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-250",
+      "observation": "Crowded exam anchor che và blur, chưa chắc head hướng nào; chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-251",
+      "observation": "Trẻ viết rõ, negative nhưng chưa positive cùng context; reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-252",
+      "observation": "Simulation collage family214, người đọc đúng bài; matched C potential.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-253",
+      "observation": "Trẻ viết crowded desk, source N cần mask phone U khi tay/desk thiếu; reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-257",
+      "observation": "Classroom blur/noise, chưa matched positive; reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-258",
+      "observation": "Classroom noise augmentation, loại khỏi chính.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-259",
+      "observation": "Red-shirt classroom teaching; đọc giấy, reserve negative cùng family.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-260",
+      "observation": "Stock nữ đọc/viết rõ, reserve negative chưa source-context match.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-261",
+      "observation": "Anchor rear tiny, phone/workarea chưa đủ; chưa tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-262",
+      "observation": "School crop nhiều người chồng, negative read/write reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-263",
+      "observation": "Nữ cúi viết rõ, reserve negative chưa positive same context.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-264",
+      "observation": "Red-black school classroom parent family; không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-265",
+      "observation": "Noise augmentation lớp, loại.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-266",
+      "observation": "Nam viết rõ nhưng source photo head mép trên; reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-267",
+      "observation": "Collage có overlay, same214family; chưa tuyển chính.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-268",
+      "observation": "Nữ viết rõ nhưng watermark mép ảnh; reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-270",
+      "observation": "Green-desk crowded đọc bài, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-272",
+      "observation": "Same collage214/215, đọc đúng giấy, reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-274",
+      "observation": "Same collage214/215; không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-275",
+      "observation": "School read/write crowded, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-277",
+      "observation": "Nam viết và nữ xanh quay ngang khỏi giấy, C matched pair trong same frame.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-278",
+      "observation": "School đọc viết head/work rõ, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-279",
+      "observation": "Yellow/purple desk classroom reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-280",
+      "observation": "White-uniform school đọc own paper, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-281",
+      "observation": "Blue-white school đọc ownpaper, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-282",
+      "observation": "Red school đọc own book, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-284",
+      "observation": "Trẻ viết head đủ, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-285",
+      "observation": "Trẻ viết crowded crop 2person, reserve negative cần redraw.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-287",
+      "observation": "Simulation parent train family; không scene mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-288",
+      "observation": "Nhiều người đọc cùng desk, reserve negative cần redraw.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-290",
+      "observation": "Nữ đọc bài hậu cảnh và nam bên cạnh nhìn bạn; C pair potential.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-291",
+      "observation": "School crowded read/write reserve.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-293",
+      "observation": "School ownpaper reading, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-294",
+      "observation": "School write trên desk vàng, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-295",
+      "observation": "Classroom school read/write, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-296",
+      "observation": "Nữ đọc sách và có bút, source normal; reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-297",
+      "observation": "Green-shirt school viết rõ, reserve negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-298",
+      "observation": "Yellow-shirt school crowded, reserve negative cần head/desk QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-299",
+      "observation": "CCTV rear thiếu face/workarea nhìn, không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-185",
+      "observation": "Frame subtitle video family owner excluded EXP-RF-014; không tuyển.",
+      "status": "draft_visual_screening_not_owner_approval"
+    }
+  ]
+}

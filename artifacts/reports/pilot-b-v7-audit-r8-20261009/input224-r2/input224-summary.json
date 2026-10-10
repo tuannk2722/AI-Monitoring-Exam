@@ -1,0 +1,162 @@
+{
+  "records": 119,
+  "source": {
+    "clear": 106,
+    "ambiguous": 13
+  },
+  "crop": {
+    "clear": 100,
+    "ambiguous": 16,
+    "lost": 3
+  },
+  "input224": {
+    "clear": 94,
+    "ambiguous": 22,
+    "lost": 3
+  },
+  "roi_recorded": 3,
+  "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+  "owner_approved": false,
+  "by_bucket_and_r7_phone_polarity": {
+    "B": {
+      "P": {
+        "records": 40,
+        "source": {
+          "clear": 36,
+          "ambiguous": 4
+        },
+        "crop": {
+          "clear": 36,
+          "ambiguous": 4
+        },
+        "input224": {
+          "clear": 32,
+          "ambiguous": 8
+        },
+        "roi_recorded": 3,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      },
+      "N": {
+        "records": 40,
+        "source": {
+          "clear": 35,
+          "ambiguous": 5
+        },
+        "crop": {
+          "clear": 31,
+          "ambiguous": 7,
+          "lost": 2
+        },
+        "input224": {
+          "clear": 31,
+          "ambiguous": 7,
+          "lost": 2
+        },
+        "roi_recorded": 0,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      },
+      "U": {
+        "records": 0,
+        "source": {},
+        "crop": {},
+        "input224": {},
+        "roi_recorded": 0,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      }
+    },
+    "D": {
+      "P": {
+        "records": 32,
+        "source": {
+          "clear": 28,
+          "ambiguous": 4
+        },
+        "crop": {
+          "clear": 26,
+          "ambiguous": 5,
+          "lost": 1
+        },
+        "input224": {
+          "clear": 24,
+          "ambiguous": 7,
+          "lost": 1
+        },
+        "roi_recorded": 0,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      },
+      "N": {
+        "records": 0,
+        "source": {},
+        "crop": {},
+        "input224": {},
+        "roi_recorded": 0,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      },
+      "U": {
+        "records": 7,
+        "source": {
+          "clear": 7
+        },
+        "crop": {
+          "clear": 7
+        },
+        "input224": {
+          "clear": 7
+        },
+        "roi_recorded": 0,
+        "interpretation": "clear/ambiguous/lost là nhận xét qualitative, không metric/gate mới.",
+        "owner_approved": false
+      }
+    }
+  },
+  "input_pins": {
+    "artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-observations.json": "caf200a97d8c1488295dad81cd303756d3f05c8555885622611b31eb545c0c31",
+    "outputs/v7-input224-audit-20261009/input-evidence.json": "444ba3a241fcb7e96225c386aebca75cc74e9caf1b5de9f7f696feca5d228060",
+    "data/interim/pilot-b/v7-targeted-review-20261008-r7/candidates.jsonl": "c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833",
+    "src/ai_exam_monitoring/data/v7_input_evidence.py": "80784fe6ef26b49141a300dd25fe76de6b9edef519409c2f2f3be9224efbaa04"
+  },
+  "review_completed": {
+    "B_sheets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "D_sheets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "native224_and_nearest448_viewed": true,
+    "model_executed": false,
+    "test_media_read": false
+  }
+}

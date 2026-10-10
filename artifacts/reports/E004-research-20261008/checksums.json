@@ -1,0 +1,16 @@
+{
+  "artifacts/reports/E004-research-20261008/e003-audit/audit.json": "54edc4fb0b8a6c2ea8eb26518d7d7cf291417e3f078d51ab29d2944fe3cd3339",
+  "artifacts/reports/E004-research-20261008/e003-audit/fn-audit.md": "e3de3dc08818615092b327ca9643519188b48a2b4d138354242a31783bbd835f",
+  "artifacts/reports/E004-research-20261008/e003-audit/summary.json": "5a4cdf358925aa7e7f22b28da565faf26490db21ad7abf5c532052d736f37bb2",
+  "artifacts/reports/E004-research-20261008/README.md": "32a6de64932052bc3121f71236e21de1f88f6e553ef9b617431266106c9c61ae",
+  "artifacts/reports/E004-research-20261008/verification.json": "dc744f3f2c3d800936b2889948e442f33dd4871e07aa4d9dd56b6bb3c5d3c0c5",
+  "artifacts/reports/E004-research-20261008/visual-findings.json": "e7f3cac90b861ec29101581c47ec12b6bf4803c44f22646a570e76db1c41b93e",
+  "configs/experiments/E004-plan.yaml": "8c7e2d19fd65b0f475f8801bc71bbab688424e8721f5d73dff607640934f2b09",
+  "configs/datasets/pilot_b_v7_targeted_plan.yaml": "b1c6d638ce7dba2d8c1ecb6b183dab8c2791623d9fd746007d627f20b1ae3681",
+  "docs/experiments/E004-preparation.md": "03917f8239c4494a62cc557abbe9de88022af4f678b40f7a704d39a5a6c9c37c",
+  "docs/data/E004-public-holdout-research-20261008.md": "0bbc87c41a920785164b35ae26da8072e09e98c4dbbe4f7509d27ebcd8edeb84",
+  "docs/decisions/ADR-017-e004-classifier-promotion-gates.md": "c33bf8af12840c2d1df9299f99705d006620c4da1f865d6d95aec2d3d97199e6",
+  "src/ai_exam_monitoring/training/error_audit.py": "7cd5d644cbaa773c11aec3d837781df27aad9fb4f26bf3c63b76fbd789fd39f5",
+  "tests/test_error_audit.py": "e8c91d80a217b9b652854776f23ab080655544038c3c281f9a0def7fd55c3ba8",
+  ".gitattributes": "31e33d21f739a91a03840097603637be70d04b7023d7ba970b5a7a2807e9dfb3"
+}

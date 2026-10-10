@@ -1,0 +1,80 @@
+status: draft_targeted_preparation
+formulation: B
+owner: repository-owner
+selection_version: v7-targeted-scb-screening-20261008-r1
+scope_approval:
+  path: artifacts/reports/pilot-b-v7-targeted-20261008/scope-approval.json
+  sha256: d73f06982035f2a344ca78b78be0a5f7f040c8c4575a345016edb0fa3d97c451
+parent_package: data/processed/pilot-b/pilot-b-20261007-v6
+parent_checksums:
+  path: data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256
+  sha256: 971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f
+parent_source_config:
+  path: configs/datasets/pilot_b_release_v6.yaml
+  sha256: fcce661b922909e81108fee0b9fe3fd8d7904f8f90a639d83fb0c30d1d3047d8
+fingerprint_inputs:
+- path: outputs/pilot-b-group-review-20261005-v3/images.json
+  sha256: 36d74bb5550415b212c40efbb6a01d8ac65a073bac211c6ad0f25d5dee2a7a6d
+- path: outputs/pilot-b-v6-preparation-20261007/parent-fingerprints.json
+  sha256: f157e181ecfd3f3c4aa003a1802929835e4ee50f2d7d1a34db1238a99dbed102
+inventory:
+  path: outputs/pilot-b-v6-source-research-20261007/roboflow-image-inventory.json
+  sha256: 4f7cde6e8b5c673e66330a46caf259ec520ce41c8d1e1a48f2a9f471dee81985
+sources:
+- id: scb_head
+  root: outputs/scb-audit-20261003-v1/extracted/head/SCB_BowTurnHead_20250509/SCB5-Turn-Bow-Head-2024-9-17
+  archive: C:/Users/OS/Downloads/SCB_BowTurnHead_20250509.zip
+  archive_sha256: a0fdd6637fb286cbc5d3de83c09f4143686eab0da4d92e4d8007b6b14b3ca828
+  archive_prefix: SCB_BowTurnHead_20250509/SCB5-Turn-Bow-Head-2024-9-17
+  classes:
+    0: BowHead
+    1: TurnHead
+  local_audit:
+    path: outputs/scb-audit-20261003-v1/head-audit.json
+    sha256: c83c80c54058dabec9dd3b1ad9f3ff0d1e78a75dd78ee6667cada70e8bffc5f9
+  body_classes:
+  - BowHead
+  - TurnHead
+  hint_classes:
+    looking_hint:
+    - TurnHead
+    negative_hint:
+    - BowHead
+- id: scb_hrw
+  root: outputs/scb-audit-20261003-v1/extracted/hrw/SCB5-Handrise-Read-write-2024-9-17
+  archive: C:/Users/OS/Downloads/SCB5-Handrise-Read-write-2024-9-17.zip
+  archive_sha256: 46619af0c0dea011b09b8d50f4c0578420b881b5154e9d11f0447760193a208d
+  archive_prefix: SCB5-Handrise-Read-write-2024-9-17
+  classes:
+    0: hand-raising
+    1: read
+    2: write
+  local_audit:
+    path: outputs/scb-audit-20261003-v1/hrw-audit.json
+    sha256: 223885f017271392f7bae83b5bf9154539f52b61a28e27f98fe752a87587b089
+  body_classes:
+  - hand-raising
+  - read
+  - write
+  hint_classes:
+    looking_hint: []
+    negative_hint:
+    - read
+    - write
+screening_output: data/interim/pilot-b/v7-targeted-scb-screening-20261008-r1
+screening:
+  draft_padding: 0.1
+  evaluation_quarantine_distance: 4
+  image_budgets:
+    looking_hint: 60
+    negative_hint: 40
+  note: Screening trước tuyển300candidate, source labels chỉ hint; similarity4 chỉ
+    flag cách ly bảo thủ, không metric/group threshold Accepted.
+target_budgets:
+  desk_phone_with_matched_negatives: 80
+  small_or_partly_occluded_held_phone_with_matched_negatives: 80
+  looking_side_forward_with_matched_read_write_negatives: 100
+  cooccurrence_and_crowded_context: 40
+release_approved: false
+training_eligible: false
+split: null

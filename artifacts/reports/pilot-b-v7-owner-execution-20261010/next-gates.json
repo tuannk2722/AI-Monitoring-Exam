@@ -1,0 +1,37 @@
+{
+  "owner": "repository-owner",
+  "scope": "Dataset/annotation QA trước training theo index và E004-preparation.",
+  "completed": [
+    "Nhập125owner decisions51explicit74default",
+    "29existingcropapprovals/correctionC005U",
+    "Disposition96source:99crop từ82source/14reserve",
+    "Source/crop/input224 và76mustlinkcomponents QA",
+    "Chuẩn bịpool402crop cùngwholecomponent vàmembershipconstraints, chưaassignedsplit",
+    "Owner ch?t underdeskphone P ??ng ownership",
+    "Owner duy?t h??ng local; rights/lineage/whole-family v? release preparation R2 ho?n t?t",
+    "900proposedledger689train49val11test122review-only29excluded;449conservativecomponents"
+  ],
+  "decisions_not_inferred": [
+    {
+      "id": "TBD-V7-FINAL-NEW-CROPS",
+      "reason": "Source/analysis đã approve,99geometry/nhãn mới chưa tồn tại khi userreview. Giữ95known và4UU proposals để ownerchốt batch, không tự nhận exactcropreview."
+    },
+    {
+      "id": "TBD-V7-MEMBERSHIP-SPLIT",
+      "reason": "H??ng local ?? duy?t; final batch/crop/rights/whole-family v? assignment689/49/11 c?n c?n nghi?m thu c? th? ?? k? release. B?nrightsblocker v?S080 gi? ngo?i proposedtrain."
+    },
+    {
+      "id": "TBD-E004-RECIPE-COMPUTE-METRIC",
+      "reason": "E004-plan/ADR017 cònDraft/nullconfig; chưa cótrainingrecipe/config Accepted hoặcnumericgates. Không suy approvalREVIEW thànhapproval layer4/CPU/threshold/metric."
+    },
+    {
+      "id": "TBD-E004-INDEPENDENT-HOLDOUT",
+      "reason": "Không có publicholdoutpayload/rights/independencefreeze đủ. Không dùngtest11tuning/test inference đểbù."
+    }
+  ],
+  "release_materialized": false,
+  "training_started": false,
+  "pending_is_not_owner_rejection": true,
+  "local_direction_approved": true,
+  "local_preparation_complete": true
+}

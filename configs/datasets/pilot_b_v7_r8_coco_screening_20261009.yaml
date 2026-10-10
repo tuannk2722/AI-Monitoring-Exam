@@ -1,0 +1,38 @@
+status: draft_public_source_audit
+owner: repository-owner
+selection_version: v7-r8-coco-selective-20261009-r1
+metadata:
+  path: data/raw/coco/coco-2017-metadata-20261008-r2/annotations_trainval2017.zip
+  sha256: 113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268
+scope_approval:
+  path: artifacts/reports/pilot-b-v7-targeted-20261008/public-source-scope-approval.json
+  sha256: 17f9c64c3715f06980698164ee8eee7df05b73355fe745e51218100c4076a7e6
+parent_fingerprints:
+  path: artifacts/reports/pilot-b-v7-targeted-20261008/parent-fingerprints-metadata.json
+  sha256: e54977c378e6d1a0fbfd1c6feded42ccfb4bd8232b926613c7b5803d2d58fd46
+raw_output: data/raw/coco/coco-phone-audit-20261009-r8-r1
+output: data/interim/pilot-b/v7-r8-coco-screening-20261009-r1
+allowed_license_urls:
+- http://creativecommons.org/licenses/by/2.0/
+work_keywords:
+- desk
+- read
+- write
+- notebook
+- paper
+- book
+- computer
+- laptop
+horizontal_ratio_hint: 1.3
+minimum_context_score_hint: 0
+phone_context_budget: 0
+negative_context_budget: 64
+image_endpoint: https://s3.amazonaws.com/images.cocodataset.org/train2017
+max_image_bytes: 10000000
+quarantine_distance_hint: 4
+training_eligible: false
+note: 64 finite screening cap from235remainingworkhints, notNlabels or requiredcropyield;
+  prior305imagesexcluded.
+exclude_screening:
+  path: artifacts/reports/pilot-b-v7-r8-execution-20261009/coco-prior-screening-ids.jsonl
+  sha256: b8abf896bb2b9267b64335090e2fe833a627992c645b3bee5bea8dc74cb604d7

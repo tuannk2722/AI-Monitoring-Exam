@@ -1,0 +1,12 @@
+{
+  "status": "owner_reported_sent_pending_response",
+  "recorded_on": "2026-10-10",
+  "owner_statement": "tôi đã tiến hành send request access to author của các bộ dataset mà bạn đã đề xuất, nhưng chắc cần 1 khoảng thời gian dài nữa. nên trong thời gian chờ thì hãy tiếp tục tìm kiếm các nguồn mới để bù đắp được sự thiếu hụt hiện tại.",
+  "research_capacity": "Nghiên cứu cá nhân",
+  "source_specific_sent_list": null,
+  "sent_dates": null,
+  "delivery_receipts_verified": false,
+  "access_granted": false,
+  "codex_sent_messages": false,
+  "historical_receipts_modified": false
+}

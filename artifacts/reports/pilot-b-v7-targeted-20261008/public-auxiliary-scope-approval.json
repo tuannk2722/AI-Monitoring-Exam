@@ -1,0 +1,14 @@
+{
+  "owner": "repository-owner",
+  "date": "2026-10-08",
+  "decision": "continue_public_training_source_audit",
+  "owner_quote": "chấp nhận dữ liệu bổ trợ, có thể nghiên cứu thêm để đủ dữ liệu train.",
+  "domain_scope": "Cho phép thẩm định ngoài exam, báo riêng auxiliary coverage.",
+  "sources": [
+    "COCO",
+    "Open Images"
+  ],
+  "source_release_approved": false,
+  "membership_split_training_approved": false,
+  "holdout_eligible": false
+}

@@ -1,0 +1,79 @@
+metadata:
+  path: outputs/v7-r8-source-discovery-20261009/commons-metadata.json
+  sha256: 23fb2662fb31a61cf8f7301ad9063a599f195c291cff199b14e0195c9f9347b5
+license: CC BY-SA 3.0
+transcodekey: 480p.vp9.webm
+raw_output: data/raw/public-video/wmf-classroom-20261009-r1
+output: data/interim/pilot-b/v7-r8-wmf-storyboard-20261009-r1
+codec:
+  path: outputs/v7-r8-video-tooling-20261009/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe
+  sha256: 2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3
+max_bytes: 200000000
+frame_cap: 65
+timestamps_seconds:
+- 0
+- 20
+- 40
+- 60
+- 80
+- 100
+- 120
+- 140
+- 160
+- 180
+- 200
+- 220
+- 240
+- 260
+- 280
+- 300
+- 320
+- 340
+- 360
+- 380
+- 400
+- 420
+- 440
+- 460
+- 480
+- 500
+- 520
+- 540
+- 560
+- 580
+- 600
+- 620
+- 640
+- 660
+- 680
+- 700
+- 720
+- 740
+- 760
+- 780
+- 800
+- 820
+- 840
+- 860
+- 880
+- 900
+- 920
+- 940
+- 960
+- 980
+- 1000
+- 1020
+- 1040
+- 1060
+- 1080
+- 1100
+- 1120
+- 1140
+- 1160
+- 1180
+- 1200
+- 1220
+- 1240
+- 1260
+- 1280
+conservative_family: WMF-KNOWLEDGE-EVERYONE-ALL-CUTS-ONE-FAMILY-UNPROVEN

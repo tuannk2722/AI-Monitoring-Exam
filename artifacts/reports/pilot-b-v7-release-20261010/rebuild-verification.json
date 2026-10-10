@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "generated_payload_files_rebuilt": 881,
+  "reviewed_dataset_card_preserved": true,
+  "all_package_files_sha_identical": 883,
+  "checksums_sha256": "d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610",
+  "rebuild_path": "outputs/pilot-b-v7-full-rebuild-20261010-r2",
+  "scope": "Canonical exporter tái tạo crop/ledger/manifest/split/selection/schema/reports/release; serializer cuối khớp byte; card tiếng Việt giữ metadata reviewed.",
+  "test_access": "Hash/decode/copy integrity, không inference/feature/tuning."
+}

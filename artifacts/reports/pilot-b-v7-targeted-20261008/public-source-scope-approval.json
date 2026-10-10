@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-08",
+  "owner": "repository-owner",
+  "decision": "continue_public_training_source_audit",
+  "owner_quote": "Thẩm định thêm nguồn public cho v7",
+  "purpose": "Thẩm định payload training bổ sung đúng bucket; chưa nghiệm thu quyền/nhãn/crop/nhóm hoặc release.",
+  "metadata_receipt": {
+    "path": "data/raw/coco/coco-2017-metadata-20261008-r2/receipt.json",
+    "sha256": "3adb7778fa6bfa3a4e2a2192e00a409ca28c7757c33182261a885fc9b64f39aa"
+  },
+  "terms_url": "https://cocodataset.org/#termsofuse",
+  "training_eligible": false,
+  "holdout_eligible": false
+}

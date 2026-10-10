@@ -1,0 +1,294 @@
+{
+  "head": "8ae70f152984350babc124c7db1e69149f4b7ff8",
+  "basis": "Working tree hiện hành; các file untracked là công việc cũ còn chưa commit, không nhận toàn bộ là thay đổi lượt này.",
+  "modules": [
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/coco_targeted_candidates.py",
+        "sha256": "6833e205254a2a775939957de82b2cd10f4061e9b83a962518172594395ffcb8"
+      },
+      "module_description": "Audit subset COCO train để review desk/phone; nhãn dự án vẫn unknown.",
+      "public_functions": [
+        "bbox",
+        "inside",
+        "shortlist",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/openimages_targeted_candidates.py",
+        "sha256": "8b2516b2e9cf9afdc517ca0033c93b099fa5df19d422659a7adc6784acda46d7"
+      },
+      "module_description": "Audit subset original train Open Images; nguồn/nhãn/group chưa được nghiệm thu.",
+      "public_functions": [
+        "inventory",
+        "shortlisted",
+        "pixel_box",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/pilot_targeted_expansion.py",
+        "sha256": "e72295af71440ec9d4ef06ef4d42089a5e61f0a8c0baf2f96d0cd5c1b34335bd"
+      },
+      "module_description": "Hàng đợi targeted có provenance; không tự gán nhãn, split hoặc release.",
+      "public_functions": [
+        "validate_budget",
+        "validate_fingerprints",
+        "lineage",
+        "TargetedHint",
+        "parse_owner_cells",
+        "nearest",
+        "diverse_hints",
+        "local_inventory",
+        "collect",
+        "build_screening",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/public_attribution_audit.py",
+        "sha256": "5134243a23f8d22ab21831539d01db483b3753ba56683c2f60466ba4dc93e4fe"
+      },
+      "module_description": "Lập attribution Draft từ metadata; tùy chọn kiểm trang Flickr công khai, không mở ảnh.",
+      "public_functions": [
+        "sha256_file",
+        "normalize_license",
+        "static_photo_id",
+        "landing_photo_id",
+        "short_landing",
+        "enforce_flickr_url",
+        "FlickrRedirect",
+        "observe_flickr",
+        "public_seed",
+        "attribution",
+        "render_review_html",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/public_source_inventory.py",
+        "sha256": "d41e10615cdbebe6bfbe4a582d22acbcb8bf747d37c947a8367201297dcf0d7c"
+      },
+      "module_description": "Snapshot metadata nguồn public hữu hạn, không tiếp nhận media/quyền train.",
+      "public_functions": [
+        "snapshot",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/public_zip_screening.py",
+        "sha256": "a61c35bffd349dc93fc8d71f567408a23e028199b140f6ed982ff3f444bb740f"
+      },
+      "module_description": "Audit ZIP public bằng Range hữu hạn; không đọc whole archive hoặc chọn split.",
+      "public_functions": [
+        "fetch_range",
+        "PublicZipReader",
+        "run",
+        "render_qa",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/targeted_review_package.py",
+        "sha256": "d874b005477e2a94fffd78ef4aea97847530fcf804ad4de6fe63b6554431ed38"
+      },
+      "module_description": "Dựng crop/pair Draft đã tuyển; không tạo canonical manifest hoặc split.",
+      "public_functions": [
+        "ReviewProposal",
+        "check_pairs",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_annotation_audit.py",
+        "sha256": "62cf67ffcb0781ab0871983c8d70d55efc1d2f70aba56595b4412cf4200b27f9"
+      },
+      "module_description": "Audit metadata nhãn/group/pair Draft; không đọc ảnh hoặc materialize release.",
+      "public_functions": [
+        "read_rows",
+        "sha256",
+        "identifier",
+        "proposed_states",
+        "bucket",
+        "optional_metadata",
+        "registered_group",
+        "write_csv",
+        "write_json",
+        "source_image_key",
+        "annotation_tables",
+        "pair_endpoints",
+        "audit_pairs",
+        "conservative_graph",
+        "run",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_input_evidence.py",
+        "sha256": "60198d5173954b38402fb59ce7dd00535bd340046495e1b190d4974bdd16cda9"
+      },
+      "module_description": "Ảnh input224 và provenance Draft; chỉ PIL, không load model hoặc inference.",
+      "public_functions": [
+        "InputEvidence",
+        "VisualEvidenceFinding",
+        "summarize_findings",
+        "write_findings",
+        "letterbox_geometry",
+        "letterbox_rgb",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_owner_review.py",
+        "sha256": "218cdfa9a37f2b7044b38cb662302d65d6d12d2511e402456268e898c6c9f329"
+      },
+      "module_description": "Review version mới từ R7 bất biến, không materialize dataset/approval.",
+      "public_functions": [
+        "letterbox_preview",
+        "validate_overrides",
+        "pinned",
+        "inherited_reason",
+        "merge_overrides",
+        "build",
+        "verify_review",
+        "verify_historical_metadata",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_public_photo_gapfill.py",
+        "sha256": "fa5019908f76c50812188dbd1f4cf03df44765138b0187226ec2437363c277bd"
+      },
+      "module_description": "Research ảnh public classroom có pin/licensing; chỉ tạo screening và proposal.",
+      "public_functions": [
+        "plain",
+        "request",
+        "eligible_pages",
+        "recover",
+        "discover",
+        "screen",
+        "review",
+        "report",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_public_video_audit.py",
+        "sha256": "8aef8a3a59a3e96fefb88e74c1e189ab88d2f8c570e44ae2ffc1a44564e86ba7"
+      },
+      "module_description": "Tiếp nhận video public có metadata/license và trích storyboard local hữu hạn.",
+      "public_functions": [
+        "audit",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_r8_execution.py",
+        "sha256": "2cf0c02d603c3639eb33eccf59d19d047b9be18ea58377860e295e7471ce1ca1"
+      },
+      "module_description": "Nhập approval đã pin và screening R8; không release/train/model holdout.",
+      "public_functions": [
+        "pinned",
+        "fresh",
+        "accept",
+        "select",
+        "local",
+        "metadata",
+        "validate_pairs",
+        "review_source",
+        "review",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_r8_reporting.py",
+        "sha256": "c22d856a563545d28baa8c317419489a743e8526b443f77c80944bcd42a5f04c"
+      },
+      "module_description": "Tổng hợp measured yield R8 và membership constraints; không materialize split.",
+      "public_functions": [
+        "rows",
+        "summarize",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_source_coverage_audit.py",
+        "sha256": "9cbbdfbbdbc95d64802416dd271f7bde2124d5fab5000c4ea212795e6f2e693c"
+      },
+      "module_description": "Đếm funnel từ metadata đã pin; không mở media hoặc quyết định nhãn/split.",
+      "public_functions": [
+        "read_metadata",
+        "selection_funnel",
+        "remaining_rows",
+        "csv_write",
+        "public_csv_inventory",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/data/v7_unapproved_pilot.py",
+        "sha256": "acde8e22e529bd0c636a1efa66cad3cc0dcdbadaad8aea9fb380d5b2b83e81dc"
+      },
+      "module_description": "Gom pilot chưa duyệt bằng Markdown/PNG; không split, train hoặc HTML.",
+      "public_functions": [
+        "PilotReviewItem",
+        "safe_path",
+        "pin",
+        "read_rows",
+        "source_fields",
+        "fresh_output",
+        "check_unapproved",
+        "draw_panel",
+        "build",
+        "main"
+      ]
+    },
+    {
+      "pin": {
+        "path": "src/ai_exam_monitoring/training/error_audit.py",
+        "sha256": "7cd5d644cbaa773c11aec3d837781df27aad9fb4f26bf3c63b76fbd789fd39f5"
+      },
+      "module_description": "Kiểm toán lỗi từ predictions đã lưu; không inference, sửa nhãn hoặc mở test.",
+      "public_functions": [
+        "ErrorKey",
+        "VisualFinding",
+        "prediction_errors",
+        "validate_findings",
+        "support",
+        "build_audit",
+        "render_review",
+        "main"
+      ]
+    }
+  ],
+  "config_count": 66,
+  "test_file_count": 12,
+  "new_in_this_task": [
+    "src/ai_exam_monitoring/data/v7_unapproved_pilot.py",
+    "tests/test_v7_unapproved_pilot.py",
+    "configs/datasets/pilot_b_v7_unapproved_consolidated_20261010.yaml",
+    "configs/datasets/pilot_b_v7_unapproved_consolidated_r2_20261010.yaml"
+  ]
+}

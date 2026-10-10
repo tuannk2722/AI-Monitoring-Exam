@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "owner": "repository-owner",
+  "evidence_origin": "Yêu cầu owner trong phiên chat hiện hành",
+  "reviewed_package": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/review-pointer-final.json",
+    "candidate_sha256": "c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833"
+  },
+  "owner_statement": "Tôi đã review toàn bộ các crop draft và đây là những crop mà theo tôi thấy nên sửa lại",
+  "batch_acceptance_inferred": false,
+  "exceptions": [
+    {"sample_id": "V7-A-035", "assessment": "Sửa bbox", "proposal": "Điện thoại/vật ở mép phải bị cắt đáng kể"},
+    {"sample_id": "V7-B-079", "assessment": "Không chấp nhận P hiện tại", "proposal": "Không thấy bằng chứng rõ về mobile."},
+    {"sample_id": "V7-B-080", "assessment": "Cần xác minh thiết bị", "proposal": "Người cầm một thiết bị hình chữ nhật trong bối cảnh thiết bị điện tử và dụng cụ đo. Chưa đủ chắc đó là điện thoại di động. Tạm phone=U, không dùng làm phone P cho đến khi xem ảnh nguồn độ phân giải cao"},
+    {"sample_id": "V7-B-040", "assessment": "Nên recrop", "proposal": "Crop chứa hai nam giới khá lớn; người foreground bên phải còn bị cắt mặt. Nếu anchor là nam áo xám ở giữa, N/N có vẻ hợp lý vì đang nhìn xuống bài, nhưng nên recrop tập trung vào anh ấy"},
+    {"sample_id": "V7-C-025", "assessment": "Chưa đủ cho P", "proposal": "Crop nhóm học sinh đang hoạt động cùng bàn. Chưa rõ anchor và người đó có thực sự nhìn ra khỏi vùng làm việc hay đang tương tác trong hoạt động nhóm"},
+    {"sample_id": "V7-C-036", "assessment": "Chưa đủ cho P", "proposal": "Người chính nghiêng/cúi đầu nhưng không thấy rõ vùng bài riêng. Không thể chỉ từ đầu nghiêng suy ra looking=P. Cần recrop có workarea, nếu không thì U"},
+    {"sample_id": "V7-C-093", "assessment": "Sửa bbox", "proposal": "Crop chứa cả nhóm."},
+    {"sample_id": "V7-C-094", "assessment": "Sửa bbox", "proposal": "Crop nhóm 4–5 người, chưa có anchor rõ."},
+    {"sample_id": "V7-D-026", "assessment": "Kiểm tra lại", "proposal": "Nam teacher cầm own phone thấp, nữ áo sọc đang viết"}
+  ],
+  "additional_qa_flags_not_relabel_instructions": ["V7-A-002", "V7-A-061", "V7-B-079", "V7-B-080", "V7-C-089", "V7-C-090", "V7-C-092", "V7-C-117"],
+  "release_authorized": false,
+  "training_authorized": false,
+  "holdout_inference_authorized": false
+}

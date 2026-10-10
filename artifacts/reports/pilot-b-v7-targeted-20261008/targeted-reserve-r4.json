@@ -1,0 +1,63 @@
+{
+  "status": "reserve_not_primary_quota",
+  "proposals": [
+    {
+      "candidate_id": "V7-C-123",
+      "screening_set": "oi3",
+      "screening_id": "V7-OI-SCREEN-149",
+      "bucket": "C",
+      "role": "positive",
+      "states": [
+        "N",
+        "P"
+      ],
+      "xyxy": [
+        276,
+        122,
+        635,
+        715
+      ],
+      "visual_family_hint": "OI3-image-01933ab305f3311f",
+      "observation": "Nam áo đen trái nhìn phải khỏi own paper,2tay bare; auxiliary meeting.",
+      "phenotypes": [
+        "side_or_forward_head",
+        "own_workarea",
+        "auxiliary_context"
+      ],
+      "person_unit_hint": "left-man",
+      "domain": "auxiliary_out_of_exam",
+      "pair_id": null,
+      "known_evaluation_family": false,
+      "aliases": []
+    },
+    {
+      "candidate_id": "V7-C-124",
+      "screening_set": "oi3",
+      "screening_id": "V7-OI-SCREEN-187",
+      "bucket": "C",
+      "role": "positive",
+      "states": [
+        "N",
+        "P"
+      ],
+      "xyxy": [
+        364,
+        76,
+        715,
+        500
+      ],
+      "visual_family_hint": "OI3-image-00165e8dabc5a01c",
+      "observation": "Nữ rest-hand-near-face bàn cờ hướng trước ngoài board; own2hands bare, auxiliary attention.",
+      "phenotypes": [
+        "side_or_forward_head",
+        "own_workarea",
+        "rest_hand_near_face"
+      ],
+      "person_unit_hint": "anchor",
+      "domain": "auxiliary_out_of_exam",
+      "pair_id": null,
+      "known_evaluation_family": false,
+      "aliases": []
+    }
+  ]
+}

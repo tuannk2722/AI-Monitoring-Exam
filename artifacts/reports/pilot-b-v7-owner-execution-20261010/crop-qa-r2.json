@@ -1,0 +1,212 @@
+{
+  "reviewer": "Codex",
+  "all_source_boards_viewed": 12,
+  "all_native224_r1_viewed": 7,
+  "records": [
+    {
+      "sample_id": "V7-OE-S005-A01",
+      "old_xyxy": [
+        184,
+        246,
+        625,
+        762
+      ],
+      "new_xyxy": [
+        184,
+        115,
+        625,
+        794
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S011-A01",
+      "old_xyxy": [
+        532,
+        276,
+        922,
+        745
+      ],
+      "new_xyxy": [
+        522,
+        177,
+        973,
+        749
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S023-A01",
+      "old_xyxy": [
+        0,
+        307,
+        683,
+        1004
+      ],
+      "new_xyxy": [
+        0,
+        184,
+        683,
+        1014
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S033-A01",
+      "old_xyxy": [
+        0,
+        253,
+        666,
+        760
+      ],
+      "new_xyxy": [
+        0,
+        169,
+        666,
+        760
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S034-A01",
+      "old_xyxy": [
+        399,
+        163,
+        1004,
+        667
+      ],
+      "new_xyxy": [
+        553,
+        61,
+        1024,
+        674
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S050-A02",
+      "old_xyxy": [
+        0,
+        389,
+        806,
+        1325
+      ],
+      "new_xyxy": [
+        0,
+        259,
+        826,
+        1382
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S066-A01",
+      "old_xyxy": [
+        0,
+        36,
+        266,
+        512
+      ],
+      "new_xyxy": [
+        0,
+        0,
+        266,
+        512
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S071-A01",
+      "old_xyxy": [
+        205,
+        0,
+        512,
+        512
+      ],
+      "new_xyxy": [
+        113,
+        0,
+        512,
+        512
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S087-A01",
+      "old_xyxy": [
+        234,
+        222,
+        418,
+        392
+      ],
+      "new_xyxy": [
+        223,
+        170,
+        421,
+        400
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S089-A01",
+      "old_xyxy": [
+        408,
+        292,
+        736,
+        448
+      ],
+      "new_xyxy": [
+        408,
+        202,
+        744,
+        448
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S091-A01",
+      "old_xyxy": [
+        376,
+        180,
+        544,
+        378
+      ],
+      "new_xyxy": [
+        240,
+        108,
+        548,
+        448
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S093-A01",
+      "old_xyxy": [
+        730,
+        512,
+        1709,
+        1013
+      ],
+      "new_xyxy": [
+        730,
+        317,
+        1709,
+        1013
+      ],
+      "reason": "Giữ head/own-workarea hoặc device/tay đầy đủ hơn sau224."
+    },
+    {
+      "sample_id": "V7-OE-S114-A02",
+      "old_states": [
+        "P",
+        "P"
+      ],
+      "new_states": [
+        "U",
+        "P"
+      ],
+      "reason": "Phone mép nguồn thiếubody/identity rõ sau224."
+    }
+  ],
+  "owner_review_inferred_for_new_exact_crops": false
+}

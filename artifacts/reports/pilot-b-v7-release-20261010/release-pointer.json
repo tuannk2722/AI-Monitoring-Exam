@@ -1,0 +1,83 @@
+{
+  "status": "accepted_local_release_complete",
+  "owner": "repository-owner",
+  "date": "2026-10-10",
+  "dataset_version": "pilot-b-20261010-v7",
+  "package": "data/processed/pilot-b/pilot-b-20261010-v7",
+  "counts": {
+    "train": 689,
+    "val": 49,
+    "test": 11,
+    "review_only": 122,
+    "excluded": 29
+  },
+  "manifest_records": 749,
+  "ledger_records": 900,
+  "crop_files": 871,
+  "approved_use_scope": [
+    "local_classifier_research"
+  ],
+  "config": {
+    "path": "configs/datasets/pilot_b_release_v7.yaml",
+    "sha256": "6c141cbfd98281569909b7efb9b8f5b88b51bc520c2fad4f0ddafdb869898118"
+  },
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/owner-approval.json",
+    "sha256": "a92984887fd15a1fe74429cc4c862f78be8594016d1221e02d94d2f581e7db81"
+  },
+  "report": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/README.md",
+    "sha256": "bcc2aa5f7323247ef246ebb870220f5c918958c6aaeb6085f9072e529127ba98"
+  },
+  "dataset_card": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/dataset-card.md",
+    "sha256": "3d6554eaf3a3c46bc436e0e454f4b429f5aba791d31da3e3527766333078cf19"
+  },
+  "payload_checksums": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/checksums.sha256",
+    "sha256": "d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610"
+  },
+  "manifest": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/manifest.jsonl",
+    "sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede"
+  },
+  "ledger": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/review-ledger.jsonl",
+    "sha256": "a81ce7f669ce496fef2cf719c2953e6d4ff5c2b996dabb39f6ba0ef0f13df4a0"
+  },
+  "release_metadata": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/release.json",
+    "sha256": "4ed29e1f262e4903e08be475a2aae932770e438a90be03a4e2b883265a0854d8"
+  },
+  "split_assignment": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/split-assignment.jsonl",
+    "sha256": "cbf2fe185b6cef3d3c476c703313f22fab4bf94e86deed8dced22b3bcd3252bd"
+  },
+  "verification": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/verification.json",
+    "sha256": "dc3f9c159af5d43e9dc4b17d9d8b1dd9ef8d18b6f46d3b3c93a388d9c1cd2daa"
+  },
+  "rebuild_verification": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/rebuild-verification.json",
+    "sha256": "64fea192facaf6cbd81932493c51982d33e18c284eff5f47df936675cc5b043d"
+  },
+  "report_checksums": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/checksums.sha256",
+    "sha256": "ce7543bd5c49a95be6e927955f6cd003ed1ad00dc0b8fc203831bdd04b396267"
+  },
+  "report_files_sealed": 10,
+  "source_config_git_provenance": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/provenance.json",
+    "sha256": "86400de0efaa625b55c5c514ca5cbef36fc7adbc00fc4445bd9f427ebb902e8f"
+  },
+  "review_pointer_parent": {
+    "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/review-pointer-final.json",
+    "sha256": "62fde43b6dae5a80df5501d33badd7cdcce90722471aca4ebe6ba01afd142235"
+  },
+  "training_started": false,
+  "media_uploaded": false,
+  "new_independent_groups_proven": 0,
+  "test_protocol": "Integrity/hash/decode/copy và bảo toànfreeze; khôngnewinference/feature/tuning.",
+  "no_html_created": true,
+  "remote_dvc_upload": false
+}

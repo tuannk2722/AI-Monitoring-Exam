@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "file": "artifacts/reports/pilot-b-v7-public-followup-20261009/source-funnel-and-shortage.md",
+  "expected_sha256": "907ff1c6c91703dd6dd36a32fd90634f4884b11713f786e19ccb0b1a1ff372b7",
+  "actual_sha256": "f860a1377becb63ee6986b281a47c881a07ade07ad3357c3edc85b72c86bd677",
+  "owner_answer_verbatim": "Không, tôi không chỉnh",
+  "cause": "Chưa xác định; không quy sự thay đổi cho owner.",
+  "old_file_modified_in_this_task": false,
+  "old_seal_modified": false,
+  "restored_or_resealed": false,
+  "new_pilot_approval_inferred": false
+}

@@ -1,0 +1,158 @@
+{
+  "status": "draft_visual_qa_not_owner_approval",
+  "reviewed_new_changed": 54,
+  "sheets_reviewed": 9,
+  "rights_excluded": {
+    "V7-B-105": [
+      "chưa kiểm được metadata trang từng ảnh công khai"
+    ],
+    "V7-C-135": [
+      "chưa kiểm được metadata trang từng ảnh công khai"
+    ],
+    "V7-C-138": [
+      "chưa kiểm được metadata trang từng ảnh công khai"
+    ],
+    "V7-D-052": [
+      "license khác/thiếu so với metadata; owner cần giải quyết evidence"
+    ],
+    "V7-D-055": [
+      "chưa kiểm được metadata trang từng ảnh công khai"
+    ]
+  },
+  "crop_revisions": [
+    {
+      "candidate_id": "V7-A-075",
+      "before_xyxy": [
+        634,
+        115,
+        1004,
+        566
+      ],
+      "after_xyxy": [
+        409,
+        57,
+        1024,
+        577
+      ],
+      "states": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "candidate_id": "V7-A-076",
+      "before_xyxy": [
+        0,
+        54,
+        953,
+        656
+      ],
+      "after_xyxy": [
+        0,
+        0,
+        1024,
+        683
+      ],
+      "states": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "candidate_id": "V7-B-078",
+      "before_xyxy": [
+        256,
+        0,
+        799,
+        570
+      ],
+      "after_xyxy": [
+        61,
+        0,
+        738,
+        606
+      ],
+      "states": [
+        "P",
+        "U"
+      ]
+    },
+    {
+      "candidate_id": "V7-B-093",
+      "before_xyxy": [
+        348,
+        99,
+        850,
+        692
+      ],
+      "after_xyxy": [
+        307,
+        0,
+        861,
+        722
+      ],
+      "states": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "candidate_id": "V7-C-123",
+      "before_xyxy": [
+        276,
+        122,
+        635,
+        715
+      ],
+      "after_xyxy": [
+        0,
+        0,
+        512,
+        753
+      ],
+      "states": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "candidate_id": "V7-C-103",
+      "before_xyxy": [
+        337,
+        95,
+        922,
+        654
+      ],
+      "after_xyxy": [
+        102,
+        0,
+        932,
+        654
+      ],
+      "states": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "candidate_id": "V7-D-050",
+      "before_xyxy": [
+        253,
+        440,
+        638,
+        912
+      ],
+      "after_xyxy": [
+        238,
+        409,
+        722,
+        902
+      ],
+      "states": [
+        "P",
+        "N"
+      ]
+    }
+  ],
+  "test_media_read": false
+}

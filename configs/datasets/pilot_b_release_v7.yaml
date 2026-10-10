@@ -1,0 +1,64 @@
+status: accepted
+formulation: B
+dataset_version: pilot-b-20261010-v7
+selection_version: pilot-b-v7-owner-approved-local-membership-r1
+crop_policy_version: pilot-b-v7-owner-reviewed-context-r3
+split_version: pilot-b-v7-local-whole-family-r1
+package: data/processed/pilot-b/pilot-b-20261010-v7
+parent_package: data/processed/pilot-b/pilot-b-20261007-v6
+source_cache: outputs/pilot-b-v7-release-sources-20261010-r1
+approved_use_scope:
+- local_classifier_research
+training_run_approved: false
+media_upload_approved: false
+expected_counts:
+  train: 689
+  val: 49
+  test: 11
+  review_only: 122
+  excluded: 29
+builder_sha256: 95099135de3a0d90a78ec52b0354b3eb6efea4bba365222a465d54e48daea364
+git_commit: 8ae70f152984350babc124c7db1e69149f4b7ff8
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+test_protocol: Giữ nguyên 11 test identity/source/crop/target/evidence và freeze từ v6;
+  hash/decode/copy chỉ để kiểm integrity khi đóng gói. Không model inference/tuning;
+  group ID/version đóng gói mới theo whole-family đã owner review.
+crop_policy_notes: Rectangle mới đã owner nghiệm thu joint person/context trên crop R3/R5;
+  schema dùng joint region như v6, không tự ước lượng bbox whole body hoặc chốt detector/crop runtime.
+limitations:
+- 375 crop mới vào train; 90 crop known sinh từ source approval đã được nghiệm thu batch cuối.
+- 449 conservative components không chứng minh độc lập subject/session; new independence proven 0.
+- Val49 khác E003 về cohort/target support do owner corrections; không so scalar BCE trực tiếp.
+- 4 rights blocker và S080 giữ review-only; U/U ngoài supervision; 1 evaluation-family pool excluded.
+- Nguồn public bổ trợ không thay independent exam holdout.
+- Không train/upload/remote DVC trong scope release này.
+approval:
+  path: artifacts/reports/pilot-b-v7-release-20261010/owner-approval.json
+  sha256: a92984887fd15a1fe74429cc4c862f78be8594016d1221e02d94d2f581e7db81
+ledger:
+  path: outputs/v7-local-release-preparation-20261010-r2/proposed-ledger.jsonl
+  sha256: 4c4ff44562c0f24d7d60cafb19da07a9e13b8832c2ec1ec4ed4fe43a8284bd05
+assignment:
+  path: outputs/v7-local-release-preparation-20261010-r2/proposed-assignment.jsonl
+  sha256: 6871dce3c03c25f25033dad274f9d74d6995ae86c7dd31a04c948028bc5ebf65
+whole_family:
+  path: outputs/v7-local-release-preparation-20261010-r2/whole-family-proposal.json
+  sha256: b833e80b7ccd394f54f7b52b20edcb4fe45e72fc03967e0a556665b8681cceae
+rights:
+  path: artifacts/reports/pilot-b-v7-owner-execution-20261010/local-rights-proposal.jsonl
+  sha256: b7495934ce922cbc872ed293017931e62ebe171643782e5d1925fc1e382e77bf
+source_provenance:
+  path: artifacts/reports/pilot-b-v7-release-20261010/new-source-provenance.jsonl
+  sha256: 1c2206e6d4469e63cad61fb29a45843b6b3ecf971b96752eb8a3c1b6ecfbbffe
+parent_checksums:
+  path: data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256
+  sha256: 971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f
+parent_config:
+  path: configs/datasets/pilot_b_release_v6.yaml
+  sha256: fcce661b922909e81108fee0b9fe3fd8d7904f8f90a639d83fb0c30d1d3047d8
+review_pointer:
+  path: artifacts/reports/pilot-b-v7-owner-execution-20261010/review-pointer-final.json
+  sha256: 62fde43b6dae5a80df5501d33badd7cdcce90722471aca4ebe6ba01afd142235

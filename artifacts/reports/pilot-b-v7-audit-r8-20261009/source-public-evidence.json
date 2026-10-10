@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09",
+  "status": "draft_evidence_metadata_only",
+  "pins": [
+    {
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r1/summary.json",
+      "sha256": "3eecb05f55e038ac5912acd785ed5e5549d100607da75702253757fb5f147ca2"
+    },
+    {
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r2/summary.json",
+      "sha256": "4918f67c4a3d2726a6a703b2380672dadc12498afa8439598370735bc1d249ed"
+    },
+    {
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r3/summary.json",
+      "sha256": "65852527e3f29077443ce0ecd234f170dc172b6e50b60ac3a12045140f22123f"
+    },
+    {
+      "path": "data/raw/openimages/oi-train-box-prefix-20261008-r2/receipt.json",
+      "sha256": "f53a0c8c06d91db744924d0fddb11b90737370b3369ec37ef52851a0fefd405a"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v6-source-research-20261007/roboflow-duplicates.json",
+      "sha256": "a40c6f0b55771082c2bad7a49bbb20278b47a30263a2d144df7bf8079daf0690"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-targeted-20261008/lineage-triage-r3.json",
+      "sha256": "06c36051dc82a6a6f5026dddeaae8260206f9adfa0be86fe2455f92d7484541c"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-targeted-20261008/public-rights-quarantine.json",
+      "sha256": "9ea535dd8348b5d52d0fea7ceee5a1da299e9f852714b128488c320e2ecfc21d"
+    },
+    {
+      "path": "configs/datasets/pilot_b_v7_targeted_preparation_r2.yaml",
+      "sha256": "bb46c6834770736fd24a6daa464e20555cdeaa8ccf052e7573d25af489b4c47a"
+    },
+    {
+      "path": "configs/datasets/pilot_b_v7_targeted_scb_preparation_r1.yaml",
+      "sha256": "b19c259e0bd1af072c97e7401229e6a1030a4c1f64765852d77ff5eec5c30a06"
+    }
+  ],
+  "COCO_filters": {
+    "train_metadata_images": 118287,
+    "phone_context_hints_total": 185,
+    "phone_context_visually_screened": 185,
+    "phone_filter_remaining": 0,
+    "work_hints_total": 355,
+    "work_hints_visually_screened": 120,
+    "work_hint_remaining": 235,
+    "remaining_work_is_not_phone_negative": true
+  },
+  "OpenImages_prefix": {
+    "publisher_total_bbox_bytes": 2258447590,
+    "scanned_prefix_bytes": 301989888,
+    "fraction_bytes": 0.13371569450500287,
+    "useful_pool_linear_estimated": false
+  },
+  "per_source_exact_duplicates": {
+    "classroom_attitude": {
+      "groups": 0,
+      "extra_copies": 0
+    },
+    "student_behaviour": {
+      "groups": 0,
+      "extra_copies": 0
+    },
+    "exam_cheating_keaor": {
+      "groups": 4,
+      "extra_copies": 4
+    },
+    "roboflow_v1": {
+      "groups": 0,
+      "extra_copies": 0
+    },
+    "scb_head": {
+      "groups": 0,
+      "extra_copies": 0
+    },
+    "scb_hrw": {
+      "groups": 1,
+      "extra_copies": 1
+    }
+  },
+  "semantic_usefulness": "unknown",
+  "independent_unused_groups": "unknown",
+  "test_media_read": false
+}

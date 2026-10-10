@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "source_items": [
+    "V7-UNAPPROVED-S-109",
+    "V7-UNAPPROVED-S-113"
+  ],
+  "question": "phone_use=N ghi cho vật trên bàn, nhưng phone dưới bàn có thể thấy và đúng người cầm; dùng P/U/N của người?",
+  "owner_answer_verbatim": "P nếu thấy điện thoại và đúng người cầm",
+  "rule": "P khi crop giữ visible mobile và đúng anchor; không phải phone tabletop thì không gán P từ vật đó; chưa rõ device/ownership thì U.",
+  "new_phone_semantics_introduced": false
+}

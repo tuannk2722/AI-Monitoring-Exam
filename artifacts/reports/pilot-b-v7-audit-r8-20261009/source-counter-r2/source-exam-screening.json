@@ -1,0 +1,171 @@
+{
+  "records": [
+    {
+      "screening_id": "V7-SCREEN-014",
+      "hint_kind": "phone_hint",
+      "source_image_sha256": "55a8f98b88c1c0e742b9919ba73a58244676ea2972d0978446ffe4903b966d8f",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-014",
+        "review_status": "loại unit",
+        "visual_family_hint": "hands-only-top-view",
+        "observation": "Nhiều bàn tay quanh bàn, không đủ person attribution, không gán nearest người.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-024",
+      "hint_kind": "phone_hint",
+      "source_image_sha256": "b512491568c3970d026c059b0130f96c63654280a4f1624a0acac8a562953d8e",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-024",
+        "review_status": "loại unit",
+        "visual_family_hint": "phone-hands-only",
+        "observation": "Phone closeup chỉ tay, không đủ unit person.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-063",
+      "hint_kind": "phone_hint",
+      "source_image_sha256": "89b9b7441545bb9d02ebc08f274cdfcdbe3386769f20d00f6ade17bb5d103268",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-063",
+        "review_status": "loại unit",
+        "visual_family_hint": "hands-phone-only",
+        "observation": "Chỉ bàn tay và thiết bị; không đủ person attribution.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-214",
+      "hint_kind": "looking_hint",
+      "source_image_sha256": "9b0f4e9b8f8b98539416b93bbc997bf8d3e379a44d86b54dc86c34e0a2056429",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-214",
+        "observation": "Ảnh collage mô phỏng; anchor nhìn ngang khỏi giấy. C nếu crop đúng panel/person, lineage cùng215/248.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-215",
+      "hint_kind": "looking_hint",
+      "source_image_sha256": "e361ca4d2c3594cfa729be8755e60e50ac5ab893a32552b14346ecf52a97c98d",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-215",
+        "observation": "Cùng collage/simulation family214; C side ở panel dưới, cần negative cùng panel, không scene mới.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-221",
+      "hint_kind": "looking_hint",
+      "source_image_sha256": "b5b6dc7b97a27db7fcd165c9300a70dde9dfc2827a8e53a9b96416c6bf28bd21",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-221",
+        "observation": "Nữ liếc sang bài bạn, own paper/bút đủ; C pair.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-224",
+      "hint_kind": "looking_hint",
+      "source_image_sha256": "ceaebd62a8d3b6b3eedd0c84e427b1e2e6d0dc4a51d7f0b821363c4ee23ee9f4",
+      "candidate_ids": [
+        "V7-C-079"
+      ],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-224",
+        "observation": "Ảnh B&W người quay sang phải, cả hai tay/giấy đủ; C side.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-248",
+      "hint_kind": "looking_hint",
+      "source_image_sha256": "13e6fb2e852f17992df65e480f5f52fcd4dd6aefcaddb8f2c104e6e7681f2840",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-248",
+        "observation": "Cùng collage214/215, không scene mới.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-252",
+      "hint_kind": "negative_hint",
+      "source_image_sha256": "39fd850544cdfe7eaa61e4e902b83298d22e0cb16a62ae4712afc664a68a6a3c",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-252",
+        "observation": "Simulation collage family214, người đọc đúng bài; matched C potential.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-267",
+      "hint_kind": "negative_hint",
+      "source_image_sha256": "800d41cb86facf56fb726b6ecfba9e6afb48124e243e10891832210ab2b0f1ab",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-267",
+        "observation": "Collage có overlay, same214family; chưa tuyển chính.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-272",
+      "hint_kind": "negative_hint",
+      "source_image_sha256": "1decad35ca5673f28b7a350a368e24764a1ddea846d54273cf0a7c49c1c28961",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-272",
+        "observation": "Same collage214/215, đọc đúng giấy, reserve.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-274",
+      "hint_kind": "negative_hint",
+      "source_image_sha256": "dd201454863a64cff2191bd2b7866ed4cb402410e85f48a18bc0bcb3893a699b",
+      "candidate_ids": [],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-274",
+        "observation": "Same collage214/215; không scene mới.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    },
+    {
+      "screening_id": "V7-SCREEN-277",
+      "hint_kind": "negative_hint",
+      "source_image_sha256": "389ccc3dbf2139f6a5be05fde58f6047f8484edf6f1dbddeaf3d900fed76c261",
+      "candidate_ids": [
+        "V7-C-087"
+      ],
+      "prior_observation": {
+        "screening_id": "V7-SCREEN-277",
+        "observation": "Nam viết và nữ xanh quay ngang khỏi giấy, C matched pair trong same frame.",
+        "status": "draft_visual_screening_not_owner_approval"
+      },
+      "owner_rejected": false
+    }
+  ],
+  "note": "Receipt cũ, không owner rejection"
+}

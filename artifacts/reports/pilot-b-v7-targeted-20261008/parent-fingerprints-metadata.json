@@ -1,0 +1,5296 @@
+[
+  {
+    "sha256": "0074d7eed70ae8c4bdb6c0a284e67b9adefa5979c8189bc42233c9a6d8e71f7f",
+    "dhash": 10428980378368160274,
+    "sample_ids": [
+      "SCB-read-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-0839744493643e02220f"
+    ]
+  },
+  {
+    "sha256": "0167b7fb32c1d5f7368db207a23a4cd4b2b13b0248e3ba007e34a858d39cbfe2",
+    "dhash": 7559832153900174099,
+    "sample_ids": [
+      "V6R2-EX-011"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "016d0c046ea32b58cd5f6edb120ea130c57e795bf0e619ac022540f787e8103a",
+    "dhash": 2128261068426105420,
+    "sample_ids": [
+      "EXP-CM-018"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "03612c473550d2929aa6e584f4997e1346edbb8bb55240452cf80a019d965a31",
+    "dhash": 2949265848495492071,
+    "sample_ids": [
+      "EXP-RF-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-29f905f08f7b6e07c3b4"
+    ]
+  },
+  {
+    "sha256": "04c8e875290963b896e60e4e6476223ef03625062c0dbd24c43744e0250f9dc7",
+    "dhash": 17144622906707989202,
+    "sample_ids": [
+      "V6-EX-022"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "052f0e479bc93a11707f2b3fc6c2ba84d625435746db67352e71ee42261934c0",
+    "dhash": 11469590794446579534,
+    "sample_ids": [
+      "V6-CA-031"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-1d4c83f734515165c4df"
+    ]
+  },
+  {
+    "sha256": "05beb60635b512e0148da451bc7ec8cea94a1089f94827fd3697f741d208474e",
+    "dhash": 14395408496018703105,
+    "sample_ids": [
+      "V6-CA-036"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "065303fdc4756721467c76c80af6ca6532f421808795d172b9150e863d4287fc",
+    "dhash": 17472677169485990735,
+    "sample_ids": [
+      "V6R2-EX-013"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "06fc1d65c42e68b306221df9ce4a2bdc0ac262689f16608cc48b5758b5858b71",
+    "dhash": 10199836395733178892,
+    "sample_ids": [
+      "EXP-CM-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "0775bdad018dd0c0b65602f9702b7f929d0d49b55914393a789fe59541a620d9",
+    "dhash": 17694134487222481466,
+    "sample_ids": [
+      "SCB-read-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-950af88cd17908a77c81"
+    ]
+  },
+  {
+    "sha256": "0781d05fabca12132d6628c3070add88535245ddc591ce48e56ee1a8b69e5552",
+    "dhash": 13690315994553398566,
+    "sample_ids": [
+      "V6R2-SB-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "079893b483844ca5e82f3f770405d95629309e5de6ab5ec730278a4e0a0f2b19",
+    "dhash": 13834386930478118189,
+    "sample_ids": [
+      "V6-SB-032",
+      "V6R2-MP-091",
+      "V6R2-MP-092",
+      "V6R2-MP-093"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "082677a4ee29d77711d2fd515d75608df7d42398cf13a88a0218c33b9f4278ec",
+    "dhash": 11232245559729756122,
+    "sample_ids": [
+      "V6-CA-029"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-29f905f08f7b6e07c3b4"
+    ]
+  },
+  {
+    "sha256": "08b2b9ee4c660e0a306817de98bf4c1c29c5f08fc88720b7d0275ae1f89d9f70",
+    "dhash": 2273646617356971980,
+    "sample_ids": [
+      "V6-SB-010",
+      "V6R2-MP-027",
+      "V6R2-MP-028",
+      "V6R2-MP-029"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "09cec1215a311d9ae47d854ae2a79855fd6dc7ec2189adb75eb3004f402e8abd",
+    "dhash": 8120170879211065457,
+    "sample_ids": [
+      "V6-CA-019"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-eb05e53f5c08f709b60b"
+    ]
+  },
+  {
+    "sha256": "09dce09292226df8dbdfff8ec956ca18519f8d2705f3dadcee114c2383163a0f",
+    "dhash": 2854044734687189963,
+    "sample_ids": [
+      "EXP-RF-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-40464cf9224fb4dbc235"
+    ]
+  },
+  {
+    "sha256": "0ba9f9999a96e92c928edd4fa9df528187a99842917a7bc737e328f2dfcc6e72",
+    "dhash": 9563027257778189878,
+    "sample_ids": [
+      "V6-CA-018"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "0c7ab118889f1c314ac1046dbe8cc5578c5c67c7d5588ec3ca02765f9fcb2ddc",
+    "dhash": 8674891103355546733,
+    "sample_ids": [
+      "SCB-turnhead-024"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-b3e360cd83d1dfacd186"
+    ]
+  },
+  {
+    "sha256": "0c90cbcb72fb7b4a537ad759f5b9c38c408a16fe3161699f67c1adff37c20a17",
+    "dhash": 7757626986294162787,
+    "sample_ids": [
+      "SCB-read-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+    "dhash": 6088002953808779023,
+    "sample_ids": [
+      "SCB-write-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-0d6c5bf196aadec95d7c"
+    ]
+  },
+  {
+    "sha256": "0faf147fab078922c35546af0a5b37a87feddf86bb1aa5e6a437b0f2ce506513",
+    "dhash": 2529672461526724941,
+    "sample_ids": [
+      "V6-CA-013"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "0fc8b59aad2c9fae6379a7c6a35bce8c27e4afec2bac4ee61b5c269f640b665f",
+    "dhash": 12532829152435106424,
+    "sample_ids": [
+      "EXP-SCB-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6af358955ba8ec5f1bd9"
+    ]
+  },
+  {
+    "sha256": "10331b184f2af574aa3a56bc3fa18a059e18d0fd03b9603a33fbab7b24cb5389",
+    "dhash": 1758305838731636993,
+    "sample_ids": [
+      "V6-CA-028"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-95395448599640b29d76"
+    ]
+  },
+  {
+    "sha256": "108fe4cc450b4c9cf959651b77fbccce3fd4e567964bfcdf8c073f8cf983936a",
+    "dhash": 2525151269713310541,
+    "sample_ids": [
+      "P039-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "11a2291e0ddae394ad2695a3b970297e7f42c28a192de3b04e6edae9450bb4c7",
+    "dhash": 844341040620050899,
+    "sample_ids": [
+      "V6-EX-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "11a9826d05c177fb87b6f65ee1b7c7518afb1d54dea3a3c3754a21d669ec2937",
+    "dhash": 7454358104300899478,
+    "sample_ids": [
+      "V6R2-CA-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-ab81c5e693b75070c967"
+    ]
+  },
+  {
+    "sha256": "11e7cf5c944a4e67f595271b0c2f46b153d9998b8a18118c03f2a025360abbb0",
+    "dhash": 1734356641584398211,
+    "sample_ids": [
+      "V6-EX-019"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "126781a55e2e48d55dc3575870f4a26ddb40cde0b6fd70ee628ce215c53f9531",
+    "dhash": 10464484037290515505,
+    "sample_ids": [
+      "EXP-RF-007"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "12f74ed70dc4b1b9be8ecc4812f491371805d8b46b80d7b2400dd3f6e6e20456",
+    "dhash": 7757930449861358947,
+    "sample_ids": [
+      "SCB-turnhead-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "130b0e7de8dffa7baec9b00526159273f24744d78c10b397379e1df82ebe0e02",
+    "dhash": 7586538755591621016,
+    "sample_ids": [
+      "V6-CA-044"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "13e603d331ba3fd94d17fb3e4badbfafdd2733e2e71351815caff234cd9d71c1",
+    "dhash": 11285682449062386008,
+    "sample_ids": [
+      "V6-EX-008"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-e72cec902a86f2336627"
+    ]
+  },
+  {
+    "sha256": "14b3f5daf393778d8daa9578d587bea117d73134208ac5ff4f352ac38eeb252e",
+    "dhash": 16344126094697340102,
+    "sample_ids": [
+      "V6-CA-026"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "156ad71f9ec7a3460e7aa6d74d57fabd94e5a09d9d8645bdccb743bcf3dc677f",
+    "dhash": 6474886970335463323,
+    "sample_ids": [
+      "EXP-RF-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-15df48dbb37d08c6b9ef"
+    ]
+  },
+  {
+    "sha256": "161d79c488318ba37700815b898283ba582eee8d54897575d8243197152e1198",
+    "dhash": 11287933555101864998,
+    "sample_ids": [
+      "SCB-turnhead-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "1638d91094db4000ccacb3cba964d0432c17a66b7566c960771c76bd1cd08401",
+    "dhash": 3689538646232916243,
+    "sample_ids": [
+      "P036-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "1782a95213f77cfa4a0599ba2b596c1da308d41b92062014c462bb399458bcc3",
+    "dhash": 15250263389042335756,
+    "sample_ids": [
+      "V6-SB-006",
+      "V6R2-MP-015",
+      "V6R2-MP-016",
+      "V6R2-MP-017"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "17ae1fec1e88e4c03991973aa2979526eae978e6f27e6074129b0ccad64abafc",
+    "dhash": 7937139803393723659,
+    "sample_ids": [
+      "V6-EX-020"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6fa08054492f978c5f30"
+    ]
+  },
+  {
+    "sha256": "19dc350686ad5dd389ad3fcd39f92b05d804a12aed03980433b1fc835b937588",
+    "dhash": 15340493187472200304,
+    "sample_ids": [
+      "V6-SB-033"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-d44a821e962a24104c63"
+    ]
+  },
+  {
+    "sha256": "19fc9e9b9af56a6c379df67faa591b66a2bb62fb0dc7a03e44c8c372ede27ad5",
+    "dhash": 2140887405155639501,
+    "sample_ids": [
+      "V6R2-EX-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "1b7578b7505d0e54240adba77166684bf4a1f9be8f202efe49e8bb97e07f883b",
+    "dhash": 12216098211701836185,
+    "sample_ids": [
+      "V6R2-CA-016"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "1b8cda0e9a11da468e1551a6b48875e89532d58dc8006d07650a52611812738b",
+    "dhash": 1952330677774362637,
+    "sample_ids": [
+      "EXP-CM-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+    "dhash": 6855438708695866681,
+    "sample_ids": [
+      "SCB-write-026"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-7fb27f65676f43721a39"
+    ]
+  },
+  {
+    "sha256": "1bf1bfecb6bb6200879e63c360c047e79df16e38452617b2875f27a441405eca",
+    "dhash": 12370149153954464797,
+    "sample_ids": [
+      "V6R2-CA-011"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-f8d658b703269f86b526"
+    ]
+  },
+  {
+    "sha256": "1c57df4cf915a0b2b7a321aca491a459dacb41e295fe3559aaf5f70e07f3b36e",
+    "dhash": 2277620313530093468,
+    "sample_ids": [
+      "V6-SB-019",
+      "V6R2-MP-054",
+      "V6R2-MP-055",
+      "V6R2-MP-056"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "1ca05b295df584eba12fa355c85c3dd7a9dddf77c36c23dd1e7ea86d216b7ea7",
+    "dhash": 542404798126139917,
+    "sample_ids": [
+      "EXP-CM-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "1d3030dda307cbe4ccb2468fc0aee1c041398f72aa506a6a5f530c56d24d2441",
+    "dhash": 13329243508239156115,
+    "sample_ids": [
+      "EXP-SCB-035"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-de0bdbc3c48514ac27ad"
+    ]
+  },
+  {
+    "sha256": "1d3077631b7a4cff63b2d68741a1ea356683c40720bd0ca935d9adb41d561f1d",
+    "dhash": 15250263457761812492,
+    "sample_ids": [
+      "V6-SB-039"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "1d7eda339b30c6ab574abda55db5ca693ba90556eba1ed1c9ab4effece62bdc5",
+    "dhash": 8879380234973754601,
+    "sample_ids": [
+      "SCB-read-020"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-55c6b431fc5ea84e0bd0"
+    ]
+  },
+  {
+    "sha256": "1e5574e9b6d19b19b18c08ea1ea2658ade15a7c5564ec58b6efd388fb4df0ab7",
+    "dhash": 2695925080120436711,
+    "sample_ids": [
+      "V6-EX-029"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-d1e886e94302585b15ba"
+    ]
+  },
+  {
+    "sha256": "1ede9b712e6ce1909f822a0c87ed85fc506b9e680a91d8f47b6e82b725fcccb1",
+    "dhash": 11640085822950885067,
+    "sample_ids": [
+      "V6-SB-041"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-29934f907d1e2baa5072"
+    ]
+  },
+  {
+    "sha256": "1f02e7acaccf4d558cc5a82ef88cd61b3f609834ae05c7c359ad89128a0db0fd",
+    "dhash": 1374201885945086619,
+    "sample_ids": [
+      "EXP-CM-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "1f12f1dc8e26367b308592bddc54e95d3ae926d06237367cc1b4b4999d97525f",
+    "dhash": 3103942670291165619,
+    "sample_ids": [
+      "P033-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "1fa40628c38477c9228f981811c1ff48501b44fccbb6ffc9278c8b675e08f904",
+    "dhash": 1358092262386886334,
+    "sample_ids": [
+      "V6-SB-045"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7929da3839082c8c87fb"
+    ]
+  },
+  {
+    "sha256": "1fa428accf7f08b2db1d228e8dea9e904ea206a1a6880af89c96d5a7e7b6e389",
+    "dhash": 14134033255441311102,
+    "sample_ids": [
+      "SCB-write-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-dc8ce55db2c6a502d1e2"
+    ]
+  },
+  {
+    "sha256": "2026f6853c6a45cf799f5d30dd7221d512711952eff2d954eb9ad506b293b9e8",
+    "dhash": 1048986516822583085,
+    "sample_ids": [
+      "V6-EX-043"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "21a5e86ff907b2d5b2b11b3ae34201df002a1e6d9cd03b86d4ea078fbfc7be69",
+    "dhash": 3309106012114721820,
+    "sample_ids": [
+      "EXP-SCB-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-0d1a82fab3fd52ec4163"
+    ]
+  },
+  {
+    "sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+    "dhash": 14384741470081662433,
+    "sample_ids": [
+      "SCB-write-024"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-d4148f8feed0711bb6c6"
+    ]
+  },
+  {
+    "sha256": "2227417710f1e005392fb8b17899000aea1562384a0943144a44e358710f7f5e",
+    "dhash": 2277620450977435532,
+    "sample_ids": [
+      "V6R2-SB-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "2232030fef6ab4611f74b5240940ac63308339de3cc528c7f2efba375e3804b0",
+    "dhash": 7433137207540431316,
+    "sample_ids": [
+      "SCB-write-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-0b31a34d759e593e0586"
+    ]
+  },
+  {
+    "sha256": "23920abda9bc554e039097f583eaffd6bdda7c49c62c744e23c87c451fc187e4",
+    "dhash": 11637632989410004529,
+    "sample_ids": [
+      "SCB-read-025"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e807a4df97a39d6564fc"
+    ]
+  },
+  {
+    "sha256": "2460c96ab17d5f51ca1b8a7a693055d75a904395a0d5d2af47f038ea652c22a4",
+    "dhash": 11420601037699384217,
+    "sample_ids": [
+      "V6-EX-041"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "2479aa940bad13e037e862a668a062a5e6a88a36e2b721da3f12122b815ccd11",
+    "dhash": 1511381043270613262,
+    "sample_ids": [
+      "EXP-SCB-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-cab424fc3d3653b9b3a4"
+    ]
+  },
+  {
+    "sha256": "24d9bc5b815b560e039708d32898fbafa88b28f13a3b3056a190ae601dd04ddf",
+    "dhash": 8314183452786451939,
+    "sample_ids": [
+      "V6R2-CA-013"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "252f77ce0c276768759e60001cf1f66677471b3821caf1840e5bc2e5807ae21e",
+    "dhash": 1314112432206721845,
+    "sample_ids": [
+      "EXP-SCB-032"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7f8137444d3c846d0587"
+    ]
+  },
+  {
+    "sha256": "253d27d4af82afd3454c676e57cc09a79e4269ddd00be9bd266e5736ad7b1381",
+    "dhash": 3309526384746837624,
+    "sample_ids": [
+      "SCB-turnhead-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6af358955ba8ec5f1bd9"
+    ]
+  },
+  {
+    "sha256": "25b4c1053bb5827790e70f2d8406f9ec0ab4db38015b1ad11f28cf9dbe838a9b",
+    "dhash": 1815261996493525875,
+    "sample_ids": [
+      "V6-CA-032"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+    "dhash": 10680612230228823999,
+    "sample_ids": [
+      "P007-extra-01",
+      "P007-person-01",
+      "P007-person-02"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "26f0784b8f6e60cbb9797cda6c1ec323429edd6d143ebff87ba2b2c0e750776d",
+    "dhash": 6977355706075252033,
+    "sample_ids": [
+      "V6-EX-042"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-73f8ee84e6a5ea4a4049"
+    ]
+  },
+  {
+    "sha256": "2a3cda0abda1c5fe4a86e109216e156c8d80fa5f8bc76ea5f28d5ec3701c08d1",
+    "dhash": 10745964062741160307,
+    "sample_ids": [
+      "V6-CA-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f7a0531da2af0877f8d8"
+    ]
+  },
+  {
+    "sha256": "2bc203d30e2c8bbb76bea13c52419f21f4c493925099c5572164b36d0423b49d",
+    "dhash": 7191626889295567767,
+    "sample_ids": [
+      "V6-EX-016"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-67ff69c4478a857d6a59"
+    ]
+  },
+  {
+    "sha256": "2c915f0e526e925a01411ff9676088e9601e27222b4323fe8951f505e43ec56d",
+    "dhash": 13690833592715340143,
+    "sample_ids": [
+      "V6-SB-004",
+      "V6R2-MP-009",
+      "V6R2-MP-010",
+      "V6R2-MP-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+    "dhash": 10634067135536458739,
+    "sample_ids": [
+      "EXP-SCB-002"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-2fb2b83caf4ae371408a"
+    ]
+  },
+  {
+    "sha256": "2d4f130c54986ac0c7796166389be11d0f9ee0a223c72182a1a48d04fc75af59",
+    "dhash": 15071498147168462671,
+    "sample_ids": [
+      "EXP-SCB-029"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-67cddc64d84053942e75"
+    ]
+  },
+  {
+    "sha256": "2e09ec6ace97155004cad035e5fe4f403cc4e310dd3449e77cac9678402c5b9e",
+    "dhash": 5825890642797644900,
+    "sample_ids": [
+      "V6-SB-036"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-3f7ccdbafb914a849c7f"
+    ]
+  },
+  {
+    "sha256": "304c45f7d05689d6de646b447a34d7c61405c11ed636b9b4190cf724e457efc9",
+    "dhash": 14938284149229662758,
+    "sample_ids": [
+      "V6-EX-044"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "30e8d09132802dbe0a6d8d1066760a84eb43b0ccc712d5e516c7031cd5ed39f6",
+    "dhash": 1039546227642077850,
+    "sample_ids": [
+      "V6R2-SB-018"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-95ce8169c7444e6caa6f"
+    ]
+  },
+  {
+    "sha256": "3126997f90c981e51c2e142b6154249fb202c1226312db0b7f3df5213b858e1c",
+    "dhash": 1381313613798683481,
+    "sample_ids": [
+      "P032-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "319885eb8178b68d4a5a146d2042bd0778973a22ab07c5067b9dd915e7fa4174",
+    "dhash": 506373792685533197,
+    "sample_ids": [
+      "EXP-CM-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "31f776fdc9cdf6bc32e7a943486c3de97d992c15027e6c0456c94553390363e9",
+    "dhash": 32319964075058691,
+    "sample_ids": [
+      "SCB-write-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "321284c838b74ac3dc5f3d7d6888b1d06b2bc78d7aeb521d3ce219d7774587e6",
+    "dhash": 4582234950205759207,
+    "sample_ids": [
+      "SCB-read-026"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "32b0c43fca442f4360f3fdd51362327593f38ded69913439a9f2434329b929eb",
+    "dhash": 1734356641852833667,
+    "sample_ids": [
+      "EXP-RF-011"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "33cc53cf03cfaec671a07a8d840986423e0e0f10aafd998f525eec1f070a1e3d",
+    "dhash": 541278763229563949,
+    "sample_ids": [
+      "EXP-CM-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "355af9fc055adc11d6a16b0c180d7d4889f547a162ccbf206a748724d4641ab0",
+    "dhash": 6036382276188976019,
+    "sample_ids": [
+      "V6R2-CA-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-bb79f6ea3e90b19ced71"
+    ]
+  },
+  {
+    "sha256": "3569dd32817975c14a40f9154d6a650e986d17cbdbfed38273b129708d2cf172",
+    "dhash": 4547332975184522653,
+    "sample_ids": [
+      "V6-SB-034"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-5c95c56ac7f8af49105c"
+    ]
+  },
+  {
+    "sha256": "3771a15afd37da9af7f75d94fe46fa01ab54e00e66ba42d2ef15ac0287356c1b",
+    "dhash": 7198045541267855084,
+    "sample_ids": [
+      "SCB-read-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-66da3ab14fede8835db8"
+    ]
+  },
+  {
+    "sha256": "37ca2bb9894bc139304cce5b33d7318603ae5ebd05c6ae4c89f5ce04dcb054b5",
+    "dhash": 4331596676289927793,
+    "sample_ids": [
+      "SCB-read-019"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-ee545d61c486df2a4295"
+    ]
+  },
+  {
+    "sha256": "38ed533258ab23a5ae4ca8924ca9955afd8f797cc16ac2fbc6fcff652d4420d0",
+    "dhash": 7455213212322286260,
+    "sample_ids": [
+      "V6-CA-025"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f957c0bae0a7bd7e36bf"
+    ]
+  },
+  {
+    "sha256": "3976aa059cf83ec320d2a969a7402bf6e09994ebe6bd26bb20fdfdd4ec566798",
+    "dhash": 14865861949470321972,
+    "sample_ids": [
+      "SCB-read-022"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-29934f907d1e2baa5072"
+    ]
+  },
+  {
+    "sha256": "3aff41eb1e4a26d4c87b06e4a298c9836210219f958042e1fff01c0d515c5182",
+    "dhash": 17581381820482878957,
+    "sample_ids": [
+      "V6-SB-014",
+      "V6R2-MP-039",
+      "V6R2-MP-040",
+      "V6R2-MP-041"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "3b35d2bcdec009aea54275d785c194b66e3bff077f911dc2d50d4ca8798acc5e",
+    "dhash": 4582226221792091363,
+    "sample_ids": [
+      "SCB-write-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "3b63cb99ca6cd7052b8c91c874aec25b31239a84aaa83e07db1ad86fc5274225",
+    "dhash": 12189321809776209349,
+    "sample_ids": [
+      "V6-EX-037"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "3bb5e85fcfe3f5779042fac29b6f50c7b7294b31fcb34d722e868077d6adec79",
+    "dhash": 11137365157509014886,
+    "sample_ids": [
+      "EXP-RF-008"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "3d0a1eacda862befaef26fa6ea30b7d23ed9f2fdafc50c6e8165fcbb604a8aef",
+    "dhash": 7407933360419956007,
+    "sample_ids": [
+      "EXP-SCB-028"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-0d1a82fab3fd52ec4163"
+    ]
+  },
+  {
+    "sha256": "3e14ec9dafa3bd2a19591b54a6b3a0d075fcfa332b647c897cfaf3b3be3def49",
+    "dhash": 11972715861044838739,
+    "sample_ids": [
+      "V6-SB-025",
+      "V6R2-MP-072",
+      "V6R2-MP-073",
+      "V6R2-MP-074"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "3f0fb5e329a6d81c1458feddfb91abcf25c51b434579e66a722bb2e6466717cd",
+    "dhash": 16353541619830857103,
+    "sample_ids": [
+      "V6-CA-015"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-3a23d0e59022fc16cf45"
+    ]
+  },
+  {
+    "sha256": "3f706e11637455e652e2e86a20165fe23d3b09c543e929e6011130a015cafec8",
+    "dhash": 4833761843529658520,
+    "sample_ids": [
+      "V6R2-CA-006"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "40454ff65511b82232aaf46bd78c7d639f478e98990cb56f0880d6a8a2aeed4a",
+    "dhash": 9440391360981282994,
+    "sample_ids": [
+      "V6R2-EX-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "40656fdf38880988ffa44416f4695620e4ef238901300bf32545fe24bcec4cc3",
+    "dhash": 15173352699209508742,
+    "sample_ids": [
+      "V6-EX-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6fa08054492f978c5f30"
+    ]
+  },
+  {
+    "sha256": "438bc72640ccc23a6643d65f7920592e178bce593ba7485468ccd0bfccaa1cad",
+    "dhash": 1609022137903941534,
+    "sample_ids": [
+      "SCB-read-018"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-7fb27f65676f43721a39"
+    ]
+  },
+  {
+    "sha256": "43aa6c2b0aa71b6b4faccf136465f617934223f46b410ea40dd33ca62af36480",
+    "dhash": 6476139750209393792,
+    "sample_ids": [
+      "V6-SB-046"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-5c95c56ac7f8af49105c"
+    ]
+  },
+  {
+    "sha256": "43d23494a9a8cb8264235c8897b4db4ed2b6592cb40d363ca434b34f35572034",
+    "dhash": 1591599799281634069,
+    "sample_ids": [
+      "SCB-turnhead-014"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-238e89bcd4774e81ddc6"
+    ]
+  },
+  {
+    "sha256": "4449a7b5d8a1518a38236fb43313b38591d2ccd21f23276e1b2e6634ce1d3bdd",
+    "dhash": 17866853828047595206,
+    "sample_ids": [
+      "SCB-read-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-0d6c5bf196aadec95d7c"
+    ]
+  },
+  {
+    "sha256": "44f09a521fc086d107575093b245f2fe5079814571bb0876fa6590476ff20d6b",
+    "dhash": 13584760569034904614,
+    "sample_ids": [
+      "SCB-turnhead-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "470fe5b4f97a35249842b1d966610a5c6c8d6d848671601293c55fa1c4fff049",
+    "dhash": 18224054455643180235,
+    "sample_ids": [
+      "P047-extra-01",
+      "P047-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-78b435b55fa5b32c978a"
+    ]
+  },
+  {
+    "sha256": "47601669c23ed1f2a6f9b15dce97a7fe073ab9cc0debb8fa7e49aad527d0faa9",
+    "dhash": 13690315994553398694,
+    "sample_ids": [
+      "V6R2-SB-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "47bb099221462296d32c2e17a52a7c5038403fcc14e0bac9121d2d4e2e71c28c",
+    "dhash": 11393697360351757952,
+    "sample_ids": [
+      "EXP-SCB-014"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-5c95c56ac7f8af49105c"
+    ]
+  },
+  {
+    "sha256": "47c83bbf27c61fe5b1262e120f2b5417387059e981d09ba89a041f28282f4e81",
+    "dhash": 797441868677750164,
+    "sample_ids": [
+      "V6R2-EX-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-b6dbf74cad286c5fa5be"
+    ]
+  },
+  {
+    "sha256": "48cd007234ac8320e7a1bbebab87020434131244ed40299b30954af5a8738374",
+    "dhash": 10199695675424690444,
+    "sample_ids": [
+      "EXP-CM-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "493e050c702d0d43b0e4bdceb41637c5534f5383d7ae35ad16dcb1e58429ae0a",
+    "dhash": 8311689350428306759,
+    "sample_ids": [
+      "SCB-read-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-1106b1aaa1a591d7b247"
+    ]
+  },
+  {
+    "sha256": "4941dcb0aafa502b958a15d692451926340734bbd72c24708a941803b3114fa1",
+    "dhash": 18173204351191464340,
+    "sample_ids": [
+      "EXP-SCB-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-06cba39ff0feea2ee4a9"
+    ]
+  },
+  {
+    "sha256": "4a674ea2574b4323b42468147ac0c7328761932afa1c0fae46e2b0bc45a82386",
+    "dhash": 6012686130489316163,
+    "sample_ids": [
+      "SCB-read-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-3f43f752ed65e8d64568"
+    ]
+  },
+  {
+    "sha256": "4aabccd42a1e222c45619996377c7935bc65b6084fb8aa46b0d3b0fce3632aeb",
+    "dhash": 506373794848737305,
+    "sample_ids": [
+      "EXP-CM-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "4b75346189469b76d1a60d6532f584ae6f975d9e418287894d515bf259c7b3ab",
+    "dhash": 5209933779275951927,
+    "sample_ids": [
+      "V6-EX-014"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-340ecf4e63f51d19f468"
+    ]
+  },
+  {
+    "sha256": "4c9e9af9d18a823e39ecc5cbff5c8bbd40c08f33458b8d9c62114191fd42b958",
+    "dhash": 2726601696658015557,
+    "sample_ids": [
+      "V6R2-EX-016"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "4ce6d9d8b44ad4fcf9954c25685ce8063eeb97ac63f38c763099d8290fb35433",
+    "dhash": 7377045839241400528,
+    "sample_ids": [
+      "V6-SB-017",
+      "V6R2-MP-048",
+      "V6R2-MP-049",
+      "V6R2-MP-050"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "4d11c9840bf0e75fd7caa3cff34635a1e95e5187ceb1d6a6c6ffce4c3c3d9666",
+    "dhash": 9553636531240803030,
+    "sample_ids": [
+      "V6-EX-026"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "4d234bffbe30fa363631d4de2eddc6807e7f422cc7a9095ac67f69d6cdc91c5f",
+    "dhash": 1372873778179158769,
+    "sample_ids": [
+      "V6-EX-005"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "4d722174bb9536c5409b295f5c9f213e367e274ba3697a6dcf3d98bd400e7af7",
+    "dhash": 5893402770776483675,
+    "sample_ids": [
+      "V6-SB-007",
+      "V6R2-MP-018",
+      "V6R2-MP-019",
+      "V6R2-MP-020"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "4e2bfc7fff785a3d65106a199de0abe6ba9556b4323f786fe533a2ba33751f88",
+    "dhash": 9025001684587928282,
+    "sample_ids": [
+      "EXP-SCB-031"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-966484f19256931ae824"
+    ]
+  },
+  {
+    "sha256": "4ed67208865e1f634f28ca459ec0da931fa4b174764983a310b32cf1058d30e4",
+    "dhash": 6184725052496745381,
+    "sample_ids": [
+      "V6-SB-027",
+      "V6R2-MP-078"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "4f1b462139be6dd305c33db1dc7d804ecfe544393b2353be2977b9f7dbe3d177",
+    "dhash": 8336809752874468934,
+    "sample_ids": [
+      "V6-CA-007"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-fe234a8862adb5a602b0"
+    ]
+  },
+  {
+    "sha256": "4f52a6c36b6dc3b2e6369ffcc22f99df98c40844976096101f7f84e6cc60a295",
+    "dhash": 8783335159791196453,
+    "sample_ids": [
+      "V6-SB-022",
+      "V6R2-MP-063",
+      "V6R2-MP-064",
+      "V6R2-MP-065"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "4feb743fb8a070534e0f8f82f9947308de82fafa0a99158e6a908626d3ce8304",
+    "dhash": 9765776698113188876,
+    "sample_ids": [
+      "EXP-CM-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "505d1c14ba63dd22fa0143dae0bc5c09d64c3da5962916b1a595e3a2dd5b1d7d",
+    "dhash": 4726695062670456105,
+    "sample_ids": [
+      "SCB-turnhead-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-e75177c4ea5ebe2443ac"
+    ]
+  },
+  {
+    "sha256": "511fb157eb402e5b251a1d024cc4d650be901998c523622a700f94717e80c521",
+    "dhash": 4438119761089714919,
+    "sample_ids": [
+      "SCB-write-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "512670e401e5743f4ec40c3c2d52cb1151427a08043a8f4337a15fe1587da540",
+    "dhash": 869327199507321363,
+    "sample_ids": [
+      "V6-EX-038"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-b6dbf74cad286c5fa5be"
+    ]
+  },
+  {
+    "sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+    "dhash": 7889039546216036170,
+    "sample_ids": [
+      "SCB-read-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-13e190f7784f3cb34c62"
+    ]
+  },
+  {
+    "sha256": "5300bb6d4f7d33180c52aee663d63b10600c3be136fdc1339973f5ecacf3fde3",
+    "dhash": 7877733922052011899,
+    "sample_ids": [
+      "V6R2-EX-005"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-18caa4237925ae9749e3"
+    ]
+  },
+  {
+    "sha256": "5367b683fe2f657b715be79a96afed2c71aa735a268a058ee01b1ee7c198971d",
+    "dhash": 14607310681929313071,
+    "sample_ids": [
+      "V6R2-SB-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-b83573fe6a15141a4405"
+    ]
+  },
+  {
+    "sha256": "54ba2c904d7c7102bcc3880105487787150d14a55807becad5ace1198e9b2328",
+    "dhash": 542404798394304525,
+    "sample_ids": [
+      "EXP-CM-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "55079ae27ae406070a716800b3132a0e30e1f0c44cea31c818afce6cca849c7b",
+    "dhash": 17009122286881661910,
+    "sample_ids": [
+      "V6-SB-037"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-49f4e549698e2671c743"
+    ]
+  },
+  {
+    "sha256": "55242677d709ea7d9d74816a1dd9fbbd47232f5ab303675f6f63796e5330c3c1",
+    "dhash": 15250263389042335756,
+    "sample_ids": [
+      "V6R2-SB-012"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "553d1040df1a9cbc4576e318908ccafef70cd625a7ed1c87164f162341df6f39",
+    "dhash": 7757983227525739875,
+    "sample_ids": [
+      "SCB-write-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "556d917cdb5ddde40b3cca449ac8bbb908c1ce4cf7d64bb04a0bbbc332036838",
+    "dhash": 12841122180732483214,
+    "sample_ids": [
+      "EXP-RF-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e98f93314ac0fa9ccc97"
+    ]
+  },
+  {
+    "sha256": "5643a423a6c6c919860f2c0295ff847abc08eb346972e5e60205a61daecdedf4",
+    "dhash": 542404789804369949,
+    "sample_ids": [
+      "EXP-CM-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "56de44769653c5ba9aea1704fdf0168604d9c77445742ca8c0173f9cce8b3e63",
+    "dhash": 2898226147704092137,
+    "sample_ids": [
+      "V6-SB-047"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-bfee2347d4708b9a0168"
+    ]
+  },
+  {
+    "sha256": "577709394314230ee017b65f8faf4f95fd83ea8792f2d9e80b539906c07778d9",
+    "dhash": 6221260378013585020,
+    "sample_ids": [
+      "V6R2-CA-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "58290bb8362bfbddac47b76a3ed16790c5dcf5d78626f1eabaf4e510c45546a8",
+    "dhash": 542404798394304525,
+    "sample_ids": [
+      "EXP-CM-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "58810346432b77b6e33a902683da5e7dc08a9c4cb385cfb83e93348794e26558",
+    "dhash": 18247384728057596526,
+    "sample_ids": [
+      "V6-SB-015",
+      "V6R2-MP-042",
+      "V6R2-MP-043",
+      "V6R2-MP-044"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "5a5696fe8c3a201b9b9b3736baaaaf7dccc397e77b1146698c6398c79a52675f",
+    "dhash": 4582226221792091363,
+    "sample_ids": [
+      "SCB-write-019"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "5a9e35c7febb9f3f3cac05e057403b3a7e1898bba9f64a1b5585c79f889dac06",
+    "dhash": 1822686444850701958,
+    "sample_ids": [
+      "SCB-read-005"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-b46d3c31897c7157f5a6"
+    ]
+  },
+  {
+    "sha256": "5afe14a6652247df7a6b97ec6c2c779c6412db10bfee7c11141eb46f141c40e7",
+    "dhash": 7909771253902449579,
+    "sample_ids": [
+      "V6-CA-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-97fd87f595bb9d8f70f8"
+    ]
+  },
+  {
+    "sha256": "5b10db8df578f4b34c0eb16cce26b28543501e7bead693e5b314c795fc067e14",
+    "dhash": 3993959916837153058,
+    "sample_ids": [
+      "EXP-RF-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-d841fc4acb3fb5db7c65"
+    ]
+  },
+  {
+    "sha256": "5b1ce39c511504efac87270f2f13ad291e861b976f10ea3460e0480c5f5e4a2c",
+    "dhash": 17506604332565090668,
+    "sample_ids": [
+      "EXP-SCB-036"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-7a0294a68dece9af29c3"
+    ]
+  },
+  {
+    "sha256": "5ba69477c4cba4b87f699e8d6b3892ccce64b3d34b5c68b7c39062fe125103b1",
+    "dhash": 39632515254031881,
+    "sample_ids": [
+      "SCB-write-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "5be91b2bdd2e58b5185e4c187d73506c37accb10cdf50132500484b418fc9972",
+    "dhash": 3565684751528057886,
+    "sample_ids": [
+      "SCB-read-028"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-7adf3e797f0d4d4978d9"
+    ]
+  },
+  {
+    "sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+    "dhash": 15341772563907695763,
+    "sample_ids": [
+      "P028-person-01"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-3369d47e05ce355b3db8"
+    ]
+  },
+  {
+    "sha256": "5c5f2da7cc42427f22077562db595a1b3eb4a03aa32a664f37e9b0310f57d191",
+    "dhash": 14685904073002301727,
+    "sample_ids": [
+      "EXP-SCB-026"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e29e022fa87eca825f36"
+    ]
+  },
+  {
+    "sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+    "dhash": 1371184928318894833,
+    "sample_ids": [
+      "P030-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "5d2a3f42be5ebdb7e600e031c002bf80b4378a0a9b55484fa0a62ec6f86e73d9",
+    "dhash": 5197638223635704040,
+    "sample_ids": [
+      "EXP-SCB-044"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-1106b1aaa1a591d7b247"
+    ]
+  },
+  {
+    "sha256": "5f0da07087fa2e8622d9630969392c4a97ccae2cc2a86d6928bd45710794c22d",
+    "dhash": 11928108077387321138,
+    "sample_ids": [
+      "EXP-SCB-027"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e807a4df97a39d6564fc"
+    ]
+  },
+  {
+    "sha256": "5f2f99365493a61c830959570d4891cacd771193226e47972f3630af6f77c18e",
+    "dhash": 15910273788569609783,
+    "sample_ids": [
+      "V6R2-EX-018"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "5faf20bbe449c428408990958d1d6107d48d6e11ee41d949a809a6530afc8280",
+    "dhash": 10850917595925849830,
+    "sample_ids": [
+      "V6R2-EX-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-cca3a7a410a0fdc771da"
+    ]
+  },
+  {
+    "sha256": "5fb3b21efe5677ad0962e45ce8b8615d0f5391695013d1999e15bb03342cfea0",
+    "dhash": 4556323343963620747,
+    "sample_ids": [
+      "V6-CA-017"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-585279200cbd96085fe2"
+    ]
+  },
+  {
+    "sha256": "6007db3a57044efe6e037b92d98e741609c5e334f67e2a035dd0370f274203bc",
+    "dhash": 3562298350205762590,
+    "sample_ids": [
+      "EXP-SCB-034"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-7adf3e797f0d4d4978d9"
+    ]
+  },
+  {
+    "sha256": "60ec384f7ea44c3284958b44141510ea306d221349a01b4b27a280b08c66ad6b",
+    "dhash": 9730337232614779917,
+    "sample_ids": [
+      "EXP-CM-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "635223fb752f134a8d8198806cd87827f9805b9150db8331677411785ee94da2",
+    "dhash": 8490603383521481637,
+    "sample_ids": [
+      "V6-SB-001",
+      "V6R2-MP-001",
+      "V6R2-MP-002"
+    ],
+    "usages": [
+      "excluded",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "63a87ba01e82a139afab1a5a63ef2b33125702b1e57d8e393e4d0d7cb839e734",
+    "dhash": 13014476707849363948,
+    "sample_ids": [
+      "V6-EX-018"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "63e7f3ae7a2982c1dd2cd29c7dc407c69cc0e41ae8b7c2933afff0103c22559c",
+    "dhash": 4352228666714450297,
+    "sample_ids": [
+      "V6-CA-046"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "640424d634a97573282d27021e1a1a91cb1dc6417ef8842d706a9f65230d2f20",
+    "dhash": 2786090384083019599,
+    "sample_ids": [
+      "V6R2-EX-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-35cc4606f795392a2add"
+    ]
+  },
+  {
+    "sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+    "dhash": 3689536447209636115,
+    "sample_ids": [
+      "P034-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "6470b1bdfe1079fec0ff2c8e7ff24076dd9b7964f65d78e93f767780b4f1cfbc",
+    "dhash": 6598779589564789729,
+    "sample_ids": [
+      "V6-EX-036"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-280f0d753eb4f8d3f2b9"
+    ]
+  },
+  {
+    "sha256": "6527078a230cb750b366638dffef9a42bef1825deba0bb2d9e1200ce3a1c6bf1",
+    "dhash": 5990811358501684814,
+    "sample_ids": [
+      "SCB-write-025"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-950af88cd17908a77c81"
+    ]
+  },
+  {
+    "sha256": "66019b1bda2668b5fccace85f52bb210f8f4dcca013d852d2be4bec5d5bed4f1",
+    "dhash": 6004198402105565377,
+    "sample_ids": [
+      "SCB-read-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "67b7b45fd8776c0186500cb9550b59634cbc154dee8cc614f6e4e35844045eab",
+    "dhash": 6582744823122794342,
+    "sample_ids": [
+      "V6-EX-013"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-3b6f232621d74bdc77aa"
+    ]
+  },
+  {
+    "sha256": "68848e9d14308f8acd854611177480f661b32a72baaa0699d4e5468eb25e66f4",
+    "dhash": 14492080905443849959,
+    "sample_ids": [
+      "EXP-SCB-040"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-0e2a256de9081656126d"
+    ]
+  },
+  {
+    "sha256": "699edcdbfcbc62e6b0d08c613d83ec824afeb13e4bd21a56c512940b9c5b558a",
+    "dhash": 14022664186418565432,
+    "sample_ids": [
+      "V6-CA-042"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "69ea80e2de46d00d37e66de1b094fe7bbf355d0d4aa526e98f9b41a1adbd2959",
+    "dhash": 1397634779500897133,
+    "sample_ids": [
+      "V6-EX-024"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "6a06d4e30f27d617185ea1464e490aec54fbd45df3c10b7af031a509a4368abf",
+    "dhash": 4882395542446978135,
+    "sample_ids": [
+      "V6-CA-043"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "6a2bb6029a4c2fccad6f357e6c21c465a3899ccecb4c408739bb31e90805c5de",
+    "dhash": 16818150245038425351,
+    "sample_ids": [
+      "V6-CA-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-32733c18573c06896ad0"
+    ]
+  },
+  {
+    "sha256": "6c7efb4d4b99adea16795a633532dc8e23741e6dc887df1aeb19da43567adf91",
+    "dhash": 4510177356165734119,
+    "sample_ids": [
+      "EXP-SCB-020"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "6cfd8574ee918001372922309c431f546310b16618ee2b58854944b8fce7572f",
+    "dhash": 2821336802953974780,
+    "sample_ids": [
+      "SCB-turnhead-017"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "6d93b197507ef09ad539665fa0e407deac7d36dd0f7200d9568f0625e268c9a7",
+    "dhash": 5606291715149175464,
+    "sample_ids": [
+      "V6R2-EX-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7a07237f8236e59075c9"
+    ]
+  },
+  {
+    "sha256": "6e16798f04afef1a9ab0d0070e0978da24d68d0e1c044d7acf5fce8d21dd516a",
+    "dhash": 9439862716547753750,
+    "sample_ids": [
+      "V6-CA-048"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-852523332c83ccb3cbd0"
+    ]
+  },
+  {
+    "sha256": "6e218c14c8662095cc43f1f42b7c590fad07f0b01d6666711b3f338bc033ce9a",
+    "dhash": 7704189114843764777,
+    "sample_ids": [
+      "V6-EX-035"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "6e540e7450b262b8699f6f5fc6654e84dd58962aa375d357d2cf594f46997954",
+    "dhash": 4582226222830116583,
+    "sample_ids": [
+      "SCB-write-022"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "6e6010ac3c9ba97539d90c3f8c400beb62ebffddb3289535ba140bdce06f144b",
+    "dhash": 4882784155015978041,
+    "sample_ids": [
+      "SCB-read-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-80d9db7b71f788e893a0"
+    ]
+  },
+  {
+    "sha256": "6edbfaf2764a43e397851bec3e567ae8cdbbc356a5891d3b7d0c3c723b6618b6",
+    "dhash": 7377116173625835728,
+    "sample_ids": [
+      "V6R2-SB-007"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "7074dd694f5df8d3862310d407e5ce48efa91ad970925c775c4a6f02e206408e",
+    "dhash": 7605791529494985428,
+    "sample_ids": [
+      "V6-SB-048"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e232aa8959d2392c831a"
+    ]
+  },
+  {
+    "sha256": "7335a508a26d4f95cd4864ff1d88c79394f92bbd63323b9dbde6b39b415966f2",
+    "dhash": 2688019859927102419,
+    "sample_ids": [
+      "EXP-SCB-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-53e230031dbf88c8f8ec"
+    ]
+  },
+  {
+    "sha256": "745080f3ca9266025837b212c1172eeaa1a4901ec4cd465b47975e29be107553",
+    "dhash": 8769806777315071269,
+    "sample_ids": [
+      "V6-SB-011",
+      "V6R2-MP-030",
+      "V6R2-MP-031",
+      "V6R2-MP-032"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "74c42a436d5e82ee2b8bd855e86cfbf2cec98f945a9d8868010aadf4c2ef7d4d",
+    "dhash": 5615609043648723642,
+    "sample_ids": [
+      "EXP-RF-022"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-c981c2b5f76f0c0369a1"
+    ]
+  },
+  {
+    "sha256": "751986b82c3fb674f319bfc6d765769d8aaee619ed00fe915f2103f934e48f4c",
+    "dhash": 10776495752127434254,
+    "sample_ids": [
+      "V6-EX-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-a626bf97afea98e2d74a"
+    ]
+  },
+  {
+    "sha256": "755b3e3fc59dc41d33fc1d111fe67fc176866fc9bca174f14fc0d2b4e6d9effe",
+    "dhash": 6366104775593881680,
+    "sample_ids": [
+      "V6R2-EX-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "7579a026c00039bb6052d43fa4cfb936ae64d1599e51a6cbbebf30c815707472",
+    "dhash": 10156932880910956214,
+    "sample_ids": [
+      "V6-EX-033"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "757e671d748bc419ecbeaa734cd5061bf96d54a16d6203d8689c7fe4a276657b",
+    "dhash": 12926236446369806962,
+    "sample_ids": [
+      "V6-EX-027"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+    "dhash": 4861524941120615223,
+    "sample_ids": [
+      "SCB-read-027"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-dca2707060694e8e8350"
+    ]
+  },
+  {
+    "sha256": "75a98ae4b3eaf81caa049a9cafd8c9d694277003b8fdb504c289d1c5fdffdc99",
+    "dhash": 6700982028494870988,
+    "sample_ids": [
+      "SCB-turnhead-026"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-cab424fc3d3653b9b3a4"
+    ]
+  },
+  {
+    "sha256": "76307e998ab350f2542626dac214b40e5698857d7b1db11a0b6a29f0f96c7479",
+    "dhash": 7893888363948095180,
+    "sample_ids": [
+      "SCB-write-018"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-dca2707060694e8e8350"
+    ]
+  },
+  {
+    "sha256": "76ddedf7118e34c33337135e1de5638983868f27ba0a83f295a6dd8e75627a31",
+    "dhash": 16018258708851157022,
+    "sample_ids": [
+      "V6-CA-020"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-4160be4b4b9ec5234a1f"
+    ]
+  },
+  {
+    "sha256": "77f6943a487bc964bb4d27b0a7f6be9198d643b5ed6272d8f0b2c7fb2116652d",
+    "dhash": 17465211026141406673,
+    "sample_ids": [
+      "V6-CA-040"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "782d4ac4a2e50d392ccddb16f58fc2a5201b49b20a65c23db4c2bfe29ad671a1",
+    "dhash": 7883383367080294197,
+    "sample_ids": [
+      "EXP-SCB-023"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-1ebdbbcaa0ac4ad20b1d"
+    ]
+  },
+  {
+    "sha256": "78718d8df09d4bf7c338438e8e021001ce98929bb6ee016ce462acb18a7fdbc7",
+    "dhash": 13816372532326623946,
+    "sample_ids": [
+      "V6-SB-028",
+      "V6R2-MP-079",
+      "V6R2-MP-080",
+      "V6R2-MP-081"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "7878e925d8690a01ded355c93252116cd4685cfddc0357f3c64d1ef6e8b58271",
+    "dhash": 11384471885828208038,
+    "sample_ids": [
+      "V6-SB-018",
+      "V6R2-MP-051",
+      "V6R2-MP-052",
+      "V6R2-MP-053"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "7a19cf7ccdc489796d8844a661f5bcc4483d0d74dd05022467e48ebd89c7680b",
+    "dhash": 14389324328198746609,
+    "sample_ids": [
+      "SCB-write-020"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-d4148f8feed0711bb6c6"
+    ]
+  },
+  {
+    "sha256": "7a841f22710ff3fb5a32b027647608ca3d3cb26d3b850bf45b9de29fd66ec1a2",
+    "dhash": 2821411568336157895,
+    "sample_ids": [
+      "SCB-read-002"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "7b45ec6cbf500b9662c5dc00ce5210afbad066698f60526749665a9d26d7da7b",
+    "dhash": 11374210649380645942,
+    "sample_ids": [
+      "V6R2-SB-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6b504962f650ee221bd0"
+    ]
+  },
+  {
+    "sha256": "7ba28dee53a35f2092140eff61792c01561fb61d393df55e5c45f0ee660f5c8f",
+    "dhash": 2821411379088710351,
+    "sample_ids": [
+      "SCB-read-024"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "7bb7309a1542a2fe36e47e00faf18ec32f9bad5f0a0851f8b48cdf601e4e4796",
+    "dhash": 14522673277863310215,
+    "sample_ids": [
+      "V6R2-CA-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-9621b8f466a8d5702f35"
+    ]
+  },
+  {
+    "sha256": "7bbee4908621dd9ec9c1dcc6bef046c0bad37fc5e42fe8fe0db648d21bc99a9b",
+    "dhash": 6515060104803716360,
+    "sample_ids": [
+      "V6R2-CA-005"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-e2799a9743b195ae78e7"
+    ]
+  },
+  {
+    "sha256": "7cac75817d6cd849df0537c81b5fe6dc06a507808b16093e72bd79997e553f02",
+    "dhash": 6217603368179355260,
+    "sample_ids": [
+      "V6-CA-027"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "7cb1cc9f09f78c727e21bf32b573a1d881a9b3237d27408f00ad2c4700c71628",
+    "dhash": 7377116139266097360,
+    "sample_ids": [
+      "V6-SB-008",
+      "V6R2-MP-021",
+      "V6R2-MP-022",
+      "V6R2-MP-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "7d5f913097321ff6fd03c358f8a881b823977312dd2acb61732c5a17b40d77b4",
+    "dhash": 691322516090966028,
+    "sample_ids": [
+      "EXP-CM-019"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "7db537835d094a6d46860b55ef7ca4ee51b450a15133219ed84cb3a9673d7357",
+    "dhash": 11278943965280148518,
+    "sample_ids": [
+      "SCB-turnhead-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "7f3f35363753ed9bdaa534132ac00db129a897e2e997c1e566de26f2f9b66d48",
+    "dhash": 7757983227524691299,
+    "sample_ids": [
+      "SCB-write-027"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "7fc9fcf1de1572bf3e034ecdd5267e2905fcb7953b02cff51f0b40f7855b8a88",
+    "dhash": 8679302206457291941,
+    "sample_ids": [
+      "SCB-turnhead-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-b3e360cd83d1dfacd186"
+    ]
+  },
+  {
+    "sha256": "7ffb70255dd5a6c6cc0bde5c9a204c1217cb2c6246ea2e03ee4059eae38c8203",
+    "dhash": 18301940170287345004,
+    "sample_ids": [
+      "V6-SB-029",
+      "V6R2-MP-082",
+      "V6R2-MP-083",
+      "V6R2-MP-084"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "80615d5f0622f914cc86d5bcf4a9566bd19a6e237d3d2c1afa0b8b09ad9f41da",
+    "dhash": 11351000597556829198,
+    "sample_ids": [
+      "SCB-turnhead-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "80e3ba693635809b6067ab4d899233a4a1d50e7d284a3b7d3d527e56ad6288d7",
+    "dhash": 13816372532326623951,
+    "sample_ids": [
+      "V6R2-SB-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "8157df6c3f8d350374d969ef95d799b9cfc18ac8c85e486e86fe11dfda767c2c",
+    "dhash": 1701402831192568940,
+    "sample_ids": [
+      "SCB-turnhead-005"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-e75177c4ea5ebe2443ac"
+    ]
+  },
+  {
+    "sha256": "815c2056a14002db78635d80cf9b6d040c228c9edd1242f6ec3c4593e2653f70",
+    "dhash": 15511783441357063003,
+    "sample_ids": [
+      "EXP-RF-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-29f905f08f7b6e07c3b4"
+    ]
+  },
+  {
+    "sha256": "81f56f10181cca0be94d9b811a0125a3bd00978a30a099ba862e1a4da0c74e5f",
+    "dhash": 5072783833265764710,
+    "sample_ids": [
+      "V6-CA-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7a07237f8236e59075c9"
+    ]
+  },
+  {
+    "sha256": "81fa1e38f79e50537007488b682729159d469ce3d156c314aeba47fe2a92f0a3",
+    "dhash": 8303012853294991166,
+    "sample_ids": [
+      "V6-EX-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "830bfaa7c820fc856903502595968394c9cf3e805d7cc5192d5e66ce584553ed",
+    "dhash": 6889200541878784948,
+    "sample_ids": [
+      "SCB-write-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f9e52e249f517c212bf6"
+    ]
+  },
+  {
+    "sha256": "836301e8dd1b6fda6772fd5d75cc57ac2049c511ff4f8415ba2860beddee7063",
+    "dhash": 9267184480912855248,
+    "sample_ids": [
+      "V6-CA-005"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-048579a1628734253f8f"
+    ]
+  },
+  {
+    "sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+    "dhash": 8769791375560382757,
+    "sample_ids": [
+      "V6R2-SB-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "84346ffc7325c75bfb932b11c9a301515767abdb10a0c55cf562213f4b4ebad4",
+    "dhash": 976485836497193164,
+    "sample_ids": [
+      "V6R2-EX-014"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-eb710e2c7810fdeb404a"
+    ]
+  },
+  {
+    "sha256": "84ea92f16fc1dc83cbb11c4bf07c9bdba755a7eb80761636c1e6d12a32339fe7",
+    "dhash": 18224992731666392772,
+    "sample_ids": [
+      "V6-EX-025"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-ce18fc6d0661260b0f61"
+    ]
+  },
+  {
+    "sha256": "85a3f86d8a80337c23ea1db0426b40bb37b1d02740c46503850d074259dedca9",
+    "dhash": 8746486227822392308,
+    "sample_ids": [
+      "V6-CA-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-26bbcec10e0c3134802d"
+    ]
+  },
+  {
+    "sha256": "86f478f4e521d48f4011e34950c5ebcfc7412b93ddc1baaea575a6c1cb901ae4",
+    "dhash": 8753142579681643492,
+    "sample_ids": [
+      "SCB-write-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "8749df295ef88fec1440a708cdcd468865e5025e06e7dbb2b073e17ebaa5a90d",
+    "dhash": 7755445554687800675,
+    "sample_ids": [
+      "SCB-turnhead-020"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "879147c43c2690c55d3d2ca47ee86a9138e3169905e873da38eb75640817e668",
+    "dhash": 6643432653055256931,
+    "sample_ids": [
+      "V6-CA-039"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "87a7f8f97d4168a006ca6d9ad8902f9477419792dca6a94a21016741b3fad043",
+    "dhash": 14242610504688720381,
+    "sample_ids": [
+      "P009-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-bbe4f1fb269574a0e667"
+    ]
+  },
+  {
+    "sha256": "882c731b0cc5619c3e5014bac05ea8865108810e5df4847ffe270f264802a0bd",
+    "dhash": 11352759004113846796,
+    "sample_ids": [
+      "EXP-CM-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "8870fcbf67061a5bf756fa21cf423c9825f5efb056033c37f7533e516067f8ff",
+    "dhash": 11359989585847196686,
+    "sample_ids": [
+      "SCB-read-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "889040ce12864e4f7ea7ae149c43f4012ed734eaede1b50767a52448b2945ca4",
+    "dhash": 7526475318616136905,
+    "sample_ids": [
+      "V6-CA-041"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "88b0bf8f37639a35649b9c67177bb51233b2b136509a315162e445188dac4786",
+    "dhash": 1950394340499376923,
+    "sample_ids": [
+      "EXP-CM-024"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "894851d1bb5a62a6fea1459b0ea256294ce8bcef0a50fd351cb64ea8844ca09b",
+    "dhash": 9736710042484976056,
+    "sample_ids": [
+      "V6-EX-015"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "8b00e9489d45b4e93c318bcd4dce549c6a89309d1ff0c860e13c49a5f62fd390",
+    "dhash": 4518116793598106999,
+    "sample_ids": [
+      "SCB-read-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f368231f74c5b7306225"
+    ]
+  },
+  {
+    "sha256": "8d0b7d97f13bd12a9b9073fb5c13307025b6d577633ed6bb715a03adde636790",
+    "dhash": 13762612962999770051,
+    "sample_ids": [
+      "EXP-SCB-047"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e13308e589dc94198218"
+    ]
+  },
+  {
+    "sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+    "dhash": 7889037338602846058,
+    "sample_ids": [
+      "SCB-read-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-13e190f7784f3cb34c62"
+    ]
+  },
+  {
+    "sha256": "8ec1ffa34af9762e74b8cfa949984e04b04056077f417d949f2dcf1dc220784d",
+    "dhash": 4438119762129902311,
+    "sample_ids": [
+      "SCB-write-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "8f6e841975ae0584691bd640ce83fbda12916f7136737a163ebfdbce6daff6cd",
+    "dhash": 1989390075358400156,
+    "sample_ids": [
+      "V6-SB-003",
+      "V6R2-MP-006",
+      "V6R2-MP-007",
+      "V6R2-MP-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "90118c0df162635ce9b5f30cd941f3450b20469816f0b0c7ddb50605adc91b1c",
+    "dhash": 18084758846242282673,
+    "sample_ids": [
+      "P019-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-31880bcf33cbe15ad4fe"
+    ]
+  },
+  {
+    "sha256": "902cb31c6efe9a9f314e477d823caf84851659cf04ec62b479cf241a53407682",
+    "dhash": 9764790291663315562,
+    "sample_ids": [
+      "V6-CA-022"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "913fa33e583ee6aa86dfa7d66af75d39f74552209078fcb8f402ade9f9c2d75d",
+    "dhash": 3853456452931455599,
+    "sample_ids": [
+      "V6-SB-016",
+      "V6R2-MP-045",
+      "V6R2-MP-046",
+      "V6R2-MP-047"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+    "dhash": 17688514509021561422,
+    "sample_ids": [
+      "V6-SB-005",
+      "V6R2-MP-012",
+      "V6R2-MP-013",
+      "V6R2-MP-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "9236bb49c59ff0fe684028606eef016cc15cf1fdbd2a9497955da81ddcf2f155",
+    "dhash": 7760955911317523470,
+    "sample_ids": [
+      "EXP-RF-005"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-29f905f08f7b6e07c3b4"
+    ]
+  },
+  {
+    "sha256": "927e4d48635676cfba6b94343fe6fe9cb43562dce61376a37e5958f16efa7880",
+    "dhash": 735270039706116864,
+    "sample_ids": [
+      "EXP-SCB-048"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "9338e7a362450bc052dc7d1043e2b066fb0ae21afc7538ed1d86d2f6d5606e9e",
+    "dhash": 7757908495062283619,
+    "sample_ids": [
+      "SCB-turnhead-019"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "9359aeff05a4e3f17adcae7aa52ddbd43efdda5d000f8166a366cf2e6460cefc",
+    "dhash": 10182372369827584934,
+    "sample_ids": [
+      "EXP-SCB-041"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-17eb4ed27515c6f94c45"
+    ]
+  },
+  {
+    "sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+    "dhash": 8778796101119335241,
+    "sample_ids": [
+      "V6-SB-012",
+      "V6R2-MP-033",
+      "V6R2-MP-034",
+      "V6R2-MP-035"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "9469b3655f2fada0c23d93474c50047f94ae98f22adc05d7985d200fe80ebdb3",
+    "dhash": 12441819752714078872,
+    "sample_ids": [
+      "V6-EX-006"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-d6c47f5be39769fe5742"
+    ]
+  },
+  {
+    "sha256": "946b6fc6580cfbb075110e1e044b556e45e5c5cd616fd5a3968c5cf9c48ab0ea",
+    "dhash": 2825915764753519764,
+    "sample_ids": [
+      "V6-EX-028"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "94760f0fa11f2b42ccdc82d0d09f68948cb0021da03f6d82dcba757efedb53d3",
+    "dhash": 4582234974899724007,
+    "sample_ids": [
+      "SCB-write-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "95396911a3298e30f125471d57b8be02ea50a903d9e66ce43e2568842187a588",
+    "dhash": 18157383390609103289,
+    "sample_ids": [
+      "V6R2-EX-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-31880bcf33cbe15ad4fe"
+    ]
+  },
+  {
+    "sha256": "972a8281f1ed530635df458afcfa55a953f53b9c865a4141938c30676c1d6ade",
+    "dhash": 4438119761087618791,
+    "sample_ids": [
+      "SCB-write-016"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "9764c7ef12a1a8e14d9896b3910d8bf8bf9d37324faf60025798e80ac36c4b7c",
+    "dhash": 2884609094653612272,
+    "sample_ids": [
+      "EXP-RF-018"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-de7d068db9efeeb3eb01"
+    ]
+  },
+  {
+    "sha256": "9838667ffbfa121624e85025953441478693ff961d651afed7a86975552a6cb3",
+    "dhash": 2536599480720539955,
+    "sample_ids": [
+      "P035-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "99b334eadc0fc2bbb16825f68ec9448111f6085f1e5a595877608dfa1b15af6f",
+    "dhash": 6218711680211897980,
+    "sample_ids": [
+      "V6-CA-008"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "99b36a5a8873cea4d8aad1df64a7e0922d6dfd54f51dceb8f3063cd4d8e41459",
+    "dhash": 16018258708851154974,
+    "sample_ids": [
+      "EXP-RF-002"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-a30a5bc0526bafebf8bd"
+    ]
+  },
+  {
+    "sha256": "9ce5f047cee3814e0813dd797745216a1be42a7d843bf7d524a9e78e6d968f0b",
+    "dhash": 4941172680402024247,
+    "sample_ids": [
+      "V6-EX-010"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "9de6b203aeacd242e5fc511896a4611ce1fd6675148712c52a3c973592dd0647",
+    "dhash": 13165312149357171247,
+    "sample_ids": [
+      "V6-CA-006"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "9e1e103eb347178926ea919b93cfc5711834ed7851c152694d7d3654ae05004a",
+    "dhash": 14467825404898679193,
+    "sample_ids": [
+      "SCB-turnhead-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-1084191cb269805efe36"
+    ]
+  },
+  {
+    "sha256": "9e5a7acee4adf0fa01d0984f9a4775dc0e88276af043a69c0fab3e19f6a4431c",
+    "dhash": 3734439929734145166,
+    "sample_ids": [
+      "EXP-SCB-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-8de36901ee691b29b9e7"
+    ]
+  },
+  {
+    "sha256": "9eb7f336faf662c534516c03f8a7e88fb4460a76c613b1ca71881843dbd84ce1",
+    "dhash": 1303814827997374904,
+    "sample_ids": [
+      "V6-CA-024"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-3ee49c58a5fd7a91e4c8"
+    ]
+  },
+  {
+    "sha256": "a24c617f86f7526844486a38650ca2e98023dd14b1b1f05565ba61fcfb05027d",
+    "dhash": 11274815426334802540,
+    "sample_ids": [
+      "V6R2-CA-007"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "a295486d648f38056ee7162caf9032f63785d78e3929548c344ac776cae4eed5",
+    "dhash": 15511783441357063003,
+    "sample_ids": [
+      "V6-EX-046"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-29f905f08f7b6e07c3b4"
+    ]
+  },
+  {
+    "sha256": "a2beee06cdfdebf2c847a679642736b28d73d8078b5a24918887c0972a1598b3",
+    "dhash": 2478787618347260361,
+    "sample_ids": [
+      "V6R2-SB-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-3f2ccbc689f86656f4c3"
+    ]
+  },
+  {
+    "sha256": "a2c6877c9fc4bbd22054a11412f512902712b02c92ac90f74eed3399dc192a54",
+    "dhash": 11867236571896095811,
+    "sample_ids": [
+      "V6R2-CA-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-12b322818c99f47dc073"
+    ]
+  },
+  {
+    "sha256": "a3089464c5e554ac5c69f2664aa3c374917842aaa6ea5a2723d5649d057e9315",
+    "dhash": 506375726900220556,
+    "sample_ids": [
+      "EXP-CM-020"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "a49cf19af4d5fdb7a24dc8e02eb303ed36bec5e1f19826023b017ecde33952c7",
+    "dhash": 7078174963784643607,
+    "sample_ids": [
+      "EXP-SCB-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2ea4283ddb2be0587afc"
+    ]
+  },
+  {
+    "sha256": "a51ef3866174fc6e9d4c27f219db469a4e8ee76d940be3e170b559e20d2eba0d",
+    "dhash": 6807306602467137894,
+    "sample_ids": [
+      "V6-CA-037"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-4fdb254b283cdf74438d"
+    ]
+  },
+  {
+    "sha256": "a53c15438445525ecae1761c51d8db4b0de14f65f9bc9035348791c104c4221e",
+    "dhash": 541278754641710093,
+    "sample_ids": [
+      "EXP-CM-005"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "a57fc85643f8a2a9455f5738ac0e1dc2af6a4c62e956143d73b6584790c3b43b",
+    "dhash": 7308741148535839324,
+    "sample_ids": [
+      "V6-EX-032"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "a6157ea16c02775837857732064618cd3a5d0779ad67045916d3b1af7f913c02",
+    "dhash": 1373981766785370228,
+    "sample_ids": [
+      "EXP-SCB-042"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-71ce6614cfc77136893b"
+    ]
+  },
+  {
+    "sha256": "a6bd635b18ee937855a97ea1a18f8a667b0978d597a986245316267b2deab011",
+    "dhash": 5999781034678886448,
+    "sample_ids": [
+      "V6-CA-034"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-089e4bd44bef3c9e5b0f"
+    ]
+  },
+  {
+    "sha256": "a7b35f7407dddeb722598eb8605f78aef0fbe55a990bcba1811f0804e3e1f40f",
+    "dhash": 2838998505629796747,
+    "sample_ids": [
+      "EXP-SCB-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "a7e84b14894ac3d6ffccffa819bb3898c28f2e5a7d4b056af203859b655242e3",
+    "dhash": 6222386243558858364,
+    "sample_ids": [
+      "EXP-RF-014"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "aa041b06dc41464590d6ccd4f9da1506f88446461fc193a073fbf0d9d3fb4df2",
+    "dhash": 9060570437788177829,
+    "sample_ids": [
+      "V6-SB-031",
+      "V6R2-MP-088",
+      "V6R2-MP-089",
+      "V6R2-MP-090"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "aa2088cb3f3cadaaed603360667532f3856fab42a12c4e3f1d8c09aa3ae1f9fa",
+    "dhash": 808171194567193561,
+    "sample_ids": [
+      "EXP-RF-019"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "aa4916db2d0a1219a57a8e9c08cb84f18c0f6e01bdfb55e738850d17bdd1b9df",
+    "dhash": 3401860154119770983,
+    "sample_ids": [
+      "V6-SB-038"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-c014aa661e5160c4d282"
+    ]
+  },
+  {
+    "sha256": "aa9bc723f350d6ca177180eb31ba4c8ad20f28f8da147b5de600f21af4706e64",
+    "dhash": 4060149883913446985,
+    "sample_ids": [
+      "EXP-RF-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-6a5a020c968be6450a39"
+    ]
+  },
+  {
+    "sha256": "aae65fcdc0ab89fff011c09267c949d874f05266efffbf28ebb8b60d62db0db0",
+    "dhash": 8782520456140933092,
+    "sample_ids": [
+      "V6-SB-043"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-45a9bd904fa4f1649af6"
+    ]
+  },
+  {
+    "sha256": "aafd5ff8f8f7f83f05b0cb9cd2fdccd1fd77200d0f92f3c070b5edfce8028f66",
+    "dhash": 15896841217395788327,
+    "sample_ids": [
+      "EXP-SCB-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-cb14a0a0b8f000817730"
+    ]
+  },
+  {
+    "sha256": "ab4a3002a89fafe85c063e351339c0ed6cc7465a8118e82dac03da0394b536dd",
+    "dhash": 7198057103862973668,
+    "sample_ids": [
+      "SCB-write-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-66da3ab14fede8835db8"
+    ]
+  },
+  {
+    "sha256": "ac62ecf5da0d23b89838b700269ca5b2cf3781caece39331a8fbd00fdfe172cb",
+    "dhash": 542404798159694861,
+    "sample_ids": [
+      "EXP-CM-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "ad12fee6ba4a64edc032139ffacf6e6c907efa8c0f4b97cbd0301d37d5a624fd",
+    "dhash": 3705175419568632793,
+    "sample_ids": [
+      "P031-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "ad456695464b7908a5d2d9220d0997f8a0054b771fb17ce456c629cf06948fa9",
+    "dhash": 15372308804543276690,
+    "sample_ids": [
+      "EXP-SCB-008"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-19583482f2314684ec46"
+    ]
+  },
+  {
+    "sha256": "ada542729d4d183ab0e6b3ee05fbc347834fc224ee010dbdbce90ffec417bdf6",
+    "dhash": 6761262942534888745,
+    "sample_ids": [
+      "P008-extra-01",
+      "P008-person-01"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "af151f1180d525f3cd3fb11c31dc9107c7e21de9d7d59e099176fe5387a43747",
+    "dhash": 8585877592362198712,
+    "sample_ids": [
+      "V6-SB-042"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-dc8ce55db2c6a502d1e2"
+    ]
+  },
+  {
+    "sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+    "dhash": 8535821948038335192,
+    "sample_ids": [
+      "SCB-write-005"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-13e190f7784f3cb34c62"
+    ]
+  },
+  {
+    "sha256": "b01745eb5f6b8c16ceb748fe606298dfc2fe766d1da18a135ac4d3404e0007bb",
+    "dhash": 15914826437048835034,
+    "sample_ids": [
+      "V6-CA-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-48596d8567f532b0e83e"
+    ]
+  },
+  {
+    "sha256": "b0a91ffd3b3537c3659fdfaad72fdac57fb59e9a6589f13cc0ac1f66615bad74",
+    "dhash": 7337650876278859611,
+    "sample_ids": [
+      "V6-SB-020",
+      "V6R2-MP-057",
+      "V6R2-MP-058",
+      "V6R2-MP-059"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "b15d761aa697a271bec38a1d1fc3391d1b8bb98b912f7e0e79268d56a47be718",
+    "dhash": 14296792918817073174,
+    "sample_ids": [
+      "V6R2-EX-003"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-51dd391c72d2439600e9"
+    ]
+  },
+  {
+    "sha256": "b19c783274d9bfbbd52835afeb5d5cb1e4672e7baea658f8b754c95f7f6f076d",
+    "dhash": 7453196467664876877,
+    "sample_ids": [
+      "V6-EX-030"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "b2587fd11ddf61cd79b4735818525d63e652efd9a3ff91df96d1af51dd78e76e",
+    "dhash": 3491597727576992044,
+    "sample_ids": [
+      "SCB-turnhead-028"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7f8137444d3c846d0587"
+    ]
+  },
+  {
+    "sha256": "b3a18fdb30c23571b49ef2c7beb3d4b43430cb5dd9e90ba8b919a6b2ad14d2a9",
+    "dhash": 8621905964449580497,
+    "sample_ids": [
+      "EXP-SCB-022"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-3285da7dca58343780a6"
+    ]
+  },
+  {
+    "sha256": "b4166f85a45f630cc23d1c1a824261845c2722596b0bfd0a2b8a071213799255",
+    "dhash": 10730359361820184283,
+    "sample_ids": [
+      "P023-person-01"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-3369d47e05ce355b3db8"
+    ]
+  },
+  {
+    "sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+    "dhash": 2231171841537980725,
+    "sample_ids": [
+      "EXP-RF-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-ab81c5e693b75070c967"
+    ]
+  },
+  {
+    "sha256": "b50b98ca83e52f537eaa59c2e0018c6fb13c81da2d689a5197aab78e1b756cca",
+    "dhash": 14458012282022800681,
+    "sample_ids": [
+      "V6-SB-040"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-cfcc8e4c59a1eff1e7c2"
+    ]
+  },
+  {
+    "sha256": "b56a4fb0944a120d4479a3050fcb00acfcdff68927aaec294972dfd1032b2db8",
+    "dhash": 14386023577649164785,
+    "sample_ids": [
+      "SCB-write-002"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-d4148f8feed0711bb6c6"
+    ]
+  },
+  {
+    "sha256": "b5a5eb870ae72a2c5313f3b12fecbe98b5b0a323f16580415158d0d2fdc97f26",
+    "dhash": 10979285759404027173,
+    "sample_ids": [
+      "SCB-turnhead-025"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-1aeb8d9192e7799c52a3"
+    ]
+  },
+  {
+    "sha256": "b5cf1651c6c94ae977386630ec73c72e44c7016020630bd17ae63ab815dbda35",
+    "dhash": 10708672266643001435,
+    "sample_ids": [
+      "EXP-SCB-039"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-7b9512f7337f1e1efc6f"
+    ]
+  },
+  {
+    "sha256": "b61ae45e2f72d79cb274035fb5996c3005e09c450cc6574a555e118f7a913334",
+    "dhash": 2781423129864149467,
+    "sample_ids": [
+      "V6R2-CA-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-03d36877e9eb99db8eb3"
+    ]
+  },
+  {
+    "sha256": "b631182b24d24040650a1e57b8e3b5805ff55455b893df695fed2a57d68f6a58",
+    "dhash": 7539361528200801195,
+    "sample_ids": [
+      "V6-EX-047"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "b809e813d352f5323d3621ec5ef25b8a5b6dc6064d9d05f8e6ed0152efbd4f0f",
+    "dhash": 13829116346334198043,
+    "sample_ids": [
+      "SCB-turnhead-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-666a2ea0ed4f708dbff2"
+    ]
+  },
+  {
+    "sha256": "ba61289e15520a48350554327c6fa40686afb4a2487803e3823c8368afae3280",
+    "dhash": 13108230158144665155,
+    "sample_ids": [
+      "V6R2-CA-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5cc4e573a70d23f714ef"
+    ]
+  },
+  {
+    "sha256": "ba988178bd226087c7f2a65c1c29d87c3d3acb49944658e42f5457d1a27e8493",
+    "dhash": 8490603520960435109,
+    "sample_ids": [
+      "V6R2-SB-005"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "bc2297f59e03f8eb1cb409908204638cb09246edb81c163e52844957f3226387",
+    "dhash": 14109149350210089016,
+    "sample_ids": [
+      "V6-CA-011"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-d794b01ba44dcc0f1f68"
+    ]
+  },
+  {
+    "sha256": "bd33b77fdb9ff051f677e7e2d74774e445220170791bb2c85618c65c2380acae",
+    "dhash": 7757930485326312803,
+    "sample_ids": [
+      "SCB-read-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "bd9348b823b45fcb082fd9e9406e68f69443715ccc4edeef32c29a76fd775d6f",
+    "dhash": 6567236720236709454,
+    "sample_ids": [
+      "EXP-SCB-025"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-7adf3e797f0d4d4978d9"
+    ]
+  },
+  {
+    "sha256": "bdd1ca5974cd4d3ac2783bf694984dcbc0534cf80c5a680acc52af544fce027e",
+    "dhash": 16234795602325335429,
+    "sample_ids": [
+      "EXP-RF-020"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-7fb1eec8f71c377ef99c"
+    ]
+  },
+  {
+    "sha256": "c094f0e2a890de8497447138a042f48cf700a247464c7d9f08d29e4209b92b72",
+    "dhash": 5072854202009942374,
+    "sample_ids": [
+      "V6-EX-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-7a07237f8236e59075c9"
+    ]
+  },
+  {
+    "sha256": "c14c1a2b10eff64f3c10d3419bb71772119a1f4e58046dc61ef3869b86cdd565",
+    "dhash": 2821336315946006236,
+    "sample_ids": [
+      "SCB-turnhead-022"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "c15557e65be811f420a45281a6dbc0b2a7c4fc5e789b660d84477f10a80119af",
+    "dhash": 13690315994557691300,
+    "sample_ids": [
+      "V6-SB-009",
+      "V6R2-MP-024",
+      "V6R2-MP-025",
+      "V6R2-MP-026"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "c197c8dfe78c69d0236a671772ada079f3c125a50d529e4c950e84b147d03486",
+    "dhash": 3178084237837528796,
+    "sample_ids": [
+      "V6R2-CA-014"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "c1b487ea3964a7630001e6933d94fef15b19cc400b85b9a7cd2e641ca9914000",
+    "dhash": 16276513468086891208,
+    "sample_ids": [
+      "EXP-RF-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-9134fdad8c79128592a1"
+    ]
+  },
+  {
+    "sha256": "c1e8335486a8db0a574afeda8be2719cf17a618faddc8b51f9d8bb95d7ad9d59",
+    "dhash": 11351001628576521262,
+    "sample_ids": [
+      "EXP-SCB-033"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "c2eda5ff5ba2c5e5b0062f57e84dc16534162b463d22401265849f16ea09d921",
+    "dhash": 1392583582682473387,
+    "sample_ids": [
+      "SCB-turnhead-015"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-4d3d093ce19675dd3c50"
+    ]
+  },
+  {
+    "sha256": "c31aabfad559a3c877c532aa07bd5e0048c6acd1577672a9eaeea28203d68d6e",
+    "dhash": 1664954290248983882,
+    "sample_ids": [
+      "SCB-turnhead-023"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-42a5ccb7948a42c2cb4b"
+    ]
+  },
+  {
+    "sha256": "c36dd34404de9104e21042107c2b794e09bda3320d6f57bc9d5c54028ade622f",
+    "dhash": 7877733922049916795,
+    "sample_ids": [
+      "V6-EX-009"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-18caa4237925ae9749e3"
+    ]
+  },
+  {
+    "sha256": "c50b40282bae5ee03892f5da5a678674a6b2236151ae875b03143ae9f3c3112e",
+    "dhash": 2695925080120436711,
+    "sample_ids": [
+      "V6-EX-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-d1e886e94302585b15ba"
+    ]
+  },
+  {
+    "sha256": "c53653d828ee39fa6d4307d2baa24d755eac4274944b7175a711f153c6c1135d",
+    "dhash": 4597549213929617303,
+    "sample_ids": [
+      "P043-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5edb6cd8551e0a5628f8"
+    ]
+  },
+  {
+    "sha256": "c5f65ff868c7a05ea760f03920ff750c0751f51433cdb51bcc552024b9175c8c",
+    "dhash": 4356732335055993129,
+    "sample_ids": [
+      "V6R2-CA-017"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "c6b3304e95e3a9683fc0d5f8af97b8c2ce08eef99cfef7570c0244a0705be80e",
+    "dhash": 2821499237074075591,
+    "sample_ids": [
+      "SCB-write-003"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "c7aeb3b4ff3f4adfb09abb4f4bd48b94194a4b74ad5690af3f3f40e784461ae8",
+    "dhash": 2132753672937325196,
+    "sample_ids": [
+      "EXP-CM-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "c7cd9bfe1cee24fa04b966dc400f2701e9c92dc0b5fe5f2cd664ce98f9617c6a",
+    "dhash": 3461186591266557381,
+    "sample_ids": [
+      "EXP-SCB-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-3d72119803ac0e10001b"
+    ]
+  },
+  {
+    "sha256": "c8d7c5be112ff843efd1fdfc6c011537ace9f30af360fcb895b0395b95957603",
+    "dhash": 5895654570588071771,
+    "sample_ids": [
+      "V6R2-SB-004"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "c9d124d640bf9a7a624099edcd7b24c85a5e7b29cb9c34622c6af6b0ec85b12f",
+    "dhash": 11972715929764348179,
+    "sample_ids": [
+      "V6-SB-002",
+      "V6R2-MP-003",
+      "V6R2-MP-004",
+      "V6R2-MP-005"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "ca881ade1439970e0ce5f3c71b1dda6bc1ed421b05ee8b563baa59fd90c35943",
+    "dhash": 13678792003853965657,
+    "sample_ids": [
+      "V6-SB-044"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-c83282c8c8290343172e"
+    ]
+  },
+  {
+    "sha256": "caa8e529a42c2147c5793965137018d1e1f9ff3e6a14abce27fc2b4acad3ccf2",
+    "dhash": 5425531173512878961,
+    "sample_ids": [
+      "V6-EX-017"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-280f0d753eb4f8d3f2b9"
+    ]
+  },
+  {
+    "sha256": "cb136c2d7242fca6f92b45d09300fd03e08ffedffe24b6b74421b4802fe427d9",
+    "dhash": 9397343445982460265,
+    "sample_ids": [
+      "EXP-SCB-024"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-85045be9db4b54bf8935"
+    ]
+  },
+  {
+    "sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+    "dhash": 9783388824202416625,
+    "sample_ids": [
+      "EXP-SCB-005"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-85045be9db4b54bf8935"
+    ]
+  },
+  {
+    "sha256": "ce0aebad55681673a385e54d6006c118c6941c3270aca12690b3fee87f97b4a4",
+    "dhash": 506375863299133964,
+    "sample_ids": [
+      "EXP-CM-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "ce28b2701e4f78bce6fd4e11f643d4b01986f193b8a003d16abf6510d4797ea5",
+    "dhash": 10997902050223901129,
+    "sample_ids": [
+      "EXP-SCB-018"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-fd0b8e8c6c6a35f7289b"
+    ]
+  },
+  {
+    "sha256": "ce2e69e7e1afc478a02caf1934a51b39614d09e84bf4a56aa1eddb10fb6d5a30",
+    "dhash": 2821499099601428422,
+    "sample_ids": [
+      "SCB-write-015"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "ce3ed4823fed3083c922a6f72bb738e0d776d7cddedb23962906cb6b6fca4933",
+    "dhash": 10163527219356550188,
+    "sample_ids": [
+      "EXP-CM-002"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "ceef1a09343986216c4184a697a67e7b8d5bcfb9edc7f5edfb047f2816f770bc",
+    "dhash": 17976585865555905901,
+    "sample_ids": [
+      "V6-CA-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5334aedf9d3d9767844d"
+    ]
+  },
+  {
+    "sha256": "d02a9b7abce93456bfc6a5c656c0ebc9ea8a7753fb08f0a519635e7d5a3621dc",
+    "dhash": 3620398578541506022,
+    "sample_ids": [
+      "V6-EX-039"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "d0be66995e8eadc15d4c302aaece6e7d06d536c3b6c371df163126b6459923fc",
+    "dhash": 3680040497045160603,
+    "sample_ids": [
+      "EXP-CM-022"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "CM-V2-SCENE-01"
+    ]
+  },
+  {
+    "sha256": "d15a84a1311bc38abb4db85a121e98dc079b27215d525d7ec5e8334a12d6d5d1",
+    "dhash": 6012694612624098599,
+    "sample_ids": [
+      "V6-EX-034"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "d33104b3343b3de2e9b8b2c99852f5d14637f8a5abbf498473a16076c45cb340",
+    "dhash": 14137522124919143559,
+    "sample_ids": [
+      "EXP-RF-009"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "d3379a41f315c99d8b10167e2418a608118230f4db11b52ee318e4da2d02b0a3",
+    "dhash": 1372873778179158769,
+    "sample_ids": [
+      "P029-person-01",
+      "P029-person-02"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "d416441163ad9620ab35ef03eb610a017211fb1ba3bea0c68f07ae569d88549a",
+    "dhash": 5290455818432921964,
+    "sample_ids": [
+      "SCB-turnhead-027"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "d5437aff1bfef1905df60b9f95655bcc188da5647a07f87b3df08fe9c7fbd949",
+    "dhash": 14936086072358868583,
+    "sample_ids": [
+      "EXP-RF-016"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-4ae5127c46c708447916"
+    ]
+  },
+  {
+    "sha256": "d623099c3109e2ffd2b843ca30e27f6c2955535a9d13e027428d06f22a1425c3",
+    "dhash": 4582234974899724007,
+    "sample_ids": [
+      "SCB-write-028"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "d755f3187d8f10cecde653627a878ff22b9fe8315fecc33258f257844adf4c27",
+    "dhash": 16285039010731953816,
+    "sample_ids": [
+      "EXP-SCB-019"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-83bb79091643077ca9d8"
+    ]
+  },
+  {
+    "sha256": "d7bb21d5f8331788b6a5aa003600e4417ecb88801ee78155ad4a5ccc4d6baea8",
+    "dhash": 10995211685316893101,
+    "sample_ids": [
+      "V6-EX-040"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "d9561a297eb1b2767521b013d52e258742b6cf4e01dc679255e56a8efa68bea9",
+    "dhash": 3429969940872197820,
+    "sample_ids": [
+      "V6-CA-030"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "d998d7e7aaece3f77ec6d3a8ffb2d9fa590a650468a017fbcb3dcea541a90fea",
+    "dhash": 7377045839241396432,
+    "sample_ids": [
+      "V6R2-SB-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "d9cb003ef5b441e222451836ee33142838cbc272678b0520d076f97ff861b341",
+    "dhash": 9481153311401947341,
+    "sample_ids": [
+      "V6-CA-047"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-53c065f92a59d6f04f72"
+    ]
+  },
+  {
+    "sha256": "d9d46b21f8114f01b5681a239f86d509de59660c496abd4a66233b37aa54d506",
+    "dhash": 3171757607007727159,
+    "sample_ids": [
+      "EXP-SCB-043"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-c014aa661e5160c4d282"
+    ]
+  },
+  {
+    "sha256": "daa9b137e81b5adf6ea5c589dd028178cff0fa96585ff39d44d2251f3ff4e073",
+    "dhash": 3853456452931977839,
+    "sample_ids": [
+      "V6-SB-024",
+      "V6R2-MP-069",
+      "V6R2-MP-070",
+      "V6R2-MP-071"
+    ],
+    "usages": [
+      "excluded",
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "db41259b3704eaa0fc7e3f7956908f9b8593c9c452683e86942cfa9cddc6f5f1",
+    "dhash": 15840166300478043105,
+    "sample_ids": [
+      "V6R2-EX-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-280f0d753eb4f8d3f2b9"
+    ]
+  },
+  {
+    "sha256": "db8c0040bb0b2a0448c72f2ef67edc5da830ef2bed264f1d0a998c6a9a573445",
+    "dhash": 8674890948728630445,
+    "sample_ids": [
+      "EXP-SCB-045"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f1f4cd90327755bf8c95"
+    ]
+  },
+  {
+    "sha256": "dc390752ab0b31a559498aede4c8112111e12063b71a6f67aad1047f195fd8bf",
+    "dhash": 3691250519414069852,
+    "sample_ids": [
+      "EXP-SCB-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2213efa972ee8c6f7b8a"
+    ]
+  },
+  {
+    "sha256": "ddca2e1c1e22c504b546137b06a47ed8823fdb46c840398942f5b8bfad51a48b",
+    "dhash": 17496995484612456474,
+    "sample_ids": [
+      "V6R2-CA-018"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "de90fc7eb40010ec6074eeb7fe433a340d2e2726c05649a4179055aecf63cd01",
+    "dhash": 4123380227809774838,
+    "sample_ids": [
+      "P002-person-01"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+    "dhash": 4445813073866592869,
+    "sample_ids": [
+      "SCB-turnhead-013"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "df2ec19db9983f309750a2220086b624ff2186f287ecabdb651a898b1fe01d38",
+    "dhash": 2819207352732831515,
+    "sample_ids": [
+      "V6-CA-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-a1deceac8f8f43a238b0"
+    ]
+  },
+  {
+    "sha256": "df441ad80c804df7d30f8cec78788412bab87f7f2d8c02a5679b32d4650055ed",
+    "dhash": 7755445553614058851,
+    "sample_ids": [
+      "SCB-turnhead-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "df6894d0df86f5312110e1fb51b1e09a3a24a21b39d00223d9c4a242d6cf43a2",
+    "dhash": 8853012246445782369,
+    "sample_ids": [
+      "EXP-SCB-010"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-45495c5a304f147a63c5"
+    ]
+  },
+  {
+    "sha256": "e0d88f8a8631efcb800c1ac2047bad8d688a8d6bad637bd0b914c017e834c608",
+    "dhash": 684705620723679235,
+    "sample_ids": [
+      "V6-EX-031"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-f0c1e42222081e3320ca"
+    ]
+  },
+  {
+    "sha256": "e35424aa7d3e359fa276a195a8890a6d80311480787735f94038150e558357af",
+    "dhash": 13402603217371081642,
+    "sample_ids": [
+      "V6-SB-030",
+      "V6R2-MP-085",
+      "V6R2-MP-086",
+      "V6R2-MP-087"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "e605f2297a6925dfc5ee169e08ecc399f72943a66208e14de57935314f3ea8c0",
+    "dhash": 11351000597456166158,
+    "sample_ids": [
+      "SCB-turnhead-007"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "e63e8fb9d35a8a61415943142cba0510ae0fa1a17fb559d728be5752ca8f6870",
+    "dhash": 14723450362885098740,
+    "sample_ids": [
+      "V6-EX-004"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-e2799a9743b195ae78e7"
+    ]
+  },
+  {
+    "sha256": "e64f2d853a6c1045dd6573c69126f25508b4e42afdb3ceddc1d62f67a3b791c1",
+    "dhash": 7279326968332920807,
+    "sample_ids": [
+      "V6R2-SB-015"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-c83282c8c8290343172e"
+    ]
+  },
+  {
+    "sha256": "e8add128500312d71d9e568d579fcb976993cc781ad06c5978ae7dae4e9154aa",
+    "dhash": 14305343132980443411,
+    "sample_ids": [
+      "V6-CA-002"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-7c938e1d7e4bb99e21d4"
+    ]
+  },
+  {
+    "sha256": "eb214c7f3c3822cc84dbca81d6ab768087cdab868551f5e3671b42c01b99fd1c",
+    "dhash": 12822256416670010562,
+    "sample_ids": [
+      "V6-EX-045"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5574ea116b6880b71974"
+    ]
+  },
+  {
+    "sha256": "ec7a2ac9467e9c9fa579b8088c8ad938ab0b1be1646816b42a0116a7d271b336",
+    "dhash": 13661491798984678119,
+    "sample_ids": [
+      "SCB-write-021"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "ee37b7ac4ab6163a1a53acdb6a2836d844fd5554e205d842d6732445a7c46c1a",
+    "dhash": 16488122239415002541,
+    "sample_ids": [
+      "EXP-SCB-030"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-d2586f5b755ae9d1c171"
+    ]
+  },
+  {
+    "sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+    "dhash": 2821481645022108623,
+    "sample_ids": [
+      "SCB-read-011"
+    ],
+    "usages": [
+      "test"
+    ],
+    "groups": [
+      "PB-G-2bfd674c05ef8b6e2ea6"
+    ]
+  },
+  {
+    "sha256": "f0f59caae65fc35b4bfff7ffd2ff60dfb09d460a718b139117434cced38d09db",
+    "dhash": 16586257854107741293,
+    "sample_ids": [
+      "EXP-RF-012"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "f1ad391cbe05487f97c876b3a76edfa5de55d70df9412e439cddaa6decb33efb",
+    "dhash": 17501089979902088804,
+    "sample_ids": [
+      "EXP-SCB-046"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-c014aa661e5160c4d282"
+    ]
+  },
+  {
+    "sha256": "f1c3aaac82e13563f4b9de4d04140d9738794131bf6e84276b8476c5d595e1bb",
+    "dhash": 584403882682918570,
+    "sample_ids": [
+      "V6-CA-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-354474e49b70ebd09240"
+    ]
+  },
+  {
+    "sha256": "f2b2c76ada2d669862ea15e8f78775ac2bb4cd10c7dad7e1c920e78b8287be25",
+    "dhash": 16565475472940768316,
+    "sample_ids": [
+      "V6R2-EX-008"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-c197fd750c63e3f82b42"
+    ]
+  },
+  {
+    "sha256": "f30e5faf501ebc5a2b30e8d64bfdc5cb070235ff03f60775f1b420d98ece5804",
+    "dhash": 15250263389042335772,
+    "sample_ids": [
+      "V6-SB-021",
+      "V6R2-MP-060",
+      "V6R2-MP-061",
+      "V6R2-MP-062"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "f3644b5ec1a69e74d2306f348f1a499b42d02f8e99e6cff719cfe8ac29c7c9b5",
+    "dhash": 5421544256776226422,
+    "sample_ids": [
+      "P022-person-01"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "f39d9d5409aa438b1d460603669ea57c7ab3e4757d706b737b37a7f008eb40f6",
+    "dhash": 18428058550756158410,
+    "sample_ids": [
+      "V6-SB-013",
+      "V6R2-MP-036",
+      "V6R2-MP-037",
+      "V6R2-MP-038"
+    ],
+    "usages": [
+      "review_only",
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "f55f34d4c9c3585967d55e75ba1097ea2f5ef2cd2684c21eb43c585519588714",
+    "dhash": 12948736261531002482,
+    "sample_ids": [
+      "EXP-RF-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-75571ae9f3c2bfc8ef6a"
+    ]
+  },
+  {
+    "sha256": "f665a033c0ff8bc9c313feafae82d22d8af9b6d7d9ca30c71f99d5a62a7d7fa9",
+    "dhash": 13593776701821359142,
+    "sample_ids": [
+      "SCB-read-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-f0b75b5ac12d58228355"
+    ]
+  },
+  {
+    "sha256": "f6e4f1e45ec36f3b59dcd619c4bbd5e7c828a7e3cf8307944dc1d24463e69467",
+    "dhash": 12822295493260535022,
+    "sample_ids": [
+      "V6-CA-045"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "f7018679487e160a65ef568f6f9e963ceb25c24e5a745da5cefe6264f8ce1e75",
+    "dhash": 13446051228976929969,
+    "sample_ids": [
+      "V6-EX-011"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-31880bcf33cbe15ad4fe"
+    ]
+  },
+  {
+    "sha256": "f7fbc42d4ec663755483b3758f298ff88b248ff086ca07a04dc8848193dcf9b1",
+    "dhash": 5895654570523060059,
+    "sample_ids": [
+      "V6R2-SB-009"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "f8be87cd095fb80d7b9ed8f25576f04d205335f8415f3090cf58a62e7f504202",
+    "dhash": 5290455835612529516,
+    "sample_ids": [
+      "EXP-SCB-003"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-cab424fc3d3653b9b3a4"
+    ]
+  },
+  {
+    "sha256": "f8fc00b5f5fbbed8e8271860838c82977903971213f50b6fee45346b45bce9da",
+    "dhash": 11190189626165211974,
+    "sample_ids": [
+      "V6R2-EX-006"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-5d2964977c0d2a2e1ce3"
+    ]
+  },
+  {
+    "sha256": "f9bb3d28058ff0ff83db17811627226e199354eb04894d703eebff77ed7bda93",
+    "dhash": 14360829894437005763,
+    "sample_ids": [
+      "V6-CA-021"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "fa7f4c1d53097db19c37f411511394f10f5e17da6e96bcc4a9e26dd5caaa0376",
+    "dhash": 11221273643237303928,
+    "sample_ids": [
+      "V6-CA-033"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "fa9d219ade1294e910fca918b936cb0d9bca2b614c405c6dfc90d43fb72a7fc2",
+    "dhash": 12826139165742345327,
+    "sample_ids": [
+      "V6-SB-023",
+      "V6R2-MP-066",
+      "V6R2-MP-067",
+      "V6R2-MP-068"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "fab4701f371edf133fd35ef64880f9a618e54503f910d0cdf83ecf130e24540f",
+    "dhash": 12433467241112192452,
+    "sample_ids": [
+      "V6-CA-038"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "fb42061e66bed24a6db2b2c64df49e7807b4acf04d00c3c7696cc128effd3481",
+    "dhash": 2529672461526724941,
+    "sample_ids": [
+      "P038-person-01"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-88e21db5e6c794bef0f2"
+    ]
+  },
+  {
+    "sha256": "fb9aa70466782281308431206d590033f2e05b2db98d28c06b462bbca4694ced",
+    "dhash": 9534517593327224639,
+    "sample_ids": [
+      "P006-extra-01",
+      "P006-person-01",
+      "P006-person-02"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "PB-G-baf0e0aa45deba62941c"
+    ]
+  },
+  {
+    "sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+    "dhash": 3853456452931977839,
+    "sample_ids": [
+      "V6R2-SB-006"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "fbc7ad06d10f53778c2c43a2c8279af57e1f79c7991102050236e4950a0a55c1",
+    "dhash": 8246885738232362672,
+    "sample_ids": [
+      "V6R2-SB-016"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-d44a821e962a24104c63"
+    ]
+  },
+  {
+    "sha256": "fc081b8b91c03219f1760ae83c892317812614ff840e5a2eb1eb20be2808ceeb",
+    "dhash": 11068377073035660764,
+    "sample_ids": [
+      "EXP-SCB-037"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-73ae71b05a839d8bcf4c"
+    ]
+  },
+  {
+    "sha256": "fcbc0192c00ff656ccc8a17db1187a6557db2fce55334eed0a7e84f901c34eb6",
+    "dhash": 8100881688499109295,
+    "sample_ids": [
+      "V6-CA-035"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-53c065f92a59d6f04f72"
+    ]
+  },
+  {
+    "sha256": "fce66d06f47a6e00b7632a44982f31088b36f845a7cd844b6855bd2e0eb53732",
+    "dhash": 336137408602364810,
+    "sample_ids": [
+      "V6-SB-035"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-ae0cbae3310d6f5db3df"
+    ]
+  },
+  {
+    "sha256": "fdec34d71dbca5cebd7069a4d8cba99273cef101a9455ac5ae0fb22914a17457",
+    "dhash": 14757819183719938316,
+    "sample_ids": [
+      "V6R2-CA-009"
+    ],
+    "usages": [
+      "val"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "fe229da4bfeffd3d3abe9da7f99a6f762008eecd1bcea04ba07088f1f9cc8fc7",
+    "dhash": 6437997257503029509,
+    "sample_ids": [
+      "EXP-SCB-038"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-c21f07ee9f62b62b0686"
+    ]
+  },
+  {
+    "sha256": "fe271fabff10e3d17622df37e266f96dc0cb05a939325aad7290b55c070810bc",
+    "dhash": 2098525629684929934,
+    "sample_ids": [
+      "EXP-RF-024"
+    ],
+    "usages": [
+      "excluded"
+    ],
+    "groups": [
+      "V6-G-1b691a9e5538d47c6c07"
+    ]
+  },
+  {
+    "sha256": "fe5e48d4bb81438f0ea3607641c8308527b069f610b262e8f825e3f7d04aba15",
+    "dhash": 14241598464100238222,
+    "sample_ids": [
+      "SCB-read-001"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-950af88cd17908a77c81"
+    ]
+  },
+  {
+    "sha256": "feb8ed04c68b046412d0af51fbe2e390e1cf356f358de4062c59f4bed94f9e4e",
+    "dhash": 3255519327810827830,
+    "sample_ids": [
+      "SCB-turnhead-018"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "fed6424697b84d46fe2e3c66500adf168a8b4a32bf8047ef7ce7559f2f69ae01",
+    "dhash": 6203525844134543732,
+    "sample_ids": [
+      "SCB-turnhead-008"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-7adf3e797f0d4d4978d9"
+    ]
+  },
+  {
+    "sha256": "ff086a5421969a0e5b14959ddfd0d8cb53c4fd6354f7c4fe360b7d462a3fc9e7",
+    "dhash": 13807365265210779596,
+    "sample_ids": [
+      "V6-SB-026",
+      "V6R2-MP-075",
+      "V6R2-MP-076",
+      "V6R2-MP-077"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-2a44130a4d5f7ba39107"
+    ]
+  },
+  {
+    "sha256": "ffe76e0aa68be88939d86130b811355f28beb510e70d5d0abd6058002f93a9fd",
+    "dhash": 14022665285998745601,
+    "sample_ids": [
+      "V6R2-CA-015"
+    ],
+    "usages": [
+      "review_only"
+    ],
+    "groups": [
+      "V6-G-53fe00e4fc84b2bf7a29"
+    ]
+  },
+  {
+    "sha256": "fff0fb6c1c8e646393dfd201ebe85b0157b5cf77ad48a5d347c0824b638a1ca2",
+    "dhash": 28926828232058377,
+    "sample_ids": [
+      "EXP-SCB-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "PB-G-18b53fda4c21055b08af"
+    ]
+  },
+  {
+    "sha256": "fffc8b2409b32bbec74b7303026b4d1adb35fe0fd5e3cb78364309f254aefeb1",
+    "dhash": 13228114063085195567,
+    "sample_ids": [
+      "V6-EX-012"
+    ],
+    "usages": [
+      "train"
+    ],
+    "groups": [
+      "V6-G-2019d5646b455f37272a"
+    ]
+  }
+]

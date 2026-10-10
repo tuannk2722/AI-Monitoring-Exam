@@ -1,0 +1,804 @@
+{
+  "status": "draft_pending_owner_review",
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "owner": "repository-owner",
+  "scope": "Nhận xét thị giác, không đổi accepted labels; thiếu factor nghĩa là chưa khẳng định, không suy absence.",
+  "findings": [
+    {
+      "split": "val",
+      "sample_id": "EXP-RF-007",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Mặt quay phải, nhìn ngoài bàn trước người; crop có balô che vùng tay nhưng đầu rõ.",
+      "hypothesis": "Không phải ví dụ mất đầu; encoder/global features có thể chưa phân biệt hướng đầu với tư thế viết.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Người quay ngang vừa/cúi nhẹ, ghép negative viết cùng bàn/camera."
+    },
+    {
+      "split": "val",
+      "sample_id": "EXP-RF-009",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Mặt quay ngang rõ; đầu người phía sau cũng nằm trong crop, phần bài của anchor ở mép dưới.",
+      "hypothesis": "Ngữ cảnh nhiều người có thể làm loãng hướng nhìn của anchor.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Quay ngang có người phía sau; negative nhìn bài ở cùng góc."
+    },
+    {
+      "split": "val",
+      "sample_id": "EXP-SCB-002",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "ambiguous_label",
+        "low_detail"
+      ],
+      "observation": "Đầu cúi và lệch trái; mặt/bài ở dưới. Ảnh gốc vẫn khó chốt đang nhìn bạn hay phần sách bên trái.",
+      "hypothesis": "Cần rà nhãn theo hướng nhìn-vùng bài; chưa thể gọi là lỗi quay đầu rõ.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Bổ sung cặp lệch đầu đọc sách (N/U) và nhìn bạn rõ (P), review trên crop."
+    },
+    {
+      "split": "val",
+      "sample_id": "P022-person-01",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "small_evidence",
+        "hand_occlusion",
+        "low_detail"
+      ],
+      "observation": "Thiết bị tối trong hai tay, người nhỏ trong ảnh gốc; pixel phone đã ít trước resize, input224 chỉ phóng ảnh.",
+      "hypothesis": "Upscale không phục hồi chi tiết phone; held phone trông gần tư thế viết.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone nhỏ cầm hai tay tại bàn, negative cầm bút cùng góc xa."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-015",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "partial_evidence",
+        "off_domain"
+      ],
+      "observation": "Phone đen bị tay và sách che một phần, người trong ảnh stock ngước nhìn; hình chữ nhật còn nhận ra.",
+      "hypothesis": "Phone không hoàn toàn lộ và đồng thời nhìn ra ngoài; feature có thể thiên về sách/người.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Cầm phone cạnh sách, nhiều màu phone/tay; cùng người cầm sách nhưng không phone."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-021",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Đầu quay trái rõ, hai tay đặt bàn; crop ngang có người phía sau và nhiều ghế.",
+      "hypothesis": "FN score rất thấp dù đầu rõ: hypothesis representation/source confounding, không chỉ blur.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Người quay ngang vừa, bàn/ghế xanh, negative cùng posture của tay."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-030",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side"
+      ],
+      "observation": "Mặt quay phải rõ sang người bên; có trang giấy trong tay, mắt không nhìn giấy.",
+      "hypothesis": "Model có thể liên hệ giấy/tay viết với looking negative.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Quay ngang khi vẫn giữ giấy/bút; negative đọc giấy cùng camera."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-038",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "partial_evidence",
+        "resting_pose"
+      ],
+      "observation": "Phone đen trên sách sát cánh tay; một phần sát mép dưới ảnh, người cúi nghỉ không cầm phone.",
+      "hypothesis": "Desk-phone presence thuộc semantics nhưng không có động tác sử dụng nổi bật; resize512→224 giảm vật nhỏ.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone trên sách/bàn lúc nghỉ, negative ngủ/cúi nghỉ không phone."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-041",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "hand_occlusion",
+        "partial_evidence",
+        "resting_pose",
+        "ambiguous_label"
+      ],
+      "observation": "Người gục đầu; vùng phone được approval mô tả bị tay/đầu che nhiều, chỉ phần tối cạnh sách còn thấy.",
+      "hypothesis": "Cần owner kiểm đủ bằng chứng trên đúng crop, không tự gọi phone absence hoặc label sai.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Phone trên bàn che một phần có liên kết rõ; ambiguous giữ U nếu owner không xác nhận."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-CA-046",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "partial_evidence",
+        "resting_pose"
+      ],
+      "observation": "Phone nằm ngang trên sách trước người chống đầu; vật gần mép dưới ảnh, không cầm.",
+      "hypothesis": "Thiếu coverage phone-on-desk không tương tác và giảm chi tiết khi resize.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone ngang/dọc trên sách khi chống đầu; negative chống đầu không phone."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-EX-015",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "crowded_context"
+      ],
+      "observation": "Phone nằm trên bàn bên phải anchor, nhỏ ở input224; crop cao chứa người trước/sau và nhiều ghế.",
+      "hypothesis": "Phone nhỏ bị pha loãng bởi crop nhiều người, cần kiểm attribution trên source.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone trên bàn nhìn từ xa; context vừa đủ đúng người và negative cùng bàn."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6R2-CA-006",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "resting_pose",
+        "crowded_context"
+      ],
+      "observation": "Phone tối nằm trên bàn, anchor chống tay che mặt; người bên cạnh lọt crop.",
+      "hypothesis": "Không có gesture cầm phone; bàn/phone nhỏ và pose chống đầu dễ thành negative shortcut.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone trên bàn khi tay che mặt, negative chống đầu/cầm bút cùng cảnh."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6R2-CA-007",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "head_back",
+        "crowded_context"
+      ],
+      "observation": "Người nữ quay phải, tai/gáy và hướng mặt rõ; người áo xanh phía sau lọt crop.",
+      "hypothesis": "Ví dụ sát0.5 nhưng chưa chứng minh đổi threshold giải quyết tổng quát.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Nhìn sang bên với tóc/búi tóc/kính, negatives đọc bài cùng người."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6R2-CA-009",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "crowded_context"
+      ],
+      "observation": "Phone trên giấy trước người áo xanh ngọc, cạnh cánh tay; đầu quay trái và người khác ở tiền cảnh.",
+      "hypothesis": "Desk-phone nhỏ cùng co-occurrence cần supervision độc lập hai target.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone trên bàn + looking P, cùng cảnh phone N/looking P và phone P/looking N."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6R2-CA-009",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Người áo xanh ngọc quay mặt trái rõ ngoài trang giấy; mặt người tiền cảnh cũng nằm crop.",
+      "hypothesis": "Global representation có thể bị người khác/phone chi phối, chưa chứng minh nhân quả.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Co-occurrence và nhiều người nhưng attribution anchor rõ."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-CM-001",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "small_evidence",
+        "low_detail"
+      ],
+      "observation": "Phone đen trong hai tay gần mép bàn; crop nhỏ và tương phản thấp, vẫn thấy hình chữ nhật.",
+      "hypothesis": "FN ngay trên train và rất sát0.5; không thể quy hết thiếu nguồn mới.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Cầm phone đen hai tay với bàn/camera tương tự và negative cầm bút."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-CM-003",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "partial_evidence",
+        "phone_at_ear",
+        "low_detail"
+      ],
+      "observation": "Phone áp tai bị ngón tay che, mặt nhìn sang bên; chi tiết gốc mềm.",
+      "hypothesis": "Model có thể dùng hand-to-face cue yếu; nhiều positive cùng một người không là đa dạng.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone áp tai nhiều người/camera, negative chạm tai không phone."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-CM-008",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "partial_evidence",
+        "small_evidence",
+        "low_detail"
+      ],
+      "observation": "Vật phone tối sát hai tay trên bàn; thiết bị chỉ lộ phần cạnh và ảnh mềm.",
+      "hypothesis": "Thiếu chi tiết gốc và che tay; reason cũ còn có mô tả unknown ở target khác, không tự đổi approval.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone tối che tay nhưng còn đủ hình dạng; negative thao tác bút/vật khác."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-CM-017",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "phone_at_ear",
+        "hand_occlusion",
+        "partial_evidence",
+        "low_detail"
+      ],
+      "observation": "Phone tối áp tai cùng tay, góc chính diện; thiết bị hẹp trong ảnh gốc.",
+      "hypothesis": "Phone bị tay/mặt làm lẫn; cần hard negatives tay chạm mặt.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Áp tai chính diện và bàn tay gần mặt không phone cùng camera."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-CM-019",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "low_detail"
+      ],
+      "observation": "Người cầm giấy nhưng mặt quay phải sang bên; chi tiết mắt ít.",
+      "hypothesis": "Representation dựa vào giấy/tư thế seated có thể yếu với hướng nhìn.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Cầm giấy mà nhìn bên cạnh, negative đọc đúng giấy."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-RF-014",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "off_domain",
+        "overlay_text"
+      ],
+      "observation": "Phone sáng trong tay rõ; crop chứa phụ đề ở đáy và cảnh dựng.",
+      "hypothesis": "Không chỉ nhỏ/blur; nguy cơ shortcut text và xung đột quy tắc ADR011 về phụ đề cần owner giải quyết.",
+      "confidence": "cao",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Không tuyển thêm phim/phụ đề; đề xuất recrop loại text trong version mới nếu đủ evidence."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-RF-023",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "off_domain",
+        "crowded_context"
+      ],
+      "observation": "Người stock quay trái rõ sang người bên, có nhiều mặt/người quanh.",
+      "hypothesis": "Không phải thiếu resolution; domain phụ trợ và global features có thể yếu.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Người thật trong phòng thi quay ngang với nhiều người, negatives cùng camera."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-SCB-013",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "small_evidence",
+        "low_detail"
+      ],
+      "observation": "Người áo đỏ quay trái, đầu nhỏ và mặt rất mềm ở ảnh gốc.",
+      "hypothesis": "Input224 upscale, tăng resolution không khôi phục mắt; còn hướng đầu.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Nhìn ngang ở khoảng cách xa còn đủ bằng chứng, ảnh gốc chất lượng hơn."
+    },
+    {
+      "split": "train",
+      "sample_id": "EXP-SCB-032",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_back",
+        "crowded_context",
+        "ambiguous_label"
+      ],
+      "observation": "Chỉ thấy gáy/profil nhỏ; đầu hướng phải gần trang sách và người cạnh, không thấy mắt.",
+      "hypothesis": "Cần rà looking từ hướng đầu-vùng bài, không dựa class turn_head nguồn.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Gáy/quay nhìn bạn rõ cùng negative nhìn sách hướng tương tự."
+    },
+    {
+      "split": "train",
+      "sample_id": "P019-person-01",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "partial_evidence",
+        "small_evidence",
+        "off_domain"
+      ],
+      "observation": "Phone giữ dưới bàn, chỉ phần đen trong tay lộ ở mép phải/dưới; người đang viết.",
+      "hypothesis": "Phone nhỏ sau resize crop640→224, tư thế viết có thể lấn bằng chứng phone.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Vừa viết vừa cầm phone thấp, negatives viết/cầm vật khác."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-004",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "head_back",
+        "small_evidence",
+        "low_detail"
+      ],
+      "observation": "Mặt quay phải xa trang bài; người ở xa, mắt không rõ nhưng hướng đầu còn thấy.",
+      "hypothesis": "Thiếu chi tiết gốc; nên học hướng đầu và bài từ nhiều camera.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Quay bên ở bàn đọc/viết xa, negatives lệch đầu đọc bài."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-007",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Ảnh tối/mờ; mặt gần chính diện, chưa phân biệt rõ nhìn bạn hay bài.",
+      "hypothesis": "Không đủ kết luận label sai, cần owner rà theo source và đúng crop.",
+      "confidence": "thấp",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Positive hướng nhìn rõ trong phòng tối, U khi không đọc được hướng."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-008",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "small_evidence"
+      ],
+      "observation": "Người quay nhìn phía trái với tay vẫn đặt sách, mặt còn thấy, ảnh giảng đường.",
+      "hypothesis": "FN ngay train dù cue đầu khá rõ; không chỉ occlusion.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Hướng ngang vừa tay giữ sách, negative nhìn sách cùng bàn."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-009",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "small_evidence",
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Crop47×44, mặt/đầu mất chi tiết mạnh; nhìn nghiêng nhưng vùng bài không đủ.",
+      "hypothesis": "Label evidence có thể không kiểm được tại scale gốc; resize lớn không cứu semantics.",
+      "confidence": "thấp",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Rà P/U và tìm ảnh xa còn phân biệt đầu/bài, không nhân bản crop mờ."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-012",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_back",
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Người cúi nhìn gần mặt bàn/sách, tóc che mặt, không thấy nhìn ra ngoài rõ.",
+      "hypothesis": "Có nghi vấn source turn_head không khớp semantics hiện tại; owner rà lại.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Negative cúi viết/đọc và positive quay ngoài bài rõ."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-019",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "small_evidence",
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Crop44×56, mặt rất mờ; vùng bài/quan hệ hướng nhìn không đủ rõ.",
+      "hypothesis": "Không thể khẳng định P/N từ pixel; cần owner rà nhãn.",
+      "confidence": "thấp",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Loại ảnh xa rõ hướng thay thế, giữ U khi mờ."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-020",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "low_detail",
+        "crowded_context",
+        "ambiguous_label"
+      ],
+      "observation": "Đầu cúi và lệch phải, crop có đầu người tiền cảnh; bài của anchor không rõ.",
+      "hypothesis": "Có thể đọc phần trang bên phải, không tự coi mọi lệch đầu là looking.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Cặp lệch đầu nhìn trang (N/U) và nhìn sang bạn (P)."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-021",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "small_evidence",
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Crop46×56, mặt mờ gần chính diện, vùng bài nhỏ và bị tiền cảnh che.",
+      "hypothesis": "Không đủ chứng minh hướng nhìn ra khỏi bài ở crop accepted.",
+      "confidence": "thấp",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Review P/U trên source, tuyển ảnh xa còn rõ."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-023",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_back",
+        "ambiguous_label"
+      ],
+      "observation": "Người nhìn phía bảng/giáo viên, chỉ gáy/profil; không thấy vùng bài riêng trong crop.",
+      "hypothesis": "Looking ngoài bài theo semantics rộng có thể hợp lệ, cần guideline rõ lớp học so exam.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Quay nhìn ngoài bài rõ và negatives đọc bài, giữ metadata nhìn bảng."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-026",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Mặt quay trái rõ, tay vẫn trên bàn; đầu người tiền cảnh che một phần thân.",
+      "hypothesis": "Cue đầu còn đủ, frozen feature/head có thể không tách tốt.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Quay ngang trong lớp đông, ghép negative cùng camera."
+    },
+    {
+      "split": "train",
+      "sample_id": "SCB-turnhead-027",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_forward_up",
+        "small_evidence"
+      ],
+      "observation": "Người ngước nhìn ngoài sách rõ, khác head-turn ngang; sách còn trước mặt.",
+      "hypothesis": "Coverage chỉ quay ngang sẽ bỏ sót nhìn lên/trước.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Ngước nhìn ngoài bài trước mặt và negative cúi đọc/viết cùng người."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6-CA-014",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "off_domain"
+      ],
+      "observation": "Phone trong hai tay rõ nhưng ở quầy/cảnh ngoài phòng thi.",
+      "hypothesis": "Train FN ảnh ngoài domain không phải bằng chứng nên tăng nguồn ngoài lớp.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Ưu tiên thao tác tương tự tại bàn thi thay ảnh quán/quầy."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6-CA-028",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side"
+      ],
+      "observation": "Mặt quay phải rõ trong khi tay cầm bút, bài trước mặt.",
+      "hypothesis": "FN ngay train không thể giải thích chỉ chưa từng thấy source.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Quay ngang nhẹ/vừa vẫn cầm bút và negative viết nhìn bài."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6-EX-004",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "small_evidence",
+        "off_domain"
+      ],
+      "observation": "Phone trắng cầm thấp cạnh vở, bị tay che phần thân; crop cao615px làm phone nhỏ input224.",
+      "hypothesis": "Resize giảm detail và posture viết, không cần model lớn trước QA.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone trắng/cùng màu giấy cầm cạnh vở, negatives bút/giấy."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6-EX-020",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "head_side",
+        "crowded_context"
+      ],
+      "observation": "Người quay phải rõ khi đang cầm bút và chống đầu; phone trên bàn nhưng target này looking.",
+      "hypothesis": "Global features có thể dựa bàn/phone/tay; cần co-occurrence.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone P/looking P và ba tổ hợp target còn lại có review."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-CA-004",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "small_evidence",
+        "off_domain",
+        "crowded_context"
+      ],
+      "observation": "Phone nhỏ trong hai tay gần bụng ở ghế chờ; người phía sau cũng dùng phone.",
+      "hypothesis": "Phạm vi ngoài exam, chi tiết bị giảm224; không quy lỗi hoàn toàn phone nhỏ.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Cầm phone thấp tại bàn thi, nhiều màu phone và same-domain negatives."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-EX-001",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "hand_occlusion",
+        "partial_evidence",
+        "small_evidence",
+        "off_domain"
+      ],
+      "observation": "Phone đen giữ thấp bên phải cạnh sách; mặt người quay nhìn bạn, người cạnh lọt crop.",
+      "hypothesis": "Small held phone và co-occurrence dưới sách có thể yếu trong global feature.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Vừa viết vừa cầm phone thấp, co-occurrence trong domain thật."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-MP-034",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "small_evidence",
+        "hand_occlusion",
+        "low_detail"
+      ],
+      "observation": "Góc camera cao, phone tím/trắng trong tay sát giấy; crop80×116, tay che vật một phần.",
+      "hypothesis": "Thiếu detail gốc và hình dạng phone lẫn giấy; upscale224 không thêm thông tin.",
+      "confidence": "vừa",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Góc cao dùng phone sáng gần giấy, negatives giấy/bút cùng camera."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-MP-059",
+      "target": "looking_around",
+      "outcome": "FN",
+      "factors": [
+        "hand_occlusion",
+        "small_evidence",
+        "low_detail",
+        "ambiguous_label"
+      ],
+      "observation": "Tay che mặt/tai, crop65×132; chưa thấy rõ mắt/hướng nhìn so bài.",
+      "hypothesis": "Cần rà nhãn; không đồng nhất tay chạm mặt với looking positive.",
+      "confidence": "vừa",
+      "label_review": "cần owner rà lại",
+      "acquisition": "Positive còn thấy hướng đầu khi tay gần mặt, negatives chạm mặt nhìn bài."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-MP-085",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "held_phone",
+        "small_evidence",
+        "hand_occlusion",
+        "source_noise"
+      ],
+      "observation": "Phone tối trong hai tay, ảnh có chấm noise rõ ở nền và người.",
+      "hypothesis": "Source có augmentation; cần ảnh gốc/lineage trước tuyển thêm, noise không tạo cảnh mới.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone tối cầm hai tay, bản gốc ít noise và negative cùng bàn."
+    },
+    {
+      "split": "train",
+      "sample_id": "V6R2-SB-003",
+      "target": "phone_use",
+      "outcome": "FN",
+      "factors": [
+        "phone_on_desk",
+        "small_evidence",
+        "source_noise"
+      ],
+      "observation": "Phone nằm trên vở dưới bàn tay trái; crop có noise/chấm và người nhìn lên.",
+      "hypothesis": "Desk-phone presence cùng hướng nhìn khác, source augmentation làm yếu detail.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Desk-phone khi người ngước nhìn và negative cùng bàn/pose."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-EX-042",
+      "target": "looking_around",
+      "outcome": "FP",
+      "factors": [
+        "reading_writing",
+        "head_tilt",
+        "off_domain"
+      ],
+      "observation": "Người cúi nhìn trang mình đang viết, đầu nghiêng nhưng không nhìn sang người khác.",
+      "hypothesis": "FP cho thấy nghiêng đầu không thể dùng thay hướng nhìn khỏi bài.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Hard negative nghiêng đầu viết/đọc, tóc che một bên mặt."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6-SB-047",
+      "target": "phone_use",
+      "outcome": "FP",
+      "factors": [
+        "reading_writing",
+        "small_evidence",
+        "source_noise"
+      ],
+      "observation": "Người viết trên giấy, tay cầm bút; ảnh có chấm noise, phone score chỉ0.50043.",
+      "hypothesis": "Sát threshold và noise không chứng minh phone; phải bảo vệ negative khi tăng recall.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Negative bàn/giấy/bút có noise thực và bản gốc cùng nguồn."
+    },
+    {
+      "split": "val",
+      "sample_id": "V6R2-EX-008",
+      "target": "phone_use",
+      "outcome": "FP",
+      "factors": [
+        "reading_writing",
+        "head_side",
+        "off_domain"
+      ],
+      "observation": "Người quay nhìn bài bên cạnh nhưng tay cầm bút đỏ, không thấy phone.",
+      "hypothesis": "Phone FP0.72816 là đối ví dụ với shortcut nhìn bên/gesture viết.",
+      "confidence": "cao",
+      "label_review": "không thấy mâu thuẫn",
+      "acquisition": "Phone N/looking P, bút/tẩy/máy tính nếu đủ review không phone."
+    }
+  ]
+}

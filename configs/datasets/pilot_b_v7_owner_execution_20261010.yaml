@@ -1,0 +1,133 @@
+status: owner_directions_execution_review_only
+output: outputs/v7-owner-execution-20261010-r1
+staging: data/interim/pilot-b/v7-owner-staging-20261010-r1
+receipt:
+  path: artifacts/reports/pilot-b-v7-owner-execution-20261010/owner-approval.json
+  sha256: 288cf6011b74da421a491fb4a6852578f4b7282d53c1b31470875c264afb273f
+input_items:
+  path: outputs/v7-unapproved-consolidated-20261010-r2/review-items.jsonl
+  sha256: 4e0c7e0e05f2a25aa2f4baf3869a79f89d86bb1e4cc8e9d3ea9357253f3d03a5
+crop_plan:
+  path: artifacts/reports/pilot-b-v7-owner-execution-20261010/crop-plan-r1.json
+  sha256: 5154dd86a7b986ba968471ead9512fafececd5503e3512018cef1c7c9cc0085b
+preprocessing:
+  path: configs/experiments/E003.yaml
+  sha256: e080a56dd676bf73cbc5e473a2683de7d13bfbdea406c2e407c725bc4f0424c1
+font: C:/Windows/Fonts/arial.ttf
+must_link_relations:
+- name: bootcamp
+  parent_item_ids:
+  - V7-UNAPPROVED-S-041
+  - V7-UNAPPROVED-S-042
+  - V7-UNAPPROVED-S-043
+  - V7-UNAPPROVED-S-044
+  - V7-PF-A-004
+  - V7-PF-C-001
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: RAN24
+  parent_item_ids:
+  - V7-UNAPPROVED-S-047
+  - V7-UNAPPROVED-C-005
+  - V7-UNAPPROVED-C-006
+  - V7-UNAPPROVED-C-007
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: tabletunterricht
+  parent_item_ids:
+  - V7-UNAPPROVED-S-053
+  - V7-UNAPPROVED-S-054
+  - V7-PF-A-006
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: YIRWA
+  parent_item_ids:
+  - V7-UNAPPROVED-S-055
+  - V7-UNAPPROVED-S-056
+  - V7-UNAPPROVED-S-057
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: Pabna
+  parent_item_ids:
+  - V7-UNAPPROVED-S-059
+  - V7-UNAPPROVED-S-061
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: Kiwix
+  parent_item_ids:
+  - V7-UNAPPROVED-S-063
+  - V7-UNAPPROVED-S-064
+  - V7-PF-A-007
+  - V7-PF-C-003
+  - V7-PF-C-004
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: caro-hoodie
+  parent_item_ids:
+  - V7-UNAPPROVED-S-072
+  - V7-UNAPPROVED-S-073
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: exam2022
+  parent_item_ids:
+  - V7-UNAPPROVED-S-076
+  - V7-UNAPPROVED-S-082
+  - V7-UNAPPROVED-S-084
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: desk-green
+  parent_item_ids:
+  - V7-UNAPPROVED-S-081
+  - V7-R8-C-001
+  - V7-R8-C-002
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: room22
+  parent_item_ids:
+  - V7-UNAPPROVED-S-088
+  - V7-UNAPPROVED-S-091
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: desk-simulation
+  parent_item_ids:
+  - V7-UNAPPROVED-S-102
+  - V7-UNAPPROVED-S-109
+  - V7-UNAPPROVED-S-113
+  - V7-UNAPPROVED-S-116
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: top-three-writing
+  parent_item_ids:
+  - V7-UNAPPROVED-S-103
+  - V7-UNAPPROVED-S-110
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: phone-ear-video
+  parent_item_ids:
+  - V7-UNAPPROVED-S-104
+  - V7-UNAPPROVED-S-105
+  - V7-UNAPPROVED-S-108
+  - V7-UNAPPROVED-S-111
+  evidence_vi: Giữ cùng ảnh/room/actor series theo ảnh đã xem và source-analysis owner
+    approve; chỉ must-link chống leakage, không independence hoặc officialsplit.
+- name: R8-red-uniform-pair
+  parent_item_ids:
+  - V7-R8-C-005
+  - V7-R8-C-006
+  evidence_vi: Cùng room/actor sequence, cropC005 owner uncertain nhìnU; không tách
+    group.
+- name: R8-two-boys
+  parent_item_ids:
+  - V7-R8-C-007
+  - V7-R8-C-008
+  evidence_vi: Cùng source ảnh hai anchor; owner approve, same-image must-link.
+- name: WMF-two-students
+  parent_item_ids:
+  - V7-PF-D-001
+  - V7-PF-D-002
+  evidence_vi: Cùng video-family/series, không độc lập theo frame/cut.
+- name: caro-series
+  parent_item_ids:
+  - V7-UNAPPROVED-C-001
+  - V7-UNAPPROVED-C-002
+  evidence_vi: Caro actor-series visual/analysis đã approve, không independentpose.

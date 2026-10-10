@@ -1,0 +1,30 @@
+screening:
+  path: artifacts/reports/pilot-b-v7-public-followup-20261010-r2/online-exam-screen/screening.jsonl
+  sha256: 5c663688ffc1ab351d897d919966918188af4aa3401907760ac4873b554b7105
+preprocessing:
+  path: configs/experiments/E003.yaml
+  sha256: e080a56dd676bf73cbc5e473a2683de7d13bfbdea406c2e407c725bc4f0424c1
+output: outputs/v7-online-exam-qa-20261010-r1
+credit: Students' Abnormal Behavior in Online Exam Dataset — Muhanad Alkhalisy, Zenodo
+  record14606173
+source_page: https://zenodo.org/records/14606173
+cases:
+- case_id: QA-ONLINE-001
+  screening_id: V7-ONLINE-SCREEN-007
+  proposed_states:
+  - P
+  - U
+  reason: 'Mobile có thân/ốp và camera phía sau, do tay anchor giữ bên trái khuôn
+    mặt: phone P đề xuất để owner kiểm evidence sau224. Device bị cắt ngay ảnh publisher;
+    không thể recrop phục hồi phần mất. Looking U vì own-workarea không thấy. Đây
+    là QA-only cho partial source trong online-exam, không dataset addition hoặc classroom
+    desk-phone.'
+- case_id: QA-ONLINE-002
+  screening_id: V7-ONLINE-SCREEN-005
+  proposed_states:
+  - U
+  - U
+  reason: Mặt quay sang bên nhưng không có bài/bàn/monitor riêng; looking U theo v7,
+    không map source side_watching thành P. Tay/vùng phone chưa đủ thấy nên phone
+    U. Publisher image đã crop cận mặt, recrop không tạo workarea bị mất; không thêm
+    crop để bù số.

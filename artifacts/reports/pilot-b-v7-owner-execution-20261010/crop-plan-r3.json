@@ -1,0 +1,1887 @@
+{
+  "status": "draft_geometry_labels_from_owner_approved_sources",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "crops": [
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-002",
+      "sample_id": "V7-OE-S002-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ tai nghe trước tablet",
+      "reason": "Tablet không mobile; hai tay và vùng đọc trước mặt, mắt hướng tablet. Owner approve hướng và giao crop.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        225,
+        20,
+        1024,
+        682
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-003",
+      "sample_id": "V7-OE-S003-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ áo hồng giữ mobile",
+      "reason": "Mobile thuộc người giữ bằng hai tay; sharedphone activity không đủ own-paper gaze nên U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        77,
+        676,
+        768
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-005",
+      "sample_id": "V7-OE-S005-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ áo trắng thao tác giấy/kéo",
+      "reason": "Tay và giấy/kéo trên own-workarea; không mobile, nhìn vùng thao tác. Auxiliary craft. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        184,
+        115,
+        625,
+        794
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-006",
+      "sample_id": "V7-OE-S006-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "trẻ áo đỏ thao tác laptop",
+      "reason": "Owner xác nhận laptop; giữ head/hai tay/laptop, looking về own-screen. Không map OI phonebbox=P.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        1024,
+        681
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-009",
+      "sample_id": "V7-OE-S009-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam tiền cảnh áo đen",
+      "reason": "Quay khỏi giấy/bút trước người để nhìn diễn giả. Tay/vùng bàn còn che nên phone U; lecture auxiliary.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        150,
+        522,
+        524
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-011",
+      "sample_id": "V7-OE-S011-A01",
+      "states": [
+        "U",
+        "U"
+      ],
+      "anchor": "học sinh nam thứ hai từ phải",
+      "reason": "Head/tay thấy được nhưng paper/workarea riêng chưa xác định cho đúng học sinh trong hàng bàn chung; không gán P từ face/headturn. PhoneU/lookingU, source vẫn ownerapprove; crop QA-only.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        522,
+        177,
+        973,
+        749
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-012",
+      "sample_id": "V7-OE-S012-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "trẻ áo vàng viết bài",
+      "reason": "Giữ mắt/bút/tay/own-page; nhìn bài riêng, bàn đủ quan sát không mobile.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        205,
+        169,
+        870,
+        753
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-019",
+      "sample_id": "V7-OE-S019-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam giữa áo đen trước laptop",
+      "reason": "Mắt hướng laptop trước anchor; tay gần mặt và bàn một phần bị che nên phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        276,
+        143,
+        696,
+        642
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-020",
+      "sample_id": "V7-OE-S020-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "trẻ tiền cảnh thao tác vật nhỏ",
+      "reason": "Vật chơi trên bàn rõ, tay không giữ mobile, nhìn đúng workarea; auxiliary play.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        184,
+        492,
+        760
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-021",
+      "sample_id": "V7-OE-S021-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam ngồi viết giấy",
+      "reason": "Giữ đầu/hai tay/own-page, viết bài; nữ đứng không gán target. Auxiliary office.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        512,
+        287,
+        1024,
+        819
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-022",
+      "sample_id": "V7-OE-S022-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nữ trước bàn cờ",
+      "reason": "Mặt hướng camera ngoài own-board; đồng hồ cờ không mobile, bàn/tay bị che một phần phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        143,
+        0,
+        922,
+        651
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-023",
+      "sample_id": "V7-OE-S023-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam kính tiền cảnh trước monitor",
+      "reason": "Mặt hướng own-monitor, giữ screen/bàn/tay; bàn/tay ngoài nguồn một phần nên phone U. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        184,
+        683,
+        1014
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-024",
+      "sample_id": "V7-OE-S024-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nữ tiền cảnh áo nâu",
+      "reason": "Own-laptop trên bàn lệch trái, mặt nhìn giảng viên ngoài máy; tay/vùng bàn chưa đủ phone negative.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        399,
+        246,
+        758,
+        676
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-025",
+      "sample_id": "V7-OE-S025-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nữ scout tiền cảnh",
+      "reason": "Mặt nhìn lên khỏi trang/pen ở phía trái bàn riêng, không gán camera intent; bàn bị che phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        1024,
+        683
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-027",
+      "sample_id": "V7-OE-S027-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam hoodie tiền cảnh phải",
+      "reason": "Cúi nhìn vật ở tay gần own-laptop; device chưa rõ, phone U. Looking N theo workarea trước người.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        430,
+        307,
+        973,
+        760
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-030",
+      "sample_id": "V7-OE-S030-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam gập người thao tác laptop",
+      "reason": "Laptop và hai tay own-keyboard rõ, không phone trong vùng quan sát. Auxiliary.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        92,
+        768,
+        922
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-033",
+      "sample_id": "V7-OE-S033-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo đen trái ngồi trước laptop",
+      "reason": "Headturn hướng giảng viên bên phải ngoài own-laptop/trang. Tay/bàn một phần che phone U. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        169,
+        666,
+        760
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-034",
+      "sample_id": "V7-OE-S034-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam hướng dẫn tiền cảnh cầm công cụ",
+      "reason": "Giữ head/tay và khay thí nghiệm, đang hướng đúng workarea chung trước mình; không mobile thấy được, không exam. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        553,
+        61,
+        1024,
+        674
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-035",
+      "sample_id": "V7-OE-S035-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ găng tay trước khay",
+      "reason": "Owner approve: nhìn mẫu đang thao tác, giữ đầu/hai tay/công cụ; không mobile, auxiliary lab.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        61,
+        1004,
+        760
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-039",
+      "sample_id": "V7-OE-S039-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo đen ngồi trước laptop",
+      "reason": "Ownlaptop/bài trước anchor, quay sang người đứng ngoài workarea; tay che mặt, phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        806,
+        216,
+        1632,
+        847
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-040",
+      "sample_id": "V7-OE-S040-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ áo cam cầm phone",
+      "reason": "Ownphone trong hai tay trên giấy; source cắt một phần đầu, looking U; phone partial224.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        346,
+        205,
+        1920,
+        2560
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-041",
+      "sample_id": "V7-OE-S041-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam kính tiền cảnh phải",
+      "reason": "Head/hai tay/own-notebook rõ, mắt xuống vùng viết; bàn một phần bị crop/neighbor, phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        768,
+        403,
+        1920,
+        1426
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-042",
+      "sample_id": "V7-OE-S042-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo xanh ngoài phải",
+      "reason": "Owner xác nhận ownphone cầm trên laptop và mắt nhìn phone; giữ đầu/hai tay/device/bàn. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        1258,
+        389,
+        1766,
+        1267
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-042",
+      "sample_id": "V7-OE-S042-A02",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo trắng ngoài trái",
+      "reason": "Owner xác nhận cầm tài liệu/nhìn vào tài liệu; hai tay/own-paper rõ, không mobile trong workarea.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        432,
+        499,
+        1354
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-043",
+      "sample_id": "V7-OE-S043-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo xám",
+      "reason": "Owner xác nhận phone thuộc nam áo xám; badge đỏ/hồng trên ngực không phone. Áp tai ở S043/nhìn device ở S044; gaze so own-paper chưa đủ.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        922,
+        360,
+        1536,
+        1210
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-043",
+      "sample_id": "V7-OE-S043-A02",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nữ phía phải",
+      "reason": "Owner xác nhận phone trên bàn của nữ, mặt nhìn ngoài vùng bàn riêng; giữ head/desk/device.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        1382,
+        346,
+        1920,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-043",
+      "sample_id": "V7-OE-S043-A03",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "nam áo đen trái",
+      "reason": "Owner xác nhận own-phone trên bàn; S043 nhìn own-paper, S044 quay lên khỏi giấy. Same family/scene, không independent.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        346,
+        538,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-043",
+      "sample_id": "V7-OE-S043-A04",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo trắng kính",
+      "reason": "Owner: không nhìn own-paper; vật trên bàn cạnh mũ/giấy unknown nên phone U, không dùng badge/mũ thành P.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        346,
+        360,
+        1046,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-044",
+      "sample_id": "V7-OE-S044-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo xám",
+      "reason": "Owner xác nhận phone thuộc nam áo xám; badge đỏ/hồng trên ngực không phone. Áp tai ở S043/nhìn device ở S044; gaze so own-paper chưa đủ.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        922,
+        360,
+        1536,
+        1210
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-044",
+      "sample_id": "V7-OE-S044-A02",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nữ phía phải",
+      "reason": "Owner xác nhận phone trên bàn của nữ, mặt nhìn ngoài vùng bàn riêng; giữ head/desk/device.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        1382,
+        346,
+        1920,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-044",
+      "sample_id": "V7-OE-S044-A03",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nam áo đen trái",
+      "reason": "Owner xác nhận own-phone trên bàn; S043 nhìn own-paper, S044 quay lên khỏi giấy. Same family/scene, không independent.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        346,
+        538,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-044",
+      "sample_id": "V7-OE-S044-A04",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo trắng kính",
+      "reason": "Owner: không nhìn own-paper; vật trên bàn cạnh mũ/giấy unknown nên phone U, không dùng badge/mũ thành P.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        346,
+        360,
+        1046,
+        1238
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-047",
+      "sample_id": "V7-OE-S047-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo cam trước own-laptop",
+      "reason": "Hai tay ownkeyboard, mắt xuống ownscreen, không thấy mobile. Same RAN24 series với C005-C007.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        134,
+        0,
+        1555,
+        1126
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-049",
+      "sample_id": "V7-OE-S049-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam trắng ngồi tiền cảnh",
+      "reason": "Ownmobile cầm thấp dưới bàn trong hai tay; nhìn về device, nhưng source thiếu đủ eye/workarea chắc sau224 nên looking U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        154,
+        1331,
+        1920,
+        2560
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-050",
+      "sample_id": "V7-OE-S050-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "học sinh phải viết giấy",
+      "reason": "Own-paper/tay/bút rõ, mắt hướng viết; không mobile vùng bàn quan sát.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        826,
+        72,
+        1901,
+        1339
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-050",
+      "sample_id": "V7-OE-S050-A02",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "học sinh trái viết giấy",
+      "reason": "Cùng source với anchor phải; giữ own-page, head và hai tay. Không split hai anchor. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        259,
+        826,
+        1382
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-051",
+      "sample_id": "V7-OE-S051-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo trắng phải giữ mobile",
+      "reason": "Phone trong tay nam phải; không gán cho người khác cùng nhìn. Sharedphone/own-laptop gaze còn U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        845,
+        383,
+        1920,
+        1277
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-052",
+      "sample_id": "V7-OE-S052-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "học sinh áo nâu tiền cảnh phải",
+      "reason": "Owner chỉ gán phone cho học sinh có ownlaptop/phone trên bàn. Giữ head/hands/own-workarea; eyes nhìn ra trước nhưng own-task màn hình không chắc nên U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        1018,
+        485,
+        1920,
+        1078
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-053",
+      "sample_id": "V7-OE-S053-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam kính áo xanh",
+      "reason": "Tablet/laptop không phone, nhìn own-workarea màn hình/paper. Hai tay thấy được trên bàn.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        1018,
+        424,
+        1920,
+        1246
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-054",
+      "sample_id": "V7-OE-S054-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ kính tóc đỏ",
+      "reason": "Người chưa có crop ở cùng Tabletunterricht với PF-A006; own-tablet/tay/page rõ, không mobile, looking ownscreen.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        365,
+        186,
+        1248,
+        1009
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-055",
+      "sample_id": "V7-OE-S055-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo trắng bên phải bàn",
+      "reason": "Mặt hướng diễn giả/bảng ngoài own-laptop, bàn/device một phần che nên phone U; workshop auxiliary.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        922,
+        320,
+        1498,
+        1216
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-056",
+      "sample_id": "V7-OE-S056-A01",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "nam kính trái",
+      "reason": "Owner xác nhận phone đen trên bàn cạnh ownlaptop; mặt hướng ownscreen, giữ device/head/hands.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        187,
+        1248,
+        1440
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-056",
+      "sample_id": "V7-OE-S056-A02",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "người áo xanh phải",
+      "reason": "Owner xác nhận phone đen trên paper cạnh ownlaptop; mắt hướng screen trước người. Cùng ảnh/room với anchor trái.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        979,
+        302,
+        1920,
+        1440
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-057",
+      "sample_id": "V7-OE-S057-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam áo trắng tiền cảnh trái",
+      "reason": "Owner: vật giống phone cạnh ownlaptop, chưa chắc type nên U; cầm bút nhìn own-laptop nên looking N.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        154,
+        590,
+        1114,
+        1426
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-057",
+      "sample_id": "V7-OE-S057-A02",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo trắng đứng cạnh nữ xanh",
+      "reason": "Owner xác nhận phone trên bàn cạnh tay nam; sharedlaptop với nữ xanh chưa chốt ownworkarea nên looking U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        787,
+        482,
+        1344,
+        1339
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-058",
+      "sample_id": "V7-OE-S058-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "trẻ áo vàng giữa đang viết",
+      "reason": "Cầm bút trên ownpage, mắt xuống; tay/desk bị teacher/neighbor che nên phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        313,
+        324,
+        788,
+        706
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-059",
+      "sample_id": "V7-OE-S059-A01",
+      "states": [
+        "U",
+        "U"
+      ],
+      "anchor": "học sinh áo xanh phải tiền cảnh",
+      "reason": "Crowded Pabna có face nhưng own-workarea của học sinh/thiết bị chung chưa xác minh, không suy lookingN từ hướng monitor; phoneU/lookingU, giữ QA-only cùng room-family.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        941,
+        578,
+        1594,
+        1359
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-061",
+      "sample_id": "V7-OE-S061-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nữ áo xanh tiền cảnh nhìn teacher",
+      "reason": "Có ownpaper/trang trên bàn, mặt nhìn lên teacher ngoài trang; tay/vùng bàn bị che phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        576,
+        709,
+        1402,
+        1403
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-063",
+      "sample_id": "V7-OE-S063-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ khăn trắng trước monitor",
+      "reason": "Mắt hướng ownmonitor/keyboard trước anchor; tay dưới bàn không phone N. Cùng Kiwix room/series.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        307,
+        448,
+        1920,
+        1280
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-064",
+      "sample_id": "V7-OE-S064-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ khăn trắng tiền cảnh phải",
+      "reason": "Head hướng monitor riêng bên trái; giữ keyboard/tay dù có neighbor. Phone U do occlusion; cùng Kiwix.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        403,
+        384,
+        1920,
+        1280
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-066",
+      "sample_id": "V7-OE-S066-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ kính trái tiền cảnh",
+      "reason": "Theo owner đang dùng phone; giữ head/tay/phone và calculator riêng. Eyes hướng vùng thao tác own-device/paper, không gán calculator=P. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        266,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-066",
+      "sample_id": "V7-OE-S066-A02",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "nữ trắng giữa viết bài",
+      "reason": "Owner xác nhận hai người dùngphone; giữ head/tay/own-page và mobile cạnh tay. Cùng ảnh/family với nữ kính.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        220,
+        51,
+        492,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-068",
+      "sample_id": "V7-OE-S068-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo trắng giữa nhìn trái",
+      "reason": "Ownpage nằm trước nam áo trắng, mặt quay sang bên ngoài trang; hands/desk chưa đủ phone negative.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        189,
+        87,
+        374,
+        369
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-068",
+      "sample_id": "V7-OE-S068-A02",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo xanh tiền cảnh viết",
+      "reason": "Head/mắt/bút/hai tay/ownpage đủ, nhìn bài riêng và không mobile trên bàn quan sát.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        159,
+        205,
+        410,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-069",
+      "sample_id": "V7-OE-S069-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ denim giữa giữ mobile",
+      "reason": "Ownmobile giữ bằng hai tay, eyes nhìn device trước người; target looking là own-workarea mobile đang thao tác, không looking around từ nhìn phone. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        169,
+        154,
+        415,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-070",
+      "sample_id": "V7-OE-S070-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ áo hồng phải giữ phone",
+      "reason": "Phone thuộc người cầm; eyes và tay hướng ownphone, giữ paper/bàn. Không gán P cho nữ denim cùng nhìn. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        266,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-071",
+      "sample_id": "V7-OE-S071-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ kính khăn đỏ giữ phone ngang",
+      "reason": "Ownmobile trong hai tay của nữ, không nam cạnh bên; gaze hướng device riêng trong workarea trước anchor. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        113,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-072",
+      "sample_id": "V7-OE-S072-A01",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nam caro tiền cảnh quay phải",
+      "reason": "Phone đen cầm thấp tay phải bên own-desk; headturn khỏi own-paper để nhìn người sau. Giữ cảdevice thấp.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        128,
+        333,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-073",
+      "sample_id": "V7-OE-S073-A01",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "nữ hoodie tiền cảnh",
+      "reason": "Phone nhỏ giữ thấp, eyes xuống trang/bút riêng; giữ cả head/tay/paper/device thấp.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        56,
+        0,
+        364,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-074",
+      "sample_id": "V7-OE-S074-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nữ áo xám giữ mobile thấp",
+      "reason": "Phone thuộc tay nữ, eyes nhìn owndevice trước bàn có sách. Giữ device thấp cạnh đùi. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        174,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-076",
+      "sample_id": "V7-OE-S076-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam tiền cảnh viết",
+      "reason": "Giữ head/bút/ownpage phía trên phụ đề; gaze xuống workarea, tay che mặt nên phone U. Loại text overlay khỏi crop.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        5,
+        0,
+        369,
+        392
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-077",
+      "sample_id": "V7-OE-S077-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam áo xám phải",
+      "reason": "Owner xác nhận quay khỏi ownmonitor trước bàn; vật của nam trái chưa rõ và không gán cho nam phải; phone U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        164,
+        36,
+        486,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-080",
+      "sample_id": "V7-OE-S080-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam kính chống đầu",
+      "reason": "Mobile đen trên own-paper ở mép dưới, owner approvephone evidence. Mắt nhắm/ngủ không suy N/P: looking U.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-081",
+      "sample_id": "V7-OE-S081-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ kính ở giữa hàng bàn xanh",
+      "reason": "Giữ ownpage/bút/hands và head; mắt nhìn xuống workarea. Không lặp anchor R8-C001/C002; samefamily.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        250,
+        211,
+        397,
+        480
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-082",
+      "sample_id": "V7-OE-S082-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo đen trái viết bài",
+      "reason": "Giữ head/tay/ownpage, crop phía trên subtitle. Khôngphone vùngbàn quan sát; looking ownpaper.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        339,
+        506
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-084",
+      "sample_id": "V7-OE-S084-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam kính chống đầu trước giấy",
+      "reason": "Vật nhỏ trên bàn là đồng hồ/đồ tròn, không mobile. Bút/page rõ, eye/head hướng bài; crop text overlay ra ngoài.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        173,
+        32,
+        461,
+        486
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-085",
+      "sample_id": "V7-OE-S085-A01",
+      "states": [
+        "N",
+        "P"
+      ],
+      "anchor": "nam kính tiền cảnh",
+      "reason": "Hai tay cùng bút/ownpage không phone, mặt quay trái ngoài trang. Neighbor chỉ context.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        21,
+        416,
+        416
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-086",
+      "sample_id": "V7-OE-S086-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nữ khăn đỏ giơ tay phải",
+      "reason": "Ownpaper trên bàn trước nữ, head nhìn lên ngoài trang; giơtay/deskche nênphone U. Giữ crop tránh logo Youku góc phải.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        689,
+        54,
+        1221,
+        1077
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-087",
+      "sample_id": "V7-OE-S087-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ tiền cảnh cúi viết",
+      "reason": "Head/bút/page/hands đủ, mắt xuống bài, khôngmobile. Crop tránh hình-inset/TV logo phía phải dưới. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        223,
+        170,
+        421,
+        400
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-088",
+      "sample_id": "V7-OE-S088-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ tiền cảnh áo đen đọc giấy",
+      "reason": "Ownpage/tay có thấy, head nhìn xuống trang; phoneU vìbàn/neighbor che. Cùngsource-family với S091.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        392,
+        212,
+        648,
+        448
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-089",
+      "sample_id": "V7-OE-S089-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nam đồng phục tiền cảnh giữa-phải",
+      "reason": "Ownpaper trước người, bút/head hướng trang; giữanchor thật khôngreflection, desk/hands chephone U. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        408,
+        202,
+        744,
+        448
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-090",
+      "sample_id": "V7-OE-S090-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ áo xanh tiền cảnh phải",
+      "reason": "Giữ head/ownpage/tay viết, eyes xuống trang; lowdetail vàdeskche phoneU, không tạo independence.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        351,
+        232,
+        790,
+        463
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-091",
+      "sample_id": "V7-OE-S091-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ giữa đọc trang",
+      "reason": "Ownpage/hand/head đọc, phoneU do deskche; cùng classroom-family S088. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        240,
+        108,
+        548,
+        448
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-093",
+      "sample_id": "V7-OE-S093-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo đen foreground",
+      "reason": "Giữ ownpaper/bút/head/hands, looking N, đủ bànkhôngmobile. Không dùngnhãnwritingnguồn thayQA. QA R2: mở crop giữ head/hair/eyes và own-workarea bị cắt ở draft đầu; không thay source.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        730,
+        317,
+        1709,
+        1013
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-094",
+      "sample_id": "V7-OE-S094-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "nam khăn đỏ kính giơ tay",
+      "reason": "Ownpage trên bàn, head nhìn teacher ngoài trang. Hands/deskche nênphoneU.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        274,
+        281,
+        734,
+        877
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-095",
+      "sample_id": "V7-OE-S095-A01",
+      "states": [
+        "U",
+        "U"
+      ],
+      "anchor": "nữ khăn đỏ trước trang hồng",
+      "reason": "Nữ giữ trang hồng nhưng gaze ở source nhỏ không đủ xác định đọc trang hay nhìn teacher/camera. Không chốt lookingN từ cầm giấy; phoneU/lookingU, giữ QA-only.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        459,
+        223,
+        695,
+        500
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-096",
+      "sample_id": "V7-OE-S096-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo navy foreground phải",
+      "reason": "Head/pen/twohands/ownpage thấy, eyesownpaper và khôngmobile workarea.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        967,
+        288,
+        1546,
+        798
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-099",
+      "sample_id": "V7-OE-S099-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ foreground cúi viết",
+      "reason": "Head/bút/hai tay/ownpaper đủ, lookingN/phoneN sauQA224. Cùngroomkhôngnhiềusession.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        395,
+        184,
+        693,
+        477
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-101",
+      "sample_id": "V7-OE-S101-A01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "nữ kính foreground viết",
+      "reason": "Eyes/page/bút cùngworkarea; taydeskche phoneU. Croplimitedsmall224 dựphòng.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        999,
+        360,
+        1413,
+        852
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-102",
+      "sample_id": "V7-OE-S102-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo tím foreground",
+      "reason": "Giữ hai tay/bút/page, head/eyes xuống ownpaper; khôngmobile trongworkarea đượcgiữ.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        128,
+        279,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-102",
+      "sample_id": "V7-OE-S102-A02",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nam áo đen phía sau",
+      "reason": "Mobile đen trên own-desk cạnhpaper thuộcanchor, quayphải khỏiownpage. Samefamily bànđơn S109/S113/S116.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        241,
+        138,
+        461,
+        456
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-103",
+      "sample_id": "V7-OE-S103-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam áo đen bên trái",
+      "reason": "Góc trênownpage/head/hai tay writing; no mobiletrongown-workarea. Samefamily S110.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        266,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-104",
+      "sample_id": "V7-OE-S104-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam áo trắng giữphone",
+      "reason": "Ownmobile trongtay trước mặt, eyes/device hướngtrước; giấytrướcngười nhưnggaze tươngtácphone chưa chắc so bài, lookingU. Crop bỏsubtitle phía dưới.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        110,
+        118,
+        430,
+        399
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-105",
+      "sample_id": "V7-OE-S105-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "nam trắngphone áp tai",
+      "reason": "Mobile áp tai do tayanchor giữ; gaze/writing chưa đủ chắcU. Crop bỏsubtitle.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        128,
+        87,
+        417,
+        415
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-106",
+      "sample_id": "V7-OE-S106-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữ hồng dùngtablet",
+      "reason": "Tablet đượcownerapprove khôngmobile; eyes/hands hướngownscreen sách trênbàn, crop đủanchor. Namđứngphone nhưngđầu ngoàiảnh không làmcropchính.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        271,
+        108,
+        512,
+        415
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-107",
+      "sample_id": "V7-OE-S107-A01",
+      "states": [
+        "P",
+        "U"
+      ],
+      "anchor": "namcaro giữphone trênvở",
+      "reason": "Ownmobile do haitay giữ, eyes hướngownmobile/ownworkarea; phoneheld small/partial; classroomaux source. Nhìn ownphone không tự chứng minh nhìn bài riêng; looking U khi focal workarea chưa được chốt theo ADR012.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        31,
+        410,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-108",
+      "sample_id": "V7-OE-S108-A01",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nam trắngphone áp tai nhìntrái",
+      "reason": "Phone áp tai thuộcanchor, mặt quaytrái ra ngoài ownpage khi tay kia viếttờgiấy; bỏsubtitle.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        118,
+        10,
+        445,
+        410
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-109",
+      "sample_id": "V7-OE-S109-A01",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "namáođỏ/tím trái",
+      "reason": "Theo ownerphone trênbàn làbút; crop giữunderdesk mobile tayanchor nếu thấyđúngownership, lookingP theophản hồiowner. Điều kiệnphoneP cầnQA224. Native source: cả hai tay chạm hai đầu mobile chung dưới bàn, P dựa liên kết tay-device, không gán theo khoảng cách hoặc tabletoppen.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        26,
+        123,
+        317,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-109",
+      "sample_id": "V7-OE-S109-A02",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "namáođenphải",
+      "reason": "Giữhead/page vàphoneundertable ởtayanchor theoownerclarification nếu thấyđúng người; lookingN ownpaper. Cùngảnh/groupanchor trái. Native source: cả hai tay chạm hai đầu mobile chung dưới bàn, P dựa liên kết tay-device, không gán theo khoảng cách hoặc tabletoppen.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        215,
+        79,
+        476,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-110",
+      "sample_id": "V7-OE-S110-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "namáođen giữa viếttừgóctrên",
+      "reason": "Head/haitay/ownpaper/bút rõ, gazeownpage. Sameseries vớiS103, khôngindependent.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        179,
+        41,
+        456,
+        512
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-111",
+      "sample_id": "V7-OE-S111-A01",
+      "states": [
+        "P",
+        "N"
+      ],
+      "anchor": "namáotrắngphoneáp tai viết",
+      "reason": "Ownphoneởtai, tay còn lại viếttờgiấy/eyes xuốngworkarea; crop phải bỏsubtitle nhưng giữ đầy đủtay/bút/page. NếuQA không bỏđượctext thì quarantinecrop.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        4,
+        416,
+        337
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-112",
+      "sample_id": "V7-OE-S112-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "namcaro foreground viết",
+      "reason": "Owner xácnhận vật xanh làsách, khôngcalculator. Giữownpage/bút/hai tay, lookingN/phoneN.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        21,
+        79,
+        264,
+        381
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-113",
+      "sample_id": "V7-OE-S113-A01",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "namáotímtrái",
+      "reason": "Theoowner giốngS109: tabletopbút khôngphone, mặt ra ngoài ownpage. Phone dưới bàn chưa thấy ownership đủ thìU, khôngnhãnP từpen.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        29,
+        166,
+        371,
+        640
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-113",
+      "sample_id": "V7-OE-S113-A02",
+      "states": [
+        "U",
+        "N"
+      ],
+      "anchor": "namáođenphải",
+      "reason": "Ownpage/hands/head hướngviết. Tabletopvậtlàbút theoowner; underdesk khôngđủdevice/ownership thìU. Samegroup vớianchortrái.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        307,
+        154,
+        608,
+        640
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-114",
+      "sample_id": "V7-OE-S114-A01",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nữforegroundviếtcalculator",
+      "reason": "Calculator trênownbàn khôngmobile; eyes/hands ownpaper đủ; head/tay/bàn giữ.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        304,
+        416
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-114",
+      "sample_id": "V7-OE-S114-A02",
+      "states": [
+        "U",
+        "P"
+      ],
+      "anchor": "namáonâu background",
+      "reason": "Nam áo nâu phía sau có ownpaper/bút, quay mắt về nữ bên trái ngoài trang. Vật đen mép bàn/source rất partial, chưa đủ mobile body tại224 nên phoneU, không thêmP từ vật clipped. Head bị source cắt một phần vẫn giữ mặt/eyes.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        187,
+        0,
+        416,
+        349
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-115",
+      "sample_id": "V7-OE-S115-A01",
+      "states": [
+        "U",
+        "U"
+      ],
+      "anchor": "nữ ngủtrướclaptop",
+      "reason": "Owner: device khó xác nhận, đang ngủ dù head hướng laptop; phoneU/lookingU, không suy N từ hướng đầu. Giữ QA-only không supervision.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        0,
+        391,
+        416
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-116",
+      "sample_id": "V7-OE-S116-A01",
+      "states": [
+        "P",
+        "P"
+      ],
+      "anchor": "nam tím foreground",
+      "reason": "Ownerapprovephoneđensát tay/bàn, mặt rờiownpage nhìntrước. NeeddeviceQA: không dùngpen nhỏ trênpage làmphone; chỉP nếubodymobile rõ.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        0,
+        77,
+        355,
+        640
+      ]
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-116",
+      "sample_id": "V7-OE-S116-A02",
+      "states": [
+        "N",
+        "N"
+      ],
+      "anchor": "nam đen background viết",
+      "reason": "Giữhead/haitay/bút/ownpage, eyes xuốngworkarea. N khiownbàn khôngmobile thấy; sameseries khôngnewsplits.",
+      "owner_source_approved": true,
+      "exact_new_crop_owner_approved": false,
+      "xyxy": [
+        314,
+        115,
+        550,
+        592
+      ]
+    }
+  ],
+  "reserved_sources": [
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-004",
+      "owner_approved": true,
+      "reason": "Mặt quay lưng, bàn/màn hình che tay; không chốt target có ích hơn U/U.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-015",
+      "owner_approved": true,
+      "reason": "Hai người ngồi không giữ own-workarea, không gán looking P từ nhìn teacher.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-018",
+      "owner_approved": true,
+      "reason": "Ảnh pose với bàn chung, workarea riêng không chắc; giữ source approved dự phòng.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-026",
+      "owner_approved": true,
+      "reason": "Trẻ nhìn người đứng nhưng không xác định bài riêng, mặt/tay/workarea thiếu.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-028",
+      "owner_approved": true,
+      "reason": "Shared demonstration laptop, hai người cùng nhìn; own-workarea/phone absence chưa đủ.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-031",
+      "owner_approved": true,
+      "reason": "Góc sau đầu nhiều người và bàn chung; không đủ gaze relative own-paper của anchor.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-032",
+      "owner_approved": true,
+      "reason": "Anchor đứng cầm đồ trong lớp, không có own-workarea cho looking; vật nhỏ không rõ.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-036",
+      "owner_approved": true,
+      "reason": "Cảnh therapy/sharedscreen, mất mắt/tay/bàn; ngoài classroom quota và chưa có known target.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-038",
+      "owner_approved": true,
+      "reason": "Mất đầu anchor, chỉ tay trên laptop; không có gain target chắc.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-060",
+      "owner_approved": true,
+      "reason": "Góc sau room Pabna, bàn riêng/mặt không thấy; cùng cảnh không tạo independence.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-062",
+      "owner_approved": true,
+      "reason": "Sharedscreen nhiều che khuất; giữ approvedsource, không ép P/N từ teacher chỉ tay.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-065",
+      "owner_approved": true,
+      "reason": "Chỉ lưng, sharedscreen; không đủ anchor/head/workarea.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-083",
+      "owner_approved": true,
+      "reason": "Theo owner phone U; source mất đầu nên looking U. Giữ source/crop evidence U/U review_only.",
+      "not_owner_rejection": true
+    },
+    {
+      "parent_item_id": "V7-UNAPPROVED-S-100",
+      "owner_approved": true,
+      "reason": "Góc sau lớp, tay/page/head không cùng anchor rõ; source approved dự phòng.",
+      "not_owner_rejection": true
+    }
+  ],
+  "label_updates": [
+    {
+      "sample_id": "V7-R8-C-005",
+      "states": [
+        "U",
+        "U"
+      ],
+      "reason": "Owner: ảnh mờ, không thấy mắt/hướng nhìn đủ chắc; giữ looking U, không sửa ảnh."
+    }
+  ]
+}

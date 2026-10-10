@@ -1,0 +1,44 @@
+{
+  "status": "draft_not_owner_approval",
+  "decision": null,
+  "owner": "repository-owner",
+  "scope_proposal": "local_classifier_research",
+  "proposed_counts": {
+    "train": 689,
+    "val": 49,
+    "test": 11,
+    "review_only": 122,
+    "excluded": 29
+  },
+  "batch_new_crops": 99,
+  "new_crops_in_proposed_train": 90,
+  "whole_components": 449,
+  "crop_review": {
+    "path": "outputs/v7-owner-execution-20261010-r3/REVIEW.md",
+    "sha256": "86eb1c46373771d412c017d288be5379862bc853135ce4f2c05c62fd6931a13c"
+  },
+  "crop_ledger": {
+    "path": "outputs/v7-owner-execution-20261010-r3/staging-crops.jsonl",
+    "sha256": "b2e26efc53085752b731800da44e7ad31bc717c15cc07a322d7cadea717a9ba6"
+  },
+  "assignment": {
+    "path": "outputs/v7-local-release-preparation-20261010-r2/proposed-assignment.jsonl",
+    "sha256": "6871dce3c03c25f25033dad274f9d74d6995ae86c7dd31a04c948028bc5ebf65"
+  },
+  "whole_family": {
+    "path": "outputs/v7-local-release-preparation-20261010-r2/whole-family-proposal.json",
+    "sha256": "b833e80b7ccd394f54f7b52b20edcb4fe45e72fc03967e0a556665b8681cceae"
+  },
+  "rights": {
+    "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/local-rights-proposal.jsonl",
+    "sha256": "b7495934ce922cbc872ed293017931e62ebe171643782e5d1925fc1e382e77bf"
+  },
+  "parent_corrections": {
+    "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/parent-correction-proposals.jsonl",
+    "sha256": "c14e3c5168e06b6e69c7a32677cb85f3afd871da53afaf9636c9b4be3cd8d070"
+  },
+  "exceptions": null,
+  "training_run_approved": false,
+  "media_upload_approved": false,
+  "purpose": "Owner nghiệm thu crop/nhãn mới, rights/use scope local và finalwhole-family/membership/split trước ký release. Không coi filetemplate là authorization."
+}

@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-08",
+  "status": "verification_pass_proposal_not_approved",
+  "baseline_git_commit": "8ae70f152984350babc124c7db1e69149f4b7ff8",
+  "owner": "repository-owner",
+  "scope": "Phân tích/review proposal, không train/final test/promotion",
+  "commands": [
+    {
+      "command": "outputs/E001-env/Scripts/python.exe -X utf8 -m unittest discover -s tests -v",
+      "result": "PASS",
+      "tests": 168,
+      "skipped": 0,
+      "seconds": 25.498,
+      "log": "outputs/E004-research-20261008/full-tests.log",
+      "log_sha256": "714a1b73a276ee601716c2e06da11fdc7df13f59191129ea8a9b3c64321684ce"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -X utf8 -m unittest discover -s tests -p test_error_audit.py -v",
+      "result": "PASS",
+      "tests": 6
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m ruff check src tests scripts",
+      "result": "PASS"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m compileall -q src tests scripts",
+      "result": "PASS"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m mypy src/ai_exam_monitoring/training/error_audit.py",
+      "result": "PASS"
+    },
+    {
+      "command": "outputs/E001-env/Scripts/python.exe -m pip check",
+      "result": "PASS"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -X utf8 scripts/check_repo.py --require-git",
+      "result": "PASS",
+      "limitation": "Checker chỉ Git index; new files được kiểm forbidden_path riêng"
+    },
+    {
+      "command": "git diff --check; git diff --no-index --check NUL <mỗi file mới>",
+      "result": "PASS",
+      "new_files_checked": 14
+    }
+  ],
+  "audit": {
+    "error_cells": 49,
+    "unique_images": 48,
+    "fn_cells": 46,
+    "label_recheck_cells": 12,
+    "factor_counts": {
+      "ambiguous_label": 11,
+      "crowded_context": 14,
+      "hand_occlusion": 15,
+      "head_back": 5,
+      "head_forward_up": 1,
+      "head_side": 17,
+      "head_tilt": 1,
+      "held_phone": 14,
+      "low_detail": 17,
+      "off_domain": 10,
+      "overlay_text": 1,
+      "partial_evidence": 9,
+      "phone_at_ear": 2,
+      "phone_on_desk": 7,
+      "reading_writing": 3,
+      "resting_pose": 4,
+      "small_evidence": 24,
+      "source_noise": 3
+    },
+    "test_media_read": false,
+    "inference_executed": false
+  },
+  "immutable_input_pins_rechecked": 11,
+  "e003_run_artifact_checksums": "PASS khi build audit, input SHA giữ nguyên sau validation",
+  "source_crop_sha_and_pixel_equality": "PASS cho49finding/48ảnh",
+  "draft_plan_rejected_by_trainer": true,
+  "local_media_sheets": 13,
+  "local_media_checksums": {
+    "path": "outputs/E004-research-20261008/review-final/media-checksums.json",
+    "sha256": "2d0e5b105631031e75b8d57f06c41f2567f1a769a4ae72dec50ff5a4d305af46"
+  },
+  "new_markdown_links": [
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../decisions/ADR-017-e004-classifier-promotion-gates.md"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../configs/experiments/E004-plan.yaml"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../configs/datasets/pilot_b_v7_targeted_plan.yaml"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../artifacts/reports/E004-research-20261008/e003-audit/fn-audit.md"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../artifacts/reports/E004-research-20261008/e003-audit/audit.json"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../artifacts/reports/E004-research-20261008/e003-audit/summary.json"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../data/E004-public-holdout-research-20261008.md"
+    },
+    {
+      "document": "docs/experiments/E004-preparation.md",
+      "target": "../../configs/experiments/E004-plan.yaml"
+    },
+    {
+      "document": "docs/decisions/ADR-017-e004-classifier-promotion-gates.md",
+      "target": "../experiments/E003-results.md"
+    },
+    {
+      "document": "docs/decisions/ADR-017-e004-classifier-promotion-gates.md",
+      "target": "../../artifacts/reports/E004-research-20261008/e003-audit/fn-audit.md"
+    },
+    {
+      "document": "docs/decisions/ADR-017-e004-classifier-promotion-gates.md",
+      "target": "../experiments/E004-preparation.md"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../docs/experiments/E004-preparation.md"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "e003-audit/fn-audit.md"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "e003-audit/audit.json"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "e003-audit/summary.json"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "visual-findings.json"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../docs/decisions/ADR-017-e004-classifier-promotion-gates.md"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../docs/data/E004-public-holdout-research-20261008.md"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../configs/datasets/pilot_b_v7_targeted_plan.yaml"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../configs/experiments/E004-plan.yaml"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../outputs/E004-research-20261008/review-final"
+    },
+    {
+      "document": "artifacts/reports/E004-research-20261008/README.md",
+      "target": "../../../outputs/E004-research-20261008/review-final/media-checksums.json"
+    }
+  ],
+  "test_media_read": false,
+  "real_model_inference": false,
+  "training_run": false,
+  "external_media_upload": false,
+  "dataset_mutation": false,
+  "v7_accepted": false,
+  "independent_holdout_accepted": false,
+  "eligible_for_promotion": false,
+  "protected_tracked_files_unchanged": true,
+  "public_research_limitation": "Chỉ metadata/web sơ cấp; chưa tải/audit raw public mới, chưa chứng minh độc lập hoặc coverage/consent/use scope đủ",
+  "owner_decisions_pending": [
+    "TBD-METRIC-01/ADR017",
+    "TBD-V7-MEMBERSHIP/SPLIT",
+    "TBD-E004-HOLDOUT-SOURCE",
+    "TBD-E004-RECIPE/COMPUTE",
+    "Crop/text conflict EXP-RF-014 và12cell re-review"
+  ]
+}

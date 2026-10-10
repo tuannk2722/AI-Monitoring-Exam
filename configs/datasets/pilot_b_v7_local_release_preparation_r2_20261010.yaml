@@ -1,0 +1,61 @@
+status: owner_authorized_local_preparation_not_release_acceptance
+output: outputs/v7-local-release-preparation-20261010-r2
+inputs:
+  parent_ledger:
+    path: data/processed/pilot-b/pilot-b-20261007-v6/review-ledger.jsonl
+    sha256: c8873f46512a45c6eec6312a87dde3e2177feffe6fb759c71fa54f2e99d47ec8
+  pool:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/v7-pool-preparation.jsonl
+    sha256: b7dafb82a98df9749eccc07a4149760803d5c318fdbd0fc421a1fb8053df7ac2
+  parent_corrections:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/parent-correction-proposals.jsonl
+    sha256: c14e3c5168e06b6e69c7a32677cb85f3afd871da53afaf9636c9b4be3cd8d070
+  components:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/v7-whole-component-preparation.json
+    sha256: 2eced5600c3abdd6d2bf4e546bf0e0d4498d99ac57582c0f0e27e216050ce1a8
+  relations:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/local-whole-family-relations.json
+    sha256: 963ceca75281b0a7522bb80aae06f6a7963374000186e0398cc1bc21bef57d79
+  rights:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/local-rights-proposal.jsonl
+    sha256: b7495934ce922cbc872ed293017931e62ebe171643782e5d1925fc1e382e77bf
+  authorization:
+    path: artifacts/reports/pilot-b-v7-owner-execution-20261010/local-preparation-approval.json
+    sha256: 101b6e9385ea7c288463bd156e00fb61c8f52e7ff62ae2c8851aa7a78d356e95
+expected_counts:
+  train: 689
+  excluded: 29
+  val: 49
+  review_only: 122
+  test: 11
+policy: Giữ parent đã correction, whole-family và test11. New known chỉ proposed train;
+  rights blocker/U-U/evaluation-family ngoài train. Không ngầm ký release/train hoặc
+  chứng minh session độc lập.
+lineage_triage_distance: 12
+lineage_triage_is_not_eligibility_threshold: true
+dataset_version_proposal: pilot-b-20261010-v7
+split_version_proposal: pilot-b-v7-local-whole-family-r1
+builder_sha256: bbeb227f4f853e52672494d2adbc4b3443c5ff1a0bfbe7419b68d4f6235a34c6
+provenance_pins:
+- path: data/processed/pilot-b/pilot-b-20261007-v6/manifest.jsonl
+  sha256: 9fac24a0e3e02cb38675cbbf071366ea0702993c0c2013dcdd25645c57a194f7
+- path: data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256
+  sha256: 971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f
+- path: artifacts/reports/pilot-b-v7-r8-execution-20261009/owner-approval.json
+  sha256: 2b18be8c248e1843600c5ffb36de048a33622f008ee112f000f54ff43ce93c26
+- path: artifacts/reports/pilot-b-v6-release-20261007/owner-approval.json
+  sha256: d792457961d701259e6a7bc5da1fc43103fc9caf751a26387a39aa7e652a275a
+- path: artifacts/reports/pilot-b-v6-preparation-20261007/owner-scope-approval.json
+  sha256: e69cfde6b75249d90bf8a81d42894d1beadf09aeee0e481f9a643e82bb5a5209
+- path: configs/datasets/pilot_b_v7_unapproved_consolidated_r2_20261010.yaml
+  sha256: 024fc3e629fba58a1ddbceb9409feeb68c285bddd80cde5fb577b337a4afee00
+- path: artifacts/reports/pilot-b-v7-owner-execution-20261010/new-openimages-metadata-receipt.json
+  sha256: 656789621a6961a1e309a59141c074712e7fde31bcfa30951b8cfa3ad180d7ae
+- path: artifacts/reports/pilot-b-v7-targeted-20261008/parent-fingerprints-metadata.json
+  sha256: e54977c378e6d1a0fbfd1c6feded42ccfb4bd8232b926613c7b5803d2d58fd46
+- path: artifacts/reports/pilot-b-v7-owner-execution-20261010/lineage-fullpool-triage.json
+  sha256: d2150a562aa2c0dab4db63401e32e6199def7e33fbee56524f4aaf4c10e69f8b
+- path: outputs/v7-local-lineage-inspection-20261010-r1/pairs.json
+  sha256: 997dd0178356df51a28325faa8afb802b95917db0f5f4ab269f6984ec92acff4
+- path: outputs/v7-owner-execution-20261010-r3/checksums.sha256
+  sha256: 27698d96f5fcf3c3b89faece30d89de24456d996cdde67bfce23c04a75a7a6f6

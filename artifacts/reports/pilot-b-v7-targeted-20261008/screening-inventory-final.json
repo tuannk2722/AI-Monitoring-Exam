@@ -1,0 +1,84 @@
+{
+  "counts": {
+    "coco": 129,
+    "coco2": 80,
+    "coco3": 96,
+    "oi": 181,
+    "oi2": 18,
+    "oi3": 200,
+    "oi4": 199,
+    "rf": 300,
+    "scb": 100
+  },
+  "date": "2026-10-09",
+  "inventory_exhaustive": false,
+  "note": "Open Images bbox chỉ prefix301989888bytes có image groups đầy đủ; COCO eligible train/context shortlist, không toàn bộ dataset. Không tuyên bố hết supply public.",
+  "openimages_r4_failed_downloads": 1,
+  "records": 1303,
+  "screenings": [
+    {
+      "id": "rf",
+      "path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/screening.jsonl",
+      "payload_records": 300,
+      "sha256": "88ce2f912ec0e7a1dcf561db649a43cc348a8952b42e91a07791b295c3eaae4f",
+      "visual_panels_reviewed": 300
+    },
+    {
+      "id": "scb",
+      "path": "data/interim/pilot-b/v7-targeted-scb-screening-20261008-r1/screening.jsonl",
+      "payload_records": 100,
+      "sha256": "41b00927d6992fa4e4b5804120d3b4cf55827d8459b053130640ef35386fc194",
+      "visual_panels_reviewed": 100
+    },
+    {
+      "id": "coco",
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r1/screening.jsonl",
+      "payload_records": 129,
+      "sha256": "a149e8cf5e44d9f76fd9a23d6432578322dae266ff5d5511610abfabd6470788",
+      "visual_panels_reviewed": 129
+    },
+    {
+      "id": "oi",
+      "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r1/screening.jsonl",
+      "payload_records": 181,
+      "sha256": "e9d5bb4602c8e431590711e8ac1e0da378c76ca61f7b0792ae8b4258243faabf",
+      "visual_panels_reviewed": 181
+    },
+    {
+      "id": "coco2",
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r2/screening.jsonl",
+      "payload_records": 80,
+      "sha256": "a399bfa825c65fda2efa7415a01c458ace014f240801d195eef8806284ed3b4c",
+      "visual_panels_reviewed": 80
+    },
+    {
+      "id": "coco3",
+      "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r3/screening.jsonl",
+      "payload_records": 96,
+      "sha256": "0bdb980d4a0ce49b9973abf45855333b3fde70cf1fd07113df60e591ea842655",
+      "visual_panels_reviewed": 96
+    },
+    {
+      "id": "oi3",
+      "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r3/screening.jsonl",
+      "payload_records": 200,
+      "sha256": "781e7f4c64b0f48105ea47efd1efe8eb477eae7779a20a2d1085d8f1eb62138d",
+      "visual_panels_reviewed": 200
+    },
+    {
+      "id": "oi4",
+      "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r4/screening.jsonl",
+      "payload_records": 199,
+      "sha256": "4ed9aa4d5628fdcf5b7484c85ca719720e8e6a82d4a1a3bf0e74edd810114bb5",
+      "visual_panels_reviewed": 199
+    },
+    {
+      "id": "oi2",
+      "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r2/screening.jsonl",
+      "payload_records": 18,
+      "sha256": "51205eaf583fcfbb60b02b6091e17bc51f270edf233e00c8224472ae7154999a",
+      "visual_panels_reviewed": 18
+    }
+  ],
+  "visual_panels_reviewed": 1303
+}

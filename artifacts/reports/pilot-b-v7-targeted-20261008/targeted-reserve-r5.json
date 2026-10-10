@@ -1,0 +1,149 @@
+{
+  "status": "reserve_not_primary_quota",
+  "proposals": [
+    {
+      "candidate_id": "V7-B-081",
+      "screening_set": "coco3",
+      "screening_id": "V7-COCO-SCREEN-010",
+      "bucket": "B",
+      "role": "positive",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        63,
+        0,
+        500,
+        370
+      ],
+      "visual_family_hint": "COCO3-image-535137",
+      "person_unit_hint": "anchor",
+      "domain": "auxiliary_out_of_exam",
+      "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+      "phenotypes": [
+        "small_or_partial_held_phone",
+        "hand_occlusion",
+        "auxiliary_work_context"
+      ],
+      "pair_id": null,
+      "aliases": [],
+      "known_evaluation_family": false
+    },
+    {
+      "candidate_id": "V7-B-082",
+      "screening_set": "coco3",
+      "screening_id": "V7-COCO-SCREEN-018",
+      "bucket": "B",
+      "role": "positive",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        99,
+        53,
+        304,
+        301
+      ],
+      "visual_family_hint": "COCO3-image-263212",
+      "person_unit_hint": "anchor",
+      "domain": "auxiliary_out_of_exam",
+      "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+      "phenotypes": [
+        "small_or_partial_held_phone",
+        "hand_occlusion",
+        "auxiliary_work_context"
+      ],
+      "pair_id": null,
+      "aliases": [],
+      "known_evaluation_family": false
+    },
+    {
+      "candidate_id": "V7-B-083",
+      "screening_set": "coco3",
+      "screening_id": "V7-COCO-SCREEN-039",
+      "bucket": "B",
+      "role": "positive",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        313,
+        0,
+        640,
+        509
+      ],
+      "visual_family_hint": "COCO3-image-544471",
+      "person_unit_hint": "right-woman",
+      "domain": "auxiliary_out_of_exam",
+      "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+      "phenotypes": [
+        "small_or_partial_held_phone",
+        "hand_occlusion",
+        "auxiliary_work_context"
+      ],
+      "pair_id": null,
+      "aliases": [],
+      "known_evaluation_family": false
+    },
+    {
+      "candidate_id": "V7-B-084",
+      "screening_set": "coco3",
+      "screening_id": "V7-COCO-SCREEN-045",
+      "bucket": "B",
+      "role": "positive",
+      "states": [
+        "P",
+        "U"
+      ],
+      "xyxy": [
+        377,
+        24,
+        640,
+        480
+      ],
+      "visual_family_hint": "COCO3-image-325287",
+      "person_unit_hint": "anchor",
+      "domain": "auxiliary_out_of_exam",
+      "observation": "Phone gắn đúng tay/người được xem trên source; vật nhỏ hoặc lộ một phần sau ngón tay, có head/context. Looking giữ U khi không chứng minh own gaze. Public auxiliary pending attribution.",
+      "phenotypes": [
+        "small_or_partial_held_phone",
+        "at_ear",
+        "auxiliary_work_context"
+      ],
+      "pair_id": null,
+      "aliases": [],
+      "known_evaluation_family": false
+    },
+    {
+      "candidate_id": "V7-C-140",
+      "screening_set": "oi4",
+      "screening_id": "V7-OI-SCREEN-180",
+      "bucket": "C",
+      "role": "negative",
+      "states": [
+        "U",
+        "N"
+      ],
+      "xyxy": [
+        593,
+        82,
+        1014,
+        673
+      ],
+      "person_unit_hint": "right-paper-woman",
+      "visual_family_hint": "OI4-image-0b6f8f9f13e23bac",
+      "observation": "Nữ đọc sheet đang cầm, head/page đủ nhưng source low contrast; phone U.",
+      "phenotypes": [
+        "read_write_or_computer_negative",
+        "own_workarea"
+      ],
+      "domain": "auxiliary_out_of_exam",
+      "pair_id": null,
+      "known_evaluation_family": false,
+      "aliases": []
+    }
+  ]
+}

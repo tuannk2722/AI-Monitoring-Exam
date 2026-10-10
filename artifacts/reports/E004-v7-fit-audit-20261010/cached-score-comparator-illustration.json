@@ -1,0 +1,134 @@
+{
+  "scope": "Development metadata illustration only: cùngcachedE003score, khôngloadmodel/inference/tuning; metric đổi do cohort/annotation, khôngE004gain.",
+  "prediction_pin": {
+    "path": "outputs/E003/predictions-val.json",
+    "sha256": "19311c32a1943cef682767899c3fc78502fd925717d357e8f69b8010030f8e00"
+  },
+  "threshold": 0.5,
+  "original_v6_val50": {
+    "targets": {
+      "phone_use": {
+        "positive": 17,
+        "negative": 20,
+        "unknown": 13,
+        "tp": 9,
+        "fp": 2,
+        "fn": 8,
+        "tn": 18,
+        "ap": 0.7125073664951971,
+        "precision": 0.8181818181818182,
+        "recall": 0.5294117647058824,
+        "f1": 0.6428571428571429,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 18,
+        "negative": 11,
+        "unknown": 21,
+        "tp": 11,
+        "fp": 1,
+        "fn": 7,
+        "tn": 10,
+        "ap": 0.8631083699295916,
+        "precision": 0.9166666666666666,
+        "recall": 0.6111111111111112,
+        "f1": 0.7333333333333333,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.7878078682123943,
+    "threshold": 0.5,
+    "records": 50,
+    "cooccurrence": {
+      "fully_known": 16,
+      "positive": 2,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    }
+  },
+  "same_score_corrected_v7_val49": {
+    "targets": {
+      "phone_use": {
+        "positive": 16,
+        "negative": 20,
+        "unknown": 13,
+        "tp": 9,
+        "fp": 2,
+        "fn": 7,
+        "tn": 18,
+        "ap": 0.7102241213514391,
+        "precision": 0.8181818181818182,
+        "recall": 0.5625,
+        "f1": 0.6666666666666666,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 17,
+        "negative": 12,
+        "unknown": 20,
+        "tp": 11,
+        "fp": 1,
+        "fn": 6,
+        "tn": 11,
+        "ap": 0.8683727920781972,
+        "precision": 0.9166666666666666,
+        "recall": 0.6470588235294118,
+        "f1": 0.7586206896551724,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.7892984567148181,
+    "threshold": 0.5,
+    "records": 49,
+    "cooccurrence": {
+      "fully_known": 16,
+      "positive": 2,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    }
+  },
+  "same_source_crop_label_mask_comparator48": {
+    "targets": {
+      "phone_use": {
+        "positive": 16,
+        "negative": 19,
+        "unknown": 13,
+        "tp": 9,
+        "fp": 2,
+        "fn": 7,
+        "tn": 17,
+        "ap": 0.715805816514171,
+        "precision": 0.8181818181818182,
+        "recall": 0.5625,
+        "f1": 0.6666666666666666,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 17,
+        "negative": 11,
+        "unknown": 20,
+        "tp": 11,
+        "fp": 1,
+        "fn": 6,
+        "tn": 10,
+        "ap": 0.8696043191717931,
+        "precision": 0.9166666666666666,
+        "recall": 0.6470588235294118,
+        "f1": 0.7586206896551724,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.7927050678429821,
+    "threshold": 0.5,
+    "records": 48,
+    "cooccurrence": {
+      "fully_known": 15,
+      "positive": 2,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    }
+  },
+  "E004_model_executed": false,
+  "groupidentity_literal_same": false,
+  "comparator_freeze_approved": false
+}

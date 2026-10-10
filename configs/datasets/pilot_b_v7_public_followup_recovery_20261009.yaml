@@ -1,0 +1,27 @@
+discovery_config:
+  path: configs/datasets/pilot_b_v7_public_followup_discovery_r2_20261009.yaml
+  sha256: ae4742a2599dbddc869417e8784862af3cdde18aafffd34928b365af09f69274
+metadata_inputs:
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-001.json
+  sha256: 25a5d65eb1a5b198c73cae755692dce114bc3238dd4479ca2fc6f246c727130d
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-002.json
+  sha256: 73fa5422a5a08298ea88fa1ccec649d8b112b59526e81ba7fab27aee7df6a873
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-003.json
+  sha256: 410b21aad369bb1c4c485532f1f92c15320d87369af330d761752fe3068e441a
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-004.json
+  sha256: f2756b0a5f3a858b9eb732c979906abd0b024369efff8872f56af407aa9bb5c7
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-005.json
+  sha256: dda20f016de49c394fff5f7f84a684e8b5119de9f717717ea44eda4b0e12b571
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/search-006.json
+  sha256: fb9cfa1341d88296648900c4b2e034619dd9b345cf704fe23854cc87dba5b4a8
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/seed-001.json
+  sha256: 0e1d903c223c63ec276237c59a7ae17c123b59cd3980b93ed31b7912f417f526
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/seed-002.json
+  sha256: 4d80b42add8628549d5e8a0372dd11fd8960d0623623a5070f15bbc74acd28a5
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/seed-003.json
+  sha256: 793f06222e8da28b456b697fd5cbb59435049edd374f03fe85ff7ea37f7e631e
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/seed-004.json
+  sha256: fb8e1f91d0b85d3467aaf0440b6510313ad762db594866226c7458bff098451a
+- path: data/raw/public-photo/commons-classroom-discovery-20261009-r2/seed-005.json
+  sha256: a94a1bfe12ed15093b9b406d6f2343e6e2d38670fdab256032dbfca1476f7f8d
+output: artifacts/reports/pilot-b-v7-public-followup-20261009/discovery-r2-recovery

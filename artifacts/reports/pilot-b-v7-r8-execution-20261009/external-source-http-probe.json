@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ucb_page",
+    "url": "https://data.mendeley.com/datasets/pz7y4bpfxy/2",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://data.mendeley.com/datasets/pz7y4bpfxy/2",
+    "bytes": 116686,
+    "sha256": "2a1e00f69f1ec1142ba6672eb3dbfd45104c4b552851c42f07fcbb0ee7dc92c7",
+    "local_cache": "outputs/v7-r8-source-discovery-20261009/ucb_page.txt"
+  },
+  {
+    "id": "ucb_files",
+    "url": "https://data.mendeley.com/public-api/datasets/pz7y4bpfxy/versions/2/files",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "ucb_version",
+    "url": "https://data.mendeley.com/public-api/datasets/pz7y4bpfxy/versions/2",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "classroom7_metadata",
+    "url": "https://zenodo.org/api/records/21207208",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

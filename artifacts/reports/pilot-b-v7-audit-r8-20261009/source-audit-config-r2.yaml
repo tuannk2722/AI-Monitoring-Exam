@@ -1,0 +1,145 @@
+status: draft_metadata_coverage_audit
+date: '2026-10-09'
+owner: repository-owner
+output: artifacts/reports/pilot-b-v7-audit-r8-20261009/source-counter-r2
+exam_source_id: exam_cheating_keaor
+inputs:
+  screening_inventory:
+    path: artifacts/reports/pilot-b-v7-targeted-20261008/screening-inventory-final.json
+    sha256: b6568960c065471b23dba5692fd29833cd208da402ed6658940397f3963f519a
+  candidates:
+    path: data/interim/pilot-b/v7-targeted-review-20261008-r7/candidates.jsonl
+    sha256: c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833
+  roboflow_inventory:
+    path: outputs/pilot-b-v6-source-research-20261007/roboflow-image-inventory.json
+    sha256: 4f7cde6e8b5c673e66330a46caf259ec520ce41c8d1e1a48f2a9f471dee81985
+  parent:
+    path: data/processed/pilot-b/pilot-b-20261007-v6/review-ledger.jsonl
+    sha256: c8873f46512a45c6eec6312a87dde3e2177feffe6fb759c71fa54f2e99d47ec8
+  rf_supply:
+    path: data/interim/pilot-b/v7-targeted-screening-20261008-r2/supply.json
+    sha256: 02bafa202d40ca330fa1112986b59904d3ab6dfcac335a0eec49354fcb9bd7f2
+  scb_supply:
+    path: data/interim/pilot-b/v7-targeted-scb-screening-20261008-r1/supply.json
+    sha256: 68b42b6446dd0731c576e4b9261282e6514d0d5955f362748dccdcabf9348d07
+  scb_reaudit:
+    path: artifacts/reports/fpi-scb-research-20261007/scb-local-reaudit.json
+    sha256: 4bab6b0da5fc74d4fdf4e47eff49beaf7dc6107bd2af55b9958e002aeadf7622
+  head_audit:
+    path: outputs/scb-audit-20261003-v1/head-audit.json
+    sha256: c83c80c54058dabec9dd3b1ad9f3ff0d1e78a75dd78ee6667cada70e8bffc5f9
+  hrw_audit:
+    path: outputs/scb-audit-20261003-v1/hrw-audit.json
+    sha256: 223885f017271392f7bae83b5bf9154539f52b61a28e27f98fe752a87587b089
+  owner_feedback:
+    path: artifacts/reports/pilot-b-v7-audit-r8-20261009/owner-feedback-receipt.json
+    sha256: e95006ea9d485b4227617840dcdd16709f9520daa0550f356f5f2876f8e4474d
+  visual_1:
+    path: artifacts/reports/pilot-b-v7-targeted-20261008/screening-visual-observations-001-048.json
+    sha256: ae680605f9a4be0a90b309574ba11fbbcd0a820fbb6477d52bbde62f90e9c6bd
+  visual_2:
+    path: artifacts/reports/pilot-b-v7-targeted-20261008/screening-visual-observations-049-072.json
+    sha256: 458e9380868fbfabdc96d2882a2606706591c80743df5aaf962a953358b421f7
+  visual_3:
+    path: artifacts/reports/pilot-b-v7-targeted-20261008/screening-visual-observations-073-162.json
+    sha256: f6474cbc24a1cfd61f457082d882d71d41972e8277f430f9a94d1d5510bb0c99
+  visual_4:
+    path: artifacts/reports/pilot-b-v7-targeted-20261008/screening-visual-observations-163-300.json
+    sha256: 13f19f5c7c576112421c6dd194b5f796ba6243c34153c91ac8ac500293da2143
+visual_observation_inputs:
+- visual_1
+- visual_2
+- visual_3
+- visual_4
+sources:
+- id: classroom_attitude
+  name: Classroom Attitude v3
+  kind: roboflow
+  inventory_id: classroom_attitude
+  supply: rf_supply
+  hint_classes:
+  - Phone use
+  - Phone
+  - cell-phones
+  - Looking around
+  - Turning_Around
+  - Turning head
+  - Sleeping
+  - Leaning Down
+  - person
+  candidate_cap: Chung 300 ảnh với Student/Exam/RF; phone160/looking90/negative50
+  exhaustion_status: Chưa exhausted; useful pool và independence unknown
+- id: student_behaviour
+  name: Student Behaviour v6
+  kind: roboflow
+  inventory_id: student_behaviour
+  supply: rf_supply
+  hint_classes:
+  - Using_phone
+  - phone
+  - turn_head
+  - reading
+  - writing
+  candidate_cap: Chung 300 ảnh với Classroom/Exam/RF; phone160/looking90/negative50
+  exhaustion_status: Chưa exhausted; useful pool và independence unknown
+- id: exam_cheating_keaor
+  name: Exam Cheating v2
+  kind: roboflow
+  inventory_id: exam_cheating_keaor
+  supply: rf_supply
+  hint_classes:
+  - Use_phone
+  - Look_around
+  - Normal
+  candidate_cap: Chung 300 ảnh với Classroom/Student/RF; phone160/looking90/negative50
+  exhaustion_status: Chưa exhausted; yield2 đến từ13screening, không toàn nguồn
+- id: roboflow_v1
+  name: RF v1
+  kind: roboflow
+  inventory_id: old_rf
+  supply: rf_supply
+  hint_classes:
+  - Phone use
+  - Looking around
+  - No cheating
+  candidate_cap: Chung 300 ảnh với Classroom/Student/Exam; phone160/looking90/negative50
+  exhaustion_status: Chưa exhausted; useful pool và independence unknown
+- id: scb_head
+  name: SCB Head
+  kind: scb
+  archive_id: head
+  audit: head_audit
+  supply: scb_supply
+  candidate_cap: Chung100ảnh vớiHRW; looking60/negative40
+  exhaustion_status: Chưa exhausted; leftover useful/independent chưa đo
+- id: scb_hrw
+  name: SCB HRW
+  kind: scb
+  archive_id: hrw
+  audit: hrw_audit
+  supply: scb_supply
+  candidate_cap: Chung100ảnh vớiHead; looking60/negative40
+  exhaustion_status: Chưa exhausted; leftover useful/independent chưa đo
+- id: coco_2017_train
+  name: COCO train2017
+  kind: public
+  available_images: 118287
+  index_scanned_images: 118287
+  candidate_cap: R1phone100/negative40;R2negative80;R3phone200;actual305
+  exhaustion_status: Exhausted riêng185phonecontext theo bộlọc hiệnhành;235workhints
+    chưa xem;khôngsourceexhausted
+- id: openimages_train_prefix
+  name: Open Images train bbox prefix
+  kind: public
+  available_images: null
+  index_scanned_images: null
+  candidate_cap: R1desk100/held80/work100;R2title40;R3work200;R4work200;actual598
+  exhaustion_status: Chưa exhaustive bbox; full/useful pool unknown;1downloadfailure
+public_csv_audit:
+  source_id: openimages_train_prefix
+  image_metadata:
+    path: data/raw/openimages/oi-train-metadata-20261008-r1/train-images-boxable-with-rotation.csv
+    sha256: 05f3d68dbbb03728d1a37e51479f4f35c062b871e1a6cae8c4cefbe0e0c80ed0
+  bbox_prefix:
+    path: data/raw/openimages/oi-train-box-prefix-20261008-r2/bbox-train-prefix.csv
+    sha256: 8f4c5894ffd2526cf56cb0567ed5ee9065c327fc3b8a9f722c3b32c21b6c9bc1

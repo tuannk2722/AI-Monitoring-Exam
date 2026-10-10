@@ -1,0 +1,17 @@
+{
+  "status": "historical_R8_README_mismatch_preserved_owner_clarification_pending",
+  "r8_pointer": {
+    "path": "artifacts/reports/pilot-b-v7-r8-execution-20261009/review-pointer-final.json",
+    "sha256": "7a0141702e77173cc6fd6d4f801bb31dde20be430a54b3cfb723b6adc0ae99b6"
+  },
+  "readme_expected_sha256": "cba7e324acf39aad91fef0d52b6a120fdc79801f0484505520b29632acab1a1b",
+  "readme_actual": {
+    "path": "artifacts/reports/pilot-b-v7-r8-execution-20261009/README.md",
+    "sha256": "929d140c12f8c98b6b81c1dfd7887ec14f36115baa58ad3c9f3b1db4975a0284"
+  },
+  "line_endings_or_trailing_blankline_normalization_alone_matches_old_hash": false,
+  "owner_question_sent": true,
+  "owner_answer": null,
+  "file_restored": false,
+  "old_seal_modified": false
+}

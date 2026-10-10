@@ -1,0 +1,103 @@
+{
+  "status": "metadata_candidates_not_visual_or_owner_acceptance",
+  "unique_pages": 111,
+  "eligible_metadata_rows": 54,
+  "exclusions": {
+    "not_raster_photo": 56,
+    "small_original": 1
+  },
+  "queries": [
+    {
+      "query": "incategory:Kiwix4SchoolsGhana students",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=incategory%3AKiwix4SchoolsGhana+students&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-001.json",
+        "sha256": "b92e1307a6da3117239952407f00ab7b795e0bc309d0e3cb2de7a5932f90b398"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 53284,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"Wikipedia Workshop at Police Lines School and College\"",
+      "returned_pages": 15,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=%22Wikipedia+Workshop+at+Police+Lines+School+and+College%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-002.json",
+        "sha256": "d8284ab0f8896dd5126eb8cbd27c00f7f8504b5ce8dc812a426b6adcc525b675"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 57303,
+        "etag": null
+      },
+      "has_more": false
+    },
+    {
+      "query": "\"school\" \"smartphone\" \"desk\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=%22school%22+%22smartphone%22+%22desk%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-003.json",
+        "sha256": "04bd95fe9098d6c24ddce45fad40cfa61529c24813dc0b35ce350b49fb0283cf"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 80673,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"school\" \"phone\" \"table\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=%22school%22+%22phone%22+%22table%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-004.json",
+        "sha256": "4ef76a155f11f63b637d641264926ca8beadfb52fee782329bcd106ab8316c3b"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 79303,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"classroom\" \"phone\" \"writing\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=%22classroom%22+%22phone%22+%22writing%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-005.json",
+        "sha256": "9cb99a7e610bb466394ef53874ae05613de99688f00519c72d03c2dcf6c16e67"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 70831,
+        "etag": null
+      },
+      "has_more": true
+    },
+    {
+      "query": "\"students\" \"phone\" \"learning\"",
+      "returned_pages": 20,
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&format=json&iiprop=url%7Csize%7Csha1%7Cmime%7Cextmetadata&iiurlwidth=1920&generator=search&gsrnamespace=6&gsrsearch=%22students%22+%22phone%22+%22learning%22&gsrlimit=20",
+      "metadata": {
+        "path": "data/raw/public-photo/commons-classroom-discovery-20261009-r3/search-006.json",
+        "sha256": "10327c759df3e9ae1457e8396298025b4b0daf1a68d80b385609b19b5653c737"
+      },
+      "http": {
+        "status": 200,
+        "bytes": 68248,
+        "etag": null
+      },
+      "has_more": true
+    }
+  ],
+  "full_source_exhausted": false,
+  "test_media_read": false
+}

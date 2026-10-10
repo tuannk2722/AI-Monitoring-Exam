@@ -1,0 +1,180 @@
+{
+  "reviewed_by": "Codex",
+  "date": "2026-10-08",
+  "media_sheets": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "records": [
+    {
+      "screening_id": "V7-SCREEN-049",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "cctv-hijab-room",
+      "observation": "Phone cầm rõ, nhưng cần crop head/tay đủ và đối chiếu family40; chưa matched negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-050",
+      "review_status": "ngoài domain",
+      "visual_family_hint": "outdoor-uniform-phone",
+      "observation": "Ảnh ngoài trời, người đứng, không targeted exam desk/read-write.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-051",
+      "review_status": "augmentation/nhóm parent",
+      "visual_family_hint": "noisy-grey-child-phone",
+      "observation": "Noise mạnh và stock-child family có51/57; cần gốc/lineage, không lấy để bù desk.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-052",
+      "review_status": "ứng viên B/D",
+      "visual_family_hint": "library-reader-phone",
+      "observation": "Phone thấp trong tay cạnh sách, nhiều người/thư viện; đủ person/context, cần matched negatives.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-053",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "stock-three-children-blackboard",
+      "observation": "Anchor boy/hands được Phone use nguồn nhưng phone chưa rõ trong crop; cần attribution, không map tên.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-054",
+      "review_status": "ứng viên B/D",
+      "visual_family_hint": "lecture-grey-longhair",
+      "observation": "Phone nhỏ trong hai tay, đầu nhìn ngoài vùng bàn; crowded cooccurrence Draft nếu head/workarea đủ.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-055",
+      "review_status": "ngoài domain",
+      "visual_family_hint": "school-assembly-phone",
+      "observation": "Ngồi tập trung ngoài bối cảnh làm bài, không ghép fake read/write negative.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-056",
+      "review_status": "trùng/nhóm parent",
+      "visual_family_hint": "stock-teacher-phone-board",
+      "observation": "Parent0: nội dung đã dùng, không cảnh/ảnh mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-057",
+      "review_status": "augmentation/nhóm parent",
+      "visual_family_hint": "noisy-grey-child-phone",
+      "observation": "Cùng family51, noise/re-export, không independent sample.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-058",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "auditorium-yellowchairs",
+      "observation": "Phone hint nhưng crop tay/bàn thiếu; chưa thấy thiết bị rõ, có thể looking forward candidate.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-059",
+      "review_status": "ứng viên D",
+      "visual_family_hint": "stock-smiling-phone-class",
+      "observation": "Người cầm phone rõ, hướng nhìn ngoài giấy/thiết bị; co-positive có thể review, không dựa smiling ý định.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-060",
+      "review_status": "trùng/nhóm parent",
+      "visual_family_hint": "SB-small-room-side",
+      "observation": "Parent distance1, same room; khác crop/metadata không tạo nguồn mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-061",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "class-projector-sleep",
+      "observation": "Bbox Phone nguồn bao đầu/người gục, không xác nhận phone từ preview; cần source detail, U trước.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-062",
+      "review_status": "ngoài domain",
+      "visual_family_hint": "noisy-child-tablet",
+      "observation": "Thiết bị là tablet/ảnh stock-child không classroom exam, không phone P từ label nguồn.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-063",
+      "review_status": "loại unit",
+      "visual_family_hint": "hands-phone-only",
+      "observation": "Chỉ bàn tay và thiết bị; không đủ person attribution.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-064",
+      "review_status": "ứng viên B/D",
+      "visual_family_hint": "stock-boy-underdesk-phone",
+      "observation": "Phone cầm thấp/nhỏ, một người chính và crowded class; cần crop đúng người.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-065",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "green-wall-class",
+      "observation": "Object nhỏ sát mặt, có thể phone/tay, source camera mờ; không tự chốt P.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-066",
+      "review_status": "quarantine evaluation",
+      "visual_family_hint": "RF-green-chairs",
+      "observation": "Cùng RF validation family, dù evaldistance11; không đưa vào train.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-067",
+      "review_status": "trùng/nhóm parent",
+      "visual_family_hint": "SB-small-room-side",
+      "observation": "Phone desk sát tay thấy, nhưng same-frame/family parentdistance1; không tính novelty.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-068",
+      "review_status": "cần vẽ lại",
+      "visual_family_hint": "cctv-grey-phone-row",
+      "observation": "Sourcebox chỉ phone/tay, source có người đầy đủ; cần person crop và bàn trước chọnB.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-069",
+      "review_status": "quarantine evaluation",
+      "visual_family_hint": "RF-green-chairs",
+      "observation": "Cùng phòng ghế xanh của eval, không tuyển train mới.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-070",
+      "review_status": "cần rà thêm",
+      "visual_family_hint": "adult-classroom-phone-far",
+      "observation": "Phone cầm nhỏ camera xa, crop head/tay chưa rõ, cần source/geometry QA.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-071",
+      "review_status": "loại phụ đề",
+      "visual_family_hint": "film-subtitle",
+      "observation": "Cùng familyEXP-RF014, có text, owner đã loại crop có chữ.",
+      "status": "draft_visual_screening_not_owner_approval"
+    },
+    {
+      "screening_id": "V7-SCREEN-072",
+      "review_status": "ngoài domain",
+      "visual_family_hint": "outdoor-phone-boys",
+      "observation": "Ngoài trời, không targeted desk/crowded exam context.",
+      "status": "draft_visual_screening_not_owner_approval"
+    }
+  ]
+}

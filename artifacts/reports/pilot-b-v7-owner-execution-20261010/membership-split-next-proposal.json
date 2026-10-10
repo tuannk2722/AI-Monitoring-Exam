@@ -1,0 +1,134 @@
+{
+  "status": "draft_for_owner_membership_split_decision",
+  "owner": "repository-owner",
+  "parent_manifest": {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v6/manifest.jsonl",
+    "sha256": "9fac24a0e3e02cb38675cbbf071366ea0702993c0c2013dcdd25645c57a194f7"
+  },
+  "owner_parent_corrections": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/owner-label-decisions.json",
+    "sha256": "fb3312c2230b2351f8f4babc7297f37906f2c9f5b9745513187c26a5f80fdd75"
+  },
+  "parent_role_after_approved_corrections": {
+    "train": 314,
+    "val": 49,
+    "excluded": 1,
+    "review_only": 3,
+    "test": 11
+  },
+  "parent_changed_records": [
+    {
+      "sample_id": "EXP-RF-014",
+      "parent_usage": "train",
+      "proposed_usage": "excluded",
+      "proposed_states": [
+        "positive",
+        "unknown"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "EXP-SCB-002",
+      "parent_usage": "val",
+      "proposed_usage": "val",
+      "proposed_states": [
+        "negative",
+        "negative"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "EXP-SCB-013",
+      "parent_usage": "train",
+      "proposed_usage": "train",
+      "proposed_states": [
+        "unknown",
+        "negative"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "EXP-SCB-032",
+      "parent_usage": "train",
+      "proposed_usage": "review_only",
+      "proposed_states": [
+        "unknown",
+        "unknown"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "SCB-turnhead-020",
+      "parent_usage": "train",
+      "proposed_usage": "train",
+      "proposed_states": [
+        "unknown",
+        "negative"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "SCB-turnhead-023",
+      "parent_usage": "train",
+      "proposed_usage": "review_only",
+      "proposed_states": [
+        "unknown",
+        "unknown"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "V6-CA-014",
+      "parent_usage": "train",
+      "proposed_usage": "train",
+      "proposed_states": [
+        "positive",
+        "unknown"
+      ],
+      "domain_note": "out_of_exam"
+    },
+    {
+      "sample_id": "V6-CA-041",
+      "parent_usage": "val",
+      "proposed_usage": "review_only",
+      "proposed_states": [
+        "unknown",
+        "unknown"
+      ],
+      "domain_note": null
+    },
+    {
+      "sample_id": "V6R2-CA-004",
+      "parent_usage": "train",
+      "proposed_usage": "train",
+      "proposed_states": [
+        "positive",
+        "unknown"
+      ],
+      "domain_note": "out_of_exam"
+    }
+  ],
+  "candidate_pool_records": 402,
+  "candidate_known_nonquarantine_upper_bound": 380,
+  "proposed_policy": "Nghiên cứu local: giữphânnhóm parent; chỉđề xuất380known bổsung vào train khi ownernghiệmthumembership/nhãn/wholegroup/rights. Khôngthêmdev/testmới; khôngclaimpromotion.",
+  "proposed_counts_if_all_conditions_are_approved": {
+    "train": 694,
+    "val": 49,
+    "test": 11
+  },
+  "test11_role": "historical_integrity_only",
+  "original_v6_unchanged": true,
+  "v7_new_development_validation_added": false,
+  "new_source_independence_proven": 0,
+  "validation_comparability_note": "V7annotationval khácE003 do2parenttargetcorrections và1UUoutsupervision; không so scalarBCE trực tiếp kháccohort/targetsupport.",
+  "parent_crop_sha_overlap_in_known_pool": [],
+  "assignment_approved": false,
+  "materialization_executed": false,
+  "training_approved": false,
+  "condition_before_release": [
+    "Nghiệmthu95knowncropproposals cụthể mới và4UUngoàisupervision",
+    "Wholecomponent/parentlinks/nearflags/rightsreview",
+    "Ownermembership/splitpolicy được chốt"
+  ],
+  "alternative": "Giữ380known ởreview-only, tiếp tục nguồn/session độc lập trướcdevelopmentfreeze."
+}

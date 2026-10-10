@@ -1,0 +1,56 @@
+{
+  "canonical_groups_assigned": 0,
+  "cross_provider_same_photo_ids": [],
+  "date": "2026-10-09",
+  "limitations": [
+    "SHA/dHash/FlickrID không chứng minh person/session độc lập.",
+    "Nhiều unit cùng source giữ một familyhint; link parenttrain không tính group mới.",
+    "Cần owner nghiệm thu source/person/session graph trước split; không được tách public cùng cảnh vì imageID khác."
+  ],
+  "local_lineage_report": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/lineage-triage-r3.json",
+    "sha256": "06c36051dc82a6a6f5026dddeaae8260206f9adfa0be86fe2455f92d7484541c"
+  },
+  "quarantine_screening_keys_excluded": 43,
+  "same_public_photo_multi_unit": {
+    "15313142931": [
+      "V7-A-072",
+      "V7-D-050"
+    ],
+    "1602209016": [
+      "V7-C-115",
+      "V7-C-117"
+    ],
+    "19756295171": [
+      "V7-B-102",
+      "V7-C-131"
+    ],
+    "4111741794": [
+      "V7-A-056",
+      "V7-D-042"
+    ],
+    "6424137905": [
+      "V7-D-051",
+      "V7-D-058"
+    ],
+    "7787912050": [
+      "V7-B-107",
+      "V7-D-053"
+    ],
+    "7794562284": [
+      "V7-C-116",
+      "V7-C-118"
+    ],
+    "7950148048": [
+      "V7-A-075",
+      "V7-C-143"
+    ],
+    "9824662916": [
+      "V7-A-073",
+      "V7-D-057",
+      "V7-C-144"
+    ]
+  },
+  "status": "draft_no_canonical_group_assignment",
+  "test_media_read": false
+}

@@ -1,0 +1,146 @@
+{
+  "attributed_review_summary": {
+    "path": "outputs/v7-public-attribution-r7-review-20261009/summary.json",
+    "sha256": "5d813cc7391304e9be77340904679c5d7ce3f858b170a13fea6d372d10fb5568"
+  },
+  "candidates": {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/candidates.jsonl",
+    "sha256": "c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833"
+  },
+  "canonical_code": [
+    {
+      "path": "src/ai_exam_monitoring/data/pilot_targeted_expansion.py",
+      "sha256": "e72295af71440ec9d4ef06ef4d42089a5e61f0a8c0baf2f96d0cd5c1b34335bd"
+    },
+    {
+      "path": "src/ai_exam_monitoring/data/coco_targeted_candidates.py",
+      "sha256": "6833e205254a2a775939957de82b2cd10f4061e9b83a962518172594395ffcb8"
+    },
+    {
+      "path": "src/ai_exam_monitoring/data/openimages_targeted_candidates.py",
+      "sha256": "8b2516b2e9cf9afdc517ca0033c93b099fa5df19d422659a7adc6784acda46d7"
+    },
+    {
+      "path": "src/ai_exam_monitoring/data/targeted_review_package.py",
+      "sha256": "d874b005477e2a94fffd78ef4aea97847530fcf804ad4de6fe63b6554431ed38"
+    },
+    {
+      "path": "src/ai_exam_monitoring/data/public_attribution_audit.py",
+      "sha256": "5134243a23f8d22ab21831539d01db483b3753ba56683c2f60466ba4dc93e4fe"
+    }
+  ],
+  "canonical_dataset_version": null,
+  "coverage": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/coverage-r7.json",
+    "sha256": "b2184d35297a958cc9cc3fd9cecaaf3f2f16e0b34cb28f19b6f61a32d81cf089"
+  },
+  "crop_qa": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/crop-qa-r7.json",
+    "sha256": "793bb444aa95f47ca3b3bb078b54020d056c879bf6754b79e850ced55c528d68"
+  },
+  "date": "2026-10-09",
+  "git_head": "8ae70f152984350babc124c7db1e69149f4b7ff8",
+  "group_triage": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/group-triage-final.json",
+    "sha256": "8a764de0e951000fbede61336b7819b76b6312527dec28d8b73f787c6b78510a"
+  },
+  "independent_holdout_package": null,
+  "label_semantics": {
+    "path": "docs/decisions/ADR-018-v7-mobile-phone-boundary.md",
+    "sha256": "1dee683f55182c805290536ac9d14fed345d5f92ceac0296b4f187d31f43748a"
+  },
+  "not_authorized": [
+    "official split/release",
+    "E004 training",
+    "test inference",
+    "media upload",
+    "promotion"
+  ],
+  "owner": "repository-owner",
+  "owner_original_snapshots": [
+    {
+      "path": "artifacts/reports/pilot-b-v7-targeted-20261008/E004-preparation-owner-snapshot.md",
+      "sha256": "1d08e978fa17263fc2d6bf40943437df7a1134f4ca4a5bcd50b175938bbc76b3"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-targeted-20261008/fn-audit-owner-snapshot.md",
+      "sha256": "0b80bc95d3066f3a1306f4705818ca880c9e9fa3e80a4c12b18ce0eb9c12ad0a"
+    }
+  ],
+  "owner_parent_label_delta": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/owner-label-decisions.json",
+    "sha256": "fb3312c2230b2351f8f4babc7297f37906f2c9f5b9745513187c26a5f80fdd75"
+  },
+  "owner_review_pending": [
+    "crop/person/states/phenotypes",
+    "public attribution/notices cho source cụ thể",
+    "family graph/membership",
+    "shortage và pair yếu"
+  ],
+  "package_checksums": {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/checksums.sha256",
+    "sha256": "2c0f862ac1eece05456f92c1170e764245213e2a453ef9251d5a04e69834628b"
+  },
+  "pairs": {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/pairs.json",
+    "sha256": "b49b71d2e89957c8e413b5005d5e7c9e29c5b36d3f4d2bb2d9ee21543817c154"
+  },
+  "parent_checksums": {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256",
+    "sha256": "971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f"
+  },
+  "preparation_config": {
+    "path": "configs/datasets/pilot_b_v7_targeted_review_r7.yaml",
+    "sha256": "f28e9333df74480457bbfd1dc80c0285e9fc2afd61048923988a22c214da5a1c"
+  },
+  "public_attribution": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/public-attribution-r7.jsonl",
+    "sha256": "08dcb83db916fd6ce6e18a0febb787209a324ea2f66af92e5ca7ba69cb2b261c"
+  },
+  "public_receipt": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/public-metadata-receipt-r7.json",
+    "sha256": "1abaf5a9d20ec901e193cdf40db83f11bdf2e93847081a25f0ec07eef6f63eb3"
+  },
+  "public_summary": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/public-attribution-summary-r7.json",
+    "sha256": "60207ee3d79094a047a1d91d86ba288256e4a2a80c5bf702c8c38d259081c90d"
+  },
+  "release_approval": null,
+  "review_html": {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/review/index.html",
+    "sha256": "88246e7d61317b237e3b83a4da09da5a708507eb3b8b8b6664453df7d758d9de"
+  },
+  "review_html_with_attribution": {
+    "path": "outputs/v7-public-attribution-r7-review-20261009/review-index.html",
+    "sha256": "4c246fbd00debfa8010656e176a9708be0f0c6f42f771f181567f2528ae973f4"
+  },
+  "rights_quarantine": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/public-rights-quarantine.json",
+    "sha256": "9ea535dd8348b5d52d0fea7ceee5a1da299e9f852714b128488c320e2ecfc21d"
+  },
+  "selection": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/targeted-selection-r7.json",
+    "sha256": "2f04737b797ff481b6c08c7518feaa553504a19a56a6a29a3cfaad912589487e"
+  },
+  "sources_screened": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/screening-inventory-final.json",
+    "sha256": "b6568960c065471b23dba5692fd29833cd208da402ed6658940397f3963f519a"
+  },
+  "split_version": null,
+  "status": "draft_ready_for_owner_review_with_shortage",
+  "supersedes": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/review-pointer.json",
+    "sha256": "d542ab9514a92e9494a83a5d3b2f5da2d5dadcdc7ddb8200e87184957211f9f8"
+  },
+  "supersession_reason": "Bổ sung HTML có credit từng ảnh và pin source module hiện tại; crop/selection/pairs R7 không đổi.",
+  "training_eligible": false,
+  "validation": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/validation-final.json",
+    "sha256": "535b2f8df443fcc0af7776a2e92b0002141d255860f4e050df9eba2753bd886a"
+  },
+  "verification": {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/verification-final.json",
+    "sha256": "0a25e09c57f2c1b999061e02cb4c4370930e09ea5ec185dbb624f5edfa170c1a"
+  },
+  "working_tree": "uncommitted_preparation_changes_pinned_by_file_hash"
+}

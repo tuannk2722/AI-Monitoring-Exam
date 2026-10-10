@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "status": "PASS_scope_source_metadata_audit",
+  "unittest_tests": 5,
+  "unittest_status": "PASS",
+  "ruff_status": "PASS",
+  "mypy_scope": "src/ai_exam_monitoring/data/v7_source_coverage_audit.py --follow-imports=silent",
+  "mypy_status": "PASS",
+  "git_diff_check": "PASS",
+  "metadata_inputs_pin_count": 25,
+  "code_sha256": "9cbbdfbbdbc95d64802416dd271f7bde2124d5fab5000c4ea212795e6f2e693c",
+  "outputs": [
+    {
+      "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/source-counter-r2/source-coverage-measured.csv",
+      "sha256": "3db498aaaaaa7d13d31fc9d70ff472fef7fa6719ec027cc9d7ccc3ef15d83562"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/source-counter-r2/source-coverage-measured.json",
+      "sha256": "8a692cd6dacebbd6c28bd1219dd707a97076fe91c5c5580af94727fee8a0fc9c"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/source-counter-r2/source-exam-screening.json",
+      "sha256": "26b81df9972b9cf5931ecf843026c9e39fbe47712bb97595904bbe53eab7a2e6"
+    },
+    {
+      "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/source-counter-r2/source-unused-metadata.csv",
+      "sha256": "a78e2ad0635cf606cbb52d1e86171e4a2b9b8eb3ba51670d5b7823a250f9b4ac"
+    }
+  ],
+  "note": "Validation integrity/semantics; không chứng minh useful hoặc independent groups; không đọc media test hoặc train"
+}

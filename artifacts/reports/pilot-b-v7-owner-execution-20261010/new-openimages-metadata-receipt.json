@@ -1,0 +1,478 @@
+{
+  "scope": "Metadata only; no media/credentials/test access",
+  "cache_pins": [
+    {
+      "path": "outputs/v7-public-attribution-r3-audit-20261008/flickr-observations.json",
+      "sha256": "b0ed4448931392198b5ee9c9d947a2c54faac7bec121b2d20f9468763875dcff"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r3-cache-check-20261008/flickr-observations.json",
+      "sha256": "610e22d508059b0b3db95e12590091edb13d6a2b029db3a449b0f052a05d7e3d"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r3-probe-20261008/flickr-observations.json",
+      "sha256": "2df16b19fbd7394881344f452a4410604155210a307036ace1253b525038cd2e"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r4-audit-20261009/flickr-observations.json",
+      "sha256": "7fccd0d4c4a8eaf0c07bd3e20ac92b3c77102b6bc3d89caac06586a8de136c44"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r5-audit-20261009/flickr-observations.json",
+      "sha256": "f90a64902fe62fa634ac4c672fa6ba0e517c3259fadc61e6de88ba158058006a"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r6-audit-20261009/flickr-observations.json",
+      "sha256": "ad45250e6207c81b60ed7f3e74375d0cb50372e6736f74b19dd26c90aff355bd"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r7-audit-20261009/flickr-observations.json",
+      "sha256": "1abaf5a9d20ec901e193cdf40db83f11bdf2e93847081a25f0ec07eef6f63eb3"
+    },
+    {
+      "path": "outputs/v7-public-attribution-r7-review-20261009/flickr-observations.json",
+      "sha256": "1abaf5a9d20ec901e193cdf40db83f11bdf2e93847081a25f0ec07eef6f63eb3"
+    }
+  ],
+  "network_photo_ids": [
+    "7121323559",
+    "15147864589",
+    "5376634098",
+    "9742228500",
+    "16526379517",
+    "3009544953",
+    "37969111",
+    "7300681850",
+    "5023774638",
+    "14837040475",
+    "3163116251",
+    "8509831620",
+    "7609107596",
+    "2378960563",
+    "14252454073",
+    "288030288",
+    "15240074254",
+    "15994374922",
+    "14420788053"
+  ],
+  "observations": [
+    {
+      "checked_at_utc": "2026-10-10T06:41:33.335167+00:00",
+      "flickr_photo_id": "7121323559",
+      "request_landing_url": "https://www.flickr.com/photos/mujitra/7121323559",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/mujitra/7121323559",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fmujitra%2F7121323559",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "adbf37621a1a873a3ea79b44737d2f5d4502f12ddef71c9305d39a3fe32eaa3a",
+      "public_metadata": {
+        "title": "Sony Tablet woman.",
+        "author_name": "MIKI Yoshihito. (#mikiyoshihito)",
+        "author_url": "https://www.flickr.com/photos/mujitra/",
+        "web_page": "https://www.flickr.com/photos/mujitra/7121323559/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:33.338891+00:00",
+      "flickr_photo_id": "15147864589",
+      "request_landing_url": "https://www.flickr.com/photos/labor2008/15147864589/",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/labor2008/15147864589/",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Flabor2008%2F15147864589%2F",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "0d8f1c632b81dc7089955042fd2a1ff715548cbae6f209aa26e83eeb4c09fed6",
+      "public_metadata": {
+        "title": "VA: Roanoke Boot Camp",
+        "author_name": "AFL-CIO Field",
+        "author_url": "https://www.flickr.com/photos/labor2008/",
+        "web_page": "https://www.flickr.com/photos/labor2008/15147864589/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:33.339874+00:00",
+      "flickr_photo_id": "5376634098",
+      "request_landing_url": "https://www.flickr.com/photos/tslac/5376634098",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "unverified_request_failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:33.340958+00:00",
+      "flickr_photo_id": "9742228500",
+      "request_landing_url": "https://www.flickr.com/photos/95963285@N07/9742228500",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/95963285@N07/9742228500",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F95963285%40N07%2F9742228500",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "e43d944c65f5d48af840873a871f115e7c30c7bb5b2d8885370cfafd377b017e",
+      "public_metadata": {
+        "title": "DSC_0077",
+        "author_name": "dusanomercevic",
+        "author_url": "https://www.flickr.com/photos/95963285@N07/",
+        "web_page": "https://www.flickr.com/photos/95963285@N07/9742228500/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:34.328431+00:00",
+      "flickr_photo_id": "16526379517",
+      "request_landing_url": "https://www.flickr.com/photos/mscsa/16526379517",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/mscsa/16526379517",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fmscsa%2F16526379517",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "1206847ef951a46baab4fbd4d59b9e7de1e5eb4dc038c5be4638eaa0be95997b",
+      "public_metadata": {
+        "title": "March SLC",
+        "author_name": "iLeadMN",
+        "author_url": "https://www.flickr.com/photos/mscsa/",
+        "web_page": "https://www.flickr.com/photos/mscsa/16526379517/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:34.437299+00:00",
+      "flickr_photo_id": "3009544953",
+      "request_landing_url": "https://www.flickr.com/photos/31617132@N06/3009544953",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/31617132@N06/3009544953",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F31617132%40N06%2F3009544953",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "d20322abbdbc66f80b6495b2d617dd00b800fd9c7115b64fc764d151cf8390f7",
+      "public_metadata": {
+        "title": "29 IWE Students",
+        "author_name": "Seeds Scholars",
+        "author_url": "https://www.flickr.com/photos/31617132@N06/",
+        "web_page": "https://www.flickr.com/photos/31617132@N06/3009544953/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:34.484715+00:00",
+      "flickr_photo_id": "37969111",
+      "request_landing_url": "https://www.flickr.com/photos/steelmore/37969111",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/steelmore/37969111",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fsteelmore%2F37969111",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "270a4a87a29197a72ecd059bc6aec45d653c500912532c5d386379e44653c954",
+      "public_metadata": {
+        "title": "Jaleel doing homework",
+        "author_name": "Just Taken Pics",
+        "author_url": "https://www.flickr.com/photos/steelmore/",
+        "web_page": "https://www.flickr.com/photos/steelmore/37969111/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:34.537254+00:00",
+      "flickr_photo_id": "7300681850",
+      "request_landing_url": "https://www.flickr.com/photos/79614402@N07/7300681850",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/79614402@N07/7300681850",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F79614402%40N07%2F7300681850",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "18e2bc004e7416b4af38f581aa36a54d7504620bc23bb86f6ad8aa705ae37874",
+      "public_metadata": {
+        "title": "IMG_9681",
+        "author_name": "t_chevalier",
+        "author_url": "https://www.flickr.com/photos/79614402@N07/",
+        "web_page": "https://www.flickr.com/photos/79614402@N07/7300681850/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:35.174535+00:00",
+      "flickr_photo_id": "5023774638",
+      "request_landing_url": "https://www.flickr.com/photos/michael-beat/5023774638",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "unverified_request_failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:35.468309+00:00",
+      "flickr_photo_id": "14837040475",
+      "request_landing_url": "https://www.flickr.com/photos/mdgovpics/14837040475",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/mdgovpics/14837040475",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fmdgovpics%2F14837040475",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "a7b1c5f8173fb5aecd06613fa5d067ce276ff7bab731389c57d58d34f6f54171",
+      "public_metadata": {
+        "title": "Council of State Governments Eastern Regional Conference",
+        "author_name": "MDGovpics",
+        "author_url": "https://www.flickr.com/photos/mdgovpics/",
+        "web_page": "https://www.flickr.com/photos/mdgovpics/14837040475/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:35.512424+00:00",
+      "flickr_photo_id": "3163116251",
+      "request_landing_url": "https://www.flickr.com/photos/karpidis/3163116251",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/karpidis/3163116251",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkarpidis%2F3163116251",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "877a9ea235ec4d2cf0aa1498477ea25bdcd60bf70af1a47ed053f7f94d2ef405",
+      "public_metadata": {
+        "title": "Χριστοδουλάκη Αντονία",
+        "author_name": "karpidis",
+        "author_url": "https://www.flickr.com/photos/karpidis/",
+        "web_page": "https://www.flickr.com/photos/karpidis/3163116251/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:35.513968+00:00",
+      "flickr_photo_id": "8509831620",
+      "request_landing_url": "https://www.flickr.com/photos/oerafrica/8509831620",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/oerafrica/8509831620",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Foerafrica%2F8509831620",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "fe3ef29ba20bb8c4050b3fcd73b73090f1dccbcf2216e502f0639553cb2a8a87",
+      "public_metadata": {
+        "title": "IMG_8744.jpg",
+        "author_name": "OER Africa",
+        "author_url": "https://www.flickr.com/photos/oerafrica/",
+        "web_page": "https://www.flickr.com/photos/oerafrica/8509831620/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:36.489691+00:00",
+      "flickr_photo_id": "7609107596",
+      "request_landing_url": "https://www.flickr.com/photos/wowcckorea/7609107596",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/wowcckorea/7609107596",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fwowcckorea%2F7609107596",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "2fef5f873158efe4533c22a43ea8c02b3d40098254a4adc6a898a1c5f5aec085",
+      "public_metadata": {
+        "title": "공공데이타캠프2012",
+        "author_name": "cckorea",
+        "author_url": "https://www.flickr.com/photos/wowcckorea/",
+        "web_page": "https://www.flickr.com/photos/wowcckorea/7609107596/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:36.753057+00:00",
+      "flickr_photo_id": "2378960563",
+      "request_landing_url": "https://www.flickr.com/photos/hdptcar/2378960563",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/hdptcar/2378960563",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fhdptcar%2F2378960563",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "6a39356e55e1d3d2b8d26ec314ca4dcb4f32e5292bfac4f46a4fd4a7c8ba7867",
+      "public_metadata": {
+        "title": "Teaching scouts about HIV/AIDS 04",
+        "author_name": "hdptcar",
+        "author_url": "https://www.flickr.com/photos/hdptcar/",
+        "web_page": "https://www.flickr.com/photos/hdptcar/2378960563/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:36.754164+00:00",
+      "flickr_photo_id": "14252454073",
+      "request_landing_url": "https://www.flickr.com/photos/ctep/14252454073",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/ctep/14252454073",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fctep%2F14252454073",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "095e3b6ef09cc0194afa73e24988c53aee29e6e0a9f0ca55ed0e25524b6b3f36",
+      "public_metadata": {
+        "title": "IMG_2489",
+        "author_name": "ctep",
+        "author_url": "https://www.flickr.com/photos/ctep/",
+        "web_page": "https://www.flickr.com/photos/ctep/14252454073/",
+        "license": "All Rights Reserved",
+        "license_url": null,
+        "license_id": 0,
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:36.889677+00:00",
+      "flickr_photo_id": "288030288",
+      "request_landing_url": "https://www.flickr.com/photos/artcomments/288030288",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/artcomments/288030288",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fartcomments%2F288030288",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "b7c3902843b11ee74a851e6a20a289339602e76d13463187d58c5c7253d3e4d4",
+      "public_metadata": {
+        "title": "PA133370.jpg",
+        "author_name": "Art Comments",
+        "author_url": "https://www.flickr.com/photos/artcomments/",
+        "web_page": "https://www.flickr.com/photos/artcomments/288030288/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:37.762493+00:00",
+      "flickr_photo_id": "15240074254",
+      "request_landing_url": "https://www.flickr.com/photos/yannick_vernet/15240074254",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/yannick_vernet/15240074254",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fyannick_vernet%2F15240074254",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "ff6958ce0a1a39c142208dde15a92e2ee77061d1e83689c37efdff08c4bdcbfa",
+      "public_metadata": {
+        "title": "IMG_0200",
+        "author_name": "yannick_vernet",
+        "author_url": "https://www.flickr.com/photos/yannick_vernet/",
+        "web_page": "https://www.flickr.com/photos/yannick_vernet/15240074254/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:37.870077+00:00",
+      "flickr_photo_id": "15994374922",
+      "request_landing_url": "https://www.flickr.com/photos/cnbp/15994374922",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "unverified_request_failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "checked_at_utc": "2026-10-10T06:41:37.960949+00:00",
+      "flickr_photo_id": "14420788053",
+      "request_landing_url": "https://www.flickr.com/photos/mosaic36/14420788053",
+      "credentials_used": false,
+      "media_downloaded": false,
+      "status": "public_metadata_observed_not_rights_approval",
+      "landing_http_status": 200,
+      "resolved_landing_url": "https://www.flickr.com/photos/mosaic36/14420788053",
+      "oembed_request_url": "https://www.flickr.com/services/oembed/?format=json&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fmosaic36%2F14420788053",
+      "oembed_http_status": 200,
+      "oembed_response_sha256": "7fb4ed4cf95772866f9cf85d9235bbe2479721c4af6e0247b8368ba3a8006cec",
+      "public_metadata": {
+        "title": "IMG_0198",
+        "author_name": "mosaic36",
+        "author_url": "https://www.flickr.com/photos/mosaic36/",
+        "web_page": "https://www.flickr.com/photos/mosaic36/14420788053/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_id": "4",
+        "provider_name": "Flickr",
+        "cache_age": 3600
+      }
+    }
+  ],
+  "all_crop_count": 19,
+  "blocker_crop_ids": [
+    "V7-OE-S005-A01",
+    "V7-OE-S020-A01",
+    "V7-OE-S027-A01",
+    "V7-OE-S034-A01"
+  ]
+}

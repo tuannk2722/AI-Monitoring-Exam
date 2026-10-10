@@ -1,0 +1,2562 @@
+[
+  {
+    "owner_item_id": "V7-UNAPPROVED-C-001",
+    "source_sha256": "460ff8a3cbd89ef862495bd3a15e60271a63599bf3cad092a09f9403d8800d51",
+    "nearest_parent": {
+      "sha256": "10331b184f2af574aa3a56bc3fa18a059e18d0fd03b9603a33fbab7b24cb5389",
+      "dhash": 1758305838731636993,
+      "sample_ids": [
+        "V6-CA-028"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-95395448599640b29d76"
+      ],
+      "distance": 16
+    },
+    "nearest_evaluation": {
+      "sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+      "dhash": 15341772563907695763,
+      "sample_ids": [
+        "P028-person-01"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-3369d47e05ce355b3db8"
+      ],
+      "distance": 23
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-C-002",
+    "source_sha256": "cce80533ad5b5a80fa020b0c5e4fe2cb4de7b0b0bc01234e44e809e6560d144e",
+    "nearest_parent": {
+      "sha256": "10331b184f2af574aa3a56bc3fa18a059e18d0fd03b9603a33fbab7b24cb5389",
+      "dhash": 1758305838731636993,
+      "sample_ids": [
+        "V6-CA-028"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-95395448599640b29d76"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "c197c8dfe78c69d0236a671772ada079f3c125a50d529e4c950e84b147d03486",
+      "dhash": 3178084237837528796,
+      "sample_ids": [
+        "V6R2-CA-014"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 23
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-C-003",
+    "source_sha256": "ba2ea6126b9f972e518011d2fd3a634498cb7a0b1c9a96e0f820ea582d321b1f",
+    "nearest_parent": {
+      "sha256": "5f2f99365493a61c830959570d4891cacd771193226e47972f3630af6f77c18e",
+      "dhash": 15910273788569609783,
+      "sample_ids": [
+        "V6R2-EX-018"
+      ],
+      "usages": [
+        "review_only"
+      ],
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "43aa6c2b0aa71b6b4faccf136465f617934223f46b410ea40dd33ca62af36480",
+      "dhash": 6476139750209393792,
+      "sample_ids": [
+        "V6-SB-046"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "distance": 25
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-C-004",
+    "source_sha256": "ba2ea6126b9f972e518011d2fd3a634498cb7a0b1c9a96e0f820ea582d321b1f",
+    "nearest_parent": {
+      "sha256": "5f2f99365493a61c830959570d4891cacd771193226e47972f3630af6f77c18e",
+      "dhash": 15910273788569609783,
+      "sample_ids": [
+        "V6R2-EX-018"
+      ],
+      "usages": [
+        "review_only"
+      ],
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "43aa6c2b0aa71b6b4faccf136465f617934223f46b410ea40dd33ca62af36480",
+      "dhash": 6476139750209393792,
+      "sample_ids": [
+        "V6-SB-046"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "distance": 25
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-002",
+    "source_sha256": "c3d34a1cbbd6475a0a1826dd292230e4003d6dcd2d9926f8fc6164159c9e119c",
+    "nearest_parent": {
+      "dhash": 9439862716547753750,
+      "distance": 20,
+      "groups": [
+        "V6-G-852523332c83ccb3cbd0"
+      ],
+      "sample_ids": [
+        "V6-CA-048"
+      ],
+      "sha256": "6e16798f04afef1a9ab0d0070e0978da24d68d0e1c044d7acf5fce8d21dd516a",
+      "usages": [
+        "excluded"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10680612230228823999,
+      "distance": 21,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "P007-extra-01",
+        "P007-person-01",
+        "P007-person-02"
+      ],
+      "sha256": "2625cee7f0bef66ec8d2b779370af01b708fd156cdc9db6b2c575d630bd784ef",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-003",
+    "source_sha256": "bf397fe147784108602cc5661941f1f1018be9ec3eb93e9a1cabc7ab0dc701a8",
+    "nearest_parent": {
+      "dhash": 12433467241112192452,
+      "distance": 18,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-038"
+      ],
+      "sha256": "fab4701f371edf133fd35ef64880f9a618e54503f910d0cdf83ecf130e24540f",
+      "usages": [
+        "val"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 12433467241112192452,
+      "distance": 18,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-038"
+      ],
+      "sha256": "fab4701f371edf133fd35ef64880f9a618e54503f910d0cdf83ecf130e24540f",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-004",
+    "source_sha256": "95e4fea4e560fdea7548b4c3ba1b72a53b2bf6837115fd99a35136782d1ea8d1",
+    "nearest_parent": {
+      "dhash": 8535821948038335192,
+      "distance": 19,
+      "groups": [
+        "PB-G-13e190f7784f3cb34c62"
+      ],
+      "sample_ids": [
+        "SCB-write-005"
+      ],
+      "sha256": "b0086d025aa3b0f20f9c0a6592c1b9c99b993ffc5e78771b9519469ad4df7f12",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 17465211026141406673,
+      "distance": 21,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-040"
+      ],
+      "sha256": "77f6943a487bc964bb4d27b0a7f6be9198d643b5ed6272d8f0b2c7fb2116652d",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-005",
+    "source_sha256": "b224ad9dd900bb6da8d7eb7bced7030deec7a7f75a32de0f975a59df99f9ebfe",
+    "nearest_parent": {
+      "dhash": 8303012853294991166,
+      "distance": 20,
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "sample_ids": [
+        "V6-EX-023"
+      ],
+      "sha256": "81fa1e38f79e50537007488b682729159d469ce3d156c314aeba47fe2a92f0a3",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821336315946006236,
+      "distance": 20,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-022"
+      ],
+      "sha256": "c14c1a2b10eff64f3c10d3419bb71772119a1f4e58046dc61ef3869b86cdd565",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-006",
+    "source_sha256": "f8bcd1a4b9c9ca00ffde363824a53222e0ff882676aa86fdc0bc35bcbd4e0b3f",
+    "nearest_parent": {
+      "dhash": 7909771253902449579,
+      "distance": 14,
+      "groups": [
+        "V6-G-97fd87f595bb9d8f70f8"
+      ],
+      "sample_ids": [
+        "V6-CA-023"
+      ],
+      "sha256": "5afe14a6652247df7a6b97ec6c2c779c6412db10bfee7c11141eb46f141c40e7",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 336137408602364810,
+      "distance": 20,
+      "groups": [
+        "V6-G-ae0cbae3310d6f5db3df"
+      ],
+      "sample_ids": [
+        "V6-SB-035"
+      ],
+      "sha256": "fce66d06f47a6e00b7632a44982f31088b36f845a7cd844b6855bd2e0eb53732",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-009",
+    "source_sha256": "fa58c881c43d545e4527a2ec650ceb829ebf382bd8bd07a0b2a013318e06ecd7",
+    "nearest_parent": {
+      "dhash": 7883383367080294197,
+      "distance": 19,
+      "groups": [
+        "V6-G-1ebdbbcaa0ac4ad20b1d"
+      ],
+      "sample_ids": [
+        "EXP-SCB-023"
+      ],
+      "sha256": "782d4ac4a2e50d392ccddb16f58fc2a5201b49b20a65c23db4c2bfe29ad671a1",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821336802953974780,
+      "distance": 23,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-017"
+      ],
+      "sha256": "6cfd8574ee918001372922309c431f546310b16618ee2b58854944b8fce7572f",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-011",
+    "source_sha256": "163be737d6318f3d3c9159e4a6153880415227b3ed5b761192db117f4eea1c22",
+    "nearest_parent": {
+      "dhash": 11928108077387321138,
+      "distance": 20,
+      "groups": [
+        "V6-G-e807a4df97a39d6564fc"
+      ],
+      "sample_ids": [
+        "EXP-SCB-027"
+      ],
+      "sha256": "5f0da07087fa2e8622d9630969392c4a97ccae2cc2a86d6928bd45710794c22d",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10464484037290515505,
+      "distance": 24,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "EXP-RF-007"
+      ],
+      "sha256": "126781a55e2e48d55dc3575870f4a26ddb40cde0b6fd70ee628ce215c53f9531",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-012",
+    "source_sha256": "26928ded95cd1540f0dc87f82d9b92d9d5986e13ca67131063c8914a8b2f42a5",
+    "nearest_parent": {
+      "dhash": 6700982028494870988,
+      "distance": 21,
+      "groups": [
+        "V6-G-cab424fc3d3653b9b3a4"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-026"
+      ],
+      "sha256": "75a98ae4b3eaf81caa049a9cafd8c9d694277003b8fdb504c289d1c5fdffdc99",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 3178084237837528796,
+      "distance": 22,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6R2-CA-014"
+      ],
+      "sha256": "c197c8dfe78c69d0236a671772ada079f3c125a50d529e4c950e84b147d03486",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-015",
+    "source_sha256": "469bace23378e9b312be16b52afe4d95830be90984a71c265490914a599e808e",
+    "nearest_parent": {
+      "dhash": 4445813073866592869,
+      "distance": 21,
+      "groups": [
+        "PB-G-18b53fda4c21055b08af"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-013"
+      ],
+      "sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 9563027257778189878,
+      "distance": 22,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-CA-018"
+      ],
+      "sha256": "0ba9f9999a96e92c928edd4fa9df528187a99842917a7bc737e328f2dfcc6e72",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-018",
+    "source_sha256": "1fd301b1ce77f3b77e9b070f6003d16ec74af29fbd422b9babf29a733e38c2a2",
+    "nearest_parent": {
+      "dhash": 2838998505629796747,
+      "distance": 18,
+      "groups": [
+        "PB-G-18b53fda4c21055b08af"
+      ],
+      "sample_ids": [
+        "EXP-SCB-011"
+      ],
+      "sha256": "a7b35f7407dddeb722598eb8605f78aef0fbe55a990bcba1811f0804e3e1f40f",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821411379088710351,
+      "distance": 22,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-read-024"
+      ],
+      "sha256": "7ba28dee53a35f2092140eff61792c01561fb61d393df55e5c45f0ee660f5c8f",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-019",
+    "source_sha256": "a19a738b036f734d059b26d762ef58d16ae9890d00dc1d2d98b1bff1f2efcd21",
+    "nearest_parent": {
+      "dhash": 2821336802953974780,
+      "distance": 19,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-017"
+      ],
+      "sha256": "6cfd8574ee918001372922309c431f546310b16618ee2b58854944b8fce7572f",
+      "usages": [
+        "test"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821336802953974780,
+      "distance": 19,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-017"
+      ],
+      "sha256": "6cfd8574ee918001372922309c431f546310b16618ee2b58854944b8fce7572f",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-020",
+    "source_sha256": "c073f496469445a1858c6e3a30144c0b2e6bbb0a69ade01bb148a20f8f50e374",
+    "nearest_parent": {
+      "dhash": 10708672266643001435,
+      "distance": 19,
+      "groups": [
+        "V6-G-7b9512f7337f1e1efc6f"
+      ],
+      "sample_ids": [
+        "EXP-SCB-039"
+      ],
+      "sha256": "b5cf1651c6c94ae977386630ec73c72e44c7016020630bd17ae63ab815dbda35",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 9783388824202416625,
+      "distance": 22,
+      "groups": [
+        "V6-G-85045be9db4b54bf8935"
+      ],
+      "sample_ids": [
+        "EXP-SCB-005"
+      ],
+      "sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-021",
+    "source_sha256": "b9bd51fb10a696c16b047517b5a99375f0c5dc90c6272e68ea73fbee6a118e2b",
+    "nearest_parent": {
+      "dhash": 13690833592715340143,
+      "distance": 20,
+      "groups": [
+        "V6-G-2a44130a4d5f7ba39107"
+      ],
+      "sample_ids": [
+        "V6-SB-004",
+        "V6R2-MP-009",
+        "V6R2-MP-010",
+        "V6R2-MP-011"
+      ],
+      "sha256": "2c915f0e526e925a01411ff9676088e9601e27222b4323fe8951f505e43ec56d",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 14395408496018703105,
+      "distance": 21,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-036"
+      ],
+      "sha256": "05beb60635b512e0148da451bc7ec8cea94a1089f94827fd3697f741d208474e",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-022",
+    "source_sha256": "94563de6a97b40bb8f3a6c9f53ebf352601f05773007b5eeda0ce2cc9c6a5dfd",
+    "nearest_parent": {
+      "dhash": 6036382276188976019,
+      "distance": 21,
+      "groups": [
+        "V6-G-bb79f6ea3e90b19ced71"
+      ],
+      "sample_ids": [
+        "V6R2-CA-008"
+      ],
+      "sha256": "355af9fc055adc11d6a16b0c180d7d4889f547a162ccbf206a748724d4641ab0",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11393697360351757952,
+      "distance": 22,
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "sample_ids": [
+        "EXP-SCB-014"
+      ],
+      "sha256": "47bb099221462296d32c2e17a52a7c5038403fcc14e0bac9121d2d4e2e71c28c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-023",
+    "source_sha256": "c9dc840a361334092b21bd48e4d3f2d8e279f8deab320cabc5d0fdfbab57f8c2",
+    "nearest_parent": {
+      "dhash": 9060570437788177829,
+      "distance": 20,
+      "groups": [
+        "V6-G-2a44130a4d5f7ba39107"
+      ],
+      "sample_ids": [
+        "V6-SB-031",
+        "V6R2-MP-088",
+        "V6R2-MP-089",
+        "V6R2-MP-090"
+      ],
+      "sha256": "aa041b06dc41464590d6ccd4f9da1506f88446461fc193a073fbf0d9d3fb4df2",
+      "usages": [
+        "review_only",
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 16344126094697340102,
+      "distance": 22,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-026"
+      ],
+      "sha256": "14b3f5daf393778d8daa9578d587bea117d73134208ac5ff4f352ac38eeb252e",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-024",
+    "source_sha256": "63d424c149e7e79b75db616c84e24b33b9c62e68b71ae9ba0e14ed25e2cb655e",
+    "nearest_parent": {
+      "dhash": 3680040497045160603,
+      "distance": 19,
+      "groups": [
+        "CM-V2-SCENE-01"
+      ],
+      "sample_ids": [
+        "EXP-CM-022"
+      ],
+      "sha256": "d0be66995e8eadc15d4c302aaece6e7d06d536c3b6c371df163126b6459923fc",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 9736710042484976056,
+      "distance": 25,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-EX-015"
+      ],
+      "sha256": "894851d1bb5a62a6fea1459b0ea256294ce8bcef0a50fd351cb64ea8844ca09b",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-025",
+    "source_sha256": "2c5b7cf8205707e0c1e420bde6e2f5d2da394d4b2c6553a93c2f3002bcaf126d",
+    "nearest_parent": {
+      "dhash": 10199836395733178892,
+      "distance": 21,
+      "groups": [
+        "CM-V2-SCENE-01"
+      ],
+      "sample_ids": [
+        "EXP-CM-017"
+      ],
+      "sha256": "06fc1d65c42e68b306221df9ce4a2bdc0ac262689f16608cc48b5758b5858b71",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11274815426334802540,
+      "distance": 24,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6R2-CA-007"
+      ],
+      "sha256": "a24c617f86f7526844486a38650ca2e98023dd14b1b1f05565ba61fcfb05027d",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-026",
+    "source_sha256": "3b6c076218d815bd98742166a830c84b87523a2aee7216973a3baf1a52c486c6",
+    "nearest_parent": {
+      "dhash": 14467825404898679193,
+      "distance": 21,
+      "groups": [
+        "V6-G-1084191cb269805efe36"
+      ],
+      "sample_ids": [
+        "SCB-turnhead-010"
+      ],
+      "sha256": "9e1e103eb347178926ea919b93cfc5711834ed7851c152694d7d3654ae05004a",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11137365157509014886,
+      "distance": 22,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "EXP-RF-008"
+      ],
+      "sha256": "3bb5e85fcfe3f5779042fac29b6f50c7b7294b31fcb34d722e868077d6adec79",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-027",
+    "source_sha256": "aabcdb7b1419f8bd88ef35a2aff352e8bd22bf6fe054f8ff8be89c8d21f62fb3",
+    "nearest_parent": {
+      "dhash": 14296792918817073174,
+      "distance": 19,
+      "groups": [
+        "V6-G-51dd391c72d2439600e9"
+      ],
+      "sample_ids": [
+        "V6R2-EX-003"
+      ],
+      "sha256": "b15d761aa697a271bec38a1d1fc3391d1b8bb98b912f7e0e79268d56a47be718",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4833761843529658520,
+      "distance": 21,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6R2-CA-006"
+      ],
+      "sha256": "3f706e11637455e652e2e86a20165fe23d3b09c543e929e6011130a015cafec8",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-028",
+    "source_sha256": "57aece90d040933dc1b21166021b308fa869ef7356672e22d03db1d1042a2573",
+    "nearest_parent": {
+      "dhash": 9439862716547753750,
+      "distance": 18,
+      "groups": [
+        "V6-G-852523332c83ccb3cbd0"
+      ],
+      "sample_ids": [
+        "V6-CA-048"
+      ],
+      "sha256": "6e16798f04afef1a9ab0d0070e0978da24d68d0e1c044d7acf5fce8d21dd516a",
+      "usages": [
+        "excluded"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 9397343445982460265,
+      "distance": 22,
+      "groups": [
+        "V6-G-85045be9db4b54bf8935"
+      ],
+      "sample_ids": [
+        "EXP-SCB-024"
+      ],
+      "sha256": "cb136c2d7242fca6f92b45d09300fd03e08ffedffe24b6b74421b4802fe427d9",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-030",
+    "source_sha256": "8ad35c1a108c6e0d3b7f5828ce5322afd2f5e87d608501b49da1bd56316bd868",
+    "nearest_parent": {
+      "dhash": 14395408496018703105,
+      "distance": 20,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-036"
+      ],
+      "sha256": "05beb60635b512e0148da451bc7ec8cea94a1089f94827fd3697f741d208474e",
+      "usages": [
+        "val"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 14395408496018703105,
+      "distance": 20,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-036"
+      ],
+      "sha256": "05beb60635b512e0148da451bc7ec8cea94a1089f94827fd3697f741d208474e",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-031",
+    "source_sha256": "13ed7b4e3a824c074937e4044fc1c128c935aa375ce995b4f2dc5cfef2a856d6",
+    "nearest_parent": {
+      "dhash": 4547332975184522653,
+      "distance": 18,
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "sample_ids": [
+        "V6-SB-034"
+      ],
+      "sha256": "3569dd32817975c14a40f9154d6a650e986d17cbdbfed38273b129708d2cf172",
+      "usages": [
+        "val"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4547332975184522653,
+      "distance": 18,
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "sample_ids": [
+        "V6-SB-034"
+      ],
+      "sha256": "3569dd32817975c14a40f9154d6a650e986d17cbdbfed38273b129708d2cf172",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-032",
+    "source_sha256": "929c15280fa25860a2f4d327cc84b6f39cb65c403adb1fd03e18324483d5778d",
+    "nearest_parent": {
+      "dhash": 2838998505629796747,
+      "distance": 17,
+      "groups": [
+        "PB-G-18b53fda4c21055b08af"
+      ],
+      "sample_ids": [
+        "EXP-SCB-011"
+      ],
+      "sha256": "a7b35f7407dddeb722598eb8605f78aef0fbe55a990bcba1811f0804e3e1f40f",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821481645022108623,
+      "distance": 22,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-read-011"
+      ],
+      "sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-033",
+    "source_sha256": "deade2d7377ea8f41924ac629af8d7a206002d4d8dac0f9dd2d8f38672af74aa",
+    "nearest_parent": {
+      "dhash": 12370149153954464797,
+      "distance": 18,
+      "groups": [
+        "V6-G-f8d658b703269f86b526"
+      ],
+      "sample_ids": [
+        "V6R2-CA-011"
+      ],
+      "sha256": "1bf1bfecb6bb6200879e63c360c047e79df16e38452617b2875f27a441405eca",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11221273643237303928,
+      "distance": 24,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-033"
+      ],
+      "sha256": "fa7f4c1d53097db19c37f411511394f10f5e17da6e96bcc4a9e26dd5caaa0376",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-034",
+    "source_sha256": "5c03eff846e165e406db79a1136892f9a21ed32d641f23407e8e7cfec14d5fb7",
+    "nearest_parent": {
+      "dhash": 32319964075058691,
+      "distance": 21,
+      "groups": [
+        "PB-G-18b53fda4c21055b08af"
+      ],
+      "sample_ids": [
+        "SCB-write-017"
+      ],
+      "sha256": "31f776fdc9cdf6bc32e7a943486c3de97d992c15027e6c0456c94553390363e9",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 9563027257778189878,
+      "distance": 23,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-CA-018"
+      ],
+      "sha256": "0ba9f9999a96e92c928edd4fa9df528187a99842917a7bc737e328f2dfcc6e72",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-035",
+    "source_sha256": "0388dfc14cf09475256d64a7f5c2209e08211d54f94b1014a00ac3fb000f1d25",
+    "nearest_parent": {
+      "dhash": 10634067135536458739,
+      "distance": 22,
+      "groups": [
+        "V6-G-2fb2b83caf4ae371408a"
+      ],
+      "sample_ids": [
+        "EXP-SCB-002"
+      ],
+      "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+      "usages": [
+        "val"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10634067135536458739,
+      "distance": 22,
+      "groups": [
+        "V6-G-2fb2b83caf4ae371408a"
+      ],
+      "sample_ids": [
+        "EXP-SCB-002"
+      ],
+      "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-036",
+    "source_sha256": "ddf52f7b41a35b7b82b27344ec5ea9874fc8689137ac4d714033c9a62f4adb8c",
+    "nearest_parent": {
+      "dhash": 7586538755591621016,
+      "distance": 22,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-044"
+      ],
+      "sha256": "130b0e7de8dffa7baec9b00526159273f24744d78c10b397379e1df82ebe0e02",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4352228666714450297,
+      "distance": 22,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-046"
+      ],
+      "sha256": "63e7f3ae7a2982c1dd2cd29c7dc407c69cc0e41ae8b7c2933afff0103c22559c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-066",
+    "source_sha256": "a6dec1bf612b9c58a745af05d8a417b017970999f44f7cff73e721f4cea6a77c",
+    "nearest_parent": {
+      "sha256": "5f2f99365493a61c830959570d4891cacd771193226e47972f3630af6f77c18e",
+      "dhash": 15910273788569609783,
+      "sample_ids": [
+        "V6R2-EX-018"
+      ],
+      "usages": [
+        "review_only"
+      ],
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "distance": 20
+    },
+    "nearest_evaluation": {
+      "sha256": "fab4701f371edf133fd35ef64880f9a618e54503f910d0cdf83ecf130e24540f",
+      "dhash": 12433467241112192452,
+      "sample_ids": [
+        "V6-CA-038"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 23
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-068",
+    "source_sha256": "4d92ff61a35797366a91ac4822c36b9fb5e45aa603429b7f7ded27e2a386b263",
+    "nearest_parent": {
+      "sha256": "99b36a5a8873cea4d8aad1df64a7e0922d6dfd54f51dceb8f3063cd4d8e41459",
+      "dhash": 16018258708851154974,
+      "sample_ids": [
+        "EXP-RF-002"
+      ],
+      "usages": [
+        "excluded"
+      ],
+      "groups": [
+        "V6-G-a30a5bc0526bafebf8bd"
+      ],
+      "distance": 19
+    },
+    "nearest_evaluation": {
+      "sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+      "dhash": 6855438708695866681,
+      "sample_ids": [
+        "SCB-write-026"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-7fb27f65676f43721a39"
+      ],
+      "distance": 23
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-069",
+    "source_sha256": "e678ffaaf4f0e7a416b0dd409e0a8ef08ab86cb724a827c8e349df0618ecc272",
+    "nearest_parent": {
+      "sha256": "fdec34d71dbca5cebd7069a4d8cba99273cef101a9455ac5ae0fb22914a17457",
+      "dhash": 14757819183719938316,
+      "sample_ids": [
+        "V6R2-CA-009"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 22
+    },
+    "nearest_evaluation": {
+      "sha256": "fdec34d71dbca5cebd7069a4d8cba99273cef101a9455ac5ae0fb22914a17457",
+      "dhash": 14757819183719938316,
+      "sample_ids": [
+        "V6R2-CA-009"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 22
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-070",
+    "source_sha256": "9c489b6b86bc6c20320a7740837a2bf86ce82cde93b07d50bcf99604b820243c",
+    "nearest_parent": {
+      "sha256": "2a3cda0abda1c5fe4a86e109216e156c8d80fa5f8bc76ea5f28d5ec3701c08d1",
+      "dhash": 10745964062741160307,
+      "sample_ids": [
+        "V6-CA-009"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-f7a0531da2af0877f8d8"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "126781a55e2e48d55dc3575870f4a26ddb40cde0b6fd70ee628ce215c53f9531",
+      "dhash": 10464484037290515505,
+      "sample_ids": [
+        "EXP-RF-007"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 25
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-071",
+    "source_sha256": "8d87db4f40b825973e8acd1144de826399377e39aba8628613b40bc0247a2d96",
+    "nearest_parent": {
+      "sha256": "24d9bc5b815b560e039708d32898fbafa88b28f13a3b3056a190ae601dd04ddf",
+      "dhash": 8314183452786451939,
+      "sample_ids": [
+        "V6R2-CA-013"
+      ],
+      "usages": [
+        "review_only"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 21
+    },
+    "nearest_evaluation": {
+      "sha256": "6a06d4e30f27d617185ea1464e490aec54fbd45df3c10b7af031a509a4368abf",
+      "dhash": 4882395542446978135,
+      "sample_ids": [
+        "V6-CA-043"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 22
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-072",
+    "source_sha256": "c16ab69d978bae2f42ea559a11efbec4eb0d99e0d26c51d41b091e0638a5979a",
+    "nearest_parent": {
+      "sha256": "95396911a3298e30f125471d57b8be02ea50a903d9e66ce43e2568842187a588",
+      "dhash": 18157383390609103289,
+      "sample_ids": [
+        "V6R2-EX-001"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-31880bcf33cbe15ad4fe"
+      ],
+      "distance": 0
+    },
+    "nearest_evaluation": {
+      "sha256": "3f0fb5e329a6d81c1458feddfb91abcf25c51b434579e66a722bb2e6466717cd",
+      "dhash": 16353541619830857103,
+      "sample_ids": [
+        "V6-CA-015"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-3a23d0e59022fc16cf45"
+      ],
+      "distance": 21
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-073",
+    "source_sha256": "2bfba85c43602e2420e34c97de125ac7825ba1f459f048402d38aabfd17a273b",
+    "nearest_parent": {
+      "sha256": "90118c0df162635ce9b5f30cd941f3450b20469816f0b0c7ddb50605adc91b1c",
+      "dhash": 18084758846242282673,
+      "sample_ids": [
+        "P019-person-01"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-31880bcf33cbe15ad4fe"
+      ],
+      "distance": 1
+    },
+    "nearest_evaluation": {
+      "sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+      "dhash": 15341772563907695763,
+      "sample_ids": [
+        "P028-person-01"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-3369d47e05ce355b3db8"
+      ],
+      "distance": 21
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-074",
+    "source_sha256": "07a195cdda6dfd7ec6121e51f88e36c5985f319fca52b94a259a4ef1b95c11ba",
+    "nearest_parent": {
+      "sha256": "3f706e11637455e652e2e86a20165fe23d3b09c543e929e6011130a015cafec8",
+      "dhash": 4833761843529658520,
+      "sample_ids": [
+        "V6R2-CA-006"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 19
+    },
+    "nearest_evaluation": {
+      "sha256": "3f706e11637455e652e2e86a20165fe23d3b09c543e929e6011130a015cafec8",
+      "dhash": 4833761843529658520,
+      "sample_ids": [
+        "V6R2-CA-006"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 19
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-076",
+    "source_sha256": "3c38bc4c879a017cf1ac987bffea95edead6b708f23b9d6c58f7ab586db6d726",
+    "nearest_parent": {
+      "sha256": "84ea92f16fc1dc83cbb11c4bf07c9bdba755a7eb80761636c1e6d12a32339fe7",
+      "dhash": 18224992731666392772,
+      "sample_ids": [
+        "V6-EX-025"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-ce18fc6d0661260b0f61"
+      ],
+      "distance": 22
+    },
+    "nearest_evaluation": {
+      "sha256": "5bf637899577aba450896a99c2efaa1080eaf12e2918ee5ea57561652faf8f00",
+      "dhash": 15341772563907695763,
+      "sample_ids": [
+        "P028-person-01"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-3369d47e05ce355b3db8"
+      ],
+      "distance": 24
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-077",
+    "source_sha256": "329d61f10c9c18723e309418fdb88e3ad51e569f7ea10feefa369195fb9487c9",
+    "nearest_parent": {
+      "sha256": "87a7f8f97d4168a006ca6d9ad8902f9477419792dca6a94a21016741b3fad043",
+      "dhash": 14242610504688720381,
+      "sample_ids": [
+        "P009-person-01"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-bbe4f1fb269574a0e667"
+      ],
+      "distance": 11
+    },
+    "nearest_evaluation": {
+      "sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+      "dhash": 2821481645022108623,
+      "sample_ids": [
+        "SCB-read-011"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "distance": 16
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-080",
+    "source_sha256": "9c6a4f8d74f4a8d1efd5729b7a8e0686270e3651a2c79fa4f69fa8e76a9bfc41",
+    "nearest_parent": {
+      "sha256": "699edcdbfcbc62e6b0d08c613d83ec824afeb13e4bd21a56c512940b9c5b558a",
+      "dhash": 14022664186418565432,
+      "sample_ids": [
+        "V6-CA-042"
+      ],
+      "usages": [
+        "review_only"
+      ],
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "distance": 5
+    },
+    "nearest_evaluation": {
+      "sha256": "fbc7ad06d10f53778c2c43a2c8279af57e1f79c7991102050236e4950a0a55c1",
+      "dhash": 8246885738232362672,
+      "sample_ids": [
+        "V6R2-SB-016"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-d44a821e962a24104c63"
+      ],
+      "distance": 22
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-081",
+    "source_sha256": "ebe0f4492e469832f3c26317d3cd5c497543ef694da1630f5f3e3d647d7ac3e2",
+    "nearest_parent": {
+      "sha256": "40656fdf38880988ffa44416f4695620e4ef238901300bf32545fe24bcec4cc3",
+      "dhash": 15173352699209508742,
+      "sample_ids": [
+        "V6-EX-021"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-6fa08054492f978c5f30"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "9de6b203aeacd242e5fc511896a4611ce1fd6675148712c52a3c973592dd0647",
+      "dhash": 13165312149357171247,
+      "sample_ids": [
+        "V6-CA-006"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 20
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-082",
+    "source_sha256": "beadcc173d3b0ccc7ed2db7001a65ff19c49806fdbf20e030ca160cec6e1bb99",
+    "nearest_parent": {
+      "sha256": "815c2056a14002db78635d80cf9b6d040c228c9edd1242f6ec3c4593e2653f70",
+      "dhash": 15511783441357063003,
+      "sample_ids": [
+        "EXP-RF-010"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-29f905f08f7b6e07c3b4"
+      ],
+      "distance": 14
+    },
+    "nearest_evaluation": {
+      "sha256": "19dc350686ad5dd389ad3fcd39f92b05d804a12aed03980433b1fc835b937588",
+      "dhash": 15340493187472200304,
+      "sample_ids": [
+        "V6-SB-033"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-d44a821e962a24104c63"
+      ],
+      "distance": 24
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-083",
+    "source_sha256": "40097d73c178b472a4ae48730ed8d24512cea6435fa6cd3e4ee708168437f343",
+    "nearest_parent": {
+      "sha256": "4d234bffbe30fa363631d4de2eddc6807e7f422cc7a9095ac67f69d6cdc91c5f",
+      "dhash": 1372873778179158769,
+      "sample_ids": [
+        "V6-EX-005"
+      ],
+      "usages": [
+        "excluded"
+      ],
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "distance": 18
+    },
+    "nearest_evaluation": {
+      "sha256": "b56a4fb0944a120d4479a3050fcb00acfcdff68927aaec294972dfd1032b2db8",
+      "dhash": 14386023577649164785,
+      "sample_ids": [
+        "SCB-write-002"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-d4148f8feed0711bb6c6"
+      ],
+      "distance": 20
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-084",
+    "source_sha256": "1697d7d9587d30f314bc87a818f87eca6e78215f468e4aad06e25cf55a4f9e5a",
+    "nearest_parent": {
+      "sha256": "23920abda9bc554e039097f583eaffd6bdda7c49c62c744e23c87c451fc187e4",
+      "dhash": 11637632989410004529,
+      "sample_ids": [
+        "SCB-read-025"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-e807a4df97a39d6564fc"
+      ],
+      "distance": 21
+    },
+    "nearest_evaluation": {
+      "sha256": "1bec011602e3c71b527a145ac6ef67cf02184220503d5a128d81204f3e8304d2",
+      "dhash": 6855438708695866681,
+      "sample_ids": [
+        "SCB-write-026"
+      ],
+      "usages": [
+        "test"
+      ],
+      "groups": [
+        "PB-G-7fb27f65676f43721a39"
+      ],
+      "distance": 26
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-085",
+    "source_sha256": "51e0a28010a16b1cae789e58a547ff5d2e033624e685e9da989caac66ce7638d",
+    "nearest_parent": {
+      "sha256": "09cec1215a311d9ae47d854ae2a79855fd6dc7ec2189adb75eb3004f402e8abd",
+      "dhash": 8120170879211065457,
+      "sample_ids": [
+        "V6-CA-019"
+      ],
+      "usages": [
+        "excluded"
+      ],
+      "groups": [
+        "V6-G-eb05e53f5c08f709b60b"
+      ],
+      "distance": 21
+    },
+    "nearest_evaluation": {
+      "sha256": "9de6b203aeacd242e5fc511896a4611ce1fd6675148712c52a3c973592dd0647",
+      "dhash": 13165312149357171247,
+      "sample_ids": [
+        "V6-CA-006"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 23
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-086",
+    "source_sha256": "3d703c4347e6a5589f40bfbf96dd30a28002ac77adb0b264b582c4edd1728e00",
+    "nearest_parent": {
+      "sha256": "7074dd694f5df8d3862310d407e5ce48efa91ad970925c775c4a6f02e206408e",
+      "dhash": 7605791529494985428,
+      "sample_ids": [
+        "V6-SB-048"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-e232aa8959d2392c831a"
+      ],
+      "distance": 20
+    },
+    "nearest_evaluation": {
+      "sha256": "3f706e11637455e652e2e86a20165fe23d3b09c543e929e6011130a015cafec8",
+      "dhash": 4833761843529658520,
+      "sample_ids": [
+        "V6R2-CA-006"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "distance": 24
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-087",
+    "source_sha256": "aa8ff54b8e46b061df5e814934e4638a82ed647c66842cd6038982a3c2afadb6",
+    "nearest_parent": {
+      "sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+      "dhash": 2231171841537980725,
+      "sample_ids": [
+        "EXP-RF-004"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "V6-G-ab81c5e693b75070c967"
+      ],
+      "distance": 20
+    },
+    "nearest_evaluation": {
+      "sha256": "cb136c2d7242fca6f92b45d09300fd03e08ffedffe24b6b74421b4802fe427d9",
+      "dhash": 9397343445982460265,
+      "sample_ids": [
+        "EXP-SCB-024"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-85045be9db4b54bf8935"
+      ],
+      "distance": 21
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-088",
+    "source_sha256": "5598c29f87b34cfa59e46f77537056dee868d7ed55f8439aa6e79f79b0ee7163",
+    "nearest_parent": {
+      "sha256": "759241b02b036bb2af9b32b8d6f5f544aac129cfb70c05a5ab5c5888d659f029",
+      "dhash": 4861524941120615223,
+      "sample_ids": [
+        "SCB-read-027"
+      ],
+      "usages": [
+        "train"
+      ],
+      "groups": [
+        "PB-G-dca2707060694e8e8350"
+      ],
+      "distance": 10
+    },
+    "nearest_evaluation": {
+      "sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+      "dhash": 9783388824202416625,
+      "sample_ids": [
+        "EXP-SCB-005"
+      ],
+      "usages": [
+        "val"
+      ],
+      "groups": [
+        "V6-G-85045be9db4b54bf8935"
+      ],
+      "distance": 21
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-089",
+    "source_sha256": "36c2b45a7446e9acd695163765e43d378ed28420578e943886a84d416a47715a",
+    "nearest_parent": {
+      "dhash": 3689536447209636115,
+      "distance": 21,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "P034-person-01"
+      ],
+      "sha256": "6408501c09171b94f52d536aaf12262858e030bca27766a13ff375f01255b940",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821481645022108623,
+      "distance": 22,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-read-011"
+      ],
+      "sha256": "ef4cc0962b9a5d440aafad60d370b3ce645e00311bc51835b8798dddfcc7eb10",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-090",
+    "source_sha256": "000e1ee3a4877065a3be46eddc233a268dcfac5aef5ed25fa65833ad14939f49",
+    "nearest_parent": {
+      "dhash": 2821499099601428422,
+      "distance": 16,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-write-015"
+      ],
+      "sha256": "ce2e69e7e1afc478a02caf1934a51b39614d09e84bf4a56aa1eddb10fb6d5a30",
+      "usages": [
+        "test"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821499099601428422,
+      "distance": 16,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-write-015"
+      ],
+      "sha256": "ce2e69e7e1afc478a02caf1934a51b39614d09e84bf4a56aa1eddb10fb6d5a30",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-091",
+    "source_sha256": "f7fb5e34148f5484fc7aef2f3f84f883ce40396d5f9eb36aa9fab76849be60e0",
+    "nearest_parent": {
+      "dhash": 3461186591266557381,
+      "distance": 17,
+      "groups": [
+        "V6-G-3d72119803ac0e10001b"
+      ],
+      "sample_ids": [
+        "EXP-SCB-017"
+      ],
+      "sha256": "c7cd9bfe1cee24fa04b966dc400f2701e9c92dc0b5fe5f2cd664ce98f9617c6a",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11221273643237303928,
+      "distance": 22,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-033"
+      ],
+      "sha256": "fa7f4c1d53097db19c37f411511394f10f5e17da6e96bcc4a9e26dd5caaa0376",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-093",
+    "source_sha256": "b3982aeb8c4f9344153fff0d1f26ec3ef1f416e7d6f2ae38e83f1ffb2d16200f",
+    "nearest_parent": {
+      "dhash": 14936086072358868583,
+      "distance": 22,
+      "groups": [
+        "V6-G-4ae5127c46c708447916"
+      ],
+      "sample_ids": [
+        "EXP-RF-016"
+      ],
+      "sha256": "d5437aff1bfef1905df60b9f95655bcc188da5647a07f87b3df08fe9c7fbd949",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2821499099601428422,
+      "distance": 23,
+      "groups": [
+        "PB-G-2bfd674c05ef8b6e2ea6"
+      ],
+      "sample_ids": [
+        "SCB-write-015"
+      ],
+      "sha256": "ce2e69e7e1afc478a02caf1934a51b39614d09e84bf4a56aa1eddb10fb6d5a30",
+      "usages": [
+        "test"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-094",
+    "source_sha256": "1dac8404e2cb63e1de0423c68c0086b806cc1bb867ba7461d1dbe55e922a67a8",
+    "nearest_parent": {
+      "dhash": 12189321809776209349,
+      "distance": 22,
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "sample_ids": [
+        "V6-EX-037"
+      ],
+      "sha256": "3b63cb99ca6cd7052b8c91c874aec25b31239a84aaa83e07db1ad86fc5274225",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 2898226147704092137,
+      "distance": 24,
+      "groups": [
+        "V6-G-bfee2347d4708b9a0168"
+      ],
+      "sample_ids": [
+        "V6-SB-047"
+      ],
+      "sha256": "56de44769653c5ba9aea1704fdf0168604d9c77445742ca8c0173f9cce8b3e63",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-095",
+    "source_sha256": "54febfd377a671bf2cc569b8cc7fd50c8f6985cd2c9148881a9fe22129ee80a7",
+    "nearest_parent": {
+      "dhash": 1815261996493525875,
+      "distance": 17,
+      "groups": [
+        "V6-G-75571ae9f3c2bfc8ef6a"
+      ],
+      "sample_ids": [
+        "V6-CA-032"
+      ],
+      "sha256": "25b4c1053bb5827790e70f2d8406f9ec0ab4db38015b1ad11f28cf9dbe838a9b",
+      "usages": [
+        "excluded"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4352228666714450297,
+      "distance": 23,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-046"
+      ],
+      "sha256": "63e7f3ae7a2982c1dd2cd29c7dc407c69cc0e41ae8b7c2933afff0103c22559c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-096",
+    "source_sha256": "f584c3b40ae95e3247883a54faea121359ca20daf3585eb598b4463e657af8ae",
+    "nearest_parent": {
+      "dhash": 5825890642797644900,
+      "distance": 21,
+      "groups": [
+        "V6-G-3f7ccdbafb914a849c7f"
+      ],
+      "sample_ids": [
+        "V6-SB-036"
+      ],
+      "sha256": "2e09ec6ace97155004cad035e5fe4f403cc4e310dd3449e77cac9678402c5b9e",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 14384741470081662433,
+      "distance": 23,
+      "groups": [
+        "PB-G-d4148f8feed0711bb6c6"
+      ],
+      "sample_ids": [
+        "SCB-write-024"
+      ],
+      "sha256": "21e0f0165c1787b779be38e54139d1b6295b04f47ae7c2d8f9ecb0c18404956c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-099",
+    "source_sha256": "f7d7cf1d602967058fae97079d2d5487ce9a46b43cf7701cb2f941eef18db044",
+    "nearest_parent": {
+      "dhash": 11928108077387321138,
+      "distance": 10,
+      "groups": [
+        "V6-G-e807a4df97a39d6564fc"
+      ],
+      "sample_ids": [
+        "EXP-SCB-027"
+      ],
+      "sha256": "5f0da07087fa2e8622d9630969392c4a97ccae2cc2a86d6928bd45710794c22d",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 14389324328198746609,
+      "distance": 20,
+      "groups": [
+        "PB-G-d4148f8feed0711bb6c6"
+      ],
+      "sample_ids": [
+        "SCB-write-020"
+      ],
+      "sha256": "7a19cf7ccdc489796d8844a661f5bcc4483d0d74dd05022467e48ebd89c7680b",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-100",
+    "source_sha256": "081def45cb147383bc4a3d6170920af97cc5fbbeeb5cae2f3ade1591a68b1cf1",
+    "nearest_parent": {
+      "dhash": 17144622906707989202,
+      "distance": 18,
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "sample_ids": [
+        "V6-EX-022"
+      ],
+      "sha256": "04c8e875290963b896e60e4e6476223ef03625062c0dbd24c43744e0250f9dc7",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10634067135536458739,
+      "distance": 21,
+      "groups": [
+        "V6-G-2fb2b83caf4ae371408a"
+      ],
+      "sample_ids": [
+        "EXP-SCB-002"
+      ],
+      "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-101",
+    "source_sha256": "ae875ea9490f955a8f43d0dce3dab0c0cadc6e70a66134898bd70390cb2dc65e",
+    "nearest_parent": {
+      "dhash": 11420601037699384217,
+      "distance": 21,
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "sample_ids": [
+        "V6-EX-041"
+      ],
+      "sha256": "2460c96ab17d5f51ca1b8a7a693055d75a904395a0d5d2af47f038ea652c22a4",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11393697360351757952,
+      "distance": 22,
+      "groups": [
+        "V6-G-5c95c56ac7f8af49105c"
+      ],
+      "sample_ids": [
+        "EXP-SCB-014"
+      ],
+      "sha256": "47bb099221462296d32c2e17a52a7c5038403fcc14e0bac9121d2d4e2e71c28c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-102",
+    "source_sha256": "78f1f78d31d2b83900d9bb45097e1906cdcdd57543cb1b9859f917f79a672b94",
+    "nearest_parent": {
+      "dhash": 3103942670291165619,
+      "distance": 0,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "P033-person-01"
+      ],
+      "sha256": "1f12f1dc8e26367b308592bddc54e95d3ae926d06237367cc1b4b4999d97525f",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4352228666714450297,
+      "distance": 24,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-046"
+      ],
+      "sha256": "63e7f3ae7a2982c1dd2cd29c7dc407c69cc0e41ae8b7c2933afff0103c22559c",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-103",
+    "source_sha256": "0eae94b20d68387750b6f60847b91fbee442723ccfaad8823f7adcb1cf1b5384",
+    "nearest_parent": {
+      "dhash": 10776495752127434254,
+      "distance": 18,
+      "groups": [
+        "V6-G-a626bf97afea98e2d74a"
+      ],
+      "sample_ids": [
+        "V6-EX-001"
+      ],
+      "sha256": "751986b82c3fb674f319bfc6d765769d8aaee619ed00fe915f2103f934e48f4c",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 6977355706075252033,
+      "distance": 19,
+      "groups": [
+        "V6-G-73f8ee84e6a5ea4a4049"
+      ],
+      "sample_ids": [
+        "V6-EX-042"
+      ],
+      "sha256": "26f0784b8f6e60cbb9797cda6c1ec323429edd6d143ebff87ba2b2c0e750776d",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-104",
+    "source_sha256": "fa2afaf6d57531eac5430e23ab8b00dbbf7cc47e502bc78419e421a645bd4b64",
+    "nearest_parent": {
+      "dhash": 6221260378013585020,
+      "distance": 8,
+      "groups": [
+        "V6-G-75571ae9f3c2bfc8ef6a"
+      ],
+      "sample_ids": [
+        "V6R2-CA-001"
+      ],
+      "sha256": "577709394314230ee017b65f8faf4f95fd83ea8792f2d9e80b539906c07778d9",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 15340493187472200304,
+      "distance": 22,
+      "groups": [
+        "V6-G-d44a821e962a24104c63"
+      ],
+      "sample_ids": [
+        "V6-SB-033"
+      ],
+      "sha256": "19dc350686ad5dd389ad3fcd39f92b05d804a12aed03980433b1fc835b937588",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-105",
+    "source_sha256": "966b67b19d6dc9ad5672cb7e5d5fe0a709af291c0234a2427fdd72ddcf803e5e",
+    "nearest_parent": {
+      "dhash": 1358092262386886334,
+      "distance": 20,
+      "groups": [
+        "V6-G-7929da3839082c8c87fb"
+      ],
+      "sample_ids": [
+        "V6-SB-045"
+      ],
+      "sha256": "1fa40628c38477c9228f981811c1ff48501b44fccbb6ffc9278c8b675e08f904",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10634067135536458739,
+      "distance": 24,
+      "groups": [
+        "V6-G-2fb2b83caf4ae371408a"
+      ],
+      "sample_ids": [
+        "EXP-SCB-002"
+      ],
+      "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-106",
+    "source_sha256": "b0c9a796eafe83261355af82749a6373b939ea9189f2bb446d473f9e93e79029",
+    "nearest_parent": {
+      "dhash": 13014476707849363948,
+      "distance": 17,
+      "groups": [
+        "V6-G-5574ea116b6880b71974"
+      ],
+      "sample_ids": [
+        "V6-EX-018"
+      ],
+      "sha256": "63a87ba01e82a139afab1a5a63ef2b33125702b1e57d8e393e4d0d7cb839e734",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 6977355706075252033,
+      "distance": 24,
+      "groups": [
+        "V6-G-73f8ee84e6a5ea4a4049"
+      ],
+      "sample_ids": [
+        "V6-EX-042"
+      ],
+      "sha256": "26f0784b8f6e60cbb9797cda6c1ec323429edd6d143ebff87ba2b2c0e750776d",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-107",
+    "source_sha256": "151ff8fa15b617d0848c4ee72fbc97ae038d34339f4c209482b81b454d92601c",
+    "nearest_parent": {
+      "dhash": 8746486227822392308,
+      "distance": 20,
+      "groups": [
+        "V6-G-26bbcec10e0c3134802d"
+      ],
+      "sample_ids": [
+        "V6-CA-003"
+      ],
+      "sha256": "85a3f86d8a80337c23ea1db0426b40bb37b1d02740c46503850d074259dedca9",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 11137365157509014886,
+      "distance": 24,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "EXP-RF-008"
+      ],
+      "sha256": "3bb5e85fcfe3f5779042fac29b6f50c7b7294b31fcb34d722e868077d6adec79",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-108",
+    "source_sha256": "284addeb9f1a7a1be6746809609c10db27268d1cc1e1ffe42bef469715e72cb3",
+    "nearest_parent": {
+      "dhash": 10182372369827584934,
+      "distance": 20,
+      "groups": [
+        "V6-G-17eb4ed27515c6f94c45"
+      ],
+      "sample_ids": [
+        "EXP-SCB-041"
+      ],
+      "sha256": "9359aeff05a4e3f17adcae7aa52ddbd43efdda5d000f8166a366cf2e6460cefc",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 13165312149357171247,
+      "distance": 21,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-CA-006"
+      ],
+      "sha256": "9de6b203aeacd242e5fc511896a4611ce1fd6675148712c52a3c973592dd0647",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-109",
+    "source_sha256": "f0ad561e0931d721f199a06cb67ad0216af193754c5058b007fc34f0aca785c2",
+    "nearest_parent": {
+      "dhash": 1372873778179158769,
+      "distance": 0,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "V6-EX-005"
+      ],
+      "sha256": "4d234bffbe30fa363631d4de2eddc6807e7f422cc7a9095ac67f69d6cdc91c5f",
+      "usages": [
+        "excluded"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 1734356641584398211,
+      "distance": 24,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-EX-019"
+      ],
+      "sha256": "11e7cf5c944a4e67f595271b0c2f46b153d9998b8a18118c03f2a025360abbb0",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-110",
+    "source_sha256": "1331c47ad3a4269652923d51ae7cb885ab998f83f67090738e4463a0e7eec5b7",
+    "nearest_parent": {
+      "dhash": 7937139803393723659,
+      "distance": 22,
+      "groups": [
+        "V6-G-6fa08054492f978c5f30"
+      ],
+      "sample_ids": [
+        "V6-EX-020"
+      ],
+      "sha256": "17ae1fec1e88e4c03991973aa2979526eae978e6f27e6074129b0ccad64abafc",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 8246885738232362672,
+      "distance": 22,
+      "groups": [
+        "V6-G-d44a821e962a24104c63"
+      ],
+      "sample_ids": [
+        "V6R2-SB-016"
+      ],
+      "sha256": "fbc7ad06d10f53778c2c43a2c8279af57e1f79c7991102050236e4950a0a55c1",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-111",
+    "source_sha256": "4c7d0a642c2a252b122adcb6fef9349ae0e3b2fcb291b7ed40f16669004d6ab9",
+    "nearest_parent": {
+      "dhash": 2529672461526724941,
+      "distance": 17,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "V6-CA-013"
+      ],
+      "sha256": "0faf147fab078922c35546af0a5b37a87feddf86bb1aa5e6a437b0f2ce506513",
+      "usages": [
+        "review_only"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 10634067135536458739,
+      "distance": 19,
+      "groups": [
+        "V6-G-2fb2b83caf4ae371408a"
+      ],
+      "sample_ids": [
+        "EXP-SCB-002"
+      ],
+      "sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-112",
+    "source_sha256": "7638a54be7e458f3b758f5c75a9429ef0424d3251131ba0fa94f344a5f63fe5e",
+    "nearest_parent": {
+      "dhash": 6807306602467137894,
+      "distance": 19,
+      "groups": [
+        "V6-G-4fdb254b283cdf74438d"
+      ],
+      "sample_ids": [
+        "V6-CA-037"
+      ],
+      "sha256": "a51ef3866174fc6e9d4c27f219db469a4e8ee76d940be3e170b559e20d2eba0d",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 4882395542446978135,
+      "distance": 23,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-043"
+      ],
+      "sha256": "6a06d4e30f27d617185ea1464e490aec54fbd45df3c10b7af031a509a4368abf",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-113",
+    "source_sha256": "19ffac454f6647a99a20e8cf26a408445d99832a3cb9d7c88719ea77855bf78b",
+    "nearest_parent": {
+      "dhash": 1371184928318894833,
+      "distance": 15,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "P030-person-01"
+      ],
+      "sha256": "5cdbc8d2f1c765cb10a8920f2cdac6b1160cbf54c0c7bc4575eead541ef1d661",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 1734356641584398211,
+      "distance": 21,
+      "groups": [
+        "PB-G-baf0e0aa45deba62941c"
+      ],
+      "sample_ids": [
+        "V6-EX-019"
+      ],
+      "sha256": "11e7cf5c944a4e67f595271b0c2f46b153d9998b8a18118c03f2a025360abbb0",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-114",
+    "source_sha256": "5949ae9232c5c947b45537fb01f1c1a16b7866a2794daf827afecdcc6d70ece0",
+    "nearest_parent": {
+      "dhash": 18224054455643180235,
+      "distance": 20,
+      "groups": [
+        "V6-G-78b435b55fa5b32c978a"
+      ],
+      "sample_ids": [
+        "P047-extra-01",
+        "P047-person-01"
+      ],
+      "sha256": "470fe5b4f97a35249842b1d966610a5c6c8d6d848671601293c55fa1c4fff049",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 3178084237837528796,
+      "distance": 23,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6R2-CA-014"
+      ],
+      "sha256": "c197c8dfe78c69d0236a671772ada079f3c125a50d529e4c950e84b147d03486",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-115",
+    "source_sha256": "cdcec5461ee05cd98b6820169c366325b49b3dd66056e8592d21d2195c4926a9",
+    "nearest_parent": {
+      "dhash": 7198045541267855084,
+      "distance": 21,
+      "groups": [
+        "PB-G-66da3ab14fede8835db8"
+      ],
+      "sample_ids": [
+        "SCB-read-009"
+      ],
+      "sha256": "3771a15afd37da9af7f75d94fe46fa01ab54e00e66ba42d2ef15ac0287356c1b",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 7526475318616136905,
+      "distance": 25,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-041"
+      ],
+      "sha256": "889040ce12864e4f7ea7ae149c43f4012ed734eaede1b50767a52448b2945ca4",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  },
+  {
+    "owner_item_id": "V7-UNAPPROVED-S-116",
+    "source_sha256": "c6bdd18e40e8d7b6aa210e993be9179d9a1bb96116e778f2adebe4dfd4f41bc3",
+    "nearest_parent": {
+      "dhash": 3705175419568632793,
+      "distance": 6,
+      "groups": [
+        "PB-G-88e21db5e6c794bef0f2"
+      ],
+      "sample_ids": [
+        "P031-person-01"
+      ],
+      "sha256": "ad12fee6ba4a64edc032139ffacf6e6c907efa8c0f4b97cbd0301d37d5a624fd",
+      "usages": [
+        "train"
+      ]
+    },
+    "nearest_evaluation": {
+      "dhash": 14395408496018703105,
+      "distance": 23,
+      "groups": [
+        "V6-G-53fe00e4fc84b2bf7a29"
+      ],
+      "sample_ids": [
+        "V6-CA-036"
+      ],
+      "sha256": "05beb60635b512e0148da451bc7ec8cea94a1089f94827fd3697f741d208474e",
+      "usages": [
+        "val"
+      ]
+    },
+    "distance_is_hint_not_independence_or_must_link": true,
+    "no_test_media_decoded": true
+  }
+]

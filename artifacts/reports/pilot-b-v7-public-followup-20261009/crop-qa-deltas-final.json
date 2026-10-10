@@ -1,0 +1,30 @@
+{
+  "final_revision": "R4",
+  "old_revisions_preserved": true,
+  "deltas": [
+    "A003 bỏ ownership yếu",
+    "A001 domain computer-room education purpose chưa xác minh",
+    "A002 bỏ suffix ngày20241127 sai căn cứ; publisher date2023-08-03 chỉ metadata",
+    "D002 đổi anchor sang người phải giữ mobile, mở cạnh trái/đáy giữ trọn phone",
+    "C001 mở head/workarea bbox",
+    "A006 tablet hard negative, anchor boy trái",
+    "A007 N/U desk negative giữa, shared screen làm gaze U",
+    "C003 UP/C004 UN cùng room/session proposal, không tự approve"
+  ],
+  "input224_visual_reviewed_ids": [
+    "V7-PF-A-001",
+    "V7-PF-A-002",
+    "V7-PF-A-004",
+    "V7-PF-C-001",
+    "V7-PF-A-005",
+    "V7-PF-B-001",
+    "V7-PF-D-001",
+    "V7-PF-D-002",
+    "V7-PF-A-006",
+    "V7-PF-C-002",
+    "V7-PF-A-007",
+    "V7-PF-C-003",
+    "V7-PF-C-004"
+  ],
+  "owner_approved_new_proposals": false
+}

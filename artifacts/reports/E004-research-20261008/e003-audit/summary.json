@@ -1,0 +1,3089 @@
+{
+  "train": {
+    "records": 317,
+    "groups": 103,
+    "targets": {
+      "phone_use": {
+        "positive": 93,
+        "negative": 91,
+        "unknown": 133,
+        "TP": 80,
+        "FP": 24,
+        "FN": 13,
+        "TN": 67
+      },
+      "looking_around": {
+        "positive": 117,
+        "negative": 112,
+        "unknown": 88,
+        "TP": 99,
+        "FP": 18,
+        "FN": 18,
+        "TN": 94
+      }
+    },
+    "by_source": {
+      "classroom_attitude": {
+        "records": 24,
+        "groups": 23,
+        "targets": {
+          "phone_use": {
+            "positive": 15,
+            "negative": 6,
+            "unknown": 3,
+            "TP": 13,
+            "FP": 0,
+            "FN": 2,
+            "TN": 6
+          },
+          "looking_around": {
+            "positive": 3,
+            "negative": 5,
+            "unknown": 16,
+            "TP": 2,
+            "FP": 3,
+            "FN": 1,
+            "TN": 2
+          }
+        }
+      },
+      "classroom_monitoring_v2": {
+        "records": 24,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 9,
+            "negative": 11,
+            "unknown": 4,
+            "TP": 5,
+            "FP": 0,
+            "FN": 4,
+            "TN": 11
+          },
+          "looking_around": {
+            "positive": 7,
+            "negative": 6,
+            "unknown": 11,
+            "TP": 6,
+            "FP": 2,
+            "FN": 1,
+            "TN": 4
+          }
+        }
+      },
+      "exam_cheating_keaor": {
+        "records": 38,
+        "groups": 15,
+        "targets": {
+          "phone_use": {
+            "positive": 11,
+            "negative": 20,
+            "unknown": 7,
+            "TP": 9,
+            "FP": 9,
+            "FN": 2,
+            "TN": 11
+          },
+          "looking_around": {
+            "positive": 18,
+            "negative": 11,
+            "unknown": 9,
+            "TP": 17,
+            "FP": 5,
+            "FN": 1,
+            "TN": 6
+          }
+        }
+      },
+      "roboflow_v1": {
+        "records": 28,
+        "groups": 14,
+        "targets": {
+          "phone_use": {
+            "positive": 16,
+            "negative": 8,
+            "unknown": 4,
+            "TP": 14,
+            "FP": 6,
+            "FN": 2,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 8,
+            "negative": 4,
+            "unknown": 16,
+            "TP": 7,
+            "FP": 1,
+            "FN": 1,
+            "TN": 3
+          }
+        }
+      },
+      "scb_head": {
+        "records": 35,
+        "groups": 19,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 32,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 3
+          },
+          "looking_around": {
+            "positive": 34,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 22,
+            "FP": 0,
+            "FN": 12,
+            "TN": 1
+          }
+        }
+      },
+      "scb_hrw": {
+        "records": 65,
+        "groups": 31,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 20,
+            "unknown": 45,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 20
+          },
+          "looking_around": {
+            "positive": 3,
+            "negative": 59,
+            "unknown": 3,
+            "TP": 2,
+            "FP": 2,
+            "FN": 1,
+            "TN": 57
+          }
+        }
+      },
+      "student_behaviour": {
+        "records": 103,
+        "groups": 12,
+        "targets": {
+          "phone_use": {
+            "positive": 42,
+            "negative": 23,
+            "unknown": 38,
+            "TP": 39,
+            "FP": 9,
+            "FN": 3,
+            "TN": 14
+          },
+          "looking_around": {
+            "positive": 44,
+            "negative": 26,
+            "unknown": 33,
+            "TP": 43,
+            "FP": 5,
+            "FN": 1,
+            "TN": 21
+          }
+        }
+      }
+    },
+    "by_group": {
+      "CM-V2-SCENE-01": {
+        "records": 24,
+        "targets": {
+          "phone_use": {
+            "positive": 9,
+            "negative": 11,
+            "unknown": 4,
+            "TP": 5,
+            "FP": 0,
+            "FN": 4,
+            "TN": 11
+          },
+          "looking_around": {
+            "positive": 7,
+            "negative": 6,
+            "unknown": 11,
+            "TP": 6,
+            "FP": 2,
+            "FN": 1,
+            "TN": 4
+          }
+        }
+      },
+      "PB-G-0d6c5bf196aadec95d7c": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "PB-G-13e190f7784f3cb34c62": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 3,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 3
+          }
+        }
+      },
+      "PB-G-18b53fda4c21055b08af": {
+        "records": 9,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 7,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 7,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 0,
+            "TN": 7
+          }
+        }
+      },
+      "PB-G-66da3ab14fede8835db8": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "PB-G-7adf3e797f0d4d4978d9": {
+        "records": 4,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 2,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 2
+          }
+        }
+      },
+      "PB-G-88e21db5e6c794bef0f2": {
+        "records": 14,
+        "targets": {
+          "phone_use": {
+            "positive": 12,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 12,
+            "FP": 2,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 4,
+            "negative": 0,
+            "unknown": 10,
+            "TP": 4,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "PB-G-950af88cd17908a77c81": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 3,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "PB-G-b3e360cd83d1dfacd186": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "PB-G-dca2707060694e8e8350": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "PB-G-e75177c4ea5ebe2443ac": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "PB-G-f0b75b5ac12d58228355": {
+        "records": 28,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 4,
+            "unknown": 24,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 4
+          },
+          "looking_around": {
+            "positive": 11,
+            "negative": 17,
+            "unknown": 0,
+            "TP": 4,
+            "FP": 0,
+            "FN": 7,
+            "TN": 17
+          }
+        }
+      },
+      "V6-G-03d36877e9eb99db8eb3": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-048579a1628734253f8f": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-06cba39ff0feea2ee4a9": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-0839744493643e02220f": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-0b31a34d759e593e0586": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-0d1a82fab3fd52ec4163": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-0e2a256de9081656126d": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-1084191cb269805efe36": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-1106b1aaa1a591d7b247": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-12b322818c99f47dc073": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-15df48dbb37d08c6b9ef": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-17eb4ed27515c6f94c45": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-1d4c83f734515165c4df": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-2019d5646b455f37272a": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-2213efa972ee8c6f7b8a": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-26bbcec10e0c3134802d": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-280f0d753eb4f8d3f2b9": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-29934f907d1e2baa5072": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-29f905f08f7b6e07c3b4": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 2,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-2a44130a4d5f7ba39107": {
+        "records": 91,
+        "targets": {
+          "phone_use": {
+            "positive": 42,
+            "negative": 11,
+            "unknown": 38,
+            "TP": 39,
+            "FP": 8,
+            "FN": 3,
+            "TN": 3
+          },
+          "looking_around": {
+            "positive": 44,
+            "negative": 16,
+            "unknown": 31,
+            "TP": 43,
+            "FP": 4,
+            "FN": 1,
+            "TN": 12
+          }
+        }
+      },
+      "V6-G-2ea4283ddb2be0587afc": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-31880bcf33cbe15ad4fe": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 2,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-32733c18573c06896ad0": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-354474e49b70ebd09240": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-35cc4606f795392a2add": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-3d72119803ac0e10001b": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-3f2ccbc689f86656f4c3": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-3f43f752ed65e8d64568": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-40464cf9224fb4dbc235": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-42a5ccb7948a42c2cb4b": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-45495c5a304f147a63c5": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-45a9bd904fa4f1649af6": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-48596d8567f532b0e83e": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-4fdb254b283cdf74438d": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-5334aedf9d3d9767844d": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-53c065f92a59d6f04f72": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-53e230031dbf88c8f8ec": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-5574ea116b6880b71974": {
+        "records": 17,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 15,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 6,
+            "FN": 0,
+            "TN": 9
+          },
+          "looking_around": {
+            "positive": 6,
+            "negative": 9,
+            "unknown": 2,
+            "TP": 6,
+            "FP": 3,
+            "FN": 0,
+            "TN": 6
+          }
+        }
+      },
+      "V6-G-55c6b431fc5ea84e0bd0": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-5cc4e573a70d23f714ef": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-5edb6cd8551e0a5628f8": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-666a2ea0ed4f708dbff2": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-6a5a020c968be6450a39": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-6af358955ba8ec5f1bd9": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-6b504962f650ee221bd0": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-6fa08054492f978c5f30": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-71ce6614cfc77136893b": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-73ae71b05a839d8bcf4c": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-75571ae9f3c2bfc8ef6a": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 2,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 1,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-78b435b55fa5b32c978a": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-7929da3839082c8c87fb": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-7a07237f8236e59075c9": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 3,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 3,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-7f8137444d3c846d0587": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-80d9db7b71f788e893a0": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-8de36901ee691b29b9e7": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-9134fdad8c79128592a1": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-95395448599640b29d76": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-95ce8169c7444e6caa6f": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-9621b8f466a8d5702f35": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-97fd87f595bb9d8f70f8": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-a1deceac8f8f43a238b0": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-a626bf97afea98e2d74a": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-ab81c5e693b75070c967": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-b46d3c31897c7157f5a6": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-b6dbf74cad286c5fa5be": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-b83573fe6a15141a4405": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-bb79f6ea3e90b19ced71": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-bbe4f1fb269574a0e667": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-c014aa661e5160c4d282": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-c83282c8c8290343172e": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-cab424fc3d3653b9b3a4": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-cb14a0a0b8f000817730": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-cca3a7a410a0fdc771da": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-ce18fc6d0661260b0f61": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-d1e886e94302585b15ba": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-d794b01ba44dcc0f1f68": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-d841fc4acb3fb5db7c65": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-dc8ce55db2c6a502d1e2": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-e13308e589dc94198218": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-e232aa8959d2392c831a": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-e2799a9743b195ae78e7": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-e29e022fa87eca825f36": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-e807a4df97a39d6564fc": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-e98f93314ac0fa9ccc97": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-ee545d61c486df2a4295": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-f0c1e42222081e3320ca": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-f1f4cd90327755bf8c95": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-f368231f74c5b7306225": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-f7a0531da2af0877f8d8": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-f957c0bae0a7bd7e36bf": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-f9e52e249f517c212bf6": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      }
+    }
+  },
+  "val": {
+    "records": 50,
+    "groups": 14,
+    "targets": {
+      "phone_use": {
+        "positive": 17,
+        "negative": 20,
+        "unknown": 13,
+        "TP": 9,
+        "FP": 2,
+        "FN": 8,
+        "TN": 18
+      },
+      "looking_around": {
+        "positive": 18,
+        "negative": 11,
+        "unknown": 21,
+        "TP": 11,
+        "FP": 1,
+        "FN": 7,
+        "TN": 10
+      }
+    },
+    "by_source": {
+      "classroom_attitude": {
+        "records": 17,
+        "groups": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 7,
+            "negative": 8,
+            "unknown": 2,
+            "TP": 1,
+            "FP": 0,
+            "FN": 6,
+            "TN": 8
+          },
+          "looking_around": {
+            "positive": 6,
+            "negative": 0,
+            "unknown": 11,
+            "TP": 2,
+            "FP": 0,
+            "FN": 4,
+            "TN": 0
+          }
+        }
+      },
+      "exam_cheating_keaor": {
+        "records": 6,
+        "groups": 4,
+        "targets": {
+          "phone_use": {
+            "positive": 3,
+            "negative": 2,
+            "unknown": 1,
+            "TP": 2,
+            "FP": 1,
+            "FN": 1,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 1,
+            "unknown": 3,
+            "TP": 2,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "roboflow_v1": {
+        "records": 13,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 7,
+            "negative": 0,
+            "unknown": 6,
+            "TP": 6,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 6,
+            "negative": 0,
+            "unknown": 7,
+            "TP": 4,
+            "FP": 0,
+            "FN": 2,
+            "TN": 0
+          }
+        }
+      },
+      "scb_head": {
+        "records": 1,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "scb_hrw": {
+        "records": 6,
+        "groups": 4,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 4,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 4
+          },
+          "looking_around": {
+            "positive": 3,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 1,
+            "TN": 3
+          }
+        }
+      },
+      "student_behaviour": {
+        "records": 7,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 6,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 5
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 7,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 7
+          }
+        }
+      }
+    },
+    "by_group": {
+      "PB-G-baf0e0aa45deba62941c": {
+        "records": 21,
+        "targets": {
+          "phone_use": {
+            "positive": 11,
+            "negative": 2,
+            "unknown": 8,
+            "TP": 8,
+            "FP": 0,
+            "FN": 3,
+            "TN": 2
+          },
+          "looking_around": {
+            "positive": 10,
+            "negative": 0,
+            "unknown": 11,
+            "TP": 6,
+            "FP": 0,
+            "FN": 4,
+            "TN": 0
+          }
+        }
+      },
+      "PB-G-d4148f8feed0711bb6c6": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 2,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 3
+          }
+        }
+      },
+      "V6-G-18caa4237925ae9749e3": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 0,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-2fb2b83caf4ae371408a": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-3a23d0e59022fc16cf45": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-53fe00e4fc84b2bf7a29": {
+        "records": 11,
+        "targets": {
+          "phone_use": {
+            "positive": 4,
+            "negative": 6,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 4,
+            "TN": 6
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 9,
+            "TP": 0,
+            "FP": 0,
+            "FN": 2,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-5c95c56ac7f8af49105c": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 3,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 3
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      },
+      "V6-G-73f8ee84e6a5ea4a4049": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-85045be9db4b54bf8935": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 2,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 2,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-ae0cbae3310d6f5db3df": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-bfee2347d4708b9a0168": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-c197fd750c63e3f82b42": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "TN": 0
+          },
+          "looking_around": {
+            "positive": 1,
+            "negative": 0,
+            "unknown": 0,
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "TN": 0
+          }
+        }
+      },
+      "V6-G-cfcc8e4c59a1eff1e7c2": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          }
+        }
+      },
+      "V6-G-d44a821e962a24104c63": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "positive": 0,
+            "negative": 1,
+            "unknown": 1,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 1
+          },
+          "looking_around": {
+            "positive": 0,
+            "negative": 2,
+            "unknown": 0,
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "TN": 2
+          }
+        }
+      }
+    }
+  },
+  "visual_audit": {
+    "error_cells": 49,
+    "unique_images": 48,
+    "fn_cells": 46,
+    "label_recheck_cells": 12,
+    "factor_counts": {
+      "ambiguous_label": 11,
+      "crowded_context": 14,
+      "hand_occlusion": 15,
+      "head_back": 5,
+      "head_forward_up": 1,
+      "head_side": 17,
+      "head_tilt": 1,
+      "held_phone": 14,
+      "low_detail": 17,
+      "off_domain": 10,
+      "overlay_text": 1,
+      "partial_evidence": 9,
+      "phone_at_ear": 2,
+      "phone_on_desk": 7,
+      "reading_writing": 3,
+      "resting_pose": 4,
+      "small_evidence": 24,
+      "source_noise": 3
+    },
+    "test_media_read": false,
+    "inference_executed": false
+  }
+}

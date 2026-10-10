@@ -1,0 +1,12 @@
+r7_proposals: data/interim/pilot-b/v7-targeted-review-20261008-r7/candidates.jsonl
+final_proposals: outputs/v7-owner-review-r4-20261009/review-proposals.jsonl
+pairs: data/interim/pilot-b/v7-targeted-review-20261008-r7/pairs.json
+attributions: artifacts/reports/pilot-b-v7-targeted-20261008/public-attribution-r7.jsonl
+parent_manifest: data/processed/pilot-b/pilot-b-20261007-v6/manifest.jsonl
+output_dir: artifacts/reports/pilot-b-v7-audit-r8-20261009/annotation-r2
+expected_sha256:
+  r7_proposals: c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833
+  final_proposals: 5485145d85fcacc6488fc3eaedce14053bba0531db97e220e5aad06c2063ee3a
+  pairs: b49b71d2e89957c8e413b5005d5e7c9e29c5b36d3f4d2bb2d9ee21543817c154
+  attributions: 08dcb83db916fd6ce6e18a0febb787209a324ea2f66af92e5ca7ba69cb2b261c
+  parent_manifest: 9fac24a0e3e02cb38675cbbf071366ea0702993c0c2013dcdd25645c57a194f7

@@ -1,0 +1,464 @@
+{
+  "R5_bucket_A_classroom_domain_actual_train": {
+    "count": 11,
+    "phone_states": {
+      "positive": 6,
+      "negative": 5
+    },
+    "ids": [
+      "V7-A-001",
+      "V7-A-003",
+      "V7-A-005",
+      "V7-A-035",
+      "V7-A-042",
+      "V7-A-002",
+      "V7-A-004",
+      "V7-A-028",
+      "V7-A-030",
+      "V7-A-032",
+      "V7-A-034"
+    ],
+    "scope": "Subset tagged A/classroom in R5; not total finalv7 desk coverage."
+  },
+  "new_train_exact_image_pairs": {
+    "raw_pairs": 22,
+    "unique_images": 19,
+    "by_target": {
+      "phone_use": 5,
+      "looking_around": 17
+    },
+    "images_by_target": {
+      "phone_use": 5,
+      "looking_around": 16
+    },
+    "independence_proven": 0,
+    "pairs": [
+      {
+        "positive_id": "V7-B-039",
+        "negative_id": "V7-B-089",
+        "target": "phone_use",
+        "source_sha256": "719e71d7c566639cecd558fd8ced12e3401ff2ef11077d2d7cbd9ab01ee0998e",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-B-102",
+        "negative_id": "V7-C-131",
+        "target": "looking_around",
+        "source_sha256": "6e562a2102356794fbce6495bb2316685c2267431b6c8e2dbad543938a4f6a50",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-C-003",
+        "negative_id": "V7-C-093",
+        "target": "looking_around",
+        "source_sha256": "2b4e1f06a5e41673aa041463ecd959a3beca203733e24b1cf8e7afe7f665339f",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-C-009",
+        "negative_id": "V7-C-094",
+        "target": "looking_around",
+        "source_sha256": "8cbfbf4d24c35e74022c5d72d2cbb7636ef0298e7cd6349d815493380d8f599c",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-C-063",
+        "negative_id": "V7-C-088",
+        "target": "looking_around",
+        "source_sha256": "34fea038f424ff76a70d1a68c54b05e3d5035c27e27d0cf5021976f3ca438c34",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-C-085",
+        "negative_id": "V7-C-091",
+        "target": "looking_around",
+        "source_sha256": "232d858781df69d3290b9c8cf7377d4f62c3776142dc3a2aecb9006c8c956172",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-C-116",
+        "negative_id": "V7-C-118",
+        "target": "looking_around",
+        "source_sha256": "c8a789e45f604f7a0b10ade699eacb710d3abac2f3856f6f8cac29f5267ef20a",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-R8-D-001",
+        "negative_id": "V7-D-026",
+        "target": "phone_use",
+        "source_sha256": "08330a596869314399342ac2bf73bb39d175a625294f4077cfd3da384607db9a",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S042-A01",
+        "negative_id": "V7-OE-S042-A02",
+        "target": "phone_use",
+        "source_sha256": "7360d7a7baa85d31c6e63bfea098a77295153f070bd101e9754b7ea170a8160a",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S043-A02",
+        "negative_id": "V7-OE-S043-A03",
+        "target": "looking_around",
+        "source_sha256": "cad3813cf8936cf80b63cd212f3002d140c1b174d1bc4b9050c4d3eb668003a6",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S043-A04",
+        "negative_id": "V7-OE-S043-A03",
+        "target": "looking_around",
+        "source_sha256": "cad3813cf8936cf80b63cd212f3002d140c1b174d1bc4b9050c4d3eb668003a6",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S068-A01",
+        "negative_id": "V7-OE-S068-A02",
+        "target": "looking_around",
+        "source_sha256": "4d92ff61a35797366a91ac4822c36b9fb5e45aa603429b7f7ded27e2a386b263",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S102-A02",
+        "negative_id": "V7-OE-S102-A01",
+        "target": "phone_use",
+        "source_sha256": "78f1f78d31d2b83900d9bb45097e1906cdcdd57543cb1b9859f917f79a672b94",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S102-A02",
+        "negative_id": "V7-OE-S102-A01",
+        "target": "looking_around",
+        "source_sha256": "78f1f78d31d2b83900d9bb45097e1906cdcdd57543cb1b9859f917f79a672b94",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S109-A01",
+        "negative_id": "V7-OE-S109-A02",
+        "target": "looking_around",
+        "source_sha256": "f0ad561e0931d721f199a06cb67ad0216af193754c5058b007fc34f0aca785c2",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S113-A01",
+        "negative_id": "V7-OE-S113-A02",
+        "target": "looking_around",
+        "source_sha256": "19ffac454f6647a99a20e8cf26a408445d99832a3cb9d7c88719ea77855bf78b",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S114-A02",
+        "negative_id": "V7-OE-S114-A01",
+        "target": "looking_around",
+        "source_sha256": "5949ae9232c5c947b45537fb01f1c1a16b7866a2794daf827afecdcc6d70ece0",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S116-A01",
+        "negative_id": "V7-OE-S116-A02",
+        "target": "phone_use",
+        "source_sha256": "c6bdd18e40e8d7b6aa210e993be9179d9a1bb96116e778f2adebe4dfd4f41bc3",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-OE-S116-A01",
+        "negative_id": "V7-OE-S116-A02",
+        "target": "looking_around",
+        "source_sha256": "c6bdd18e40e8d7b6aa210e993be9179d9a1bb96116e778f2adebe4dfd4f41bc3",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-PF-A-004",
+        "negative_id": "V7-PF-C-001",
+        "target": "looking_around",
+        "source_sha256": "a0ff0aafff75615e92c42bfe54a4cf4282ea99403f55de83299801f098cded2e",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-R8-C-001",
+        "negative_id": "V7-R8-C-002",
+        "target": "looking_around",
+        "source_sha256": "1396745d02a803b4a9f8882c01913a9095611a2ffaef4900168ce0f877ebd32f",
+        "same_image": true,
+        "new_independence_gain": 0
+      },
+      {
+        "positive_id": "V7-R8-C-007",
+        "negative_id": "V7-R8-C-008",
+        "target": "looking_around",
+        "source_sha256": "0f693ca09e96ac267524315350dcc0d8eb9c26d1b170baf33fc131b042861245",
+        "same_image": true,
+        "new_independence_gain": 0
+      }
+    ]
+  },
+  "extra_preexisting_reviewed_pair_join": [
+    {
+      "positive_sample_id": "V7-B-102",
+      "negative_sample_id": "V7-C-131",
+      "target": "looking_around",
+      "strength": "same_image",
+      "source_evidence": {
+        "flickr_photo_id": "19756295171"
+      },
+      "person_unit_hints": [
+        "left-woman",
+        "right-paper-man"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0,
+      "positive_id": "V7-B-102",
+      "negative_id": "V7-C-131",
+      "origin": "R5-extra",
+      "valid_actual_train": true
+    },
+    {
+      "positive_sample_id": "V7-B-039",
+      "negative_sample_id": "V7-B-089",
+      "target": "phone_use",
+      "strength": "same_image",
+      "source_evidence": {
+        "source_pixel_sha256": "12c9f538e0495d3b1c45c4f5ec3dedff28bd64afa9d9686fa62398d896aa6cdd"
+      },
+      "person_unit_hints": [
+        "anchor",
+        "left-reading-woman"
+      ],
+      "status": "Draft cần owner xác nhận anchor",
+      "independent_group_gain": 0,
+      "positive_id": "V7-B-039",
+      "negative_id": "V7-B-089",
+      "origin": "R5-extra",
+      "valid_actual_train": true
+    },
+    {
+      "pair_id": "V7-R8-PAIR-001",
+      "positive_id": "V7-R8-C-001",
+      "negative_id": "V7-R8-C-002",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Hai anchor và bài riêng trong đúng source107/camera; gaze khác nhau.",
+      "owner_approved": false,
+      "independent_group_gain": 0,
+      "origin": "R8",
+      "valid_actual_train": true
+    },
+    {
+      "pair_id": "V7-R8-PAIR-003",
+      "positive_id": "V7-R8-C-005",
+      "negative_id": "V7-R8-C-006",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Cùng source155, own page mỗi người; scene130 parent train đã dùng.",
+      "owner_approved": false,
+      "independent_group_gain": 0,
+      "origin": "R8",
+      "valid_actual_train": false
+    },
+    {
+      "pair_id": "V7-R8-PAIR-004",
+      "positive_id": "V7-R8-D-001",
+      "negative_id": "V7-D-026",
+      "target": "phone_use",
+      "match_strength": "same_image",
+      "matching_basis": "Teacher sở hữu phone, nữ viết không sở hữu phone đó; negative nằm trong approved R5, không đếm lại crop.",
+      "negative_review_pointer": "artifacts/reports/pilot-b-v7-audit-r8-20261009/review-pointer-final.json",
+      "negative_approval": "artifacts/reports/pilot-b-v7-r8-execution-20261009/owner-approval.json",
+      "owner_approved": false,
+      "independent_group_gain": 0,
+      "origin": "R8",
+      "valid_actual_train": true
+    },
+    {
+      "pair_id": "V7-R8-PAIR-005",
+      "positive_id": "V7-R8-C-007",
+      "negative_id": "V7-R8-C-008",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "matching_basis": "Hai anchor/trang riêng trong cùng frame340s của một video publisher; chưa camera/session metadata.",
+      "owner_approved": false,
+      "independent_group_gain": 0,
+      "origin": "R8",
+      "valid_actual_train": true
+    },
+    {
+      "pair_id": "V7-PF-PAIR-001",
+      "positive_id": "V7-PF-A-004",
+      "negative_id": "V7-PF-C-001",
+      "target": "looking_around",
+      "match_strength": "same_image",
+      "owner_approved": false,
+      "matching_basis": "Hai own-laptop workareas cùng ảnh111; face ngoài/đúng màn hình.",
+      "origin": "public",
+      "valid_actual_train": true
+    }
+  ],
+  "current_exact_sha_ambiguous224": [
+    {
+      "sample_id": "V7-B-029",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source512: mobile màu vàng/đen nằm giữa hai tay nam áo đen; ở224 thân máy chỉ còn phần mép nhỏ giữa ngón tay, identity yếu. Giữ source P Draft, cần owner quyết usability224.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-B-035",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source512: nam áo đỏ/plaid trong lớp giữ vật trắng dạng phone giữa hai tay; source nhỏ, tại224 chỉ còn cụm sáng/fingers mờ, giữ source P Draft và yêu cầu owner usability/device review.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-B-041",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source512: hai nữ foreground chia sẻ phone trắng gần tay nữ áo tím; máy lộ partial dưới ngón tay,224 rất nhỏ và crop có hai unit lớn. Giữ source P Draft với explicit holder; owner review anchor/usability.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-B-077",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source1024: nam áo xanh ở giữa có mobile đen giữa hai tay;224 chỉ còn phần cạnh tối nhỏ bị fingers che. Giữ source P Draft, quality224 cần owner; neighbors cũng có own devices.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-B-087",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source640: nam học sinh bên trái pose với laptop, chỉ một tay thấy rõ, tay kia bị laptop/thân che; phone N chưa đủ evidence. Looking P là proposal ngoài exam/work-task chưa xác lập, cần owner domain/workarea review.",
+      "actual_states": [
+        "unknown",
+        "positive"
+      ]
+    },
+    {
+      "sample_id": "V7-B-096",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source1024: vật xanh dạng phone nằm trên desk ngay cạnh mouse/tay người nữ dùng laptop; mobile N chưa chắc. Cần device review, đề xuất phone U/looking N nếu owner chưa xác minh; không suy P chỉ từ hình chữ nhật.",
+      "actual_states": [
+        "unknown",
+        "negative"
+      ]
+    },
+    {
+      "sample_id": "V7-B-100",
+      "input224_evidence": "ambiguous",
+      "reason": "Đã xem source1024: người sau cash register có một tay thao tác và tay kia bị register/penholder che; mobile N chưa đủ vùng nhìn. Không dùng việc đăng ký không có phone annotation để chứng minh N.",
+      "actual_states": [
+        "unknown",
+        "negative"
+      ]
+    },
+    {
+      "sample_id": "V7-D-010",
+      "input224_evidence": "ambiguous",
+      "reason": "Crop có nữ plaid foreground giữ mobile đỏ dựng và nữ áo trắng giữ mobile xanh ngang, cả hai linked own hands. Metadata anchor không chỉ người nào, cần explicit unit; root đề xuất foreground-plaid-phone-user P/U và recrop. Không gộp hai người thành co-occurrence.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-D-044",
+      "input224_evidence": "ambiguous",
+      "reason": "Nam suit xám bên trái giữ phone nhỏ giữa tay; source holder/device đọc được nhưng224 chỉ còn mép máy rất nhỏ. Giữ source P Draft, owner chọn usability224; không dùng số crop thay diversity.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    },
+    {
+      "sample_id": "V7-D-046",
+      "input224_evidence": "ambiguous",
+      "reason": "Nữ áo xám bên phải giữ mobile nhỏ cạnh bàn laptop, direct own hands;224 chỉ còn thin edge khó đọc identity. Giữ source P Draft với input ambiguity, looking U.",
+      "actual_states": [
+        "positive",
+        "unknown"
+      ]
+    }
+  ],
+  "critical_examples_reviewed_native224": [
+    "V7-PF-A-002",
+    "V7-OE-S043-A02",
+    "V7-OE-S043-A03",
+    "V7-OE-S044-A02",
+    "V7-OE-S044-A03",
+    "V7-OE-S052-A01",
+    "V7-OE-S056-A01",
+    "V7-OE-S056-A02",
+    "V7-OE-S066-A02",
+    "V7-OE-S102-A02",
+    "V7-OE-S116-A01"
+  ],
+  "native_boards_rechecked": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "desk_interpretation": "Có thêm phone-on-desk evidence, nhưng workshop/lab/stock/simulation không tự thành primaryexamindependentcamera. S102/S116 cùngparentfamily; publisher/session tổng thểchưađóngtaxonomyfinal375.",
+  "current_gate_assessment": {
+    "G0": "OPEN ADR017/recipe/protocol Draft",
+    "G1": "PARTIAL v7 Acceptedlocal; independentholdout chưa có",
+    "G2": "OPEN independentholdout/lineageproof chưa có",
+    "G3": "OPEN noindependentholdoutP/N/groups/camera support; numbersDraft",
+    "G4": "OPEN chưaE004candidate/fine-tunelayer4/fullbundle",
+    "G5": "OPEN khôngholdoutfreeze/receiptuseonce/candidatefreeze"
+  },
+  "source_quarantine_correct_id": "V7-A-006; V7-B-040 là crop khác không dùng làm tênquarantine. S080 vẫnreview-only. dHash không dùng kết luậnstockảnh khác làleak.",
+  "native_board_pins": [
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-01.png",
+      "sha256": "457ef0cde2e277a4106357230ea15b6ac393b561b4e2a49ad13fb79e488d20a6"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-03.png",
+      "sha256": "0f19eccb189aa41b0d13c34abac4e51e72e192a9628d3fe31da8fa931397a511"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-04.png",
+      "sha256": "b8b4ea31d90b649b4a55a6ed9789ff8113b2696c1510ad6c7a9071f129d458a0"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-05.png",
+      "sha256": "822f4f01b516a8a49b0995aa5a387335e02728300e11f9def8845b4a04c6f7af"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-06.png",
+      "sha256": "f4374ed09cede5f7eb3f190a2947317fee70beb16770021a1d67763a5fcac976"
+    },
+    {
+      "path": "outputs/v7-owner-execution-20261010-r3/native224/native-07.png",
+      "sha256": "ef3c21c5281142eb568a2a227851d8c1cb5ad74567e6cec87dc7b0b48cb989fb"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "registry_rows": 1775,
+  "unique_source_sha256": 1773,
+  "registries": [
+    {
+      "pin": {
+        "path": "artifacts/reports/pilot-b-v7-public-followup-20261010-r2/online-exam-screen/screening.jsonl",
+        "sha256": "5c663688ffc1ab351d897d919966918188af4aa3401907760ac4873b554b7105"
+      },
+      "rows": 38
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r1/screening.jsonl",
+        "sha256": "a149e8cf5e44d9f76fd9a23d6432578322dae266ff5d5511610abfabd6470788"
+      },
+      "rows": 129
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r2/screening.jsonl",
+        "sha256": "a399bfa825c65fda2efa7415a01c458ace014f240801d195eef8806284ed3b4c"
+      },
+      "rows": 80
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-coco-phone-audit-20261008-r3/screening.jsonl",
+        "sha256": "0bdb980d4a0ce49b9973abf45855333b3fde70cf1fd07113df60e591ea842655"
+      },
+      "rows": 96
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r1/screening.jsonl",
+        "sha256": "e9d5bb4602c8e431590711e8ac1e0da378c76ca61f7b0792ae8b4258243faabf"
+      },
+      "rows": 181
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r2/screening.jsonl",
+        "sha256": "51205eaf583fcfbb60b02b6091e17bc51f270edf233e00c8224472ae7154999a"
+      },
+      "rows": 18
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r3/screening.jsonl",
+        "sha256": "781e7f4c64b0f48105ea47efd1efe8eb477eae7779a20a2d1085d8f1eb62138d"
+      },
+      "rows": 200
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-openimages-phone-audit-20261008-r4/screening.jsonl",
+        "sha256": "4ed9aa4d5628fdcf5b7484c85ca719720e8e6a82d4a1a3bf0e74edd810114bb5"
+      },
+      "rows": 199
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-public-followup-screen-20261009-r1/screening.jsonl",
+        "sha256": "6d8cf97cc88ee7430a58adf7e3591707f5396292addfb189fc6ad0ab4bf1f594"
+      },
+      "rows": 2
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-public-followup-screen-20261009-r2/screening.jsonl",
+        "sha256": "b6cfd571306b0ab38b5071434c0c2d71ae9193482210ffc6232d443c17ce752c"
+      },
+      "rows": 57
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-public-followup-screen-20261009-r3/screening.jsonl",
+        "sha256": "8297e9a4f409c800aaad412de66229ef62589ff2f2e7413c1eba0c1cede7f6b0"
+      },
+      "rows": 22
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-public-followup-screen-20261009-r4/screening.jsonl",
+        "sha256": "4590d56b5bb3a882aaa41f31a35f2aa7cb6158d4628abff502f3edc1dc90e3b4"
+      },
+      "rows": 14
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-approved-source-reference-20261009/screening.jsonl",
+        "sha256": "c87693b882feac7e80cc0b1fb7a9a2c36a75b9de7c20d01ede1cbbc964f38ded"
+      },
+      "rows": 1
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-coco-screening-20261009-r1/screening.jsonl",
+        "sha256": "72b2781891a77248ae20909511dca9f7672b19d4e3bd732d19d5581f05438e31"
+      },
+      "rows": 64
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-local-screening-20261009-r1/screening.jsonl",
+        "sha256": "403c80632e33864f8ab105d5a6d9361ae80bd302240868062d9b21c791ae0184"
+      },
+      "rows": 186
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-openimages-screening-20261009-r1/screening.jsonl",
+        "sha256": "4a69d77750d991287d5b8b244867cf125c0d0c15294987cbfe2d5d48bd7ee82a"
+      },
+      "rows": 22
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-wmf-review-reference-20261009/screening.jsonl",
+        "sha256": "8e5041824c501e49cf72f529a5f12024589bf1af57d20d1afc2eea2b250487de"
+      },
+      "rows": 1
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-r8-wmf-storyboard-20261009-r1/screening.jsonl",
+        "sha256": "fd8f8175b24da366400a2d1231b8ee49faf18c9d2d9f481b193ffc25df4be433"
+      },
+      "rows": 65
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-targeted-scb-screening-20261008-r1/screening.jsonl",
+        "sha256": "41b00927d6992fa4e4b5804120d3b4cf55827d8459b053130640ef35386fc194"
+      },
+      "rows": 100
+    },
+    {
+      "pin": {
+        "path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/screening.jsonl",
+        "sha256": "88ce2f912ec0e7a1dcf561db649a43cc348a8952b42e91a07791b295c3eaae4f"
+      },
+      "rows": 300
+    }
+  ],
+  "full_source_exhausted": false
+}

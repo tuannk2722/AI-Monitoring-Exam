@@ -1,0 +1,45 @@
+# Draft để nghiệm thu hướng mở rộng, KHÔNG là config của builder hoặc trainer.
+status: draft_pending_owner_review
+owner: repository-owner
+formulation: B
+parent_package: data/processed/pilot-b/pilot-b-20261007-v6
+proposed_dataset_version: null
+split_version: null
+membership: null
+release_approval: null
+training_eligible: false
+canonical_mutation: false
+target_order: [phone_use, looking_around]
+unknown_supervision: masked
+test11_role: historical_frozen_integrity_only
+independent_holdout_package: null
+holdout_source_selection: public_source_pending_payload_and_owner_review
+expansion_basis: artifacts/reports/E004-research-20261008/e003-audit/audit.json
+quota_semantics: Budget tìm/review đề xuất, không là số mẫu accepted hoặc quota split.
+proposed_review_budgets:
+  desk_phone_with_matched_negatives: 80
+  small_or_partly_occluded_held_phone_with_matched_negatives: 80
+  looking_side_forward_with_matched_read_write_negatives: 100
+  cooccurrence_and_crowded_context: 40
+  existing_error_label_or_crop_recheck: 12
+selection_principles:
+- Ưu tiên cảnh/người/camera mới và positive/negative trong cùng nguồn/ngữ cảnh.
+- Không đưa họ hàng của val50/test11 hoặc nguồn holdout vào train.
+- Không nhận crop toàn unknown; không dùng label nguồn hoặc phone bbox thay person.
+- Không coi augmented frame, SHA unique hoặc nhiều người cùng frame là cảnh độc lập.
+- Phone trên bàn vẫn positive khi liên kết đúng người; không đổi thành negative vì không cầm.
+- Nhãn/crop/group nghi vấn chỉ sửa trong version mới được owner duyệt; parent giữ nguyên.
+- Thiếu bucket cần thiết ghi shortage, không refill bằng ảnh dễ hoặc tự tách group.
+pending_decisions:
+- id: TBD-V7-MEMBERSHIP
+  owner: repository-owner
+  reason: Chưa có crop/nhãn/group mới đã nghiệm thu theo ma trận targeted.
+  resolve_when: Review toàn candidate batch, actual coverage và những ngoại lệ 12cell.
+- id: TBD-V7-SPLIT
+  owner: repository-owner
+  reason: Phải quyết định development bổ sung, bảo toàn lịch sử và tránh nguồn test mới.
+  resolve_when: Source/lineage graph, nhóm độc lập, assignment và coverage được review trước train.
+- id: TBD-E004-HOLDOUT-SOURCE
+  owner: repository-owner
+  reason: Không có holdout public đã kiểm payload/rights/independence.
+  resolve_when: Chốt nguồn mới từ báo cáo thẩm định và freeze package/protocol riêng.

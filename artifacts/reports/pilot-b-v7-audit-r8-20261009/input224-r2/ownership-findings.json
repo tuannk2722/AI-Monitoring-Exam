@@ -1,0 +1,2131 @@
+{
+  "status": "draft_visual_ownership_review_not_approval",
+  "records": 39,
+  "r7_combinations": {
+    "P/U": 29,
+    "P/P": 2,
+    "U/P": 2,
+    "U/N": 5,
+    "P/N": 1
+  },
+  "ownership_evidence": {
+    "direct_hand_or_own_desk_lap_link_visible": 26,
+    "device_identity_pending": 3,
+    "owner_recrop_or_anchor_delta_pending": 3,
+    "ownership_or_observation_unknown_retained": 7
+  },
+  "visible_cooccurrence_proposal_ids": [
+    "V7-D-009",
+    "V7-D-021"
+  ],
+  "owner_approved_actual_cooccurrence_count": 0,
+  "interpretation": "39 crowded không là39 co-occurrence; P/P nguồn vẫn Draft/task review.",
+  "findings": [
+    {
+      "sample_id": "V7-D-002",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo kem giữ mobile đen, nữ bên cạnh xem chung; linked holder rõ224, không có own workarea đủ để looking P, không co-occurrence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-002",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/e5e7d85240febb8583a57131d9f238fc7df311a4e114a4b4fa0613b5bbbc8628.jpg",
+        "source_sha256": "e5e7d85240febb8583a57131d9f238fc7df311a4e114a4b4fa0613b5bbbc8628",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-002.png",
+        "crop_sha256": "c0b900599168817c2b4dc8c58d44a2659876e62dabd54e5e2160453aab0fe50f",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-002.png",
+        "input_sha256": "fe3b68454be16e17aea6a7bf51bb9bd935bfcacfd446cae694812f50610fe2c0",
+        "input_pixel_sha256": "a2e5dfed11e17c9455161039a6f32f98b0e8a769f7ce4b5115ff0e35ddfe04f8",
+        "crop_size": [
+          267,
+          396
+        ],
+        "resized_size": [
+          151,
+          224
+        ],
+        "pad_left_top": [
+          36,
+          0
+        ],
+        "input_scale": 0.5656565656565656,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-3"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-004",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Người áo trắng giữa hàng cầm own mobile thấp, neighbors có devices riêng; ownership direct còn đọc được224; gaze/workarea U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-004",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/52d76350289b12fd6062d8b13d029905f7681f1cf89c64f0281a365d8934164e.jpg",
+        "source_sha256": "52d76350289b12fd6062d8b13d029905f7681f1cf89c64f0281a365d8934164e",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-004.png",
+        "crop_sha256": "45fcf77ac771f2286c97e573fdb071dc245406904ef86a7faa14046255297dc8",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-004.png",
+        "input_sha256": "5bad2395262f01a7ab412c3b1cf872c99d00149b2db143ec4004a4ac82b6344b",
+        "input_pixel_sha256": "1fdfaec810d06fcda913f12e19b1d5e7ae882178f132e81246c883a333647f77",
+        "crop_size": [
+          211,
+          490
+        ],
+        "resized_size": [
+          96,
+          224
+        ],
+        "pad_left_top": [
+          64,
+          0
+        ],
+        "input_scale": 0.45714285714285713,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-36"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-005",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam kính áo denim giữ mobile đen, nữ bên trái xem cùng; phone thuộc linked holder, looking U vì hoạt động nhóm không có own workarea rõ.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-005",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/a1714b624f3e9924832d9bb332a5a57792aa3c075a51cb22efedf2c4d201071c.jpg",
+        "source_sha256": "a1714b624f3e9924832d9bb332a5a57792aa3c075a51cb22efedf2c4d201071c",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-005.png",
+        "crop_sha256": "5786652129283b3af35f63a47bfac1d2758596ce2a74665a18e42bf5b6065f62",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-005.png",
+        "input_sha256": "9c45f19500b3dcda27054621ce0d015ebf225ec26f314f2a736d1262db4e559b",
+        "input_pixel_sha256": "7c2c4af70199f1c56ac4cfad3cb381296ba166c549ae7e84cdab4d770d58ee39",
+        "crop_size": [
+          258,
+          512
+        ],
+        "resized_size": [
+          113,
+          224
+        ],
+        "pad_left_top": [
+          55,
+          0
+        ],
+        "input_scale": 0.4375,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-77"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-006",
+      "source_evidence": "ambiguous",
+      "crop_evidence": "ambiguous",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Đã xem source512: thiết bị lớn dựng đứng có case/support giữa nam áo xanh và nữ plaid, giống tablet; chưa chứng minh mobile. Đề xuất U/U/device review, không co-occurrence và không nhận phone P từ class nguồn.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-006",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/cc868da0ebb464fb3fbc74208c372da46ce77b692ff5bdf1f9209a00cca9b4cc.jpg",
+        "source_sha256": "cc868da0ebb464fb3fbc74208c372da46ce77b692ff5bdf1f9209a00cca9b4cc",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-006.png",
+        "crop_sha256": "44a96f416fc33c8706157824f1a4ff9548d4493e57207a29f9ae761e48b85370",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-006.png",
+        "input_sha256": "96b1f69ee4fbf491eb309b59e0a927384dddc754c69eab929cbe0851d12c3cc0",
+        "input_pixel_sha256": "48cf851c29c2afaaa5b3a09727e9f82b1a546c8ef7a9925238c92c5b8812be27",
+        "crop_size": [
+          316,
+          478
+        ],
+        "resized_size": [
+          148,
+          224
+        ],
+        "pad_left_top": [
+          38,
+          0
+        ],
+        "input_scale": 0.4686192468619247,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-81"
+      },
+      "ownership_evidence": "device_identity_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-008",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo cyan giữ mobile đen hai tay, nữ đỏ neighbor chạm/xem; phone holder rõ224, task nhóm chưa đủ looking P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-008",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/2d95314bf9a068490535cc67eaa7f63a75dc137ded380dbefb827fa0a8e7c2e7.jpg",
+        "source_sha256": "2d95314bf9a068490535cc67eaa7f63a75dc137ded380dbefb827fa0a8e7c2e7",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-008.png",
+        "crop_sha256": "d942327bace54d93b822a107353ec4e168f0928fdddbecf26c7ede1773237f44",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-008.png",
+        "input_sha256": "f76b869f1bb5870f188ff29cdf6ccc80d87aab965e452f91e201ddb79730b300",
+        "input_pixel_sha256": "076edb4dbbecaa7c75d1f9d018a801f9804424e0e6fcfe0ff4515dd46f1d5036",
+        "crop_size": [
+          293,
+          476
+        ],
+        "resized_size": [
+          138,
+          224
+        ],
+        "pad_left_top": [
+          43,
+          0
+        ],
+        "input_scale": 0.47058823529411764,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-108"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-009",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo cyan có own mobile trong tay phải và sách mở trên bàn trước người; mắt hướng mobile ngoài vùng sách, both P/P là proposal có visible phone+workarea, owner vẫn chốt gaze/task.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "P"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-009",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/e3a0af52c13b87020858a9c156e0999a33c415c3252afd8b3fa1ba3c2e3d248a.jpg",
+        "source_sha256": "e3a0af52c13b87020858a9c156e0999a33c415c3252afd8b3fa1ba3c2e3d248a",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-009.png",
+        "crop_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-009.png",
+        "input_sha256": "47677e42e135c457e35caa7f3fd877c5ccdbda9050780e658f5f48d0e4637ffa",
+        "input_pixel_sha256": "9059cae494ee398cb989795bc7e9bed41dfd6b955ff954326ab0767459cf645b",
+        "crop_size": [
+          318,
+          512
+        ],
+        "resized_size": [
+          139,
+          224
+        ],
+        "pad_left_top": [
+          42,
+          0
+        ],
+        "input_scale": 0.4375,
+        "proposed_states": [
+          "P",
+          "P"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-109"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "phone_and_away_from_visible_own_workarea_proposal_pending_owner"
+    },
+    {
+      "sample_id": "V7-D-010",
+      "source_evidence": "clear",
+      "crop_evidence": "ambiguous",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Crop có nữ plaid foreground giữ mobile đỏ dựng và nữ áo trắng giữ mobile xanh ngang, cả hai linked own hands. Metadata anchor không chỉ người nào, cần explicit unit; root đề xuất foreground-plaid-phone-user P/U và recrop. Không gộp hai người thành co-occurrence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-010",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/baf5d50142f2d415189ad256ecc70929c40ff1a204a2493283b444f9dc649dfe.jpg",
+        "source_sha256": "baf5d50142f2d415189ad256ecc70929c40ff1a204a2493283b444f9dc649dfe",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-010.png",
+        "crop_sha256": "bfc292cf112a51e2bc5b299b67c998c73fa8bc7bbafe5744c2bbe0fd9115e1b4",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-010.png",
+        "input_sha256": "2841c473731e6037b20634d40f3a931bb50ceeff58e26370c7e7dff8d14cc2f7",
+        "input_pixel_sha256": "a82430fe6d42981fce944d5ceffa1ba7749649608b5e3699f3254c35e985f6f8",
+        "crop_size": [
+          367,
+          512
+        ],
+        "resized_size": [
+          161,
+          224
+        ],
+        "pad_left_top": [
+          31,
+          0
+        ],
+        "input_scale": 0.4375,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-116"
+      },
+      "ownership_evidence": "owner_recrop_or_anchor_delta_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-011",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ plaid bên trái giữ mobile trắng; người cạnh có own phone riêng, holder và device rõ224; gaze U, không both P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-011",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/3ef83dc0f7e12514f194561dba5d273ebcb53e5730122bf1c66ce15e67dfcda7.jpg",
+        "source_sha256": "3ef83dc0f7e12514f194561dba5d273ebcb53e5730122bf1c66ce15e67dfcda7",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-011.png",
+        "crop_sha256": "039d1a421ebba71254c3a30377445bbaa404c9b247a4b5d8322e2c277f3552c5",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-011.png",
+        "input_sha256": "7cf9e8a682bc1721b7f5363f70fb5b98af496d71540d383c11a9e02ead555aa4",
+        "input_pixel_sha256": "c61360e68617288aa000a77b1a746638028286c7ecd67bcd3d3849f569b33f6a",
+        "crop_size": [
+          208,
+          475
+        ],
+        "resized_size": [
+          98,
+          224
+        ],
+        "pad_left_top": [
+          63,
+          0
+        ],
+        "input_scale": 0.47157894736842104,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-120"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-012",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam plaid tiền cảnh cầm mobile selfie giữa nhóm; direct ownership rõ224, không có vùng bài riêng để looking P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-012",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/376a7aa1e0a8ce14918b67acca2baae718280f32a2b5b267529b6d7f2367c5e8.jpg",
+        "source_sha256": "376a7aa1e0a8ce14918b67acca2baae718280f32a2b5b267529b6d7f2367c5e8",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-012.png",
+        "crop_sha256": "f4f4454b5ed90df39b546b910e7609b614588c7a3bf97acfd62ed6078a2a0639",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-012.png",
+        "input_sha256": "0a37acdd377809db95196e618be915e6261a217541deb9eebe872c75cdde956a",
+        "input_pixel_sha256": "f31a8b0639d721e3cec56d8c9c346db568ff4b5ffeddb02c4ce5d947bf00f843",
+        "crop_size": [
+          335,
+          490
+        ],
+        "resized_size": [
+          153,
+          224
+        ],
+        "pad_left_top": [
+          35,
+          0
+        ],
+        "input_scale": 0.45714285714285713,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-121"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-013",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo xám kính giữ mobile nhỏ ngang, nam nâu cạnh là neighbor; phone/hand đọc được224, activity nhóm giữ looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-013",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/e40e127d0146ab4276a1611e4dfb093b9702ce5bdac486b39867f0baf1dd613c.jpg",
+        "source_sha256": "e40e127d0146ab4276a1611e4dfb093b9702ce5bdac486b39867f0baf1dd613c",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-013.png",
+        "crop_sha256": "4ef6d4294bed575228c8e283c731020d1328a7a9c7447e2d69edb11094a2b617",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-013.png",
+        "input_sha256": "bc64dea27dbe058d36a4e642e9246e77c57a6ce701575d81ecd1707078eefaf5",
+        "input_pixel_sha256": "d38e10f8a976de24cc2833eb3603d64ff954683d616a77d61a1d75e255b88b47",
+        "crop_size": [
+          223,
+          488
+        ],
+        "resized_size": [
+          102,
+          224
+        ],
+        "pad_left_top": [
+          61,
+          0
+        ],
+        "input_scale": 0.45901639344262296,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-123"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-014",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ bên trái giữ phone đen; nữ neighbor chỉ tay vào màn hình, không thay holder;224 thấy outline/ownership, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-014",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/a99b4695f50bd1fd6d13766029f797c76d5937f9fed28926e21deabc89e5bc8d.jpg",
+        "source_sha256": "a99b4695f50bd1fd6d13766029f797c76d5937f9fed28926e21deabc89e5bc8d",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-014.png",
+        "crop_sha256": "af7b6e9bc029dffbcc693189e933f074285bf5e6caf9b4cff7d013ba81a769fd",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-014.png",
+        "input_sha256": "b35c59176d5f898370190117d56131c831761699f6896a85bd9467dab786cd04",
+        "input_pixel_sha256": "4ad6a478bcc0505f32d27d7fe6c01a259b8f56b88f603b71212e0b2b0fd66bc1",
+        "crop_size": [
+          260,
+          512
+        ],
+        "resized_size": [
+          114,
+          224
+        ],
+        "pad_left_top": [
+          55,
+          0
+        ],
+        "input_scale": 0.4375,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-126"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-015",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo đen phía sau giữ own mobile gần mặt; nhiều phone foreground nhưng linked own device đọc được224; looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "black-shirt-boy",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-015",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/5f3160b8b089ac9fc7f0e446d20659ddfb974660eed186d2aca174fd7fd4edc3.jpg",
+        "source_sha256": "5f3160b8b089ac9fc7f0e446d20659ddfb974660eed186d2aca174fd7fd4edc3",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-015.png",
+        "crop_sha256": "2fbf4c97f9285a3c4acd7d959e81ba6bdcb17dc818e94c27389195bd7d292ed3",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-015.png",
+        "input_sha256": "4207a97c98d59ad5804c77d67e64c031fad13190f56fcf17780f1c189645b5e7",
+        "input_pixel_sha256": "b66910bf31f715c6ec010756451b1eadedd13b00fb4881f442f73c4eae0cca86",
+        "crop_size": [
+          160,
+          380
+        ],
+        "resized_size": [
+          94,
+          224
+        ],
+        "pad_left_top": [
+          65,
+          0
+        ],
+        "input_scale": 0.5894736842105263,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-129"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-017",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ kính bên phải nhìn sang phone người nữ trái, tay cầm pen sát bài riêng; phone ownership của anchor chưa rõ nên U, looking P là proposal own-workarea/neighbor evidence, không co-occurrence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "right-girl-watching-neighbour",
+      "r7_proposed_states": [
+        "U",
+        "P"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-017",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/b7527febd40f8e9705d15071297f71e55057472b8886694743ea336eefb1aabe.jpg",
+        "source_sha256": "b7527febd40f8e9705d15071297f71e55057472b8886694743ea336eefb1aabe",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-017.png",
+        "crop_sha256": "57a7968b72b73867b68d3637704050a8af1d955aad9996be741e4edd4d51743f",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-017.png",
+        "input_sha256": "ee74c26a2ada3738633987509c4b76027219fa21696b9371a284e062bb5a3ab0",
+        "input_pixel_sha256": "70f85bef0a4aa3828756f4ab1e9abc6517698948528a8720ec70dd73b2d607c2",
+        "crop_size": [
+          185,
+          298
+        ],
+        "resized_size": [
+          139,
+          224
+        ],
+        "pad_left_top": [
+          42,
+          0
+        ],
+        "input_scale": 0.7516778523489933,
+        "proposed_states": [
+          "U",
+          "P"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-135"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-018",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo trắng ở giữa chạm phone desk ngay vùng bàn của mình; nam bên phải cầm mobile khác. Linked desk phone đọc được224, looking U do có tương tác nhóm.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "middle-white-shirt-boy",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-018",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/64b0c6d410e446c308ce69dcad09fbaf284b125a714e507a210f1517d893ce37.jpg",
+        "source_sha256": "64b0c6d410e446c308ce69dcad09fbaf284b125a714e507a210f1517d893ce37",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-018.png",
+        "crop_sha256": "49e63d0272c64b3e92c5e9ef0f46e1f8477316386758220708647dbc93eebe95",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-018.png",
+        "input_sha256": "07b56387b376117664c9ef8d2cdecc354e48a5ef2620b1426504a1c603ac9865",
+        "input_pixel_sha256": "0f9433a49d62106981a9ecfb43d4cbbf10a566aebe210c2cfb135b1697e483cf",
+        "crop_size": [
+          211,
+          385
+        ],
+        "resized_size": [
+          123,
+          224
+        ],
+        "pad_left_top": [
+          50,
+          0
+        ],
+        "input_scale": 0.5818181818181818,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-142"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-020",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo xám/trắng giữa lớp cầm mobile sáng bằng hai tay trên bài; device rõ224, looking U chờ task/gaze owner, không tự cả hai P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-020",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/749a5c91499541264332b4ac1579343ac0024a1cc750fa0f63a408d22f2dfc9f.jpg",
+        "source_sha256": "749a5c91499541264332b4ac1579343ac0024a1cc750fa0f63a408d22f2dfc9f",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-020.png",
+        "crop_sha256": "acdeb5cac60a8be0b8fdc5ec44cf1ec3590ceffc685879da6b4964bbbac9beda",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-020.png",
+        "input_sha256": "334c4db508e3b68dd30f3ac8cc502512c583c2ade9623979ffceed3b4edb0c14",
+        "input_pixel_sha256": "2ca8eedbabf15128c2b025cb46c42d6428d631c265d864f3c9c760a27fc22f9a",
+        "crop_size": [
+          308,
+          316
+        ],
+        "resized_size": [
+          218,
+          224
+        ],
+        "pad_left_top": [
+          3,
+          0
+        ],
+        "input_scale": 0.7088607594936709,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-155"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-021",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ tóc tết áo denim foreground giữ own mobile và giấy trước người; mắt hướng phone ngoài giấy. P/P có visible device+own-workarea nhưng task/gaze vẫn proposal owner review, không chỉ nhìn đầu suy P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "foreground-black-girl",
+      "r7_proposed_states": [
+        "P",
+        "P"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-021",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/45f834a5e58f310901fd252ac25fe566d6c602ca8bc213d313e73f900393af8b.jpg",
+        "source_sha256": "45f834a5e58f310901fd252ac25fe566d6c602ca8bc213d313e73f900393af8b",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-021.png",
+        "crop_sha256": "bc898080e48555766c15ae9dc55049c403aea177d3cb14020bb0040a4d76a306",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-021.png",
+        "input_sha256": "57816565e86bc299c6e9b20b04b29d615af8b03a9f3e4bdc1ef74dec24f79a0c",
+        "input_pixel_sha256": "710bee22fc7e3e01eace5b9aa11b99015f6c5091271a607878bdde4d1c384d7b",
+        "crop_size": [
+          201,
+          359
+        ],
+        "resized_size": [
+          125,
+          224
+        ],
+        "pad_left_top": [
+          49,
+          0
+        ],
+        "input_scale": 0.6239554317548747,
+        "proposed_states": [
+          "P",
+          "P"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-4"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "phone_and_away_from_visible_own_workarea_proposal_pending_owner"
+    },
+    {
+      "sample_id": "V7-D-022",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo sọc bên trái vươn tay/nhìn sang phone của nam plaid bên phải, có sách mở trước người; phone U ownership, looking P proposal. Phone ngoài R7crop không được gán own phone.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "left-striped-boy",
+      "r7_proposed_states": [
+        "U",
+        "P"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-022",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/c55b06209b31a2a6549d548538f356ee5aae5f3e23ccc898933599260de18fd5.jpg",
+        "source_sha256": "c55b06209b31a2a6549d548538f356ee5aae5f3e23ccc898933599260de18fd5",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-022.png",
+        "crop_sha256": "0a7d84427743bdb0a1b9e3c667f76fa2afc5eebc2c3ebadb0300531db1444f7a",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-022.png",
+        "input_sha256": "be2501d2059381a06af691edb2ed3cba4ad185289e677828cf50a21bde15a98f",
+        "input_pixel_sha256": "247f7a0e7245ec4984b908ac15ad749466f67512e70ec9563763202d1d44bafe",
+        "crop_size": [
+          262,
+          425
+        ],
+        "resized_size": [
+          138,
+          224
+        ],
+        "pad_left_top": [
+          43,
+          0
+        ],
+        "input_scale": 0.5270588235294118,
+        "proposed_states": [
+          "U",
+          "P"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-11"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-023",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ tóc xoăn phải giữ mobile đen ngang trên lap, linked hands đọc được224; giấy lap có nhưng task/gaze chưa chốt nên U, không both P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "right-curly-girl",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-023",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/97114741bac9309d0695973ea98b6f11bf30cc9fc596ee8c5492b13204dfe09c.jpg",
+        "source_sha256": "97114741bac9309d0695973ea98b6f11bf30cc9fc596ee8c5492b13204dfe09c",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-023.png",
+        "crop_sha256": "c75eacbd43caa2270d601fac468d396c1540ecae0a8540f695126eefc32e0044",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-023.png",
+        "input_sha256": "11c1cbeb159d27f47fd3f330968bb0c4238673cc7384c70a098f7af94e5af87a",
+        "input_pixel_sha256": "40a8750f09708050fd8ee3dad098a6db93375496b98760bf467e2e0921ec1d99",
+        "crop_size": [
+          256,
+          328
+        ],
+        "resized_size": [
+          175,
+          224
+        ],
+        "pad_left_top": [
+          24,
+          0
+        ],
+        "input_scale": 0.6829268292682927,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-21"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-025",
+      "source_evidence": "ambiguous",
+      "crop_evidence": "ambiguous",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Nữ áo pink giữ thiết bị xanh landscape có hình như smartphone hoặc compact camera; chưa đủ mobile identity. Đề xuất U/U tới owner device review; hình chữ nhật/annotation nguồn không tự là P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "pink-shirt-girl",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-025",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/5aa06321cda54963520838fa416b6bdd854c9d4e10567a186d721afb69a141a4.jpg",
+        "source_sha256": "5aa06321cda54963520838fa416b6bdd854c9d4e10567a186d721afb69a141a4",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-025.png",
+        "crop_sha256": "5711cbca355cdc5b97f5e179fdfc2fb51991e9816f7065ef34750bf26714152b",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-025.png",
+        "input_sha256": "f613cffeaeba4c6c94e3ef357cfabe0d852fff77912d62fb0f07fb78cd232ad3",
+        "input_pixel_sha256": "672e7b3ca026028d6b5ffc5a817d8bc9e2a572d7e0c82ed058733e233573d6e6",
+        "crop_size": [
+          155,
+          282
+        ],
+        "resized_size": [
+          123,
+          224
+        ],
+        "pad_left_top": [
+          50,
+          0
+        ],
+        "input_scale": 0.7943262411347518,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-48"
+      },
+      "ownership_evidence": "device_identity_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-026",
+      "source_evidence": "ambiguous",
+      "crop_evidence": "ambiguous",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Phone đen ở tay nam teacher thấp bên trái; nữ áo sọc anchor đang viết bằng pen, tay kia giữ bài. Không gán teacher phone cho writer; R7 phone P không có evidence của đúng anchor. Root đề xuất N/N, bbox tập trung nữ [190,110,445,512]. Đây là hard negative attribution, không co-occurrence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "foreground-writer",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-026",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/08330a596869314399342ac2bf73bb39d175a625294f4077cfd3da384607db9a.jpg",
+        "source_sha256": "08330a596869314399342ac2bf73bb39d175a625294f4077cfd3da384607db9a",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-026.png",
+        "crop_sha256": "72e8c387eb19c239628ce9845b1f4c23e0227ad74d9318de5c55c8d670c6be38",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-026.png",
+        "input_sha256": "11382706891e439ed1dad4e500d9547e5c46702fa4a8fb9d546f03b698416a3e",
+        "input_pixel_sha256": "a4540c9ca140ca6218dd6585ba4eda74aebac8839090e488f3c36918b0fd4507",
+        "crop_size": [
+          267,
+          415
+        ],
+        "resized_size": [
+          144,
+          224
+        ],
+        "pad_left_top": [
+          40,
+          0
+        ],
+        "input_scale": 0.5397590361445783,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-104"
+      },
+      "ownership_evidence": "owner_recrop_or_anchor_delta_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-027",
+      "source_evidence": "clear",
+      "crop_evidence": "lost",
+      "input224_evidence": "lost",
+      "final_reason": "Nam áo xám bên trái có phone sát tay nhưng R7crop cắt thân máy ở cạnh phải, chỉ còn fingers mờ224. Source scene có thể recrop để giữ device; root đang QA bbox mới, giữ source label pending thấy crop mới.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "classroom_attitude",
+      "domain": "classroom_or_exam_context",
+      "person_unit_hint_r7": "left-grey-man",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-027",
+        "bucket": "D",
+        "source_path": "data/interim/pilot-b/v7-targeted-screening-20261008-r2/sources/classroom_attitude/images/02fc577a55539b2f8fcc18b61351b8e6ef59e6383578db71b485dcd49eee4e17.jpg",
+        "source_sha256": "02fc577a55539b2f8fcc18b61351b8e6ef59e6383578db71b485dcd49eee4e17",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-027.png",
+        "crop_sha256": "e7e58458146819660b0e1de741b98c3b7d9edec21486e18341faa6bbd933be5a",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-027.png",
+        "input_sha256": "9df85d16c914a6ace9143287c19451598f03a5b8e455d97c31c19daaee8b0df3",
+        "input_pixel_sha256": "5fb3b60bf8e2056185b40e17476bebc45f69a8dce55598d8bdfda2ac56b1ec94",
+        "crop_size": [
+          185,
+          425
+        ],
+        "resized_size": [
+          98,
+          224
+        ],
+        "pad_left_top": [
+          63,
+          0
+        ],
+        "input_scale": 0.5270588235294118,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "classroom_attitude",
+        "visual_family_hint": "RF-screen-122"
+      },
+      "ownership_evidence": "owner_recrop_or_anchor_delta_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-028",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ tóc ngắn cardigan vàng giữ phone dạng keyboard bằng hai tay; thân máy/keyboard/ownership đọc được224, seated group không own workarea rõ nên looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-028",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000407806.jpg",
+        "source_sha256": "02cab9e57e085f6559d6ca054ad8d94683f08e451842c6a6b35f2d39605679c2",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-028.png",
+        "crop_sha256": "f878fe12a5e336cef5f62e218beef3f56f6d898d25db5e37ee3265fc750a5b03",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-028.png",
+        "input_sha256": "eb1b4493b0e7e553ef1a6031c8b4e88f7858569d35e981c8b3b0ef6f46defe21",
+        "input_pixel_sha256": "77f5ec356ea31192358707fe5804c1399cc4ceb6db2613dfe94795cfeeae0587",
+        "crop_size": [
+          490,
+          460
+        ],
+        "resized_size": [
+          224,
+          210
+        ],
+        "pad_left_top": [
+          0,
+          7
+        ],
+        "input_scale": 0.45714285714285713,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-407806"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-029",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Người áo sọc đứng cầm mobile trắng nhỏ gần hip; linked hand/device đọc được224, crowd context không xác lập own workarea, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-029",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000267815.jpg",
+        "source_sha256": "1bea62daf7a2da6370a81ff45b2f857d942bc955d7946a81ff5917aa3b23c12b",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-029.png",
+        "crop_sha256": "96be38402fc71e842ffcae8455f98bd4119a4e3766867b978d9efdb595cddbc1",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-029.png",
+        "input_sha256": "6ee9c7fe9118dc57af92a7f6b2ac961a328432df4d39f6746e4175447afdd429",
+        "input_pixel_sha256": "9fbfc6e92b2a8dbdd143292504b6177bdd6ec49756f32ca2a7beeba655564763",
+        "crop_size": [
+          265,
+          565
+        ],
+        "resized_size": [
+          105,
+          224
+        ],
+        "pad_left_top": [
+          59,
+          0
+        ],
+        "input_scale": 0.39646017699115044,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-267815"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-031",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo trắng bên phải giữ mobile đen ngang sát tay trên bàn ăn; phone direct ownership đọc được224, không work-task evidence để looking P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "right-white-man",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-031",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000020781.jpg",
+        "source_sha256": "782f76ef890a3e8fd76908af7aec29e4b2fc2fa9b35449633ea9a3a94f12241d",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-031.png",
+        "crop_sha256": "4c7aae164fd49d0bdba6db437fe36ea18d4bb8fdc9e841e2446e10cbc50a0620",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-031.png",
+        "input_sha256": "50ff431a8df63ae3698d46908be460a37620d6e9452c18511e2f735dbf42f90d",
+        "input_pixel_sha256": "b0daeb287821ad7a98225fe0c209115c3f52c269e12bedfe7f63442610cfb6ae",
+        "crop_size": [
+          333,
+          363
+        ],
+        "resized_size": [
+          205,
+          224
+        ],
+        "pad_left_top": [
+          9,
+          0
+        ],
+        "input_scale": 0.6170798898071626,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-20781"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-033",
+      "source_evidence": "ambiguous",
+      "crop_evidence": "ambiguous",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Đã xem source640: nữ xanh giữ thiết bị trắng landscape/thân dày giống compact camera hoặc handheld khác; chưa chắc mobile. Đề xuất U/U/device review; không lấy COCO class phone thay visual identity.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-woman",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-033",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000360811.jpg",
+        "source_sha256": "63de32649b60c0669c85d4d2de13242c39bd632941432be937600f49ba26aef4",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-033.png",
+        "crop_sha256": "5d3e9b65903c7c50d803ac47750f7f110012db09ce7ab8f210730595ea001d90",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-033.png",
+        "input_sha256": "2816914f1e7267eb4c5ed1553a33cc98e8e5c72d12f75446797e570797ad85ea",
+        "input_pixel_sha256": "8d3d0d5b08bbea9d56113a704ebf0d4ae00b797912c203798519b1a2956e7312",
+        "crop_size": [
+          264,
+          640
+        ],
+        "resized_size": [
+          92,
+          224
+        ],
+        "pad_left_top": [
+          66,
+          0
+        ],
+        "input_scale": 0.35,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-360811"
+      },
+      "ownership_evidence": "device_identity_pending",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-034",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo đen giữ mobile flip trắng đóng có screen nhỏ trên bàn; linked hand/phone rõ224, source posed/bàn ăn không own workarea task nên looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-034",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000188040.jpg",
+        "source_sha256": "21ed1561ad9ca00479861b2f113d4f564beb8568be58676b9d58343adef79ecf",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-034.png",
+        "crop_sha256": "ab6913e42c4348a7d84c14cf67baf043a8cd2af73da931b8ed0d47726669c619",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-034.png",
+        "input_sha256": "1afbb03cbc6aee64dba7acfa4e48f2c623aa710be766abcb0aa8c8d1784e8155",
+        "input_pixel_sha256": "206211971e6ac7659858324ddd38c48d8fe210a2f4bcd08543e99c15bc61d4c8",
+        "crop_size": [
+          296,
+          306
+        ],
+        "resized_size": [
+          217,
+          224
+        ],
+        "pad_left_top": [
+          3,
+          0
+        ],
+        "input_scale": 0.7320261437908496,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-188040"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-035",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ khăn tối foreground giữ mobile nâu trong tay trái và vật cầm tay khác bên phải; không gán vật khác thành phone, device anchor rõ224, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "anchor",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-035",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000218715.jpg",
+        "source_sha256": "8863e8df68695c461cc6691ef552b45735f533810d1e88bddb5b4d11a27da76f",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-035.png",
+        "crop_sha256": "90529a19c170cd17e4a370286be378beadb5453b8bad9cc4762cf759d4398843",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-035.png",
+        "input_sha256": "1bc90144cdb0652cf54fe4e006dd438420b7ec226911c31c89871db2304e913d",
+        "input_pixel_sha256": "9e00851f0459244ca106ca57a3f194d232121a06eaae17f058246a5cbed0f5b6",
+        "crop_size": [
+          141,
+          231
+        ],
+        "resized_size": [
+          137,
+          224
+        ],
+        "pad_left_top": [
+          43,
+          0
+        ],
+        "input_scale": 0.9696969696969697,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-218715"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-038",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ bên trái giữ smartphone màn hình sáng trong nhóm chụp/xem cùng; nam neighbors không ownership thay holder; rõ224, không own workarea, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "coco_2017_train",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-phone-woman",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-038",
+        "bucket": "D",
+        "source_path": "data/raw/coco/coco-phone-audit-20261008-r3/000000211420.jpg",
+        "source_sha256": "8aa21380ae9920ae94c0400c19230479d4879dfecd39cff5b93d77a874448f6f",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-038.png",
+        "crop_sha256": "a9da6426dd84369c8508c3524182b54fd19d2f6d665ffa6c9ea9796fbf9a81ab",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-038.png",
+        "input_sha256": "2b7bf82d6ebe66cfdc050bb61fbd34c0ca448013449ac8b07ab42de571bfe64c",
+        "input_pixel_sha256": "2918d79352c1a718396f0d50b4064aec314a3258437f3b5be96a3de21c4153b0",
+        "crop_size": [
+          365,
+          380
+        ],
+        "resized_size": [
+          215,
+          224
+        ],
+        "pad_left_top": [
+          4,
+          0
+        ],
+        "input_scale": 0.5894736842105263,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "coco_2017_train",
+        "visual_family_hint": "COCO3-image-211420"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-042",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo đen bên trái giữ mobile trắng mỏng phía trên sổ; laptop foreground che phần desk, linked fingers/device còn rõ224, looking U chờ task evidence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-phone-man",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-042",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r3/06ff655145b3c7f4.jpg",
+        "source_sha256": "25388e727cd6572a2fb145c4ced6c3af7e5ea89bd4bcc0db12ea446f6f20a7a8",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-042.png",
+        "crop_sha256": "c3bf797ac7b0fcfbdf03c083c46dc521ac5c00e90dc5fea3c556c40295aa1a41",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-042.png",
+        "input_sha256": "c0fb69f937c67ac855d74889aadffa8dd35ad7c11b5158a5762fc03fcc62e0d2",
+        "input_pixel_sha256": "e295c43fafb9678b9b4ee13753838b670c43b8a98a2614db697ef27baefbbfd6",
+        "crop_size": [
+          379,
+          492
+        ],
+        "resized_size": [
+          173,
+          224
+        ],
+        "pad_left_top": [
+          25,
+          0
+        ],
+        "input_scale": 0.45528455284552843,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI3-image-06ff655145b3c7f4"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-044",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Nam suit xám bên trái giữ phone nhỏ giữa tay; source holder/device đọc được nhưng224 chỉ còn mép máy rất nhỏ. Giữ source P Draft, owner chọn usability224; không dùng số crop thay diversity.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-grey-suit-man",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-044",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r3/07b533661ede7e50.jpg",
+        "source_sha256": "8b668f75a9fff0fcdfcf9e978ecd2b2e665049f32582ace1e89035a2f1a6289e",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-044.png",
+        "crop_sha256": "e7fcf9efa14aa376da6909d73a80ebf1c87f6ba2470352b7e7178c5db32aab1b",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-044.png",
+        "input_sha256": "5403079bcf0d5a1a29f98e4a566d47e90c3bb7c3c2469a0f6356d9db5f5bd0d1",
+        "input_pixel_sha256": "9d52d86fce29bfd16470c89c11222df3da8fe7793d397e837f823c4fe4ab879a",
+        "crop_size": [
+          349,
+          408
+        ],
+        "resized_size": [
+          192,
+          224
+        ],
+        "pad_left_top": [
+          16,
+          0
+        ],
+        "input_scale": 0.5490196078431373,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI3-image-07b533661ede7e50"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-046",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "ambiguous",
+      "final_reason": "Nữ áo xám bên phải giữ mobile nhỏ cạnh bàn laptop, direct own hands;224 chỉ còn thin edge khó đọc identity. Giữ source P Draft với input ambiguity, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "right-phone-woman",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-046",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r3/0f384b76033e2456.jpg",
+        "source_sha256": "348a4e1920796bfe9fa2c954d10e49a59531bd5468ef04eeb750465687a56c00",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-046.png",
+        "crop_sha256": "5de51fe8b85cc610e1572d34bca2568876c9c6a33b9a780a0befbf77050a1048",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-046.png",
+        "input_sha256": "ebce9b785162b32121204f5cd4a51ba0da057a57caf25dfb3f52159d8e8d5f19",
+        "input_pixel_sha256": "d3425cc926dfa30c0cbfea14a6752cb00e07a3368cfa86ef254319cfce7e8cc7",
+        "crop_size": [
+          349,
+          476
+        ],
+        "resized_size": [
+          164,
+          224
+        ],
+        "pad_left_top": [
+          30,
+          0
+        ],
+        "input_scale": 0.47058823529411764,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI3-image-0f384b76033e2456"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-049",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ tóc đỏ foreground nhìn laptop/workarea, tay còn lại bị che nên phone U hợp lý; nam bên cạnh là unit riêng. Looking N có linked own/shared workarea, không co-occurrence.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "front-redhead-reader",
+      "r7_proposed_states": [
+        "U",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-049",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r3/188590ba5240110a.jpg",
+        "source_sha256": "7f385a8c06ad2052ff8d7124a7ff22e3b5a976b2e9e44a91180e3ed4a35d2c8f",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-049.png",
+        "crop_sha256": "293fb4b7d73bc066df3002274ffa23bd2cc897208a114bd8b1555d4199d1a0bf",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-049.png",
+        "input_sha256": "1d9b1bc82271a1f1c93706059e223db59afc00e7e28bd173a703ba7be4199db8",
+        "input_pixel_sha256": "8b2ebef2e6fbe88926da6ecfbf8290c89f69e0932389206e49172cbf2f7aee8e",
+        "crop_size": [
+          308,
+          340
+        ],
+        "resized_size": [
+          203,
+          224
+        ],
+        "pad_left_top": [
+          10,
+          0
+        ],
+        "input_scale": 0.6588235294117647,
+        "proposed_states": [
+          "U",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI3-image-188590ba5240110a"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-050",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo xanh ở giữa có smartphone trên lap của mình và tay/pen chỉ bài trước người; phone direct own-lap rõ224, looking N proposal làm việc theo bài. Đây là P/N fully-known, không both P.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "middle-blue-man",
+      "r7_proposed_states": [
+        "P",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-050",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/1013b88a66eaed41.jpg",
+        "source_sha256": "d4eee505c064c435c2349aa43aafbb52c194785e2c85057efd1d216a4c1105ef",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-050.png",
+        "crop_sha256": "31ff1623b894829c6b95b56550ac53968f1e76dfe1af33fee72f6a6284800aa8",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-050.png",
+        "input_sha256": "56648bde6f8f07d3f1bf84cee522f02174ba89731dceb9ff1c66413aadc6212c",
+        "input_pixel_sha256": "b145432911fba7cabdc2bcab08e4c695b1228a2b3739157a2f2665729c956b75",
+        "crop_size": [
+          484,
+          493
+        ],
+        "resized_size": [
+          220,
+          224
+        ],
+        "pad_left_top": [
+          2,
+          0
+        ],
+        "input_scale": 0.4543610547667343,
+        "proposed_states": [
+          "P",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-1013b88a66eaed41"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-051",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo xanh bên phải giữ mobile case pink trong tay sát lap; device/hand đọc được224, mobile nữ trái khác không gán anchor; looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "right-blue-woman",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-051",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/00100b721367c708.jpg",
+        "source_sha256": "de244bb12915fd9cf5ee7359863dba2d2f10df8bbba169016a6ffa07948fe962",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-051.png",
+        "crop_sha256": "aeb296e4881ef46032a60601610cd2e9d26e7973f21ee6cb823baac4794e702a",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-051.png",
+        "input_sha256": "e826da4f54aad69149a9803e437dae1227309eee432c0b95909108589a0b6431",
+        "input_pixel_sha256": "6de4c15b350d884185404d4f59d9e649a0f01e71e265fee868a10bcc92672749",
+        "crop_size": [
+          646,
+          615
+        ],
+        "resized_size": [
+          224,
+          213
+        ],
+        "pad_left_top": [
+          0,
+          5
+        ],
+        "input_scale": 0.34674922600619196,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-00100b721367c708"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-053",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo đỏ trái nhìn laptop shared task; tay còn lại sau laptop nên phone U, looking N proposal workarea rõ; bàn/phone absence chưa đủ N.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-red-woman",
+      "r7_proposed_states": [
+        "U",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-053",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/003334500cdd78c1.jpg",
+        "source_sha256": "5eaef83cd7c7d57065f2502f860e646205b127bbadfa4a95c92fafbd5b094433",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-053.png",
+        "crop_sha256": "d91b3cb18568868bd16dbc13762ff8c19f22085b86400ee27ee04725a33148e5",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-053.png",
+        "input_sha256": "e03d784d54976ed852dd1d3457b97a1fcafcd77fe731a3e161ec2397315cea0d",
+        "input_pixel_sha256": "3a807f7a7c0b1556ed5f696f6c05125f99094869647e5d600fab218ec4c702fa",
+        "crop_size": [
+          512,
+          664
+        ],
+        "resized_size": [
+          173,
+          224
+        ],
+        "pad_left_top": [
+          25,
+          0
+        ],
+        "input_scale": 0.3373493975903614,
+        "proposed_states": [
+          "U",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-003334500cdd78c1"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-054",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ writer foreground phải viết giấy trong nhóm, own pen/paper rõ224; crowd/partition che phone vùng khác nên U giữ, looking N không suy từ head tilt đơn lẻ.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "front-right-writer",
+      "r7_proposed_states": [
+        "U",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-054",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/0d95a16f4b721523.jpg",
+        "source_sha256": "ff85b7af1b3f7ec7f30b527b002635f66670aa424cf4a2793ec2c57e21dc8589",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-054.png",
+        "crop_sha256": "77ecfad01b1b124b055fa98d44a91df2e10a6781339fd286d1062501b5ca0fa3",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-054.png",
+        "input_sha256": "5dcbc4960fb6e807aa685867dc20e99c2dc60a47ede7c47f41aefd3b78c95e86",
+        "input_pixel_sha256": "dbc41763a72ac43d5be080364d6955742df5e461c650fe9120fdff21424f1227",
+        "crop_size": [
+          431,
+          465
+        ],
+        "resized_size": [
+          208,
+          224
+        ],
+        "pad_left_top": [
+          8,
+          0
+        ],
+        "input_scale": 0.4817204301075269,
+        "proposed_states": [
+          "U",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-0d95a16f4b721523"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-056",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo xanh cà vạt đỏ dùng keyboard; desktop monitor che vùng phone nên U, workarea/keyboard rõ cho looking N; không gán phone do rectangular desk clutter.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "right-red-tie-man",
+      "r7_proposed_states": [
+        "U",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-056",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/195d50f2a8b693f7.jpg",
+        "source_sha256": "20589375f40c68f8c2ea170b7fe650a67b3730256a545a03ccc5ba2c6c39e9d9",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-056.png",
+        "crop_sha256": "6e7d5d1de08cec72e841f94f3e6b0d18bb90a3d3e768f7354f6600ec97cb3f17",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-056.png",
+        "input_sha256": "b80b833dc7425909981abe61178dfa051360402f9e1452c4a91e03378384bcc9",
+        "input_pixel_sha256": "810952ce3c41e80e0f53342cd8c01fa9a59521565fd8ba9eb2779fc51085c2fd",
+        "crop_size": [
+          451,
+          553
+        ],
+        "resized_size": [
+          183,
+          224
+        ],
+        "pad_left_top": [
+          20,
+          0
+        ],
+        "input_scale": 0.4050632911392405,
+        "proposed_states": [
+          "U",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-195d50f2a8b693f7"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-057",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nam áo tối ở giữa nhìn own desktop/workarea, tay/bàn bị monitor che nên phone U. Phone đen trên bàn foreground thuộc người khác, không gán cho middle anchor; looking N proposal.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "middle-black-man",
+      "r7_proposed_states": [
+        "U",
+        "N"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-057",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/08f00b7676e32dcc.jpg",
+        "source_sha256": "bed0210327fdf5bb38f1f7320ed64099549cecfbf84289ade366fe352396a48f",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-057.png",
+        "crop_sha256": "b63ac21876583a3db8d737845243710a0b3aad4891d437e52b164fb126218b91",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-057.png",
+        "input_sha256": "c41adb36d81d5d760288756f843e48f732e37c970f05b24af3af4c1e7636e9a3",
+        "input_pixel_sha256": "67a0485eacbfec8a9792e906e505ffc64f87bd94fc73cc70d6cd267d7bf3049b",
+        "crop_size": [
+          349,
+          379
+        ],
+        "resized_size": [
+          206,
+          224
+        ],
+        "pad_left_top": [
+          9,
+          0
+        ],
+        "input_scale": 0.5910290237467019,
+        "proposed_states": [
+          "U",
+          "N"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-08f00b7676e32dcc"
+      },
+      "ownership_evidence": "ownership_or_observation_unknown_retained",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    },
+    {
+      "sample_id": "V7-D-058",
+      "source_evidence": "clear",
+      "crop_evidence": "clear",
+      "input224_evidence": "clear",
+      "final_reason": "Nữ áo đen bên trái giữ mobile đỏ sát lap và thao tác bằng hai tay; linked device còn đọc được224, nữ blue neighbor own phone riêng, looking U.",
+      "phone_roi_input224_xyxy": null,
+      "bucket": "D",
+      "source_id": "openimages_train_prefix",
+      "domain": "auxiliary_out_of_exam",
+      "person_unit_hint_r7": "left-black-phone-woman",
+      "r7_proposed_states": [
+        "P",
+        "U"
+      ],
+      "owner_approved": false,
+      "canonical_mask": [
+        0,
+        0
+      ],
+      "training_eligible": false,
+      "evidence_pins": {
+        "candidate_id": "V7-D-058",
+        "bucket": "D",
+        "source_path": "data/raw/openimages/oi-phone-audit-20261008-r4/00100b721367c708.jpg",
+        "source_sha256": "de244bb12915fd9cf5ee7359863dba2d2f10df8bbba169016a6ffa07948fe962",
+        "crop_path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/crops/V7-D-058.png",
+        "crop_sha256": "7a650ded7819235f447c7e2e7c64359f2e6c052fcbbb4d92811917d5ebe5d1ef",
+        "input_path": "outputs/v7-input224-audit-20261009/input224/V7-D-058.png",
+        "input_sha256": "1141a8d3f4c7927a3a6cb08a6c13241faaf33f53813d5ea40b91f1c9d5fd350c",
+        "input_pixel_sha256": "a6610a2c9290fc70ac3d0aeffff11983878cacc003f1575e274fb3b664855c3e",
+        "crop_size": [
+          615,
+          656
+        ],
+        "resized_size": [
+          210,
+          224
+        ],
+        "pad_left_top": [
+          7,
+          0
+        ],
+        "input_scale": 0.34146341463414637,
+        "proposed_states": [
+          "P",
+          "U"
+        ],
+        "source_id": "openimages_train_prefix",
+        "visual_family_hint": "OI4-image-00100b721367c708"
+      },
+      "ownership_evidence": "direct_hand_or_own_desk_lap_link_visible",
+      "cooccurrence_visible_support": "not_proven_both_positive"
+    }
+  ]
+}
