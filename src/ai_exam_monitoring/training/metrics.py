@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from typing import Any
 
 import torch
 from torch.nn import functional as F
@@ -61,7 +62,7 @@ class TargetMetrics:
 
 
 def evaluate_scores(scores: torch.Tensor, values: torch.Tensor, mask: torch.Tensor,
-                    threshold: float) -> dict:
+                    threshold: float) -> dict[str, Any]:
     scores, values, mask = scores.detach().cpu(), values.cpu(), mask.cpu()
     validate_arrays(scores, values, mask)
     if not 0 < threshold < 1 or not ((scores >= 0) & (scores <= 1)).all():

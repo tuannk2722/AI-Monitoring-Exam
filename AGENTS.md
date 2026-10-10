@@ -1,65 +1,31 @@
-# AGENTS.md
+# Hướng dẫn coding agent
 
-## Source of truth
+## Bắt đầu và quyết định
 
-1. Đọc `docs/00-INDEX.md`.
-2. Đọc đúng tài liệu được index cho loại task.
-3. Chỉ coi ADR `Accepted` và config đã review là quyết định triển khai.
-4. Khi code khác docs, báo xung đột; không tự đổi label/split/metric/scope để làm code chạy.
-5. Không đọc lại tài liệu không đổi trong cùng task; ghi lại danh sách đã đọc.
+- Đọc `docs/00-INDEX.md` và `.codex/TASK.md`, đối chiếu Git/files và code trước sửa. Đọc đúng section trong bốn specs; system/data/training đã chứa trạng thái, decisions, nghiên cứu, results và next work. Không đọc lại docs không đổi hoặc mở/bung cả archive cho context thường ngày.
+- Quyết định owner Accepted đúng scope/phiên bản, được ghi trực tiếp trong spec, có ưu tiên; config/approval/receipt pinned và code là bằng chứng triển khai. Draft/TBD không là approval. Code/spec/report khác nhau: báo conflict, không tự đổi labels/splits/metrics/scope hoặc sửa pin để qua gate.
+- Tạo/cập nhật TASK trước sửa theo `docs/templates/task-template.md`. TASK chỉ một task hiện hành: mục tiêu, inputs/version, docs đã đọc, constraints, tiến độ/checks và bước tiếp. Resume đọc index/TASK, kiểm Git/artifacts và chỉ đọc docs đổi; sửa TASK cũ/mâu thuẫn. Không chứa media/credentials/danh tính, không thay approval/spec hoặc nối WORKLOG.
 
-Thứ tự ưu tiên: accepted ADR → canonical docs → configs → code → notebook.
+## Phạm vi và cách tiến hành
 
-## Task checkpoint (`.codex/TASK.md`)
+- Thứ tự hiện hành: dataset/annotation QA → baseline/evaluation → dữ liệu đánh giá độc lập/cải tiến model → runtime crop/video → tracking/events → web. V4–v7 và E001–E003 đã có; E004 và pipeline video B chưa xong. Không train lại/smoke lại hoặc mở downstream chỉ vì refactor/docs.
+- Không tự chốt class/formulation, official sources/splits, pretrained/license, training variables, thresholds/metrics, risk/evidence/review hoặc test access. Thiếu decision: chuẩn bị proposal có owner/lý do/evidence/acceptance rồi hỏi đúng phần; tiếp tục phần độc lập. Authorization user đúng scope giữ qua turns/resume, không hỏi lại phần đã duyệt.
+- Chủ động tự động hóa shortlist/draft annotation/group/QA bằng công cụ phù hợp đã có; owner nghiệm thu batch/high-level và ngoại lệ, không bị bắt annotate từng ảnh. Solo owner tự review/chốt, không yêu cầu người thứ hai.
+- Giữ changes tập trung. Canonical logic trong src, notebook launcher/exploration; YAML chứa variables; core không import web. Dùng schema rõ, không prediction/metric/model giả ở production path. Kiểm conventions/imports trước thêm module/CLI/library.
+- Expansion dùng bảng công cụ trong data §8; lifecycle và restore inputs trong development §6. TASK chỉ rõ output tạm/evidence giữ lại. Không copy script theo version/r1/r2; chỉ đưa phần tái dùng đã kiểm vào module theo trách nhiệm.
 
-- Mỗi task đang hoạt động phải có `.codex/TASK.md`; tạo hoặc cập nhật trước khi sửa artifact/code. Format theo `docs/templates/task-template.md`, bổ sung checkpoint khi cần.
-- Khi bắt đầu hoặc tiếp tục sau resume/compaction, đọc `docs/00-INDEX.md` và `.codex/TASK.md` nếu có; đối chiếu Git, files/artifacts và chỉ đọc lại docs đã thay đổi. TASK cũ hoặc mâu thuẫn phải được sửa theo yêu cầu user và source of truth, không được dùng như authority.
-- TASK là bộ nhớ điều phối cho một task hiện hành, không thay ADR/spec/config, không tự biến đề xuất thành Accepted hoặc câu hỏi chưa trả lời thành approval. Không chứa credentials, dữ liệu định danh hoặc media.
+## Dữ liệu, experiment và bảo toàn
 
-## AI-first order
+- Raw bất biến; derivative/version mới ở interim/processed. Mutation cần owner review/pointer/pins, không sửa/reseal release v4–v7 hoặc artifact đã ký. Missing historical inputs: truy/restore theo development spec, không bỏ integrity guards hoặc lấy version khác cùng tên.
+- Git không chứa media/model/checkpoint/env/cache/credentials. Không real identity trong filenames/manifests; không upload người thật/W&B/API khi thiếu consent/use scope. DVC local/pointer không là remote backup; push chỉ scope được duyệt.
+- Run có ID/hypothesis/owner/code/config/data/split/encoding/seed/environment/status/metrics/checksums/observation/decision. Đổi variables là identity mới; OOM/interruption không silent đổi batch/config. Unknown masked, test không dùng tuning hoặc mở lại nếu thiếu protocol/approval.
+- Tái lập run/model cũ dùng original code/pins/environment; code identity đổi sau cleanup không được sửa hash cũ hoặc nới evaluator. Artifact restore chỉ để task cần, gỡ workspace tạm sau dùng.
 
-`dataset → annotation QA → baseline → evaluation → real-world holdout → model improvement → tracking/events → web`.
+## Bàn giao và giữ spec hữu ích
 
-Không mở rộng dashboard, realtime, cloud hoặc authentication khi milestone AI hiện tại chưa đạt exit gate.
+- Trước hoàn tất inspect diff, chạy checks đúng phạm vi trong development spec; docs-only không chạy full ML/data hashes. Pass software không thay data/model acceptance.
+- Khi được yêu cầu commit: stage đúng source/spec/config/metadata, chạy checker `--require-git` kiểm đủ Git index và archive registry, kiểm staged diff; không force-add binary. Kiểm clean checkout khi thay cấu trúc rộng. Backup cùng ổ chỉ bảo vệ xóa/sửa nhầm, không gọi là backup chống hỏng ổ.
+- Kết quả mới cập nhật đúng spec: data cho sources/releases/QA; training cho runs/metrics/errors/next hypothesis; system cho requirements/capabilities/gates. Ghi đã làm gì, kết quả/decision/limitations và next work với version/evidence cần thiết; không chỉ tạo report link hoặc giữ pending state cũ.
+- Tài liệu tiếng Việt, dấu cách đầy đủ; không dàn trải results/E004/cleanup/ADR/card Markdown mỗi task khi section hiện có đáp ứng. Thêm file/script/config chỉ khi có trách nhiệm tái dùng thật; dọn preview/cache/checkout/tooling sau khi bảo toàn inputs/evidence/results.
 
-## Không được tự quyết âm thầm
-
-- class semantics, task formulation, official dataset hoặc split;
-- pretrained model/license, training variable, thresholds hoặc acceptance metrics;
-- risk/evidence/review semantics;
-- dùng test set để tuning;
-- upload dữ liệu người thật lên dịch vụ ngoài khi chưa có consent/policy.
-
-Nếu thiếu quyết định, thêm `TBD` có owner, lý do và điều kiện chốt; không bịa giá trị mặc định trông như đã được phê duyệt.
-
-Không tự quyết âm thầm KHÔNG có nghĩa là bắt Owner làm thủ công mọi việc. AI phải chủ động dùng tự động hóa (heuristics, thuật toán, pre-trained models) để tạo ra các đề xuất (Draft Proposals). Owner chỉ đóng vai trò nghiệm thu, xác nhận (Approve/Reject) ở mức high-level qua báo cáo hoặc 1 lệnh CLI.
-
-## Data/privacy
-
-- `data/raw` bất biến; transform bằng code sang `interim/processed`.
-- Không commit ảnh/video/model/checkpoint/credential/notebook output lớn.
-- Không đưa tên/mã sinh viên thật vào filename/manifest.
-- Không log ảnh/video người thật lên W&B nếu policy chưa cho phép.
-- Mọi dataset mutation phải tạo version/pointer mới và có owner review được ghi lại; Codex hỗ trợ, không yêu cầu người thứ hai.
-
-## Experiment contract
-
-Mỗi run phải có: experiment ID, owner, hypothesis, Git commit, dataset/split/label-map version, resolved config, seed, environment, status, metrics, artifacts/checksum, observation và decision. OOM/interruption là trạng thái run, không được âm thầm đổi batch/config trong cùng identity.
-
-## Coding rules
-
-- Canonical logic nằm trong `src/`; notebook chỉ exploration/launcher.
-- Config YAML chứa experiment variables; code không hard-code chúng.
-- Core modules không phụ thuộc web framework.
-- Dùng structured schemas thay dict không định nghĩa cho prediction/track/event.
-- Không tạo mock metric/model prediction trong production path.
-- Mỗi PR có một owner và một mục tiêu chính. Solo: owner tự review/chốt, Codex hỗ trợ; ghi bằng chứng kiểm tra, không yêu cầu người thứ hai.
-
-## Spec and document rules
-
-- Toàn bộ đều phải được viết bằng tiêngs việt.
-- Đặc biệt chú ý việc viết tài liệu markdown, phải có dấu cách giữa các chữ.
-
-## Stop conditions
-
-Dừng thay đổi có liên quan nếu: data/license/path/version không rõ; label/split mâu thuẫn; test set có nguy cơ bị dùng sai; task train thiếu config/experiment; cần scope/metric/risk decision mới; hoặc có nguy cơ lộ dữ liệu/credential. Các phần độc lập khác vẫn có thể tiếp tục.
+Dừng phần liên quan nếu data/license/path/version không rõ, label/split mâu thuẫn, test có nguy cơ dùng sai, train thiếu config/experiment, cần scientific/scope/risk decision mới hoặc có nguy cơ lộ dữ liệu/credential. Phần độc lập vẫn tiến hành.

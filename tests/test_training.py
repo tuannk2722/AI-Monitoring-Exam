@@ -121,6 +121,24 @@ class TrainingTests(unittest.TestCase):
         self.assertEqual(result.getpixel((31, 23)), (0, 0, 255))
         self.assertEqual(result.getpixel((0, 0)), tuple(config().fill))
 
+    def test_letterbox_odd_geometry_and_color_modes(self):
+        current = replace(config(), image_size=224)
+        fixtures = [((175, 308), (127, 224), (48, 0)),
+                    ((1001, 111), (224, 25), (0, 99)),
+                    ((1, 300), (1, 224), (111, 0))]
+        for size, resized, offset in fixtures:
+            for mode in ["RGB", "L", "RGBA"]:
+                with self.subTest(size=size, mode=mode):
+                    image = Image.new(mode, size, 7)
+                    pixel = image.convert("RGB").getpixel((0, 0))
+                    result = letterbox(image, current)
+                    self.assertEqual(result.mode, "RGB")
+                    self.assertEqual(result.size, (224, 224))
+                    self.assertEqual(result.getpixel(offset), pixel)
+                    self.assertEqual(result.getpixel((offset[0] + resized[0] - 1,
+                                                      offset[1] + resized[1] - 1)), pixel)
+                    self.assertEqual(result.getpixel((0, 0)), tuple(current.fill))
+
     def test_frozen_encoder_keeps_weights_bn_buffers_and_no_grad(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "synthetic-unit-only.pth"

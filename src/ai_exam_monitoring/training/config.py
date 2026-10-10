@@ -7,6 +7,7 @@ import math
 import re
 from dataclasses import asdict, dataclass, fields
 from pathlib import Path
+from typing import Any
 
 from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import ConfigurationError
@@ -92,7 +93,7 @@ class ExperimentConfig:
             if not re.fullmatch(r"[0-9a-f]{64}", getattr(self, key)):
                 raise ConfigurationError(f"{key} must pin a SHA-256")
 
-    def to_dict(self) -> dict:
+    def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
 

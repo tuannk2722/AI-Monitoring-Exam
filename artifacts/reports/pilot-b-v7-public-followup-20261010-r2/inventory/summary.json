@@ -1,9 +1,0 @@
-{
-  "status": "metadata_only_not_source_acceptance",
-  "requests": 5,
-  "received": 4,
-  "media_downloaded": 0,
-  "source_exhausted": false,
-  "training_eligible": false,
-  "config_sha256": "9eaa14755230f632714a8cd80b890017f35b2c8ad3af51d38789d28151e8e39c"
-}

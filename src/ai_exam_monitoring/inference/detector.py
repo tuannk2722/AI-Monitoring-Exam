@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections.abc import Iterator
+from importlib import import_module
 from math import isfinite
 from pathlib import Path
 from uuid import NAMESPACE_URL, uuid5
@@ -20,7 +21,7 @@ class UltralyticsDetector:
         if not 0 <= confidence <= 1:
             raise ValueError("confidence must be within [0, 1]")
         try:
-            from ultralytics import YOLO
+            YOLO = import_module("ultralytics").YOLO
         except ImportError as exc:
             raise ConfigurationError(
                 "Install ML dependencies: pip install -r requirements/ml.txt"
@@ -52,6 +53,8 @@ class UltralyticsDetector:
                 class_id = int(box.cls.item())
                 label = str(names[class_id])
                 coordinates = [float(value) for value in box.xyxy[0].tolist()]
+                if len(coordinates) != 4:
+                    raise ConfigurationError("Detector must return exactly four XYXY coordinates")
                 prediction_id = str(
                     uuid5(
                         NAMESPACE_URL,
@@ -65,6 +68,7 @@ class UltralyticsDetector:
                     task="detection",
                     label=label,
                     confidence=float(box.conf.item()),
-                    bbox=BoundingBox(*coordinates, coordinate_space="pixel"),
+                    bbox=BoundingBox(coordinates[0], coordinates[1], coordinates[2],
+                                     coordinates[3], coordinate_space="pixel"),
                     class_id=class_id,
                 )

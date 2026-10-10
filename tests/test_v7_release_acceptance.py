@@ -9,14 +9,47 @@ from PIL import Image
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.data.pilot_schema import SourceRef
+from ai_exam_monitoring.data.pilot_schema import (
+    ContextReview,
+    CropRef,
+    GroupReview,
+    PilotRecord,
+    PixelBox,
+    ReviewEvidence,
+    RightsReview,
+    SourceRef,
+    TargetReview,
+)
 from ai_exam_monitoring.data.v7_release_acceptance import materialize_records, prepare_sources
-from tests import test_pilot_review_acceptance as fixtures
 
 
 class V7AcceptanceTests(unittest.TestCase):
     def fixture(self, usage="train"):
-        old, _, config, _ = fixtures.AcceptanceTests().fixture(usage)
+        evidence = ReviewEvidence("owner", "2026-10-07", "approval.json", "a" * 64)
+        used = usage in {"train", "val", "test"}
+        old = PilotRecord(
+            sample_id="A", dataset_version="old", selection_version="old",
+            crop_policy_version="old",
+            source=SourceRef("source", "b" * 64, "a.jpg", "c" * 64, 20, 20),
+            phone_use=TargetReview("positive" if used else "unknown", "Quan sát.",
+                                   evidence if used else None),
+            looking_around=TargetReview("unknown", "Chưa rõ."),
+            work_context_review=ContextReview("unknown", "Chưa rõ."),
+            rights=RightsReview("owner-permission", "rights.json",
+                               ("local_classifier_research",), evidence),
+            crop=CropRef("A", PixelBox(0, 0, 20, 20), PixelBox(0, 0, 20, 20),
+                         "crops/A.png", "a" * 64, evidence),
+            group=GroupReview("G", ("group.json",), evidence), disposition="approved",
+            usage=usage, split=usage if used else None, split_version="old" if used else None,
+            owner_decision_ref="old.json", release_review=evidence,
+            use_scope="local_classifier_research",
+            test_freeze_ref="old-test" if usage == "test" else None,
+            ineligibility_reasons=() if used else ("Nhãn chưa rõ.",),
+        )
+        config = dict(approval={"path": "new.json"}, dataset_version="new",
+                      selection_version="new", crop_policy_version="new", split_version="new",
+                      assignment={"path": "assignment.jsonl"},
+                      approved_use_scope=["local_classifier_research"])
         config.update(whole_family={"path": "groups.json"}, rights={"path": "rights.jsonl"})
         approval = dict(decision="approve_pilot_b_v7_local_release", reviewer="owner",
                         reviewed_at="2026-10-10", exceptions=[], training_run_approved=False,

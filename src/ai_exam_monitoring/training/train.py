@@ -8,7 +8,9 @@ import json
 import random
 import time
 from dataclasses import asdict, dataclass
+from importlib import import_module
 from pathlib import Path
+from typing import Any, cast
 
 import numpy as np
 import torch
@@ -45,13 +47,13 @@ class PredictionRow:
     decisions: list[bool]
 
 
-def rng_state() -> dict:
-    state = np.random.get_state()
+def rng_state() -> dict[str, Any]:
+    state = cast(tuple[Any, ...], np.random.get_state(legacy=True))
     return {"torch": torch.get_rng_state(), "python": random.getstate(),
             "numpy": [state[0], state[1].tolist(), int(state[2]), int(state[3]), float(state[4])]}
 
 
-def restore_rng(state: dict) -> None:
+def restore_rng(state: dict[str, Any]) -> None:
     torch.set_rng_state(state["torch"])
     random.setstate(state["python"])
     name, keys, position, gaussian, cached = state["numpy"]
@@ -60,7 +62,7 @@ def restore_rng(state: dict) -> None:
 
 def train_head(train: SplitFeatures, val: SplitFeatures, config: ExperimentConfig,
                output: Path, identity: str, *, resume: bool = False,
-               interrupt_after: int | None = None) -> dict:
+               interrupt_after: int | None = None) -> dict[str, Any]:
     torch.manual_seed(config.seed)
     head = nn.Linear(train.features.shape[1], 2)
     optimizer = torch.optim.AdamW(head.parameters(), lr=config.learning_rate,
@@ -85,7 +87,7 @@ def train_head(train: SplitFeatures, val: SplitFeatures, config: ExperimentConfi
         loss = masked_loss(head(train.features), train.values, train.mask)
         if not torch.isfinite(loss):
             raise DataContractError("Nonfinite training loss")
-        loss.backward()
+        torch.autograd.backward(loss)
         if any(p.grad is None or not torch.isfinite(p.grad).all() for p in head.parameters()):
             raise DataContractError("Nonfinite or missing head gradient")
         optimizer.step()
@@ -120,7 +122,7 @@ def train_head(train: SplitFeatures, val: SplitFeatures, config: ExperimentConfi
 
 
 def split_report(data: SplitFeatures, head: nn.Module, config: ExperimentConfig,
-                 prevalence: torch.Tensor) -> tuple[dict, list[dict]]:
+                 prevalence: torch.Tensor) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     with torch.no_grad():
         logits = head(data.features)
         scores = logits.sigmoid()
@@ -130,6 +132,8 @@ def split_report(data: SplitFeatures, head: nn.Module, config: ExperimentConfig,
         prevalence.expand_as(scores), data.values, data.mask, config.threshold)
     rows = []
     for row, score in zip(data.records, scores.tolist(), strict=True):
+        if row.group is None or row.group.leakage_group_id is None:
+            raise DataContractError("Prediction record requires reviewed leakage group")
         rows.append(asdict(PredictionRow(
             row.sample_id, row.source.source_id, row.group.leakage_group_id, row.usage,
             score, list(row.target_values), list(row.target_mask),
@@ -142,7 +146,7 @@ def split_report(data: SplitFeatures, head: nn.Module, config: ExperimentConfig,
     return metrics, rows
 
 
-def write_curve(output: Path, history: list[dict]) -> None:
+def write_curve(output: Path, history: list[dict[str, Any]]) -> None:
     # Standalone SVG, no chart dependency or media upload.
     maximum = max(r[k] for r in history for k in ("train_loss", "val_loss")) * 1.05
     curves = []
@@ -167,10 +171,10 @@ def write_curve(output: Path, history: list[dict]) -> None:
 
 def peak_rss() -> int | None:
     try:
-        import psutil
+        psutil = import_module("psutil")
 
         memory = psutil.Process().memory_info()
-        return getattr(memory, "peak_wset", memory.rss)
+        return int(getattr(memory, "peak_wset", memory.rss))
     except ImportError:
         return None
 

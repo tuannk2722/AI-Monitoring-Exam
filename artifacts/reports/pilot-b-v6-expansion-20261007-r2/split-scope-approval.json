@@ -1,8 +1,0 @@
-{
-  "decision": "expand_train_and_validation_preserve_v5_test",
-  "reviewer": "repository_owner",
-  "date": "2026-10-07",
-  "owner_message": "Mở rộng train/val, giữ nguyên test v5",
-  "scope": "Được mở rộng train và val bằng nhóm mới đã review. Giữ nguyên 11 test v5; chưa chốt assignment/ratio hoặc nhãn/crop/group tương lai.",
-  "test_inference_authorized": false
-}

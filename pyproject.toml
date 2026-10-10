@@ -54,3 +54,7 @@ python_version = "3.11"
 packages = ["ai_exam_monitoring"]
 strict = true
 warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = ["torchvision.*"]
+follow_untyped_imports = true

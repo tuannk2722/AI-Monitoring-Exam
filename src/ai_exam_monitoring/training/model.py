@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from importlib.metadata import version
 from pathlib import Path
+from typing import cast
 
 import torch
 from torch import nn
@@ -36,7 +37,7 @@ class FrozenEncoder(nn.Module):
 
     def forward(self, images: torch.Tensor) -> torch.Tensor:
         with torch.no_grad():
-            return self.network(images)
+            return cast(torch.Tensor, self.network(images))
 
 
 @dataclass
@@ -54,8 +55,11 @@ def extract_features(encoder: FrozenEncoder, root: Path, records: list[PilotReco
         raise DataContractError("Feature extraction requires one nonempty split")
     # Validate bytes even when reusing a cache, never silently use stale features.
     paths = [crop_path(root, r) for r in records]
+    crops = [r.crop for r in records if r.crop is not None]
+    if len(crops) != len(records):
+        raise DataContractError("Feature extraction requires reviewed crops")
     identity = {"ids": [r.sample_id for r in records],
-                "crop_sha256": [r.crop.crop_sha256 for r in records],
+                "crop_sha256": [crop.crop_sha256 for crop in crops],
                 "weights": config.weights_sha256, "code": code_identity()["sha256"],
                 "transform": {k: config.to_dict()[k] for k in
                               ("image_size", "mean", "std", "fill", "transform")},

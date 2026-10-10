@@ -1,9 +1,0 @@
-{
-  "status": "draft_pending_owner_review",
-  "overrides": [
-    {"sample_id": "V7-B-057", "final_proposed_states": ["U", "U"], "owner_approved": false, "qa_disposition": "quarantine_device_identity", "final_reason": "Nữ foreground trong giảng đường giữ vật trắng nhỏ sát sách. Nguồn local512 chỉ cho hình chữ nhật/mép vật giữa ngón tay, chưa đủ phân biệt mobile với card/giấy;224 càng thiếu chi tiết. Đề xuất phone U thay P tới owner xác minh device, looking U giữ vì gaze/workarea chưa chốt. Không chuyển sang N hoặc tính như phone P hữu ích."},
-    {"sample_id": "V7-B-061", "final_proposed_states": ["U", "U"], "owner_approved": false, "qa_disposition": "quarantine_device_identity", "final_reason": "Nam áo trắng foreground giữ vật gần như che toàn bộ bởi hai bàn tay; nguồn512 chỉ lộ mép nhỏ, không xác nhận mobile identity. Posture cầm không đủ P và224 không tạo thêm evidence. Đề xuất phone U/looking U, pending device review; không suy N."},
-    {"sample_id": "V7-B-087", "final_proposed_states": ["U", "P"], "owner_approved": false, "qa_disposition": "quarantine_phone_negative_visibility", "final_reason": "Anchor nam học sinh bên trái, màn hình/laptop trên lap và mặt nhìn camera ngoài screen; looking P đề xuất. Chỉ thấy rõ một bàn tay, tay còn lại bị screen/lap che, không đủ phone absence như R7 ghi cả hai tay. Phone nữ bên phải không gán anchor; đề xuất phone U thay N."},
-    {"sample_id": "V7-B-090", "final_proposed_states": ["U", "U"], "owner_approved": false, "qa_disposition": "quarantine_phone_negative_visibility", "final_reason": "Anchor nữ kính bên phải có bút xanh gần miệng và bàn tay gần mặt; tay/vùng bàn còn lại bị người foreground/source edge che. Bút xác định không mobile nhưng không đủ kiểm toàn vùng own hands/workarea, nên phone N chưa được hỗ trợ. Đề xuất phone U, looking U giữ; vẫn là bút/near-face case cần owner review, chưa negative Accepted."}
-  ]
-}

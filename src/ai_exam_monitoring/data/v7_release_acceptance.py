@@ -15,9 +15,8 @@ from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file, write_json
 
-from .pilot_owner_groups import verify_payload
+from .integrity import pin, read_rows, safe_path, test_freeze_attestation, verify_payload
 from .pilot_package import build_pilot_package
-from .pilot_release_proposals import test_freeze_attestation
 from .pilot_schema import (
     ContextReview,
     CropRef,
@@ -31,7 +30,6 @@ from .pilot_schema import (
     read_records,
     validate_records,
 )
-from .v7_unapproved_pilot import pin, read_rows, safe_path
 
 
 def materialize_records(

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+from typing import Any
 
 import torch
 from torch import nn
@@ -19,7 +20,7 @@ from .model import FrozenEncoder, extract_features
 from .train import split_report
 
 
-def validate_protocol(protocol: dict, config: ExperimentConfig, checkpoint: Path,
+def validate_protocol(protocol: dict[str, Any], config: ExperimentConfig, checkpoint: Path,
                       config_hash: str, code_hash: str) -> None:
     expected = {"status": "approved", "experiment_id": config.experiment_id,
                 "checkpoint_sha256": sha256_file(checkpoint), "config_sha256": config_hash,
@@ -32,7 +33,7 @@ def validate_protocol(protocol: dict, config: ExperimentConfig, checkpoint: Path
 
 
 def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
-             protocol_path: Path | None = None) -> dict:
+             protocol_path: Path | None = None) -> dict[str, Any]:
     config = ExperimentConfig(**json.loads((run_dir / "resolved-config.json").read_text()))
     verify_approval(config, workspace)
     record = json.loads((run_dir / "run.json").read_text())

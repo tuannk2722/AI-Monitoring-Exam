@@ -1,5 +1,7 @@
 """Image fingerprint distances for review triage, never automatic session IDs."""
 
+from typing import Any
+
 from PIL import Image
 
 
@@ -13,9 +15,9 @@ def difference_hash(image: Image.Image) -> int:
     return result
 
 
-def nearest_by_split(query: dict, candidates: list[dict]) -> dict:
+def nearest_by_split(query: dict[str, Any], candidates: list[dict[str, Any]]) -> dict[str, Any]:
     """One nearest other image per source split; ties use full path, not basename."""
-    best = {}
+    best: dict[str, Any] = {}
     for candidate in candidates:
         if candidate["path"] == query["path"]:
             continue

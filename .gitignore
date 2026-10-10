@@ -49,3 +49,10 @@ wandb/
 /.dvc/cache/
 /.dvc/tmp/
 /.dvc/config.local
+
+# Lịch sử local: Git chỉ giữ index và DVC pointer
+/archive/*.zip
+/archive/*.partial
+/archive/work-plan.json
+/archive/check/
+/archive/restore/

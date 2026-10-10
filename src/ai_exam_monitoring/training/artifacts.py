@@ -12,6 +12,7 @@ from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from importlib.metadata import version
 from pathlib import Path
+from typing import Any
 
 import torch
 
@@ -34,13 +35,13 @@ def write_json(path: Path, payload: object) -> None:
     os.replace(temp, path)
 
 
-def save_checkpoint(path: Path, payload: dict) -> None:
+def save_checkpoint(path: Path, payload: dict[str, Any]) -> None:
     temp = path.with_suffix(".tmp")
     torch.save(payload, temp)
     os.replace(temp, path)
 
 
-def code_identity() -> dict:
+def code_identity() -> dict[str, Any]:
     package = Path(__file__).resolve().parents[1]
     # Git normalizes line endings; identity must survive Windows/Linux checkout.
     files = {p.relative_to(package).as_posix(): hashlib.sha256(
@@ -49,7 +50,7 @@ def code_identity() -> dict:
     return {"sha256": digest_json(files), "files": files, "normalization": "UTF-8 LF"}
 
 
-def environment() -> dict:
+def environment() -> dict[str, Any]:
     packages = {name: version(name) for name in ("torch", "torchvision", "numpy", "Pillow",
                                                 "PyYAML")}
     return {"python": sys.version, "platform": platform.platform(), "packages": packages,
@@ -67,7 +68,7 @@ class RunRecord:
     hypothesis: str
     config_sha256: str
     code_sha256: str
-    environment: dict
+    environment: dict[str, Any]
     dataset_version: str
     split_version: str
     encoding_version: str

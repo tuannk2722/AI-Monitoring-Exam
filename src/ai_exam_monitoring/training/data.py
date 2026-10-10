@@ -8,6 +8,7 @@ import re
 from collections import Counter
 from dataclasses import asdict
 from pathlib import Path, PurePosixPath
+from typing import Any
 
 import torch
 from PIL import Image
@@ -15,13 +16,13 @@ from torchvision.transforms import functional as TF
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.data.pilot_owner_groups import verify_payload
+from ai_exam_monitoring.data.integrity import verify_payload
 from ai_exam_monitoring.data.pilot_schema import PilotRecord, read_records, record_to_dict
 
 from .config import ExperimentConfig
 
 
-def _read_object(path: Path) -> dict:
+def _read_object(path: Path) -> dict[str, Any]:
     value = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):
         raise DataContractError("Metadata phải là JSON object")
@@ -39,7 +40,7 @@ def _workspace_path(workspace: Path, relative: str) -> Path:
     return path
 
 
-def _pinned_file(workspace: Path, pin: dict) -> Path:
+def _pinned_file(workspace: Path, pin: dict[str, Any]) -> Path:
     if (not isinstance(pin, dict) or set(pin) != {"path", "sha256"}
             or not isinstance(pin["sha256"], str)
             or re.fullmatch(r"[0-9a-f]{64}", pin["sha256"]) is None):
@@ -50,7 +51,7 @@ def _pinned_file(workspace: Path, pin: dict) -> Path:
     return path
 
 
-def _verify_inline_freeze(root: Path, release: dict, records: list[PilotRecord]) -> None:
+def _verify_inline_freeze(root: Path, release: dict[str, Any], records: list[PilotRecord]) -> None:
     # Giữ nguyên kiểm tra freeze v4; dùng lại để xác minh parent của pointer v5.
     freeze = release["test_freeze"]
     if release["status"] != "accepted" or freeze["status"] != "frozen":
@@ -68,6 +69,8 @@ def _verify_inline_freeze(root: Path, release: dict, records: list[PilotRecord])
 
 
 def _verify_membership(root: Path, records: list[PilotRecord]) -> list[PilotRecord]:
+    if any(r.group is None or r.group.leakage_group_id is None for r in records):
+        raise DataContractError("Supervised records require reviewed leakage groups")
     ledger = read_records(root / "review-ledger.jsonl")
     expected = {r.sample_id: record_to_dict(r) for r in ledger
                 if r.usage in {"train", "val", "test"}}
@@ -77,7 +80,8 @@ def _verify_membership(root: Path, records: list[PilotRecord]) -> list[PilotReco
                    (root / "split-assignment.jsonl").read_text(encoding="utf-8").splitlines()]
     expected_split = {r.sample_id: {
         "sample_id": r.sample_id, "split": r.split, "split_version": r.split_version,
-        "leakage_group_id": r.group.leakage_group_id, "test_freeze_ref": r.test_freeze_ref,
+        "leakage_group_id": r.group.leakage_group_id if r.group else None,
+        "test_freeze_ref": r.test_freeze_ref,
     } for r in records}
     if (len(assignments) != len(expected_split)
             or {r["sample_id"]: r for r in assignments} != expected_split):
@@ -85,7 +89,9 @@ def _verify_membership(root: Path, records: list[PilotRecord]) -> list[PilotReco
     return ledger
 
 
-def _evaluation_identity(row: PilotRecord) -> dict:
+def _evaluation_identity(row: PilotRecord) -> dict[str, Any]:
+    if row.crop is None or row.group is None:
+        raise DataContractError("Evaluation identity requires crop and group")
     # Bỏ version packaging; giữ freeze ref/evidence/crop/target/group phục vụ đánh giá.
     return {"source": asdict(row.source), "crop": asdict(row.crop),
             "phone_use": asdict(row.phone_use), "looking_around": asdict(row.looking_around),
@@ -95,7 +101,7 @@ def _evaluation_identity(row: PilotRecord) -> dict:
             "test_freeze_ref": row.test_freeze_ref}
 
 
-def _verify_preservation(root: Path, config: ExperimentConfig, release: dict,
+def _verify_preservation(root: Path, config: ExperimentConfig, release: dict[str, Any],
                          records: list[PilotRecord], ledger: list[PilotRecord]) -> None:
     relative = PurePosixPath(config.dataset)
     workspace = root.resolve()
@@ -144,6 +150,8 @@ def _verify_preservation(root: Path, config: ExperimentConfig, release: dict,
         raise DataContractError("Preservation thiếu/thay/nhân đôi ID validation hoặc test")
     for item in preserved:
         old, row = before[item["sample_id"]], after[item["sample_id"]]
+        if row.crop is None or row.group is None:
+            raise DataContractError("Preserved record requires crop and group")
         if (_evaluation_identity(old) != _evaluation_identity(row)
                 or item["split"] != row.split
                 or item["source_image_sha256"] != row.source.image_sha256
@@ -197,7 +205,8 @@ def select_records(records: list[PilotRecord], split: str, *, final_test: bool =
 def letterbox(image: Image.Image, config: ExperimentConfig) -> Image.Image:
     image = image.convert("RGB")
     scale = config.image_size / max(image.size)
-    size = tuple(max(1, min(config.image_size, round(v * scale))) for v in image.size)
+    width, height = (max(1, min(config.image_size, round(v * scale))) for v in image.size)
+    size = (width, height)
     resized = image.resize(size, Image.Resampling.BILINEAR)
     result = Image.new("RGB", (config.image_size, config.image_size), tuple(config.fill))
     result.paste(resized, ((config.image_size - size[0]) // 2,
@@ -207,8 +216,8 @@ def letterbox(image: Image.Image, config: ExperimentConfig) -> Image.Image:
 
 def image_tensor(path: Path, config: ExperimentConfig) -> torch.Tensor:
     with Image.open(path) as image:
-        image = letterbox(image, config)
-    return TF.normalize(TF.to_tensor(image), config.mean, config.std)
+        prepared = letterbox(image, config)
+    return TF.normalize(TF.to_tensor(prepared), config.mean, config.std)
 
 
 def labels(records: list[PilotRecord]) -> tuple[torch.Tensor, torch.Tensor]:

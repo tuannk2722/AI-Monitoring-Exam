@@ -9,13 +9,12 @@ Issue liên quan (nếu có):
 ## Ảnh hưởng đến Data / Label / Split
 
 - [ ] Không có
-- [ ] Được mô tả bên dưới và đã được Data Lead review
+- [ ] Được mô tả bên dưới và owner đã review
 
 ## Ảnh hưởng đến Experiment
 
 - Experiment ID/config (hoặc `None`):
 
-## Ảnh hưởng đến Privacy / License
 
 ## Verification (Kiểm tra)
 
