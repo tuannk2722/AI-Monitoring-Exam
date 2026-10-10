@@ -1,0 +1,34 @@
+[
+  {
+    "sample_id": "P006-extra-01",
+    "target": "looking_around",
+    "score": 0.3761630058288574,
+    "expected": 1,
+    "predicted": 0,
+    "source_id": "roboflow_v1"
+  },
+  {
+    "sample_id": "P007-extra-01",
+    "target": "looking_around",
+    "score": 0.36606934666633606,
+    "expected": 1,
+    "predicted": 0,
+    "source_id": "roboflow_v1"
+  },
+  {
+    "sample_id": "P008-extra-01",
+    "target": "looking_around",
+    "score": 0.4721499979496002,
+    "expected": 1,
+    "predicted": 0,
+    "source_id": "roboflow_v1"
+  },
+  {
+    "sample_id": "SCB-write-002",
+    "target": "phone_use",
+    "score": 0.7023830413818359,
+    "expected": 0,
+    "predicted": 1,
+    "source_id": "scb_hrw"
+  }
+]

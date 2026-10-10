@@ -1,0 +1,46 @@
+{
+  "targets": {
+    "phone_use": {
+      "positive": 17,
+      "negative": 20,
+      "unknown": 13,
+      "tp": 17,
+      "fp": 20,
+      "fn": 0,
+      "tn": 0,
+      "ap": 0.4594594594594595,
+      "precision": 0.4594594594594595,
+      "recall": 1.0,
+      "f1": 0.6296296296296297,
+      "reason": null
+    },
+    "looking_around": {
+      "positive": 18,
+      "negative": 11,
+      "unknown": 21,
+      "tp": 18,
+      "fp": 11,
+      "fn": 0,
+      "tn": 0,
+      "ap": 0.6206896551724138,
+      "precision": 0.6206896551724138,
+      "recall": 1.0,
+      "f1": 0.7659574468085106,
+      "reason": null
+    }
+  },
+  "macro_ap": 0.5400745573159367,
+  "threshold": 0.5,
+  "records": 50,
+  "cooccurrence": {
+    "fully_known": 16,
+    "positive": 2,
+    "metric": null,
+    "reason": "insufficient_pilot_support"
+  },
+  "probability_bce_float64": {
+    "phone_use": 0.6940876085835168,
+    "looking_around": 0.6881144721540446
+  },
+  "macro_probability_bce_float64": 0.6911010403687807
+}

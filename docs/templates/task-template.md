@@ -1,21 +1,21 @@
-# TASK-ID — Tiêu đề Task
+# TASK-ID — Mục tiêu cụ thể
 
-- Status / area / priority / iteration:
-- Owner / người chốt (solo: cùng owner) / hỗ trợ review:
-- Dependencies / blocked by:
+- Trạng thái: đang thực hiện / hoàn thành / cần quyết định; owner và phạm vi.
 
-## Mục tiêu và bối cảnh
+## Yêu cầu và hiện trạng
+Yêu cầu mới nhất của user; hành vi trước/sau, requirement/section spec liên quan. Đối chiếu Git/files/code, không dùng task cũ làm authority.
 
-## Đọc trước / ADR đã được accept
+## Đã đọc và quyết định áp dụng
+Spec/section, code/config/approval đã kiểm; Accepted đúng scope, Draft/TBD còn mở. Không đọc lại tài liệu không đổi cùng task.
 
-## Input và phiên bản chính xác
+## Inputs, outputs và ràng buộc
+Exact paths/IDs/versions/pins cần dùng; output/change cần bàn giao. Data-label-split/experiment/privacy impact; nội dung không được mutate. Không copy whole reports/media/secrets vào TASK.
+Ghi output nào là scratch/review/evidence/canonical, nơi lưu và điều kiện dọn; expansion ghi active API hoặc historical module/commit sẽ tái dùng theo data §8.
 
-## Yêu cầu / ràng buộc
+## Tiêu chí nghiệm thu và checks
+Hành vi/contract phải đúng, commands phù hợp theo diff, evidence và giới hạn. Unit PASS không thay quality gate; proposal không là approval.
 
-## Deliverables (đường dẫn artifact/contract)
+## Checkpoint và bước tiếp
+Tiến độ đã kiểm chứng; files đổi, tests/checks thực chạy và kết quả; câu hỏi/TBD có owner/lý do/điều kiện chốt; bước tiếp cụ thể sau resume. Nếu xong, nêu deliverables/checks/limitations và không giữ backlog task cũ.
 
-## Ảnh hưởng đến data-label-split / experiment / privacy
-
-## Tiêu chí nghiệm thu và lệnh verify
-
-## Rủi ro / rollback / quyết định chưa giải quyết
+TASK chỉ một task hiện hành; quyết định/kết quả cần cho task sau cập nhật đúng spec/config/receipt theo development. Không thêm WORKLOG hoặc nhật ký trạng thái trùng.

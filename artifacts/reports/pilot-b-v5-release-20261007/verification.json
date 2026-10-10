@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "date": "2026-10-07",
+  "ledger_records": 208,
+  "manifest_records": 104,
+  "exported_crops": 197,
+  "usage": {
+    "train": 80,
+    "review_only": 93,
+    "excluded": 11,
+    "val": 13,
+    "test": 11
+  },
+  "source_crop_target_review_rights_preserved": true,
+  "source_crop_pixels": "PASS trong preflight builder canonical trước xuất",
+  "val13_test11_preserved": true,
+  "test_inference_performed": false,
+  "new_train_records": 20,
+  "cross_split_image_crop_group_conflicts": 0,
+  "parent_packages_unchanged": 3,
+  "config_pins": "PASS",
+  "code_changed": false,
+  "artifact_sha256": {
+    "artifacts/reports/pilot-b-v5-release-20261007/build-inputs.json": "09e71e484b5bdd2d2b5a4ef4a740f59b27ef78590e84a857dedead6e6792d625",
+    "artifacts/reports/pilot-b-v5-release-20261007/build-metadata.json": "cde9ad41cb1e00d8b33d0be3d44aa6910eb31bd259b6b9fdc633e4c61c5b46e7",
+    "artifacts/reports/pilot-b-v5-release-20261007/build-result.json": "e92cf5b19321171617768997af4f9ab045dcc526d58f3421263baae18be7f63b",
+    "artifacts/reports/pilot-b-v5-release-20261007/dataset-card.md": "df9e71902056c799d8e3265e78fcb5ddb9e6d3940fc94e7a64fde1f6989aa578",
+    "artifacts/reports/pilot-b-v5-release-20261007/evaluation-preservation.json": "202cff030dd49b77441e5d0cb470d348af4101eb70e94c531da66771efb91206",
+    "artifacts/reports/pilot-b-v5-release-20261007/group-boundaries.json": "137bf29a3196f6137f7731356662341cb5c2900c23bdc81edf5202ca95faeea4",
+    "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json": "f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f",
+    "artifacts/reports/pilot-b-v5-release-20261007/README.md": "e7d6a6129aae52c788d079c71b3f865b3d3eadc2799ee423719eec6fbdda943a",
+    "artifacts/reports/pilot-b-v5-release-20261007/release-pointer.json": "dc6b20f059e15d7922bdeb49b6ba5b931e44881412b760216bd395c221fa5e1a",
+    "artifacts/reports/pilot-b-v5-release-20261007/review-ledger.jsonl": "47a388ced4c03f8443e3b933d3dc56443e25d629de52b3b124e70472d193297e",
+    "artifacts/reports/pilot-b-v5-release-20261007/selection.jsonl": "5b9dfea1273ff89ead5426b82777b71aa2dc2055f50cc43b5873717309bc3540"
+  },
+  "package_checksums_sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a"
+}

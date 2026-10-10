@@ -1,0 +1,233 @@
+{
+  "status": "accepted_local_release_verified",
+  "dataset_version": "pilot-b-20261005-v4",
+  "owner_decision_ref": "artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json",
+  "checksums_sha256": "dbc1bf90a5605cac39b5c96503e71097ecd1eaab5b35e14f311f966edd503f53",
+  "config_sha256": "918eb53cbac1a9a5b1defdcc2e94875b2c27f42fd9a7a8a67e3a68688df5c212",
+  "owner_approval_sha256": "56a8ef0e8bbed34588368c2f16433c8c4371f11cdcd5845ea8991c9430065700",
+  "parent_checksums_sha256": "29b87891a98ff013443c314a83cebb7b55457fdb43c774444e67d98d25ce96fd",
+  "approved_proposal_checksums_sha256": "b49c9ec09eea434dc63497e0a79836f6a5c052cabdb95515055801f7f59ff7d7",
+  "records": 112,
+  "reviewed_crops": 112,
+  "usage_manifest_records": 84,
+  "reviewed_leakage_groups": 16,
+  "coverage_all": {
+    "confirmed_normal": 9,
+    "cooccurrence": 1,
+    "fully_labeled": 10,
+    "fully_unknown": 0,
+    "partially_labeled": 102,
+    "records": 112,
+    "support": {
+      "looking_around": {
+        "binary_metric_support": "available",
+        "known": 89,
+        "unknown_ignored": 23
+      },
+      "phone_use": {
+        "binary_metric_support": "available",
+        "known": 33,
+        "unknown_ignored": 79
+      }
+    },
+    "targets": {
+      "looking_around": {
+        "negative": 56,
+        "positive": 33,
+        "unknown": 23
+      },
+      "phone_use": {
+        "negative": 9,
+        "positive": 24,
+        "unknown": 79
+      }
+    }
+  },
+  "usage": {
+    "review_only": 28,
+    "test": 11,
+    "train": 60,
+    "val": 13
+  },
+  "split_support": {
+    "test": {
+      "confirmed_normal": 2,
+      "cooccurrence": 0,
+      "fully_labeled": 2,
+      "fully_unknown": 0,
+      "partially_labeled": 9,
+      "records": 11,
+      "support": {
+        "looking_around": {
+          "binary_metric_support": "available",
+          "known": 9,
+          "unknown_ignored": 2
+        },
+        "phone_use": {
+          "binary_metric_support": "available",
+          "known": 4,
+          "unknown_ignored": 7
+        }
+      },
+      "targets": {
+        "looking_around": {
+          "negative": 7,
+          "positive": 2,
+          "unknown": 2
+        },
+        "phone_use": {
+          "negative": 2,
+          "positive": 2,
+          "unknown": 7
+        }
+      }
+    },
+    "train": {
+      "confirmed_normal": 5,
+      "cooccurrence": 1,
+      "fully_labeled": 6,
+      "fully_unknown": 0,
+      "partially_labeled": 54,
+      "records": 60,
+      "support": {
+        "looking_around": {
+          "binary_metric_support": "available",
+          "known": 50,
+          "unknown_ignored": 10
+        },
+        "phone_use": {
+          "binary_metric_support": "available",
+          "known": 16,
+          "unknown_ignored": 44
+        }
+      },
+      "targets": {
+        "looking_around": {
+          "negative": 33,
+          "positive": 17,
+          "unknown": 10
+        },
+        "phone_use": {
+          "negative": 5,
+          "positive": 11,
+          "unknown": 44
+        }
+      }
+    },
+    "val": {
+      "confirmed_normal": 1,
+      "cooccurrence": 0,
+      "fully_labeled": 1,
+      "fully_unknown": 0,
+      "partially_labeled": 12,
+      "records": 13,
+      "support": {
+        "looking_around": {
+          "binary_metric_support": "available",
+          "known": 6,
+          "unknown_ignored": 7
+        },
+        "phone_use": {
+          "binary_metric_support": "available",
+          "known": 8,
+          "unknown_ignored": 5
+        }
+      },
+      "targets": {
+        "looking_around": {
+          "negative": 3,
+          "positive": 3,
+          "unknown": 7
+        },
+        "phone_use": {
+          "negative": 1,
+          "positive": 7,
+          "unknown": 5
+        }
+      }
+    }
+  },
+  "checks": {
+    "exact_112_membership_and_84_selection": true,
+    "all_source_crop_looking_preserved": true,
+    "rf28_target_context_reviews_preserved": true,
+    "only_nine_approved_phone_context_changes": true,
+    "fourteen_previous_must_links_preserved": true,
+    "sixteen_owner_reviewed_components": true,
+    "image_crop_group_overlap_across_splits_zero": true,
+    "review_only_records_not_in_usage_manifest": true,
+    "scope_is_local_classifier_research": true,
+    "unknown_null_mask_zero_validated": true,
+    "normal_cooccurrence_derive_correctly": true,
+    "source_label_and_crop_pixels_preflight_pass": true,
+    "test_freeze_hashes_exact": true,
+    "producer_hashes_match": true,
+    "parent_v3_unchanged": true,
+    "fresh_destination_rebuild_identical": true
+  },
+  "validation": {
+    "unit_tests_passed": 108,
+    "ruff": "PASS",
+    "compileall": "PASS",
+    "repository_checker_require_git": "PASS",
+    "diff_check": "PASS"
+  },
+  "rebuild_destination": "outputs/pilot-b-release-rebuild-20261005-v4",
+  "test_freeze": {
+    "config_sha256": "918eb53cbac1a9a5b1defdcc2e94875b2c27f42fd9a7a8a67e3a68688df5c212",
+    "frozen_at": "2026-10-05T04:01:07+07:00",
+    "git_commit": "1f7757bfee5a20dad393ba80064769851e5ccd6a",
+    "manifest_sha256": "d83115300a15f807bdf35685cc2dbf2e21cd9bc5c9c4d86c0a2d163b951d877b",
+    "owner_decision_ref": "artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json",
+    "owner_decision_sha256": "56a8ef0e8bbed34588368c2f16433c8c4371f11cdcd5845ea8991c9430065700",
+    "protocol": "Annotation/QA before freeze only; after approved freeze no model/epoch/augmentation/threshold selection on test.",
+    "reviewer": "repository_owner",
+    "split_assignment_sha256": "8e6bf6f5e16232f69268ac9b6b2410a0571ba6dc3a8a9517be9465ca96ce33d3",
+    "split_version": "pilot-b-explicit-scene-split-v1",
+    "status": "frozen",
+    "test_manifest_sha256": "b1ae787f1d513118accfe5ae1793693e53924d0d6a6fec14defeacf786a33406",
+    "test_sample_ids": [
+      "P023-person-01",
+      "P028-person-01",
+      "SCB-read-002",
+      "SCB-read-011",
+      "SCB-read-018",
+      "SCB-read-024",
+      "SCB-turnhead-017",
+      "SCB-turnhead-022",
+      "SCB-write-003",
+      "SCB-write-015",
+      "SCB-write-026"
+    ]
+  },
+  "git_commit": "1f7757bfee5a20dad393ba80064769851e5ccd6a",
+  "git_dirty": true,
+  "implementation_sha256": {
+    "src/ai_exam_monitoring/data/pilot_inputs.py": "375f18f89c1997f25a53d4be552b1b860f3c29c83c48a3e63eaa15011ecb81e6",
+    "src/ai_exam_monitoring/data/pilot_owner_groups.py": "7b5c41deab329614834b79c10bc5cce1479f0bf3a8ad1b212a66673b06015498",
+    "src/ai_exam_monitoring/data/pilot_package.py": "cb259fe9fa3e2bd84c06c9f88d4978efc725fd50ee4b0ecc00f12a0d869f7040",
+    "src/ai_exam_monitoring/data/pilot_prepare.py": "b52400672016c3c61049c5496c85cd40521137737c458ce235eafc95357404b7",
+    "src/ai_exam_monitoring/data/pilot_release_proposals.py": "a3db2d180b79d5bedcd77a6bf820a8eb61edfc13628ab8023ef3749fa60fa5cf",
+    "src/ai_exam_monitoring/data/pilot_scb_proposals.py": "fa1e4de866d73e546befaedf2db83aa460ad195d4adeee38eea62d62cb5c27ca",
+    "src/ai_exam_monitoring/data/pilot_schema.py": "2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253",
+    "src/ai_exam_monitoring/data/pilot_selection.py": "e3d6ce8fe185fd14c813e0a4b1331a0ec45f7e1f58d72f3be5fc67d92d30ec52"
+  },
+  "dvc": {
+    "installed": false,
+    "pointer_created": false,
+    "remote_round_trip_performed": false,
+    "reason": "Approved local-only scope prohibits external media upload; P0/P2 DVC gates remain open."
+  },
+  "runtime_crop_ready": false,
+  "model_training_performed": false,
+  "media_uploaded": false,
+  "limitations": [
+    "Reviewed crop release only; automatic runtime context crop gate remains pending",
+    "Owner accepted conservative visual leakage boundaries for this local research pilot; video/session/room/person metadata remains unknown",
+    "28 group-unresolved records retained review_only, outside the usage manifest",
+    "Phone positives in RF and negatives in SCB are source-confounded",
+    "Validation has one phone negative; test has only four known phone labels",
+    "No model metrics, real-exam generalization or real-world holdout demonstrated",
+    "No external upload/distribution authorized; DVC remote round-trip not performed"
+  ]
+}

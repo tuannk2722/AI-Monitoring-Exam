@@ -1,0 +1,23 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "recorded_at": "2026-10-06",
+  "decision_ref": "docs/decisions/ADR-014-e001-local-linear-probe.md",
+  "user_instruction": "Đồng ý cho AI agent triển khai E001 theo đúng đề xuất trong training-readiness-20261006.md; thực hiện đến khi hoàn thiện.",
+  "proposal_sha256": "dc7d754c1206bcec9b4daf1f6fbafaa2ef774cbd7e143520299f8d4628936612",
+  "scope": "local_classifier_research",
+  "configs": {
+    "E001": "13ec6a2794de8f24f63f20af5ebab2b2f91fd96084d6534179bed13356542854",
+    "E001-smoke": "f2f761ff0f4c4a22f8ca8f7b4a45089f66277eafe03eab0ccc8aa88e650777fc"
+  },
+  "final_test": "sole E001 best validation candidate, fixed threshold 0.5, hash-bound protocol before evaluation; no tuning afterwards",
+  "implementation_details": {
+    "threads": 4,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "dependency_pair": "torch2.8.0+cpu/torchvision0.23.0+cpu"
+  }
+}

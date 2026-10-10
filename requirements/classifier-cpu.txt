@@ -1,0 +1,5 @@
+# Approved E001 local CPU pair; install into the project venv.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+psutil==7.0.0

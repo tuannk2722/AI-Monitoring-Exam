@@ -1,0 +1,27 @@
+{
+  "status": "accepted",
+  "dataset_version": "pilot-b-20261007-v5",
+  "package": "data/processed/pilot-b/pilot-b-20261007-v5",
+  "checksums": {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v5/checksums.sha256",
+    "sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a"
+  },
+  "config": {
+    "path": "configs/datasets/pilot_b_release_v5.yaml",
+    "sha256": "f6cec0d5f56533d8821ff64c52762dbb8e23592b22394cf19650c95046212934"
+  },
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json",
+    "sha256": "f365c65a35406cec9cfb6ad3487c1461da9c5309fee46e376934c5138d1e048f"
+  },
+  "ledger_records": 208,
+  "manifest_records": 104,
+  "reviewed_crops": 197,
+  "usage": {
+    "train": 80,
+    "review_only": 93,
+    "excluded": 11,
+    "val": 13,
+    "test": 11
+  }
+}

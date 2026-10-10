@@ -1,0 +1,13 @@
+status: accepted
+formulation: B
+dataset_version: pilot-b-20261005-v4
+split_version: pilot-b-explicit-scene-split-v1
+proposal_config: configs/datasets/pilot_b_release_proposal_v1.yaml
+proposal_config_sha256: 8c869c3e395585fd81c69c3b4b11d71a026f85d4bb8270ae969506c471406cce
+approved_proposal: data/interim/pilot-b/pilot-b-release-proposal-20261005-v2
+approval: artifacts/reports/pilot-b-release-acceptance-20261005/owner-approval.json
+approval_sha256: 56a8ef0e8bbed34588368c2f16433c8c4371f11cdcd5845ea8991c9430065700
+parent_config: configs/datasets/pilot_b_approved_v3.yaml
+parent_config_sha256: 448ea299adb00b1749d50f7d9b38f06b17181b2fc99029959621948a66c137ff
+source_config: configs/datasets/pilot_b_groups_v2.yaml
+source_config_sha256: 55166325c758745918ec3cb87dcc4b93b214d369036f7c272e54e2dc59aa071d

@@ -1,0 +1,11 @@
+{
+  "evaluated_at": "2026-10-07T03:53:09.673651+00:00",
+  "split": "val",
+  "checkpoint_sha256": "5c45de5d8e02ee6f48babb6c9331dced061240adbdd50c5baff1ce7b239609d8",
+  "best_epoch": 7,
+  "protocol": null,
+  "config_sha256": "7ffb2807d5602aaabc2bd95d44f3c7cc58d1341ca9d6eae4deef73de949c62bf",
+  "code_sha256": "f8e58956a9918d0fddffa04ac2d59ca8da837931e0deeab0128fef4c3cacfee5",
+  "payload_sha256": "2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a",
+  "status": "FINISHED"
+}

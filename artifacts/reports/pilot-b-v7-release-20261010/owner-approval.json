@@ -1,0 +1,59 @@
+{
+  "decision": "approve_pilot_b_v7_local_release",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-10",
+  "recorded_at": "2026-10-10",
+  "owner_message_verbatim": "Duyệt batch và ký release v7 local",
+  "approved_counts": {
+    "train": 689,
+    "val": 49,
+    "test": 11,
+    "review_only": 122,
+    "excluded": 29
+  },
+  "use_scope": "local_classifier_research",
+  "approved_new_crops": 99,
+  "approved_whole_components": 449,
+  "exceptions": [],
+  "scope": "Nghiệm thu99crop/nhãn mớiR3, rights/use scope local, whole-family vàassignment cụ thể;4rightsblocker vàS080 giữreview-only. Kýreleasev7local, khôngtraining/upload.",
+  "training_run_approved": false,
+  "media_upload_approved": false,
+  "approved_artifacts": {
+    "owner_execution_pointer": {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/review-pointer-final.json",
+      "sha256": "62fde43b6dae5a80df5501d33badd7cdcce90722471aca4ebe6ba01afd142235"
+    },
+    "assignment": {
+      "path": "outputs/v7-local-release-preparation-20261010-r2/proposed-assignment.jsonl",
+      "sha256": "6871dce3c03c25f25033dad274f9d74d6995ae86c7dd31a04c948028bc5ebf65"
+    },
+    "ledger": {
+      "path": "outputs/v7-local-release-preparation-20261010-r2/proposed-ledger.jsonl",
+      "sha256": "4c4ff44562c0f24d7d60cafb19da07a9e13b8832c2ec1ec4ed4fe43a8284bd05"
+    },
+    "whole_family": {
+      "path": "outputs/v7-local-release-preparation-20261010-r2/whole-family-proposal.json",
+      "sha256": "b833e80b7ccd394f54f7b52b20edcb4fe45e72fc03967e0a556665b8681cceae"
+    },
+    "rights": {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/local-rights-proposal.jsonl",
+      "sha256": "b7495934ce922cbc872ed293017931e62ebe171643782e5d1925fc1e382e77bf"
+    },
+    "parent_corrections": {
+      "path": "artifacts/reports/pilot-b-v7-owner-execution-20261010/parent-correction-proposals.jsonl",
+      "sha256": "c14e3c5168e06b6e69c7a32677cb85f3afd871da53afaf9636c9b4be3cd8d070"
+    },
+    "crop_ledger": {
+      "path": "outputs/v7-owner-execution-20261010-r3/staging-crops.jsonl",
+      "sha256": "b2e26efc53085752b731800da44e7ad31bc717c15cc07a322d7cadea717a9ba6"
+    },
+    "crop_checksums": {
+      "path": "outputs/v7-owner-execution-20261010-r3/checksums.sha256",
+      "sha256": "27698d96f5fcf3c3b89faece30d89de24456d996cdde67bfce23c04a75a7a6f6"
+    },
+    "parent_checksums": {
+      "path": "data/processed/pilot-b/pilot-b-20261007-v6/checksums.sha256",
+      "sha256": "971e2a46c28839e0a3a13eb7f9a8eb39ed7d24fc2ce5d8225c1c64d51f563e3f"
+    }
+  }
+}

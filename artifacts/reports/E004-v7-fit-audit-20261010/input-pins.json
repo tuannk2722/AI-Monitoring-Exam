@@ -1,0 +1,110 @@
+[
+  {
+    "path": "docs/experiments/E004-preparation.md",
+    "sha256": "739f546f18200f6776187af882822ee9ddb736d987afabd4474ddc9034b54834"
+  },
+  {
+    "path": "configs/experiments/E004-plan.yaml",
+    "sha256": "8c7e2d19fd65b0f475f8801bc71bbab688424e8721f5d73dff607640934f2b09"
+  },
+  {
+    "path": "configs/datasets/pilot_b_v7_targeted_plan.yaml",
+    "sha256": "b1c6d638ce7dba2d8c1ecb6b183dab8c2791623d9fd746007d627f20b1ae3681"
+  },
+  {
+    "path": "configs/datasets/pilot_b_v7_r8_conditional_plan_20261009.yaml",
+    "sha256": "71ed53597c8615b40226e695a6d1f84c2c7785a6fd91dd2c11c08887ae736819"
+  },
+  {
+    "path": "docs/decisions/ADR-017-e004-classifier-promotion-gates.md",
+    "sha256": "a8da29da58023909ac05b7b4ff206361f10c1cce1d745adf30d54f28ea159f1e"
+  },
+  {
+    "path": "configs/datasets/pilot_b_release_v7.yaml",
+    "sha256": "6c141cbfd98281569909b7efb9b8f5b88b51bc520c2fad4f0ddafdb869898118"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/release-pointer.json",
+    "sha256": "bf3cbf10907f373439c57510c493509c6698b7c65b4fe8f2dd89ed28563ca748"
+  },
+  {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/manifest.jsonl",
+    "sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede"
+  },
+  {
+    "path": "data/processed/pilot-b/pilot-b-20261007-v6/manifest.jsonl",
+    "sha256": "9fac24a0e3e02cb38675cbbf071366ea0702993c0c2013dcdd25645c57a194f7"
+  },
+  {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/candidates.jsonl",
+    "sha256": "c4b556ea7be5cb529b074627f67708dc2900553f8ec2d1015deaf7fa928d3833"
+  },
+  {
+    "path": "data/interim/pilot-b/v7-targeted-review-20261008-r7/pairs.json",
+    "sha256": "b49b71d2e89957c8e413b5005d5e7c9e29c5b36d3f4d2bb2d9ee21543817c154"
+  },
+  {
+    "path": "src/ai_exam_monitoring/training/model.py",
+    "sha256": "b70b72df2e374df23fe588e73e7aad658fa45d2147137a8f1627dc59c08598b2"
+  },
+  {
+    "path": "src/ai_exam_monitoring/training/config.py",
+    "sha256": "fa21037222412be17b4d19186558d11bd6531e0cb65bf778881dfb24dea121dc"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-r3/input224-findings.json",
+    "sha256": "091eec73349bedd48bb4d38f785e0e7977ec2bd6763ff79607ca8be6c0cbfe20"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-targeted-20261008/owner-label-decisions.json",
+    "sha256": "fb3312c2230b2351f8f4babc7297f37906f2c9f5b9745513187c26a5f80fdd75"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/parent-corrections.jsonl",
+    "sha256": "d136bd4b666ef8e1a70344e1b5685d2b0cb37f5601319fe83a3ee255f15154c4"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/new-source-provenance.jsonl",
+    "sha256": "1c2206e6d4469e63cad61fb29a45843b6b3ecf971b96752eb8a3c1b6ecfbbffe"
+  },
+  {
+    "path": "outputs/v7-owner-review-r5-20261009/review-proposals.jsonl",
+    "sha256": "a75071f1628347acf453cb15f5507c2855c56d120d7581bcc260374e5dc272cb"
+  },
+  {
+    "path": "outputs/E003/predictions-val.json",
+    "sha256": "19311c32a1943cef682767899c3fc78502fd925717d357e8f69b8010030f8e00"
+  },
+  {
+    "path": "outputs/E003/checksums.json",
+    "sha256": "3a3521b3656852d48b3e988514f23fe514ec71b8597e76dc583c6078475a2951"
+  },
+  {
+    "path": "configs/experiments/E003.yaml",
+    "sha256": "e080a56dd676bf73cbc5e473a2683de7d13bfbdea406c2e407c725bc4f0424c1"
+  },
+  {
+    "path": "outputs/v7-r8-owner-review-20261009-r6/pairs.json",
+    "sha256": "baa42b35467085585abb5b7f5e7f266e443fe3f942d238697f8dd78b2d566299"
+  },
+  {
+    "path": "outputs/v7-public-followup-review-20261009-r4/pairs.json",
+    "sha256": "9c73006549c80c8d82f72e5c6b16043af900ae0089da581c9085fe1823c61afb"
+  },
+  {
+    "path": "artifacts/reports/pilot-b-v7-public-followup-20261009/scene-pair-proposals-final.json",
+    "sha256": "c53656c025761bce1bb12a6952b35ca038e96b1fdd2a2c920216dca87b4262c2"
+  },
+  {
+    "path": "outputs/audit-e004-v7-fit.py",
+    "sha256": "4838cb04c36a3a272cb8c554ae0ea8a5b6d3aadb31d93cb03f9fc5f169af3b4a"
+  },
+  {
+    "path": "outputs/extend-e004-v7-fit.py",
+    "sha256": "900a8a3e955c752bb7f2c95cec39482cc3e2283fa4d33aa639426d3dd319467e"
+  },
+  {
+    "path": "outputs/audit-e004-comparator-cache.py",
+    "sha256": "065136d2db6420dc7501d78b7c384e474ebe1d59731627e2de0272f3670318a9"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "release_pointer_and_payload_pins_unchanged": true,
+  "pins_and_payload_checksums_verified": 906,
+  "input_pins": 27,
+  "source_PNU_combinations_counted_from_actual_manifests": true,
+  "parent12cell_decisions_actual_delta_joined": true,
+  "comparison48_source_pixel_target_mask_context_rights_verified": true,
+  "comparison_group_literal_identity_changed_and_mapping_disclosed": true,
+  "R5_pair_endpoint_states_usage_verified": 162,
+  "extra_pairs_and_exact_source_pairs_checked": true,
+  "historical224_fields_applied_only_to_exact_crop_SHA": true,
+  "native224_boards_rechecked": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cached_E003_val_prediction_checksums_verified": true,
+  "new_model_predictions": 0,
+  "test_media_decoded": false,
+  "labels_splits_dataset_or_code_mutated": false,
+  "no_HTML": true,
+  "markdown_links_verified": 14,
+  "full_tests_not_rerun_reason": "Task audit read-only; reuse release257tests, no code changed; measured joins/schema/hash/count assertions and cached metric evaluator reused.",
+  "release_test_provenance_not_independent_holdout": true,
+  "numeric_gates_Draft_not_Accepted": true
+}

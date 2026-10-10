@@ -1,8 +1,0 @@
-schema_version: 1
-status: candidate
-tracker: bytetrack
-track_high_threshold: TBD_BY_P5_BENCHMARK
-track_low_threshold: TBD_BY_P5_BENCHMARK
-new_track_threshold: TBD_BY_P5_BENCHMARK
-match_threshold: TBD_BY_P5_BENCHMARK
-track_buffer_frames: TBD_BY_P5_BENCHMARK

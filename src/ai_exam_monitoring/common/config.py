@@ -30,33 +30,3 @@ def require(config: dict[str, Any], dotted_key: str) -> Any:
     if value is None or value == "" or (isinstance(value, str) and value.startswith("TBD")):
         raise ConfigurationError(f"Config key is unresolved: {dotted_key}")
     return value
-
-
-def validate_training_config(config: dict[str, Any]) -> None:
-    if config.get("formulation") == "B":
-        raise ConfigurationError(
-            "Formulation B trainer/evaluator is not implemented; "
-            "legacy YOLO detection training is not a multi-label baseline."
-        )
-    for key in (
-        "data.dataset_yaml",
-        "data.dataset_version",
-        "data.split_version",
-        "data.label_map_version",
-        "model.family",
-        "model.checkpoint",
-        "model.task",
-        "train.epochs",
-        "train.imgsz",
-        "train.batch",
-        "experiment.seed",
-        "artifacts.root",
-    ):
-        require(config, key)
-
-    if int(require(config, "train.epochs")) <= 0:
-        raise ConfigurationError("train.epochs must be positive")
-    if int(require(config, "train.imgsz")) <= 0:
-        raise ConfigurationError("train.imgsz must be positive")
-    if int(require(config, "train.batch")) == 0:
-        raise ConfigurationError("train.batch cannot be zero")

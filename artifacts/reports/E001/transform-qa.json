@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "reviewer": "Codex",
+  "reviewed_at": "2026-10-06",
+  "scope": "transform preservation only; no relabel approval",
+  "records": 73,
+  "splits": [
+    "train",
+    "val"
+  ],
+  "test_pixels_read": false,
+  "findings": [
+    "All reviewed crop content retained by resize and symmetric padding.",
+    "Low source resolution, occlusion and source-domain differences remain; no label/crop changes."
+  ],
+  "sheets": {
+    "page-1.png": "bb70f6baf00e59673f76e5b4aff4375f998554602806141177c5984f69c725c7",
+    "page-2.png": "6e73786e61d2fceb794bd0d660915598524199e928c78a74e30a0efa6ce73343",
+    "page-3.png": "f54f2525e663597fc8f0762fc79dafe89c479cee6403d9da41ea48e516594ee4"
+  }
+}

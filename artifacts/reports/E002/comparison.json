@@ -1,0 +1,124 @@
+{
+  "parent_experiment": "E001",
+  "experiment_id": "E002",
+  "split": "val",
+  "same_sample_ids_targets_masks_crops": true,
+  "threshold": 0.5,
+  "records": 13,
+  "primary": {
+    "metric": "macro_masked_bce",
+    "E001": 0.5477269887924194,
+    "E002": 0.6333627104759216,
+    "delta_E002_minus_E001": 0.0856357216835022,
+    "hypothesis_supported": false
+  },
+  "macro_ap": {
+    "E001": 0.9272959183673469,
+    "E002": 0.9808673469387755,
+    "delta_E002_minus_E001": 0.0535714285714286
+  },
+  "targets": {
+    "phone_use": {
+      "E001": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "ap": 0.9379251700680272,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "reason": null
+      },
+      "E002": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 1,
+        "ap": 0.9617346938775511,
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "f1": 0.7272727272727273,
+        "reason": null
+      }
+    },
+    "looking_around": {
+      "E001": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "tn": 3,
+        "ap": 0.9166666666666666,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "reason": "precision_undefined_no_positive_predictions"
+      },
+      "E002": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 1,
+        "fp": 0,
+        "fn": 2,
+        "tn": 3,
+        "ap": 1.0,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "reason": null
+      }
+    }
+  },
+  "E002_constant_train_prevalence": {
+    "targets": {
+      "phone_use": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "ap": 0.875,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "tn": 3,
+        "ap": 0.5,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "reason": "precision_undefined_no_positive_predictions"
+      }
+    },
+    "macro_ap": 0.6875,
+    "threshold": 0.5,
+    "records": 13,
+    "cooccurrence": {
+      "fully_known": 1,
+      "positive": 0,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    }
+  },
+  "interpretation": "H1 chưa được ủng hộ theo primary validation BCE. AP/looking cải thiện nhưng phone recall/F1 giảm; không promotion hoặc tuning sau run."
+}

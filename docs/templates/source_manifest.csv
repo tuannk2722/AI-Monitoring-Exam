@@ -1,2 +1,0 @@
-sample_id,image_path,label_path,source,video_id,session_id,room_id,subject_id,group_id,split,dataset_version,label_map_version,license_id,sha256
-EXAMPLE-DELETE-ME,images/example.jpg,labels/example.txt,source_id,video_001,session_001,room_001,,source_id:video_001,,,,LICENSE-ID,

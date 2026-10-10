@@ -1,0 +1,1691 @@
+{
+  "threshold": 0.5,
+  "errors": [
+    {
+      "sample_id": "EXP-CM-003",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.42223039269447327,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-004",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.41126275062561035,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-005",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.6398807764053345,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "EXP-CM-006",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.6143892407417297,
+      "target_value": 0,
+      "normal_review": "unknown"
+    },
+    {
+      "sample_id": "EXP-CM-009",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.5856778621673584,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "EXP-CM-010",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.6230019330978394,
+      "target_value": 0,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-011",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.5468896627426147,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "EXP-CM-013",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.6861732602119446,
+      "target_value": 0,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-013",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.3346855938434601,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-015",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.6362090110778809,
+      "target_value": 0,
+      "normal_review": "unknown"
+    },
+    {
+      "sample_id": "EXP-CM-017",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.4492534101009369,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-018",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.5543445348739624,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "EXP-CM-019",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.5751292705535889,
+      "target_value": 0,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-019",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.4638665020465851,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-CM-020",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FP",
+      "score": 0.5665878057479858,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "EXP-CM-024",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "classroom_monitoring_v2",
+      "group_id": "CM-V2-SCENE-01",
+      "error": "FN",
+      "score": 0.48205408453941345,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "EXP-RF-019",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-88e21db5e6c794bef0f2",
+      "error": "FP",
+      "score": 0.6971312165260315,
+      "target_value": 0,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "P033-person-01",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-88e21db5e6c794bef0f2",
+      "error": "FN",
+      "score": 0.4900738596916199,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-read-015",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-18b53fda4c21055b08af",
+      "error": "FP",
+      "score": 0.591785728931427,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "SCB-read-026",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FP",
+      "score": 0.5148983001708984,
+      "target_value": 0,
+      "normal_review": "unknown"
+    },
+    {
+      "sample_id": "SCB-read-027",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-dca2707060694e8e8350",
+      "error": "FP",
+      "score": 0.504280149936676,
+      "target_value": 0,
+      "normal_review": "unknown"
+    },
+    {
+      "sample_id": "SCB-turnhead-003",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.4272368848323822,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-004",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.28421705961227417,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-007",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.44820675253868103,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-008",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-7adf3e797f0d4d4978d9",
+      "error": "FN",
+      "score": 0.38446325063705444,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-009",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.4370940625667572,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-011",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-e75177c4ea5ebe2443ac",
+      "error": "FN",
+      "score": 0.49382084608078003,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-012",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.29330408573150635,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-013",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-18b53fda4c21055b08af",
+      "error": "FN",
+      "score": 0.4224817752838135,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-019",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.38327816128730774,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-020",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.3830595910549164,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-024",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-b3e360cd83d1dfacd186",
+      "error": "FN",
+      "score": 0.4837978184223175,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-turnhead-027",
+      "split": "train",
+      "target": "looking_around",
+      "source_id": "scb_head",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FN",
+      "score": 0.4148706793785095,
+      "target_value": 1,
+      "normal_review": "not_normal"
+    },
+    {
+      "sample_id": "SCB-write-001",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FP",
+      "score": 0.5218274593353271,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "SCB-write-009",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FP",
+      "score": 0.5537967085838318,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "SCB-write-013",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-18b53fda4c21055b08af",
+      "error": "FP",
+      "score": 0.5011482834815979,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "SCB-write-014",
+      "split": "train",
+      "target": "phone_use",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "error": "FP",
+      "score": 0.5919089913368225,
+      "target_value": 0,
+      "normal_review": "confirmed_normal"
+    },
+    {
+      "sample_id": "P002-person-01",
+      "split": "val",
+      "target": "phone_use",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "error": "FN",
+      "score": 0.4565207064151764,
+      "target_value": 1,
+      "normal_review": "not_normal",
+      "E001_score": 0.6419965624809265,
+      "score_delta": -0.18547585606575012
+    },
+    {
+      "sample_id": "P006-extra-01",
+      "split": "val",
+      "target": "looking_around",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "error": "FN",
+      "score": 0.42786020040512085,
+      "target_value": 1,
+      "normal_review": "not_normal",
+      "E001_score": 0.3761630058288574,
+      "score_delta": 0.05169719457626343
+    },
+    {
+      "sample_id": "P006-person-02",
+      "split": "val",
+      "target": "phone_use",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "error": "FN",
+      "score": 0.43478843569755554,
+      "target_value": 1,
+      "normal_review": "not_normal",
+      "E001_score": 0.636216938495636,
+      "score_delta": -0.20142850279808044
+    },
+    {
+      "sample_id": "P007-extra-01",
+      "split": "val",
+      "target": "looking_around",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "error": "FN",
+      "score": 0.4126957058906555,
+      "target_value": 1,
+      "normal_review": "not_normal",
+      "E001_score": 0.36606934666633606,
+      "score_delta": 0.04662635922431946
+    },
+    {
+      "sample_id": "P007-person-02",
+      "split": "val",
+      "target": "phone_use",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "error": "FN",
+      "score": 0.49216338992118835,
+      "target_value": 1,
+      "normal_review": "not_normal",
+      "E001_score": 0.6893486380577087,
+      "score_delta": -0.19718524813652039
+    }
+  ],
+  "validation_score_changes": [
+    {
+      "sample_id": "P002-person-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.6419965624809265,
+        0.4788815379142761
+      ],
+      "E002_scores": [
+        0.4565207064151764,
+        0.5233966708183289
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        false,
+        true
+      ]
+    },
+    {
+      "sample_id": "P006-extra-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        0,
+        1
+      ],
+      "targets": [
+        null,
+        1
+      ],
+      "E001_scores": [
+        0.7928377389907837,
+        0.3761630058288574
+      ],
+      "E002_scores": [
+        0.5938135981559753,
+        0.42786020040512085
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    },
+    {
+      "sample_id": "P006-person-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.7738516926765442,
+        0.42249202728271484
+      ],
+      "E002_scores": [
+        0.5954113006591797,
+        0.504920482635498
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        true
+      ]
+    },
+    {
+      "sample_id": "P006-person-02",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.636216938495636,
+        0.3281972408294678
+      ],
+      "E002_scores": [
+        0.43478843569755554,
+        0.38212352991104126
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        false,
+        false
+      ]
+    },
+    {
+      "sample_id": "P007-extra-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        0,
+        1
+      ],
+      "targets": [
+        null,
+        1
+      ],
+      "E001_scores": [
+        0.8168157339096069,
+        0.36606934666633606
+      ],
+      "E002_scores": [
+        0.6356781125068665,
+        0.4126957058906555
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    },
+    {
+      "sample_id": "P007-person-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.8022384643554688,
+        0.4786819815635681
+      ],
+      "E002_scores": [
+        0.6460004448890686,
+        0.5601013898849487
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        true
+      ]
+    },
+    {
+      "sample_id": "P007-person-02",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.6893486380577087,
+        0.34435468912124634
+      ],
+      "E002_scores": [
+        0.49216338992118835,
+        0.4092976748943329
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        false,
+        false
+      ]
+    },
+    {
+      "sample_id": "P008-extra-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        0,
+        1
+      ],
+      "targets": [
+        null,
+        1
+      ],
+      "E001_scores": [
+        0.7028366327285767,
+        0.4721499979496002
+      ],
+      "E002_scores": [
+        0.5060127377510071,
+        0.5138557553291321
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        true
+      ]
+    },
+    {
+      "sample_id": "P008-person-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.8212029933929443,
+        0.3644835948944092
+      ],
+      "E002_scores": [
+        0.6224085092544556,
+        0.42501315474510193
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    },
+    {
+      "sample_id": "P022-person-01",
+      "source_id": "roboflow_v1",
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "mask": [
+        1,
+        0
+      ],
+      "targets": [
+        1,
+        null
+      ],
+      "E001_scores": [
+        0.7963091731071472,
+        0.3218269348144531
+      ],
+      "E002_scores": [
+        0.6216948628425598,
+        0.3810930550098419
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    },
+    {
+      "sample_id": "SCB-write-002",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-d4148f8feed0711bb6c6",
+      "mask": [
+        1,
+        1
+      ],
+      "targets": [
+        0,
+        0
+      ],
+      "E001_scores": [
+        0.7023830413818359,
+        0.37002307176589966
+      ],
+      "E002_scores": [
+        0.49129167199134827,
+        0.38920092582702637
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        false,
+        false
+      ]
+    },
+    {
+      "sample_id": "SCB-write-020",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-d4148f8feed0711bb6c6",
+      "mask": [
+        0,
+        1
+      ],
+      "targets": [
+        null,
+        0
+      ],
+      "E001_scores": [
+        0.8211318850517273,
+        0.34745270013809204
+      ],
+      "E002_scores": [
+        0.7090854048728943,
+        0.40381938219070435
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    },
+    {
+      "sample_id": "SCB-write-024",
+      "source_id": "scb_hrw",
+      "group_id": "PB-G-d4148f8feed0711bb6c6",
+      "mask": [
+        0,
+        1
+      ],
+      "targets": [
+        null,
+        0
+      ],
+      "E001_scores": [
+        0.7760207653045654,
+        0.3396860361099243
+      ],
+      "E002_scores": [
+        0.6334479451179504,
+        0.39966291189193726
+      ],
+      "E001_decisions": [
+        true,
+        false
+      ],
+      "E002_decisions": [
+        true,
+        false
+      ]
+    }
+  ],
+  "slices": {
+    "train": {
+      "by_group": {
+        "CM-V2-SCENE-01": {
+          "targets": {
+            "phone_use": {
+              "positive": 6,
+              "negative": 10,
+              "unknown": 3,
+              "tp": 5,
+              "fp": 10,
+              "fn": 1,
+              "tn": 0,
+              "ap": 0.5810185185185185,
+              "precision": 0.3333333333333333,
+              "recall": 0.8333333333333334,
+              "f1": 0.47619047619047616,
+              "reason": null
+            },
+            "looking_around": {
+              "positive": 7,
+              "negative": 5,
+              "unknown": 7,
+              "tp": 2,
+              "fp": 0,
+              "fn": 5,
+              "tn": 5,
+              "ap": 0.8976190476190475,
+              "precision": 1.0,
+              "recall": 0.2857142857142857,
+              "f1": 0.4444444444444444,
+              "reason": null
+            }
+          },
+          "macro_ap": 0.7393187830687831,
+          "threshold": 0.5,
+          "records": 19,
+          "cooccurrence": {
+            "fully_known": 9,
+            "positive": 2,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-0d6c5bf196aadec95d7c": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-13e190f7784f3cb34c62": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 3,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 3,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-18b53fda4c21055b08af": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 3,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 4,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 4,
+              "ap": 1.0,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "reason": "precision_undefined_no_positive_predictions"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 5,
+          "cooccurrence": {
+            "fully_known": 2,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-66da3ab14fede8835db8": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-7adf3e797f0d4d4978d9": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "ap": 0.5,
+              "precision": null,
+              "recall": 0.0,
+              "f1": 0.0,
+              "reason": "precision_undefined_no_positive_predictions"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-88e21db5e6c794bef0f2": {
+          "targets": {
+            "phone_use": {
+              "positive": 11,
+              "negative": 1,
+              "unknown": 0,
+              "tp": 11,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "ap": 0.9406172110717566,
+              "precision": 0.9166666666666666,
+              "recall": 1.0,
+              "f1": 0.9565217391304348,
+              "reason": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 10,
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 12,
+          "cooccurrence": {
+            "fully_known": 2,
+            "positive": 1,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-950af88cd17908a77c81": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 3,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 3,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-b3e360cd83d1dfacd186": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-dca2707060694e8e8350": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 1,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-e75177c4ea5ebe2443ac": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-f0b75b5ac12d58228355": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 23,
+              "tp": 0,
+              "fp": 3,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 10,
+              "negative": 16,
+              "unknown": 0,
+              "tp": 2,
+              "fp": 1,
+              "fn": 8,
+              "tn": 15,
+              "ap": 0.6288315669837409,
+              "precision": 0.6666666666666666,
+              "recall": 0.2,
+              "f1": 0.3076923076923077,
+              "reason": null
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 26,
+          "cooccurrence": {
+            "fully_known": 3,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        }
+      },
+      "by_normal_review": {
+        "confirmed_normal": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 10,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 10,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 10,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 10,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 10,
+          "cooccurrence": {
+            "fully_known": 10,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "not_normal": {
+          "targets": {
+            "phone_use": {
+              "positive": 17,
+              "negative": 4,
+              "unknown": 19,
+              "tp": 16,
+              "fp": 4,
+              "fn": 1,
+              "tn": 0,
+              "ap": 0.8771014298536607,
+              "precision": 0.8,
+              "recall": 0.9411764705882353,
+              "f1": 0.8648648648648649,
+              "reason": null
+            },
+            "looking_around": {
+              "positive": 25,
+              "negative": 0,
+              "unknown": 15,
+              "tp": 7,
+              "fp": 0,
+              "fn": 18,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 40,
+          "cooccurrence": {
+            "fully_known": 6,
+            "positive": 3,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "unknown": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 28,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 28,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 26,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 30,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        }
+      }
+    },
+    "val": {
+      "by_group": {
+        "PB-G-baf0e0aa45deba62941c": {
+          "targets": {
+            "phone_use": {
+              "positive": 7,
+              "negative": 0,
+              "unknown": 3,
+              "tp": 4,
+              "fp": 0,
+              "fn": 3,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 3,
+              "negative": 0,
+              "unknown": 7,
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 10,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "PB-G-d4148f8feed0711bb6c6": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 3,
+          "cooccurrence": {
+            "fully_known": 1,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        }
+      },
+      "by_normal_review": {
+        "confirmed_normal": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 1,
+          "cooccurrence": {
+            "fully_known": 1,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "not_normal": {
+          "targets": {
+            "phone_use": {
+              "positive": 7,
+              "negative": 0,
+              "unknown": 3,
+              "tp": 4,
+              "fp": 0,
+              "fn": 3,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 3,
+              "negative": 0,
+              "unknown": 7,
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 10,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        },
+        "unknown": {
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 2,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "ap": null,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "reason": "missing_positive_or_negative"
+            }
+          },
+          "macro_ap": null,
+          "threshold": 0.5,
+          "records": 2,
+          "cooccurrence": {
+            "fully_known": 0,
+            "positive": 0,
+            "metric": null,
+            "reason": "insufficient_pilot_support"
+          }
+        }
+      }
+    }
+  },
+  "note": "Phân tích predictions đã freeze trên train/val; không relabel, tune hoặc đọc test."
+}

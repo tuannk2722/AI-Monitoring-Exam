@@ -1,0 +1,76 @@
+# Hồ sơ đề xuất, không là ExperimentConfig chạy được. Mọi giá trị là Draft.
+status: draft_pending_owner_review
+owner: repository-owner
+experiment_id: E004
+scope: reviewed_crop_classifier_research
+parent_experiment: E003
+training_approved: false
+final_test_approved: false
+eligible_for_promotion: false
+dataset_package: null
+dataset_version: null
+split_version: null
+payload_sha256: null
+holdout_package: null
+holdout_payload_sha256: null
+model_acceptance_adr: docs/decisions/ADR-017-e004-classifier-promotion-gates.md
+proposed_hypothesis: >-
+  Sau targeted expansion và annotation/group QA v7, fine-tune layer4 ResNet18
+  giữ input224 cải thiện nhận diện desk-phone và hướng nhìn so frozen probe
+  trên cùng v7/protocol, đồng thời candidate vượt mọi gate holdout đã freeze.
+proposed_control:
+  experiment_id: E004-LP-control
+  role: đối chứng adaptation trên cùng v7/protocol/budget, không candidate final test
+  recipe: >-
+    Encoder đóng băng và head mới; cùng input/seed/head init/optimizer head,
+    mini-batch16/epochs50/patience10/min_delta/threshold/BN policy với candidate.
+    Khác candidate ở layer4 không trainable. Không gọi đây là exact recipe E003.
+proposed_candidate:
+  experiment_id: E004
+  encoder: resnet18
+  weights_id: IMAGENET1K_V1
+  weights: outputs/pretrained/resnet18-f37072fd.pth
+  weights_sha256: f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec
+  trainable: [layer4, linear_head]
+  batchnorm_running_statistics: frozen_eval
+  head_initialization: mới, cùng seed đối chứng, không warm-start head E003
+  target_order: [phone_use, looking_around]
+  loss: macro_masked_bce
+  image_size: 224
+  transform: rgb_letterbox_bilinear_v1
+  augmentation: none
+  threshold: 0.5
+  optimizer: AdamW
+  head_learning_rate: 0.001
+  layer4_learning_rate: 0.0001
+  weight_decay: 0.0001
+  seed: 42
+  batch_size: 16
+  max_epochs: 50
+  patience: 10
+  min_delta: 0.0001
+  epoch_selection: raw_minimum_macro_masked_bce_on_frozen_development_validation
+  device: cpu
+  threads: 4
+  compute_note: Ngoại lệ local CPU mới cần owner approve; không kế thừa E003, không cloud/upload.
+  implementation_status: chưa hỗ trợ trong trainer hiện tại; không đổi config E003 để ép chạy
+resolution_ablation:
+  status: hướng tiếp theo nếu evidence sau v7 vẫn chỉ ra downsample phone, cần experiment riêng
+  proposed_image_size: 384
+  approved: false
+test_policy: >-
+  Freeze một candidate/config/checkpoint/threshold/protocol; evaluate một lần
+  trên package độc lập riêng. Không dùng test11 hoặc chạy E003 reference trên test mới.
+pending_decisions:
+- id: TBD-E004-RECIPE
+  owner: repository-owner
+  reason: Biến training mới và partial fine-tune cần nghiệm thu recipe/config sau dataset.
+  resolve_when: Owner duyệt protocol/config pins; trainer/checkpoint/resume/evaluator smoke PASS.
+- id: TBD-E004-COMPUTE
+  owner: repository-owner
+  reason: CPU budget chỉ đề xuất, chưa benchmark fine-tune; scope cloud không được mở.
+  resolve_when: Owner duyệt ngoại lệ CPU và budget môi trường pin; OOM thay config là identity mới.
+- id: TBD-METRIC-01
+  owner: repository-owner
+  reason: ADR017 chưa Accepted, promotion thresholds chưa có authority.
+  resolve_when: Owner nghiệm thu gate/protocol trước training và mọi test inference.

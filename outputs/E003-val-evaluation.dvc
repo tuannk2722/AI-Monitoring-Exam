@@ -1,0 +1,6 @@
+outs:
+- md5: 99a9e70aa6085e636c11886242f7278d.dir
+  size: 137114
+  nfiles: 6
+  hash: md5
+  path: E003-val-evaluation

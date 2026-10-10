@@ -1,0 +1,33 @@
+{
+  "approved_counts": {
+    "excluded": 11,
+    "review_only": 93,
+    "test": 11,
+    "train": 80,
+    "val": 13
+  },
+  "decision": "approve_pilot_b_v5_release",
+  "groups": {
+    "path": "artifacts/reports/pilot-b-v5-proposal-20261007/group-components.json",
+    "sha256": "139f622c24f50b5a477812f6b5bea010d6a94f823d7d06b18c2848848f984184"
+  },
+  "historical_report_sha256": "e116153ab128f33fa31b067f69af236fd6ce7727977a206ab97263e3e592e375",
+  "membership": {
+    "path": "artifacts/reports/pilot-b-v5-proposal-20261007/membership-proposals.json",
+    "sha256": "33d1415995f7fac18b0bbc57089bd52e645b086ebdfcf4d24e26a82fa4e9f533"
+  },
+  "owner_message": "tôi đã review và approve, hãy tiếp tục thực hiện!",
+  "proposal_config": {
+    "path": "configs/datasets/pilot_b_v5_release_proposal_20261007.yaml",
+    "sha256": "95383658ab754aaa9dd5acf7b69cfaabdc9e8cc35356dda370f48d7a0235ff30"
+  },
+  "report_note": "Bản README hiện tại đã đọc đối chiếu: sửa khoảng trắng, nội dung phương án không đổi; các artifact dữ liệu/config giữ hash cũ.",
+  "reviewed_at": "2026-10-07",
+  "reviewed_report": {
+    "path": "artifacts/reports/pilot-b-v5-proposal-20261007/README.md",
+    "sha256": "82d888ba3c4e55d52e403825d589ff0e1d866e3fdb616d725656fc07be24d237"
+  },
+  "reviewer": "repository_owner",
+  "scope": "Release local_classifier_research v5, membership/split/protocol như báo cáo; không chạy E002/final test.",
+  "training_run_approved": false
+}

@@ -1,0 +1,1112 @@
+{
+  "status": "owner_approved",
+  "owner_approval": {
+    "path": "artifacts/reports/pilot-b-v6-release-20261007/owner-approval.json",
+    "sha256": "d792457961d701259e6a7bc5da1fc43103fc9caf751a26387a39aa7e652a275a"
+  },
+  "approved_assignment": {
+    "path": "artifacts/reports/pilot-b-v6-expansion-20261007-r2/proposed-assignment.jsonl",
+    "sha256": "fec8f071b707e0fb0c1d98db4ccb06cfef871743d831852911b63c9d9e83deeb"
+  },
+  "groups": [
+    {
+      "group_id": "CM-V2-SCENE-01",
+      "split": "train",
+      "sample_ids": [
+        "EXP-CM-001",
+        "EXP-CM-002",
+        "EXP-CM-003",
+        "EXP-CM-004",
+        "EXP-CM-005",
+        "EXP-CM-006",
+        "EXP-CM-007",
+        "EXP-CM-008",
+        "EXP-CM-009",
+        "EXP-CM-010",
+        "EXP-CM-011",
+        "EXP-CM-012",
+        "EXP-CM-013",
+        "EXP-CM-014",
+        "EXP-CM-015",
+        "EXP-CM-016",
+        "EXP-CM-017",
+        "EXP-CM-018",
+        "EXP-CM-019",
+        "EXP-CM-020",
+        "EXP-CM-021",
+        "EXP-CM-022",
+        "EXP-CM-023",
+        "EXP-CM-024"
+      ]
+    },
+    {
+      "group_id": "PB-G-0d6c5bf196aadec95d7c",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-007",
+        "SCB-write-010"
+      ]
+    },
+    {
+      "group_id": "PB-G-13e190f7784f3cb34c62",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-016",
+        "SCB-read-017",
+        "SCB-write-005"
+      ]
+    },
+    {
+      "group_id": "PB-G-18b53fda4c21055b08af",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-011",
+        "EXP-SCB-012",
+        "EXP-SCB-048",
+        "SCB-read-015",
+        "SCB-turnhead-013",
+        "SCB-turnhead-018",
+        "SCB-write-013",
+        "SCB-write-017",
+        "SCB-write-023"
+      ]
+    },
+    {
+      "group_id": "PB-G-2bfd674c05ef8b6e2ea6",
+      "split": "test",
+      "sample_ids": [
+        "SCB-read-002",
+        "SCB-read-011",
+        "SCB-read-024",
+        "SCB-turnhead-017",
+        "SCB-turnhead-022",
+        "SCB-write-003",
+        "SCB-write-015"
+      ]
+    },
+    {
+      "group_id": "PB-G-3369d47e05ce355b3db8",
+      "split": "test",
+      "sample_ids": [
+        "P023-person-01",
+        "P028-person-01"
+      ]
+    },
+    {
+      "group_id": "PB-G-66da3ab14fede8835db8",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-009",
+        "SCB-write-007"
+      ]
+    },
+    {
+      "group_id": "PB-G-7adf3e797f0d4d4978d9",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-025",
+        "EXP-SCB-034",
+        "SCB-read-028",
+        "SCB-turnhead-008"
+      ]
+    },
+    {
+      "group_id": "PB-G-7fb27f65676f43721a39",
+      "split": "test",
+      "sample_ids": [
+        "SCB-read-018",
+        "SCB-write-026"
+      ]
+    },
+    {
+      "group_id": "PB-G-88e21db5e6c794bef0f2",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-019",
+        "P029-person-01",
+        "P029-person-02",
+        "P030-person-01",
+        "P031-person-01",
+        "P032-person-01",
+        "P033-person-01",
+        "P034-person-01",
+        "P035-person-01",
+        "P036-person-01",
+        "P038-person-01",
+        "P039-person-01",
+        "V6-EX-002",
+        "V6-EX-024"
+      ]
+    },
+    {
+      "group_id": "PB-G-950af88cd17908a77c81",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-001",
+        "SCB-read-004",
+        "SCB-write-025"
+      ]
+    },
+    {
+      "group_id": "PB-G-b3e360cd83d1dfacd186",
+      "split": "train",
+      "sample_ids": [
+        "SCB-turnhead-006",
+        "SCB-turnhead-024"
+      ]
+    },
+    {
+      "group_id": "PB-G-baf0e0aa45deba62941c",
+      "split": "val",
+      "sample_ids": [
+        "EXP-RF-007",
+        "EXP-RF-008",
+        "EXP-RF-009",
+        "P002-person-01",
+        "P006-extra-01",
+        "P006-person-01",
+        "P006-person-02",
+        "P007-extra-01",
+        "P007-person-01",
+        "P007-person-02",
+        "P008-extra-01",
+        "P008-person-01",
+        "P022-person-01",
+        "V6-CA-006",
+        "V6-CA-018",
+        "V6-CA-021",
+        "V6-CA-030",
+        "V6-EX-010",
+        "V6-EX-015",
+        "V6-EX-019",
+        "V6R2-CA-006"
+      ]
+    },
+    {
+      "group_id": "PB-G-d4148f8feed0711bb6c6",
+      "split": "val",
+      "sample_ids": [
+        "SCB-write-002",
+        "SCB-write-020",
+        "SCB-write-024"
+      ]
+    },
+    {
+      "group_id": "PB-G-dca2707060694e8e8350",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-027",
+        "SCB-write-018"
+      ]
+    },
+    {
+      "group_id": "PB-G-e75177c4ea5ebe2443ac",
+      "split": "train",
+      "sample_ids": [
+        "SCB-turnhead-005",
+        "SCB-turnhead-011"
+      ]
+    },
+    {
+      "group_id": "PB-G-f0b75b5ac12d58228355",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-020",
+        "EXP-SCB-033",
+        "SCB-read-006",
+        "SCB-read-012",
+        "SCB-read-014",
+        "SCB-read-023",
+        "SCB-read-026",
+        "SCB-turnhead-001",
+        "SCB-turnhead-002",
+        "SCB-turnhead-003",
+        "SCB-turnhead-004",
+        "SCB-turnhead-007",
+        "SCB-turnhead-009",
+        "SCB-turnhead-012",
+        "SCB-turnhead-019",
+        "SCB-turnhead-020",
+        "SCB-turnhead-027",
+        "SCB-write-001",
+        "SCB-write-004",
+        "SCB-write-009",
+        "SCB-write-012",
+        "SCB-write-014",
+        "SCB-write-016",
+        "SCB-write-019",
+        "SCB-write-021",
+        "SCB-write-022",
+        "SCB-write-027",
+        "SCB-write-028"
+      ]
+    },
+    {
+      "group_id": "V6-G-03d36877e9eb99db8eb3",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-CA-003"
+      ]
+    },
+    {
+      "group_id": "V6-G-048579a1628734253f8f",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-005"
+      ]
+    },
+    {
+      "group_id": "V6-G-06cba39ff0feea2ee4a9",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-004"
+      ]
+    },
+    {
+      "group_id": "V6-G-0839744493643e02220f",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-0b31a34d759e593e0586",
+      "split": "train",
+      "sample_ids": [
+        "SCB-write-006"
+      ]
+    },
+    {
+      "group_id": "V6-G-0d1a82fab3fd52ec4163",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-001",
+        "EXP-SCB-028"
+      ]
+    },
+    {
+      "group_id": "V6-G-0e2a256de9081656126d",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-040"
+      ]
+    },
+    {
+      "group_id": "V6-G-1084191cb269805efe36",
+      "split": "train",
+      "sample_ids": [
+        "SCB-turnhead-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-1106b1aaa1a591d7b247",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-044",
+        "SCB-read-008"
+      ]
+    },
+    {
+      "group_id": "V6-G-12b322818c99f47dc073",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-CA-012"
+      ]
+    },
+    {
+      "group_id": "V6-G-15df48dbb37d08c6b9ef",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-021"
+      ]
+    },
+    {
+      "group_id": "V6-G-17eb4ed27515c6f94c45",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-041"
+      ]
+    },
+    {
+      "group_id": "V6-G-18caa4237925ae9749e3",
+      "split": "val",
+      "sample_ids": [
+        "V6-EX-009"
+      ]
+    },
+    {
+      "group_id": "V6-G-1d4c83f734515165c4df",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-031"
+      ]
+    },
+    {
+      "group_id": "V6-G-2019d5646b455f37272a",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-012"
+      ]
+    },
+    {
+      "group_id": "V6-G-2213efa972ee8c6f7b8a",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-013"
+      ]
+    },
+    {
+      "group_id": "V6-G-26bbcec10e0c3134802d",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-003"
+      ]
+    },
+    {
+      "group_id": "V6-G-280f0d753eb4f8d3f2b9",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-017",
+        "V6-EX-036",
+        "V6R2-EX-007"
+      ]
+    },
+    {
+      "group_id": "V6-G-29934f907d1e2baa5072",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-022",
+        "V6-SB-041"
+      ]
+    },
+    {
+      "group_id": "V6-G-29f905f08f7b6e07c3b4",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-006",
+        "EXP-RF-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-2a44130a4d5f7ba39107",
+      "split": "train",
+      "sample_ids": [
+        "V6-SB-003",
+        "V6-SB-004",
+        "V6-SB-005",
+        "V6-SB-008",
+        "V6-SB-009",
+        "V6-SB-010",
+        "V6-SB-011",
+        "V6-SB-012",
+        "V6-SB-013",
+        "V6-SB-014",
+        "V6-SB-015",
+        "V6-SB-016",
+        "V6-SB-018",
+        "V6-SB-019",
+        "V6-SB-021",
+        "V6-SB-022",
+        "V6-SB-023",
+        "V6-SB-028",
+        "V6-SB-029",
+        "V6-SB-030",
+        "V6-SB-032",
+        "V6R2-MP-001",
+        "V6R2-MP-002",
+        "V6R2-MP-004",
+        "V6R2-MP-005",
+        "V6R2-MP-006",
+        "V6R2-MP-007",
+        "V6R2-MP-008",
+        "V6R2-MP-009",
+        "V6R2-MP-010",
+        "V6R2-MP-011",
+        "V6R2-MP-012",
+        "V6R2-MP-013",
+        "V6R2-MP-014",
+        "V6R2-MP-016",
+        "V6R2-MP-018",
+        "V6R2-MP-019",
+        "V6R2-MP-020",
+        "V6R2-MP-021",
+        "V6R2-MP-022",
+        "V6R2-MP-023",
+        "V6R2-MP-024",
+        "V6R2-MP-025",
+        "V6R2-MP-026",
+        "V6R2-MP-030",
+        "V6R2-MP-031",
+        "V6R2-MP-032",
+        "V6R2-MP-034",
+        "V6R2-MP-035",
+        "V6R2-MP-037",
+        "V6R2-MP-038",
+        "V6R2-MP-039",
+        "V6R2-MP-040",
+        "V6R2-MP-041",
+        "V6R2-MP-043",
+        "V6R2-MP-044",
+        "V6R2-MP-046",
+        "V6R2-MP-047",
+        "V6R2-MP-048",
+        "V6R2-MP-049",
+        "V6R2-MP-050",
+        "V6R2-MP-053",
+        "V6R2-MP-057",
+        "V6R2-MP-058",
+        "V6R2-MP-059",
+        "V6R2-MP-061",
+        "V6R2-MP-063",
+        "V6R2-MP-066",
+        "V6R2-MP-067",
+        "V6R2-MP-068",
+        "V6R2-MP-072",
+        "V6R2-MP-073",
+        "V6R2-MP-074",
+        "V6R2-MP-079",
+        "V6R2-MP-080",
+        "V6R2-MP-081",
+        "V6R2-MP-084",
+        "V6R2-MP-085",
+        "V6R2-MP-089",
+        "V6R2-MP-090",
+        "V6R2-MP-091",
+        "V6R2-MP-092",
+        "V6R2-MP-093",
+        "V6R2-SB-001",
+        "V6R2-SB-002",
+        "V6R2-SB-003",
+        "V6R2-SB-006",
+        "V6R2-SB-008",
+        "V6R2-SB-009",
+        "V6R2-SB-010",
+        "V6R2-SB-011"
+      ]
+    },
+    {
+      "group_id": "V6-G-2ea4283ddb2be0587afc",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-009"
+      ]
+    },
+    {
+      "group_id": "V6-G-2fb2b83caf4ae371408a",
+      "split": "val",
+      "sample_ids": [
+        "EXP-SCB-002"
+      ]
+    },
+    {
+      "group_id": "V6-G-31880bcf33cbe15ad4fe",
+      "split": "train",
+      "sample_ids": [
+        "P019-person-01",
+        "V6R2-EX-001"
+      ]
+    },
+    {
+      "group_id": "V6-G-32733c18573c06896ad0",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-016"
+      ]
+    },
+    {
+      "group_id": "V6-G-354474e49b70ebd09240",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-001"
+      ]
+    },
+    {
+      "group_id": "V6-G-35cc4606f795392a2add",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-EX-009"
+      ]
+    },
+    {
+      "group_id": "V6-G-3a23d0e59022fc16cf45",
+      "split": "val",
+      "sample_ids": [
+        "V6-CA-015"
+      ]
+    },
+    {
+      "group_id": "V6-G-3d72119803ac0e10001b",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-017"
+      ]
+    },
+    {
+      "group_id": "V6-G-3f2ccbc689f86656f4c3",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-SB-014"
+      ]
+    },
+    {
+      "group_id": "V6-G-3f43f752ed65e8d64568",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-003"
+      ]
+    },
+    {
+      "group_id": "V6-G-40464cf9224fb4dbc235",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-001"
+      ]
+    },
+    {
+      "group_id": "V6-G-42a5ccb7948a42c2cb4b",
+      "split": "train",
+      "sample_ids": [
+        "SCB-turnhead-023"
+      ]
+    },
+    {
+      "group_id": "V6-G-45495c5a304f147a63c5",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-45a9bd904fa4f1649af6",
+      "split": "train",
+      "sample_ids": [
+        "V6-SB-043"
+      ]
+    },
+    {
+      "group_id": "V6-G-48596d8567f532b0e83e",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-012"
+      ]
+    },
+    {
+      "group_id": "V6-G-4fdb254b283cdf74438d",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-037"
+      ]
+    },
+    {
+      "group_id": "V6-G-5334aedf9d3d9767844d",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-004"
+      ]
+    },
+    {
+      "group_id": "V6-G-53c065f92a59d6f04f72",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-035",
+        "V6-CA-047"
+      ]
+    },
+    {
+      "group_id": "V6-G-53e230031dbf88c8f8ec",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-016"
+      ]
+    },
+    {
+      "group_id": "V6-G-53fe00e4fc84b2bf7a29",
+      "split": "val",
+      "sample_ids": [
+        "V6-CA-026",
+        "V6-CA-033",
+        "V6-CA-036",
+        "V6-CA-038",
+        "V6-CA-040",
+        "V6-CA-041",
+        "V6-CA-043",
+        "V6-CA-046",
+        "V6R2-CA-007",
+        "V6R2-CA-009",
+        "V6R2-CA-014"
+      ]
+    },
+    {
+      "group_id": "V6-G-5574ea116b6880b71974",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-022",
+        "V6-EX-023",
+        "V6-EX-026",
+        "V6-EX-027",
+        "V6-EX-030",
+        "V6-EX-032",
+        "V6-EX-034",
+        "V6-EX-035",
+        "V6-EX-037",
+        "V6-EX-039",
+        "V6-EX-040",
+        "V6-EX-041",
+        "V6-EX-043",
+        "V6-EX-044",
+        "V6R2-EX-010",
+        "V6R2-EX-015",
+        "V6R2-EX-017"
+      ]
+    },
+    {
+      "group_id": "V6-G-55c6b431fc5ea84e0bd0",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-020"
+      ]
+    },
+    {
+      "group_id": "V6-G-5c95c56ac7f8af49105c",
+      "split": "val",
+      "sample_ids": [
+        "EXP-SCB-014",
+        "V6-SB-034",
+        "V6-SB-046"
+      ]
+    },
+    {
+      "group_id": "V6-G-5cc4e573a70d23f714ef",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-CA-004"
+      ]
+    },
+    {
+      "group_id": "V6-G-5edb6cd8551e0a5628f8",
+      "split": "train",
+      "sample_ids": [
+        "P043-person-01"
+      ]
+    },
+    {
+      "group_id": "V6-G-666a2ea0ed4f708dbff2",
+      "split": "train",
+      "sample_ids": [
+        "SCB-turnhead-021"
+      ]
+    },
+    {
+      "group_id": "V6-G-6a5a020c968be6450a39",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-015"
+      ]
+    },
+    {
+      "group_id": "V6-G-6af358955ba8ec5f1bd9",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-021",
+        "SCB-turnhead-016"
+      ]
+    },
+    {
+      "group_id": "V6-G-6b504962f650ee221bd0",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-SB-013"
+      ]
+    },
+    {
+      "group_id": "V6-G-6fa08054492f978c5f30",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-020",
+        "V6-EX-021"
+      ]
+    },
+    {
+      "group_id": "V6-G-71ce6614cfc77136893b",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-042"
+      ]
+    },
+    {
+      "group_id": "V6-G-73ae71b05a839d8bcf4c",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-037"
+      ]
+    },
+    {
+      "group_id": "V6-G-73f8ee84e6a5ea4a4049",
+      "split": "val",
+      "sample_ids": [
+        "V6-EX-042"
+      ]
+    },
+    {
+      "group_id": "V6-G-75571ae9f3c2bfc8ef6a",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-003",
+        "EXP-RF-014",
+        "V6R2-CA-001"
+      ]
+    },
+    {
+      "group_id": "V6-G-78b435b55fa5b32c978a",
+      "split": "train",
+      "sample_ids": [
+        "P047-extra-01",
+        "P047-person-01"
+      ]
+    },
+    {
+      "group_id": "V6-G-7929da3839082c8c87fb",
+      "split": "train",
+      "sample_ids": [
+        "V6-SB-045"
+      ]
+    },
+    {
+      "group_id": "V6-G-7a07237f8236e59075c9",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-014",
+        "V6-EX-003",
+        "V6R2-EX-004"
+      ]
+    },
+    {
+      "group_id": "V6-G-7f8137444d3c846d0587",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-032",
+        "SCB-turnhead-028"
+      ]
+    },
+    {
+      "group_id": "V6-G-80d9db7b71f788e893a0",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-021"
+      ]
+    },
+    {
+      "group_id": "V6-G-85045be9db4b54bf8935",
+      "split": "val",
+      "sample_ids": [
+        "EXP-SCB-005",
+        "EXP-SCB-024"
+      ]
+    },
+    {
+      "group_id": "V6-G-8de36901ee691b29b9e7",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-007"
+      ]
+    },
+    {
+      "group_id": "V6-G-9134fdad8c79128592a1",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-013"
+      ]
+    },
+    {
+      "group_id": "V6-G-95395448599640b29d76",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-028"
+      ]
+    },
+    {
+      "group_id": "V6-G-95ce8169c7444e6caa6f",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-SB-018"
+      ]
+    },
+    {
+      "group_id": "V6-G-9621b8f466a8d5702f35",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-CA-002"
+      ]
+    },
+    {
+      "group_id": "V6-G-97fd87f595bb9d8f70f8",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-023"
+      ]
+    },
+    {
+      "group_id": "V6-G-a1deceac8f8f43a238b0",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-a626bf97afea98e2d74a",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-001"
+      ]
+    },
+    {
+      "group_id": "V6-G-ab81c5e693b75070c967",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-004",
+        "V6R2-CA-010"
+      ]
+    },
+    {
+      "group_id": "V6-G-ae0cbae3310d6f5db3df",
+      "split": "val",
+      "sample_ids": [
+        "V6-SB-035"
+      ]
+    },
+    {
+      "group_id": "V6-G-b46d3c31897c7157f5a6",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-005"
+      ]
+    },
+    {
+      "group_id": "V6-G-b6dbf74cad286c5fa5be",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-038",
+        "V6R2-EX-012"
+      ]
+    },
+    {
+      "group_id": "V6-G-b83573fe6a15141a4405",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-SB-017"
+      ]
+    },
+    {
+      "group_id": "V6-G-bb79f6ea3e90b19ced71",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-CA-008"
+      ]
+    },
+    {
+      "group_id": "V6-G-bbe4f1fb269574a0e667",
+      "split": "train",
+      "sample_ids": [
+        "P009-person-01"
+      ]
+    },
+    {
+      "group_id": "V6-G-bfee2347d4708b9a0168",
+      "split": "val",
+      "sample_ids": [
+        "V6-SB-047"
+      ]
+    },
+    {
+      "group_id": "V6-G-c014aa661e5160c4d282",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-043",
+        "V6-SB-038"
+      ]
+    },
+    {
+      "group_id": "V6-G-c197fd750c63e3f82b42",
+      "split": "val",
+      "sample_ids": [
+        "V6R2-EX-008"
+      ]
+    },
+    {
+      "group_id": "V6-G-c83282c8c8290343172e",
+      "split": "train",
+      "sample_ids": [
+        "V6-SB-044",
+        "V6R2-SB-015"
+      ]
+    },
+    {
+      "group_id": "V6-G-cab424fc3d3653b9b3a4",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-003",
+        "EXP-SCB-015",
+        "SCB-turnhead-026"
+      ]
+    },
+    {
+      "group_id": "V6-G-cb14a0a0b8f000817730",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-006"
+      ]
+    },
+    {
+      "group_id": "V6-G-cca3a7a410a0fdc771da",
+      "split": "train",
+      "sample_ids": [
+        "V6R2-EX-002"
+      ]
+    },
+    {
+      "group_id": "V6-G-ce18fc6d0661260b0f61",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-025"
+      ]
+    },
+    {
+      "group_id": "V6-G-cfcc8e4c59a1eff1e7c2",
+      "split": "val",
+      "sample_ids": [
+        "V6-SB-040"
+      ]
+    },
+    {
+      "group_id": "V6-G-d1e886e94302585b15ba",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-007",
+        "V6-EX-029"
+      ]
+    },
+    {
+      "group_id": "V6-G-d44a821e962a24104c63",
+      "split": "val",
+      "sample_ids": [
+        "V6-SB-033",
+        "V6R2-SB-016"
+      ]
+    },
+    {
+      "group_id": "V6-G-d794b01ba44dcc0f1f68",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-011"
+      ]
+    },
+    {
+      "group_id": "V6-G-d841fc4acb3fb5db7c65",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-017"
+      ]
+    },
+    {
+      "group_id": "V6-G-dc8ce55db2c6a502d1e2",
+      "split": "train",
+      "sample_ids": [
+        "SCB-write-008",
+        "V6-SB-042"
+      ]
+    },
+    {
+      "group_id": "V6-G-e13308e589dc94198218",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-047"
+      ]
+    },
+    {
+      "group_id": "V6-G-e232aa8959d2392c831a",
+      "split": "train",
+      "sample_ids": [
+        "V6-SB-048"
+      ]
+    },
+    {
+      "group_id": "V6-G-e2799a9743b195ae78e7",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-004"
+      ]
+    },
+    {
+      "group_id": "V6-G-e29e022fa87eca825f36",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-026"
+      ]
+    },
+    {
+      "group_id": "V6-G-e807a4df97a39d6564fc",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-027",
+        "SCB-read-025"
+      ]
+    },
+    {
+      "group_id": "V6-G-e98f93314ac0fa9ccc97",
+      "split": "train",
+      "sample_ids": [
+        "EXP-RF-023"
+      ]
+    },
+    {
+      "group_id": "V6-G-ee545d61c486df2a4295",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-019"
+      ]
+    },
+    {
+      "group_id": "V6-G-f0c1e42222081e3320ca",
+      "split": "train",
+      "sample_ids": [
+        "V6-EX-031"
+      ]
+    },
+    {
+      "group_id": "V6-G-f1f4cd90327755bf8c95",
+      "split": "train",
+      "sample_ids": [
+        "EXP-SCB-045"
+      ]
+    },
+    {
+      "group_id": "V6-G-f368231f74c5b7306225",
+      "split": "train",
+      "sample_ids": [
+        "SCB-read-013"
+      ]
+    },
+    {
+      "group_id": "V6-G-f7a0531da2af0877f8d8",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-009"
+      ]
+    },
+    {
+      "group_id": "V6-G-f957c0bae0a7bd7e36bf",
+      "split": "train",
+      "sample_ids": [
+        "V6-CA-025"
+      ]
+    },
+    {
+      "group_id": "V6-G-f9e52e249f517c212bf6",
+      "split": "train",
+      "sample_ids": [
+        "SCB-write-011"
+      ]
+    }
+  ],
+  "note": "Nhóm thị giác được nghiệm thu cho local pilot, không chứng minh subject/session độc lập."
+}

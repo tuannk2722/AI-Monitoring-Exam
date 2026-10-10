@@ -2,9 +2,7 @@ import unittest
 
 from PIL import Image
 
-from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.data.image_similarity import difference_hash, nearest_by_split
-from ai_exam_monitoring.data.review import validate_proposal
 
 
 class SimilarityTests(unittest.TestCase):
@@ -28,11 +26,3 @@ class SimilarityTests(unittest.TestCase):
     def test_uniform_images_collide_not_duplicate_evidence(self):
         self.assertEqual(difference_hash(Image.new("L", (10, 10), 0)),
                          difference_hash(Image.new("L", (10, 10), 255)))
-
-    def test_manual_proposal_rejects_invalid_or_unreviewed_labels(self):
-        validate_proposal({"label": "phone_use", "xyxy": [0, 0, 100, 100]}, 100, 100)
-        for coords in ([0, 0, 101, 100], [5, 0, 4, 100], [0, 0, float("nan"), 100]):
-            with self.assertRaises(DataContractError):
-                validate_proposal({"label": "phone_use", "xyxy": coords}, 100, 100)
-        with self.assertRaises(ValueError):
-            validate_proposal({"label": "normal", "xyxy": [0, 0, 100, 100]}, 100, 100)

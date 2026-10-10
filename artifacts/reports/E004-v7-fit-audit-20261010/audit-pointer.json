@@ -1,0 +1,42 @@
+{
+  "status": "audit_complete_partial_E004_fit",
+  "date": "2026-10-10",
+  "owner": "repository-owner",
+  "conclusion": "Release/annotationengineering đạt; targetedtraingain mộtphần; chưađạt đầy đủ mục tiêu E004 về evaluation độc lập và model improvement.",
+  "report": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/README.md",
+    "sha256": "ce6cfe937cc357a23b4f61f8a88ad1f46ed0b960589b18cce6633254e08704fd"
+  },
+  "measured_audit": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/measured-audit.json",
+    "sha256": "c992635e1e48b278ff2120e2fbe22607ec22fca1ab06c1c1107f01415b8c892f"
+  },
+  "evidence_addendum": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/targeted-evidence-addendum.json",
+    "sha256": "d712794e22546c06fec8808b90cad4f7775d48eaaff75a1520f877dd56d0debb"
+  },
+  "comparator_proposal": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/comparator-proposal.json",
+    "sha256": "117e158b3af00a30f008d23ca3ad4f97e4c540120ef68bd40f34f7f94b9f1232"
+  },
+  "cached_score_illustration": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/cached-score-comparator-illustration.json",
+    "sha256": "1df4c76f9b4735e51ce10ba8727286a09c05e47937b518ae2ce92381a9ed534d"
+  },
+  "validation": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/validation.json",
+    "sha256": "6070acd81636b1f2ee0e448ea22ca093acdebfe91e1d7bc1c31cab14d9b57d27"
+  },
+  "checksums": {
+    "path": "artifacts/reports/E004-v7-fit-audit-20261010/checksums.sha256",
+    "sha256": "70a6fea209a6dac28fe6b3c0b574eeef33c7b43e04787dd99dde525247d7b2f4"
+  },
+  "release_pointer": {
+    "path": "artifacts/reports/pilot-b-v7-release-20261010/release-pointer.json",
+    "sha256": "bf3cbf10907f373439c57510c493509c6698b7c65b4fe8f2dd89ed28563ca748"
+  },
+  "files_sealed": 9,
+  "dataset_mutated": false,
+  "model_executed": false,
+  "new_test_inference": false
+}

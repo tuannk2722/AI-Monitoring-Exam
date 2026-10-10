@@ -1,0 +1,37 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "prepared_on": "2026-10-07",
+  "configs": {
+    "E002": "7ffb2807d5602aaabc2bd95d44f3c7cc58d1341ca9d6eae4deef73de949c62bf",
+    "E002-smoke": "393dd16d49e6658789f48fa69922af1a74ce06af307993c8e905ac53a6a175ed"
+  },
+  "proposed_configs": {
+    "E002": "7ffb2807d5602aaabc2bd95d44f3c7cc58d1341ca9d6eae4deef73de949c62bf",
+    "E002-smoke": "393dd16d49e6658789f48fa69922af1a74ce06af307993c8e905ac53a6a175ed"
+  },
+  "proposal_ref": "docs/experiments/E002-protocol.md",
+  "protocol": {
+    "path": "docs/experiments/E002-protocol.md",
+    "sha256": "629b2dd6b37f4fa64960475bcf9ed485a637691bde1347e4f8e26a056c052175"
+  },
+  "requested_scope": [
+    "Ngoại lệ CPU local cho E002 frozen linear probe trên Pilot B v5.",
+    "Một smoke kỹ thuật 3 epoch có interruption/resume, không chọn candidate.",
+    "Một baseline E002 và evaluation validation, không sweep hoặc tuning threshold."
+  ],
+  "training_authorized": true,
+  "final_test_authorized": false,
+  "dataset_approval_is_not_experiment_approval": true,
+  "decision_ref": "docs/decisions/ADR-015-e002-v5-preservation-linear-probe.md",
+  "note": "Owner đã nghiệm thu hồ sơ và yêu cầu tiếp tục; approval chỉ smoke/train/validation local, không final test.",
+  "blocker": "TBD-E002-LOADER đang triển khai; chỉ chạy sau preflight/tests PASS.",
+  "reviewed_at": "2026-10-07",
+  "owner_message": "tôi đã review toàn bộ thay đổi và thông số được cấu hình trong E002.yaml. Approve bản này, hãy thực hiện tiếp! Chỉ dừng lại khi xong hoặc có gì cần hỏi hay review/chốt lại.",
+  "loader_scope": "Triển khai hướng hỗ trợ preservation pointer đã review trong protocol, kiểm fail-closed/regression trước chạy.",
+  "previous_approval_snapshot": {
+    "path": "artifacts/reports/E002-execution-20261007/approval-before-owner-review.json",
+    "sha256": "d37f278f8d02021d5dd92159ede2c67886f8ca9161c4bf0255d8e8e02dfafd8e"
+  }
+}

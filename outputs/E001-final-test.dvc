@@ -1,0 +1,6 @@
+outs:
+- md5: 4095bf7f6b4e68f225730d157c0981e7.dir
+  size: 37018
+  nfiles: 6
+  hash: md5
+  path: E001-final-test

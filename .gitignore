@@ -14,12 +14,14 @@ htmlcov/
 .DS_Store
 
 # Data and media (DVC owns large binary content)
-/data/raw/
-/data/interim/
-/data/processed/
-!/data/raw/.gitkeep
-!/data/interim/.gitkeep
-!/data/processed/.gitkeep
+/data/raw/**
+/data/interim/**
+/data/processed/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/**/.gitignore
+!/data/**/*.dvc
+!*.dvc
 *.mp4
 *.avi
 *.mov
@@ -35,7 +37,8 @@ htmlcov/
 *.onnx
 *.engine
 /runs/
-/outputs/
+/outputs/*
+!/outputs/*.dvc
 /artifacts/models/
 /artifacts/predictions/
 /artifacts/evidence/
@@ -46,3 +49,10 @@ wandb/
 /.dvc/cache/
 /.dvc/tmp/
 /.dvc/config.local
+
+# Lịch sử local: Git chỉ giữ index và DVC pointer
+/archive/*.zip
+/archive/*.partial
+/archive/work-plan.json
+/archive/check/
+/archive/restore/

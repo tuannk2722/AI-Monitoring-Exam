@@ -1,0 +1,30 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "prepared_on": "2026-10-08",
+  "configs": {
+    "E003": "a937009cd5d1cd9c1fbd7ba6867d79bbfe38ebbc4848eb2009b97c9ee071ca24",
+    "E003-smoke": "b335850b671cbc9a65eb2870fba145ca7b32685d8c53f38431acabf365fee19b"
+  },
+  "training_authorized": true,
+  "final_test_authorized": false,
+  "dataset_approval_is_not_experiment_approval": true,
+  "proposal_ref": "docs/experiments/E003-protocol.md",
+  "decision_ref": "docs/decisions/ADR-016-e003-v6-local-linear-probe.md",
+  "note": "Owner đã review và approve toàn bộ hồ sơ; thực thi theo ADR-016, chỉ smoke/train/validation local, không final test/upload/promotion.",
+  "owner_message": "tôi đã review và approve, hãy thực hiện tiếp tới khi hoàn thành! trong quá trình thực hiện nếu có gì chưa rõ thì hãy hỏi lại tôi.",
+  "proposed_configs": {
+    "E003": "a937009cd5d1cd9c1fbd7ba6867d79bbfe38ebbc4848eb2009b97c9ee071ca24",
+    "E003-smoke": "b335850b671cbc9a65eb2870fba145ca7b32685d8c53f38431acabf365fee19b"
+  },
+  "protocol": {
+    "path": "docs/experiments/E003-protocol.md",
+    "sha256": "c845698c3fd91a07a7587d171efbd1290a2d5a437405d2c1f6ec886ec3abe091"
+  },
+  "reviewed_at": "2026-10-08",
+  "previous_approval_snapshot": {
+    "path": "artifacts/reports/E003-execution-20261008/approval-before-owner-review.json",
+    "sha256": "fc8b5eed4e41f6192d47f513ef118c1da0864cb182eec59b8acad33b908c886e"
+  }
+}

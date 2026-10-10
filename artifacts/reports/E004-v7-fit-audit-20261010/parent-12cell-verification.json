@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": "V6-CA-041",
+    "owner_decisions": [
+      {
+        "sample_id": "V6-CA-041",
+        "split": "val",
+        "target": "phone_use",
+        "old_outcome": "FN",
+        "decision": "U",
+        "before": "positive",
+        "crop_sha256": "3f924b52b196702f44739055383b9af96beaad91bf5d505eefbe2850446dec29",
+        "source_sha256": "889040ce12864e4f7ea7ae149c43f4012ed734eaede1b50767a52448b2945ca4",
+        "after": "unknown",
+        "domain": null,
+        "action": "relabel_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "val",
+    "after_usage": "review_only",
+    "before_targets": [
+      "positive",
+      "unknown"
+    ],
+    "after_targets": [
+      "unknown",
+      "unknown"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "EXP-SCB-002",
+    "owner_decisions": [
+      {
+        "sample_id": "EXP-SCB-002",
+        "split": "val",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "N",
+        "before": "positive",
+        "crop_sha256": "7ab29073d34e3787784a0d510d702763bb2a7f8c8da670e9a42ea750038600e7",
+        "source_sha256": "2d0e152d4d155c697a9e5cdeda8e765cb9c17da4a7af688938289d17829b7dd7",
+        "after": "negative",
+        "domain": null,
+        "action": "relabel_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "val",
+    "after_usage": "val",
+    "before_targets": [
+      "negative",
+      "positive"
+    ],
+    "after_targets": [
+      "negative",
+      "negative"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "EXP-RF-014",
+    "owner_decisions": [
+      {
+        "sample_id": "EXP-RF-014",
+        "split": "train",
+        "target": "phone_use",
+        "old_outcome": "FN",
+        "decision": "excluded (loại do có chữ)",
+        "before": "positive",
+        "crop_sha256": "d5bb83794f25d610c02787efb9320929e3db456c5cf400d17a33678f07cb5356",
+        "source_sha256": "a7e84b14894ac3d6ffccffa819bb3898c28f2e5a7d4b056af203859b655242e3",
+        "after": "excluded",
+        "domain": null,
+        "action": "exclude_record",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "excluded",
+    "before_targets": [
+      "positive",
+      "unknown"
+    ],
+    "after_targets": [
+      "positive",
+      "unknown"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "EXP-SCB-032",
+    "owner_decisions": [
+      {
+        "sample_id": "EXP-SCB-032",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "U",
+        "before": "positive",
+        "crop_sha256": "90c0cc86e05d6da563b30961ee7da198188cfb40673cfb09c25ebae7a55134f2",
+        "source_sha256": "252f77ce0c276768759e60001cf1f66677471b3821caf1840e5bc2e5807ae21e",
+        "after": "unknown",
+        "domain": null,
+        "action": "relabel_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "review_only",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "unknown"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-007",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-007",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "c585557111b8cb95a37d08e7f05613de14a56ed121a08731b17c4db95f3cde6c",
+        "source_sha256": "e605f2297a6925dfc5ee169e08ecc399f72943a66208e14de57935314f3ea8c0",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-009",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-009",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "8bb342a2fafb411789c879120aa19104a8d9f265f2c8a773983295ec0eee9c2a",
+        "source_sha256": "df441ad80c804df7d30f8cec78788412bab87f7f2d8c02a5679b32d4650055ed",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-012",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-012",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "49474a94002b17af243a7aa8759c0f00f6100e986518777e53a405499dd3a00b",
+        "source_sha256": "44f09a521fc086d107575093b245f2fe5079814571bb0876fa6590476ff20d6b",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-019",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-019",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "a8509aa312a3d2c04321eff406c8922b6f3687c27262359783e54b4d3373721f",
+        "source_sha256": "9338e7a362450bc052dc7d1043e2b066fb0ae21afc7538ed1d86d2f6d5606e9e",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-020",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-020",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "N",
+        "before": "positive",
+        "crop_sha256": "85f067f6973f840fb9676e8c7df5851ccdef1e8198da0b261c6c1746a4f21b67",
+        "source_sha256": "8749df295ef88fec1440a708cdcd468865e5025e06e7dbb2b073e17ebaa5a90d",
+        "after": "negative",
+        "domain": null,
+        "action": "relabel_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "negative"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-021",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-021",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "237a0e31663706172049b04dd86996afe6c4a31a32762b57d7dce9f277a3cc9a",
+        "source_sha256": "b809e813d352f5323d3621ec5ef25b8a5b6dc6064d9d05f8e6ed0152efbd4f0f",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "SCB-turnhead-023",
+    "owner_decisions": [
+      {
+        "sample_id": "SCB-turnhead-023",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "U",
+        "before": "positive",
+        "crop_sha256": "af0a2f027e9c01cba46793caa50c30e93b66e0ddf6fb0a47c3dc06aeff708832",
+        "source_sha256": "c31aabfad559a3c877c532aa07bd5e0048c6acd1577672a9eaeea28203d68d6e",
+        "after": "unknown",
+        "domain": null,
+        "action": "relabel_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "review_only",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "unknown"
+    ],
+    "source_crop_sha_preserved": true
+  },
+  {
+    "sample_id": "V6R2-MP-059",
+    "owner_decisions": [
+      {
+        "sample_id": "V6R2-MP-059",
+        "split": "train",
+        "target": "looking_around",
+        "old_outcome": "FN",
+        "decision": "P",
+        "before": "positive",
+        "crop_sha256": "073c6dae110df11dc055d31be38681389ceddfaf4c48693c6105ce3d167dc5c9",
+        "source_sha256": "b0a91ffd3b3537c3659fdfaad72fdac57fb59e9a6589f13cc0ac1f66615bad74",
+        "after": "positive",
+        "domain": null,
+        "action": "retain_target",
+        "status": "owner_reviewed_parent_delta_not_materialized"
+      }
+    ],
+    "before_usage": "train",
+    "after_usage": "train",
+    "before_targets": [
+      "unknown",
+      "positive"
+    ],
+    "after_targets": [
+      "unknown",
+      "positive"
+    ],
+    "source_crop_sha_preserved": true
+  }
+]

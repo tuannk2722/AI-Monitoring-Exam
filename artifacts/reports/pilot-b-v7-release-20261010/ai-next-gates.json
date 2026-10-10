@@ -1,0 +1,33 @@
+{
+  "owner": "repository-owner",
+  "dataset_gate": "pilot-b-20261010-v7 accepted local",
+  "dataset_pointer": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/release.json",
+    "sha256": "4ed29e1f262e4903e08be475a2aae932770e438a90be03a4e2b883265a0854d8"
+  },
+  "dataset_manifest": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/manifest.jsonl",
+    "sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede"
+  },
+  "dataset_payload": {
+    "path": "data/processed/pilot-b/pilot-b-20261010-v7/checksums.sha256",
+    "sha256": "d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610"
+  },
+  "training_approval_inferred": false,
+  "training_started": false,
+  "next": "Chuẩn bị E004 recipe/compute/metric/protocol trên v7; local classifier crop được review. Không tự chạy training từ dataset acceptance.",
+  "pending": [
+    {
+      "id": "TBD-E004-RECIPE-COMPUTE-METRIC",
+      "condition": "Config experiment đủpins/hypothesis/seed/environment/recipe được owner chốt; ADR017 numericgates cònDraft."
+    },
+    {
+      "id": "TBD-E004-INDEPENDENT-HOLDOUT",
+      "condition": "Payload/rights/independence/session/camera/protocol riêng; test11lịch sử không thay holdout mới."
+    },
+    {
+      "id": "TBD-PB-CROP-RUNTIME",
+      "condition": "Chốt automatic context crop policy/QA, không phụ thuộc targetgroundtruth trước end-to-end baseline."
+    }
+  ]
+}

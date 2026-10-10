@@ -1,0 +1,3308 @@
+{
+  "verdict": "PARTIAL_TARGETED_DATA_GAIN_NOT_FULL_E004_GOAL_READY",
+  "checked_release_pins_and_payload_files": 906,
+  "dataset_released_and_owner_accepted": true,
+  "versions": {
+    "v6": {
+      "train": {
+        "records": 317,
+        "fully_known": 96,
+        "partial_known": 221,
+        "all_unknown": 0,
+        "combinations": {
+          "PU": 74,
+          "PP": 16,
+          "NN": 54,
+          "NU": 14,
+          "UP": 78,
+          "NP": 23,
+          "UN": 55,
+          "PN": 3
+        },
+        "targets": {
+          "phone_use": {
+            "positive": 93,
+            "negative": 91,
+            "unknown": 133
+          },
+          "looking_around": {
+            "unknown": 88,
+            "positive": 117,
+            "negative": 112
+          }
+        },
+        "sources": {
+          "classroom_monitoring_v2": 24,
+          "roboflow_v1": 28,
+          "scb_hrw": 65,
+          "scb_head": 35,
+          "classroom_attitude": 24,
+          "exam_cheating_keaor": 38,
+          "student_behaviour": 103
+        },
+        "registered_groups": 103,
+        "top_group_counts": [
+          {
+            "group_id": "V6-G-2a44130a4d5f7ba39107",
+            "count": 91,
+            "sources": {
+              "student_behaviour": 91
+            }
+          },
+          {
+            "group_id": "PB-G-f0b75b5ac12d58228355",
+            "count": 28,
+            "sources": {
+              "scb_hrw": 17,
+              "scb_head": 11
+            }
+          },
+          {
+            "group_id": "CM-V2-SCENE-01",
+            "count": 24,
+            "sources": {
+              "classroom_monitoring_v2": 24
+            }
+          },
+          {
+            "group_id": "V6-G-5574ea116b6880b71974",
+            "count": 17,
+            "sources": {
+              "exam_cheating_keaor": 17
+            }
+          },
+          {
+            "group_id": "PB-G-88e21db5e6c794bef0f2",
+            "count": 14,
+            "sources": {
+              "roboflow_v1": 12,
+              "exam_cheating_keaor": 2
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 29,
+          "looking_around": 42
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      },
+      "val": {
+        "records": 50,
+        "fully_known": 16,
+        "partial_known": 34,
+        "all_unknown": 0,
+        "combinations": {
+          "UP": 10,
+          "NP": 6,
+          "PU": 15,
+          "NN": 8,
+          "UN": 3,
+          "PP": 2,
+          "NU": 6
+        },
+        "targets": {
+          "phone_use": {
+            "unknown": 13,
+            "negative": 20,
+            "positive": 17
+          },
+          "looking_around": {
+            "positive": 18,
+            "unknown": 21,
+            "negative": 11
+          }
+        },
+        "sources": {
+          "roboflow_v1": 13,
+          "scb_hrw": 6,
+          "scb_head": 1,
+          "classroom_attitude": 17,
+          "exam_cheating_keaor": 6,
+          "student_behaviour": 7
+        },
+        "registered_groups": 14,
+        "top_group_counts": [
+          {
+            "group_id": "PB-G-baf0e0aa45deba62941c",
+            "count": 21,
+            "sources": {
+              "roboflow_v1": 13,
+              "classroom_attitude": 5,
+              "exam_cheating_keaor": 3
+            }
+          },
+          {
+            "group_id": "V6-G-53fe00e4fc84b2bf7a29",
+            "count": 11,
+            "sources": {
+              "classroom_attitude": 11
+            }
+          },
+          {
+            "group_id": "PB-G-d4148f8feed0711bb6c6",
+            "count": 3,
+            "sources": {
+              "scb_hrw": 3
+            }
+          },
+          {
+            "group_id": "V6-G-5c95c56ac7f8af49105c",
+            "count": 3,
+            "sources": {
+              "scb_hrw": 1,
+              "student_behaviour": 2
+            }
+          },
+          {
+            "group_id": "V6-G-85045be9db4b54bf8935",
+            "count": 2,
+            "sources": {
+              "scb_hrw": 1,
+              "scb_head": 1
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 4,
+          "looking_around": 7
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      },
+      "test": {
+        "records": 11,
+        "fully_known": 2,
+        "partial_known": 9,
+        "all_unknown": 0,
+        "combinations": {
+          "PU": 2,
+          "UN": 5,
+          "NN": 2,
+          "UP": 2
+        },
+        "targets": {
+          "phone_use": {
+            "positive": 2,
+            "unknown": 7,
+            "negative": 2
+          },
+          "looking_around": {
+            "unknown": 2,
+            "negative": 7,
+            "positive": 2
+          }
+        },
+        "sources": {
+          "roboflow_v1": 2,
+          "scb_hrw": 7,
+          "scb_head": 2
+        },
+        "registered_groups": 3,
+        "top_group_counts": [
+          {
+            "group_id": "PB-G-2bfd674c05ef8b6e2ea6",
+            "count": 7,
+            "sources": {
+              "scb_hrw": 5,
+              "scb_head": 2
+            }
+          },
+          {
+            "group_id": "PB-G-3369d47e05ce355b3db8",
+            "count": 2,
+            "sources": {
+              "roboflow_v1": 2
+            }
+          },
+          {
+            "group_id": "PB-G-7fb27f65676f43721a39",
+            "count": 2,
+            "sources": {
+              "scb_hrw": 2
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 1,
+          "looking_around": 1
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      }
+    },
+    "v7": {
+      "train": {
+        "records": 689,
+        "fully_known": 215,
+        "partial_known": 474,
+        "all_unknown": 0,
+        "combinations": {
+          "PU": 181,
+          "PP": 36,
+          "NN": 131,
+          "NU": 21,
+          "UP": 142,
+          "NP": 32,
+          "UN": 130,
+          "PN": 16
+        },
+        "targets": {
+          "phone_use": {
+            "positive": 233,
+            "negative": 184,
+            "unknown": 272
+          },
+          "looking_around": {
+            "unknown": 202,
+            "positive": 210,
+            "negative": 277
+          }
+        },
+        "sources": {
+          "classroom_monitoring_v2": 24,
+          "roboflow_v1": 57,
+          "scb_hrw": 87,
+          "scb_head": 65,
+          "classroom_attitude": 108,
+          "exam_cheating_keaor": 44,
+          "student_behaviour": 115,
+          "coco_2017_train": 37,
+          "openimages_train_prefix": 104,
+          "commons_classroom_gapfill": 46,
+          "wmf_knowledge_everyone": 2
+        },
+        "registered_groups": 375,
+        "top_group_counts": [
+          {
+            "group_id": "V7-G-2a44130a4d5f7ba39107",
+            "count": 91,
+            "sources": {
+              "student_behaviour": 91
+            }
+          },
+          {
+            "group_id": "V7-G-e050c4c8e80fb3505a36",
+            "count": 33,
+            "sources": {
+              "scb_hrw": 18,
+              "scb_head": 15
+            }
+          },
+          {
+            "group_id": "V7-G-270a79bbb0f58a4e3ee0",
+            "count": 24,
+            "sources": {
+              "classroom_monitoring_v2": 24
+            }
+          },
+          {
+            "group_id": "V7-G-ecc68417f2c0f69337ca",
+            "count": 22,
+            "sources": {
+              "roboflow_v1": 16,
+              "exam_cheating_keaor": 2,
+              "classroom_attitude": 4
+            }
+          },
+          {
+            "group_id": "V7-G-5574ea116b6880b71974",
+            "count": 17,
+            "sources": {
+              "exam_cheating_keaor": 17
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 137,
+          "looking_around": 112
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      },
+      "val": {
+        "records": 49,
+        "fully_known": 16,
+        "partial_known": 33,
+        "all_unknown": 0,
+        "combinations": {
+          "UP": 10,
+          "NN": 9,
+          "NP": 5,
+          "PU": 14,
+          "UN": 3,
+          "PP": 2,
+          "NU": 6
+        },
+        "targets": {
+          "phone_use": {
+            "unknown": 13,
+            "negative": 20,
+            "positive": 16
+          },
+          "looking_around": {
+            "positive": 17,
+            "negative": 12,
+            "unknown": 20
+          }
+        },
+        "sources": {
+          "roboflow_v1": 13,
+          "scb_hrw": 6,
+          "scb_head": 1,
+          "classroom_attitude": 16,
+          "exam_cheating_keaor": 6,
+          "student_behaviour": 7
+        },
+        "registered_groups": 14,
+        "top_group_counts": [
+          {
+            "group_id": "V7-G-fcd93acef79fe0e4e815",
+            "count": 21,
+            "sources": {
+              "roboflow_v1": 13,
+              "classroom_attitude": 5,
+              "exam_cheating_keaor": 3
+            }
+          },
+          {
+            "group_id": "V7-G-a6902aad84a5672f4f52",
+            "count": 10,
+            "sources": {
+              "classroom_attitude": 10
+            }
+          },
+          {
+            "group_id": "V7-G-5c95c56ac7f8af49105c",
+            "count": 3,
+            "sources": {
+              "scb_hrw": 1,
+              "student_behaviour": 2
+            }
+          },
+          {
+            "group_id": "V7-G-e903106f68879fbe175d",
+            "count": 3,
+            "sources": {
+              "scb_hrw": 3
+            }
+          },
+          {
+            "group_id": "V7-G-85045be9db4b54bf8935",
+            "count": 2,
+            "sources": {
+              "scb_hrw": 1,
+              "scb_head": 1
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 4,
+          "looking_around": 6
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      },
+      "test": {
+        "records": 11,
+        "fully_known": 2,
+        "partial_known": 9,
+        "all_unknown": 0,
+        "combinations": {
+          "PU": 2,
+          "UN": 5,
+          "NN": 2,
+          "UP": 2
+        },
+        "targets": {
+          "phone_use": {
+            "positive": 2,
+            "unknown": 7,
+            "negative": 2
+          },
+          "looking_around": {
+            "unknown": 2,
+            "negative": 7,
+            "positive": 2
+          }
+        },
+        "sources": {
+          "roboflow_v1": 2,
+          "scb_hrw": 7,
+          "scb_head": 2
+        },
+        "registered_groups": 3,
+        "top_group_counts": [
+          {
+            "group_id": "V7-G-c629e7e7b37849d8720b",
+            "count": 7,
+            "sources": {
+              "scb_hrw": 5,
+              "scb_head": 2
+            }
+          },
+          {
+            "group_id": "V7-G-2bb8752cb9afc1fcb86c",
+            "count": 2,
+            "sources": {
+              "scb_hrw": 2
+            }
+          },
+          {
+            "group_id": "V7-G-8a2509f112e53ee301ce",
+            "count": 2,
+            "sources": {
+              "roboflow_v1": 2
+            }
+          }
+        ],
+        "target_positive_groups": {
+          "phone_use": 1,
+          "looking_around": 1
+        },
+        "metadata_nonnull": {
+          "session_id": 0,
+          "video_id": 0,
+          "room_id": 0,
+          "subject_id": 0
+        }
+      }
+    }
+  },
+  "new_actual_train": {
+    "records": 375,
+    "fully_known": 119,
+    "partial_known": 256,
+    "all_unknown": 0,
+    "combinations": {
+      "PU": 108,
+      "PN": 13,
+      "NN": 77,
+      "PP": 20,
+      "NP": 9,
+      "NU": 7,
+      "UP": 68,
+      "UN": 73
+    },
+    "targets": {
+      "phone_use": {
+        "positive": 141,
+        "negative": 93,
+        "unknown": 141
+      },
+      "looking_around": {
+        "unknown": 115,
+        "negative": 163,
+        "positive": 97
+      }
+    },
+    "sources": {
+      "classroom_attitude": 84,
+      "coco_2017_train": 37,
+      "roboflow_v1": 30,
+      "openimages_train_prefix": 104,
+      "student_behaviour": 12,
+      "scb_head": 32,
+      "scb_hrw": 22,
+      "exam_cheating_keaor": 6,
+      "commons_classroom_gapfill": 46,
+      "wmf_knowledge_everyone": 2
+    },
+    "registered_groups": 289,
+    "top_group_counts": [
+      {
+        "group_id": "V7-G-6db4e45345530a410365",
+        "count": 13,
+        "sources": {
+          "commons_classroom_gapfill": 13
+        }
+      },
+      {
+        "group_id": "V7-G-ecc68417f2c0f69337ca",
+        "count": 8,
+        "sources": {
+          "classroom_attitude": 4,
+          "roboflow_v1": 4
+        }
+      },
+      {
+        "group_id": "V7-G-1cadc9fd5f5bdfbba0f9",
+        "count": 5,
+        "sources": {
+          "commons_classroom_gapfill": 5
+        }
+      },
+      {
+        "group_id": "V7-G-9d5454f7f032a5686fd4",
+        "count": 5,
+        "sources": {
+          "commons_classroom_gapfill": 5
+        }
+      },
+      {
+        "group_id": "V7-G-e050c4c8e80fb3505a36",
+        "count": 5,
+        "sources": {
+          "scb_head": 4,
+          "scb_hrw": 1
+        }
+      }
+    ],
+    "target_positive_groups": {
+      "phone_use": 111,
+      "looking_around": 83
+    },
+    "metadata_nonnull": {
+      "session_id": 0,
+      "video_id": 0,
+      "room_id": 0,
+      "subject_id": 0
+    }
+  },
+  "new_train_domain_annotations": {
+    "classroom_or_exam_context": 196,
+    "auxiliary_out_of_exam": 127,
+    "public_auxiliary_or_classroom_context_pending_review": 14,
+    "classroom_or_learning_context_pending_anchor_review": 30,
+    "computer_room_education_context_unverified": 1,
+    "educational_workshop_context": 2,
+    "auxiliary_home_learning": 1,
+    "auxiliary_educational_event": 1,
+    "auxiliary_workshop": 3
+  },
+  "source_confounds": [
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "classroom_attitude",
+      "records": 24,
+      "fully_known": 5,
+      "partial_known": 19,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 14,
+        "NU": 2,
+        "NN": 2,
+        "NP": 2,
+        "UN": 2,
+        "PN": 1,
+        "UP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 15,
+          "negative": 6,
+          "unknown": 3
+        },
+        "looking_around": {
+          "unknown": 16,
+          "negative": 5,
+          "positive": 3
+        }
+      },
+      "sources": {
+        "classroom_attitude": 24
+      },
+      "registered_groups": 23,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-53c065f92a59d6f04f72",
+          "count": 2,
+          "sources": {
+            "classroom_attitude": 2
+          }
+        },
+        {
+          "group_id": "V6-G-03d36877e9eb99db8eb3",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V6-G-048579a1628734253f8f",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V6-G-12b322818c99f47dc073",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V6-G-1d4c83f734515165c4df",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 15,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "classroom_monitoring_v2",
+      "records": 24,
+      "fully_known": 9,
+      "partial_known": 15,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 7,
+        "PP": 2,
+        "NN": 5,
+        "NU": 4,
+        "UP": 3,
+        "NP": 2,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 9,
+          "negative": 11,
+          "unknown": 4
+        },
+        "looking_around": {
+          "unknown": 11,
+          "positive": 7,
+          "negative": 6
+        }
+      },
+      "sources": {
+        "classroom_monitoring_v2": 24
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "CM-V2-SCENE-01",
+          "count": 24,
+          "sources": {
+            "classroom_monitoring_v2": 24
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "exam_cheating_keaor",
+      "records": 38,
+      "fully_known": 22,
+      "partial_known": 16,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 7,
+        "PP": 4,
+        "NP": 8,
+        "UP": 6,
+        "NN": 10,
+        "NU": 2,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 11,
+          "negative": 20,
+          "unknown": 7
+        },
+        "looking_around": {
+          "unknown": 9,
+          "positive": 18,
+          "negative": 11
+        }
+      },
+      "sources": {
+        "exam_cheating_keaor": 38
+      },
+      "registered_groups": 15,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-5574ea116b6880b71974",
+          "count": 17,
+          "sources": {
+            "exam_cheating_keaor": 17
+          }
+        },
+        {
+          "group_id": "V6-G-280f0d753eb4f8d3f2b9",
+          "count": 3,
+          "sources": {
+            "exam_cheating_keaor": 3
+          }
+        },
+        {
+          "group_id": "PB-G-88e21db5e6c794bef0f2",
+          "count": 2,
+          "sources": {
+            "exam_cheating_keaor": 2
+          }
+        },
+        {
+          "group_id": "V6-G-6fa08054492f978c5f30",
+          "count": 2,
+          "sources": {
+            "exam_cheating_keaor": 2
+          }
+        },
+        {
+          "group_id": "V6-G-7a07237f8236e59075c9",
+          "count": 2,
+          "sources": {
+            "exam_cheating_keaor": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 10,
+        "looking_around": 10
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "roboflow_v1",
+      "records": 28,
+      "fully_known": 8,
+      "partial_known": 20,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 4,
+        "NP": 3,
+        "UP": 4,
+        "PU": 15,
+        "NU": 1,
+        "PP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 8,
+          "unknown": 4,
+          "positive": 16
+        },
+        "looking_around": {
+          "negative": 4,
+          "positive": 8,
+          "unknown": 16
+        }
+      },
+      "sources": {
+        "roboflow_v1": 28
+      },
+      "registered_groups": 14,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-88e21db5e6c794bef0f2",
+          "count": 12,
+          "sources": {
+            "roboflow_v1": 12
+          }
+        },
+        {
+          "group_id": "V6-G-29f905f08f7b6e07c3b4",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V6-G-75571ae9f3c2bfc8ef6a",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V6-G-78b435b55fa5b32c978a",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V6-G-15df48dbb37d08c6b9ef",
+          "count": 1,
+          "sources": {
+            "roboflow_v1": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 6,
+        "looking_around": 7
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "scb_head",
+      "records": 35,
+      "fully_known": 3,
+      "partial_known": 32,
+      "all_unknown": 0,
+      "combinations": {
+        "NP": 2,
+        "UP": 32,
+        "NN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 3,
+          "unknown": 32
+        },
+        "looking_around": {
+          "positive": 34,
+          "negative": 1
+        }
+      },
+      "sources": {
+        "scb_head": 35
+      },
+      "registered_groups": 19,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-f0b75b5ac12d58228355",
+          "count": 11,
+          "sources": {
+            "scb_head": 11
+          }
+        },
+        {
+          "group_id": "PB-G-18b53fda4c21055b08af",
+          "count": 2,
+          "sources": {
+            "scb_head": 2
+          }
+        },
+        {
+          "group_id": "PB-G-b3e360cd83d1dfacd186",
+          "count": 2,
+          "sources": {
+            "scb_head": 2
+          }
+        },
+        {
+          "group_id": "PB-G-e75177c4ea5ebe2443ac",
+          "count": 2,
+          "sources": {
+            "scb_head": 2
+          }
+        },
+        {
+          "group_id": "V6-G-6af358955ba8ec5f1bd9",
+          "count": 2,
+          "sources": {
+            "scb_head": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 19
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "scb_hrw",
+      "records": 65,
+      "fully_known": 17,
+      "partial_known": 48,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 15,
+        "NP": 2,
+        "UN": 44,
+        "UP": 1,
+        "NU": 3
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 20,
+          "unknown": 45
+        },
+        "looking_around": {
+          "negative": 59,
+          "positive": 3,
+          "unknown": 3
+        }
+      },
+      "sources": {
+        "scb_hrw": 65
+      },
+      "registered_groups": 31,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-f0b75b5ac12d58228355",
+          "count": 17,
+          "sources": {
+            "scb_hrw": 17
+          }
+        },
+        {
+          "group_id": "PB-G-18b53fda4c21055b08af",
+          "count": 7,
+          "sources": {
+            "scb_hrw": 7
+          }
+        },
+        {
+          "group_id": "PB-G-13e190f7784f3cb34c62",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "PB-G-7adf3e797f0d4d4978d9",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "PB-G-950af88cd17908a77c81",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "train",
+      "source": "student_behaviour",
+      "records": 103,
+      "fully_known": 32,
+      "partial_known": 71,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 31,
+        "PN": 2,
+        "UN": 7,
+        "UP": 31,
+        "NP": 4,
+        "PP": 9,
+        "NN": 17,
+        "NU": 2
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 42,
+          "unknown": 38,
+          "negative": 23
+        },
+        "looking_around": {
+          "unknown": 33,
+          "negative": 26,
+          "positive": 44
+        }
+      },
+      "sources": {
+        "student_behaviour": 103
+      },
+      "registered_groups": 12,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-2a44130a4d5f7ba39107",
+          "count": 91,
+          "sources": {
+            "student_behaviour": 91
+          }
+        },
+        {
+          "group_id": "V6-G-c83282c8c8290343172e",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V6-G-29934f907d1e2baa5072",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V6-G-3f2ccbc689f86656f4c3",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V6-G-45a9bd904fa4f1649af6",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "classroom_attitude",
+      "records": 17,
+      "fully_known": 4,
+      "partial_known": 13,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 5,
+        "PP": 2,
+        "UP": 2,
+        "NP": 2,
+        "NU": 6
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 7,
+          "unknown": 2,
+          "negative": 8
+        },
+        "looking_around": {
+          "unknown": 11,
+          "positive": 6
+        }
+      },
+      "sources": {
+        "classroom_attitude": 17
+      },
+      "registered_groups": 3,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-53fe00e4fc84b2bf7a29",
+          "count": 11,
+          "sources": {
+            "classroom_attitude": 11
+          }
+        },
+        {
+          "group_id": "PB-G-baf0e0aa45deba62941c",
+          "count": 5,
+          "sources": {
+            "classroom_attitude": 5
+          }
+        },
+        {
+          "group_id": "V6-G-3a23d0e59022fc16cf45",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 3,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "exam_cheating_keaor",
+      "records": 6,
+      "fully_known": 2,
+      "partial_known": 4,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 3,
+        "UP": 1,
+        "NN": 1,
+        "NP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 3,
+          "unknown": 1,
+          "negative": 2
+        },
+        "looking_around": {
+          "unknown": 3,
+          "positive": 2,
+          "negative": 1
+        }
+      },
+      "sources": {
+        "exam_cheating_keaor": 6
+      },
+      "registered_groups": 4,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-baf0e0aa45deba62941c",
+          "count": 3,
+          "sources": {
+            "exam_cheating_keaor": 3
+          }
+        },
+        {
+          "group_id": "V6-G-18caa4237925ae9749e3",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        },
+        {
+          "group_id": "V6-G-73f8ee84e6a5ea4a4049",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        },
+        {
+          "group_id": "V6-G-c197fd750c63e3f82b42",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 2,
+        "looking_around": 2
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "roboflow_v1",
+      "records": 13,
+      "fully_known": 0,
+      "partial_known": 13,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 6,
+        "PU": 7
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 6,
+          "positive": 7
+        },
+        "looking_around": {
+          "positive": 6,
+          "unknown": 7
+        }
+      },
+      "sources": {
+        "roboflow_v1": 13
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-baf0e0aa45deba62941c",
+          "count": 13,
+          "sources": {
+            "roboflow_v1": 13
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "scb_head",
+      "records": 1,
+      "fully_known": 0,
+      "partial_known": 1,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 1
+        }
+      },
+      "sources": {
+        "scb_head": 1
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-85045be9db4b54bf8935",
+          "count": 1,
+          "sources": {
+            "scb_head": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "scb_hrw",
+      "records": 6,
+      "fully_known": 4,
+      "partial_known": 2,
+      "all_unknown": 0,
+      "combinations": {
+        "NP": 3,
+        "NN": 1,
+        "UN": 2
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 4,
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 3,
+          "negative": 3
+        }
+      },
+      "sources": {
+        "scb_hrw": 6
+      },
+      "registered_groups": 4,
+      "top_group_counts": [
+        {
+          "group_id": "PB-G-d4148f8feed0711bb6c6",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "V6-G-2fb2b83caf4ae371408a",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        },
+        {
+          "group_id": "V6-G-5c95c56ac7f8af49105c",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        },
+        {
+          "group_id": "V6-G-85045be9db4b54bf8935",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v6",
+      "split": "val",
+      "source": "student_behaviour",
+      "records": 7,
+      "fully_known": 6,
+      "partial_known": 1,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 6,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 6,
+          "unknown": 1
+        },
+        "looking_around": {
+          "negative": 7
+        }
+      },
+      "sources": {
+        "student_behaviour": 7
+      },
+      "registered_groups": 5,
+      "top_group_counts": [
+        {
+          "group_id": "V6-G-5c95c56ac7f8af49105c",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V6-G-d44a821e962a24104c63",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V6-G-ae0cbae3310d6f5db3df",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V6-G-bfee2347d4708b9a0168",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V6-G-cfcc8e4c59a1eff1e7c2",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 0
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "classroom_attitude",
+      "records": 108,
+      "fully_known": 27,
+      "partial_known": 81,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 70,
+        "NU": 2,
+        "NN": 11,
+        "NP": 3,
+        "UN": 3,
+        "PN": 7,
+        "UP": 6,
+        "PP": 6
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 83,
+          "negative": 16,
+          "unknown": 9
+        },
+        "looking_around": {
+          "unknown": 72,
+          "negative": 21,
+          "positive": 15
+        }
+      },
+      "sources": {
+        "classroom_attitude": 108
+      },
+      "registered_groups": 84,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-a7dbb06144cdcaaebbd3",
+          "count": 4,
+          "sources": {
+            "classroom_attitude": 4
+          }
+        },
+        {
+          "group_id": "V7-G-ecc68417f2c0f69337ca",
+          "count": 4,
+          "sources": {
+            "classroom_attitude": 4
+          }
+        },
+        {
+          "group_id": "V7-G-5802f243b9f016753538",
+          "count": 3,
+          "sources": {
+            "classroom_attitude": 3
+          }
+        },
+        {
+          "group_id": "V7-G-6d753f357b9294023612",
+          "count": 3,
+          "sources": {
+            "classroom_attitude": 3
+          }
+        },
+        {
+          "group_id": "V7-G-01a70bf660e857cd33cc",
+          "count": 2,
+          "sources": {
+            "classroom_attitude": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 69,
+        "looking_around": 13
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "classroom_monitoring_v2",
+      "records": 24,
+      "fully_known": 9,
+      "partial_known": 15,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 7,
+        "PP": 2,
+        "NN": 5,
+        "NU": 4,
+        "UP": 3,
+        "NP": 2,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 9,
+          "negative": 11,
+          "unknown": 4
+        },
+        "looking_around": {
+          "unknown": 11,
+          "positive": 7,
+          "negative": 6
+        }
+      },
+      "sources": {
+        "classroom_monitoring_v2": 24
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-270a79bbb0f58a4e3ee0",
+          "count": 24,
+          "sources": {
+            "classroom_monitoring_v2": 24
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "coco_2017_train",
+      "records": 37,
+      "fully_known": 11,
+      "partial_known": 26,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 17,
+        "NN": 6,
+        "PP": 3,
+        "NP": 2,
+        "UP": 4,
+        "UN": 5
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 20,
+          "negative": 8,
+          "unknown": 9
+        },
+        "looking_around": {
+          "unknown": 17,
+          "negative": 11,
+          "positive": 9
+        }
+      },
+      "sources": {
+        "coco_2017_train": 37
+      },
+      "registered_groups": 36,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-1d2eec0cc175259dc2bd",
+          "count": 2,
+          "sources": {
+            "coco_2017_train": 2
+          }
+        },
+        {
+          "group_id": "V7-G-042dc2af5c709c78e321",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-04e1a311f09a1c31a5cf",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-08ed252b27bd40ed6ca6",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-150f718d553a0c15e9a5",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 20,
+        "looking_around": 9
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "commons_classroom_gapfill",
+      "records": 46,
+      "fully_known": 17,
+      "partial_known": 29,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 6,
+        "PU": 14,
+        "UN": 8,
+        "NN": 7,
+        "PP": 5,
+        "PN": 5,
+        "NU": 1
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 14,
+          "positive": 24,
+          "negative": 8
+        },
+        "looking_around": {
+          "positive": 11,
+          "unknown": 15,
+          "negative": 20
+        }
+      },
+      "sources": {
+        "commons_classroom_gapfill": 46
+      },
+      "registered_groups": 19,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-6db4e45345530a410365",
+          "count": 13,
+          "sources": {
+            "commons_classroom_gapfill": 13
+          }
+        },
+        {
+          "group_id": "V7-G-1cadc9fd5f5bdfbba0f9",
+          "count": 5,
+          "sources": {
+            "commons_classroom_gapfill": 5
+          }
+        },
+        {
+          "group_id": "V7-G-9d5454f7f032a5686fd4",
+          "count": 5,
+          "sources": {
+            "commons_classroom_gapfill": 5
+          }
+        },
+        {
+          "group_id": "V7-G-e88d2156a2cc0e341ae4",
+          "count": 4,
+          "sources": {
+            "commons_classroom_gapfill": 4
+          }
+        },
+        {
+          "group_id": "V7-G-86dd32e42090441980f6",
+          "count": 3,
+          "sources": {
+            "commons_classroom_gapfill": 3
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 12,
+        "looking_around": 6
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "exam_cheating_keaor",
+      "records": 44,
+      "fully_known": 25,
+      "partial_known": 19,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 7,
+        "PP": 4,
+        "NP": 9,
+        "UP": 7,
+        "NN": 12,
+        "NU": 2,
+        "UN": 3
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 11,
+          "negative": 23,
+          "unknown": 10
+        },
+        "looking_around": {
+          "unknown": 9,
+          "positive": 20,
+          "negative": 15
+        }
+      },
+      "sources": {
+        "exam_cheating_keaor": 44
+      },
+      "registered_groups": 18,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-5574ea116b6880b71974",
+          "count": 17,
+          "sources": {
+            "exam_cheating_keaor": 17
+          }
+        },
+        {
+          "group_id": "V7-G-d39bffd423ff6462bca1",
+          "count": 4,
+          "sources": {
+            "exam_cheating_keaor": 4
+          }
+        },
+        {
+          "group_id": "V7-G-2e004c62a31dbb56764b",
+          "count": 3,
+          "sources": {
+            "exam_cheating_keaor": 3
+          }
+        },
+        {
+          "group_id": "V7-G-6fa08054492f978c5f30",
+          "count": 2,
+          "sources": {
+            "exam_cheating_keaor": 2
+          }
+        },
+        {
+          "group_id": "V7-G-7a07237f8236e59075c9",
+          "count": 2,
+          "sources": {
+            "exam_cheating_keaor": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 10,
+        "looking_around": 11
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "openimages_train_prefix",
+      "records": 104,
+      "fully_known": 36,
+      "partial_known": 68,
+      "all_unknown": 0,
+      "combinations": {
+        "PP": 5,
+        "PU": 21,
+        "NU": 6,
+        "NN": 26,
+        "NP": 4,
+        "UN": 26,
+        "UP": 15,
+        "PN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 27,
+          "negative": 36,
+          "unknown": 41
+        },
+        "looking_around": {
+          "positive": 24,
+          "unknown": 27,
+          "negative": 53
+        }
+      },
+      "sources": {
+        "openimages_train_prefix": 104
+      },
+      "registered_groups": 96,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-5d14a6a43e22b7dd82ff",
+          "count": 3,
+          "sources": {
+            "openimages_train_prefix": 3
+          }
+        },
+        {
+          "group_id": "V7-G-50fc6587a96fa8eb69e3",
+          "count": 2,
+          "sources": {
+            "openimages_train_prefix": 2
+          }
+        },
+        {
+          "group_id": "V7-G-56e3bc7012362b99b1e0",
+          "count": 2,
+          "sources": {
+            "openimages_train_prefix": 2
+          }
+        },
+        {
+          "group_id": "V7-G-72cb4bbd2f2a488daf52",
+          "count": 2,
+          "sources": {
+            "openimages_train_prefix": 2
+          }
+        },
+        {
+          "group_id": "V7-G-9efc888cb915b1c08524",
+          "count": 2,
+          "sources": {
+            "openimages_train_prefix": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 24,
+        "looking_around": 24
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "roboflow_v1",
+      "records": 57,
+      "fully_known": 22,
+      "partial_known": 35,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 15,
+        "NP": 4,
+        "UP": 17,
+        "NU": 1,
+        "PU": 14,
+        "PP": 2,
+        "UN": 3,
+        "PN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 20,
+          "unknown": 20,
+          "positive": 17
+        },
+        "looking_around": {
+          "negative": 19,
+          "positive": 23,
+          "unknown": 15
+        }
+      },
+      "sources": {
+        "roboflow_v1": 57
+      },
+      "registered_groups": 34,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-ecc68417f2c0f69337ca",
+          "count": 16,
+          "sources": {
+            "roboflow_v1": 16
+          }
+        },
+        {
+          "group_id": "V7-G-10bd30eaa22d90e79e53",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V7-G-29f905f08f7b6e07c3b4",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V7-G-662cac548a1f63d73525",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        },
+        {
+          "group_id": "V7-G-78b435b55fa5b32c978a",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 6,
+        "looking_around": 18
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "scb_head",
+      "records": 65,
+      "fully_known": 4,
+      "partial_known": 61,
+      "all_unknown": 0,
+      "combinations": {
+        "NP": 2,
+        "UP": 51,
+        "NN": 2,
+        "UN": 10
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 4,
+          "unknown": 61
+        },
+        "looking_around": {
+          "positive": 53,
+          "negative": 12
+        }
+      },
+      "sources": {
+        "scb_head": 65
+      },
+      "registered_groups": 35,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-e050c4c8e80fb3505a36",
+          "count": 15,
+          "sources": {
+            "scb_head": 15
+          }
+        },
+        {
+          "group_id": "V7-G-20d6e059d1b24f1cc56a",
+          "count": 4,
+          "sources": {
+            "scb_head": 4
+          }
+        },
+        {
+          "group_id": "V7-G-06df719cfffafbe8415a",
+          "count": 3,
+          "sources": {
+            "scb_head": 3
+          }
+        },
+        {
+          "group_id": "V7-G-1f674cc253daf3b2f881",
+          "count": 3,
+          "sources": {
+            "scb_head": 3
+          }
+        },
+        {
+          "group_id": "V7-G-35dbebe263ce98a78adf",
+          "count": 3,
+          "sources": {
+            "scb_head": 3
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 30
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "scb_hrw",
+      "records": 87,
+      "fully_known": 20,
+      "partial_known": 67,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 18,
+        "NP": 2,
+        "UN": 63,
+        "NU": 3,
+        "UP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 23,
+          "unknown": 64
+        },
+        "looking_around": {
+          "negative": 81,
+          "positive": 3,
+          "unknown": 3
+        }
+      },
+      "sources": {
+        "scb_hrw": 87
+      },
+      "registered_groups": 47,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-e050c4c8e80fb3505a36",
+          "count": 18,
+          "sources": {
+            "scb_hrw": 18
+          }
+        },
+        {
+          "group_id": "V7-G-06df719cfffafbe8415a",
+          "count": 9,
+          "sources": {
+            "scb_hrw": 9
+          }
+        },
+        {
+          "group_id": "V7-G-db2fffa58b4cd94f0a72",
+          "count": 4,
+          "sources": {
+            "scb_hrw": 4
+          }
+        },
+        {
+          "group_id": "V7-G-20d6e059d1b24f1cc56a",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "V7-G-d7f6ac5f819e49088db0",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "student_behaviour",
+      "records": 115,
+      "fully_known": 44,
+      "partial_known": 71,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 31,
+        "PN": 2,
+        "UN": 7,
+        "UP": 31,
+        "NP": 4,
+        "PP": 9,
+        "NN": 29,
+        "NU": 2
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 42,
+          "unknown": 38,
+          "negative": 35
+        },
+        "looking_around": {
+          "unknown": 33,
+          "negative": 38,
+          "positive": 44
+        }
+      },
+      "sources": {
+        "student_behaviour": 115
+      },
+      "registered_groups": 22,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-2a44130a4d5f7ba39107",
+          "count": 91,
+          "sources": {
+            "student_behaviour": 91
+          }
+        },
+        {
+          "group_id": "V7-G-729d71fec3117a78b878",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-7af6bea7d110a16b4927",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-c83282c8c8290343172e",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-203a220d542ff6c9a4db",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "train",
+      "source": "wmf_knowledge_everyone",
+      "records": 2,
+      "fully_known": 0,
+      "partial_known": 2,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 1,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 2
+        },
+        "looking_around": {
+          "positive": 1,
+          "negative": 1
+        }
+      },
+      "sources": {
+        "wmf_knowledge_everyone": 2
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-f4852396359aca18e025",
+          "count": 2,
+          "sources": {
+            "wmf_knowledge_everyone": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "classroom_attitude",
+      "records": 16,
+      "fully_known": 4,
+      "partial_known": 12,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 4,
+        "PP": 2,
+        "UP": 2,
+        "NP": 2,
+        "NU": 6
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 6,
+          "unknown": 2,
+          "negative": 8
+        },
+        "looking_around": {
+          "unknown": 10,
+          "positive": 6
+        }
+      },
+      "sources": {
+        "classroom_attitude": 16
+      },
+      "registered_groups": 3,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-a6902aad84a5672f4f52",
+          "count": 10,
+          "sources": {
+            "classroom_attitude": 10
+          }
+        },
+        {
+          "group_id": "V7-G-fcd93acef79fe0e4e815",
+          "count": 5,
+          "sources": {
+            "classroom_attitude": 5
+          }
+        },
+        {
+          "group_id": "V7-G-3a23d0e59022fc16cf45",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 3,
+        "looking_around": 3
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "exam_cheating_keaor",
+      "records": 6,
+      "fully_known": 2,
+      "partial_known": 4,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 3,
+        "UP": 1,
+        "NN": 1,
+        "NP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 3,
+          "unknown": 1,
+          "negative": 2
+        },
+        "looking_around": {
+          "unknown": 3,
+          "positive": 2,
+          "negative": 1
+        }
+      },
+      "sources": {
+        "exam_cheating_keaor": 6
+      },
+      "registered_groups": 4,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-fcd93acef79fe0e4e815",
+          "count": 3,
+          "sources": {
+            "exam_cheating_keaor": 3
+          }
+        },
+        {
+          "group_id": "V7-G-18caa4237925ae9749e3",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        },
+        {
+          "group_id": "V7-G-73f8ee84e6a5ea4a4049",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        },
+        {
+          "group_id": "V7-G-c197fd750c63e3f82b42",
+          "count": 1,
+          "sources": {
+            "exam_cheating_keaor": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 2,
+        "looking_around": 2
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "roboflow_v1",
+      "records": 13,
+      "fully_known": 0,
+      "partial_known": 13,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 6,
+        "PU": 7
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 6,
+          "positive": 7
+        },
+        "looking_around": {
+          "positive": 6,
+          "unknown": 7
+        }
+      },
+      "sources": {
+        "roboflow_v1": 13
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-fcd93acef79fe0e4e815",
+          "count": 13,
+          "sources": {
+            "roboflow_v1": 13
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 1,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "scb_head",
+      "records": 1,
+      "fully_known": 0,
+      "partial_known": 1,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 1
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 1
+        },
+        "looking_around": {
+          "positive": 1
+        }
+      },
+      "sources": {
+        "scb_head": 1
+      },
+      "registered_groups": 1,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-85045be9db4b54bf8935",
+          "count": 1,
+          "sources": {
+            "scb_head": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 1
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "scb_hrw",
+      "records": 6,
+      "fully_known": 4,
+      "partial_known": 2,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 2,
+        "NP": 2,
+        "UN": 2
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 4,
+          "unknown": 2
+        },
+        "looking_around": {
+          "negative": 4,
+          "positive": 2
+        }
+      },
+      "sources": {
+        "scb_hrw": 6
+      },
+      "registered_groups": 4,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-e903106f68879fbe175d",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "V7-G-2fb2b83caf4ae371408a",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        },
+        {
+          "group_id": "V7-G-5c95c56ac7f8af49105c",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        },
+        {
+          "group_id": "V7-G-85045be9db4b54bf8935",
+          "count": 1,
+          "sources": {
+            "scb_hrw": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 2
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    {
+      "version": "v7",
+      "split": "val",
+      "source": "student_behaviour",
+      "records": 7,
+      "fully_known": 6,
+      "partial_known": 1,
+      "all_unknown": 0,
+      "combinations": {
+        "NN": 6,
+        "UN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "negative": 6,
+          "unknown": 1
+        },
+        "looking_around": {
+          "negative": 7
+        }
+      },
+      "sources": {
+        "student_behaviour": 7
+      },
+      "registered_groups": 5,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-5c95c56ac7f8af49105c",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-d44a821e962a24104c63",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-ae0cbae3310d6f5db3df",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V7-G-bfee2347d4708b9a0168",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        },
+        {
+          "group_id": "V7-G-cfcc8e4c59a1eff1e7c2",
+          "count": 1,
+          "sources": {
+            "student_behaviour": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 0
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    }
+  ],
+  "original_targeted_buckets_current_train": {
+    "A": {
+      "original_R5_count": 57,
+      "actual_new_train_count": 56,
+      "records": 56,
+      "fully_known": 32,
+      "partial_known": 24,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 22,
+        "PN": 2,
+        "NN": 20,
+        "PP": 8,
+        "NP": 2,
+        "NU": 2
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 32,
+          "negative": 24
+        },
+        "looking_around": {
+          "unknown": 24,
+          "negative": 22,
+          "positive": 10
+        }
+      },
+      "sources": {
+        "classroom_attitude": 7,
+        "coco_2017_train": 20,
+        "roboflow_v1": 4,
+        "openimages_train_prefix": 25
+      },
+      "registered_groups": 56,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-042dc2af5c709c78e321",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-04e1a311f09a1c31a5cf",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-0881bcd67c538c3ccac0",
+          "count": 1,
+          "sources": {
+            "openimages_train_prefix": 1
+          }
+        },
+        {
+          "group_id": "V7-G-0aecffd1e0ce9a209def",
+          "count": 1,
+          "sources": {
+            "openimages_train_prefix": 1
+          }
+        },
+        {
+          "group_id": "V7-G-0cecc53433969b446600",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 32,
+        "looking_around": 10
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    "B": {
+      "original_R5_count": 80,
+      "actual_new_train_count": 73,
+      "records": 73,
+      "fully_known": 30,
+      "partial_known": 43,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 36,
+        "NN": 26,
+        "NU": 4,
+        "UP": 1,
+        "NP": 4,
+        "UN": 2
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 36,
+          "negative": 34,
+          "unknown": 3
+        },
+        "looking_around": {
+          "unknown": 40,
+          "negative": 28,
+          "positive": 5
+        }
+      },
+      "sources": {
+        "classroom_attitude": 30,
+        "student_behaviour": 12,
+        "roboflow_v1": 3,
+        "coco_2017_train": 3,
+        "openimages_train_prefix": 25
+      },
+      "registered_groups": 69,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-5802f243b9f016753538",
+          "count": 3,
+          "sources": {
+            "classroom_attitude": 3
+          }
+        },
+        {
+          "group_id": "V7-G-729d71fec3117a78b878",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-7af6bea7d110a16b4927",
+          "count": 2,
+          "sources": {
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-01a70bf660e857cd33cc",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V7-G-03feb388db9c2492afc3",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 36,
+        "looking_around": 5
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    "C": {
+      "original_R5_count": 98,
+      "actual_new_train_count": 93,
+      "records": 93,
+      "fully_known": 2,
+      "partial_known": 91,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 45,
+        "UN": 46,
+        "NN": 2
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 91,
+          "negative": 2
+        },
+        "looking_around": {
+          "positive": 45,
+          "negative": 48
+        }
+      },
+      "sources": {
+        "scb_head": 24,
+        "scb_hrw": 17,
+        "roboflow_v1": 13,
+        "exam_cheating_keaor": 2,
+        "coco_2017_train": 8,
+        "openimages_train_prefix": 29
+      },
+      "registered_groups": 78,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-e050c4c8e80fb3505a36",
+          "count": 5,
+          "sources": {
+            "scb_head": 4,
+            "scb_hrw": 1
+          }
+        },
+        {
+          "group_id": "V7-G-06df719cfffafbe8415a",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 2,
+            "scb_head": 1
+          }
+        },
+        {
+          "group_id": "V7-G-20d6e059d1b24f1cc56a",
+          "count": 3,
+          "sources": {
+            "scb_head": 3
+          }
+        },
+        {
+          "group_id": "V7-G-35dbebe263ce98a78adf",
+          "count": 3,
+          "sources": {
+            "scb_head": 3
+          }
+        },
+        {
+          "group_id": "V7-G-10bd30eaa22d90e79e53",
+          "count": 2,
+          "sources": {
+            "roboflow_v1": 2
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 0,
+        "looking_around": 40
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    "D": {
+      "original_R5_count": 39,
+      "actual_new_train_count": 35,
+      "records": 35,
+      "fully_known": 4,
+      "partial_known": 31,
+      "all_unknown": 0,
+      "combinations": {
+        "PU": 24,
+        "PP": 2,
+        "UP": 2,
+        "NN": 1,
+        "UN": 5,
+        "PN": 1
+      },
+      "targets": {
+        "phone_use": {
+          "positive": 27,
+          "unknown": 7,
+          "negative": 1
+        },
+        "looking_around": {
+          "unknown": 24,
+          "positive": 4,
+          "negative": 7
+        }
+      },
+      "sources": {
+        "classroom_attitude": 18,
+        "coco_2017_train": 6,
+        "openimages_train_prefix": 11
+      },
+      "registered_groups": 34,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-72cb4bbd2f2a488daf52",
+          "count": 2,
+          "sources": {
+            "openimages_train_prefix": 2
+          }
+        },
+        {
+          "group_id": "V7-G-01a70bf660e857cd33cc",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V7-G-061932b6ba704b82b237",
+          "count": 1,
+          "sources": {
+            "classroom_attitude": 1
+          }
+        },
+        {
+          "group_id": "V7-G-19e542de968a46417fa9",
+          "count": 1,
+          "sources": {
+            "coco_2017_train": 1
+          }
+        },
+        {
+          "group_id": "V7-G-1e45ab2ad24b2d9b436d",
+          "count": 1,
+          "sources": {
+            "openimages_train_prefix": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 26,
+        "looking_around": 4
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    }
+  },
+  "R5_explicit_desk_classroom_metadata_subset_current_train": {
+    "ids": [
+      "V7-A-001",
+      "V7-A-002",
+      "V7-A-003",
+      "V7-A-005",
+      "V7-A-035",
+      "V7-A-042"
+    ],
+    "records": 6,
+    "fully_known": 2,
+    "partial_known": 4,
+    "all_unknown": 0,
+    "combinations": {
+      "PU": 4,
+      "PN": 2
+    },
+    "targets": {
+      "phone_use": {
+        "positive": 6
+      },
+      "looking_around": {
+        "unknown": 4,
+        "negative": 2
+      }
+    },
+    "sources": {
+      "classroom_attitude": 6
+    },
+    "registered_groups": 6,
+    "top_group_counts": [
+      {
+        "group_id": "V7-G-0cecc53433969b446600",
+        "count": 1,
+        "sources": {
+          "classroom_attitude": 1
+        }
+      },
+      {
+        "group_id": "V7-G-1d2d7ec85698d864f560",
+        "count": 1,
+        "sources": {
+          "classroom_attitude": 1
+        }
+      },
+      {
+        "group_id": "V7-G-595519798017af2ed939",
+        "count": 1,
+        "sources": {
+          "classroom_attitude": 1
+        }
+      },
+      {
+        "group_id": "V7-G-6d753f357b9294023612",
+        "count": 1,
+        "sources": {
+          "classroom_attitude": 1
+        }
+      },
+      {
+        "group_id": "V7-G-795adee729ed90fec90e",
+        "count": 1,
+        "sources": {
+          "classroom_attitude": 1
+        }
+      }
+    ],
+    "target_positive_groups": {
+      "phone_use": 6,
+      "looking_around": 0
+    },
+    "metadata_nonnull": {
+      "session_id": 0,
+      "video_id": 0,
+      "room_id": 0,
+      "subject_id": 0
+    }
+  },
+  "desk_classroom_count_not_total_final_v7": true,
+  "other_new_desk_cases_require_explicit_phenotype_join_or_visual_annotation": true,
+  "pairs_R5_current_release": {
+    "total_pairs": 162,
+    "actual_train_valid": 138,
+    "actual_train_valid_by_strength": {
+      "source_context": 132,
+      "same_scene": 1,
+      "same_image": 5
+    },
+    "invalid_polarity_or_endpoint_not_train": 24
+  },
+  "input224_evidence_join": {
+    "historical_BD_records": 119,
+    "sha_matches_actual_train": 104,
+    "stale_after_recrop_ids": [
+      "V7-B-040",
+      "V7-B-048",
+      "V7-B-111",
+      "V7-D-026"
+    ],
+    "input224_qualitative_for_exact_sha": {
+      "clear": 94,
+      "ambiguous": 10
+    },
+    "full_375_phenotype_size_workarea_schema_coverage": "UNKNOWN: geometry/native224 QA có; canonical systematicphenotype fields không bao phủ toàn375."
+  },
+  "development_comparator": {
+    "v6_val_count": 50,
+    "v7_val_count": 49,
+    "new_val_ids": [],
+    "removed_ids": [
+      "V6-CA-041"
+    ],
+    "changed_retained": [
+      {
+        "sample_id": "EXP-SCB-002",
+        "fields_changed": [
+          "looking_around"
+        ],
+        "old_states": [
+          "negative",
+          "positive"
+        ],
+        "new_states": [
+          "negative",
+          "negative"
+        ]
+      }
+    ],
+    "same_pixel_source_target_mask_context_rights_ids": [
+      "EXP-RF-007",
+      "EXP-RF-008",
+      "EXP-RF-009",
+      "EXP-SCB-005",
+      "EXP-SCB-014",
+      "EXP-SCB-024",
+      "P002-person-01",
+      "P006-extra-01",
+      "P006-person-01",
+      "P006-person-02",
+      "P007-extra-01",
+      "P007-person-01",
+      "P007-person-02",
+      "P008-extra-01",
+      "P008-person-01",
+      "P022-person-01",
+      "SCB-write-002",
+      "SCB-write-020",
+      "SCB-write-024",
+      "V6-CA-006",
+      "V6-CA-015",
+      "V6-CA-018",
+      "V6-CA-021",
+      "V6-CA-026",
+      "V6-CA-030",
+      "V6-CA-033",
+      "V6-CA-036",
+      "V6-CA-038",
+      "V6-CA-040",
+      "V6-CA-043",
+      "V6-CA-046",
+      "V6-EX-009",
+      "V6-EX-010",
+      "V6-EX-015",
+      "V6-EX-019",
+      "V6-EX-042",
+      "V6-SB-033",
+      "V6-SB-034",
+      "V6-SB-035",
+      "V6-SB-040",
+      "V6-SB-046",
+      "V6-SB-047",
+      "V6R2-CA-006",
+      "V6R2-CA-007",
+      "V6R2-CA-009",
+      "V6R2-CA-014",
+      "V6R2-EX-008",
+      "V6R2-SB-016"
+    ],
+    "same_count": 48,
+    "literal_identity_including_group_review_matches": 0,
+    "group_ids_and_review_refs_versioned": true,
+    "old_group_to_new_group_cardinality": {
+      "PB-G-baf0e0aa45deba62941c": 1,
+      "V6-G-2fb2b83caf4ae371408a": 1,
+      "V6-G-85045be9db4b54bf8935": 1,
+      "V6-G-5c95c56ac7f8af49105c": 1,
+      "PB-G-d4148f8feed0711bb6c6": 1,
+      "V6-G-3a23d0e59022fc16cf45": 1,
+      "V6-G-53fe00e4fc84b2bf7a29": 1,
+      "V6-G-18caa4237925ae9749e3": 1,
+      "V6-G-73f8ee84e6a5ea4a4049": 1,
+      "V6-G-d44a821e962a24104c63": 1,
+      "V6-G-ae0cbae3310d6f5db3df": 1,
+      "V6-G-cfcc8e4c59a1eff1e7c2": 1,
+      "V6-G-bfee2347d4708b9a0168": 1,
+      "V6-G-c197fd750c63e3f82b42": 1
+    },
+    "comparator_support": {
+      "records": 48,
+      "fully_known": 15,
+      "partial_known": 33,
+      "all_unknown": 0,
+      "combinations": {
+        "UP": 10,
+        "NP": 5,
+        "PU": 14,
+        "NN": 8,
+        "UN": 3,
+        "PP": 2,
+        "NU": 6
+      },
+      "targets": {
+        "phone_use": {
+          "unknown": 13,
+          "negative": 19,
+          "positive": 16
+        },
+        "looking_around": {
+          "positive": 17,
+          "unknown": 20,
+          "negative": 11
+        }
+      },
+      "sources": {
+        "roboflow_v1": 13,
+        "scb_hrw": 5,
+        "scb_head": 1,
+        "classroom_attitude": 16,
+        "exam_cheating_keaor": 6,
+        "student_behaviour": 7
+      },
+      "registered_groups": 13,
+      "top_group_counts": [
+        {
+          "group_id": "V7-G-fcd93acef79fe0e4e815",
+          "count": 21,
+          "sources": {
+            "roboflow_v1": 13,
+            "classroom_attitude": 5,
+            "exam_cheating_keaor": 3
+          }
+        },
+        {
+          "group_id": "V7-G-a6902aad84a5672f4f52",
+          "count": 10,
+          "sources": {
+            "classroom_attitude": 10
+          }
+        },
+        {
+          "group_id": "V7-G-5c95c56ac7f8af49105c",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 1,
+            "student_behaviour": 2
+          }
+        },
+        {
+          "group_id": "V7-G-e903106f68879fbe175d",
+          "count": 3,
+          "sources": {
+            "scb_hrw": 3
+          }
+        },
+        {
+          "group_id": "V7-G-85045be9db4b54bf8935",
+          "count": 2,
+          "sources": {
+            "scb_hrw": 1,
+            "scb_head": 1
+          }
+        }
+      ],
+      "target_positive_groups": {
+        "phone_use": 4,
+        "looking_around": 6
+      },
+      "metadata_nonnull": {
+        "session_id": 0,
+        "video_id": 0,
+        "room_id": 0,
+        "subject_id": 0
+      }
+    },
+    "comparator_frozen_for_E004": false,
+    "required_before_comparison": "Freeze comparator48IDs và mappinggroup/protocol trước run; recompute/report E003 scores trên subset với nhãn/mask giữ nguyên; không gọi literal evaluation identity gồmgroupreview là khôngđổi."
+  },
+  "parent_12cells_owner_review_complete": true,
+  "new_independent_groups_proven": 0,
+  "development_new_val_rows": 0,
+  "holdout_package": null,
+  "E004_executable_config": false,
+  "E004_training_approved": false,
+  "numeric_gate_status": "Draft ADR017, không Accepted metriccontract",
+  "fine_tune_implemented": false,
+  "no_model_predictions_computed": true,
+  "no_test_media_decoded": true,
+  "limitations": [
+    "Không suy counts thànhmodelgain.",
+    "Metadata domainclassroom broad không xácminh primaryexamcamera/session.",
+    "Historical224fields chỉ áp dụng exactSHA, khôngcộngstales.",
+    "Không so drafttestsupportgates với train counts."
+  ]
+}

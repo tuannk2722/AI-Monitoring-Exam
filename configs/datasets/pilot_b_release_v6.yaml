@@ -1,0 +1,58 @@
+# Release v6 đã owner nghiệm thu; không phải config chạy training.
+status: accepted
+formulation: B
+dataset_version: pilot-b-20261007-v6
+split_version: pilot-b-v6-group-expansion-r2
+selection_version: pilot-b-v6-approved-membership-r2
+crop_policy_version: pilot-b-v6-reviewed-context-r2
+package: data/processed/pilot-b/pilot-b-20261007-v6
+parent_package: data/processed/pilot-b/pilot-b-20261007-v5
+review_package: data/interim/pilot-b/v6-release-review-expanded-20261007-r5
+approval:
+  path: artifacts/reports/pilot-b-v6-release-20261007/owner-approval.json
+  sha256: d792457961d701259e6a7bc5da1fc43103fc9caf751a26387a39aa7e652a275a
+proposal_config:
+  path: configs/datasets/pilot_b_v6_release_proposal_r2_20261007.yaml
+  sha256: c6b3742d40f4ef79dfe4490a0097a84a02a17c7ae326aa606b654b16e9ab1044
+assignment:
+  path: artifacts/reports/pilot-b-v6-expansion-20261007-r2/proposed-assignment.jsonl
+  sha256: fec8f071b707e0fb0c1d98db4ccb06cfef871743d831852911b63c9d9e83deeb
+parent_checksums:
+  path: data/processed/pilot-b/pilot-b-20261007-v5/checksums.sha256
+  sha256: 2dc6a0f700c04276e8fb2b073e98fb050824d8839d398bd254b2297065f92f5a
+rights_attribution:
+  path: artifacts/reports/pilot-b-v6-preparation-20261007/rights-attribution.json
+  sha256: 9da76709e7244351bb83b527c7a333bf7a1d0b3fb8fbbb6c09bc841131a39fef
+approved_use_scope:
+- local_classifier_research
+expected_counts:
+  train: 317
+  excluded: 27
+  val: 50
+  review_only: 93
+  test: 11
+source_roots:
+  scb_head: outputs/scb-audit-20261003-v1/extracted/head/SCB_BowTurnHead_20250509/SCB5-Turn-Bow-Head-2024-9-17
+  scb_hrw: outputs/scb-audit-20261003-v1/extracted/hrw/SCB5-Handrise-Read-write-2024-9-17
+  roboflow_v1: outputs/roboflow-v1-20261004/extracted
+  classroom_monitoring_v2: data/interim/classroom-v2-20261007/extracted
+  student_behaviour: outputs/pilot-b-v6-release-20261007/sources/student_behaviour
+  classroom_attitude: outputs/pilot-b-v6-release-20261007/sources/classroom_attitude
+  exam_cheating_keaor: outputs/pilot-b-v6-release-20261007/sources/exam_cheating_keaor
+git_commit: 310b1abd233657d11788bfa0bb7852f1852d553c
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+training_run_approved: false
+test_protocol: Giữ nguyên 11 test v5 và evidence gốc; chỉ kiểm integrity, không tuning
+  hoặc inference mới. Hash manifest v6 phản ánh version đóng gói mới, không chọn lại
+  test.
+crop_policy_review_notes: Parent giữ nguyên person/context geometry và crop SHA. Crop
+  mới dùng đúng rectangle đã owner review làm vùng người/ngữ cảnh; không suy box toàn
+  thân riêng hoặc chốt crop runtime.
+limitations:
+- 93 review_only và27excluded ngoài manifest; chỉ đọc manifest378 khi dùng dữ liệu.
+- Validation50 có subset13v5 lịch sử; không so metric khác tập trực tiếp E002.
+- Nhóm thị giác không chứng minh độc lập subject/session; chưa có real-world holdout.
+- FPI và Discuss ngoài đợt này; không có train hoặc upload trong release task.

@@ -1,0 +1,22 @@
+{
+  "status": "finalized_before_first_pointer_publication",
+  "reason": "Sửa dấu tiếng Việt ở mô tả YAML bị PowerShell stdin chuyển thành ?; giữ serializer write_json cuối đúng như canonical acceptance.",
+  "metadata_only": true,
+  "manifest_split_crops_unchanged": true,
+  "before": {
+    "config_sha256": "1f719fb54399fbc6634536ad84a847e7f355e9ef03c72d1f0865d22a13f1114b",
+    "checksums_sha256": "aa9aa9bc3bb52729cc0202606f10b825ae6e52e3d82722a4fd4022566cf58448",
+    "manifest_sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede",
+    "split_sha256": "cbf2fe185b6cef3d3c476c703313f22fab4bf94e86deed8dced22b3bcd3252bd"
+  },
+  "after": {
+    "config_sha256": "6c141cbfd98281569909b7efb9b8f5b88b51bc520c2fad4f0ddafdb869898118",
+    "checksums_sha256": "d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610"
+  },
+  "original_owner_approval_unchanged": true,
+  "prior_finalization_after": {
+    "config_sha256": "6c141cbfd98281569909b7efb9b8f5b88b51bc520c2fad4f0ddafdb869898118",
+    "checksums_sha256": "73f856d57bb3162dfa982ebef1a34ef4cc71538866aaa257b685291d7e881276"
+  },
+  "additional_note": "Đồng bộ batch_review_notes trong crop-policy với mô tả Unicode đã sửa; schema/geometry và crop giữ nguyên."
+}

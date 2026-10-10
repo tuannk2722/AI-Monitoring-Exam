@@ -1,0 +1,229 @@
+{
+  "E002_historical13": {
+    "targets": {
+      "phone_use": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 4,
+        "fp": 0,
+        "fn": 3,
+        "tn": 1,
+        "ap": 0.9617346938775511,
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "f1": 0.7272727272727273,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 1,
+        "fp": 0,
+        "fn": 2,
+        "tn": 3,
+        "ap": 1.0,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "reason": null
+      }
+    },
+    "macro_ap": 0.9808673469387755,
+    "threshold": 0.5,
+    "records": 13,
+    "cooccurrence": {
+      "fully_known": 1,
+      "positive": 0,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    },
+    "probability_bce_float64": {
+      "phone_use": 0.6133455468431069,
+      "looking_around": 0.6533798333847773
+    },
+    "macro_probability_bce_float64": 0.6333626901139422
+  },
+  "E003_historical13": {
+    "targets": {
+      "phone_use": {
+        "positive": 7,
+        "negative": 1,
+        "unknown": 5,
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "tn": 1,
+        "ap": 1.0,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231,
+        "reason": null
+      },
+      "looking_around": {
+        "positive": 3,
+        "negative": 3,
+        "unknown": 7,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "ap": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "reason": null
+      }
+    },
+    "macro_ap": 1.0,
+    "threshold": 0.5,
+    "records": 13,
+    "cooccurrence": {
+      "fully_known": 1,
+      "positive": 0,
+      "metric": null,
+      "reason": "insufficient_pilot_support"
+    },
+    "probability_bce_float64": {
+      "phone_use": 0.5368078690656706,
+      "looking_around": 0.29074425461525333
+    },
+    "macro_probability_bce_float64": 0.41377606184046195
+  },
+  "delta_probability_bce_float64": -0.21958662827348024,
+  "transitions": [
+    {
+      "sample_id": "P002-person-01",
+      "target": "phone_use",
+      "before": "FN",
+      "after": "TP",
+      "score_before": 0.4565207064151764,
+      "score_after": 0.5563687682151794,
+      "delta_score": 0.09984806180000305
+    },
+    {
+      "sample_id": "P006-extra-01",
+      "target": "looking_around",
+      "before": "FN",
+      "after": "TP",
+      "score_before": 0.42786020040512085,
+      "score_after": 0.7194380760192871,
+      "delta_score": 0.29157787561416626
+    },
+    {
+      "sample_id": "P006-person-01",
+      "target": "phone_use",
+      "before": "TP",
+      "after": "TP",
+      "score_before": 0.5954113006591797,
+      "score_after": 0.6043931245803833,
+      "delta_score": 0.008981823921203613
+    },
+    {
+      "sample_id": "P006-person-02",
+      "target": "phone_use",
+      "before": "FN",
+      "after": "TP",
+      "score_before": 0.43478843569755554,
+      "score_after": 0.5731409788131714,
+      "delta_score": 0.13835254311561584
+    },
+    {
+      "sample_id": "P007-extra-01",
+      "target": "looking_around",
+      "before": "FN",
+      "after": "TP",
+      "score_before": 0.4126957058906555,
+      "score_after": 0.7211177349090576,
+      "delta_score": 0.3084220290184021
+    },
+    {
+      "sample_id": "P007-person-01",
+      "target": "phone_use",
+      "before": "TP",
+      "after": "TP",
+      "score_before": 0.6460004448890686,
+      "score_after": 0.6530548930168152,
+      "delta_score": 0.007054448127746582
+    },
+    {
+      "sample_id": "P007-person-02",
+      "target": "phone_use",
+      "before": "FN",
+      "after": "TP",
+      "score_before": 0.49216338992118835,
+      "score_after": 0.6535859107971191,
+      "delta_score": 0.1614225208759308
+    },
+    {
+      "sample_id": "P008-extra-01",
+      "target": "looking_around",
+      "before": "TP",
+      "after": "TP",
+      "score_before": 0.5138557553291321,
+      "score_after": 0.7767320275306702,
+      "delta_score": 0.2628762722015381
+    },
+    {
+      "sample_id": "P008-person-01",
+      "target": "phone_use",
+      "before": "TP",
+      "after": "TP",
+      "score_before": 0.6224085092544556,
+      "score_after": 0.5784246921539307,
+      "delta_score": -0.0439838171005249
+    },
+    {
+      "sample_id": "P022-person-01",
+      "target": "phone_use",
+      "before": "TP",
+      "after": "FN",
+      "score_before": 0.6216948628425598,
+      "score_after": 0.38699716329574585,
+      "delta_score": -0.23469769954681396
+    },
+    {
+      "sample_id": "SCB-write-002",
+      "target": "phone_use",
+      "before": "TN",
+      "after": "TN",
+      "score_before": 0.49129167199134827,
+      "score_after": 0.25905197858810425,
+      "delta_score": -0.23223969340324402
+    },
+    {
+      "sample_id": "SCB-write-002",
+      "target": "looking_around",
+      "before": "TN",
+      "after": "TN",
+      "score_before": 0.38920092582702637,
+      "score_after": 0.4313321113586426,
+      "delta_score": 0.04213118553161621
+    },
+    {
+      "sample_id": "SCB-write-020",
+      "target": "looking_around",
+      "before": "TN",
+      "after": "TN",
+      "score_before": 0.40381938219070435,
+      "score_after": 0.14959853887557983,
+      "delta_score": -0.2542208433151245
+    },
+    {
+      "sample_id": "SCB-write-024",
+      "target": "looking_around",
+      "before": "TN",
+      "after": "TN",
+      "score_before": 0.39966291189193726,
+      "score_after": 0.10332567244768143,
+      "delta_score": -0.29633723944425583
+    }
+  ],
+  "transition_counts": {
+    "FN->TP": 5,
+    "TP->TP": 4,
+    "TP->FN": 1,
+    "TN->TN": 4
+  }
+}
